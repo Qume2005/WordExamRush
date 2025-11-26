@@ -36,7 +36,7 @@ jobs:
       - name: Build with Vue
         env:
           # 设置基础URL为项目名，与您的vite配置保持一致
-          BASE_URL: /${{ github.event.repository.name }}/
+          BASE_URL: WordExamRush
         run: |
           npm run build
 
