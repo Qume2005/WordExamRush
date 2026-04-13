@@ -1,4 +1,4 @@
-import type { ProcessedWord, WordProgress, QuizCard, AnswerResult, SummaryRow, CardMode } from '../types'
+import type { ProcessedWord, WordProgress, QuizCard, AnswerResult, SummaryRow } from '../types'
 import { generateCard, getAvailableModes } from './cardGenerator'
 import { pickRandom } from './shuffle'
 
