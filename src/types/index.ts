@@ -1,7 +1,8 @@
 /** Raw word from user JSON input */
 export interface RawWord {
-  word: string
+  word: string[]
   english_synonyms: string[]
+  english_explanations: string[]
   chinese_explanations: string[]
   example_sentences: string
 }
@@ -9,14 +10,15 @@ export interface RawWord {
 /** Merged and normalized word */
 export interface ProcessedWord {
   id: number
-  word: string
+  word: string[]
   english_synonyms: string[]
+  english_explanations: string[]
   chinese_explanations: string[]
   example_sentences: string
 }
 
-/** Three quiz card modes */
-export type CardMode = 'zh-to-en' | 'en-to-zh' | 'en-to-synonym'
+/** Quiz card modes */
+export type CardMode = 'zh-to-en' | 'en-to-zh' | 'en-to-synonym' | 'en-explanation-to-en'
 
 /** One option displayed to the user */
 export interface CardOption {
@@ -51,8 +53,9 @@ export interface AnswerResult {
 
 /** Row in the end-of-quiz summary */
 export interface SummaryRow {
-  word: string
+  word: string[]
   chinese_explanations: string[]
+  english_explanations: string[]
   appearances: number
   accuracy: number
   history: boolean[]

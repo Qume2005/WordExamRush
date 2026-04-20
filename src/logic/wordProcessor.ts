@@ -15,11 +15,14 @@ export function validateRawInput(data: unknown): string | null {
     if (!item || typeof item !== 'object') {
       return `第 ${i + 1} 项不是有效的对象`
     }
-    if (typeof item.word !== 'string' || !item.word.trim()) {
-      return `第 ${i + 1} 项缺少 word 字段`
+    if (!Array.isArray(item.word) || item.word.length === 0 || !item.word.every((w: unknown) => typeof w === 'string' && w.trim())) {
+      return `第 ${i + 1} 项缺少 word 字段（必须是非空字符串数组）`
     }
     if (!Array.isArray(item.english_synonyms)) {
       return `第 ${i + 1} 项缺少 english_synonyms 字段`
+    }
+    if (item.english_explanations !== undefined && !Array.isArray(item.english_explanations)) {
+      return `第 ${i + 1} 项的 english_explanations 字段格式不正确`
     }
     if (!Array.isArray(item.chinese_explanations)) {
       return `第 ${i + 1} 项缺少 chinese_explanations 字段`
@@ -44,7 +47,7 @@ export function mergeWords(raw: RawWord[]): ProcessedWord[] {
   const groups = new Map<string, RawWord[]>()
 
   for (const item of raw) {
-    const key = item.word.trim().toLowerCase()
+    const key = item.word[0].trim().toLowerCase()
     if (!groups.has(key)) {
       groups.set(key, [])
     }
@@ -55,14 +58,26 @@ export function mergeWords(raw: RawWord[]): ProcessedWord[] {
   let id = 0
 
   for (const [, items] of groups) {
+    const wordVariants = new Set<string>()
     const synonyms = new Set<string>()
+    const engExplanations = new Set<string>()
     const explanations = new Set<string>()
     const sentences: string[] = []
 
     for (const item of items) {
+      for (const w of item.word) {
+        const trimmed = w.trim()
+        if (trimmed) wordVariants.add(trimmed.toLowerCase())
+      }
       for (const s of item.english_synonyms) {
         const trimmed = s.trim()
         if (trimmed) synonyms.add(trimmed.toLowerCase())
+      }
+      if (Array.isArray(item.english_explanations)) {
+        for (const e of item.english_explanations) {
+          const trimmed = e.trim()
+          if (trimmed) engExplanations.add(trimmed)
+        }
       }
       for (const e of item.chinese_explanations) {
         const trimmed = e.trim()
@@ -74,8 +89,9 @@ export function mergeWords(raw: RawWord[]): ProcessedWord[] {
 
     result.push({
       id: id++,
-      word: items[0].word.trim().toLowerCase(),
+      word: [...wordVariants],
       english_synonyms: [...synonyms],
+      english_explanations: [...engExplanations],
       chinese_explanations: [...explanations],
       example_sentences: sentences.join(' | '),
     })

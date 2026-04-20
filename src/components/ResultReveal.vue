@@ -11,6 +11,7 @@ const emit = defineEmits(['next'])
 
 const shuffledExplanations = computed(() => shuffle(props.targetWord.chinese_explanations))
 const shuffledSynonyms = computed(() => shuffle(props.targetWord.english_synonyms))
+const shuffledEnglishExplanations = computed(() => shuffle(props.targetWord.english_explanations || []))
 </script>
 
 <template>
@@ -20,10 +21,14 @@ const shuffledSynonyms = computed(() => shuffle(props.targetWord.english_synonym
       <span>{{ result.isCorrect ? '回答正确！' : result.selectedIndex === -1 ? '不知道' : '回答错误' }}</span>
     </div>
     <div class="word-detail">
-      <h3 class="word-title">{{ targetWord.word }}</h3>
+      <h3 class="word-title">{{ targetWord.word.join(' / ') }}</h3>
       <div class="detail-section">
         <span class="detail-label">中文释义：</span>
         <span class="detail-value">{{ shuffledExplanations.join('、') }}</span>
+      </div>
+      <div v-if="shuffledEnglishExplanations.length > 0" class="detail-section">
+        <span class="detail-label">英文释义：</span>
+        <span class="detail-value">{{ shuffledEnglishExplanations.join('; ') }}</span>
       </div>
       <div v-if="shuffledSynonyms.length > 0" class="detail-section">
         <span class="detail-label">近义词：</span>

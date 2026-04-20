@@ -19,6 +19,8 @@ export function generateCard(
       return generateEnToZh(target, words)
     case 'en-to-synonym':
       return generateEnToSynonym(target, words)
+    case 'en-explanation-to-en':
+      return generateEnExplanationToEn(target, words)
   }
 }
 
@@ -28,7 +30,8 @@ export function generateCard(
  */
 function generateZhToEn(target: ProcessedWord, words: ProcessedWord[]): QuizCard {
   const prompt = pickRandom(target.chinese_explanations, 1)[0]
-  const correctOption: CardOption = { label: target.word, isCorrect: true }
+  const pickedWord = pickRandom(target.word, 1)[0]
+  const correctOption: CardOption = { label: pickedWord, isCorrect: true }
 
   const targetExplanations = new Set(target.chinese_explanations)
   const nonOverlapping = words.filter(
@@ -40,10 +43,10 @@ function generateZhToEn(target: ProcessedWord, words: ProcessedWord[]): QuizCard
     : words.filter(w => w.id !== target.id)
 
   const distractors: CardOption[] = pickRandom(distractorPool, Math.min(4, distractorPool.length))
-    .map(w => ({ label: w.word, isCorrect: false }))
+    .map(w => ({ label: pickRandom(w.word, 1)[0], isCorrect: false }))
 
   const options = shuffle([correctOption, ...distractors])
-  const correctAnswer = target.word
+  const correctAnswer = pickedWord
 
   return { wordId: target.id, mode: 'zh-to-en', prompt, options, correctAnswer }
 }
@@ -52,7 +55,7 @@ function generateZhToEn(target: ProcessedWord, words: ProcessedWord[]): QuizCard
  * English → Chinese: show the word, pick the correct Chinese meaning.
  */
 function generateEnToZh(target: ProcessedWord, words: ProcessedWord[]): QuizCard {
-  const prompt = target.word
+  const prompt = pickRandom(target.word, 1)[0]
   const correctExplanation = pickRandom(target.chinese_explanations, 1)[0]
   const correctOption: CardOption = { label: correctExplanation, isCorrect: true }
 
@@ -75,7 +78,7 @@ function generateEnToZh(target: ProcessedWord, words: ProcessedWord[]): QuizCard
  * English → Synonym: show the word, pick the correct synonym.
  */
 function generateEnToSynonym(target: ProcessedWord, words: ProcessedWord[]): QuizCard {
-  const prompt = target.word
+  const prompt = pickRandom(target.word, 1)[0]
   const correctSynonym = pickRandom(target.english_synonyms, 1)[0]
   const correctOption: CardOption = { label: correctSynonym, isCorrect: true }
 
@@ -95,6 +98,32 @@ function generateEnToSynonym(target: ProcessedWord, words: ProcessedWord[]): Qui
 }
 
 /**
+ * English Explanation → English: show an English definition, pick the correct English word.
+ */
+function generateEnExplanationToEn(target: ProcessedWord, words: ProcessedWord[]): QuizCard {
+  const prompt = pickRandom(target.english_explanations, 1)[0]
+  const pickedWord = pickRandom(target.word, 1)[0]
+  const correctOption: CardOption = { label: pickedWord, isCorrect: true }
+
+  const targetExplanations = new Set(target.english_explanations)
+  const nonOverlapping = words.filter(
+    w => w.id !== target.id && !w.english_explanations.some(e => targetExplanations.has(e))
+  )
+
+  const distractorPool = nonOverlapping.length >= 4
+    ? nonOverlapping
+    : words.filter(w => w.id !== target.id)
+
+  const distractors: CardOption[] = pickRandom(distractorPool, Math.min(4, distractorPool.length))
+    .map(w => ({ label: pickRandom(w.word, 1)[0], isCorrect: false }))
+
+  const options = shuffle([correctOption, ...distractors])
+  const correctAnswer = pickedWord
+
+  return { wordId: target.id, mode: 'en-explanation-to-en', prompt, options, correctAnswer }
+}
+
+/**
  * Get the list of available card modes for a word.
  * Some modes may be unavailable (e.g. no synonyms).
  */
@@ -105,6 +134,9 @@ export function getAvailableModes(word: ProcessedWord): CardMode[] {
   }
   if (word.english_synonyms.length > 0) {
     modes.push('en-to-synonym')
+  }
+  if (word.english_explanations.length > 0) {
+    modes.push('en-explanation-to-en')
   }
   return modes
 }

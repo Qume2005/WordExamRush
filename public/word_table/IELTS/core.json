@@ -1,0 +1,23 @@
+[
+  {
+    "word": ["accommodate"],
+    "english_synonyms": ["house", "lodge"],
+    "english_explanations": ["to provide someone with a room or place to stay"],
+    "chinese_explanations": ["容纳", "提供住宿"],
+    "example_sentences": "The hotel can accommodate up to 500 guests."
+  },
+  {
+    "word": ["accumulate"],
+    "english_synonyms": ["gather", "amass"],
+    "english_explanations": ["to collect a large number of things over a long period of time"],
+    "chinese_explanations": ["积累", "积聚"],
+    "example_sentences": "She has accumulated a wealth of experience over the years."
+  },
+  {
+    "word": ["acknowledge"],
+    "english_synonyms": ["recognize", "admit"],
+    "english_explanations": ["to accept or admit that something is true"],
+    "chinese_explanations": ["承认", "确认"],
+    "example_sentences": "He acknowledged that he had made a mistake."
+  }
+]

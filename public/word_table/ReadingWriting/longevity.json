@@ -1,0 +1,128 @@
+[
+  {
+    "word": ["longevity"],
+    "english_synonyms": ["long life", "life expectancy", "lifespan", "survival", "durability"],
+    "english_explanations": ["the fact of living for a long time", "the length of a person's life", "long existence or service"],
+    "chinese_explanations": ["长寿", "寿命", "持久性"],
+    "example_sentences": "How did Caruso achieve his remarkable longevity?"
+  },
+  {
+    "word": ["achieve"],
+    "english_synonyms": ["accomplish", "attain", "reach", "realize", "fulfill"],
+    "english_explanations": ["to succeed in finishing something or reaching an aim", "to bring about by effort, skill, or courage"],
+    "chinese_explanations": ["实现", "达到", "完成"],
+    "example_sentences": "How did Domenico Romeo achieve remarkable longevity?"
+  },
+  {
+    "word": ["remarkable"],
+    "english_synonyms": ["extraordinary", "exceptional", "notable", "outstanding", "striking"],
+    "english_explanations": ["worthy of attention", "unusual or special in some way", "worthy of being noticed"],
+    "chinese_explanations": ["显著的", "非凡的", "引人注目的"],
+    "example_sentences": "How did Caruso achieve his remarkable longevity?"
+  },
+  {
+    "word": ["caloric restriction"],
+    "english_synonyms": ["calorie restriction", "dietary restriction", "energy restriction"],
+    "english_explanations": ["a dietary regimen that reduces calorie intake without incurring malnutrition", "limiting the amount of calories consumed"],
+    "chinese_explanations": ["热量限制", "卡路里限制", "饮食限制"],
+    "example_sentences": "Does caloric restriction allow for a longer life span?"
+  },
+  {
+    "word": ["life span"],
+    "english_synonyms": ["lifespan", "lifetime", "life expectancy", "duration of life"],
+    "english_explanations": ["the length of time that a living thing lives", "the period of time for which something functions or lasts"],
+    "chinese_explanations": ["寿命", "生命周期", "使用期限"],
+    "example_sentences": "Does caloric restriction allow for a longer life span?"
+  },
+  {
+    "word": ["scientist"],
+    "english_synonyms": ["researcher", "scholar", "investigator", "laboratory technician"],
+    "english_explanations": ["a person who studies or has expert knowledge of one or more of the natural or physical sciences", "a person who is trained in science"],
+    "chinese_explanations": ["科学家", "研究人员", "学者"],
+    "example_sentences": "How are scientists studying longevity?"
+  },
+  {
+    "word": ["research"],
+    "english_synonyms": ["study", "investigation", "inquiry", "analysis", "exploration"],
+    "english_explanations": ["the systematic investigation into and study of materials and sources", "a detailed study of a subject to discover new information"],
+    "chinese_explanations": ["研究", "调查", "探索"],
+    "example_sentences": "Where does their research begin in Italy?"
+  },
+  {
+    "word": ["record"],
+    "english_synonyms": ["document", "account", "archive", "chronicle", "register"],
+    "english_explanations": ["a piece of evidence or information about past events", "an official document that stores information"],
+    "chinese_explanations": ["记录", "档案", "记载"],
+    "example_sentences": "Which three things from the records are scientists using?"
+  },
+  {
+    "word": ["address"],
+    "english_synonyms": ["tackle", "deal with", "handle", "approach", "confront"],
+    "english_explanations": ["to think about and begin to deal with an issue or problem", "to direct attention to a particular issue"],
+    "chinese_explanations": ["解决", "处理", "应对"],
+    "example_sentences": "Scientists are using records to address fundamental questions about longevity."
+  },
+  {
+    "word": ["fundamental"],
+    "english_synonyms": ["basic", "essential", "primary", "core", "central"],
+    "english_explanations": ["forming a necessary base or core", "of central importance", "essential or primary"],
+    "chinese_explanations": ["基本的", "根本的", "重要的"],
+    "example_sentences": "Which three things from the records are scientists using to address fundamental questions about longevity?"
+  },
+  {
+    "word": ["male"],
+    "english_synonyms": ["man", "masculine", "gentleman", "boy"],
+    "english_explanations": ["a person or animal that belongs to the sex that produces sperm and fertilizes eggs", "relating to or characteristic of men or boys"],
+    "chinese_explanations": ["男性", "公的", "雄性"],
+    "example_sentences": "Do males or females benefit more from genes?"
+  },
+  {
+    "word": ["female"],
+    "english_synonyms": ["woman", "feminine", "lady", "girl"],
+    "english_explanations": ["a person or animal that belongs to the sex that can produce eggs or give birth", "relating to or characteristic of women or girls"],
+    "chinese_explanations": ["女性", "母的", "雌性"],
+    "example_sentences": "Are males or females more likely to live to 100?"
+  },
+  {
+    "word": ["benefit"],
+    "english_synonyms": ["gain", "profit", "advantage", "help", "improve"],
+    "english_explanations": ["to receive an advantage or profit from something", "to be helped by something"],
+    "chinese_explanations": ["受益", "获益", "得到好处"],
+    "example_sentences": "Do males or females benefit from diet?"
+  },
+  {
+    "word": ["gene"],
+    "english_synonyms": ["genetic factor", "hereditary unit", "DNA sequence", "chromosome component"],
+    "english_explanations": ["a part of a cell that controls or influences the appearance, growth, etc., of a living thing", "a unit of heredity transferred from parent to offspring"],
+    "chinese_explanations": ["基因", "遗传因子"],
+    "example_sentences": "Do males or females benefit more from genes?"
+  },
+  {
+    "word": ["likely"],
+    "english_synonyms": ["probable", "expected", "apt", "inclined", "prone"],
+    "english_explanations": ["having a high probability of occurring or being true", "expected to happen or be true"],
+    "chinese_explanations": ["可能的", "大概的", "有倾向的"],
+    "example_sentences": "Are males or females more likely to live to 100?"
+  },
+  {
+    "word": ["allele"],
+    "english_synonyms": ["gene variant", "allelic form", "gene version"],
+    "english_explanations": ["one of two or more versions of a gene that arise by mutation and are found at the same place on a chromosome", "a variant form of a gene"],
+    "chinese_explanations": ["等位基因", "对偶基因"],
+    "example_sentences": "What does the 'allele' longevity gene do?"
+  },
+  {
+    "word": ["factor"],
+    "english_synonyms": ["element", "component", "aspect", "determinant", "variable"],
+    "english_explanations": ["one of the elements contributing to a particular result or situation", "a circumstance or influence that contributes to a result"],
+    "chinese_explanations": ["因素", "要素", "因子"],
+    "example_sentences": "What other factors might influence longevity?"
+  },
+  {
+    "word": ["influence"],
+    "english_synonyms": ["affect", "impact", "shape", "determine", "modify"],
+    "english_explanations": ["to have an effect on the character, development, or behavior of someone or something", "to change or sway something"],
+    "chinese_explanations": ["影响", "作用", "改变"],
+    "example_sentences": "What other factors might influence longevity?"
+  }
+]

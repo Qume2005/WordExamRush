@@ -1,0 +1,37 @@
+[
+  {
+    "word": ["abandon"],
+    "english_synonyms": ["forsake", "desert"],
+    "english_explanations": ["to leave a place, thing or person forever"],
+    "chinese_explanations": ["放弃", "遗弃"],
+    "example_sentences": "He abandoned his old car by the side of the road."
+  },
+  {
+    "word": ["ability"],
+    "english_synonyms": ["capability", "capacity"],
+    "english_explanations": ["the physical or mental power or skill needed to do something"],
+    "chinese_explanations": ["能力", "才能"],
+    "example_sentences": "She has the ability to learn languages quickly."
+  },
+  {
+    "word": ["absorb"],
+    "english_synonyms": ["soak up", "assimilate"],
+    "english_explanations": ["to take in liquid, gas, or another substance from the surface or space around"],
+    "chinese_explanations": ["吸收", "吸引"],
+    "example_sentences": "Plants absorb carbon dioxide from the air."
+  },
+  {
+    "word": ["abstract"],
+    "english_synonyms": ["theoretical", "conceptual"],
+    "english_explanations": ["existing in thought or as an idea but not having a physical reality"],
+    "chinese_explanations": ["抽象的", "摘要"],
+    "example_sentences": "The concept of justice is quite abstract."
+  },
+  {
+    "word": ["academic"],
+    "english_synonyms": ["scholarly", "educational"],
+    "english_explanations": ["relating to education, especially at college or university level"],
+    "chinese_explanations": ["学术的", "学院的"],
+    "example_sentences": "The university is known for its academic excellence."
+  }
+]

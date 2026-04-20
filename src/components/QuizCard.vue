@@ -14,11 +14,18 @@ const modeLabel = computed(() => {
     case 'zh-to-en': return '看中文，选英文'
     case 'en-to-zh': return '看英文，选中文'
     case 'en-to-synonym': return '看英文，选近义词'
+    case 'en-explanation-to-en': return '看英文解释，选英文'
     default: return ''
   }
 })
 
 const isDesktop = computed(() => window.innerWidth >= 768)
+
+function shouldShowOption(index, opt) {
+  if (props.selectedIndex === -1) return true
+  if (isDesktop.value) return true
+  return opt.isCorrect || index === props.selectedIndex
+}
 
 function optionClass(opt, index) {
   if (props.selectedIndex === -1 && !props.disabled) return 'option-btn'
@@ -46,6 +53,7 @@ function handleSelect(index) {
     <div class="options">
       <button
         v-for="(opt, index) in card.options"
+        v-if="shouldShowOption(index, opt)"
         :key="index"
         :class="optionClass(opt, index)"
         @click="handleSelect(index)"
@@ -57,11 +65,12 @@ function handleSelect(index) {
         {{ opt.label }}
       </button>
       <button
+        v-if="selectedIndex === -1 || isDesktop"
         :class="['option-btn', disabled && selectedIndex === -1 ? 'option-btn--unknown' : 'option-btn--dont-know']"
         :disabled="disabled"
         @click="emit('dont-know')"
       >
-        <span v-if="isDesktop && selectedIndex === -1" class="key-hint">{{ card.options.length + 1 }}</span>
+        <span v-if="isDesktop && selectedIndex === -1" class="key-hint key-hint--wide">任意键</span>
         <span v-if="disabled && selectedIndex === -1" class="icon icon-unknown">&#33;</span>
         不知道
       </button>
@@ -153,6 +162,11 @@ function handleSelect(index) {
   font-size: 12px;
   font-weight: 700;
   flex-shrink: 0;
+}
+
+.key-hint--wide {
+  width: auto;
+  padding: 0 8px;
 }
 
 .option-btn--dont-know {

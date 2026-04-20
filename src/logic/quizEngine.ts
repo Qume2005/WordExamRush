@@ -127,6 +127,7 @@ export function generateSummary(
     rows.push({
       word: w.word,
       chinese_explanations: w.chinese_explanations,
+      english_explanations: w.english_explanations,
       appearances: p.appearances,
       accuracy: getAccuracy(p),
       history: [...p.history],

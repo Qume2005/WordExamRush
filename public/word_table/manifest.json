@@ -1,0 +1,21 @@
+[
+  {
+    "folder": "CET4",
+    "files": [
+      "list1",
+      "list2"
+    ]
+  },
+  {
+    "folder": "IELTS",
+    "files": [
+      "core"
+    ]
+  },
+  {
+    "folder": "ReadingWriting",
+    "files": [
+      "longevity"
+    ]
+  }
+]

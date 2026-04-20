@@ -24,15 +24,17 @@ function accuracyText(row) {
         <tr>
           <th>单词</th>
           <th>中文释义</th>
+          <th>英文释义</th>
           <th>出现次数</th>
           <th>准确率</th>
           <th>答题记录</th>
         </tr>
       </thead>
       <tbody>
-        <tr v-for="row in summaryRows" :key="row.word">
-          <td class="cell-word">{{ row.word }}</td>
+        <tr v-for="row in summaryRows" :key="row.word.join(',')">
+          <td class="cell-word">{{ row.word.join(' / ') }}</td>
           <td class="cell-explanations">{{ row.chinese_explanations.join('、') }}</td>
+          <td class="cell-explanations">{{ row.english_explanations.join('; ') }}</td>
           <td class="cell-count">{{ row.appearances }}</td>
           <td class="cell-accuracy">{{ accuracyText(row) }}</td>
           <td class="cell-history">

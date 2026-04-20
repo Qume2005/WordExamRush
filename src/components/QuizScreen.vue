@@ -14,7 +14,7 @@ const props = defineProps({
   progressMap: { type: Map, required: true },
 })
 
-const emit = defineEmits(['finish-quiz'])
+const emit = defineEmits(['finish-quiz', 'back', 'reset-progress', 'save-progress'])
 
 const currentCard = ref(null)
 const answerResult = ref(null)
@@ -77,6 +77,7 @@ function submitAnswer(index) {
   answerResult.value = result
   isRevealing.value = true
   selectedIndex.value = index
+  emit('save-progress')
 }
 
 function onAnswer(index) {
@@ -100,14 +101,20 @@ function onDontKnow() {
   answerResult.value = result
   isRevealing.value = true
   selectedIndex.value = -1
+  emit('save-progress')
 }
 
 function onNext() {
   loadNextCard()
 }
 
+function isModifierKey(e) {
+  return e.ctrlKey || e.altKey || e.shiftKey || e.metaKey
+    || ['Meta', 'Control', 'Alt', 'Shift', 'CapsLock', 'Tab', 'Fn', 'Win', 'OS'].includes(e.key)
+}
+
 function onKeydown(e) {
-  if (!currentCard.value) return
+  if (!currentCard.value || isModifierKey(e)) return
 
   if (isRevealing.value) {
     e.preventDefault()
@@ -119,7 +126,7 @@ function onKeydown(e) {
   if (num >= 1 && num <= currentCard.value.options.length) {
     e.preventDefault()
     submitAnswer(num - 1)
-  } else if (num === currentCard.value.options.length + 1) {
+  } else {
     e.preventDefault()
     onDontKnow()
   }
@@ -137,11 +144,17 @@ onUnmounted(() => {
 
 <template>
   <div class="quiz-screen">
-    <div class="progress-bar-wrapper">
-      <div class="progress-bar-track">
-        <div class="progress-bar-fill" :style="{ width: progressPercent + '%' }"></div>
+    <div class="top-bar">
+      <div class="progress-bar-wrapper">
+        <div class="progress-bar-track">
+          <div class="progress-bar-fill" :style="{ width: progressPercent + '%' }"></div>
+        </div>
+        <span class="progress-bar-text">{{ completedCount }} / {{ totalCount }}</span>
       </div>
-      <span class="progress-bar-text">{{ completedCount }} / {{ totalCount }}</span>
+      <div class="top-actions">
+        <button class="action-btn" @click="emit('back')" title="返回选择">&#8592; 返回</button>
+        <button class="action-btn action-btn--danger" @click="emit('reset-progress')" title="重置进度">重置进度</button>
+      </div>
     </div>
     <QuizCard
       v-if="currentCard"
@@ -168,11 +181,18 @@ onUnmounted(() => {
   padding: 24px 0;
 }
 
-.progress-bar-wrapper {
+.top-bar {
   display: flex;
   align-items: center;
   gap: 12px;
   margin-bottom: 20px;
+}
+
+.progress-bar-wrapper {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 12px;
 }
 
 .progress-bar-track {
@@ -195,5 +215,35 @@ onUnmounted(() => {
   font-weight: 600;
   color: var(--color-text-secondary);
   white-space: nowrap;
+}
+
+.top-actions {
+  display: flex;
+  gap: 6px;
+}
+
+.action-btn {
+  padding: 6px 12px;
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+  background: var(--color-surface);
+  color: var(--color-text-secondary);
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.15s;
+  white-space: nowrap;
+}
+
+.action-btn:hover {
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+  background: var(--color-primary-light);
+}
+
+.action-btn--danger:hover {
+  border-color: var(--color-danger);
+  color: var(--color-danger);
+  background: var(--color-danger-light);
 }
 </style>

@@ -5,8 +5,9 @@
   "packageManager": "pnpm@10.30.3",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vue-tsc -b && vite build",
+    "dev": "node scripts/generate-manifest.js && vite",
+    "build": "node scripts/generate-manifest.js && vue-tsc -b && vite build",
+    "manifest": "node scripts/generate-manifest.js",
     "preview": "vite preview"
   },
   "dependencies": {
