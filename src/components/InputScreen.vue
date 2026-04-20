@@ -1,9 +1,9 @@
 <script setup>
 import { ref, onMounted } from 'vue'
-import { parseAndProcess } from '../logic/wordProcessor'
-import { hashString } from '../logic/hash'
+import { parseAndProcess } from '../business/wordProcessor'
+import { resolveFileHash, loadFileProgress, ensureFileEntry, calcFilePercent, calcFolderPercent } from '../business/progressStorage'
 
-const emit = defineEmits(['start-quiz', 'resume-quiz'])
+const emit = defineEmits(['start-quiz', 'resume-quiz', 'show-detail'])
 
 const fileTree = ref([])
 const expandedFolder = ref('')
@@ -23,159 +23,126 @@ function toggleFolder(folder) {
   expandedFolder.value = expandedFolder.value === folder ? '' : folder
 }
 
-const STORAGE_PREFIX = 'word-exam-rush:'
-const MAP_PREFIX = STORAGE_PREFIX + 'map:'
+async function loadFile(folder, fileName) {
+  const res = await fetch(`/word_table/${folder}/${fileName}.json`)
+  if (!res.ok) throw new Error('加载失败')
+  const rawJson = await res.text()
+  const hash = resolveFileHash(folder, fileName, rawJson)
 
-function getMapKey(folder, fileName) {
-  return MAP_PREFIX + folder + '/' + fileName
-}
-
-/** Compute hash of raw JSON text, clean up stale data if hash changed */
-function resolveFileHash(folder, fileName, rawJson) {
-  const newHash = hashString(rawJson)
-  const mapKey = getMapKey(folder, fileName)
-  const oldHash = localStorage.getItem(mapKey)
-
-  if (oldHash && oldHash !== newHash) {
-    // File content changed — remove stale progress
-    localStorage.removeItem(STORAGE_PREFIX + oldHash)
+  const saved = loadFileProgress(hash)
+  if (saved) {
+    return { words: saved.words, progress: new Map(saved.progress), fileKey: hash }
   }
-  localStorage.setItem(mapKey, newHash)
-  return newHash
+
+  const data = JSON.parse(rawJson)
+  const [processed, error] = parseAndProcess(JSON.stringify(data))
+  if (error) throw new Error(error)
+  return { words: processed, progress: null, fileKey: hash }
 }
 
-function calcFilePercent(folder, fileName) {
-  const mapKey = getMapKey(folder, fileName)
-  const hash = localStorage.getItem(mapKey)
-  if (!hash) return 0
-  const saved = localStorage.getItem(STORAGE_PREFIX + hash)
-  if (!saved) return 0
-  try {
-    const { words, progress } = JSON.parse(saved)
-    if (!words || !progress) return 0
-    const map = new Map(progress)
-    let completed = 0
-    for (const p of map.values()) {
-      if (p.appearances >= 3 && p.correctCount / p.appearances >= 0.9) completed++
-    }
-    return words.length ? Math.round((completed / words.length) * 100) : 0
-  } catch {
-    return 0
-  }
-}
-
-function calcFolderPercent(folder, files) {
-  if (!files.length) return 0
-  let total = 0
-  for (const f of files) {
-    total += calcFilePercent(folder, f)
-  }
-  return Math.round(total / files.length)
-}
-
-async function selectFile(folder, fileName) {
+async function showFileDetail(folder, fileName) {
   errorMsg.value = ''
   loading.value = true
   try {
-    const res = await fetch(`/word_table/${folder}/${fileName}.json`)
-    if (!res.ok) throw new Error('加载失败')
-    const rawJson = await res.text()
-    const hash = resolveFileHash(folder, fileName, rawJson)
-    const progressKey = STORAGE_PREFIX + hash
-
-    const saved = localStorage.getItem(progressKey)
-    if (saved) {
-      const { words, progress } = JSON.parse(saved)
-      if (words && progress) {
-        emit('resume-quiz', { words, progress: new Map(progress), fileKey: hash })
-        return
-      }
-    }
-
-    const data = JSON.parse(rawJson)
-    const json = JSON.stringify(data)
-    const [processed, error] = parseAndProcess(json)
-    if (error) {
-      errorMsg.value = error
-      return
-    }
-    emit('start-quiz', { words: processed, fileKey: hash })
-  } catch {
-    errorMsg.value = '加载单词表失败'
+    const { words: w, progress, fileKey } = await loadFile(folder, fileName)
+    const pm = progress || new Map(w.map((_, i) => [i, { wordId: i, appearances: 0, correctCount: 0, history: [] }]))
+    emit('show-detail', { words: w, progress: pm, fileKey, title: `${folder} / ${fileName}` })
+  } catch (e) {
+    errorMsg.value = e.message || '加载单词表失败'
   } finally {
     loading.value = false
   }
 }
 
-async function selectFolder(folder, files) {
+async function startFileQuiz(folder, fileName) {
   errorMsg.value = ''
   loading.value = true
   try {
-    const wordToFile = {}
-    const allRaw = []
-    const fileData = {}
+    const { words: w, progress, fileKey } = await loadFile(folder, fileName)
+    if (progress) {
+      emit('resume-quiz', { words: w, progress, fileKey })
+    } else {
+      emit('start-quiz', { words: w, fileKey })
+    }
+  } catch (e) {
+    errorMsg.value = e.message || '加载单词表失败'
+  } finally {
+    loading.value = false
+  }
+}
 
-    for (const f of files) {
-      const res = await fetch(`/word_table/${folder}/${f}.json`)
-      if (!res.ok) throw new Error('加载失败')
-      const rawJson = await res.text()
-      const hash = resolveFileHash(folder, f, rawJson)
-      const progressKey = STORAGE_PREFIX + hash
+async function loadFolder(folder, files) {
+  const wordToFile = {}
+  const allRaw = []
+  const fileData = {}
 
-      const data = JSON.parse(rawJson)
-      allRaw.push(...data)
+  for (const f of files) {
+    const res = await fetch(`/word_table/${folder}/${f}.json`)
+    if (!res.ok) throw new Error('加载失败')
+    const rawJson = await res.text()
+    const hash = resolveFileHash(folder, f, rawJson)
 
-      const [processed] = parseAndProcess(JSON.stringify(data))
-      for (const w of processed) {
-        wordToFile[w.word.join(',')] = hash
-      }
+    const data = JSON.parse(rawJson)
+    allRaw.push(...data)
 
-      // Ensure individual file has localStorage entry
-      const saved = localStorage.getItem(progressKey)
-      if (saved) {
-        fileData[hash] = JSON.parse(saved)
-      } else {
-        const initial = {
-          words: processed,
-          progress: processed.map((w, i) => [i, { wordId: i, appearances: 0, correctCount: 0, history: [] }])
-        }
-        localStorage.setItem(progressKey, JSON.stringify(initial))
-        fileData[hash] = initial
-      }
+    const [processed] = parseAndProcess(JSON.stringify(data))
+    for (const w of processed) {
+      wordToFile[w.word.join(',')] = hash
     }
 
-    const [combined, error] = parseAndProcess(JSON.stringify(allRaw))
-    if (error) {
-      errorMsg.value = error
-      return
-    }
+    fileData[hash] = ensureFileEntry(hash, processed)
+  }
 
-    const wordSources = combined.map(w => wordToFile[w.word.join(',')] || null)
+  const [combined, error] = parseAndProcess(JSON.stringify(allRaw))
+  if (error) throw new Error(error)
 
-    // Build progress map from individual files' saved progress
-    const progress = new Map()
-    for (let i = 0; i < combined.length; i++) {
-      const src = wordSources[i]
-      const wordKey = combined[i].word.join(',')
-      const fd = fileData[src]
-      let found = false
-      if (fd) {
-        for (const [id, p] of fd.progress) {
-          if (fd.words[id] && fd.words[id].word.join(',') === wordKey) {
-            progress.set(i, { ...p, wordId: i })
-            found = true
-            break
-          }
+  const wordSources = combined.map(w => wordToFile[w.word.join(',')] || null)
+
+  // Build progress map from individual files' saved progress
+  const progress = new Map()
+  for (let i = 0; i < combined.length; i++) {
+    const src = wordSources[i]
+    const wordKey = combined[i].word.join(',')
+    const fd = fileData[src]
+    let found = false
+    if (fd) {
+      for (const [id, p] of fd.progress) {
+        if (fd.words[id] && fd.words[id].word.join(',') === wordKey) {
+          progress.set(i, { ...p, wordId: i })
+          found = true
+          break
         }
       }
-      if (!found) {
-        progress.set(i, { wordId: i, appearances: 0, correctCount: 0, history: [] })
-      }
     }
+    if (!found) {
+      progress.set(i, { wordId: i, appearances: 0, correctCount: 0, history: [] })
+    }
+  }
 
-    emit('resume-quiz', { words: combined, progress, fileKey: folder, wordSources })
-  } catch {
-    errorMsg.value = '加载单词表失败'
+  return { words: combined, progress, fileKey: folder, wordSources }
+}
+
+async function showFolderDetail(folder, files) {
+  errorMsg.value = ''
+  loading.value = true
+  try {
+    const { words: w, progress, fileKey, wordSources } = await loadFolder(folder, files)
+    emit('show-detail', { words: w, progress, fileKey, wordSources, title: folder })
+  } catch (e) {
+    errorMsg.value = e.message || '加载单词表失败'
+  } finally {
+    loading.value = false
+  }
+}
+
+async function startFolderQuiz(folder, files) {
+  errorMsg.value = ''
+  loading.value = true
+  try {
+    const { words: w, progress, fileKey, wordSources } = await loadFolder(folder, files)
+    emit('resume-quiz', { words: w, progress, fileKey, wordSources })
+  } catch (e) {
+    errorMsg.value = e.message || '加载单词表失败'
   } finally {
     loading.value = false
   }
@@ -188,12 +155,12 @@ async function selectFolder(folder, files) {
     <p class="subtitle">选择一个单词表，开始抽查记忆</p>
     <div class="file-list">
       <div v-for="group in fileTree" :key="group.folder" class="folder-group">
-        <button class="folder-btn" @click="toggleFolder(group.folder)">
-          <span class="folder-icon">{{ expandedFolder === group.folder ? '&#9660;' : '&#9654;' }}</span>
+        <button class="folder-btn" @click="showFolderDetail(group.folder, group.files)">
+          <span class="folder-toggle" @click.stop="toggleFolder(group.folder)">{{ expandedFolder === group.folder ? '&#9660;' : '&#9654;' }}</span>
           <span class="folder-name">{{ group.folder }}</span>
           <span :class="['folder-percent', calcFolderPercent(group.folder, group.files) === 100 && 'folder-percent--done']">{{ calcFolderPercent(group.folder, group.files) }}%</span>
           <span class="folder-count">{{ group.files.length }} 个单词表</span>
-          <span class="start-btn" @click.stop="selectFolder(group.folder, group.files)" :class="{ 'start-btn--loading': loading }">背全部</span>
+          <span class="start-btn" @click.stop="startFolderQuiz(group.folder, group.files)" :class="{ 'start-btn--loading': loading }">背全部</span>
         </button>
         <div v-if="expandedFolder === group.folder" class="file-items">
           <button
@@ -201,12 +168,12 @@ async function selectFolder(folder, files) {
             :key="file"
             class="file-btn"
             :disabled="loading"
-            @click="selectFile(group.folder, file)"
+            @click="showFileDetail(group.folder, file)"
           >
             <span class="file-icon">&#128196;</span>
             <span class="file-name">{{ file }}</span>
             <span :class="['file-percent', calcFilePercent(group.folder, file) === 100 && 'file-percent--done']">{{ calcFilePercent(group.folder, file) }}%</span>
-            <span class="start-btn start-btn--small" @click.stop="selectFile(group.folder, file)" :class="{ 'start-btn--loading': loading }">开始</span>
+            <span class="start-btn start-btn--small" @click.stop="startFileQuiz(group.folder, file)" :class="{ 'start-btn--loading': loading }">开始</span>
           </button>
         </div>
       </div>
@@ -269,11 +236,17 @@ async function selectFolder(folder, files) {
   background: var(--color-primary-light);
 }
 
-.folder-icon {
+.folder-toggle {
   font-size: 11px;
-  color: var(--color-primary);
+  color: var(--color-text-secondary);
   width: 16px;
   text-align: center;
+  cursor: pointer;
+  padding: 4px;
+}
+
+.folder-toggle:hover {
+  color: var(--color-primary);
 }
 
 .folder-name {

@@ -1,5 +1,5 @@
 import type { ProcessedWord, CardMode, QuizCard, CardOption } from '../types'
-import { shuffle, pickRandom } from './shuffle'
+import { shuffle, pickRandom } from '../utils/shuffle'
 
 /**
  * Generate a quiz card for the given word and mode.

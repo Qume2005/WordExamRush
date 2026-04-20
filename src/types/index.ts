@@ -62,4 +62,4 @@ export interface SummaryRow {
 }
 
 /** Top-level screen phase */
-export type ScreenPhase = 'input' | 'quiz' | 'summary'
+export type ScreenPhase = 'input' | 'detail' | 'quiz' | 'summary'

@@ -1,6 +1,6 @@
 <script setup>
 import { computed } from 'vue'
-import { shuffle } from '../logic/shuffle'
+import { shuffle } from '../utils/shuffle'
 
 const props = defineProps({
   result: { type: Object, required: true },

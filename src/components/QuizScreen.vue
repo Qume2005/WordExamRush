@@ -5,7 +5,8 @@ import {
   createNextCard,
   recordAnswer,
   isQuizComplete,
-} from '../logic/quizEngine'
+  isWordComplete,
+} from '../business/quizEngine'
 import QuizCard from './QuizCard.vue'
 import ResultReveal from './ResultReveal.vue'
 
@@ -24,7 +25,7 @@ const selectedIndex = ref(-1)
 const completedCount = computed(() => {
   let count = 0
   for (const p of props.progressMap.values()) {
-    if (p.appearances >= 3 && p.correctCount / p.appearances >= 0.9) count++
+    if (isWordComplete(p)) count++
   }
   return count
 })

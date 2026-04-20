@@ -1,6 +1,6 @@
 <script setup>
 import { computed } from 'vue'
-import { generateSummary } from '../logic/quizEngine'
+import { generateSummary } from '../business/quizEngine'
 
 const props = defineProps({
   words: { type: Array, required: true },

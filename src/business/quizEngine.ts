@@ -1,6 +1,6 @@
 import type { ProcessedWord, WordProgress, QuizCard, AnswerResult, SummaryRow } from '../types'
 import { generateCard, getAvailableModes } from './cardGenerator'
-import { pickRandom } from './shuffle'
+import { pickRandom } from '../utils/shuffle'
 
 /**
  * Create the initial progress map for all words.
@@ -21,7 +21,7 @@ export function createProgressMap(words: ProcessedWord[]): Map<number, WordProgr
 /**
  * Get accuracy for a word progress entry.
  */
-function getAccuracy(p: WordProgress): number {
+export function getAccuracy(p: WordProgress): number {
   if (p.appearances === 0) return 0
   return p.correctCount / p.appearances
 }
@@ -29,7 +29,7 @@ function getAccuracy(p: WordProgress): number {
 /**
  * Check if a word is complete (appeared at least 3 times with >= 90% accuracy).
  */
-function isWordComplete(p: WordProgress): boolean {
+export function isWordComplete(p: WordProgress): boolean {
   return p.appearances >= 3 && getAccuracy(p) >= 0.9
 }
 
