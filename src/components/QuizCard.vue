@@ -29,8 +29,8 @@ onMounted(() => window.addEventListener('resize', onResize))
 onUnmounted(() => window.removeEventListener('resize', onResize))
 
 function shouldShowOption(index, opt) {
-  if (props.selectedIndex === -1) return true
   if (isDesktop.value) return true
+  if (props.selectedIndex === -1 && !props.disabled) return true
   return opt.isCorrect || index === props.selectedIndex
 }
 
@@ -72,7 +72,7 @@ function handleSelect(index) {
         {{ opt.label }}
       </button>
       <button
-        v-if="selectedIndex === -1 || isDesktop"
+        v-if="(selectedIndex === -1 && !disabled) || isDesktop"
         :class="['option-btn', disabled && selectedIndex === -1 ? 'option-btn--unknown' : 'option-btn--dont-know']"
         :disabled="disabled"
         @click="emit('dont-know')"
