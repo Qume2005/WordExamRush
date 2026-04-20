@@ -26,6 +26,9 @@ coverage
 
 *.tsbuildinfo
 
+# Build artifacts
+public/word_table/manifest.json
+
 .eslintcache
 
 # Cypress
