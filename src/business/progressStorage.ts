@@ -1,15 +1,39 @@
 import type { ProcessedWord, WordProgress } from '../types'
-import { isWordComplete } from './quizEngine'
+import { getWordProgress, createEmptyProgress } from './quizEngine'
 import { hashString } from '../utils/hash'
+import { sparklinePoints } from '../utils/sparkline'
 
 const STORAGE_PREFIX = 'word-exam-rush:'
 const MAP_PREFIX = STORAGE_PREFIX + 'map:'
+const SESSION_KEY = STORAGE_PREFIX + 'session'
 
-export function getProgressKey(hash: string): string {
+/** Save active session info for recovery after unexpected exit */
+export function saveSession(info: { folder: string; fileName?: string; files?: string[] }): void {
+  sessionStorage.setItem(SESSION_KEY, JSON.stringify(info))
+}
+
+/** Read and clear saved session info, returns null if none */
+export function consumeSession(): { folder: string; fileName?: string; files?: string[] } | null {
+  const raw = sessionStorage.getItem(SESSION_KEY)
+  if (!raw) return null
+  sessionStorage.removeItem(SESSION_KEY)
+  try {
+    return JSON.parse(raw)
+  } catch {
+    return null
+  }
+}
+
+/** Clear session without consuming (called on normal exit) */
+export function clearSession(): void {
+  sessionStorage.removeItem(SESSION_KEY)
+}
+
+function getProgressKey(hash: string): string {
   return STORAGE_PREFIX + hash
 }
 
-export function getMapKey(folder: string, fileName: string): string {
+function getMapKey(folder: string, fileName: string): string {
   return MAP_PREFIX + folder + '/' + fileName
 }
 
@@ -56,7 +80,7 @@ export function saveFolderProgress(
   for (let i = 0; i < words.length; i++) {
     const src = wordSources[i]
     if (!src) continue
-    const p = progressMap.get(i)
+    const p = progressMap.get(words[i].id)
     if (!p) continue
     if (!fileUpdates[src]) fileUpdates[src] = []
     fileUpdates[src].push({ wordKey: words[i].word.join(','), progress: p })
@@ -68,37 +92,22 @@ export function saveFolderProgress(
     const fileData = JSON.parse(saved)
     const pm = new Map(fileData.progress as [number, WordProgress][])
 
+    // Build wordKey → id map for O(1) lookup
+    const keyToId = new Map<string, number>()
+    for (const [id, w] of fileData.words.entries()) {
+      keyToId.set(w.word.join(','), id)
+    }
+
     for (const { wordKey, progress } of updates) {
-      for (const [id, w] of fileData.words.entries()) {
-        if (w.word.join(',') === wordKey) {
-          pm.set(id, { ...progress, wordId: id })
-          break
-        }
+      const id = keyToId.get(wordKey)
+      if (id !== undefined) {
+        pm.set(id, { ...progress, wordId: id })
       }
     }
 
     fileData.progress = [...pm]
     localStorage.setItem(getProgressKey(src), JSON.stringify(fileData))
   }
-}
-
-/** Reset progress for all files in a folder session */
-export function resetFolderProgress(wordSources: string[]): void {
-  const fileKeys = new Set(wordSources.filter(Boolean))
-  for (const key of fileKeys) {
-    const saved = localStorage.getItem(getProgressKey(key))
-    if (!saved) continue
-    const fileData = JSON.parse(saved)
-    fileData.progress = fileData.words.map((_: unknown, i: number) =>
-      [i, { wordId: i, appearances: 0, correctCount: 0, history: [] }]
-    )
-    localStorage.setItem(getProgressKey(key), JSON.stringify(fileData))
-  }
-}
-
-/** Remove progress for a single file */
-export function removeFileProgress(hash: string): void {
-  localStorage.removeItem(getProgressKey(hash))
 }
 
 /** Ensure a file has an initial localStorage entry, return existing or new data */
@@ -108,33 +117,42 @@ export function ensureFileEntry(hash: string, processed: ProcessedWord[]): { wor
 
   const initial = {
     words: processed,
-    progress: processed.map((_: ProcessedWord, i: number) => [i, { wordId: i, appearances: 0, correctCount: 0, history: [] }] as [number, WordProgress])
+    progress: processed.map((_: ProcessedWord, i: number) => [i, createEmptyProgress(i)] as [number, WordProgress])
   }
   localStorage.setItem(getProgressKey(hash), JSON.stringify(initial))
   return initial
 }
 
-/** Calculate completion percentage for a single file */
-export function calcFilePercent(folder: string, fileName: string): number {
+/** Load file data by folder/name, returns parsed progress or null */
+function getFileData(folder: string, fileName: string) {
   const mapKey = getMapKey(folder, fileName)
   const hash = localStorage.getItem(mapKey)
-  if (!hash) return 0
-  const data = loadFileProgress(hash)
-  if (!data) return 0
-  const map = new Map(data.progress)
-  let completed = 0
-  for (const p of map.values()) {
-    if (isWordComplete(p)) completed++
-  }
-  return data.words.length ? Math.round((completed / data.words.length) * 100) : 0
+  if (!hash) return null
+  return loadFileProgress(hash)
 }
 
-/** Calculate average completion percentage for a folder */
-export function calcFolderPercent(folder: string, files: string[]): number {
-  if (!files.length) return 0
-  let total = 0
-  for (const f of files) {
-    total += calcFilePercent(folder, f)
+/** Get sparkline SVG points for a single file's aggregate accuracy trend */
+export function calcFileSparkline(folder: string, fileName: string): string {
+  const data = getFileData(folder, fileName)
+  if (!data) return ''
+
+  // Flatten all words' histories into one sequence
+  const allHistory: boolean[] = []
+  for (const [, p] of data.progress) {
+    allHistory.push(...p.history)
   }
-  return Math.round(total / files.length)
+
+  return sparklinePoints(allHistory)
+}
+
+/** Calculate completion percentage for a single file */
+export function calcFilePercent(folder: string, fileName: string): number {
+  const data = getFileData(folder, fileName)
+  if (!data) return 0
+  const map = new Map(data.progress)
+  let totalProgress = 0
+  for (const p of map.values()) {
+    totalProgress += getWordProgress(p)
+  }
+  return data.words.length ? Math.round((totalProgress / data.words.length) * 100) : 0
 }

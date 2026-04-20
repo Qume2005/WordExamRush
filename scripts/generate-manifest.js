@@ -13,8 +13,8 @@ function validateWord(word, fileLabel) {
   if (!Array.isArray(word.english_synonyms)) {
     throw new Error(`${fileLabel}: english_synonyms 必须是数组`)
   }
-  if (!Array.isArray(word.chinese_explanations) || word.chinese_explanations.length === 0) {
-    throw new Error(`${fileLabel}: chinese_explanations 必须是非空数组`)
+  if (!Array.isArray(word.chinese_translations) || word.chinese_translations.length === 0) {
+    throw new Error(`${fileLabel}: chinese_translations 必须是非空数组`)
   }
   if (typeof word.example_sentences !== 'string') {
     throw new Error(`${fileLabel}: example_sentences 必须是字符串`)
@@ -93,4 +93,7 @@ async function generateManifest() {
   }
 }
 
-generateManifest()
+generateManifest().catch(e => {
+  console.error(e)
+  process.exit(1)
+})

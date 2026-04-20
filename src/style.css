@@ -39,3 +39,38 @@ body {
   padding: 24px;
   min-height: 100vh;
 }
+
+.screen-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 24px 0;
+  align-items: center;
+}
+
+.screen-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--color-text);
+  margin: 0;
+}
+
+.btn-primary {
+  padding: 12px 32px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  background: var(--color-primary);
+  color: #fff;
+  transition: background 0.2s, transform 0.1s;
+}
+
+.btn-primary:hover {
+  background: #3651d4;
+}
+
+.btn-primary:active {
+  transform: scale(0.97);
+}

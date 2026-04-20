@@ -1,14 +1,47 @@
 <script setup>
-import { ref, onMounted } from 'vue'
+import { ref, computed, onMounted } from 'vue'
 import { parseAndProcess } from '../business/wordProcessor'
-import { resolveFileHash, loadFileProgress, ensureFileEntry, calcFilePercent, calcFolderPercent } from '../business/progressStorage'
+import { resolveFileHash, ensureFileEntry, calcFilePercent, calcFileSparkline, consumeSession } from '../business/progressStorage'
+import { createEmptyProgress } from '../business/quizEngine'
+import SparklineChart from './SparklineChart.vue'
 
-const emit = defineEmits(['start-quiz', 'resume-quiz', 'show-detail'])
+const emit = defineEmits(['resume-quiz', 'show-detail'])
 
 const fileTree = ref([])
 const expandedFolder = ref('')
 const errorMsg = ref('')
 const loading = ref(false)
+const statsVersion = ref(0)
+const resumePrompt = ref(null) // { folder, fileName?, files? }
+
+// Pre-compute stats to avoid localStorage reads on every render
+const fileStats = computed(() => {
+  statsVersion.value // depend on version to trigger refresh
+  const stats = {}
+  for (const group of fileTree.value) {
+    for (const f of group.files) {
+      const key = `${group.folder}/${f}`
+      stats[key] = {
+        percent: calcFilePercent(group.folder, f),
+        sparkline: calcFileSparkline(group.folder, f),
+      }
+    }
+  }
+  return stats
+})
+
+function getFolderPercent(folder, files) {
+  let total = 0
+  for (const f of files) {
+    const s = fileStats.value[`${folder}/${f}`]
+    total += s ? s.percent : 0
+  }
+  return files.length ? Math.round(total / files.length) : 0
+}
+
+function getFileStat(folder, file) {
+  return fileStats.value[`${folder}/${file}`] || { percent: 0, sparkline: '' }
+}
 
 onMounted(async () => {
   try {
@@ -16,6 +49,12 @@ onMounted(async () => {
     fileTree.value = await res.json()
   } catch {
     errorMsg.value = '无法加载单词表列表'
+  }
+
+  // Check for interrupted session
+  const session = consumeSession()
+  if (session) {
+    resumePrompt.value = session
   }
 })
 
@@ -29,47 +68,41 @@ async function loadFile(folder, fileName) {
   const rawJson = await res.text()
   const hash = resolveFileHash(folder, fileName, rawJson)
 
-  const saved = loadFileProgress(hash)
-  if (saved) {
-    return { words: saved.words, progress: new Map(saved.progress), fileKey: hash }
-  }
-
   const data = JSON.parse(rawJson)
-  const [processed, error] = parseAndProcess(JSON.stringify(data))
+  const [processed, error] = parseAndProcess(data)
   if (error) throw new Error(error)
-  return { words: processed, progress: null, fileKey: hash }
+
+  const entry = ensureFileEntry(hash, processed)
+  return { words: entry.words, progress: new Map(entry.progress), fileKey: hash }
 }
 
-async function showFileDetail(folder, fileName) {
-  errorMsg.value = ''
-  loading.value = true
-  try {
-    const { words: w, progress, fileKey } = await loadFile(folder, fileName)
-    const pm = progress || new Map(w.map((_, i) => [i, { wordId: i, appearances: 0, correctCount: 0, history: [] }]))
-    emit('show-detail', { words: w, progress: pm, fileKey, title: `${folder} / ${fileName}` })
-  } catch (e) {
-    errorMsg.value = e.message || '加载单词表失败'
-  } finally {
-    loading.value = false
-  }
-}
-
-async function startFileQuiz(folder, fileName) {
-  errorMsg.value = ''
-  loading.value = true
-  try {
-    const { words: w, progress, fileKey } = await loadFile(folder, fileName)
-    if (progress) {
-      emit('resume-quiz', { words: w, progress, fileKey })
-    } else {
-      emit('start-quiz', { words: w, fileKey })
+function withLoading(fn) {
+  return async (...args) => {
+    errorMsg.value = ''
+    loading.value = true
+    try {
+      await fn(...args)
+    } catch (e) {
+      errorMsg.value = e.message || '加载单词表失败'
+    } finally {
+      loading.value = false
+      statsVersion.value++
     }
-  } catch (e) {
-    errorMsg.value = e.message || '加载单词表失败'
-  } finally {
-    loading.value = false
   }
 }
+
+async function _showFileDetail(folder, fileName) {
+  const { words: w, progress: pm, fileKey } = await loadFile(folder, fileName)
+  emit('show-detail', { words: w, progress: pm, fileKey, title: `${folder} / ${fileName}` })
+}
+
+async function _startFileQuiz(folder, fileName) {
+  const { words: w, progress, fileKey } = await loadFile(folder, fileName)
+  emit('resume-quiz', { words: w, progress, fileKey, session: { folder, fileName } })
+}
+
+const showFileDetail = withLoading(_showFileDetail)
+const startFileQuiz = withLoading(_startFileQuiz)
 
 async function loadFolder(folder, files) {
   const wordToFile = {}
@@ -85,15 +118,23 @@ async function loadFolder(folder, files) {
     const data = JSON.parse(rawJson)
     allRaw.push(...data)
 
-    const [processed] = parseAndProcess(JSON.stringify(data))
+    const [processed] = parseAndProcess(data)
     for (const w of processed) {
       wordToFile[w.word.join(',')] = hash
     }
 
-    fileData[hash] = ensureFileEntry(hash, processed)
+    const entry = ensureFileEntry(hash, processed)
+    // Build wordKey → progress map for O(1) lookup
+    const wordKeyMap = new Map()
+    for (const [id, p] of entry.progress) {
+      if (entry.words[id]) {
+        wordKeyMap.set(entry.words[id].word.join(','), p)
+      }
+    }
+    fileData[hash] = { entry, wordKeyMap }
   }
 
-  const [combined, error] = parseAndProcess(JSON.stringify(allRaw))
+  const [combined, error] = parseAndProcess(allRaw)
   if (error) throw new Error(error)
 
   const wordSources = combined.map(w => wordToFile[w.word.join(',')] || null)
@@ -104,48 +145,40 @@ async function loadFolder(folder, files) {
     const src = wordSources[i]
     const wordKey = combined[i].word.join(',')
     const fd = fileData[src]
-    let found = false
-    if (fd) {
-      for (const [id, p] of fd.progress) {
-        if (fd.words[id] && fd.words[id].word.join(',') === wordKey) {
-          progress.set(i, { ...p, wordId: i })
-          found = true
-          break
-        }
-      }
-    }
-    if (!found) {
-      progress.set(i, { wordId: i, appearances: 0, correctCount: 0, history: [] })
-    }
+    const existing = fd?.wordKeyMap.get(wordKey)
+    progress.set(i, existing ? { ...existing, wordId: i } : createEmptyProgress(i))
   }
 
   return { words: combined, progress, fileKey: folder, wordSources }
 }
 
-async function showFolderDetail(folder, files) {
-  errorMsg.value = ''
-  loading.value = true
-  try {
-    const { words: w, progress, fileKey, wordSources } = await loadFolder(folder, files)
-    emit('show-detail', { words: w, progress, fileKey, wordSources, title: folder })
-  } catch (e) {
-    errorMsg.value = e.message || '加载单词表失败'
-  } finally {
-    loading.value = false
+async function _showFolderDetail(folder, files) {
+  const { words: w, progress, fileKey, wordSources } = await loadFolder(folder, files)
+  emit('show-detail', { words: w, progress, fileKey, wordSources, title: folder })
+}
+
+async function _startFolderQuiz(folder, files) {
+  const { words: w, progress, fileKey, wordSources } = await loadFolder(folder, files)
+  emit('resume-quiz', { words: w, progress, fileKey, wordSources, session: { folder, files } })
+}
+
+const showFolderDetail = withLoading(_showFolderDetail)
+const startFolderQuiz = withLoading(_startFolderQuiz)
+
+async function resumeSession() {
+  const s = resumePrompt.value
+  if (!s) return
+  resumePrompt.value = null
+
+  if (s.files) {
+    await startFolderQuiz(s.folder, s.files)
+  } else if (s.fileName) {
+    await startFileQuiz(s.folder, s.fileName)
   }
 }
 
-async function startFolderQuiz(folder, files) {
-  errorMsg.value = ''
-  loading.value = true
-  try {
-    const { words: w, progress, fileKey, wordSources } = await loadFolder(folder, files)
-    emit('resume-quiz', { words: w, progress, fileKey, wordSources })
-  } catch (e) {
-    errorMsg.value = e.message || '加载单词表失败'
-  } finally {
-    loading.value = false
-  }
+function dismissResume() {
+  resumePrompt.value = null
 }
 </script>
 
@@ -158,7 +191,7 @@ async function startFolderQuiz(folder, files) {
         <button class="folder-btn" @click="showFolderDetail(group.folder, group.files)">
           <span class="folder-toggle" @click.stop="toggleFolder(group.folder)">{{ expandedFolder === group.folder ? '&#9660;' : '&#9654;' }}</span>
           <span class="folder-name">{{ group.folder }}</span>
-          <span :class="['folder-percent', calcFolderPercent(group.folder, group.files) === 100 && 'folder-percent--done']">{{ calcFolderPercent(group.folder, group.files) }}%</span>
+          <span :class="['folder-percent', getFolderPercent(group.folder, group.files) === 100 && 'folder-percent--done']">{{ getFolderPercent(group.folder, group.files) }}%</span>
           <span class="folder-count">{{ group.files.length }} 个单词表</span>
           <span class="start-btn" @click.stop="startFolderQuiz(group.folder, group.files)" :class="{ 'start-btn--loading': loading }">背全部</span>
         </button>
@@ -172,7 +205,10 @@ async function startFolderQuiz(folder, files) {
           >
             <span class="file-icon">&#128196;</span>
             <span class="file-name">{{ file }}</span>
-            <span :class="['file-percent', calcFilePercent(group.folder, file) === 100 && 'file-percent--done']">{{ calcFilePercent(group.folder, file) }}%</span>
+            <span class="file-sparkline">
+              <SparklineChart :points="getFileStat(group.folder, file).sparkline" :width="48" :height="16" />
+            </span>
+            <span :class="['file-percent', getFileStat(group.folder, file).percent === 100 && 'file-percent--done']">{{ getFileStat(group.folder, file).percent }}%</span>
             <span class="start-btn start-btn--small" @click.stop="startFileQuiz(group.folder, file)" :class="{ 'start-btn--loading': loading }">开始</span>
           </button>
         </div>
@@ -180,6 +216,15 @@ async function startFolderQuiz(folder, files) {
     </div>
     <p v-if="fileTree.length === 0 && !errorMsg" class="empty-msg">未找到单词表文件</p>
     <p v-if="errorMsg" class="error-msg">{{ errorMsg }}</p>
+    <div v-if="resumePrompt" class="resume-overlay" @click.self="dismissResume">
+      <div class="resume-dialog">
+        <p class="resume-msg">检测到未完成的测试，是否继续？</p>
+        <div class="resume-actions">
+          <button class="btn btn-back btn-sm" @click="dismissResume">放弃</button>
+          <button class="btn btn-primary btn-sm" :disabled="loading" @click="resumeSession">继续</button>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -315,6 +360,13 @@ async function startFolderQuiz(folder, files) {
   text-align: left;
 }
 
+.file-sparkline {
+  display: inline-flex;
+  align-items: center;
+  width: 52px;
+  height: 20px;
+}
+
 .file-percent {
   font-size: 12px;
   font-weight: 600;
@@ -363,5 +415,60 @@ async function startFolderQuiz(folder, files) {
   color: var(--color-danger);
   font-size: 14px;
   margin: 0;
+}
+
+.resume-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+}
+
+.resume-dialog {
+  background: var(--color-surface);
+  border-radius: var(--radius);
+  padding: 28px 32px;
+  box-shadow: var(--shadow);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 360px;
+  width: 90%;
+}
+
+.resume-msg {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--color-text);
+  margin: 0;
+  text-align: center;
+}
+
+.resume-actions {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+}
+
+.btn-sm {
+  padding: 8px 24px;
+  font-size: 14px;
+}
+
+.btn-back {
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  background: var(--color-border);
+  color: var(--color-text);
+  transition: background 0.2s;
+}
+
+.btn-back:hover {
+  background: #cdd1d6;
 }
 </style>

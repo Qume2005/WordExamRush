@@ -1,5 +1,5 @@
 <script setup>
-import { computed } from 'vue'
+import { computed, ref, onMounted, onUnmounted } from 'vue'
 
 const props = defineProps({
   card: { type: Object, required: true },
@@ -19,7 +19,14 @@ const modeLabel = computed(() => {
   }
 })
 
-const isDesktop = computed(() => window.innerWidth >= 768)
+const isDesktop = ref(window.innerWidth >= 768)
+
+function onResize() {
+  isDesktop.value = window.innerWidth >= 768
+}
+
+onMounted(() => window.addEventListener('resize', onResize))
+onUnmounted(() => window.removeEventListener('resize', onResize))
 
 function shouldShowOption(index, opt) {
   if (props.selectedIndex === -1) return true

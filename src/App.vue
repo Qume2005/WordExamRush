@@ -1,7 +1,7 @@
 <script setup>
-import { ref } from 'vue'
-import { createProgressMap } from './business/quizEngine'
-import { saveFileProgress, saveFolderProgress, resetFolderProgress, removeFileProgress } from './business/progressStorage'
+import { ref, onMounted, onUnmounted } from 'vue'
+import { createProgressMap, createEmptyProgress } from './business/quizEngine'
+import { saveFileProgress, saveFolderProgress, saveSession, clearSession } from './business/progressStorage'
 import InputScreen from './components/InputScreen.vue'
 import WordDetailScreen from './components/WordDetailScreen.vue'
 import QuizScreen from './components/QuizScreen.vue'
@@ -24,28 +24,12 @@ function saveProgress() {
   }
 }
 
-function clearProgress() {
-  if (wordSources.value) {
-    resetFolderProgress(wordSources.value)
-  } else if (currentFileKey.value) {
-    removeFileProgress(currentFileKey.value)
-  }
-}
-
-function onStartQuiz({ words: processedWords, fileKey, wordSources: sources }) {
-  words.value = processedWords
-  progressMap.value = createProgressMap(processedWords)
-  currentFileKey.value = fileKey
-  wordSources.value = sources || null
-  saveProgress()
-  phase.value = 'quiz'
-}
-
-function onResumeQuiz({ words: savedWords, progress, fileKey, wordSources: sources }) {
+function onResumeQuiz({ words: savedWords, progress, fileKey, wordSources: sources, session }) {
   words.value = savedWords
   progressMap.value = progress
   currentFileKey.value = fileKey
   wordSources.value = sources || null
+  if (session) saveSession(session)
   phase.value = 'quiz'
 }
 
@@ -64,10 +48,13 @@ function onDetailStartQuiz() {
 }
 
 function onFinishQuiz() {
+  clearSession()
   phase.value = 'summary'
 }
 
 function onBack() {
+  saveProgress()
+  clearSession()
   phase.value = 'input'
 }
 
@@ -76,20 +63,25 @@ function onResetProgress() {
   saveProgress()
 }
 
-function onRestart() {
-  clearProgress()
-  phase.value = 'input'
-  words.value = []
-  progressMap.value = new Map()
-  currentFileKey.value = ''
-  wordSources.value = null
+function onResetWord(wordId) {
+  progressMap.value.set(wordId, createEmptyProgress(wordId))
+  saveProgress()
 }
+
+function onGlobalKeydown(e) {
+  if (e.key === 'Escape' && phase.value !== 'input') {
+    e.preventDefault()
+    onBack()
+  }
+}
+
+onMounted(() => window.addEventListener('keydown', onGlobalKeydown))
+onUnmounted(() => window.removeEventListener('keydown', onGlobalKeydown))
 </script>
 
 <template>
   <InputScreen
     v-if="phase === 'input'"
-    @start-quiz="onStartQuiz"
     @resume-quiz="onResumeQuiz"
     @show-detail="onShowDetail"
   />
@@ -100,6 +92,8 @@ function onRestart() {
     :progress-map="progressMap"
     @start-quiz="onDetailStartQuiz"
     @back="onBack"
+    @reset-word="onResetWord"
+    @save-progress="saveProgress"
   />
   <QuizScreen
     v-else-if="phase === 'quiz'"
@@ -114,6 +108,6 @@ function onRestart() {
     v-else
     :words="words"
     :progress-map="progressMap"
-    @restart="onRestart"
+    @back="onBack"
   />
 </template>

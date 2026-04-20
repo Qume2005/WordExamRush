@@ -9,7 +9,7 @@ const props = defineProps({
 
 const emit = defineEmits(['next'])
 
-const shuffledExplanations = computed(() => shuffle(props.targetWord.chinese_explanations))
+const shuffledExplanations = computed(() => shuffle(props.targetWord.chinese_translations))
 const shuffledSynonyms = computed(() => shuffle(props.targetWord.english_synonyms))
 const shuffledEnglishExplanations = computed(() => shuffle(props.targetWord.english_explanations || []))
 </script>
@@ -39,7 +39,7 @@ const shuffledEnglishExplanations = computed(() => shuffle(props.targetWord.engl
         <span class="detail-value detail-sentence">{{ targetWord.example_sentences }}</span>
       </div>
     </div>
-    <button class="btn btn-next" @click="emit('next')">下一题 <span class="key-tip">按任意键继续</span></button>
+    <button class="btn btn-primary btn-next" @click="emit('next')">下一题 <span class="key-tip">按任意键继续</span></button>
   </div>
 </template>
 
@@ -116,24 +116,7 @@ const shuffledEnglishExplanations = computed(() => shuffle(props.targetWord.engl
 }
 
 .btn-next {
-  padding: 12px 32px;
-  border: none;
-  border-radius: 8px;
-  font-size: 16px;
-  font-weight: 600;
-  cursor: pointer;
-  background: var(--color-primary);
-  color: #fff;
-  transition: background 0.2s, transform 0.1s;
   align-self: center;
-}
-
-.btn-next:hover {
-  background: #3651d4;
-}
-
-.btn-next:active {
-  transform: scale(0.97);
 }
 
 .key-tip {

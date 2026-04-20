@@ -3,7 +3,7 @@ import type { RawWord, ProcessedWord } from '../types'
 /**
  * Validate raw input. Returns null if valid, or an error message string.
  */
-export function validateRawInput(data: unknown): string | null {
+function validateRawInput(data: unknown): string | null {
   if (!Array.isArray(data)) {
     return '输入必须是一个 JSON 数组'
   }
@@ -24,8 +24,8 @@ export function validateRawInput(data: unknown): string | null {
     if (item.english_explanations !== undefined && !Array.isArray(item.english_explanations)) {
       return `第 ${i + 1} 项的 english_explanations 字段格式不正确`
     }
-    if (!Array.isArray(item.chinese_explanations)) {
-      return `第 ${i + 1} 项缺少 chinese_explanations 字段`
+    if (!Array.isArray(item.chinese_translations)) {
+      return `第 ${i + 1} 项缺少 chinese_translations 字段`
     }
     if (typeof item.example_sentences !== 'string') {
       return `第 ${i + 1} 项缺少 example_sentences 字段`
@@ -40,10 +40,10 @@ export function validateRawInput(data: unknown): string | null {
  *
  * Merge strategy:
  *  - english_synonyms: union (deduplicated)
- *  - chinese_explanations: union (deduplicated)
+ *  - chinese_translations: union (deduplicated)
  *  - example_sentences: concatenate with " | "
  */
-export function mergeWords(raw: RawWord[]): ProcessedWord[] {
+function mergeWords(raw: RawWord[]): ProcessedWord[] {
   const groups = new Map<string, RawWord[]>()
 
   for (const item of raw) {
@@ -79,7 +79,7 @@ export function mergeWords(raw: RawWord[]): ProcessedWord[] {
           if (trimmed) engExplanations.add(trimmed)
         }
       }
-      for (const e of item.chinese_explanations) {
+      for (const e of item.chinese_translations) {
         const trimmed = e.trim()
         if (trimmed) explanations.add(trimmed)
       }
@@ -92,7 +92,7 @@ export function mergeWords(raw: RawWord[]): ProcessedWord[] {
       word: [...wordVariants],
       english_synonyms: [...synonyms],
       english_explanations: [...engExplanations],
-      chinese_explanations: [...explanations],
+      chinese_translations: [...explanations],
       example_sentences: sentences.join(' | '),
     })
   }
@@ -102,13 +102,18 @@ export function mergeWords(raw: RawWord[]): ProcessedWord[] {
 
 /**
  * Parse JSON string, validate, and merge. Returns [result, error].
+ * Accepts either a JSON string or an already-parsed array.
  */
-export function parseAndProcess(json: string): [ProcessedWord[], string | null] {
+export function parseAndProcess(input: string | unknown[]): [ProcessedWord[], string | null] {
   let data: unknown
-  try {
-    data = JSON.parse(json)
-  } catch {
-    return [[], 'JSON 格式不正确，请检查输入']
+  if (typeof input === 'string') {
+    try {
+      data = JSON.parse(input)
+    } catch {
+      return [[], 'JSON 格式不正确，请检查输入']
+    }
+  } else {
+    data = input
   }
 
   const error = validateRawInput(data)

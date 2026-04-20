@@ -1,0 +1,1227 @@
+[
+{
+"word": ["academic"],
+"english_synonyms": ["scholarly", "educational", "intellectual", "studious"],
+"english_explanations": ["Relating to education and scholarship, typically in a university or college setting."],
+"chinese_translations": ["学术的", "学院的"],
+"example_sentences": "Academic research requires rigorous methodology and peer review."
+},
+{
+"word": ["accessibility"],
+"english_synonyms": ["availability", "approachability", "reachability", "usability"],
+"english_explanations": ["The quality of being easy to reach, enter, use, or understand by people with different abilities."],
+"chinese_translations": ["可及性", "无障碍性", "易用性"],
+"example_sentences": "Accessibility in digital learning platforms ensures all students can participate equally."
+},
+{
+"word": ["adaptive"],
+"english_synonyms": ["adjustable", "flexible", "responsive", "modifiable"],
+"english_explanations": ["Able to adjust to new conditions or tailor itself to individual needs."],
+"chinese_translations": ["自适应的", "适应性的"],
+"example_sentences": "Adaptive learning systems adjust the difficulty based on student performance."
+},
+{
+"word": ["algorithmic"],
+"english_synonyms": ["computational", "procedural", "systematic", "methodical"],
+"english_explanations": ["Relating to or using a set of rules or procedures for solving problems, especially by a computer."],
+"chinese_translations": ["算法的", "算法上的"],
+"example_sentences": "Algorithmic decision-making in education raises questions about transparency and fairness."
+},
+{
+"word": ["analyse", "analyze"],
+"english_synonyms": ["examine", "investigate", "evaluate", "study"],
+"english_explanations": ["To study or examine something in detail in order to understand it or explain it."],
+"chinese_translations": ["分析", "解析"],
+"example_sentences": "We need to analyse the data carefully before drawing any conclusions."
+},
+{
+"word": ["analytical"],
+"english_synonyms": ["logical", "systematic", "critical", "rational"],
+"english_explanations": ["Relating to or using analysis or logical reasoning to understand complex issues."],
+"chinese_translations": ["分析的", "解析的"],
+"example_sentences": "Analytical skills are essential for interpreting research findings accurately."
+},
+{
+"word": ["application"],
+"english_synonyms": ["implementation", "utilization", "employment", "practice"],
+"english_explanations": ["The action of putting something into operation or practical use."],
+"chinese_translations": ["应用", "运用", "申请"],
+"example_sentences": "The application of AI in education requires careful pedagogical consideration."
+},
+{
+"word": ["argumentation"],
+"english_synonyms": ["reasoning", "debate", "persuasion", "logic"],
+"english_explanations": ["The action or process of reasoning systematically in support of an idea, action, or theory."],
+"chinese_translations": ["论证", "辩论", "推理"],
+"example_sentences": "Strong argumentation is a key component of academic writing."
+},
+{
+"word": ["artificial intelligence"],
+"english_synonyms": ["machine intelligence", "cognitive computing", "AI"],
+"english_explanations": ["The simulation of human intelligence processes by computer systems, including learning, reasoning, and self-correction."],
+"chinese_translations": ["人工智能"],
+"example_sentences": "Artificial intelligence is transforming the way educators personalize learning experiences."
+},
+{
+"word": ["assessment"],
+"english_synonyms": ["evaluation", "appraisal", "measurement", "testing"],
+"english_explanations": ["The evaluation or estimation of the nature, quality, or ability of someone or something."],
+"chinese_translations": ["评估", "评价", "考核"],
+"example_sentences": "Formative assessment helps teachers adjust instruction in real time."
+},
+{
+"word": ["assistance"],
+"english_synonyms": ["help", "support", "aid", "guidance"],
+"english_explanations": ["The provision of help or support to complete a task or overcome a difficulty."],
+"chinese_translations": ["帮助", "协助", "援助"],
+"example_sentences": "Students may require assistance when navigating complex digital tools."
+},
+{
+"word": ["attendance"],
+"english_synonyms": ["presence", "participation", "appearance", "turnout"],
+"english_explanations": ["The action or state of being present at a place or event, such as a class or meeting."],
+"chinese_translations": ["出勤", "出席", "到场"],
+"example_sentences": "Regular attendance is often correlated with better academic outcomes."
+},
+{
+"word": ["augmented"],
+"english_synonyms": ["enhanced", "supplemented", "expanded", "boosted"],
+"english_explanations": ["Having been made greater, larger, or more complete by adding something."],
+"chinese_translations": ["增强的", "扩大的", "补充的"],
+"example_sentences": "Augmented reality can provide immersive learning experiences in the classroom."
+},
+{
+"word": ["authenticity"],
+"english_synonyms": ["genuineness", "realness", "validity", "credibility"],
+"english_explanations": ["The quality of being genuine, real, or true to one's own personality, spirit, or character."],
+"chinese_translations": ["真实性", "可靠性", "可信性"],
+"example_sentences": "Ensuring authenticity in student work is a growing concern with AI writing tools."
+},
+{
+"word": ["automation"],
+"english_synonyms": ["mechanization", "computerization", "robotization", "streamlining"],
+"english_explanations": ["The use of largely automatic equipment or systems in a process, reducing human intervention."],
+"chinese_translations": ["自动化"],
+"example_sentences": "Automation of grading can save time but may overlook nuanced student responses."
+},
+{
+"word": ["autonomy"],
+"english_synonyms": ["independence", "self-governance", "freedom", "sovereignty"],
+"english_explanations": ["The right or condition of self-government; the ability to act independently and make one's own decisions."],
+"chinese_translations": ["自主性", "自治", "独立"],
+"example_sentences": "Promoting learner autonomy encourages students to take ownership of their education."
+},
+{
+"word": ["behavior"],
+"english_synonyms": ["conduct", "demeanor", "actions", "performance"],
+"english_explanations": ["The way in which one acts or conducts oneself, especially toward others."],
+"chinese_translations": ["行为", "举止", "表现"],
+"example_sentences": "Understanding student behavior patterns can inform instructional strategies."
+},
+{
+"word": ["bias", "biases"],
+"english_synonyms": ["prejudice", "partiality", "inclination", "predilection"],
+"english_explanations": ["A tendency, inclination, or prejudice toward or against something or someone, often in an unfair way."],
+"chinese_translations": ["偏见", "偏向", "偏差"],
+"example_sentences": "Algorithmic biases in educational tools can perpetuate existing inequalities."
+},
+{
+"word": ["boundary"],
+"english_synonyms": ["limit", "border", "frontier", "threshold"],
+"english_explanations": ["A line that marks the limits of an area; a dividing line or restriction."],
+"chinese_translations": ["边界", "界限", "范围"],
+"example_sentences": "Setting clear boundaries between human and AI roles in teaching is essential."
+},
+{
+"word": ["brainstorm"],
+"english_synonyms": ["ideate", "conceive", "innovate", "think up"],
+"english_explanations": ["To generate a spontaneous group discussion to produce ideas and ways of solving problems."],
+"chinese_translations": ["头脑风暴", "集思广益", "自由讨论"],
+"example_sentences": "Students often brainstorm ideas before beginning a major writing project."
+},
+{
+"word": ["chatbot"],
+"english_synonyms": ["virtual assistant", "conversational agent", "bot", "automated responder"],
+"english_explanations": ["A computer program designed to simulate conversation with human users, especially over the internet."],
+"chinese_translations": ["聊天机器人", "对话机器人"],
+"example_sentences": "A chatbot can provide immediate feedback to students outside of classroom hours."
+},
+{
+"word": ["citation"],
+"english_synonyms": ["reference", "quotation", "attribution", "acknowledgment"],
+"english_explanations": ["A quotation from or reference to a book, paper, or author, especially in a scholarly work."],
+"chinese_translations": ["引用", "引文", "参考文献"],
+"example_sentences": "Proper citation is essential to avoid plagiarism in academic writing."
+},
+{
+"word": ["classroom"],
+"english_synonyms": ["lecture hall", "seminar room", "learning space", "schoolroom"],
+"english_explanations": ["A room in which a class of students is taught; the physical or virtual environment for instruction."],
+"chinese_translations": ["教室", "课堂", "教学环境"],
+"example_sentences": "The traditional classroom is being reimagined with digital technologies."
+},
+{
+"word": ["co-construction"],
+"english_synonyms": ["collaborative building", "joint creation", "shared development", "mutual construction"],
+"english_explanations": ["The process of building knowledge or meaning together through collaboration and dialogue."],
+"chinese_translations": ["共同建构", "协同构建"],
+"example_sentences": "Co-construction of knowledge between teachers and students enhances deeper understanding."
+},
+{
+"word": ["co-pilot"],
+"english_synonyms": ["assistant", "collaborator", "partner", "aide"],
+"english_explanations": ["A secondary operator or assistant who works alongside a primary operator; in education, an AI or peer that assists the learner."],
+"chinese_translations": ["副驾驶", "助手", "协作者"],
+"example_sentences": "AI can serve as a co-pilot to support students during complex problem-solving tasks."
+},
+{
+"word": ["cognitive"],
+"english_synonyms": ["mental", "intellectual", "perceptual", "rational"],
+"english_explanations": ["Relating to mental processes such as thinking, knowing, remembering, and reasoning."],
+"chinese_translations": ["认知的", "认识的"],
+"example_sentences": "Cognitive development is a primary goal of higher education curricula."
+},
+{
+"word": ["collectivism"],
+"english_synonyms": ["communalism", "group orientation", "cooperation", "solidarity"],
+"english_explanations": ["The practice or principle of giving a group priority over each individual in it."],
+"chinese_translations": ["集体主义", "社群主义"],
+"example_sentences": "Collectivism in learning environments can foster teamwork and shared responsibility."
+},
+{
+"word": ["competence"],
+"english_synonyms": ["capability", "proficiency", "expertise", "aptitude"],
+"english_explanations": ["The ability to do something successfully or efficiently; a combination of knowledge, skills, and attitudes."],
+"chinese_translations": ["能力", "胜任", "技能"],
+"example_sentences": "Digital competence is increasingly recognized as essential for modern citizenship."
+},
+{
+"word": ["complex"],
+"english_synonyms": ["complicated", "intricate", "sophisticated", "elaborate"],
+"english_explanations": ["Consisting of many different and connected parts; not easy to analyze or understand."],
+"chinese_translations": ["复杂的", "复合的"],
+"example_sentences": "Complex problems often require interdisciplinary approaches to solve effectively."
+},
+{
+"word": ["confidence"],
+"english_synonyms": ["self-assurance", "certainty", "conviction", "trust"],
+"english_explanations": ["The feeling or belief that one can rely on someone or something; firm trust or self-assurance."],
+"chinese_translations": ["信心", "自信", "信任"],
+"example_sentences": "Building student confidence is as important as developing their technical skills."
+},
+{
+"word": ["consequence"],
+"english_synonyms": ["result", "outcome", "effect", "repercussion"],
+"english_explanations": ["A result or effect of an action or condition, often one that is unwelcome or important."],
+"chinese_translations": ["后果", "结果", "影响"],
+"example_sentences": "The consequence of over-reliance on AI may be diminished critical thinking skills."
+},
+{
+"word": ["construct"],
+"english_synonyms": ["build", "create", "formulate", "devise"],
+"english_explanations": ["To build or form something by putting parts together; to create an idea or theory."],
+"chinese_translations": ["构建", "构造", "建立"],
+"example_sentences": "Students construct knowledge actively rather than passively receiving it."
+},
+{
+"word": ["conversation"],
+"english_synonyms": ["dialogue", "discussion", "exchange", "discourse"],
+"english_explanations": ["A talk, especially an informal one, between two or more people, in which news and ideas are exchanged."],
+"chinese_translations": ["对话", "交谈", "会话"],
+"example_sentences": "Meaningful conversation between peers deepens understanding of complex topics."
+},
+{
+"word": ["correction"],
+"english_synonyms": ["rectification", "amendment", "revision", "improvement"],
+"english_explanations": ["The action or process of correcting something, especially errors or mistakes."],
+"chinese_translations": ["纠正", "修正", "改正"],
+"example_sentences": "Immediate correction of errors can accelerate the language learning process."
+},
+{
+"word": ["creative"],
+"english_synonyms": ["innovative", "imaginative", "original", "inventive"],
+"english_explanations": ["Relating to or involving the use of imagination or original ideas to create something."],
+"chinese_translations": ["创造性的", "有创意的"],
+"example_sentences": "Creative thinking is essential for solving novel problems in the workplace."
+},
+{
+"word": ["creativity"],
+"english_synonyms": ["innovation", "imagination", "originality", "ingenuity"],
+"english_explanations": ["The use of imagination or original ideas to create something; inventiveness."],
+"chinese_translations": ["创造力", "创意", "创新性"],
+"example_sentences": "AI tools can either enhance or suppress student creativity depending on how they are used."
+},
+{
+"word": ["critical"],
+"english_synonyms": ["analytical", "evaluative", "discerning", "judicious"],
+"english_explanations": ["Involving careful judgment and evaluation; expressing adverse or disapproving comments or judgments."],
+"chinese_translations": ["批判性的", "关键的", "重要的"],
+"example_sentences": "Critical thinking enables students to evaluate information sources effectively."
+},
+{
+"word": ["dashboard"],
+"english_synonyms": ["control panel", "interface", "overview", "display"],
+"english_explanations": ["A graphical summary of various pieces of important information, typically used to give an overview of a system or performance."],
+"chinese_translations": ["仪表盘", "控制面板", "数据看板"],
+"example_sentences": "The learning dashboard provides teachers with real-time insights into student progress."
+},
+{
+"word": ["data"],
+"english_synonyms": ["information", "facts", "statistics", "figures"],
+"english_explanations": ["Facts and statistics collected together for reference or analysis."],
+"chinese_translations": ["数据", "资料"],
+"example_sentences": "Educational data must be handled with strict attention to privacy and ethics."
+},
+{
+"word": ["debugging"],
+"english_synonyms": ["troubleshooting", "error correction", "fault finding", "rectification"],
+"english_explanations": ["The process of identifying and removing errors from computer hardware or software."],
+"chinese_translations": ["调试", "排错", "除错"],
+"example_sentences": "Debugging code is a valuable skill that teaches systematic problem-solving."
+},
+{
+"word": ["decision-making"],
+"english_synonyms": ["judgment", "choice", "determination", "resolution"],
+"english_explanations": ["The action or process of making important decisions, especially in organizational or educational contexts."],
+"chinese_translations": ["决策", "做决定"],
+"example_sentences": "Data-driven decision-making can improve institutional effectiveness."
+},
+{
+"word": ["delivery"],
+"english_synonyms": ["presentation", "conveyance", "transmission", "dispensing"],
+"english_explanations": ["The manner or style of giving a speech, lecture, or educational content; the process of distributing something."],
+"chinese_translations": ["传授", "交付", "表达"],
+"example_sentences": "The delivery of online content requires different pedagogical strategies than face-to-face instruction."
+},
+{
+"word": ["demanding"],
+"english_synonyms": ["challenging", "exacting", "taxing", "rigorous"],
+"english_explanations": ["Requiring much skill or effort; difficult to satisfy or please."],
+"chinese_translations": ["要求高的", "费力的", "苛刻的"],
+"example_sentences": "Higher-order thinking tasks are cognitively demanding for students."
+},
+{
+"word": ["detect"],
+"english_synonyms": ["discover", "identify", "notice", "recognize"],
+"english_explanations": ["To discover or identify the presence or existence of something."],
+"chinese_translations": ["检测", "发现", "察觉"],
+"example_sentences": "AI systems can detect patterns in student performance that humans might miss."
+},
+{
+"word": ["development"],
+"english_synonyms": ["growth", "evolution", "progress", "advancement"],
+"english_explanations": ["The process of developing or being developed; a specified state of growth or advancement."],
+"chinese_translations": ["发展", "开发", "成长"],
+"example_sentences": "Professional development for teachers is essential for effective technology integration."
+},
+{
+"word": ["dialogue"],
+"english_synonyms": ["conversation", "discussion", "exchange", "discourse"],
+"english_explanations": ["A conversation between two or more people as a feature of a book, play, or movie; an exchange of ideas."],
+"chinese_translations": ["对话", "对白", "交流"],
+"example_sentences": "Socratic dialogue encourages students to examine their assumptions deeply."
+},
+{
+"word": ["digital"],
+"english_synonyms": ["electronic", "computerized", "automated", "virtual"],
+"english_explanations": ["Involving or relating to the use of computer technology, especially the internet."],
+"chinese_translations": ["数字的", "数码的"],
+"example_sentences": "Digital literacy has become a fundamental competency in modern education."
+},
+{
+"word": ["disclose"],
+"english_synonyms": ["reveal", "expose", "divulge", "uncover"],
+"english_explanations": ["To make new or secret information known; to allow something to be seen."],
+"chinese_translations": ["披露", "公开", "透露"],
+"example_sentences": "Institutions must disclose how student data is collected and used by AI systems."
+},
+{
+"word": ["diversity"],
+"english_synonyms": ["variety", "heterogeneity", "multiculturalism", "range"],
+"english_explanations": ["The state of being diverse; variety in a range of different things, including people, ideas, or approaches."],
+"chinese_translations": ["多样性", "多元化", "差异"],
+"example_sentences": "Diversity in the classroom enriches discussion and broadens perspectives."
+},
+{
+"word": ["efficiency"],
+"english_synonyms": ["effectiveness", "productivity", "competence", "economy"],
+"english_explanations": ["The state or quality of being able to accomplish something with the least waste of time and effort."],
+"chinese_translations": ["效率", "效能"],
+"example_sentences": "AI can improve administrative efficiency, allowing teachers to focus on instruction."
+},
+{
+"word": ["embedded"],
+"english_synonyms": ["integrated", "incorporated", "built-in", "inserted"],
+"english_explanations": ["Fixed firmly and deeply in a surrounding mass; integrated into a larger system or context."],
+"chinese_translations": ["嵌入的", "内置的", "深入的"],
+"example_sentences": "Technology should be embedded seamlessly into the curriculum rather than added superficially."
+},
+{
+"word": ["emotional"],
+"english_synonyms": ["affective", "feeling", "sentimental", "intuitive"],
+"english_explanations": ["Relating to a person's emotions, or the arousal of feelings."],
+"chinese_translations": ["情感的", "情绪的"],
+"example_sentences": "Emotional engagement is a key factor in student motivation and retention."
+},
+{
+"word": ["empathy"],
+"english_synonyms": ["compassion", "understanding", "sensitivity", "sympathy"],
+"english_explanations": ["The ability to understand and share the feelings of another person."],
+"chinese_translations": ["同理心", "共情", "移情"],
+"example_sentences": "Empathy in teaching helps educators connect with students' individual challenges."
+},
+{
+"word": ["empower"],
+"english_synonyms": ["enable", "authorize", "equip", "authorize"],
+"english_explanations": ["To give someone the authority or power to do something; to make someone stronger and more confident."],
+"chinese_translations": ["赋能", "授权", "使能够"],
+"example_sentences": "Technology should empower learners to take control of their own educational journeys."
+},
+{
+"word": ["engagement"],
+"english_synonyms": ["involvement", "participation", "commitment", "interaction"],
+"english_explanations": ["The action or process of being involved, interested, or committed in an activity or cause."],
+"chinese_translations": ["参与", "投入", "互动"],
+"example_sentences": "Student engagement is a strong predictor of academic success."
+},
+{
+"word": ["environment"],
+"english_synonyms": ["setting", "context", "surroundings", "atmosphere"],
+"english_explanations": ["The surroundings or conditions in which a person, animal, or plant lives or operates; the overall setting for learning."],
+"chinese_translations": ["环境", "氛围", "条件"],
+"example_sentences": "A supportive learning environment encourages risk-taking and intellectual growth."
+},
+{
+"word": ["equitable"],
+"english_synonyms": ["fair", "just", "impartial", "unbiased"],
+"english_explanations": ["Fair and impartial; providing equal opportunities and resources according to need."],
+"chinese_translations": ["公平的", "公正的", "平等的"],
+"example_sentences": "Ensuring equitable access to technology remains a challenge for many schools."
+},
+{
+"word": ["error"],
+"english_synonyms": ["mistake", "fault", "inaccuracy", "oversight"],
+"english_explanations": ["A mistake or inaccuracy; the state or condition of being wrong in conduct or judgment."],
+"chinese_translations": ["错误", "误差", "差错"],
+"example_sentences": "Learning from error is a fundamental part of the educational process."
+},
+{
+"word": ["essay"],
+"english_synonyms": ["composition", "paper", "article", "thesis"],
+"english_explanations": ["A short piece of writing on a particular subject, often expressing the author's personal view."],
+"chinese_translations": ["论文", "散文", "文章"],
+"example_sentences": "The traditional essay remains a staple assessment in humanities disciplines."
+},
+{
+"word": ["ethical"],
+"english_synonyms": ["moral", "principled", "righteous", "virtuous"],
+"english_explanations": ["Relating to moral principles or the branch of knowledge dealing with what is right and wrong."],
+"chinese_translations": ["伦理的", "道德的"],
+"example_sentences": "Ethical considerations must guide the deployment of AI in educational settings."
+},
+{
+"word": ["evaluate"],
+"english_synonyms": ["assess", "appraise", "judge", "measure"],
+"english_explanations": ["To form an idea of the amount, number, or value of something; to judge or assess its quality."],
+"chinese_translations": ["评估", "评价", "估算"],
+"example_sentences": "Teachers must evaluate not just what students know, but how they think."
+},
+{
+"word": ["evaluation"],
+"english_synonyms": ["assessment", "appraisal", "review", "analysis"],
+"english_explanations": ["The making of a judgment about the amount, number, or value of something; systematic determination of merit."],
+"chinese_translations": ["评估", "评价", "考核"],
+"example_sentences": "Program evaluation helps institutions determine the effectiveness of educational interventions."
+},
+{
+"word": ["experiment"],
+"english_synonyms": ["test", "trial", "investigation", "study"],
+"english_explanations": ["A scientific procedure undertaken to make a discovery, test a hypothesis, or demonstrate a known fact."],
+"chinese_translations": ["实验", "试验", "尝试"],
+"example_sentences": "Students learn best when they can experiment and learn from failure."
+},
+{
+"word": ["exposure"],
+"english_synonyms": ["contact", "experience", "familiarity", "introduction"],
+"english_explanations": ["The state of being exposed to contact with something; the experience of encountering new ideas or situations."],
+"chinese_translations": ["接触", "暴露", "体验"],
+"example_sentences": "Early exposure to diverse perspectives broadens students' worldviews."
+},
+{
+"word": ["facilitator"],
+"english_synonyms": ["moderator", "coordinator", "enabler", "guide"],
+"english_explanations": ["A person who helps to bring about an outcome by providing indirect or unobtrusive assistance, guidance, or supervision."],
+"chinese_translations": ["引导者", "促进者", "协调人"],
+"example_sentences": "In student-centered learning, the teacher acts more as a facilitator than a lecturer."
+},
+{
+"word": ["fairness"],
+"english_synonyms": ["justice", "equity", "impartiality", "evenhandedness"],
+"english_explanations": ["Impartial and just treatment or behavior without favoritism or discrimination."],
+"chinese_translations": ["公平", "公正", "合理性"],
+"example_sentences": "Fairness in AI algorithms is crucial to avoid disadvantaging certain student groups."
+},
+{
+"word": ["feedback"],
+"english_synonyms": ["response", "critique", "evaluation", "input"],
+"english_explanations": ["Information about reactions to a product, a person's performance of a task, etc., used as a basis for improvement."],
+"chinese_translations": ["反馈", "回馈", "意见"],
+"example_sentences": "Timely feedback is one of the most powerful influences on student learning."
+},
+{
+"word": ["fluency"],
+"english_synonyms": ["proficiency", "articulacy", "eloquence", "smoothness"],
+"english_explanations": ["The quality or condition of being able to express oneself easily and articulately; the ability to speak or write a foreign language with ease."],
+"chinese_translations": ["流利", "流畅", "熟练度"],
+"example_sentences": "Language fluency develops through consistent practice and meaningful interaction."
+},
+{
+"word": ["generative"],
+"english_synonyms": ["productive", "creative", "constructive", "formative"],
+"english_explanations": ["Having the ability to generate or produce something, especially new ideas, content, or possibilities."],
+"chinese_translations": ["生成性的", "有生产力的", "创造性的"],
+"example_sentences": "Generative AI can produce original text, images, and code based on user prompts."
+},
+{
+"word": ["ghostwriter"],
+"english_synonyms": ["surrogate writer", "anonymous author", "collaborative writer", "stand-in"],
+"english_explanations": ["A person who writes material for another person who is the named author; in education, using AI to write without disclosure."],
+"chinese_translations": ["代笔人", "枪手", "捉刀人"],
+"example_sentences": "Using AI as a ghostwriter for assignments raises serious academic integrity concerns."
+},
+{
+"word": ["guidance"],
+"english_synonyms": ["direction", "counsel", "advice", "supervision"],
+"english_explanations": ["Advice or information aimed at resolving a problem or difficulty, especially as given by someone in authority."],
+"chinese_translations": ["指导", "引导", "咨询"],
+"example_sentences": "Students need structured guidance to navigate complex research projects effectively."
+},
+{
+"word": ["hallucinate"],
+"english_synonyms": ["fabricate", "confabulate", "imagine falsely", "generate fiction"],
+"english_explanations": ["In the context of AI, to generate false or nonsensical information that appears plausible but is not grounded in reality."],
+"chinese_translations": ["产生幻觉", "虚构", "胡说"],
+"example_sentences": "AI models may hallucinate citations that do not exist in the real world."
+},
+{
+"word": ["higher-order"],
+"english_synonyms": ["advanced", "complex", "analytical", "evaluative"],
+"english_explanations": ["Relating to advanced cognitive processes such as analysis, evaluation, and synthesis, as opposed to basic recall."],
+"chinese_translations": ["高阶的", "高层次的"],
+"example_sentences": "Higher-order thinking skills are essential for addressing real-world problems."
+},
+{
+"word": ["humanistic"],
+"english_synonyms": ["humanitarian", "compassionate", "anthropocentric", "benevolent"],
+"english_explanations": ["Relating to or characteristic of humanism; emphasizing human dignity, concerns, and capacities."],
+"chinese_translations": ["人文主义的", "人性的", "人道的"],
+"example_sentences": "A humanistic approach to education values the whole person, not just academic achievement."
+},
+{
+"word": ["imitate"],
+"english_synonyms": ["mimic", "copy", "emulate", "replicate"],
+"english_explanations": ["To take or follow as a model; to copy the behavior, appearance, or characteristics of something."],
+"chinese_translations": ["模仿", "仿效", "模拟"],
+"example_sentences": "Students often imitate the writing styles of authors they admire before developing their own voice."
+},
+{
+"word": ["implication"],
+"english_synonyms": ["consequence", "ramification", "significance", "inference"],
+"english_explanations": ["The possible significance or effect of an action or decision; a likely consequence."],
+"chinese_translations": ["含义", "暗示", "影响"],
+"example_sentences": "The ethical implications of AI in education require careful consideration by policymakers."
+},
+{
+"word": ["independence"],
+"english_synonyms": ["autonomy", "self-reliance", "freedom", "sovereignty"],
+"english_explanations": ["The fact or state of being independent; self-governance and freedom from outside control."],
+"chinese_translations": ["独立", "自主性", "自立"],
+"example_sentences": "Fostering independence in learners prepares them for lifelong learning."
+},
+{
+"word": ["independent"],
+"english_synonyms": ["autonomous", "self-sufficient", "unaided", "unaffiliated"],
+"english_explanations": ["Free from outside control; not depending on another's authority or resources; capable of thinking or acting for oneself."],
+"chinese_translations": ["独立的", "自主的", "自立的"],
+"example_sentences": "Independent study requires strong self-discipline and time management skills."
+},
+{
+"word": ["indicator"],
+"english_synonyms": ["sign", "measure", "marker", "benchmark"],
+"english_explanations": ["A thing that indicates the state or level of something; a measurable factor that helps assess progress or quality."],
+"chinese_translations": ["指标", "指示器", "标志"],
+"example_sentences": "Student attendance is often used as an indicator of engagement and potential success."
+},
+{
+"word": ["informed consent"],
+"english_synonyms": ["voluntary agreement", "knowledgeable permission", "aware approval", "explicit authorization"],
+"english_explanations": ["Permission granted in full knowledge of the possible consequences, typically used in research or data collection involving human subjects."],
+"chinese_translations": ["知情同意", "知情授权"],
+"example_sentences": "Researchers must obtain informed consent before collecting student data for studies."
+},
+{
+"word": ["infrastructure"],
+"english_synonyms": ["framework", "structure", "foundation", "system"],
+"english_explanations": ["The basic physical and organizational structures and facilities needed for the operation of a society or enterprise."],
+"chinese_translations": ["基础设施", "基础建设", "架构"],
+"example_sentences": "Reliable digital infrastructure is necessary for effective online learning."
+},
+{
+"word": ["initiative"],
+"english_synonyms": ["enterprise", "drive", "ambition", "resourcefulness"],
+"english_explanations": ["The ability to assess and initiate things independently; a new plan or process to achieve a particular aim."],
+"chinese_translations": ["主动性", "积极性", "倡议"],
+"example_sentences": "Students who show initiative often excel in project-based learning environments."
+},
+{
+"word": ["instructor"],
+"english_synonyms": ["teacher", "lecturer", "educator", "trainer"],
+"english_explanations": ["A person who teaches something, especially in a college, university, or professional training context."],
+"chinese_translations": ["讲师", "指导者", "教员"],
+"example_sentences": "The instructor facilitated a discussion rather than delivering a traditional lecture."
+},
+{
+"word": ["institution"],
+"english_synonyms": ["organization", "establishment", "foundation", "body"],
+"english_explanations": ["An organization founded for a religious, educational, professional, or social purpose; an established law or practice."],
+"chinese_translations": ["机构", "制度", "院校"],
+"example_sentences": "The institution implemented new policies regarding AI use in student assignments."
+},
+{
+"word": ["integrate", "integration"],
+"english_synonyms": ["incorporate", "combine", "merge", "unify"],
+"english_explanations": ["To combine one thing with another so that they become a whole; the process of uniting different groups or systems."],
+"chinese_translations": ["整合", "融合", "集成"],
+"example_sentences": "Successful integration of technology requires changes in pedagogy, not just equipment."
+},
+{
+"word": ["intellectual"],
+"english_synonyms": ["cognitive", "mental", "academic", "scholarly"],
+"english_explanations": ["Relating to the intellect or mental faculties; a person possessing a highly developed intellect."],
+"chinese_translations": ["智力的", "知识的", "知识分子"],
+"example_sentences": "Intellectual curiosity drives students to explore topics beyond the curriculum."
+},
+{
+"word": ["interact"],
+"english_synonyms": ["communicate", "engage", "collaborate", "interface"],
+"english_explanations": ["To act in such a way as to have an effect on another; to communicate or engage with others."],
+"chinese_translations": ["互动", "交流", "相互作用"],
+"example_sentences": "Students interact with the material more deeply when they must teach it to peers."
+},
+{
+"word": ["intermediary"],
+"english_synonyms": ["mediator", "go-between", "broker", "facilitator"],
+"english_explanations": ["A person who acts as a link between people in order to try to bring about an agreement or facilitate communication."],
+"chinese_translations": ["中介", "中间人", "媒介"],
+"example_sentences": "AI can serve as an intermediary between students and complex subject matter."
+},
+{
+"word": ["intrinsic"],
+"english_synonyms": ["inherent", "innate", "internal", "essential"],
+"english_explanations": ["Belonging naturally; essential to the nature of something, rather than coming from outside."],
+"chinese_translations": ["内在的", "固有的", "本质的"],
+"example_sentences": "Intrinsic motivation leads to deeper and more sustained learning than extrinsic rewards."
+},
+{
+"word": ["judgment"],
+"english_synonyms": ["discernment", "assessment", "evaluation", "decision"],
+"english_explanations": ["The ability to make decisions or come to sensible conclusions; an opinion or estimate formed after careful consideration."],
+"chinese_translations": ["判断", "判断力", "裁决"],
+"example_sentences": "Critical judgment is essential when evaluating the credibility of online sources."
+},
+{
+"word": ["knowledge"],
+"english_synonyms": ["understanding", "comprehension", "expertise", "wisdom"],
+"english_explanations": ["Facts, information, and skills acquired through experience or education; the theoretical or practical understanding of a subject."],
+"chinese_translations": ["知识", "学问", "认识"],
+"example_sentences": "Knowledge construction is an active process requiring engagement and reflection."
+},
+{
+"word": ["learner"],
+"english_synonyms": ["student", "pupil", "trainee", "apprentice"],
+"english_explanations": ["A person who is learning a subject or skill; someone who acquires knowledge or abilities."],
+"chinese_translations": ["学习者", "学生"],
+"example_sentences": "The modern learner must be able to navigate vast amounts of digital information."
+},
+{
+"word": ["learning"],
+"english_synonyms": ["education", "study", "acquisition", "training"],
+"english_explanations": ["The acquisition of knowledge or skills through study, experience, or being taught."],
+"chinese_translations": ["学习", "学问"],
+"example_sentences": "Lifelong learning is essential in a rapidly changing technological landscape."
+},
+{
+"word": ["linguistic"],
+"english_synonyms": ["language-related", "philological", "semantic", "grammatical"],
+"english_explanations": ["Relating to language or the study of language."],
+"chinese_translations": ["语言的", "语言学的"],
+"example_sentences": "Linguistic diversity in classrooms presents both challenges and opportunities for educators."
+},
+{
+"word": ["literacy"],
+"english_synonyms": ["competence", "proficiency", "fluency", "capability"],
+"english_explanations": ["The ability to read and write; competence or knowledge in a specified area such as digital or media literacy."],
+"chinese_translations": ["读写能力", "素养", "识字"],
+"example_sentences": "Digital literacy is now considered as fundamental as traditional reading and writing."
+},
+{
+"word": ["machine learning"],
+"english_synonyms": ["automated learning", "computational learning", "statistical learning", "pattern recognition"],
+"english_explanations": ["A type of artificial intelligence that enables computers to learn and improve from experience without being explicitly programmed."],
+"chinese_translations": ["机器学习", "自动学习"],
+"example_sentences": "Machine learning algorithms can personalize educational content based on student behavior."
+},
+{
+"word": ["manage"],
+"english_synonyms": ["handle", "direct", "control", "administer"],
+"english_explanations": ["To be in charge of; to succeed in dealing with or controlling something difficult."],
+"chinese_translations": ["管理", "处理", "控制"],
+"example_sentences": "Students must learn to manage their time effectively when working on long-term projects."
+},
+{
+"word": ["mentoring"],
+"english_synonyms": ["guidance", "coaching", "tutoring", "counseling"],
+"english_explanations": ["To advise or train someone, especially a younger colleague or student; the practice of providing guidance and support."],
+"chinese_translations": ["指导", "辅导", " mentorship"],
+"example_sentences": "Mentoring relationships can significantly impact student retention and success."
+},
+{
+"word": ["metacognitive"],
+"english_synonyms": ["self-reflective", "introspective", "aware", "monitoring"],
+"english_explanations": ["Relating to awareness and understanding of one's own thought processes and learning strategies."],
+"chinese_translations": ["元认知的", "反省认知的"],
+"example_sentences": "Metacognitive strategies help students become aware of their own learning processes."
+},
+{
+"word": ["model"],
+"english_synonyms": ["example", "paradigm", "prototype", "framework"],
+"english_explanations": ["A three-dimensional representation of a person or thing; a system or thing used as an example to follow or imitate; a simplified description of a system."],
+"chinese_translations": ["模型", "范例", "模范"],
+"example_sentences": "Teachers serve as role models for critical thinking and ethical behavior."
+},
+{
+"word": ["monitor"],
+"english_synonyms": ["observe", "track", "supervise", "check"],
+"english_explanations": ["To observe and check the progress or quality of something over a period of time; to keep under systematic review."],
+"chinese_translations": ["监控", "监测", "监督"],
+"example_sentences": "Teachers monitor student progress to identify those who may need additional support."
+},
+{
+"word": ["motivation"],
+"english_synonyms": ["incentive", "drive", "ambition", "enthusiasm"],
+"english_explanations": ["The reason or reasons one has for acting or behaving in a particular way; the general desire or willingness to do something."],
+"chinese_translations": ["动机", "积极性", "动力"],
+"example_sentences": "Intrinsic motivation is more sustainable than motivation driven by external rewards."
+},
+{
+"word": ["multilingual"],
+"english_synonyms": ["polyglot", "bilingual", "multilanguage", "plurilingual"],
+"english_explanations": ["Using or having the ability to use several languages; relating to several languages."],
+"chinese_translations": ["多语言的", "使用多种语言的"],
+"example_sentences": "Multilingual learners bring valuable linguistic resources to the classroom."
+},
+{
+"word": ["natural language processing"],
+"english_synonyms": ["computational linguistics", "NLP", "language technology", "text analytics"],
+"english_explanations": ["A branch of artificial intelligence that helps computers understand, interpret, and manipulate human language."],
+"chinese_translations": ["自然语言处理", "自然语言理解"],
+"example_sentences": "Natural language processing enables chatbots to understand and respond to student queries."
+},
+{
+"word": ["originality"],
+"english_synonyms": ["creativity", "innovation", "novelty", "uniqueness"],
+"english_explanations": ["The ability to think independently and creatively; the quality of being new and original rather than derived from something else."],
+"chinese_translations": ["原创性", "独创性", "新颖性"],
+"example_sentences": "Originality in student work is increasingly difficult to verify in the age of AI."
+},
+{
+"word": ["outcome"],
+"english_synonyms": ["result", "consequence", "effect", "output"],
+"english_explanations": ["The way a thing turns out; a consequence or result of an action, process, or situation."],
+"chinese_translations": ["结果", "成果", "产出"],
+"example_sentences": "Learning outcomes should guide the design of assessments and activities."
+},
+{
+"word": ["ownership"],
+"english_synonyms": ["possession", "responsibility", "control", "stewardship"],
+"english_explanations": ["The act, state, or right of possessing something; taking responsibility for one's learning or work."],
+"chinese_translations": ["所有权", "拥有", "责任感"],
+"example_sentences": "Student ownership of learning increases when they have choices in topics and methods."
+},
+{
+"word": ["paradox"],
+"english_synonyms": ["contradiction", "dilemma", "enigma", "inconsistency"],
+"english_explanations": ["A seemingly absurd or self-contradictory statement or proposition that may actually be true; a situation that defies intuition."],
+"chinese_translations": ["悖论", "矛盾", "似是而非"],
+"example_sentences": "There is a paradox in using AI to teach critical thinking while potentially undermining it."
+},
+{
+"word": ["passive"],
+"english_synonyms": ["inactive", "submissive", "receptive", "uninvolved"],
+"english_explanations": ["Accepting or allowing what happens or what others do, without active response or resistance; not participating actively."],
+"chinese_translations": ["被动的", "消极的", "被动的"],
+"example_sentences": "Passive learning, where students only receive information, is less effective than active engagement."
+},
+{
+"word": ["pedagogical"],
+"english_synonyms": ["educational", "instructional", "didactic", "teaching"],
+"english_explanations": ["Relating to teaching, education, or the methods and practice of teaching."],
+"chinese_translations": ["教学的", "教育学的", "教学法上的"],
+"example_sentences": "Pedagogical innovation is necessary to fully leverage the potential of educational technology."
+},
+{
+"word": ["performance"],
+"english_synonyms": ["achievement", "execution", "accomplishment", "output"],
+"english_explanations": ["The action or process of performing a task or function; the extent to which a student or system fulfills intended goals."],
+"chinese_translations": ["表现", "绩效", "成绩"],
+"example_sentences": "Student performance data should be used to improve instruction, not just to rank students."
+},
+{
+"word": ["personalize"],
+"english_synonyms": ["customize", "tailor", "individualize", "adapt"],
+"english_explanations": ["To design or produce something to meet someone's individual requirements or preferences."],
+"chinese_translations": ["个性化", "定制", "使个性化"],
+"example_sentences": "AI can personalize learning paths based on individual student strengths and weaknesses."
+},
+{
+"word": ["plagiarism"],
+"english_synonyms": ["copying", "cheating", "intellectual theft", "appropriation"],
+"english_explanations": ["The practice of taking someone else's work or ideas and passing them off as one's own; academic dishonesty."],
+"chinese_translations": ["抄袭", "剽窃", "学术不端"],
+"example_sentences": "The ease of copying digital content has made plagiarism a persistent concern in education."
+},
+{
+"word": ["platform"],
+"english_synonyms": ["system", "environment", "framework", "infrastructure"],
+"english_explanations": ["A raised level surface on which people or things can stand; a software or hardware system that serves as a foundation for applications."],
+"chinese_translations": ["平台", "舞台", "系统"],
+"example_sentences": "The learning management platform hosts course materials and facilitates communication."
+},
+{
+"word": ["policy"],
+"english_synonyms": ["procedure", "guideline", "regulation", "protocol"],
+"english_explanations": ["A course or principle of action adopted or proposed by an organization or individual; a deliberate system of principles."],
+"chinese_translations": ["政策", "方针", "规定"],
+"example_sentences": "Clear policy on AI use helps students understand academic integrity expectations."
+},
+{
+"word": ["predict"],
+"english_synonyms": ["forecast", "anticipate", "project", "foretell"],
+"english_explanations": ["To say or estimate that a specified thing will happen in the future or will be a consequence of something."],
+"chinese_translations": ["预测", "预言", "预示"],
+"example_sentences": "AI systems can predict student dropout risk based on engagement patterns."
+},
+{
+"word": ["principle"],
+"english_synonyms": ["rule", "tenet", "doctrine", "fundamental"],
+"english_explanations": ["A fundamental truth or proposition that serves as the foundation for a system of belief or behavior; a general scientific theorem or law."],
+"chinese_translations": ["原则", "原理", "准则"],
+"example_sentences": "The principle of fairness should underpin all educational technology implementations."
+},
+{
+"word": ["privacy"],
+"english_synonyms": ["confidentiality", "secrecy", "discretion", "solitude"],
+"english_explanations": ["The state or condition of being free from being observed or disturbed by other people; the right to keep personal information secret."],
+"chinese_translations": ["隐私", "私密", "独处"],
+"example_sentences": "Student data privacy is a paramount concern when implementing AI in schools."
+},
+{
+"word": ["process"],
+"english_synonyms": ["procedure", "method", "operation", "system"],
+"english_explanations": ["A series of actions or steps taken in order to achieve a particular end; a natural series of changes."],
+"chinese_translations": ["过程", "流程", "处理"],
+"example_sentences": "Learning is not just about outcomes but also about the process of inquiry and discovery."
+},
+{
+"word": ["productivity"],
+"english_synonyms": ["efficiency", "output", "effectiveness", "yield"],
+"english_explanations": ["The effectiveness of productive effort, especially in industry, as measured in terms of the rate of output per unit of input."],
+"chinese_translations": ["生产力", "效率", "产出"],
+"example_sentences": "AI tools can increase teacher productivity by automating routine administrative tasks."
+},
+{
+"word": ["proficiency"],
+"english_synonyms": ["competence", "mastery", "expertise", "fluency"],
+"english_explanations": ["A high degree of competence or skill; advanced ability in a particular subject or activity."],
+"chinese_translations": ["熟练度", "精通", "能力"],
+"example_sentences": "Language proficiency is typically measured across reading, writing, speaking, and listening."
+},
+{
+"word": ["programming"],
+"english_synonyms": ["coding", "software development", "scripting", "computing"],
+"english_explanations": ["The process of writing computer programs; the activity of scheduling or planning events."],
+"chinese_translations": ["编程", "程序设计", "规划"],
+"example_sentences": "Programming literacy is becoming as important as traditional literacy in the digital age."
+},
+{
+"word": ["progress"],
+"english_synonyms": ["advancement", "development", "improvement", "headway"],
+"english_explanations": ["Forward or onward movement toward a destination or goal; development or improvement over time."],
+"chinese_translations": ["进步", "进展", "发展"],
+"example_sentences": "Regular feedback helps students track their progress and identify areas for improvement."
+},
+{
+"word": ["project"],
+"english_synonyms": ["undertaking", "enterprise", "assignment", "initiative"],
+"english_explanations": ["An individual or collaborative enterprise that is carefully planned and designed to achieve a particular aim; a school assignment."],
+"chinese_translations": ["项目", "课题", "工程"],
+"example_sentences": "Project-based learning encourages students to apply knowledge to real-world problems."
+},
+{
+"word": ["recommendation"],
+"english_synonyms": ["suggestion", "advice", "endorsement", "proposal"],
+"english_explanations": ["A suggestion or proposal as to the best course of action, especially one put forward by an authoritative body."],
+"chinese_translations": ["建议", "推荐", "劝告"],
+"example_sentences": "AI can provide personalized recommendations for further study based on student performance."
+},
+{
+"word": ["reflection"],
+"english_synonyms": ["contemplation", "meditation", "consideration", "introspection"],
+"english_explanations": ["Serious thought or consideration about something; the image of something in a mirror or other reflective surface."],
+"chinese_translations": ["反思", "思考", "反省"],
+"example_sentences": "Reflection on one's learning process is essential for deep understanding."
+},
+{
+"word": ["regulate"],
+"english_synonyms": ["control", "manage", "supervise", "govern"],
+"english_explanations": ["To control or maintain the rate or speed of a machine or process so that it operates properly; to control or supervise by means of rules and regulations."],
+"chinese_translations": ["调节", "管理", "控制"],
+"example_sentences": "Schools must regulate AI use to ensure it supports rather than replaces learning."
+},
+{
+"word": ["reliance"],
+"english_synonyms": ["dependence", "trust", "confidence", "dependency"],
+"english_explanations": ["Dependence on or trust in someone or something; the state of needing something for support."],
+"chinese_translations": ["依赖", "依靠", "信任"],
+"example_sentences": "Excessive reliance on AI may undermine the development of independent problem-solving skills."
+},
+{
+"word": ["reliability"],
+"english_synonyms": ["dependability", "trustworthiness", "consistency", "stability"],
+"english_explanations": ["The quality of being trustworthy or of performing consistently well; the degree to which something can be depended on."],
+"chinese_translations": ["可靠性", "可信度", "稳定性"],
+"example_sentences": "The reliability of AI-generated content must be verified before use in academic work."
+},
+{
+"word": ["replace"],
+"english_synonyms": ["substitute", "supersede", "supplant", "displace"],
+"english_explanations": ["To take the place of; to substitute for something or someone; to put something back in its place."],
+"chinese_translations": ["替代", "取代", "更换"],
+"example_sentences": "The goal of AI should be to augment teaching, not to replace human educators."
+},
+{
+"word": ["reproduce"],
+"english_synonyms": ["replicate", "copy", "duplicate", "generate"],
+"english_explanations": ["To produce a copy of; to make something happen again in the same way; to produce offspring."],
+"chinese_translations": ["复制", "再现", "繁殖"],
+"example_sentences": "Students should understand ideas deeply rather than merely reproduce information from sources."
+},
+{
+"word": ["research"],
+"english_synonyms": ["investigation", "study", "inquiry", "exploration"],
+"english_explanations": ["The systematic investigation into and study of materials and sources in order to establish facts and reach new conclusions."],
+"chinese_translations": ["研究", "调查", "探索"],
+"example_sentences": "Research skills are fundamental to higher education and lifelong learning."
+},
+{
+"word": ["resilience"],
+"english_synonyms": ["toughness", "adaptability", "flexibility", "recovery"],
+"english_explanations": ["The capacity to recover quickly from difficulties; the ability of a substance or object to spring back into shape."],
+"chinese_translations": ["韧性", "弹性", "恢复力"],
+"example_sentences": "Resilience in the face of academic challenges is a key predictor of long-term success."
+},
+{
+"word": ["responsibility"],
+"english_synonyms": ["accountability", "duty", "obligation", "trustworthiness"],
+"english_explanations": ["The state or fact of having a duty to deal with something or of having control over someone; the state of being accountable."],
+"chinese_translations": ["责任", "职责", "义务"],
+"example_sentences": "Students must take responsibility for their own learning and academic integrity."
+},
+{
+"word": ["responsible"],
+"english_synonyms": ["accountable", "trustworthy", "reliable", "dependable"],
+"english_explanations": ["Having an obligation to do something, or having control over or care for someone; being the primary cause of something."],
+"chinese_translations": ["负责任的", "可靠的", "有责任的"],
+"example_sentences": "Responsible use of AI requires understanding its limitations and biases."
+},
+{
+"word": ["retention"],
+"english_synonyms": ["preservation", "memory", "recall", "keeping"],
+"english_explanations": ["The continued possession, use, or control of something; the ability to remember information over time."],
+"chinese_translations": ["保留", "保持", "记忆力"],
+"example_sentences": "Active learning strategies improve long-term retention of material."
+},
+{
+"word": ["risk"],
+"english_synonyms": ["danger", "hazard", "threat", "peril"],
+"english_explanations": ["A situation involving exposure to danger; the possibility that something unpleasant or unwelcome will happen."],
+"chinese_translations": ["风险", "危险", "危害"],
+"example_sentences": "There is a risk that over-reliance on technology may diminish human connection in education."
+},
+{
+"word": ["role"],
+"english_synonyms": ["function", "position", "capacity", "duty"],
+"english_explanations": ["The function assumed or part played by a person or thing in a particular situation; a character or part in a performance."],
+"chinese_translations": ["角色", "作用", "职责"],
+"example_sentences": "The role of the teacher is evolving from knowledge transmitter to learning facilitator."
+},
+{
+"word": ["schema"],
+"english_synonyms": ["framework", "structure", "model", "blueprint"],
+"english_explanations": ["A representation of a plan or theory in the form of an outline or model; a mental framework for organizing knowledge."],
+"chinese_translations": ["模式", "框架", "图式"],
+"example_sentences": "Existing schemas help learners integrate new information with prior knowledge."
+},
+{
+"word": ["security"],
+"english_synonyms": ["safety", "protection", "defense", "safeguarding"],
+"english_explanations": ["The state of being free from danger or threat; measures taken to protect against espionage or attack."],
+"chinese_translations": ["安全", "保障", "保安"],
+"example_sentences": "Data security is essential when storing sensitive student information in digital systems."
+},
+{
+"word": ["self-determination"],
+"english_synonyms": ["autonomy", "independence", "free will", "self-governance"],
+"english_explanations": ["The process by which a person controls their own life; the right of a people to choose their own political status."],
+"chinese_translations": ["自决", "自主", "自我决定"],
+"example_sentences": "Self-determination theory emphasizes autonomy as a key motivator in education."
+},
+{
+"word": ["self-discipline"],
+"english_synonyms": ["self-control", "willpower", "restraint", "diligence"],
+"english_explanations": ["The ability to control one's feelings and overcome one's weaknesses; the ability to pursue what one thinks is right despite temptations."],
+"chinese_translations": ["自律", "自我约束", "自制力"],
+"example_sentences": "Self-discipline is essential for success in online learning environments."
+},
+{
+"word": ["self-regulation"],
+"english_synonyms": ["self-control", "self-management", "autonomy", "monitoring"],
+"english_explanations": ["The ability to manage one's own emotions, behavior, and thoughts in pursuit of goals; the process of controlling one's own learning."],
+"chinese_translations": ["自我调节", "自律", "自主管理"],
+"example_sentences": "Self-regulation skills enable students to monitor and adjust their learning strategies."
+},
+{
+"word": ["sensitive"],
+"english_synonyms": ["delicate", "vulnerable", "responsive", "perceptive"],
+"english_explanations": ["Quick to detect or respond to slight changes, signals, or influences; easily damaged or injured; requiring careful handling."],
+"chinese_translations": ["敏感的", "灵敏的", "微妙的"],
+"example_sentences": "Sensitive student data must be protected with strict privacy measures."
+},
+{
+"word": ["simulate"],
+"english_synonyms": ["imitate", "replicate", "model", "emulate"],
+"english_explanations": ["To imitate the appearance or character of; to create a computer model of a process or system."],
+"chinese_translations": ["模拟", "仿真", "模仿"],
+"example_sentences": "Virtual reality can simulate real-world scenarios for safe, repeatable practice."
+},
+{
+"word": ["skill"],
+"english_synonyms": ["ability", "competence", "proficiency", "expertise"],
+"english_explanations": ["The ability to do something well; expertise or practical ability acquired through training or experience."],
+"chinese_translations": ["技能", "技巧", "能力"],
+"example_sentences": "Critical thinking is a foundational skill for academic and professional success."
+},
+{
+"word": ["source"],
+"english_synonyms": ["origin", "reference", "authority", "provenance"],
+"english_explanations": ["A place, person, or thing from which something originates or can be obtained; a book or document used to provide evidence in research."],
+"chinese_translations": ["来源", "出处", "资源"],
+"example_sentences": "Evaluating the credibility of sources is a crucial academic skill."
+},
+{
+"word": ["strategic"],
+"english_synonyms": ["tactical", "planned", "calculated", "deliberate"],
+"english_explanations": ["Relating to the identification of long-term or overall aims and interests and the means of achieving them; carefully planned."],
+"chinese_translations": ["战略的", "策略性的", "有计划的"],
+"example_sentences": "Strategic planning is necessary for effective institutional change."
+},
+{
+"word": ["structure"],
+"english_synonyms": ["organization", "framework", "arrangement", "construction"],
+"english_explanations": ["The arrangement of and relations between the parts or elements of something complex; a building or other constructed object."],
+"chinese_translations": ["结构", "构造", "组织"],
+"example_sentences": "Clear structure in writing helps readers follow the author's argument."
+},
+{
+"word": ["submit"],
+"english_synonyms": ["hand in", "present", "deliver", "tender"],
+"english_explanations": ["To accept or yield to a superior force or to the authority or will of another person; to present a proposal or document for consideration."],
+"chinese_translations": ["提交", "屈服", "呈交"],
+"example_sentences": "Students must submit their essays by the deadline to avoid penalties."
+},
+{
+"word": ["substitute"],
+"english_synonyms": ["replacement", "alternative", "proxy", "stand-in"],
+"english_explanations": ["A person or thing acting or serving in place of another; to replace one thing with another."],
+"chinese_translations": ["替代品", "代替", "替补"],
+"example_sentences": "AI should not be seen as a substitute for human interaction in education."
+},
+{
+"word": ["superficial"],
+"english_synonyms": ["shallow", "surface-level", "cosmetic", "peripheral"],
+"english_explanations": ["Existing or occurring at or on the surface; appearing to be true or real only until examined more closely; lacking depth."],
+"chinese_translations": ["表面的", "肤浅的", "浅薄的"],
+"example_sentences": "Superficial engagement with material leads to poor long-term retention."
+},
+{
+"word": ["supportive"],
+"english_synonyms": ["encouraging", "helpful", "constructive", "nurturing"],
+"english_explanations": ["Providing encouragement or emotional help; furnishing support or assistance."],
+"chinese_translations": ["支持的", "鼓励的", "有帮助的"],
+"example_sentences": "A supportive learning environment reduces anxiety and promotes risk-taking."
+},
+{
+"word": ["surveillance"],
+"english_synonyms": ["monitoring", "observation", "supervision", "scrutiny"],
+"english_explanations": ["Close observation, especially of a suspected spy or criminal; the monitoring of behavior, activities, or information for control purposes."],
+"chinese_translations": ["监控", "监视", "监督"],
+"example_sentences": "The use of surveillance technology in schools raises significant privacy concerns."
+},
+{
+"word": ["synthesis"],
+"english_synonyms": ["integration", "combination", "fusion", "amalgamation"],
+"english_explanations": ["The combination of components or elements to form a connected whole; the production of chemical compounds by reaction from simpler materials."],
+"chinese_translations": ["综合", "合成", "整合"],
+"example_sentences": "Synthesis of ideas from multiple sources is a hallmark of advanced thinking."
+},
+{
+"word": ["synthetic"],
+"english_synonyms": ["artificial", "man-made", "manufactured", "imitation"],
+"english_explanations": ["Made by chemical synthesis, especially to imitate a natural product; not genuine or natural."],
+"chinese_translations": ["合成的", "人造的", "虚假的"],
+"example_sentences": "Synthetic media generated by AI challenges our ability to distinguish real from fake content."
+},
+{
+"word": ["systematic"],
+"english_synonyms": ["methodical", "organized", "structured", "orderly"],
+"english_explanations": ["Done or acting according to a fixed plan or system; methodical and organized in procedure."],
+"chinese_translations": ["系统的", "有条理的", "有组织的"],
+"example_sentences": "Systematic review of literature is essential for rigorous research."
+},
+{
+"word": ["task"],
+"english_synonyms": ["assignment", "job", "duty", "undertaking"],
+"english_explanations": ["A piece of work to be done or undertaken; a difficult or tedious undertaking."],
+"chinese_translations": ["任务", "作业", "工作"],
+"example_sentences": "Breaking complex tasks into smaller steps makes them more manageable for learners."
+},
+{
+"word": ["technical"],
+"english_synonyms": ["technological", "specialized", "mechanical", "expert"],
+"english_explanations": ["Relating to a particular subject, art, or craft, or its techniques; involving or concerned with applied and industrial sciences."],
+"chinese_translations": ["技术的", "专业的", "工艺的"],
+"example_sentences": "Technical skills must be balanced with critical thinking and creativity."
+},
+{
+"word": ["technology"],
+"english_synonyms": ["innovation", "machinery", "equipment", "digital tools"],
+"english_explanations": ["The application of scientific knowledge for practical purposes, especially in industry; machinery and equipment developed from such application."],
+"chinese_translations": ["技术", "科技", "工艺"],
+"example_sentences": "Technology in education should serve pedagogical goals, not drive them."
+},
+{
+"word": ["tool"],
+"english_synonyms": ["instrument", "implement", "device", "resource"],
+"english_explanations": ["A device or implement, especially one held in the hand, used to carry out a particular function; a means of achieving something."],
+"chinese_translations": ["工具", "手段", "器具"],
+"example_sentences": "AI is a tool that amplifies human capabilities rather than replacing them."
+},
+{
+"word": ["trace"],
+"english_synonyms": ["track", "follow", "detect", "identify"],
+"english_explanations": ["To find or discover by investigation; to follow the course or position of something; a very small quantity of something."],
+"chinese_translations": ["追踪", "追溯", "痕迹"],
+"example_sentences": "It can be difficult to trace the original source of AI-generated content."
+},
+{
+"word": ["training"],
+"english_synonyms": ["instruction", "education", "preparation", "coaching"],
+"english_explanations": ["The action of teaching a person or animal a particular skill or type of behavior; the process of developing physical fitness."],
+"chinese_translations": ["训练", "培训", "培养"],
+"example_sentences": "Teacher training must include preparation for integrating AI into instruction."
+},
+{
+"word": ["transformation"],
+"english_synonyms": ["change", "conversion", "metamorphosis", "revolution"],
+"english_explanations": ["A thorough or dramatic change in form or appearance; the process of changing from one state to another."],
+"chinese_translations": ["转变", "转型", "变革"],
+"example_sentences": "Digital transformation is reshaping every aspect of education delivery."
+},
+{
+"word": ["transmit"],
+"english_synonyms": ["convey", "communicate", "send", "impart"],
+"english_explanations": ["To cause something to pass on from one person or place to another; to broadcast or send out signals."],
+"chinese_translations": ["传输", "传播", "传递"],
+"example_sentences": "The internet transmits vast amounts of educational content across the globe."
+},
+{
+"word": ["transparent"],
+"english_synonyms": ["clear", "open", "honest", "unambiguous"],
+"english_explanations": ["Allowing light to pass through so that objects behind can be seen distinctly; easy to perceive or detect; operating openly without hidden agendas."],
+"chinese_translations": ["透明的", "清晰的", "公开的"],
+"example_sentences": "Transparent AI systems allow users to understand how decisions are made."
+},
+{
+"word": ["tutor"],
+"english_synonyms": ["instructor", "teacher", "coach", "mentor"],
+"english_explanations": ["A private teacher, typically one who teaches a single student or a very small group; to act as a tutor to someone."],
+"chinese_translations": ["导师", "家教", "辅导教师"],
+"example_sentences": "A tutor can provide individualized attention that is difficult in large classes."
+},
+{
+"word": ["tutoring"],
+"english_synonyms": ["coaching", "instruction", "mentoring", "guidance"],
+"english_explanations": ["The act of giving individualized instruction to a student; supplementary teaching outside of regular classes."],
+"chinese_translations": ["辅导", "家教", "指导"],
+"example_sentences": "Peer tutoring benefits both the tutor and the student receiving help."
+},
+{
+"word": ["uncritical"],
+"english_synonyms": ["unquestioning", "accepting", "naive", "undiscriminating"],
+"english_explanations": ["Not expressing or involving criticism or careful analysis; accepting something without questioning its validity."],
+"chinese_translations": ["不加批判的", "盲目的", "无鉴别力的"],
+"example_sentences": "Uncritical acceptance of AI-generated information can lead to misinformation."
+},
+{
+"word": ["undermine"],
+"english_synonyms": ["weaken", "sabotage", "subvert", "damage"],
+"english_explanations": ["To erode the base or foundation of something; to lessen the effectiveness, power, or ability of someone or something gradually."],
+"chinese_translations": ["破坏", "削弱", "损害"],
+"example_sentences": "Over-reliance on AI may undermine students' development of independent thinking."
+},
+{
+"word": ["verify"],
+"english_synonyms": ["confirm", "validate", "authenticate", "substantiate"],
+"english_explanations": ["To make sure or demonstrate that something is true, accurate, or justified; to check the accuracy of something."],
+"chinese_translations": ["验证", "核实", "确认"],
+"example_sentences": "Students should verify AI-generated information using authoritative sources."
+},
+{
+"word": ["virtual"],
+"english_synonyms": ["digital", "online", "simulated", "remote"],
+"english_explanations": ["Not physically existing as such but made by software to appear to do so; carried out, accessed, or stored by means of a computer."],
+"chinese_translations": ["虚拟的", "数字的", "在线的"],
+"example_sentences": "Virtual classrooms enable learning to continue regardless of physical location."
+},
+{
+"word": ["vocabulary"],
+"english_synonyms": ["lexicon", "terminology", "word stock", "language"],
+"english_explanations": ["The body of words used in a particular language or by a particular person or group; the range of language known to an individual."],
+"chinese_translations": ["词汇", "词汇量", "词表"],
+"example_sentences": "Academic vocabulary must be explicitly taught for students to succeed in higher education."
+},
+{
+"word": ["weakness"],
+"english_synonyms": ["vulnerability", "deficiency", "frailty", "shortcoming"],
+"english_explanations": ["The state or condition of lacking strength; a disadvantage or fault; a person or thing that one is unable to resist."],
+"chinese_translations": ["弱点", "缺点", "劣势"],
+"example_sentences": "Identifying one's weaknesses is the first step toward improvement."
+},
+{
+"word": ["writing"],
+"english_synonyms": ["composition", "authorship", "script", "prose"],
+"english_explanations": ["The activity or skill of marking coherent words on paper and composing text; the written work produced by a person."],
+"chinese_translations": ["写作", "书写", "作品"],
+"example_sentences": "Writing is a complex cognitive process that involves planning, drafting, and revising."
+}
+]

@@ -2,16 +2,52 @@ import type { ProcessedWord, CardMode, QuizCard, CardOption } from '../types'
 import { shuffle, pickRandom } from '../utils/shuffle'
 
 /**
+ * Pick distractor words whose given field doesn't overlap with the target's.
+ * Falls back to all other words if too few non-overlapping ones exist.
+ */
+function pickWordDistractors(
+  target: ProcessedWord,
+  words: ProcessedWord[],
+  field: 'chinese_translations' | 'english_explanations',
+  count: number
+): CardOption[] {
+  const targetSet = new Set(target[field])
+  const nonOverlapping = words.filter(
+    w => w.id !== target.id && !w[field].some(e => targetSet.has(e))
+  )
+  const pool = nonOverlapping.length >= count ? nonOverlapping : words.filter(w => w.id !== target.id)
+  return pickRandom(pool, Math.min(count, pool.length))
+    .map(w => ({ label: pickRandom(w.word, 1)[0], isCorrect: false }))
+}
+
+/**
+ * Pick distractors from a string field across other words.
+ */
+function pickFieldDistractors(
+  target: ProcessedWord,
+  words: ProcessedWord[],
+  field: 'chinese_translations' | 'english_synonyms',
+  correctValue: string,
+  count: number
+): CardOption[] {
+  const allOther = words
+    .filter(w => w.id !== target.id)
+    .flatMap(w => w[field])
+    .filter(v => v !== correctValue)
+
+  const uniqueOthers = [...new Set(allOther)]
+  return pickRandom(uniqueOthers, Math.min(count, uniqueOthers.length))
+    .map(v => ({ label: v, isCorrect: false }))
+}
+
+/**
  * Generate a quiz card for the given word and mode.
  */
 export function generateCard(
-  wordId: number,
+  target: ProcessedWord,
   words: ProcessedWord[],
   mode: CardMode
 ): QuizCard {
-  const target = words.find(w => w.id === wordId)
-  if (!target) throw new Error(`Word with id ${wordId} not found`)
-
   switch (mode) {
     case 'zh-to-en':
       return generateZhToEn(target, words)
@@ -29,21 +65,11 @@ export function generateCard(
  * Distractors are words whose Chinese explanations don't overlap with the target's.
  */
 function generateZhToEn(target: ProcessedWord, words: ProcessedWord[]): QuizCard {
-  const prompt = pickRandom(target.chinese_explanations, 1)[0]
+  const prompt = pickRandom(target.chinese_translations, 1)[0]
   const pickedWord = pickRandom(target.word, 1)[0]
   const correctOption: CardOption = { label: pickedWord, isCorrect: true }
 
-  const targetExplanations = new Set(target.chinese_explanations)
-  const nonOverlapping = words.filter(
-    w => w.id !== target.id && !w.chinese_explanations.some(e => targetExplanations.has(e))
-  )
-
-  const distractorPool = nonOverlapping.length >= 4
-    ? nonOverlapping
-    : words.filter(w => w.id !== target.id)
-
-  const distractors: CardOption[] = pickRandom(distractorPool, Math.min(4, distractorPool.length))
-    .map(w => ({ label: pickRandom(w.word, 1)[0], isCorrect: false }))
+  const distractors = pickWordDistractors(target, words, 'chinese_translations', 4)
 
   const options = shuffle([correctOption, ...distractors])
   const correctAnswer = pickedWord
@@ -56,20 +82,10 @@ function generateZhToEn(target: ProcessedWord, words: ProcessedWord[]): QuizCard
  */
 function generateEnToZh(target: ProcessedWord, words: ProcessedWord[]): QuizCard {
   const prompt = pickRandom(target.word, 1)[0]
-  const correctExplanation = pickRandom(target.chinese_explanations, 1)[0]
-  const correctOption: CardOption = { label: correctExplanation, isCorrect: true }
-
-  const allOtherExplanations = words
-    .filter(w => w.id !== target.id)
-    .flatMap(w => w.chinese_explanations)
-    .filter(e => e !== correctExplanation)
-
-  const uniqueOthers = [...new Set(allOtherExplanations)]
-  const distractors: CardOption[] = pickRandom(uniqueOthers, Math.min(4, uniqueOthers.length))
-    .map(e => ({ label: e, isCorrect: false }))
-
+  const correctAnswer = pickRandom(target.chinese_translations, 1)[0]
+  const correctOption: CardOption = { label: correctAnswer, isCorrect: true }
+  const distractors = pickFieldDistractors(target, words, 'chinese_translations', correctAnswer, 4)
   const options = shuffle([correctOption, ...distractors])
-  const correctAnswer = correctExplanation
 
   return { wordId: target.id, mode: 'en-to-zh', prompt, options, correctAnswer }
 }
@@ -79,20 +95,10 @@ function generateEnToZh(target: ProcessedWord, words: ProcessedWord[]): QuizCard
  */
 function generateEnToSynonym(target: ProcessedWord, words: ProcessedWord[]): QuizCard {
   const prompt = pickRandom(target.word, 1)[0]
-  const correctSynonym = pickRandom(target.english_synonyms, 1)[0]
-  const correctOption: CardOption = { label: correctSynonym, isCorrect: true }
-
-  const allOtherSynonyms = words
-    .filter(w => w.id !== target.id)
-    .flatMap(w => w.english_synonyms)
-    .filter(s => s !== correctSynonym)
-
-  const uniqueOthers = [...new Set(allOtherSynonyms)]
-  const distractors: CardOption[] = pickRandom(uniqueOthers, Math.min(4, uniqueOthers.length))
-    .map(s => ({ label: s, isCorrect: false }))
-
+  const correctAnswer = pickRandom(target.english_synonyms, 1)[0]
+  const correctOption: CardOption = { label: correctAnswer, isCorrect: true }
+  const distractors = pickFieldDistractors(target, words, 'english_synonyms', correctAnswer, 4)
   const options = shuffle([correctOption, ...distractors])
-  const correctAnswer = correctSynonym
 
   return { wordId: target.id, mode: 'en-to-synonym', prompt, options, correctAnswer }
 }
@@ -105,17 +111,7 @@ function generateEnExplanationToEn(target: ProcessedWord, words: ProcessedWord[]
   const pickedWord = pickRandom(target.word, 1)[0]
   const correctOption: CardOption = { label: pickedWord, isCorrect: true }
 
-  const targetExplanations = new Set(target.english_explanations)
-  const nonOverlapping = words.filter(
-    w => w.id !== target.id && !w.english_explanations.some(e => targetExplanations.has(e))
-  )
-
-  const distractorPool = nonOverlapping.length >= 4
-    ? nonOverlapping
-    : words.filter(w => w.id !== target.id)
-
-  const distractors: CardOption[] = pickRandom(distractorPool, Math.min(4, distractorPool.length))
-    .map(w => ({ label: pickRandom(w.word, 1)[0], isCorrect: false }))
+  const distractors = pickWordDistractors(target, words, 'english_explanations', 4)
 
   const options = shuffle([correctOption, ...distractors])
   const correctAnswer = pickedWord
@@ -129,7 +125,7 @@ function generateEnExplanationToEn(target: ProcessedWord, words: ProcessedWord[]
  */
 export function getAvailableModes(word: ProcessedWord): CardMode[] {
   const modes: CardMode[] = []
-  if (word.chinese_explanations.length > 0) {
+  if (word.chinese_translations.length > 0) {
     modes.push('zh-to-en', 'en-to-zh')
   }
   if (word.english_synonyms.length > 0) {

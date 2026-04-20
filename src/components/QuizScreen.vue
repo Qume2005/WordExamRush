@@ -5,7 +5,7 @@ import {
   createNextCard,
   recordAnswer,
   isQuizComplete,
-  isWordComplete,
+  calcProgressPercent,
 } from '../business/quizEngine'
 import QuizCard from './QuizCard.vue'
 import ResultReveal from './ResultReveal.vue'
@@ -22,23 +22,19 @@ const answerResult = ref(null)
 const isRevealing = ref(false)
 const selectedIndex = ref(-1)
 
-const completedCount = computed(() => {
-  let count = 0
-  for (const p of props.progressMap.values()) {
-    if (isWordComplete(p)) count++
-  }
-  return count
+const wordMap = computed(() => {
+  const m = new Map()
+  for (const w of props.words) m.set(w.id, w)
+  return m
 })
 
-const totalCount = computed(() => props.words.length)
+const progressPercent = computed(() => calcProgressPercent(props.progressMap, props.words))
 
-const progressPercent = computed(() =>
-  totalCount.value ? (completedCount.value / totalCount.value) * 100 : 0
-)
+const progressText = computed(() => progressPercent.value + '%')
 
 const targetWord = computed(() => {
   if (!currentCard.value) return null
-  return props.words.find(w => w.id === currentCard.value.wordId)
+  return wordMap.value.get(currentCard.value.wordId)
 })
 
 function loadNextCard() {
@@ -60,49 +56,33 @@ function loadNextCard() {
   currentCard.value = createNextCard(wordId, props.words)
 }
 
-function submitAnswer(index) {
+function recordResult(isCorrect, optionIndex) {
   if (isRevealing.value || !currentCard.value) return
 
   const card = currentCard.value
-  const selectedOpt = card.options[index]
   const correctIndex = card.options.findIndex(o => o.isCorrect)
+  const selectedOpt = optionIndex >= 0 ? card.options[optionIndex] : null
 
   const result = {
     card,
-    isCorrect: selectedOpt.isCorrect,
-    selectedIndex: index,
+    isCorrect: selectedOpt ? selectedOpt.isCorrect : false,
+    selectedIndex: optionIndex,
     correctIndex,
   }
 
   recordAnswer(props.progressMap, result)
   answerResult.value = result
   isRevealing.value = true
-  selectedIndex.value = index
+  selectedIndex.value = optionIndex
   emit('save-progress')
 }
 
 function onAnswer(index) {
-  submitAnswer(index)
+  recordResult(false, index)
 }
 
 function onDontKnow() {
-  if (isRevealing.value || !currentCard.value) return
-
-  const card = currentCard.value
-  const correctIndex = card.options.findIndex(o => o.isCorrect)
-
-  const result = {
-    card,
-    isCorrect: false,
-    selectedIndex: -1,
-    correctIndex,
-  }
-
-  recordAnswer(props.progressMap, result)
-  answerResult.value = result
-  isRevealing.value = true
-  selectedIndex.value = -1
-  emit('save-progress')
+  recordResult(false, -1)
 }
 
 function onNext() {
@@ -126,7 +106,7 @@ function onKeydown(e) {
   const num = parseInt(e.key)
   if (num >= 1 && num <= currentCard.value.options.length) {
     e.preventDefault()
-    submitAnswer(num - 1)
+    onAnswer(num - 1)
   } else {
     e.preventDefault()
     onDontKnow()
@@ -150,7 +130,7 @@ onUnmounted(() => {
         <div class="progress-bar-track">
           <div class="progress-bar-fill" :style="{ width: progressPercent + '%' }"></div>
         </div>
-        <span class="progress-bar-text">{{ completedCount }} / {{ totalCount }}</span>
+        <span class="progress-bar-text">{{ progressText }}</span>
       </div>
       <div class="top-actions">
         <button class="action-btn" @click="emit('back')" title="返回选择">&#8592; 返回</button>

@@ -42,13 +42,13 @@ public/word_table/
 
 字段说明：
 
-| 字段 | 类型 | 必填 | 说明 |
-|------|------|------|------|
-| `word` | `string[]` | 是 | 单词及拼写变体 |
-| `english_synonyms` | `string[]` | 是 | 英文近义词 |
-| `english_explanations` | `string[]` | 否 | 英文释义（有则启用"看解释选单词"模式） |
-| `chinese_explanations` | `string[]` | 是 | 中文释义 |
-| `example_sentences` | `string` | 是 | 例句 |
+| 字段                     | 类型         | 必填 | 说明                   |
+|------------------------|------------|----|----------------------|
+| `word`                 | `string[]` | 是  | 单词及拼写变体              |
+| `english_synonyms`     | `string[]` | 是  | 英文近义词                |
+| `english_explanations` | `string[]` | 否  | 英文释义（有则启用"看解释选单词"模式） |
+| `chinese_translations` | `string[]` | 是  | 中文释义                 |
+| `example_sentences`    | `string`   | 是  | 例句                   |
 
 ## 开发
 

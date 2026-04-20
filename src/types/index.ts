@@ -3,7 +3,7 @@ export interface RawWord {
   word: string[]
   english_synonyms: string[]
   english_explanations: string[]
-  chinese_explanations: string[]
+  chinese_translations: string[]
   example_sentences: string
 }
 
@@ -13,7 +13,7 @@ export interface ProcessedWord {
   word: string[]
   english_synonyms: string[]
   english_explanations: string[]
-  chinese_explanations: string[]
+  chinese_translations: string[]
   example_sentences: string
 }
 
@@ -54,12 +54,10 @@ export interface AnswerResult {
 /** Row in the end-of-quiz summary */
 export interface SummaryRow {
   word: string[]
-  chinese_explanations: string[]
+  chinese_translations: string[]
   english_explanations: string[]
   appearances: number
   accuracy: number
   history: boolean[]
 }
 
-/** Top-level screen phase */
-export type ScreenPhase = 'input' | 'detail' | 'quiz' | 'summary'
