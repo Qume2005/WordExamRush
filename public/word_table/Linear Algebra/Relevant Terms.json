@@ -1,0 +1,562 @@
+[
+{
+"word": ["vector"],
+"english_synonyms": ["directed quantity", "arrow", "tuple"],
+"english_explanations": ["A mathematical object that has both magnitude and direction, or an ordered list of numbers in a vector space."],
+"chinese_translations": ["向量", "矢量"],
+"example_sentences": "The velocity of the particle is represented by a vector pointing northeast."
+},
+{
+"word": ["scalar"],
+"english_synonyms": ["real number", "constant", "coefficient"],
+"english_explanations": ["A single numerical value without direction, used to scale vectors or matrices."],
+"chinese_translations": ["标量", "纯量"],
+"example_sentences": "Multiplying a matrix by a scalar scales every entry in the matrix uniformly."
+},
+{
+"word": ["matrix"],
+"english_synonyms": ["array", "grid", "table of numbers"],
+"english_explanations": ["A rectangular array of numbers, symbols, or expressions arranged in rows and columns."],
+"chinese_translations": ["矩阵"],
+"example_sentences": "The matrix has three rows and four columns, so it is a 3×4 matrix."
+},
+{
+"word": ["vector space"],
+"english_synonyms": ["linear space"],
+"english_explanations": ["A collection of vectors that is closed under addition and scalar multiplication, satisfying specific axioms."],
+"chinese_translations": ["向量空间", "线性空间"],
+"example_sentences": "The set of all polynomials of degree at most two forms a vector space."
+},
+{
+"word": ["linear combination"],
+"english_synonyms": ["weighted sum", "superposition"],
+"english_explanations": ["An expression constructed by multiplying each vector by a scalar and adding the results together."],
+"chinese_translations": ["线性组合"],
+"example_sentences": "Any vector in the plane can be written as a linear combination of the standard basis vectors."
+},
+{
+"word": ["span"],
+"english_synonyms": ["linear hull", "generating set"],
+"english_explanations": ["The set of all possible linear combinations of a given set of vectors."],
+"chinese_translations": ["张成空间", "生成空间"],
+"example_sentences": "The span of two non-parallel vectors in R³ is a plane passing through the origin."
+},
+{
+"word": ["basis"],
+"english_synonyms": ["coordinate system", "fundamental set"],
+"english_explanations": ["A linearly independent set of vectors that spans the entire vector space."],
+"chinese_translations": ["基", "基底"],
+"example_sentences": "The standard basis for R² consists of the vectors (1,0) and (0,1)."
+},
+{
+"word": ["dimension"],
+"english_synonyms": ["rank", "degree of freedom"],
+"english_explanations": ["The number of vectors in any basis for a vector space, representing the space's degrees of freedom."],
+"chinese_translations": ["维度", "维数"],
+"example_sentences": "The dimension of the solution space tells us how many free variables exist in the system."
+},
+{
+"word": ["subspace"],
+"english_synonyms": ["subset space", "linear manifold"],
+"english_explanations": ["A subset of a vector space that is itself a vector space under the same operations."],
+"chinese_translations": ["子空间"],
+"example_sentences": "The set of all vectors whose third component is zero is a subspace of R³."
+},
+{
+"word": ["kernel", "null space"],
+"english_synonyms": ["zero space", "solution space"],
+"english_explanations": ["The set of all vectors that a linear transformation maps to the zero vector."],
+"chinese_translations": ["核空间", "零空间"],
+"example_sentences": "The kernel of the matrix consists of all vectors x such that Ax equals zero."
+},
+{
+"word": ["column space"],
+"english_synonyms": ["range", "image"],
+"english_explanations": ["The vector space spanned by the columns of a matrix, representing all possible outputs of the linear transformation."],
+"chinese_translations": ["列空间"],
+"example_sentences": "The column space of the matrix is the set of all vectors that can be written as Ax for some x."
+},
+{
+"word": ["row space"],
+"english_synonyms": ["row span"],
+"english_explanations": ["The vector space spanned by the rows of a matrix."],
+"chinese_translations": ["行空间"],
+"example_sentences": "The dimension of the row space equals the rank of the matrix."
+},
+{
+"word": ["eigenvalue"],
+"english_synonyms": ["characteristic value", "latent root"],
+"english_explanations": ["A scalar λ such that there exists a nonzero vector v satisfying Av = λv for a square matrix A."],
+"chinese_translations": ["特征值", "本征值"],
+"example_sentences": "If a matrix has an eigenvalue of zero, then it is singular and not invertible."
+},
+{
+"word": ["eigenvector"],
+"english_synonyms": ["characteristic vector", "latent vector"],
+"english_explanations": ["A nonzero vector that only changes by a scalar factor when a linear transformation is applied to it."],
+"chinese_translations": ["特征向量", "本征向量"],
+"example_sentences": "An eigenvector of a rotation matrix points along the axis of rotation."
+},
+{
+"word": ["determinant"],
+"english_synonyms": ["det", "signed volume"],
+"english_explanations": ["A scalar value computed from a square matrix that determines whether the matrix is invertible and describes geometric scaling."],
+"chinese_translations": ["行列式"],
+"example_sentences": "The determinant of a 2×2 matrix ad − bc tells us the area scaling factor of the associated linear map."
+},
+{
+"word": ["trace"],
+"english_synonyms": ["spur", "sum of diagonal entries"],
+"english_explanations": ["The sum of the diagonal entries of a square matrix, equal to the sum of its eigenvalues."],
+"chinese_translations": ["迹"],
+"example_sentences": "The trace of a matrix is invariant under similarity transformations."
+},
+{
+"word": ["transpose"],
+"english_synonyms": ["flip", "reflection across diagonal"],
+"english_explanations": ["The matrix obtained by swapping the rows and columns of the original matrix."],
+"chinese_translations": ["转置"],
+"example_sentences": "The transpose of a column vector is a row vector with the same entries."
+},
+{
+"word": ["inverse"],
+"english_synonyms": ["reciprocal matrix", "multiplicative inverse"],
+"english_explanations": ["A matrix that, when multiplied by the original square matrix, yields the identity matrix."],
+"chinese_translations": ["逆矩阵", "逆"],
+"example_sentences": "A matrix has an inverse if and only if its determinant is nonzero."
+},
+{
+"word": ["identity matrix"],
+"english_synonyms": ["unit matrix", "I"],
+"english_explanations": ["A square matrix with ones on the main diagonal and zeros elsewhere, acting as the multiplicative identity."],
+"chinese_translations": ["单位矩阵", "恒等矩阵"],
+"example_sentences": "Multiplying any matrix by the identity matrix of appropriate size leaves the matrix unchanged."
+},
+{
+"word": ["augmented matrix"],
+"english_synonyms": ["extended matrix"],
+"english_explanations": ["A matrix formed by appending the columns of two matrices, often used to represent a system of linear equations."],
+"chinese_translations": ["增广矩阵"],
+"example_sentences": "We solve the linear system by reducing its augmented matrix to row echelon form."
+},
+{
+"word": ["row echelon form"],
+"english_synonyms": ["echelon form", "REF"],
+"english_explanations": ["A matrix form where all nonzero rows are above any rows of all zeros, and the leading coefficient of each row is to the right of the one above it."],
+"chinese_translations": ["行阶梯形", "行阶梯形式"],
+"example_sentences": "Gaussian elimination transforms any matrix into row echelon form."
+},
+{
+"word": ["reduced row echelon form"],
+"english_synonyms": ["RREF", "canonical row form"],
+"english_explanations": ["A row echelon form where each leading entry is 1 and is the only nonzero entry in its column."],
+"chinese_translations": ["简化行阶梯形", "最简行阶梯形"],
+"example_sentences": "Gauss-Jordan elimination produces the reduced row echelon form, from which the solution is immediate."
+},
+{
+"word": ["linear independence"],
+"english_synonyms": ["algebraic independence"],
+"english_explanations": ["A property of a set of vectors where no vector can be written as a linear combination of the others."],
+"chinese_translations": ["线性无关", "线性独立"],
+"example_sentences": "The columns of an invertible matrix are linearly independent."
+},
+{
+"word": ["inner product"],
+"english_synonyms": ["dot product", "scalar product"],
+"english_explanations": ["A binary operation that takes two vectors and returns a scalar, generalizing the notion of angle and length."],
+"chinese_translations": ["内积", "点积"],
+"example_sentences": "The inner product of two orthogonal vectors is zero."
+},
+{
+"word": ["norm"],
+"english_synonyms": ["length", "magnitude", "size"],
+"english_explanations": ["A function that assigns a strictly positive length or size to each vector in a vector space."],
+"chinese_translations": ["范数", "模"],
+"example_sentences": "The Euclidean norm of a vector is the square root of the sum of the squares of its components."
+},
+{
+"word": ["orthogonal"],
+"english_synonyms": ["perpendicular", "at right angles"],
+"english_explanations": ["Describing two vectors whose inner product is zero, or geometrically perpendicular to each other."],
+"chinese_translations": ["正交的", "垂直的"],
+"example_sentences": "Two vectors are orthogonal if and only if their dot product equals zero."
+},
+{
+"word": ["orthonormal"],
+"english_synonyms": ["orthogonal and normalized"],
+"english_explanations": ["Describing a set of vectors that are mutually orthogonal and each have unit norm."],
+"chinese_translations": ["标准正交的", "规范正交的"],
+"example_sentences": "The columns of an orthogonal matrix form an orthonormal set."
+},
+{
+"word": ["linear transformation"],
+"english_synonyms": ["linear map", "linear operator"],
+"english_explanations": ["A mapping between vector spaces that preserves vector addition and scalar multiplication."],
+"chinese_translations": ["线性变换", "线性映射"],
+"example_sentences": "Matrix multiplication represents a linear transformation from one Euclidean space to another."
+},
+{
+"word": ["rank"],
+"english_synonyms": ["dimension of image"],
+"english_explanations": ["The dimension of the column space of a matrix, or equivalently the number of linearly independent rows or columns."],
+"chinese_translations": ["秩"],
+"example_sentences": "The rank of a matrix equals the number of pivot positions in its row echelon form."
+},
+{
+"word": ["nullity"],
+"english_synonyms": ["dimension of kernel"],
+"english_explanations": ["The dimension of the null space of a matrix, representing the number of free variables in the homogeneous system."],
+"chinese_translations": ["零度", "核的维数"],
+"example_sentences": "The rank-nullity theorem states that rank plus nullity equals the number of columns."
+},
+{
+"word": ["minor"],
+"english_synonyms": ["subdeterminant"],
+"english_explanations": ["The determinant of a smaller square matrix obtained by deleting one row and one column from the original matrix."],
+"chinese_translations": ["子式", "余子矩阵的行列式"],
+"example_sentences": "To compute a 3×3 determinant, we expand along a row using its minors."
+},
+{
+"word": ["cofactor"],
+"english_synonyms": ["signed minor"],
+"english_explanations": ["A minor multiplied by (−1)^(i+j), used in cofactor expansion and computing the adjugate matrix."],
+"chinese_translations": ["余子式", "代数余子式"],
+"example_sentences": "The cofactor of an entry is its minor with the appropriate sign based on its position."
+},
+{
+"word": ["adjugate", "adjoint"],
+"english_synonyms": ["classical adjoint"],
+"english_explanations": ["The transpose of the cofactor matrix of a square matrix, used in computing the inverse."],
+"chinese_translations": ["伴随矩阵"],
+"example_sentences": "The inverse of a matrix can be found by dividing its adjugate by its determinant."
+},
+{
+"word": ["cofactor expansion", "Laplace expansion"],
+"english_synonyms": ["Laplace development", "expansion by minors"],
+"english_explanations": ["A method for computing the determinant of a matrix by recursively expanding along a row or column using cofactors."],
+"chinese_translations": ["余子式展开", "拉普拉斯展开"],
+"example_sentences": "Laplace expansion along the first row reduces an n×n determinant to a sum of (n−1)×(n−1) determinants."
+},
+{
+"word": ["Cramer's rule"],
+"english_synonyms": ["determinant method"],
+"english_explanations": ["A formula for solving a system of linear equations using determinants, applicable when the coefficient matrix is invertible."],
+"chinese_translations": ["克拉默法则", "克莱姆法则"],
+"example_sentences": "Cramer's rule expresses each variable as a ratio of two determinants."
+},
+{
+"word": ["homogeneous"],
+"english_synonyms": ["uniform", "Ax = 0"],
+"english_explanations": ["Describing a system of linear equations where all constant terms are zero, i.e., Ax = 0."],
+"chinese_translations": ["齐次的"],
+"example_sentences": "A homogeneous system always has at least the trivial solution x = 0."
+},
+{
+"word": ["inhomogeneous", "non-homogeneous"],
+"english_synonyms": ["non-uniform", "Ax = b"],
+"english_explanations": ["Describing a system of linear equations where the constant terms are not all zero, i.e., Ax = b with b ≠ 0."],
+"chinese_translations": ["非齐次的"],
+"example_sentences": "The general solution to an inhomogeneous system is a particular solution plus the general solution of the homogeneous system."
+},
+{
+"word": ["consistent"],
+"english_synonyms": ["solvable", "compatible"],
+"english_explanations": ["Describing a system of linear equations that has at least one solution."],
+"chinese_translations": ["相容的", "一致的"],
+"example_sentences": "If the rank of the augmented matrix equals the rank of the coefficient matrix, the system is consistent."
+},
+{
+"word": ["inconsistent"],
+"english_synonyms": ["unsolvable", "contradictory"],
+"english_explanations": ["Describing a system of linear equations that has no solution."],
+"chinese_translations": ["不相容的", "不一致的"],
+"example_sentences": "An overdetermined system with contradictory equations is inconsistent."
+},
+{
+"word": ["pivot"],
+"english_synonyms": ["leading entry", "pivot element"],
+"english_explanations": ["The first nonzero entry in a row of a matrix in row echelon form, used as a reference during elimination."],
+"chinese_translations": ["主元", "枢轴"],
+"example_sentences": "Each pivot position corresponds to a basic variable in the system."
+},
+{
+"word": ["free variable"],
+"english_synonyms": ["unrestricted variable"],
+"english_explanations": ["A variable in a linear system that does not correspond to a pivot column, allowing infinitely many solutions."],
+"chinese_translations": ["自由变量"],
+"example_sentences": "Free variables can be assigned arbitrary values, determining the remaining variables."
+},
+{
+"word": ["basic variable"],
+"english_synonyms": ["pivot variable", "leading variable"],
+"english_explanations": ["A variable in a linear system that corresponds to a pivot column in the coefficient matrix."],
+"chinese_translations": ["基本变量", "主元变量"],
+"example_sentences": "Basic variables are determined once values are assigned to the free variables."
+},
+{
+"word": ["elementary matrix"],
+"english_synonyms": ["row operation matrix"],
+"english_explanations": ["A matrix obtained by performing a single elementary row operation on the identity matrix."],
+"chinese_translations": ["初等矩阵"],
+"example_sentences": "Multiplying by an elementary matrix on the left performs the corresponding row operation."
+},
+{
+"word": ["elementary row operation"],
+"english_synonyms": ["ERO", "row manipulation"],
+"english_explanations": ["One of three operations on a matrix: swapping rows, multiplying a row by a nonzero scalar, or adding a multiple of one row to another."],
+"chinese_translations": ["初等行变换", "初等行运算"],
+"example_sentences": "Elementary row operations preserve the solution set of a linear system."
+},
+{
+"word": ["permutation"],
+"english_synonyms": ["rearrangement", "ordering"],
+"english_explanations": ["A bijective function that rearranges the elements of a finite set, or the resulting arrangement."],
+"chinese_translations": ["置换", "排列"],
+"example_sentences": "Every permutation can be expressed as a product of transpositions."
+},
+{
+"word": ["permutation matrix"],
+"english_synonyms": ["row swap matrix"],
+"english_explanations": ["A square matrix obtained by permuting the rows of an identity matrix, used to rearrange rows or columns."],
+"chinese_translations": ["置换矩阵", "排列矩阵"],
+"example_sentences": "Left-multiplying by a permutation matrix reorders the rows of the original matrix."
+},
+{
+"word": ["block matrix"],
+"english_synonyms": ["partitioned matrix"],
+"english_explanations": ["A matrix that is interpreted as having been broken into sections called blocks or submatrices."],
+"chinese_translations": ["分块矩阵", "块矩阵"],
+"example_sentences": "Block matrix multiplication proceeds by treating each block as a single matrix entry."
+},
+{
+"word": ["characteristic polynomial"],
+"english_synonyms": ["eigenvalue polynomial"],
+"english_explanations": ["The polynomial det(A − λI) whose roots are the eigenvalues of the square matrix A."],
+"chinese_translations": ["特征多项式"],
+"example_sentences": "The characteristic polynomial of a 2×2 matrix is a quadratic equation in λ."
+},
+{
+"word": ["Cayley-Hamilton theorem"],
+"english_synonyms": ["CH theorem"],
+"english_explanations": ["A theorem stating that every square matrix satisfies its own characteristic equation."],
+"chinese_translations": ["凯莱-哈密顿定理"],
+"example_sentences": "By the Cayley-Hamilton theorem, a matrix satisfies a polynomial equation of degree equal to its size."
+},
+{
+"word": ["bilinear form"],
+"english_synonyms": ["bilinear function", "pairing"],
+"english_explanations": ["A function of two vector arguments that is linear in each argument separately."],
+"chinese_translations": ["双线性型", "双线性形式"],
+"example_sentences": "The dot product is the canonical example of a symmetric bilinear form on Euclidean space."
+},
+{
+"word": ["quadratic form"],
+"english_synonyms": ["homogeneous quadratic polynomial"],
+"english_explanations": ["A homogeneous polynomial of degree two in several variables, often represented as xᵀAx."],
+"chinese_translations": ["二次型"],
+"example_sentences": "The equation of a conic section can be written as a quadratic form in two variables."
+},
+{
+"word": ["positive definite"],
+"english_synonyms": ["strictly positive"],
+"english_explanations": ["Describing a symmetric matrix (or quadratic form) for which xᵀAx > 0 for all nonzero vectors x."],
+"chinese_translations": ["正定的"],
+"example_sentences": "A positive definite matrix has all positive eigenvalues."
+},
+{
+"word": ["positive semidefinite"],
+"english_synonyms": ["nonnegative definite"],
+"english_explanations": ["Describing a symmetric matrix for which xᵀAx ≥ 0 for all vectors x."],
+"chinese_translations": ["半正定的", "正半定的"],
+"example_sentences": "The covariance matrix of any random vector is always positive semidefinite."
+},
+{
+"word": ["negative definite"],
+"english_synonyms": ["strictly negative"],
+"english_explanations": ["Describing a symmetric matrix for which xᵀAx < 0 for all nonzero vectors x."],
+"chinese_translations": ["负定的"],
+"example_sentences": "A negative definite quadratic form attains a strict global maximum at the origin."
+},
+{
+"word": ["negative semidefinite"],
+"english_synonyms": ["nonpositive definite"],
+"english_explanations": ["Describing a symmetric matrix for which xᵀAx ≤ 0 for all vectors x."],
+"chinese_translations": ["半负定的", "负半定的"],
+"example_sentences": "The Hessian being negative semidefinite at a critical point indicates a possible local maximum."
+},
+{
+"word": ["indefinite"],
+"english_synonyms": ["sign-changing"],
+"english_explanations": ["Describing a symmetric matrix (or quadratic form) that takes both positive and negative values."],
+"chinese_translations": ["不定的"],
+"example_sentences": "An indefinite quadratic form yields a saddle point at the origin."
+},
+{
+"word": ["signature"],
+"english_synonyms": ["inertia", "Sylvester index"],
+"english_explanations": ["The triple (p, q, r) counting positive, negative, and zero eigenvalues of a symmetric matrix, or p − q."],
+"chinese_translations": ["符号差", "惯性指数"],
+"example_sentences": "Sylvester's law of inertia states that the signature of a real symmetric matrix is preserved under congruence."
+},
+{
+"word": ["singular value decomposition"],
+"english_synonyms": ["SVD"],
+"english_explanations": ["A factorization of a matrix into the product of a unitary matrix, a diagonal matrix of singular values, and another unitary matrix."],
+"chinese_translations": ["奇异值分解"],
+"example_sentences": "Singular value decomposition exists for any matrix, even if it is not square or diagonalizable."
+},
+{
+"word": ["LU decomposition", "LU factorization"],
+"english_synonyms": ["triangular factorization"],
+"english_explanations": ["A factorization of a matrix into a lower triangular matrix L and an upper triangular matrix U."],
+"chinese_translations": ["LU分解", "LU因子分解"],
+"example_sentences": "LU decomposition simplifies solving multiple linear systems with the same coefficient matrix."
+},
+{
+"word": ["QR decomposition"],
+"english_synonyms": ["QR factorization"],
+"english_explanations": ["A factorization of a matrix into an orthogonal matrix Q and an upper triangular matrix R."],
+"chinese_translations": ["QR分解"],
+"example_sentences": "QR decomposition is widely used in numerical algorithms for least squares problems."
+},
+{
+"word": ["Cholesky decomposition", "Cholesky factorization"],
+"english_synonyms": ["square-root method"],
+"english_explanations": ["A decomposition of a positive definite matrix into the product of a lower triangular matrix and its transpose."],
+"chinese_translations": ["乔列斯基分解", "楚列斯基分解"],
+"example_sentences": "Cholesky decomposition requires roughly half the computation of LU decomposition for symmetric positive definite matrices."
+},
+{
+"word": ["spectral theorem"],
+"english_synonyms": ["eigenvalue decomposition theorem"],
+"english_explanations": ["A theorem stating that a normal matrix can be diagonalized by a unitary matrix, with orthogonal eigenvectors."],
+"chinese_translations": ["谱定理"],
+"example_sentences": "The spectral theorem guarantees that every real symmetric matrix has an orthonormal basis of eigenvectors."
+},
+{
+"word": ["singular value"],
+"english_synonyms": ["SVD diagonal entry", "σ"],
+"english_explanations": ["The nonnegative square roots of the eigenvalues of AᵀA, appearing on the diagonal in singular value decomposition."],
+"chinese_translations": ["奇异值"],
+"example_sentences": "The largest singular value of a matrix equals its operator norm."
+},
+{
+"word": ["Frobenius norm"],
+"english_synonyms": ["Euclidean matrix norm", "Hilbert-Schmidt norm"],
+"english_explanations": ["The square root of the sum of the absolute squares of all matrix entries, analogous to the Euclidean vector norm."],
+"chinese_translations": ["弗罗贝尼乌斯范数", "F范数"],
+"example_sentences": "The Frobenius norm of a matrix equals the square root of the sum of the squares of its singular values."
+},
+{
+"word": ["condition number"],
+"english_synonyms": ["sensitivity measure"],
+"english_explanations": ["A measure of how much the output of a function changes with respect to small changes in the input, often defined as the ratio of largest to smallest singular value."],
+"chinese_translations": ["条件数"],
+"example_sentences": "A large condition number indicates that the matrix is ill-conditioned and numerical solutions may be unstable."
+},
+{
+"word": ["ill-conditioned"],
+"english_synonyms": ["sensitive", "unstable"],
+"english_explanations": ["Describing a problem or matrix whose solution is highly sensitive to small changes in the input data."],
+"chinese_translations": ["病态的"],
+"example_sentences": "Solving an ill-conditioned linear system can amplify rounding errors dramatically."
+},
+{
+"word": ["well-conditioned"],
+"english_synonyms": ["stable", "insensitive"],
+"english_explanations": ["Describing a problem or matrix whose solution is not highly sensitive to small perturbations in the input."],
+"chinese_translations": ["良态的"],
+"example_sentences": "A matrix with a condition number close to one is well-conditioned."
+},
+{
+"word": ["least squares"],
+"english_synonyms": ["minimum norm", "best fit"],
+"english_explanations": ["A method for finding the best approximate solution to an overdetermined system by minimizing the sum of squared residuals."],
+"chinese_translations": ["最小二乘法", "最小二乘"],
+"example_sentences": "The least squares solution minimizes the Euclidean norm of the residual vector."
+},
+{
+"word": ["overdetermined"],
+"english_synonyms": ["more equations than unknowns"],
+"english_explanations": ["Describing a system of linear equations with more equations than unknowns, typically having no exact solution."],
+"chinese_translations": ["超定的", "超定"],
+"example_sentences": "An overdetermined system is usually solved in the least squares sense."
+},
+{
+"word": ["underdetermined"],
+"english_synonyms": ["fewer equations than unknowns"],
+"english_explanations": ["Describing a system of linear equations with fewer equations than unknowns, typically having infinitely many solutions."],
+"chinese_translations": ["欠定的", "欠定"],
+"example_sentences": "An underdetermined consistent system has at least one free variable."
+},
+{
+"word": ["diagonalize", "diagonalise"],
+"english_synonyms": ["find eigenbasis", "spectrally decompose"],
+"english_explanations": ["To transform a matrix into a diagonal matrix by a similarity transformation using its eigenvectors."],
+"chinese_translations": ["对角化"],
+"example_sentences": "A matrix is diagonalizable if it has enough linearly independent eigenvectors to form a basis."
+},
+{
+"word": ["diagonalizable", "diagonalisable"],
+"english_synonyms": ["spectrally decomposable"],
+"english_explanations": ["Describing a square matrix that can be transformed into a diagonal matrix via a similarity transformation."],
+"chinese_translations": ["可对角化的"],
+"example_sentences": "Not every matrix is diagonalizable; defective matrices lack a full set of eigenvectors."
+},
+{
+"word": ["similarity"],
+"english_synonyms": ["conjugacy", "equivalence by change of basis"],
+"english_explanations": ["A relation between two square matrices A and B such that B = P⁻¹AP for some invertible matrix P."],
+"chinese_translations": ["相似性", "相似"],
+"example_sentences": "Similar matrices represent the same linear transformation under different bases."
+},
+{
+"word": ["change of basis"],
+"english_synonyms": ["basis transformation", "coordinate transformation"],
+"english_explanations": ["The process of converting the coordinates of a vector or the matrix of a linear transformation from one basis to another."],
+"chinese_translations": ["基变换", "换基"],
+"example_sentences": "A change of basis matrix converts coordinate vectors from the old basis to the new basis."
+},
+{
+"word": ["unitary"],
+"english_synonyms": ["complex orthogonal", "norm-preserving"],
+"english_explanations": ["Describing a complex square matrix whose conjugate transpose is also its inverse, preserving the Hermitian inner product."],
+"chinese_translations": ["酉的", "幺正的", " unitary"],
+"example_sentences": "A unitary matrix has orthonormal columns with respect to the complex inner product."
+},
+{
+"word": ["Hermitian"],
+"english_synonyms": ["self-adjoint", "complex symmetric"],
+"english_explanations": ["Describing a complex square matrix that is equal to its own conjugate transpose."],
+"chinese_translations": ["埃尔米特的", "厄米特的"],
+"example_sentences": "The eigenvalues of a Hermitian matrix are always real."
+},
+{
+"word": ["symmetric matrix"],
+"english_synonyms": ["self-transpose matrix"],
+"english_explanations": ["A square matrix that is equal to its own transpose, with entries symmetric across the main diagonal."],
+"chinese_translations": ["对称矩阵"],
+"example_sentences": "Every real symmetric matrix is orthogonally diagonalizable."
+},
+{
+"word": ["normalization", "normalisation"],
+"english_synonyms": ["scaling to unit length", "standardization"],
+"english_explanations": ["The process of scaling a vector or function so that its norm becomes one, or adjusting data to a standard scale."],
+"chinese_translations": ["归一化", "规范化", "标准化"],
+"example_sentences": "Normalization of eigenvectors ensures they have unit length."
+},
+{
+"word": ["Gaussian elimination"],
+"english_synonyms": ["row reduction", "elimination method"],
+"english_explanations": ["An algorithm for solving systems of linear equations by systematically eliminating variables using elementary row operations."],
+"chinese_translations": ["高斯消元法"],
+"example_sentences": "Gaussian elimination transforms the augmented matrix into row echelon form to reveal the solution."
+},
+{
+"word": ["Gauss-Jordan elimination"],
+"english_synonyms": ["complete reduction", "reduced echelon method"],
+"english_explanations": ["An extension of Gaussian elimination that further reduces the matrix to reduced row echelon form, yielding the solution directly."],
+"chinese_translations": ["高斯-约当消元法", "高斯-约旦消元法"],
+"example_sentences": "Gauss-Jordan elimination continues the reduction process until the coefficient matrix becomes the identity."
+}
+]
