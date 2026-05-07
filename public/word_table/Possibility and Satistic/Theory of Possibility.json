@@ -1,0 +1,478 @@
+[
+{
+"word": ["analyse", "analyze"],
+"english_synonyms": ["examine", "investigate", "study", "break down"],
+"english_explanations": ["To study or examine something in detail in order to understand its structure or nature."],
+"chinese_translations": ["分析", "解析"],
+"example_sentences": "We need to analyse the data carefully before drawing any conclusions."
+},
+{
+"word": ["Bayes' theorem"],
+"english_synonyms": ["Bayes' rule", "Bayes' law"],
+"english_explanations": ["A mathematical formula for determining conditional probability, describing the probability of an event based on prior knowledge of conditions that might be related to the event."],
+"chinese_translations": ["贝叶斯定理"],
+"example_sentences": "Bayes' theorem allows us to update our beliefs about a hypothesis as new evidence becomes available."
+},
+{
+"word": ["behaviour", "behavior"],
+"english_synonyms": ["conduct", "performance", "response", "action"],
+"english_explanations": ["The way in which something acts or operates under specified circumstances."],
+"chinese_translations": ["行为", "性能", "表现"],
+"example_sentences": "The behaviour of the random variable becomes more predictable as the sample size increases."
+},
+{
+"word": ["Bernoulli trial"],
+"english_synonyms": ["Bernoulli experiment"],
+"english_explanations": ["A random experiment with exactly two possible outcomes, typically labeled as success or failure, where the probability of success remains constant across trials."],
+"chinese_translations": ["伯努利试验"],
+"example_sentences": "Each coin flip can be modeled as a Bernoulli trial with two possible outcomes: heads or tails."
+},
+{
+"word": ["bias"],
+"english_synonyms": ["prejudice", "inclination", "systematic error", "skew"],
+"english_explanations": ["A systematic deviation from the true value of a parameter, or a tendency of a statistical measure to overestimate or underestimate the quantity it is estimating."],
+"chinese_translations": ["偏差", "偏置", "偏见"],
+"example_sentences": "A biased estimator systematically deviates from the true parameter value it aims to estimate."
+},
+{
+"word": ["binomial distribution"],
+"english_synonyms": ["Bernoulli distribution (for n=1)"],
+"english_explanations": ["A discrete probability distribution that models the number of successes in a fixed number of independent Bernoulli trials with the same probability of success."],
+"chinese_translations": ["二项分布"],
+"example_sentences": "The binomial distribution describes the probability of obtaining exactly k successes in n independent trials."
+},
+{
+"word": ["central limit theorem"],
+"english_synonyms": ["CLT"],
+"english_explanations": ["A fundamental theorem stating that the sampling distribution of the sample mean approaches a normal distribution as the sample size becomes large, regardless of the population distribution."],
+"chinese_translations": ["中心极限定理"],
+"example_sentences": "The central limit theorem explains why the normal distribution appears so frequently in statistical applications."
+},
+{
+"word": ["characteristic function"],
+"english_synonyms": ["Fourier transform of distribution"],
+"english_explanations": ["A mathematical function that completely defines the probability distribution of a random variable, obtained by taking the expectation of the exponential of the imaginary unit times the random variable."],
+"chinese_translations": ["特征函数"],
+"example_sentences": "The characteristic function uniquely determines the probability distribution of a random variable."
+},
+{
+"word": ["Chebyshev's inequality"],
+"english_synonyms": ["Chebyshev's theorem", "Bienaymé-Chebyshev inequality"],
+"english_explanations": ["A theorem stating that for any probability distribution with finite variance, the probability that a random variable deviates from its mean by more than k standard deviations is at most 1/k²."],
+"chinese_translations": ["切比雪夫不等式"],
+"example_sentences": "Chebyshev's inequality provides a bound on how far a random variable can deviate from its mean."
+},
+{
+"word": ["combination"],
+"english_synonyms": ["selection", "subset"],
+"english_explanations": ["A selection of items from a collection where the order of selection does not matter."],
+"chinese_translations": ["组合"],
+"example_sentences": "The number of ways to choose 3 people from a group of 10 is given by the combination formula."
+},
+{
+"word": ["conditional distribution"],
+"english_synonyms": ["conditional probability distribution"],
+"english_explanations": ["The probability distribution of a random variable given that another random variable has taken a specific value or that a certain condition has been met."],
+"chinese_translations": ["条件分布"],
+"example_sentences": "The conditional distribution of Y given X=x describes how Y behaves when X is fixed at a specific value."
+},
+{
+"word": ["conditional probability"],
+"english_synonyms": ["conditional chance", "conditional likelihood"],
+"english_explanations": ["The probability of an event occurring given that another event has already occurred."],
+"chinese_translations": ["条件概率"],
+"example_sentences": "The conditional probability of rain given that the sky is cloudy is higher than the unconditional probability."
+},
+{
+"word": ["consistent"],
+"english_synonyms": ["convergent", "stable", "reliable"],
+"english_explanations": ["An estimator is consistent if it converges in probability to the true parameter value as the sample size increases to infinity."],
+"chinese_translations": ["相合的", "一致的"],
+"example_sentences": "A consistent estimator approaches the true parameter value as the sample size grows larger."
+},
+{
+"word": ["continuous"],
+"english_synonyms": ["uninterrupted", "unbroken"],
+"english_explanations": ["Describing a random variable that can take any value within a given range, with a probability density function rather than a probability mass function."],
+"chinese_translations": ["连续的"],
+"example_sentences": "A continuous random variable can take on an uncountably infinite number of possible values within an interval."
+},
+{
+"word": ["convergence in distribution"],
+"english_synonyms": ["weak convergence", "convergence in law"],
+"english_explanations": ["A mode of convergence where the cumulative distribution functions of a sequence of random variables converge to the cumulative distribution function of a limiting random variable at all points of continuity."],
+"chinese_translations": ["依分布收敛", "弱收敛"],
+"example_sentences": "Convergence in distribution means that the probability distributions of a sequence of random variables approach a limiting distribution."
+},
+{
+"word": ["convergence in probability"],
+"english_synonyms": ["stochastic convergence"],
+"english_explanations": ["A mode of convergence where the probability that a sequence of random variables differs from a target value by more than any given small amount approaches zero as the sequence progresses."],
+"chinese_translations": ["依概率收敛"],
+"example_sentences": "Convergence in probability is stronger than convergence in distribution but weaker than almost sure convergence."
+},
+{
+"word": ["correlation"],
+"english_synonyms": ["association", "relationship", "dependence", "connection"],
+"english_explanations": ["A statistical measure that expresses the extent to which two random variables are linearly related, ranging from -1 to +1."],
+"chinese_translations": ["相关", "相关性"],
+"example_sentences": "The correlation between height and weight in the sample was found to be positive and strong."
+},
+{
+"word": ["covariance"],
+"english_synonyms": ["joint variability"],
+"english_explanations": ["A measure of the joint variability of two random variables, indicating how they change together; positive covariance means they tend to increase or decrease together."],
+"chinese_translations": ["协方差"],
+"example_sentences": "Covariance measures the degree to which two random variables move in the same direction."
+},
+{
+"word": ["cumulative distribution function"],
+"english_synonyms": ["CDF", "distribution function"],
+"english_explanations": ["A function that gives the probability that a random variable takes a value less than or equal to a given point, completely characterizing the probability distribution."],
+"chinese_translations": ["累积分布函数", "分布函数"],
+"example_sentences": "The cumulative distribution function of a random variable X evaluated at x gives P(X ≤ x)."
+},
+{
+"word": ["discrete"],
+"english_synonyms": ["separate", "distinct", "countable"],
+"english_explanations": ["Describing a random variable that can only take on a countable number of distinct values, such as integers, with a probability mass function."],
+"chinese_translations": ["离散的"],
+"example_sentences": "A discrete random variable takes on a finite or countably infinite set of possible values."
+},
+{
+"word": ["distribution"],
+"english_synonyms": ["probability distribution", "allocation", "spread"],
+"english_explanations": ["A mathematical function that provides the probabilities of occurrence of different possible outcomes for a random variable."],
+"chinese_translations": ["分布"],
+"example_sentences": "The normal distribution is one of the most important probability distributions in statistics."
+},
+{
+"word": ["estimate"],
+"english_synonyms": ["approximate", "gauge", "assess", "calculate"],
+"english_explanations": ["To calculate or judge the value or amount of a parameter, typically based on sample data; or the calculated value itself."],
+"chinese_translations": ["估计", "估算"],
+"example_sentences": "We can estimate the population mean by computing the sample mean from our collected data."
+},
+{
+"word": ["estimator"],
+"english_synonyms": ["statistic", "rule", "function"],
+"english_explanations": ["A rule, method, or function of sample data used to approximate an unknown population parameter."],
+"chinese_translations": ["估计量", "估计器"],
+"example_sentences": "The sample mean is a commonly used estimator for the population mean."
+},
+{
+"word": ["event"],
+"english_synonyms": ["occurrence", "happening", "incident", "outcome set"],
+"english_explanations": ["A set of outcomes of an experiment to which a probability is assigned, representing a subset of the sample space."],
+"chinese_translations": ["事件"],
+"example_sentences": "In probability theory, an event is a subset of the sample space to which a probability is assigned."
+},
+{
+"word": ["expectation"],
+"english_synonyms": ["expected value", "mean", "first moment", "average"],
+"english_explanations": ["The long-run average value of a random variable over many repeated trials, representing the weighted average of all possible values."],
+"chinese_translations": ["期望", "期望值"],
+"example_sentences": "The expectation of a fair die roll is 3.5, which is the average outcome over many rolls."
+},
+{
+"word": ["expected value"],
+"english_synonyms": ["expectation", "mean", "average", "first moment"],
+"english_explanations": ["The weighted average of all possible values that a random variable can take, with weights given by their respective probabilities."],
+"chinese_translations": ["期望值", "数学期望"],
+"example_sentences": "The expected value of a random variable represents its long-run average over many independent repetitions."
+},
+{
+"word": ["exponential distribution"],
+"english_synonyms": ["negative exponential distribution"],
+"english_explanations": ["A continuous probability distribution that describes the time between events in a Poisson process, characterized by a constant hazard rate."],
+"chinese_translations": ["指数分布"],
+"example_sentences": "The exponential distribution is often used to model the time until the next event occurs in a Poisson process."
+},
+{
+"word": ["independence"],
+"english_synonyms": ["autonomy", "freedom", "unrelatedness"],
+"english_explanations": ["The property of two or more events or random variables where the occurrence or value of one does not affect the probability of the other."],
+"chinese_translations": ["独立性"],
+"example_sentences": "Independence between two random variables means that knowing the value of one provides no information about the other."
+},
+{
+"word": ["independent"],
+"english_synonyms": ["unrelated", "unconnected", "autonomous", "separate"],
+"english_explanations": ["Describing events or random variables where the outcome or value of one does not influence or provide information about the outcome or value of another."],
+"chinese_translations": ["独立的", "无关的"],
+"example_sentences": "Two events are independent if the occurrence of one does not change the probability of the other occurring."
+},
+{
+"word": ["joint distribution"],
+"english_synonyms": ["multivariate distribution", "joint probability distribution"],
+"english_explanations": ["A probability distribution that gives the probabilities of two or more random variables taking on various combinations of values simultaneously."],
+"chinese_translations": ["联合分布"],
+"example_sentences": "The joint distribution of X and Y completely describes the probabilistic relationship between the two random variables."
+},
+{
+"word": ["law of large numbers"],
+"english_synonyms": ["LLN", "Bernoulli's theorem"],
+"english_explanations": ["A fundamental theorem stating that as the number of trials in a random experiment increases, the sample average converges to the expected value."],
+"chinese_translations": ["大数定律"],
+"example_sentences": "The law of large numbers guarantees that the sample mean will converge to the population mean as the sample size grows."
+},
+{
+"word": ["likelihood"],
+"english_synonyms": ["probability", "plausibility", "chance"],
+"english_explanations": ["The probability of observing the given sample data as a function of the parameters of a statistical model, used in estimation and inference."],
+"chinese_translations": ["似然", "似然性"],
+"example_sentences": "The likelihood function measures how probable the observed data is for different values of the parameter."
+},
+{
+"word": ["marginal distribution"],
+"english_synonyms": ["marginal probability distribution"],
+"english_explanations": ["The probability distribution of a subset of random variables obtained from a joint distribution by summing or integrating over the other variables."],
+"chinese_translations": ["边缘分布"],
+"example_sentences": "The marginal distribution of X can be obtained from the joint distribution by summing over all possible values of Y."
+},
+{
+"word": ["Markov chain"],
+"english_synonyms": ["Markov process (discrete time)"],
+"english_explanations": ["A stochastic process where the probability of moving to the next state depends only on the current state and not on the sequence of events that preceded it."],
+"chinese_translations": ["马尔可夫链"],
+"example_sentences": "A Markov chain is characterized by the memoryless property: the future state depends only on the present state."
+},
+{
+"word": ["maximum likelihood estimation"],
+"english_synonyms": ["MLE", "maximum likelihood method"],
+"english_explanations": ["A method of estimating the parameters of a statistical model by finding the parameter values that maximize the likelihood of observing the given data."],
+"chinese_translations": ["最大似然估计"],
+"example_sentences": "Maximum likelihood estimation selects the parameter values that make the observed data most probable."
+},
+{
+"word": ["mean"],
+"english_synonyms": ["average", "expected value", "arithmetic mean"],
+"english_explanations": ["A measure of central tendency representing the sum of all values divided by the number of values, or the expected value of a random variable."],
+"chinese_translations": ["均值", "平均数"],
+"example_sentences": "The sample mean is the most common estimator for the population mean."
+},
+{
+"word": ["measurable"],
+"english_synonyms": ["quantifiable", "observable", "well-defined"],
+"english_explanations": ["Describing a set or function for which a measure can be defined, or a random variable for which probabilities can be assigned to events."],
+"chinese_translations": ["可测的", "可测量的"],
+"example_sentences": "A measurable function allows us to define probabilities for events in a rigorous mathematical framework."
+},
+{
+"word": ["measure"],
+"english_synonyms": ["metric", "quantity", "magnitude"],
+"english_explanations": ["A systematic way to assign a number to subsets of a set, generalizing the concepts of length, area, or probability; in probability, a measure assigns probabilities to events."],
+"chinese_translations": ["测度", "度量", "测量"],
+"example_sentences": "Probability measure is a special type of measure where the total measure of the sample space equals one."
+},
+{
+"word": ["median"],
+"english_synonyms": ["middle value", "central value"],
+"english_explanations": ["A measure of central tendency representing the middle value in an ordered dataset, where half the observations are above and half are below."],
+"chinese_translations": ["中位数"],
+"example_sentences": "The median is less sensitive to extreme values than the mean, making it a robust measure of central tendency."
+},
+{
+"word": ["mode"],
+"english_synonyms": ["most frequent value", "peak"],
+"english_explanations": ["A measure of central tendency representing the most frequently occurring value in a dataset or the peak of a probability density function."],
+"chinese_translations": ["众数", "模"],
+"example_sentences": "The mode of a distribution is the value at which the probability density function reaches its maximum."
+},
+{
+"word": ["modelling", "modeling"],
+"english_synonyms": ["simulation", "representation", "formulation", "construction"],
+"english_explanations": ["The process of creating a mathematical or statistical representation of a real-world phenomenon or system to analyze and predict behavior."],
+"chinese_translations": ["建模", "模型化"],
+"example_sentences": "Statistical modelling involves using probability distributions to describe and predict real-world phenomena."
+},
+{
+"word": ["moment"],
+"english_synonyms": ["expected power"],
+"english_explanations": ["A quantitative measure of the shape of a set of points or a probability distribution, defined as the expected value of a power of the random variable."],
+"chinese_translations": ["矩"],
+"example_sentences": "The first moment of a random variable is its mean, and the second central moment is its variance."
+},
+{
+"word": ["moment generating function"],
+"english_synonyms": ["MGF"],
+"english_explanations": ["A function that encodes all the moments of a random variable and can be used to derive them by differentiation, if it exists in a neighborhood of zero."],
+"chinese_translations": ["矩母函数", "矩生成函数"],
+"example_sentences": "The moment generating function uniquely determines the probability distribution when it exists."
+},
+{
+"word": ["normal distribution"],
+"english_synonyms": ["Gaussian distribution", "bell curve"],
+"english_explanations": ["A continuous probability distribution characterized by a symmetric bell-shaped curve, completely determined by its mean and variance."],
+"chinese_translations": ["正态分布", "高斯分布"],
+"example_sentences": "The normal distribution is widely used in statistics because of the central limit theorem."
+},
+{
+"word": ["normalise", "normalize"],
+"english_synonyms": ["standardise", "standardize", "scale", "adjust"],
+"english_explanations": ["To transform data or a function so that it conforms to a standard scale or satisfies a specific condition, such as having unit norm or total probability equal to one."],
+"chinese_translations": ["标准化", "归一化", "规范化"],
+"example_sentences": "We often normalise a probability density function so that the total area under the curve equals one."
+},
+{
+"word": ["outcome"],
+"english_synonyms": ["result", "consequence", "output", "eventuality"],
+"english_explanations": ["A possible result of a random experiment or trial, representing an element of the sample space."],
+"chinese_translations": ["结果", "结局", "Outcome"],
+"example_sentences": "Each possible outcome of the experiment is assigned a probability in the sample space."
+},
+{
+"word": ["parameter"],
+"english_synonyms": ["variable", "constant", "coefficient", "quantity"],
+"english_explanations": ["A numerical characteristic of a population or probability distribution that is typically unknown and estimated from sample data."],
+"chinese_translations": ["参数"],
+"example_sentences": "The parameter μ represents the true population mean that we attempt to estimate from sample data."
+},
+{
+"word": ["permutation"],
+"english_synonyms": ["arrangement", "ordering", "sequence"],
+"english_explanations": ["An arrangement of objects in a specific order, where the ordering matters, as opposed to combinations where order does not matter."],
+"chinese_translations": ["排列"],
+"example_sentences": "The number of permutations of n distinct objects taken r at a time is given by n!/(n-r)!."
+},
+{
+"word": ["Poisson distribution"],
+"english_synonyms": ["Poisson law of small numbers"],
+"english_explanations": ["A discrete probability distribution that expresses the probability of a given number of events occurring in a fixed interval of time or space, given a constant mean rate."],
+"chinese_translations": ["泊松分布"],
+"example_sentences": "The Poisson distribution is appropriate for modeling the number of emails received in an hour."
+},
+{
+"word": ["posterior probability"],
+"english_synonyms": ["posterior", "updated probability"],
+"english_explanations": ["The revised probability of an event occurring after taking into account new evidence or information, calculated using Bayes' theorem."],
+"chinese_translations": ["后验概率"],
+"example_sentences": "The posterior probability of a hypothesis is proportional to the prior probability multiplied by the likelihood of the observed data."
+},
+{
+"word": ["prior probability"],
+"english_synonyms": ["prior", "initial probability", "a priori probability"],
+"english_explanations": ["The probability of an event before new evidence or data is taken into account, representing initial beliefs about the probability distribution of a parameter."],
+"chinese_translations": ["先验概率"],
+"example_sentences": "The prior probability reflects our beliefs about a parameter before observing any data."
+},
+{
+"word": ["probability"],
+"english_synonyms": ["chance", "likelihood", "odds", "possibility"],
+"english_explanations": ["A numerical measure between 0 and 1 that quantifies the likelihood of an event occurring, where 0 indicates impossibility and 1 indicates certainty."],
+"chinese_translations": ["概率", "几率", "或然率"],
+"example_sentences": "Probability theory provides the mathematical foundation for analyzing uncertain events and random phenomena."
+},
+{
+"word": ["probability density function"],
+"english_synonyms": ["PDF", "density function"],
+"english_explanations": ["A function that describes the relative likelihood for a continuous random variable to take on a given value, where the area under the curve gives probabilities."],
+"chinese_translations": ["概率密度函数"],
+"example_sentences": "The probability density function of a continuous random variable must integrate to one over the entire real line."
+},
+{
+"word": ["probability distribution"],
+"english_synonyms": ["distribution", "probability law"],
+"english_explanations": ["A mathematical function that provides the probabilities of occurrence of different possible outcomes for a random variable in an experiment."],
+"chinese_translations": ["概率分布"],
+"example_sentences": "The probability distribution completely characterizes the behavior of a random variable."
+},
+{
+"word": ["quantile"],
+"english_synonyms": ["fractile", "percentile point"],
+"english_explanations": ["A cut-off point dividing the range of a probability distribution into continuous intervals with equal probabilities, or the value below which a given percentage of observations fall."],
+"chinese_translations": ["分位数"],
+"example_sentences": "The median is the 0.5 quantile of a probability distribution."
+},
+{
+"word": ["random"],
+"english_synonyms": ["stochastic", "chance", "haphazard", "unpredictable"],
+"english_explanations": ["Lacking a definite plan, purpose, or pattern; governed by or involving equal chances for each item, characteristic of phenomena studied in probability theory."],
+"chinese_translations": ["随机的", "偶然的"],
+"example_sentences": "A random variable is a variable whose possible values are outcomes of a random phenomenon."
+},
+{
+"word": ["random sample"],
+"english_synonyms": ["sample", "representative sample"],
+"english_explanations": ["A subset of individuals or observations chosen from a larger population such that each individual has an equal chance of being selected, ensuring representativeness."],
+"chinese_translations": ["随机样本"],
+"example_sentences": "A random sample helps ensure that the sample statistics are unbiased estimators of the population parameters."
+},
+{
+"word": ["random variable"],
+"english_synonyms": ["stochastic variable", "aleatory variable"],
+"english_explanations": ["A variable whose possible values are numerical outcomes of a random phenomenon, which can be discrete or continuous."],
+"chinese_translations": ["随机变量"],
+"example_sentences": "A random variable assigns a numerical value to each outcome in a sample space."
+},
+{
+"word": ["randomise", "randomize"],
+"english_synonyms": ["shuffle", "mix up", "rearrange", "scramble"],
+"english_explanations": ["To arrange or select items in a random order or manner, or to assign subjects to different groups by chance in an experiment."],
+"chinese_translations": ["随机化", "使随机"],
+"example_sentences": "Researchers randomise the assignment of participants to treatment and control groups to eliminate bias."
+},
+{
+"word": ["sample space"],
+"english_synonyms": ["possibility space", "event space"],
+"english_explanations": ["The set of all possible outcomes or results of a random experiment, representing the universal set for probability calculations."],
+"chinese_translations": ["样本空间"],
+"example_sentences": "The sample space of rolling a six-sided die consists of the six possible outcomes: 1, 2, 3, 4, 5, and 6."
+},
+{
+"word": ["sigma-algebra"],
+"english_synonyms": ["σ-field", "sigma-field", "Borel field"],
+"english_explanations": ["A collection of subsets of a sample space that includes the empty set, is closed under complementation, and is closed under countable unions, forming the domain for probability measures."],
+"chinese_translations": ["σ-代数", "sigma代数"],
+"example_sentences": "A sigma-algebra defines the collection of events to which probabilities can be assigned in a rigorous mathematical framework."
+},
+{
+"word": ["standard deviation"],
+"english_synonyms": ["SD", "root mean square deviation"],
+"english_explanations": ["A measure of the amount of variation or dispersion of a set of values, calculated as the square root of the variance."],
+"chinese_translations": ["标准差"],
+"example_sentences": "The standard deviation measures how spread out the values of a random variable are around the mean."
+},
+{
+"word": ["standardise", "standardize"],
+"english_synonyms": ["normalize", "normalise", "calibrate", "scale"],
+"english_explanations": ["To transform data to have a mean of zero and a standard deviation of one, or to conform to a standard scale for comparison purposes."],
+"chinese_translations": ["标准化"],
+"example_sentences": "We standardise the data by subtracting the mean and dividing by the standard deviation."
+},
+{
+"word": ["statistic"],
+"english_synonyms": ["sample statistic", "estimate", "figure"],
+"english_explanations": ["A numerical quantity calculated from a sample of data, used to estimate a population parameter or to test a hypothesis."],
+"chinese_translations": ["统计量"],
+"example_sentences": "The sample mean is a statistic used to estimate the unknown population mean."
+},
+{
+"word": ["stochastic process"],
+"english_synonyms": ["random process"],
+"english_explanations": ["A collection of random variables indexed by time or space, representing the evolution of a system of random values over time."],
+"chinese_translations": ["随机过程"],
+"example_sentences": "A Markov chain is a specific type of stochastic process with the memoryless property."
+},
+{
+"word": ["uniform distribution"],
+"english_synonyms": ["rectangular distribution"],
+"english_explanations": ["A continuous or discrete probability distribution where all outcomes or intervals of equal length have equal probability."],
+"chinese_translations": ["均匀分布"],
+"example_sentences": "The uniform distribution assigns equal probability to all values within a specified interval."
+},
+{
+"word": ["unbiased"],
+"english_synonyms": ["fair", "impartial", "neutral", "objective"],
+"english_explanations": ["Describing an estimator whose expected value equals the true value of the parameter being estimated, having no systematic error."],
+"chinese_translations": ["无偏的", "不偏不倚的"],
+"example_sentences": "An unbiased estimator has an expected value equal to the true parameter value it is estimating."
+},
+{
+"word": ["variance"],
+"english_synonyms": ["dispersion", "variability", "spread"],
+"english_explanations": ["A measure of the spread between numbers in a dataset, specifically the expected value of the squared deviation of a random variable from its mean."],
+"chinese_translations": ["方差"],
+"example_sentences": "The variance quantifies how far a set of numbers are spread out from their average value."
+}
+]
