@@ -1,0 +1,261 @@
+[
+{
+"word": ["turn to"],
+"english_synonyms": ["resort to", "seek help from", "rely on"],
+"english_explanations": ["To go to someone or something for help, advice, or support."],
+"chinese_translations": ["求助于", "转向"],
+"example_sentences": "When times are tough, people often turn to family for support."
+},
+{
+"word": ["in the long run"],
+"english_synonyms": ["eventually", "in the end", "over time"],
+"english_explanations": ["Over an extended period of time; ultimately."],
+"chinese_translations": ["从长远来看"],
+"example_sentences": "Investing in education pays off in the long run."
+},
+{
+"word": ["pull together"],
+"english_synonyms": ["collaborate", "cooperate", "work as a team"],
+"english_explanations": ["To work together cooperatively, especially in a difficult situation."],
+"chinese_translations": ["齐心协力"],
+"example_sentences": "The community had to pull together to rebuild after the disaster."
+},
+{
+"word": ["afford to"],
+"english_synonyms": ["be able to pay for", "manage to", "have enough resources for"],
+"english_explanations": ["To have enough money, time, or ability to do something without negative consequences."],
+"chinese_translations": ["负担得起"],
+"example_sentences": "Many young people cannot afford to buy a house in major cities."
+},
+{
+"word": ["bring a relationship to its knees"],
+"english_synonyms": ["destroy a relationship", "ruin a relationship", "devastate a relationship"],
+"english_explanations": ["To cause a relationship to nearly collapse or fail completely."],
+"chinese_translations": ["使关系濒临破裂"],
+"example_sentences": "Financial stress can bring a relationship to its knees."
+},
+{
+"word": ["characterized by"],
+"english_synonyms": ["marked by", "distinguished by", "defined by"],
+"english_explanations": ["To describe the distinctive nature or features of something."],
+"chinese_translations": ["以……为特征"],
+"example_sentences": "The era was characterized by rapid technological advancement."
+},
+{
+"word": ["saddled with"],
+"english_synonyms": ["burdened with", "loaded with", "weighed down by"],
+"english_explanations": ["To be burdened with something undesirable, such as debt or responsibility."],
+"chinese_translations": ["背负（重担/债务）"],
+"example_sentences": "The company was saddled with enormous debt after the acquisition."
+},
+{
+"word": ["make it"],
+"english_synonyms": ["succeed", "arrive on time", "manage to do something"],
+"english_explanations": ["To succeed in doing something or to arrive somewhere successfully."],
+"chinese_translations": ["成功做到", "设法到达"],
+"example_sentences": "Despite the challenges, she managed to make it to the top of her field."
+},
+{
+"word": ["put a huge drag on"],
+"english_synonyms": ["significantly slow down", "heavily burden", "greatly hinder"],
+"english_explanations": ["To cause something to progress much more slowly or with greater difficulty."],
+"chinese_translations": ["对……造成巨大拖累"],
+"example_sentences": "High inflation put a huge drag on economic growth last year."
+},
+{
+"word": ["pay off"],
+"english_synonyms": ["settle", "clear", "repay in full"],
+"english_explanations": ["To fully repay a debt or loan."],
+"chinese_translations": ["还清（债务）"],
+"example_sentences": "It took him five years to pay off his student loans."
+},
+{
+"word": ["get out from under"],
+"english_synonyms": ["escape from", "free oneself from", "recover from"],
+"english_explanations": ["To escape from a difficult situation, especially debt or obligation."],
+"chinese_translations": ["摆脱（债务/困境）"],
+"example_sentences": "After years of struggle, she finally got out from under her credit card debt."
+},
+{
+"word": ["trade A for B"],
+"english_synonyms": ["exchange A for B", "swap A for B", "barter A for B"],
+"english_explanations": ["To give up one thing in order to receive another."],
+"chinese_translations": ["用A换取B"],
+"example_sentences": "Many people trade time for money without considering the long-term cost."
+},
+{
+"word": ["come by"],
+"english_synonyms": ["obtain", "acquire", "get"],
+"english_explanations": ["To obtain or acquire something, often used in negative or interrogative contexts."],
+"chinese_translations": ["获得", "得到（常用于否定/疑问）"],
+"example_sentences": "Good jobs are hard to come by in this competitive market."
+},
+{
+"word": ["no-fault"],
+"english_synonyms": ["without blame", "non-accusatory"],
+"english_explanations": ["A system or arrangement in which neither party is considered responsible for a problem or failure."],
+"chinese_translations": ["无过错的（离婚）"],
+"example_sentences": "No-fault divorce laws have made it easier for couples to separate amicably."
+},
+{
+"word": ["cancelling out"],
+"english_synonyms": ["neutralizing", "offsetting", "nullifying"],
+"english_explanations": ["To reduce the effect of something by having an opposite effect of equal force."],
+"chinese_translations": ["抵消"],
+"example_sentences": "The gains in one sector were cancelling out the losses in another."
+},
+{
+"word": ["buy into"],
+"english_synonyms": ["believe in", "accept", "invest in"],
+"english_explanations": ["To believe in or accept an idea, or to purchase a share of something."],
+"chinese_translations": ["相信", "买进"],
+"example_sentences": "Not everyone buys into the idea that money brings happiness."
+},
+{
+"word": ["walk a fine line"],
+"english_synonyms": ["balance carefully", "tread carefully", "navigate a delicate situation"],
+"english_explanations": ["To be in a situation where one must be very careful to avoid making a mistake."],
+"chinese_translations": ["走钢丝", "小心平衡"],
+"example_sentences": "Managers often walk a fine line between being approachable and maintaining authority."
+},
+{
+"word": ["rags-to-riches"],
+"english_synonyms": ["from poverty to wealth", "self-made success", "humble origins to prosperity"],
+"english_explanations": ["Describing a person who rises from poverty to great wealth or success."],
+"chinese_translations": ["白手起家的"],
+"example_sentences": "The entrepreneur's rags-to-riches story inspired millions around the world."
+},
+{
+"word": ["sky-high"],
+"english_synonyms": ["extremely high", "exorbitant", "astronomical"],
+"english_explanations": ["At or reaching an extremely high level."],
+"chinese_translations": ["极高的"],
+"example_sentences": "Housing prices in the city have gone sky-high in recent years."
+},
+{
+"word": ["Rather"],
+"english_synonyms": ["instead", "on the contrary", "conversely"],
+"english_explanations": ["Used to indicate the opposite or a different choice from what was previously mentioned."],
+"chinese_translations": ["相反", "反而"],
+"example_sentences": "Rather than giving up, she worked even harder to achieve her goals."
+},
+{
+"word": ["overwhelmed"],
+"english_synonyms": ["burdened", "swamped", "overloaded"],
+"english_explanations": ["Feeling unable to cope with the amount or intensity of something."],
+"chinese_translations": ["不堪重负的", "被压垮的"],
+"example_sentences": "She felt overwhelmed by the demands of her new job."
+},
+{
+"word": ["irreparably"],
+"english_synonyms": ["beyond repair", "permanently", "irrevocably"],
+"english_explanations": ["In a way that cannot be fixed or made right again."],
+"chinese_translations": ["无法弥补地"],
+"example_sentences": "The damage to their friendship was done irreparably."
+},
+{
+"word": ["symbolizes"],
+"english_synonyms": ["represents", "stands for", "embodies"],
+"english_explanations": ["To serve as a symbol of something; to represent a deeper meaning."],
+"chinese_translations": ["象征"],
+"example_sentences": "The dove symbolizes peace in many cultures."
+},
+{
+"word": ["taboo"],
+"english_synonyms": ["prohibition", "ban", "social restriction"],
+"english_explanations": ["A social or cultural custom forbidding or restricting a particular practice."],
+"chinese_translations": ["禁忌"],
+"example_sentences": "Talking about salary is still considered a taboo in some workplaces."
+},
+{
+"word": ["accumulating"],
+"english_synonyms": ["gathering", "amassing", "collecting"],
+"english_explanations": ["Gradually increasing in quantity over time."],
+"chinese_translations": ["累积"],
+"example_sentences": "He spent years accumulating wealth through smart investments."
+},
+{
+"word": ["persist"],
+"english_synonyms": ["continue", "endure", "persevere"],
+"english_explanations": ["To continue to exist or occur over a prolonged period."],
+"chinese_translations": ["持续存在"],
+"example_sentences": "Despite efforts to reduce it, poverty continues to persist in the region."
+},
+{
+"word": ["payoff"],
+"english_synonyms": ["return", "reward", "benefit"],
+"english_explanations": ["The result or outcome of an effort, often a positive one; also the act of paying a debt."],
+"chinese_translations": ["还清", "回报"],
+"example_sentences": "The payoff for years of hard work was finally a promotion."
+},
+{
+"word": ["counterparts"],
+"english_synonyms": ["equivalents", "peers", "colleagues in similar positions"],
+"english_explanations": ["A person or thing that corresponds to or has the same function as another in a different place or organization."],
+"chinese_translations": ["职位相当的人", "counterparts"],
+"example_sentences": "She met with her counterparts from the international offices."
+},
+{
+"word": ["turnover"],
+"english_synonyms": ["attrition", "churn", "revenue"],
+"english_explanations": ["The rate at which employees leave and are replaced, or the total amount of business done in a period."],
+"chinese_translations": ["人员更替", "营业额"],
+"example_sentences": "High turnover can be a sign of poor management in a company."
+},
+{
+"word": ["derailing"],
+"english_synonyms": ["disrupting", "sabotaging", "throwing off course"],
+"english_explanations": ["To cause a plan or process to fail or go off track."],
+"chinese_translations": ["使脱轨", "破坏"],
+"example_sentences": "Unexpected costs are derailing the project's timeline."
+},
+{
+"word": ["prophetess"],
+"english_synonyms": ["female prophet", "seeress", "oracle"],
+"english_explanations": ["A woman who is believed to predict the future or speak for a divine power."],
+"chinese_translations": ["女先知"],
+"example_sentences": "In ancient times, a prophetess was often consulted before major decisions."
+},
+{
+"word": ["fundamentally"],
+"english_synonyms": ["essentially", "basically", "at the core"],
+"english_explanations": ["At the most basic level; in an essential way."],
+"chinese_translations": ["根本上"],
+"example_sentences": "The two approaches are fundamentally different in their philosophy."
+},
+{
+"word": ["bleak"],
+"english_synonyms": ["grim", "dismal", "hopeless"],
+"english_explanations": ["Lacking optimism or hope; cold and unwelcoming in appearance."],
+"chinese_translations": ["悲观的", "暗淡的"],
+"example_sentences": "The economic forecast looks bleak for the coming quarter."
+},
+{
+"word": ["rungs"],
+"english_synonyms": ["steps", "levels", "grades"],
+"english_explanations": ["The horizontal bars on a ladder; metaphorically, levels in a hierarchy or career progression."],
+"chinese_translations": ["（梯子）横档", "阶层"],
+"example_sentences": "She climbed the rungs of the corporate ladder with determination."
+},
+{
+"word": ["philanthropist"],
+"english_synonyms": ["benefactor", "humanitarian", "donor"],
+"english_explanations": ["A person who seeks to promote the welfare of others, especially through charitable donations."],
+"chinese_translations": ["慈善家"],
+"example_sentences": "The philanthropist donated millions to educational causes."
+},
+{
+"word": ["tycoon"],
+"english_synonyms": ["magnate", "baron", "industrialist"],
+"english_explanations": ["A wealthy, powerful person in business or industry."],
+"chinese_translations": ["大亨"],
+"example_sentences": "The media tycoon built an empire spanning multiple continents."
+},
+{
+"word": ["trimming"],
+"english_synonyms": ["cutting", "reducing", "pruning"],
+"english_explanations": ["The act of cutting away unnecessary parts; reducing costs or excess."],
+"chinese_translations": ["削减", "修整"],
+"example_sentences": "The company is trimming its workforce to cut costs."
+}
+]
