@@ -1,0 +1,2025 @@
+[
+  {
+    "word": ["accounting"],
+    "english_synonyms": ["bookkeeping", "financial management", "auditing"],
+    "english_explanations": ["The systematic recording, analyzing, and reporting of financial transactions of a business."],
+    "chinese_translations": ["会计", "会计学"],
+    "example_sentences": "She works in the accounting department of a large corporation."
+  },
+  {
+    "word": ["administration"],
+    "english_synonyms": ["management", "oversight", "governance", "operation"],
+    "english_explanations": ["The activities and tasks related to running an organization or business."],
+    "chinese_translations": ["管理", "行政"],
+    "example_sentences": "Business administration requires strong leadership skills."
+  },
+  {
+    "word": ["appoint"],
+    "english_synonyms": ["assign", "designate", "nominate", "commission"],
+    "english_explanations": ["To assign someone to a position or role officially."],
+    "chinese_translations": ["任命", "委派"],
+    "example_sentences": "The board decided to appoint her as the new director."
+  },
+  {
+    "word": ["available"],
+    "english_synonyms": ["accessible", "obtainable", "ready", "at hand"],
+    "english_explanations": ["Able to be used or obtained; free to do something."],
+    "chinese_translations": ["可用的", "有空的"],
+    "example_sentences": "The report will be available by Friday afternoon."
+  },
+  {
+    "word": ["bankrupt"],
+    "english_synonyms": ["insolvent", "ruined", "failed"],
+    "english_explanations": ["Unable to pay debts owed; having been declared financially insolvent by law."],
+    "chinese_translations": ["破产的"],
+    "example_sentences": "The company went bankrupt after several years of losses."
+  },
+  {
+    "word": ["base"],
+    "english_synonyms": ["foundation", "headquarters", "center", "establish"],
+    "english_explanations": ["The main place where a business operates from; to use something as a foundation."],
+    "chinese_translations": ["基地", "总部", "以...为基础"],
+    "example_sentences": "The company is based in Shanghai."
+  },
+  {
+    "word": ["bookkeeping"],
+    "english_synonyms": ["accounting", "record-keeping", "ledger work"],
+    "english_explanations": ["The activity of keeping records of the financial affairs of a business."],
+    "chinese_translations": ["簿记", "记账"],
+    "example_sentences": "Proper bookkeeping is essential for small businesses."
+  },
+  {
+    "word": ["bottom line"],
+    "english_synonyms": ["net profit", "final result", "net income"],
+    "english_explanations": ["The final total of an account or the net profit of a business; the most important factor."],
+    "chinese_translations": ["底线", "最终盈亏", "净利润"],
+    "example_sentences": "The bottom line is that we need to cut costs."
+  },
+  {
+    "word": ["branch"],
+    "english_synonyms": ["division", "office", "subsidiary", "outlet"],
+    "english_explanations": ["A local office or shop belonging to a larger company or organization."],
+    "chinese_translations": ["分公司", "分支机构"],
+    "example_sentences": "The bank has over 100 branches nationwide."
+  },
+  {
+    "word": ["Cantonese"],
+    "english_synonyms": ["Yue Chinese", "Guangdong dialect"],
+    "english_explanations": ["A variety of Chinese spoken mainly in southeastern China, especially Guangdong."],
+    "chinese_translations": ["粤语", "广东话"],
+    "example_sentences": "She is fluent in both Mandarin and Cantonese."
+  },
+  {
+    "word": ["challenge"],
+    "english_synonyms": ["difficulty", "obstacle", "test", "confront"],
+    "english_explanations": ["A task or situation that tests someone's abilities; to question or dispute."],
+    "chinese_translations": ["挑战", "质疑"],
+    "example_sentences": "Managing a global team presents many challenges."
+  },
+  {
+    "word": ["consultancy"],
+    "english_synonyms": ["consulting firm", "advisory service"],
+    "english_explanations": ["A company that gives expert advice to other businesses."],
+    "chinese_translations": ["咨询公司", "顾问服务"],
+    "example_sentences": "He founded his own management consultancy last year."
+  },
+  {
+    "word": ["consultant"],
+    "english_synonyms": ["advisor", "expert", "specialist"],
+    "english_explanations": ["A person who provides expert advice professionally."],
+    "chinese_translations": ["顾问", "咨询师"],
+    "example_sentences": "They hired a financial consultant to review their budget."
+  },
+  {
+    "word": ["contribution"],
+    "english_synonyms": ["donation", "input", "addition", "commitment"],
+    "english_explanations": ["Something given or contributed towards a common purpose or goal."],
+    "chinese_translations": ["贡献", "捐款"],
+    "example_sentences": "Her contribution to the project was invaluable."
+  },
+  {
+    "word": ["corporation"],
+    "english_synonyms": ["company", "enterprise", "firm", "conglomerate"],
+    "english_explanations": ["A large company or group of companies authorized to act as a single entity."],
+    "chinese_translations": ["公司", "企业", "集团公司"],
+    "example_sentences": "He works for a multinational corporation."
+  },
+  {
+    "word": ["cosmetics"],
+    "english_synonyms": ["makeup", "beauty products", "skincare products"],
+    "english_explanations": ["Products used to enhance or alter the appearance of the face or body."],
+    "chinese_translations": ["化妆品"],
+    "example_sentences": "The cosmetics industry is highly competitive."
+  },
+  {
+    "word": ["elaborately"],
+    "english_synonyms": ["intricately", "detailedly", "carefully"],
+    "english_explanations": ["In a detailed and complicated way; with great care and attention to detail."],
+    "chinese_translations": ["精心地", "复杂地"],
+    "example_sentences": "The product was elaborately designed."
+  },
+  {
+    "word": ["empathic"],
+    "english_synonyms": ["compassionate", "understanding", "sensitive"],
+    "english_explanations": ["Showing an ability to understand and share the feelings of another."],
+    "chinese_translations": ["有共情能力的", "善解人意的"],
+    "example_sentences": "An empathic leader can build stronger team relationships."
+  },
+  {
+    "word": ["entail"],
+    "english_synonyms": ["involve", "require", "necessitate", "demand"],
+    "english_explanations": ["To involve something as a necessary part or consequence."],
+    "chinese_translations": ["需要", "牵涉", " entail"],
+    "example_sentences": "The job will entail frequent travel."
+  },
+  {
+    "word": ["enthusiastic"],
+    "english_synonyms": ["eager", "keen", "passionate", "excited"],
+    "english_explanations": ["Having or showing intense and eager enjoyment, interest, or approval."],
+    "chinese_translations": ["热情的", "热心的"],
+    "example_sentences": "She is enthusiastic about the new marketing campaign."
+  },
+  {
+    "word": ["eye contact"],
+    "english_synonyms": ["visual engagement", "direct gaze"],
+    "english_explanations": ["The act of looking directly into another person's eyes during communication."],
+    "chinese_translations": ["眼神交流", "目光接触"],
+    "example_sentences": "Maintaining eye contact shows confidence during an interview."
+  },
+  {
+    "word": ["facsimile"],
+    "english_synonyms": ["fax", "copy", "reproduction"],
+    "english_explanations": ["An exact copy or reproduction of a document; commonly referred to as fax."],
+    "chinese_translations": ["传真", "复制品"],
+    "example_sentences": "Please send the document by facsimile."
+  },
+  {
+    "word": ["finance"],
+    "english_synonyms": ["funding", "capital", "economics", "banking"],
+    "english_explanations": ["The management of large amounts of money, especially by governments or corporations."],
+    "chinese_translations": ["金融", "财务", "财政"],
+    "example_sentences": "She has a degree in finance and accounting."
+  },
+  {
+    "word": ["income"],
+    "english_synonyms": ["earnings", "revenue", "salary", "wages"],
+    "english_explanations": ["Money received, especially on a regular basis, for work or through investments."],
+    "chinese_translations": ["收入", "所得"],
+    "example_sentences": "The company's annual income increased by 15%."
+  },
+  {
+    "word": ["insurance"],
+    "english_synonyms": ["coverage", "protection", "assurance"],
+    "english_explanations": ["An arrangement providing compensation for specified loss, damage, or injury."],
+    "chinese_translations": ["保险"],
+    "example_sentences": "All employees receive health insurance benefits."
+  },
+  {
+    "word": ["introverted"],
+    "english_synonyms": ["reserved", "shy", "reticent", "inward-looking"],
+    "english_explanations": ["Characterized by a preference for quiet, solitary environments and introspection."],
+    "chinese_translations": ["内向的"],
+    "example_sentences": "Introverted employees often excel in focused, independent work."
+  },
+  {
+    "word": ["major"],
+    "english_synonyms": ["main", "primary", "significant", "principal"],
+    "english_explanations": ["Very important, serious, or significant; main area of study."],
+    "chinese_translations": ["主要的", "重大的", "专业"],
+    "example_sentences": "What was your major in college?"
+  },
+  {
+    "word": ["medical representative"],
+    "english_synonyms": ["pharma sales", "drug rep"],
+    "english_explanations": ["A salesperson who promotes and sells pharmaceutical products to healthcare professionals."],
+    "chinese_translations": ["医药代表"],
+    "example_sentences": "He works as a medical representative for a pharmaceutical company."
+  },
+  {
+    "word": ["motivated"],
+    "english_synonyms": ["driven", "ambitious", "enthusiastic", "inspired"],
+    "english_explanations": ["Having a strong reason to act or accomplish something; eager to succeed."],
+    "chinese_translations": ["有动力的", "积极的"],
+    "example_sentences": "A motivated workforce is key to business success."
+  },
+  {
+    "word": ["notify"],
+    "english_synonyms": ["inform", "alert", "advise", "apprise"],
+    "english_explanations": ["To inform someone of something, typically in a formal manner."],
+    "chinese_translations": ["通知", "告知"],
+    "example_sentences": "Please notify us if your contact details change."
+  },
+  {
+    "word": ["outstanding"],
+    "english_synonyms": ["excellent", "exceptional", "unpaid", "remaining"],
+    "english_explanations": ["Exceptionally good; or remaining to be paid or completed."],
+    "chinese_translations": ["杰出的", "未解决的", "未付款的"],
+    "example_sentences": "She has an outstanding record of achievement."
+  },
+  {
+    "word": ["performance"],
+    "english_synonyms": ["achievement", "execution", "conduct", "results"],
+    "english_explanations": ["The action or process of performing a task or function; how well someone does something."],
+    "chinese_translations": ["表现", "业绩", "绩效"],
+    "example_sentences": "Employee performance is reviewed annually."
+  },
+  {
+    "word": ["personnel"],
+    "english_synonyms": ["staff", "employees", "workforce", "human resources"],
+    "english_explanations": ["The people employed in an organization; the department dealing with employees."],
+    "chinese_translations": ["人员", "人事部门"],
+    "example_sentences": "All personnel must complete the training course."
+  },
+  {
+    "word": ["photostat"],
+    "english_synonyms": ["photocopy", "copy", "reproduction"],
+    "english_explanations": ["A photographic copy of a document made on special equipment."],
+    "chinese_translations": ["复印件", "影印件"],
+    "example_sentences": "Please make a photostat of the contract for our records."
+  },
+  {
+    "word": ["pressure"],
+    "english_synonyms": ["stress", "strain", "tension", "burden"],
+    "english_explanations": ["The use of persuasion or influence to make someone do something; mental or emotional strain."],
+    "chinese_translations": ["压力", "紧迫"],
+    "example_sentences": "Working under pressure is common in this industry."
+  },
+  {
+    "word": ["probationary"],
+    "english_synonyms": ["trial", "temporary", "provisional"],
+    "english_explanations": ["Relating to a period of testing and evaluation at the beginning of employment."],
+    "chinese_translations": ["试用期的"],
+    "example_sentences": "All new hires undergo a three-month probationary period."
+  },
+  {
+    "word": ["promotion"],
+    "english_synonyms": ["advancement", "upgrading", "marketing campaign"],
+    "english_explanations": ["The advancement of an employee to a higher rank; or activities to market a product."],
+    "chinese_translations": ["晋升", "促销", "推广"],
+    "example_sentences": "She received a promotion to senior manager."
+  },
+  {
+    "word": ["recruitment"],
+    "english_synonyms": ["hiring", "enlistment", "staffing"],
+    "english_explanations": ["The process of finding and hiring new employees."],
+    "chinese_translations": ["招聘", "招募"],
+    "example_sentences": "The recruitment process takes about two months."
+  },
+  {
+    "word": ["resident"],
+    "english_synonyms": ["inhabitant", "occupant", "dweller"],
+    "english_explanations": ["A person who lives somewhere permanently or on a long-term basis."],
+    "chinese_translations": ["居民", "住户"],
+    "example_sentences": "The hotel provides special rates for local residents."
+  },
+  {
+    "word": ["resume"],
+    "english_synonyms": ["CV", "curriculum vitae", "summary"],
+    "english_explanations": ["A document summarizing a person's education, work experience, and skills for job applications."],
+    "chinese_translations": ["简历"],
+    "example_sentences": "Please send your resume to the HR department."
+  },
+  {
+    "word": ["salesgirl"],
+    "english_synonyms": ["saleswoman", "shop assistant", "retail associate"],
+    "english_explanations": ["A female employee who sells goods in a shop."],
+    "chinese_translations": ["女售货员", "女营业员"],
+    "example_sentences": "The salesgirl helped me find the right size."
+  },
+  {
+    "word": ["scholarship"],
+    "english_synonyms": ["grant", "fellowship", "bursary", "award"],
+    "english_explanations": ["A grant or payment made to support a student's education, awarded on academic merit."],
+    "chinese_translations": ["奖学金"],
+    "example_sentences": "She won a full scholarship to study abroad."
+  },
+  {
+    "word": ["sideways"],
+    "english_synonyms": ["laterally", "indirectly", "obliquely"],
+    "english_explanations": ["To or from one side; not moving upward or downward."],
+    "chinese_translations": ["向侧面地", "横向地"],
+    "example_sentences": "The company is moving sideways rather than growing."
+  },
+  {
+    "word": ["skincare"],
+    "english_synonyms": ["skin care", "dermatological care", "beauty regimen"],
+    "english_explanations": ["The practice of caring for the skin, especially the face, using various products."],
+    "chinese_translations": ["护肤", "皮肤护理"],
+    "example_sentences": "The skincare market continues to expand globally."
+  },
+  {
+    "word": ["stenographer"],
+    "english_synonyms": ["shorthand typist", "court reporter"],
+    "english_explanations": ["A person who types in shorthand to transcribe speech."],
+    "chinese_translations": ["速记员", "速记打字员"],
+    "example_sentences": "The stenographer recorded the entire meeting."
+  },
+  {
+    "word": ["stretch"],
+    "english_synonyms": ["extend", "expand", "reach", "strain"],
+    "english_explanations": ["To extend over an area or period; to make something longer or wider."],
+    "chinese_translations": ["伸展", "延伸", "stretch"],
+    "example_sentences": "The project will stretch our resources to the limit."
+  },
+  {
+    "word": ["tactful"],
+    "english_synonyms": ["diplomatic", "discreet", "sensitive", "polite"],
+    "english_explanations": ["Having or showing skill and sensitivity in dealing with others or with difficult issues."],
+    "chinese_translations": ["圆滑的", "得体的", "机智的"],
+    "example_sentences": "A tactful approach is needed when giving negative feedback."
+  },
+  {
+    "word": ["temporary"],
+    "english_synonyms": ["provisional", "interim", "short-term", "transient"],
+    "english_explanations": ["Lasting for a limited time; not permanent."],
+    "chinese_translations": ["临时的", "暂时的"],
+    "example_sentences": "We hired temporary staff to cover the busy season."
+  },
+  {
+    "word": ["unemployment"],
+    "english_synonyms": ["joblessness", "redundancy", "idleness"],
+    "english_explanations": ["The state of being without a job despite actively looking for work."],
+    "chinese_translations": ["失业"],
+    "example_sentences": "The unemployment rate has fallen to its lowest level in years."
+  },
+  {
+    "word": ["accountant"],
+    "english_synonyms": ["bookkeeper", "auditor", "CPA", "financial officer"],
+    "english_explanations": ["A person whose job is to keep or inspect financial accounts."],
+    "chinese_translations": ["会计", "会计师"],
+    "example_sentences": "You should consult an accountant for tax advice."
+  },
+  {
+    "word": ["budget"],
+    "english_synonyms": ["financial plan", "estimate", "allowance", "allocation"],
+    "english_explanations": ["An estimate of income and expenditure for a set period of time."],
+    "chinese_translations": ["预算"],
+    "example_sentences": "We need to stay within the marketing budget."
+  },
+  {
+    "word": ["carpenter"],
+    "english_synonyms": ["woodworker", "joiner", "craftsman"],
+    "english_explanations": ["A person who makes and repairs wooden objects and structures."],
+    "chinese_translations": ["木匠", "木工"],
+    "example_sentences": "The carpenter built custom cabinets for the office."
+  },
+  {
+    "word": ["chemical"],
+    "english_synonyms": ["substance", "compound", "element", "synthetic"],
+    "english_explanations": ["A substance produced by or used in a chemical process."],
+    "chinese_translations": ["化学的", "化学品"],
+    "example_sentences": "The chemical industry is strictly regulated."
+  },
+  {
+    "word": ["corresponding"],
+    "english_synonyms": ["equivalent", "matching", "related", "comparable"],
+    "english_explanations": ["Similar in character, form, or function; related or analogous."],
+    "chinese_translations": ["相应的", "对应的"],
+    "example_sentences": "Please submit the form with the corresponding fee."
+  },
+  {
+    "word": ["creative"],
+    "english_synonyms": ["innovative", "imaginative", "original", "artistic"],
+    "english_explanations": ["Relating to or involving the use of imagination or original ideas to create something."],
+    "chinese_translations": ["有创造力的", "创意的"],
+    "example_sentences": "The team needs creative solutions to this problem."
+  },
+  {
+    "word": ["data processing"],
+    "english_synonyms": ["information processing", "data management", "computation"],
+    "english_explanations": ["The collection and manipulation of data to produce meaningful information."],
+    "chinese_translations": ["数据处理"],
+    "example_sentences": "Data processing is essential for modern business operations."
+  },
+  {
+    "word": ["deadline"],
+    "english_synonyms": ["time limit", "due date", "cutoff", "target date"],
+    "english_explanations": ["The latest time or date by which something should be completed."],
+    "chinese_translations": ["截止日期", "最后期限"],
+    "example_sentences": "The deadline for the proposal is next Monday."
+  },
+  {
+    "word": ["design"],
+    "english_synonyms": ["plan", "create", "devise", "layout"],
+    "english_explanations": ["A plan or drawing produced to show the look and function of something before it is made."],
+    "chinese_translations": ["设计", "图案"],
+    "example_sentences": "The product design has won several awards."
+  },
+  {
+    "word": ["entrepreneur"],
+    "english_synonyms": ["businessperson", "founder", "startup owner", "industrialist"],
+    "english_explanations": ["A person who organizes and operates a business, taking on financial risks."],
+    "chinese_translations": ["企业家", "创业者"],
+    "example_sentences": "She is a successful entrepreneur in the tech industry."
+  },
+  {
+    "word": ["expert"],
+    "english_synonyms": ["specialist", "authority", "professional", "adept"],
+    "english_explanations": ["A person who has comprehensive and authoritative knowledge or skill in a particular area."],
+    "chinese_translations": ["专家", "行家"],
+    "example_sentences": "We brought in an expert to analyze the data."
+  },
+  {
+    "word": ["export"],
+    "english_synonyms": ["ship overseas", "sell abroad", "foreign trade"],
+    "english_explanations": ["To send goods or services to another country for sale."],
+    "chinese_translations": ["出口", "输出"],
+    "example_sentences": "The company plans to export its products to Europe."
+  },
+  {
+    "word": ["in charge of"],
+    "english_synonyms": ["responsible for", "managing", "overseeing", "leading"],
+    "english_explanations": ["Having responsibility for or control over something or someone."],
+    "chinese_translations": ["负责", "主管"],
+    "example_sentences": "She is in charge of the marketing department."
+  },
+  {
+    "word": ["independence"],
+    "english_synonyms": ["autonomy", "freedom", "self-sufficiency", "liberty"],
+    "english_explanations": ["The fact or state of being independent; self-governance without outside control."],
+    "chinese_translations": ["独立", "自主"],
+    "example_sentences": "Financial independence is an important goal for many people."
+  },
+  {
+    "word": ["job-hopper"],
+    "english_synonyms": ["frequent mover", "transient employee"],
+    "english_explanations": ["A person who frequently changes jobs, often every few years or less."],
+    "chinese_translations": ["频繁跳槽者", "跳槽者"],
+    "example_sentences": "Employers are often wary of hiring job-hoppers."
+  },
+  {
+    "word": ["liability"],
+    "english_synonyms": ["obligation", "debt", "responsibility", "burden"],
+    "english_explanations": ["A company's legal financial debts; or something that creates a disadvantage."],
+    "chinese_translations": ["负债", "责任"],
+    "example_sentences": "The company has significant liabilities on its balance sheet."
+  },
+  {
+    "word": ["overtime"],
+    "english_synonyms": ["extra hours", "additional time", "overwork"],
+    "english_explanations": ["Time worked in addition to regular working hours."],
+    "chinese_translations": ["加班", "加班时间"],
+    "example_sentences": "Employees are paid extra for working overtime."
+  },
+  {
+    "word": ["pharmaceutical"],
+    "english_synonyms": ["medicinal", "pharmacological", "drug-related"],
+    "english_explanations": ["Relating to the preparation, sale, or use of medicinal drugs."],
+    "chinese_translations": ["制药的", "药物的"],
+    "example_sentences": "The pharmaceutical company is developing new treatments."
+  },
+  {
+    "word": ["photographer"],
+    "english_synonyms": ["cameraman", "lensman", "shutterbug"],
+    "english_explanations": ["A person who takes photographs, especially as a job."],
+    "chinese_translations": ["摄影师"],
+    "example_sentences": "We hired a professional photographer for the product shoot."
+  },
+  {
+    "word": ["programmer"],
+    "english_synonyms": ["developer", "coder", "software engineer"],
+    "english_explanations": ["A person who writes computer programs."],
+    "chinese_translations": ["程序员"],
+    "example_sentences": "The programmer fixed the bug in the software."
+  },
+  {
+    "word": ["promote"],
+    "english_synonyms": ["advance", "upgrade", "market", "encourage"],
+    "english_explanations": ["To further the progress of something; to raise to a higher position or rank."],
+    "chinese_translations": ["促进", "晋升", "推广"],
+    "example_sentences": "We need to promote the new product line aggressively."
+  },
+  {
+    "word": ["purchase"],
+    "english_synonyms": ["buy", "acquire", "procure", "obtain"],
+    "english_explanations": ["To buy something; an item that has been bought."],
+    "chinese_translations": ["购买", "采购"],
+    "example_sentences": "The company made a large purchase of new equipment."
+  },
+  {
+    "word": ["rave about"],
+    "english_synonyms": ["praise enthusiastically", "enthuse about", "extol"],
+    "english_explanations": ["To talk or write about something with great enthusiasm or admiration."],
+    "chinese_translations": ["赞不绝口", "热烈称赞"],
+    "example_sentences": "Everyone is raving about the new restaurant downtown."
+  },
+  {
+    "word": ["real estate"],
+    "english_synonyms": ["property", "land", "housing", "realty"],
+    "english_explanations": ["Property consisting of land and the buildings on it."],
+    "chinese_translations": ["房地产", "不动产"],
+    "example_sentences": "He works in real estate, selling commercial properties."
+  },
+  {
+    "word": ["regularly"],
+    "english_synonyms": ["frequently", "routinely", "consistently", "periodically"],
+    "english_explanations": ["At regular intervals; on a consistent basis."],
+    "chinese_translations": ["定期地", "经常地"],
+    "example_sentences": "The equipment should be checked regularly."
+  },
+  {
+    "word": ["resignation"],
+    "english_synonyms": ["departure", "notice", "withdrawal", "quit"],
+    "english_explanations": ["An act of quitting one's job or position; a formal notification of leaving."],
+    "chinese_translations": ["辞职", "辞呈"],
+    "example_sentences": "He handed in his resignation last week."
+  },
+  {
+    "word": ["rewarding"],
+    "english_synonyms": ["fulfilling", "satisfying", "worthwhile", "beneficial"],
+    "english_explanations": ["Providing satisfaction, fulfillment, or benefit despite effort required."],
+    "chinese_translations": ["有回报的", "值得的", "令人满足的"],
+    "example_sentences": "Teaching can be a very rewarding career."
+  },
+  {
+    "word": ["self-employed"],
+    "english_synonyms": ["freelance", "independent", "own boss"],
+    "english_explanations": ["Working for oneself as a freelancer or business owner rather than for an employer."],
+    "chinese_translations": ["个体经营的", "自雇的"],
+    "example_sentences": "Being self-employed gives her more flexibility."
+  },
+  {
+    "word": ["speak of the devil"],
+    "english_synonyms": ["talk of the devil"],
+    "english_explanations": ["An expression used when someone appears just after being talked about."],
+    "chinese_translations": ["说曹操，曹操到"],
+    "example_sentences": "Speak of the devil, we were just talking about you!"
+  },
+  {
+    "word": ["stock"],
+    "english_synonyms": ["shares", "inventory", "equity", "supply"],
+    "english_explanations": ["The shares of a company; or a supply of goods kept on hand for sale."],
+    "chinese_translations": ["股票", "库存", "存货"],
+    "example_sentences": "The company's stock price rose sharply yesterday."
+  },
+  {
+    "word": ["subsidiary"],
+    "english_synonyms": ["branch", "affiliate", "division", "offshoot"],
+    "english_explanations": ["A company controlled by a parent company; secondary in importance."],
+    "chinese_translations": ["子公司", "附属的"],
+    "example_sentences": "The company has several overseas subsidiaries."
+  },
+  {
+    "word": ["vice president"],
+    "english_synonyms": ["VP", "deputy president"],
+    "english_explanations": ["An officer ranking below a president, often responsible for a specific division."],
+    "chinese_translations": ["副总裁", "副总统"],
+    "example_sentences": "She was promoted to vice president of sales."
+  },
+  {
+    "word": ["workshop"],
+    "english_synonyms": ["seminar", "training session", "studio"],
+    "english_explanations": ["A room or building where goods are manufactured or repaired; or a meeting for discussion and learning."],
+    "chinese_translations": ["车间", "工作坊", "研讨会"],
+    "example_sentences": "We are organizing a workshop on effective communication."
+  },
+  {
+    "word": ["at the moment"],
+    "english_synonyms": ["currently", "right now", "presently"],
+    "english_explanations": ["At the present time; now."],
+    "chinese_translations": ["此刻", "目前", "现在"],
+    "example_sentences": "At the moment, we have no vacancies available."
+  },
+  {
+    "word": ["cellphone"],
+    "english_synonyms": ["mobile phone", "cellular phone", "smartphone", "handset"],
+    "english_explanations": ["A portable telephone that uses cellular network technology."],
+    "chinese_translations": ["手机", "移动电话"],
+    "example_sentences": "Please turn off your cellphone during the meeting."
+  },
+  {
+    "word": ["check"],
+    "english_synonyms": ["examine", "verify", "inspect", "cheque"],
+    "english_explanations": ["To examine something for accuracy; or a written order to a bank to pay money."],
+    "chinese_translations": ["检查", "核对", "支票"],
+    "example_sentences": "Please check the figures before submitting the report."
+  },
+  {
+    "word": ["confirm"],
+    "english_synonyms": ["verify", "validate", "approve", "assure"],
+    "english_explanations": ["To establish the truth, accuracy, or validity of something; to make definite."],
+    "chinese_translations": ["确认", "证实"],
+    "example_sentences": "Could you confirm your attendance by Friday?"
+  },
+  {
+    "word": ["connect"],
+    "english_synonyms": ["link", "join", "unite", "associate"],
+    "english_explanations": ["To bring together or into contact so that a link is established."],
+    "chinese_translations": ["连接", "联系"],
+    "example_sentences": "I will connect you to the appropriate department."
+  },
+  {
+    "word": ["dial"],
+    "english_synonyms": ["call", "phone", "ring"],
+    "english_explanations": ["To call a phone number by pressing the buttons on a telephone."],
+    "chinese_translations": ["拨号", "打电话"],
+    "example_sentences": "Please dial extension 205 for customer service."
+  },
+  {
+    "word": ["directory"],
+    "english_synonyms": ["listing", "index", "guide", "catalog"],
+    "english_explanations": ["A book or website listing individuals or organizations alphabetically with details."],
+    "chinese_translations": ["目录", "名录", "指南"],
+    "example_sentences": "You can find the number in the phone directory."
+  },
+  {
+    "word": ["distraction"],
+    "english_synonyms": ["interruption", "disturbance", "diversion", "interference"],
+    "english_explanations": ["A thing that prevents someone from concentrating on something else."],
+    "chinese_translations": ["分心", "干扰"],
+    "example_sentences": "Noise from the street was a constant distraction."
+  },
+  {
+    "word": ["engaged"],
+    "english_synonyms": ["busy", "occupied", "committed", "involved"],
+    "english_explanations": ["Busy with a task or activity; or a telephone line already in use."],
+    "chinese_translations": ["忙碌的", "已占线的", "订婚的"],
+    "example_sentences": "The line is engaged; please try again later."
+  },
+  {
+    "word": ["expect"],
+    "english_synonyms": ["anticipate", "await", "require", "predict"],
+    "english_explanations": ["To regard something as likely to happen; to require someone to do something."],
+    "chinese_translations": ["期望", "预料", "要求"],
+    "example_sentences": "We expect the shipment to arrive tomorrow."
+  },
+  {
+    "word": ["extension"],
+    "english_synonyms": ["addition", "expansion", "prolongation", "annex"],
+    "english_explanations": ["An additional part of a building or telephone line; an extra period of time."],
+    "chinese_translations": ["分机", "延期", "扩展"],
+    "example_sentences": "My extension is 452; please call me anytime."
+  },
+  {
+    "word": ["have a word with"],
+    "english_synonyms": ["speak to", "talk to", "consult with"],
+    "english_explanations": ["To have a brief conversation with someone, often about a specific matter."],
+    "chinese_translations": ["和...谈一谈", "跟...说句话"],
+    "example_sentences": "Could I have a word with you after the meeting?"
+  },
+  {
+    "word": ["leave for"],
+    "english_synonyms": ["depart for", "set off for", "head to"],
+    "english_explanations": ["To depart in order to go to a particular place."],
+    "chinese_translations": ["前往", "动身去"],
+    "example_sentences": "I will leave for Tokyo on business tomorrow."
+  },
+  {
+    "word": ["negotiation"],
+    "english_synonyms": ["bargaining", "discussion", "mediation", "talks"],
+    "english_explanations": ["Discussion aimed at reaching an agreement between parties."],
+    "chinese_translations": ["谈判", "协商"],
+    "example_sentences": "The negotiation between the two companies lasted three days."
+  },
+  {
+    "word": ["on business"],
+    "english_synonyms": ["for work", "professionally", "working"],
+    "english_explanations": ["Engaged in commercial or professional activities rather than leisure."],
+    "chinese_translations": ["出差", "办公"],
+    "example_sentences": "He is in London on business this week."
+  },
+  {
+    "word": ["perfume"],
+    "english_synonyms": ["fragrance", "scent", "aroma", "cologne"],
+    "english_explanations": ["A fragrant liquid typically made from essential oils, used to give a pleasant smell."],
+    "chinese_translations": ["香水"],
+    "example_sentences": "The cosmetics company launched a new perfume line."
+  },
+  {
+    "word": ["place an order"],
+    "english_synonyms": ["order", "make a purchase", "request goods"],
+    "english_explanations": ["To request goods or services from a supplier by formal arrangement."],
+    "chinese_translations": ["下订单", "订购"],
+    "example_sentences": "We would like to place an order for 500 units."
+  },
+  {
+    "word": ["provocative"],
+    "english_synonyms": ["challenging", "stimulating", "controversial", "inflammatory"],
+    "english_explanations": ["Causing strong reactions, interest, or debate; deliberately controversial."],
+    "chinese_translations": ["挑衅的", "刺激性的", "发人深省的"],
+    "example_sentences": "The speaker raised several provocative questions."
+  },
+  {
+    "word": ["quality"],
+    "english_synonyms": ["standard", "excellence", "grade", "caliber"],
+    "english_explanations": ["The standard of something measured against similar things; degree of excellence."],
+    "chinese_translations": ["质量", "品质"],
+    "example_sentences": "Quality control is essential in manufacturing."
+  },
+  {
+    "word": ["rush order"],
+    "english_synonyms": ["urgent order", "expedited order", "priority order"],
+    "english_explanations": ["An order that must be processed and delivered in a very short time frame."],
+    "chinese_translations": ["紧急订单", "加急订单"],
+    "example_sentences": "The client placed a rush order that needs to be delivered by tomorrow."
+  },
+  {
+    "word": ["sample"],
+    "english_synonyms": ["specimen", "example", "prototype", "taste"],
+    "english_explanations": ["A small part or quantity intended to show what the whole is like; to try a product."],
+    "chinese_translations": ["样品", "样本", "取样"],
+    "example_sentences": "We would appreciate receiving a free sample of your product."
+  },
+  {
+    "word": ["Singapore"],
+    "english_synonyms": ["SG", "Lion City"],
+    "english_explanations": ["A sovereign island city-state in Southeast Asia known as a global financial center."],
+    "chinese_translations": ["新加坡"],
+    "example_sentences": "Our company opened a new office in Singapore."
+  },
+  {
+    "word": ["so far"],
+    "english_synonyms": ["up to now", "to date", "thus far", "until now"],
+    "english_explanations": ["Up to the present moment; until now."],
+    "chinese_translations": ["到目前为止", "迄今为止"],
+    "example_sentences": "So far, the project is progressing well."
+  },
+  {
+    "word": ["strike"],
+    "english_synonyms": ["hit", "walkout", "industrial action", "impact"],
+    "english_explanations": ["A refusal to work organized by employees; to hit or affect suddenly."],
+    "chinese_translations": ["罢工", "打击"],
+    "example_sentences": "The workers went on strike for better wages."
+  },
+  {
+    "word": ["sweater"],
+    "english_synonyms": ["jumper", "pullover", "cardigan", "knitwear"],
+    "english_explanations": ["A knitted garment worn on the upper body, typically with long sleeves."],
+    "chinese_translations": ["毛衣", "针织衫"],
+    "example_sentences": "The wool sweater is one of our best-selling items."
+  },
+  {
+    "word": ["assembly coffee table"],
+    "english_synonyms": ["kit coffee table", "DIY coffee table", "flat-pack coffee table"],
+    "english_explanations": ["A coffee table sold in parts that the buyer assembles themselves."],
+    "chinese_translations": ["组装茶几", "待组装咖啡桌"],
+    "example_sentences": "The assembly coffee table comes with clear instructions."
+  },
+  {
+    "word": ["adjourn"],
+    "english_synonyms": ["postpone", "suspend", "recess", "break off"],
+    "english_explanations": ["To break off a meeting or legal case with the intention to resume later."],
+    "chinese_translations": ["休会", "延期", "暂停"],
+    "example_sentences": "The chairman decided to adjourn the meeting until next week."
+  },
+  {
+    "word": ["adjournment"],
+    "english_synonyms": ["postponement", "suspension", "recess", "break"],
+    "english_explanations": ["The act of adjourning or the state of being adjourned."],
+    "chinese_translations": ["休会", "延期"],
+    "example_sentences": "The adjournment was announced at the end of the session."
+  },
+  {
+    "word": ["afterwards"],
+    "english_synonyms": ["later", "subsequently", "then", "after that"],
+    "english_explanations": ["At a later or future time; after something else has happened."],
+    "chinese_translations": ["后来", "之后"],
+    "example_sentences": "We discussed the proposal and voted afterwards."
+  },
+  {
+    "word": ["agenda"],
+    "english_synonyms": ["schedule", "program", "plan", "list of items"],
+    "english_explanations": ["A list of items to be discussed at a meeting; or underlying intentions."],
+    "chinese_translations": ["议程", "日程"],
+    "example_sentences": "Please review the agenda before the meeting."
+  },
+  {
+    "word": ["allocate"],
+    "english_synonyms": ["assign", "distribute", "allot", "apportion"],
+    "english_explanations": ["To distribute resources or duties for a particular purpose."],
+    "chinese_translations": ["分配", "配置"],
+    "example_sentences": "We need to allocate more funds to research and development."
+  },
+  {
+    "word": ["analysis"],
+    "english_synonyms": ["examination", "study", "investigation", "evaluation"],
+    "english_explanations": ["Detailed examination of the elements or structure of something."],
+    "chinese_translations": ["分析", "解析"],
+    "example_sentences": "The data analysis revealed important trends."
+  },
+  {
+    "word": ["beforehand"],
+    "english_synonyms": ["in advance", "ahead of time", "previously", "earlier"],
+    "english_explanations": ["Before something else happens; in advance."],
+    "chinese_translations": ["预先", "提前"],
+    "example_sentences": "Please inform us beforehand if you cannot attend."
+  },
+  {
+    "word": ["bonus"],
+    "english_synonyms": ["reward", "incentive", "extra payment", "premium"],
+    "english_explanations": ["An additional payment to employees as a reward for good performance."],
+    "chinese_translations": ["奖金", "红利"],
+    "example_sentences": "Employees received an annual bonus based on company profits."
+  },
+  {
+    "word": ["brainstorm"],
+    "english_synonyms": ["think tank", "ideate", "problem-solve", "generate ideas"],
+    "english_explanations": ["To hold a group discussion to produce ideas or solve problems."],
+    "chinese_translations": ["头脑风暴", "集思广益"],
+    "example_sentences": "Let's brainstorm some ideas for the marketing campaign."
+  },
+  {
+    "word": ["distribute"],
+    "english_synonyms": ["allocate", "dispense", "hand out", "spread"],
+    "english_explanations": ["To give out shares of something; to spread over an area."],
+    "chinese_translations": ["分配", "分发", "经销"],
+    "example_sentences": "The company distributes its products worldwide."
+  },
+  {
+    "word": ["embarrassing"],
+    "english_synonyms": ["awkward", "humiliating", "shameful", "mortifying"],
+    "english_explanations": ["Causing someone to feel awkward, self-conscious, or ashamed."],
+    "chinese_translations": ["令人尴尬的", "难为情的"],
+    "example_sentences": "It was embarrassing to forget the client's name."
+  },
+  {
+    "word": ["feedback"],
+    "english_synonyms": ["response", "reaction", "input", "criticism"],
+    "english_explanations": ["Information about reactions to a product or performance, used for improvement."],
+    "chinese_translations": ["反馈", "反馈意见"],
+    "example_sentences": "We welcome feedback from our customers."
+  },
+  {
+    "word": ["figure out"],
+    "english_synonyms": ["understand", "solve", "work out", "comprehend"],
+    "english_explanations": ["To understand or solve something by thinking carefully."],
+    "chinese_translations": ["弄清楚", "想出", "解决"],
+    "example_sentences": "We need to figure out why sales have declined."
+  },
+  {
+    "word": ["flexible"],
+    "english_synonyms": ["adaptable", "accommodating", "elastic", "pliant"],
+    "english_explanations": ["Able to be easily modified to respond to altered circumstances; willing to change."],
+    "chinese_translations": ["灵活的", "有弹性的"],
+    "example_sentences": "We offer flexible working hours for our employees."
+  },
+  {
+    "word": ["laptop"],
+    "english_synonyms": ["notebook computer", "portable computer"],
+    "english_explanations": ["A small computer designed for portability, suitable for use while traveling."],
+    "chinese_translations": ["笔记本电脑"],
+    "example_sentences": "Please bring your laptop to the presentation."
+  },
+  {
+    "word": ["minutes"],
+    "english_synonyms": ["notes", "record", "proceedings", "summary"],
+    "english_explanations": ["A written record of what was said and decided at a meeting."],
+    "chinese_translations": ["会议记录", "会议纪要"],
+    "example_sentences": "The secretary took the minutes of the meeting."
+  },
+  {
+    "word": ["motivate"],
+    "english_synonyms": ["inspire", "encourage", "stimulate", "drive"],
+    "english_explanations": ["To provide someone with a reason or incentive to act in a certain way."],
+    "chinese_translations": ["激励", "激发"],
+    "example_sentences": "Good managers know how to motivate their teams."
+  },
+  {
+    "word": ["negotiate"],
+    "english_synonyms": ["bargain", "discuss", "mediate", "arrange"],
+    "english_explanations": ["To try to reach an agreement or compromise by discussion with others."],
+    "chinese_translations": ["谈判", "协商"],
+    "example_sentences": "We negotiated a better price with the supplier."
+  },
+  {
+    "word": ["pop in"],
+    "english_synonyms": ["drop by", "visit briefly", "stop in"],
+    "english_explanations": ["To visit a place or person for a short time without prior arrangement."],
+    "chinese_translations": ["顺便拜访", "短暂到访"],
+    "example_sentences": "Feel free to pop in if you are in the neighborhood."
+  },
+  {
+    "word": ["productive"],
+    "english_synonyms": ["efficient", "fruitful", "effective", "profitable"],
+    "english_explanations": ["Achieving a significant amount or result; producing large amounts of goods or crops."],
+    "chinese_translations": ["高效的", "多产的"],
+    "example_sentences": "The meeting was very productive, with several decisions made."
+  },
+  {
+    "word": ["projector"],
+    "english_synonyms": ["overhead projector", "digital projector", "display device"],
+    "english_explanations": ["An apparatus for projecting images or video onto a screen."],
+    "chinese_translations": ["投影仪"],
+    "example_sentences": "We need a projector for the conference room presentation."
+  },
+  {
+    "word": ["proposal"],
+    "english_synonyms": ["suggestion", "plan", "tender", "proposition"],
+    "english_explanations": ["A plan or suggestion put forward for consideration or discussion."],
+    "chinese_translations": ["提案", "建议", "投标"],
+    "example_sentences": "The committee approved the proposal for the new project."
+  },
+  {
+    "word": ["quota"],
+    "english_synonyms": ["allotment", "target", "limit", "allowance"],
+    "english_explanations": ["A fixed share or minimum number of something that must be achieved or sold."],
+    "chinese_translations": ["配额", "定额", "指标"],
+    "example_sentences": "Each salesperson has a monthly sales quota to meet."
+  },
+  {
+    "word": ["sales figure"],
+    "english_synonyms": ["sales data", "revenue number", "turnover figure"],
+    "english_explanations": ["The numerical amount of goods sold or revenue generated in a period."],
+    "chinese_translations": ["销售数字", "销售额"],
+    "example_sentences": "The sales figures for this quarter exceeded expectations."
+  },
+  {
+    "word": ["shopping mall"],
+    "english_synonyms": ["mall", "shopping center", "retail complex", "plaza"],
+    "english_explanations": ["A large indoor shopping center containing multiple stores and restaurants."],
+    "chinese_translations": ["购物中心", "商场"],
+    "example_sentences": "The new cosmetics store is located in the shopping mall."
+  },
+  {
+    "word": ["ups and downs"],
+    "english_synonyms": ["fluctuations", "highs and lows", "peaks and troughs"],
+    "english_explanations": ["A mixture of good and bad experiences or events over time."],
+    "chinese_translations": ["起伏", "兴衰", "波折"],
+    "example_sentences": "Every business has its ups and downs."
+  },
+  {
+    "word": ["vehicle"],
+    "english_synonyms": ["automobile", "car", "conveyance", "means of transport"],
+    "english_explanations": ["A thing used for transporting people or goods, especially on land."],
+    "chinese_translations": ["车辆", "交通工具"],
+    "example_sentences": "The company fleet includes over 500 vehicles."
+  },
+  {
+    "word": ["associate"],
+    "english_synonyms": ["colleague", "partner", "connect", "relate"],
+    "english_explanations": ["A person connected to an organization; to connect or join with something."],
+    "chinese_translations": ["同事", "伙伴", "联想", "关联"],
+    "example_sentences": "He is a business associate of many years."
+  },
+  {
+    "word": ["boarding pass"],
+    "english_synonyms": ["boarding card", "flight pass"],
+    "english_explanations": ["A document provided by an airline giving a passenger permission to board the plane."],
+    "chinese_translations": ["登机牌"],
+    "example_sentences": "Please have your boarding pass and passport ready."
+  },
+  {
+    "word": ["customs declaration form"],
+    "english_synonyms": ["customs form", "declaration card"],
+    "english_explanations": ["A document on which travelers declare goods they are bringing into a country."],
+    "chinese_translations": ["海关申报表"],
+    "example_sentences": "Please fill out the customs declaration form before landing."
+  },
+  {
+    "word": ["declare"],
+    "english_synonyms": ["announce", "state", "report", "disclose"],
+    "english_explanations": ["To announce something formally; to report taxable or dutiable goods to customs."],
+    "chinese_translations": ["申报", "宣布", "声明"],
+    "example_sentences": "You must declare any items purchased abroad."
+  },
+  {
+    "word": ["deluxe"],
+    "english_synonyms": ["luxury", "luxurious", "premium", "superior"],
+    "english_explanations": ["Richly luxurious and expensive; of a higher quality than standard."],
+    "chinese_translations": ["豪华的", "高级的"],
+    "example_sentences": "We stayed in a deluxe suite at the hotel."
+  },
+  {
+    "word": ["departure"],
+    "english_synonyms": ["leaving", "exit", "takeoff", "withdrawal"],
+    "english_explanations": ["The action of leaving, especially to start a journey; or the act of deviating from a standard."],
+    "chinese_translations": ["离开", "出发", "起飞"],
+    "example_sentences": "The departure time for the flight has been delayed."
+  },
+  {
+    "word": ["destination"],
+    "english_synonyms": ["goal", "target", "end point", "terminus"],
+    "english_explanations": ["The place to which someone or something is going or being sent."],
+    "chinese_translations": ["目的地", "终点"],
+    "example_sentences": "Singapore is one of the most popular tourist destinations."
+  },
+  {
+    "word": ["dry-cleaning"],
+    "english_synonyms": ["dry cleaning", "chemical cleaning"],
+    "english_explanations": ["The process of cleaning clothes with chemical solvents rather than water."],
+    "chinese_translations": ["干洗"],
+    "example_sentences": "This suit requires dry-cleaning only."
+  },
+  {
+    "word": ["duty-free"],
+    "english_synonyms": ["tax-free", "untaxed", "exempt"],
+    "english_explanations": ["Goods that can be bought without paying certain taxes or duties, typically at airports."],
+    "chinese_translations": ["免税的"],
+    "example_sentences": "We bought some duty-free items at the airport."
+  },
+  {
+    "word": ["exempt"],
+    "english_synonyms": ["immune", "excused", "spared", "free from"],
+    "english_explanations": ["Free from an obligation or liability imposed on others."],
+    "chinese_translations": ["豁免的", "免除的"],
+    "example_sentences": "Small businesses may be exempt from certain regulations."
+  },
+  {
+    "word": ["exposition"],
+    "english_synonyms": ["exhibition", "trade fair", "show", "display"],
+    "english_explanations": ["A large-scale public exhibition or show of industrial or commercial products."],
+    "chinese_translations": ["博览会", "展览会"],
+    "example_sentences": "The company showcased its new products at the exposition."
+  },
+  {
+    "word": ["fasten"],
+    "english_synonyms": ["secure", "attach", "fix", "clasp"],
+    "english_explanations": ["To close or secure something firmly in place."],
+    "chinese_translations": ["系紧", "扣紧", "固定"],
+    "example_sentences": "Please fasten your seatbelt during takeoff."
+  },
+  {
+    "word": ["formality"],
+    "english_synonyms": ["procedure", "convention", "ceremony", "protocol"],
+    "english_explanations": ["The rigid observance of rules or conventions; an established procedure."],
+    "chinese_translations": ["手续", "礼节", "形式"],
+    "example_sentences": "Signing the contract is just a formality at this point."
+  },
+  {
+    "word": ["IDD telephone"],
+    "english_synonyms": ["international direct dial", "international phone"],
+    "english_explanations": ["A telephone service allowing direct international calls without operator assistance."],
+    "chinese_translations": ["国际直拨电话"],
+    "example_sentences": "You can use the IDD telephone in your room for international calls."
+  },
+  {
+    "word": ["in-flight"],
+    "english_synonyms": ["during the flight", "onboard", "airborne"],
+    "english_explanations": ["Occurring or provided during an aircraft flight."],
+    "chinese_translations": ["飞行中的", "机上提供的"],
+    "example_sentences": "In-flight entertainment includes movies and music."
+  },
+  {
+    "word": ["overlook"],
+    "english_synonyms": ["miss", "ignore", "have a view of", "neglect"],
+    "english_explanations": ["To fail to notice something; to have a view of something from above."],
+    "chinese_translations": ["忽视", "俯瞰", "忽略"],
+    "example_sentences": "Do not overlook the importance of customer feedback."
+  },
+  {
+    "word": ["pack"],
+    "english_synonyms": ["package", "wrap", "bundle", "prepare luggage"],
+    "english_explanations": ["To fill a bag or suitcase with clothes and other items for travel."],
+    "chinese_translations": ["打包", "收拾行李", "包装"],
+    "example_sentences": "Please pack your bags tonight for the early flight tomorrow."
+  },
+  {
+    "word": ["pay duty on"],
+    "english_synonyms": ["pay tax on", "declare for tax", "clear customs"],
+    "english_explanations": ["To pay a government tax on imported goods."],
+    "chinese_translations": ["为...缴纳关税"],
+    "example_sentences": "You must pay duty on goods exceeding the allowance."
+  },
+  {
+    "word": ["photocopier"],
+    "english_synonyms": ["copier", "copying machine", "photostat machine"],
+    "english_explanations": ["A machine that makes copies of documents using photographic methods."],
+    "chinese_translations": ["复印机", "影印机"],
+    "example_sentences": "The photocopier on the third floor is out of order."
+  },
+  {
+    "word": ["receipt"],
+    "english_synonyms": ["proof of purchase", "invoice", "voucher", "acknowledgment"],
+    "english_explanations": ["A written acknowledgment of having received a specified amount of money or goods."],
+    "chinese_translations": ["收据", "发票"],
+    "example_sentences": "Please keep your receipt for any returns or exchanges."
+  },
+  {
+    "word": ["registration form"],
+    "english_synonyms": ["enrollment form", "sign-up form", "application form"],
+    "english_explanations": ["A document used to officially record information about a person for a service or event."],
+    "chinese_translations": ["登记表", "注册表"],
+    "example_sentences": "Please complete the registration form at the front desk."
+  },
+  {
+    "word": ["reservation"],
+    "english_synonyms": ["booking", "advance arrangement", "hold"],
+    "english_explanations": ["An arrangement to have something held for one's use at a future time."],
+    "chinese_translations": ["预订", "预约"],
+    "example_sentences": "I made a reservation at the restaurant for 7 PM."
+  },
+  {
+    "word": ["round-trip"],
+    "english_synonyms": ["return journey", "round trip", "there and back"],
+    "english_explanations": ["A journey to a place and back again."],
+    "chinese_translations": ["往返的", "来回的"],
+    "example_sentences": "I booked a round-trip ticket to Singapore."
+  },
+  {
+    "word": ["scissors"],
+    "english_synonyms": ["shears", "cutters", "clippers"],
+    "english_explanations": ["An instrument used for cutting cloth and paper, consisting of two blades joined together."],
+    "chinese_translations": ["剪刀"],
+    "example_sentences": "Please pass me the scissors to cut this tape."
+  },
+  {
+    "word": ["settle"],
+    "english_synonyms": ["resolve", "pay", "establish", "calm"],
+    "english_explanations": ["To resolve or reach an agreement about; to pay a debt; to establish residence."],
+    "chinese_translations": ["解决", "支付", "定居"],
+    "example_sentences": "We need to settle the account before checking out."
+  },
+  {
+    "word": ["vacancy"],
+    "english_synonyms": ["opening", "available position", "emptiness", "unoccupied room"],
+    "english_explanations": ["An unoccupied position or job; an available room in a hotel."],
+    "chinese_translations": ["空缺", "职位空缺", "空房"],
+    "example_sentences": "We have a vacancy for a marketing manager."
+  },
+  {
+    "word": ["annual revenue"],
+    "english_synonyms": ["yearly income", "annual turnover", "gross annual income"],
+    "english_explanations": ["The total amount of money a company earns in a year from its business activities."],
+    "chinese_translations": ["年收入", "年度营收"],
+    "example_sentences": "The company's annual revenue exceeded one billion dollars."
+  },
+  {
+    "word": ["asset"],
+    "english_synonyms": ["resource", "property", "advantage", "benefit"],
+    "english_explanations": ["A useful or valuable thing, person, or quality; an item of property owned by a person or company."],
+    "chinese_translations": ["资产", "财产", "优势"],
+    "example_sentences": "The company's strongest asset is its skilled workforce."
+  },
+  {
+    "word": ["brewery"],
+    "english_synonyms": ["brewing company", "beer factory", "distillery"],
+    "english_explanations": ["A place where beer is made commercially."],
+    "chinese_translations": ["啤酒厂", "酿酒厂"],
+    "example_sentences": "The brewery produces over one million barrels of beer annually."
+  },
+  {
+    "word": ["corporate image"],
+    "english_synonyms": ["brand image", "company reputation", "public perception"],
+    "english_explanations": ["The way a corporation is perceived by the public, customers, and stakeholders."],
+    "chinese_translations": ["企业形象", "公司形象"],
+    "example_sentences": "The advertising campaign aims to improve the corporate image."
+  },
+  {
+    "word": ["distinguished"],
+    "english_synonyms": ["eminent", "renowned", "notable", "prestigious"],
+    "english_explanations": ["Successful, authoritative, and commanding great respect; having a dignified appearance."],
+    "chinese_translations": ["杰出的", "卓越的", "尊贵的"],
+    "example_sentences": "The distinguished guest gave an inspiring speech."
+  },
+  {
+    "word": ["distributor"],
+    "english_synonyms": ["dealer", "wholesaler", "supplier", "agent"],
+    "english_explanations": ["An agent or company that supplies goods to retailers or customers."],
+    "chinese_translations": ["经销商", "分销商"],
+    "example_sentences": "We are looking for a new distributor in the Asian market."
+  },
+  {
+    "word": ["E-Business Platform"],
+    "english_synonyms": ["e-commerce platform", "online business platform", "digital marketplace"],
+    "english_explanations": ["An online system or infrastructure that enables businesses to conduct electronic commerce."],
+    "chinese_translations": ["电子商务平台", "电商业务平台"],
+    "example_sentences": "The company launched its new E-Business Platform last quarter."
+  },
+  {
+    "word": ["E-Business Suite"],
+    "english_synonyms": ["enterprise software", "business software suite", "integrated business applications"],
+    "english_explanations": ["A comprehensive set of integrated business applications for managing enterprise operations."],
+    "chinese_translations": ["电子商务套件", "企业商务套件"],
+    "example_sentences": "Many large corporations use an E-Business Suite for their operations."
+  },
+  {
+    "word": ["establish"],
+    "english_synonyms": ["found", "set up", "create", "institute"],
+    "english_explanations": ["To set up an organization, system, or set of rules on a firm or permanent basis."],
+    "chinese_translations": ["建立", "创立", "确立"],
+    "example_sentences": "The company was established in 1995."
+  },
+  {
+    "word": ["external"],
+    "english_synonyms": ["outside", "outer", "exterior", "foreign"],
+    "english_explanations": ["Belonging to or forming the outer surface or structure of something; coming from outside."],
+    "chinese_translations": ["外部的", "外来的"],
+    "example_sentences": "The audit was conducted by an external accounting firm."
+  },
+  {
+    "word": ["flip chart"],
+    "english_synonyms": ["easel pad", "presentation pad", "chart pad"],
+    "english_explanations": ["A large pad of paper on a stand, used for presenting information in meetings."],
+    "chinese_translations": ["挂图", "活动挂图", "翻页图表"],
+    "example_sentences": "The presenter used a flip chart to illustrate his points."
+  },
+  {
+    "word": ["headcount"],
+    "english_synonyms": ["staff number", "number of employees", "workforce size"],
+    "english_explanations": ["The number of people employed in an organization or present at a particular time."],
+    "chinese_translations": ["员工人数", "人员编制", "总人数"],
+    "example_sentences": "The company plans to increase its headcount by 20% next year."
+  },
+  {
+    "word": ["headquartered"],
+    "english_synonyms": ["based", "located", "situated"],
+    "english_explanations": ["Having the main offices of an organization in a specified place."],
+    "chinese_translations": ["总部位于", "总部设在"],
+    "example_sentences": "The corporation is headquartered in New York."
+  },
+  {
+    "word": ["internal"],
+    "english_synonyms": ["inside", "inner", "domestic", "in-house"],
+    "english_explanations": ["Existing or occurring within an organization or body; relating to the inside."],
+    "chinese_translations": ["内部的", "国内的"],
+    "example_sentences": "The memo is for internal use only."
+  },
+  {
+    "word": ["prestigious"],
+    "english_synonyms": ["renowned", "esteemed", "distinguished", "illustrious"],
+    "english_explanations": ["Having high status, respect, and admiration; inspiring respect and admiration."],
+    "chinese_translations": ["有声望的", "享有盛誉的"],
+    "example_sentences": "She graduated from a prestigious university."
+  },
+  {
+    "word": ["profit"],
+    "english_synonyms": ["gain", "earnings", "return", "surplus"],
+    "english_explanations": ["A financial gain, especially the difference between the amount earned and spent."],
+    "chinese_translations": ["利润", "盈利"],
+    "example_sentences": "The company reported a significant increase in profit this year."
+  },
+  {
+    "word": ["shed light on"],
+    "english_synonyms": ["clarify", "explain", "elucidate", "illuminate"],
+    "english_explanations": ["To make something easier to understand by providing additional information."],
+    "chinese_translations": ["阐明", "解释清楚", "使...更清晰"],
+    "example_sentences": "The report shed light on the causes of the financial crisis."
+  },
+  {
+    "word": ["adjustable"],
+    "english_synonyms": ["adaptable", "modifiable", "flexible", "variable"],
+    "english_explanations": ["Able to be changed or adapted to suit different conditions or purposes."],
+    "chinese_translations": ["可调节的", "可调整的"],
+    "example_sentences": "The chair has an adjustable height feature."
+  },
+  {
+    "word": ["agile"],
+    "english_synonyms": ["nimble", "flexible", "quick", "spry"],
+    "english_explanations": ["Able to move quickly and easily; able to think and understand quickly."],
+    "chinese_translations": ["敏捷的", "灵活的"],
+    "example_sentences": "Agile methodology is popular in software development."
+  },
+  {
+    "word": ["antenna"],
+    "english_synonyms": ["aerial", "transmitter", "receiver"],
+    "english_explanations": ["A metallic device for sending or receiving radio or television signals."],
+    "chinese_translations": ["天线"],
+    "example_sentences": "The television antenna needs to be adjusted for better reception."
+  },
+  {
+    "word": ["audio"],
+    "english_synonyms": ["sound", "acoustic", "auditory", "sonic"],
+    "english_explanations": ["Relating to sound or the reproduction of sound; sound frequencies audible to humans."],
+    "chinese_translations": ["音频的", "声音的"],
+    "example_sentences": "The audio quality of the new headphones is excellent."
+  },
+  {
+    "word": ["block"],
+    "english_synonyms": ["obstruct", "hinder", "chunk", "unit"],
+    "english_explanations": ["A large solid piece of material; to obstruct or prevent movement or progress."],
+    "chinese_translations": ["块", "街区", "阻挡"],
+    "example_sentences": "There is a block of offices in the city center."
+  },
+  {
+    "word": ["brochure"],
+    "english_synonyms": ["leaflet", "pamphlet", "booklet", "catalog"],
+    "english_explanations": ["A small book or magazine containing pictures and information about a product or service."],
+    "chinese_translations": ["宣传册", "小册子"],
+    "example_sentences": "Please take a brochure for more information about our services."
+  },
+  {
+    "word": ["browse"],
+    "english_synonyms": ["scan", "look through", "peruse", "surf"],
+    "english_explanations": ["To look through a book or website casually; to survey goods for sale."],
+    "chinese_translations": ["浏览", "随意翻看"],
+    "example_sentences": "Customers can browse our online catalog anytime."
+  },
+  {
+    "word": ["built-in"],
+    "english_synonyms": ["integrated", "incorporated", "innate", "inherent"],
+    "english_explanations": ["Made as a permanent part of a larger structure or system; existing as a natural feature."],
+    "chinese_translations": ["内置的", "嵌入式的"],
+    "example_sentences": "The smartphone has a built-in camera."
+  },
+  {
+    "word": ["bulk"],
+    "english_synonyms": ["mass", "volume", "majority", "large quantity"],
+    "english_explanations": ["The mass or size of something large; goods bought or transported in large quantities."],
+    "chinese_translations": ["大量", "散装", "主体"],
+    "example_sentences": "Buying in bulk can reduce costs significantly."
+  },
+  {
+    "word": ["cart"],
+    "english_synonyms": ["trolley", "wagon", "buggy", "basket"],
+    "english_explanations": ["A wheeled vehicle for transporting goods; a container on wheels used for shopping."],
+    "chinese_translations": ["购物车", "手推车"],
+    "example_sentences": "Please add the items to your online shopping cart."
+  },
+  {
+    "word": ["debut"],
+    "english_synonyms": ["first appearance", "launch", "premiere", "introduction"],
+    "english_explanations": ["A first public appearance or presentation of something."],
+    "chinese_translations": ["首次亮相", "初次登场", "处女作"],
+    "example_sentences": "The company made its debut on the stock market last month."
+  },
+  {
+    "word": ["delivery"],
+    "english_synonyms": ["shipment", "conveyance", "distribution", "transport"],
+    "english_explanations": ["The action of delivering goods, letters, or packages to the intended recipient."],
+    "chinese_translations": ["送货", "交付", "分娩"],
+    "example_sentences": "We offer free delivery for orders over $50."
+  },
+  {
+    "word": ["discount"],
+    "english_synonyms": ["reduction", "deduction", "rebate", "markdown"],
+    "english_explanations": ["A reduction in the usual price of something."],
+    "chinese_translations": ["折扣", "打折"],
+    "example_sentences": "Members receive a 10% discount on all purchases."
+  },
+  {
+    "word": ["durable"],
+    "english_synonyms": ["long-lasting", "sturdy", "resilient", "hard-wearing"],
+    "english_explanations": ["Able to withstand wear, pressure, or damage; hard-wearing."],
+    "chinese_translations": ["耐用的", "持久的"],
+    "example_sentences": "We need durable materials for outdoor furniture."
+  },
+  {
+    "word": ["filing cabinet"],
+    "english_synonyms": ["file cabinet", "storage cabinet", "record cabinet"],
+    "english_explanations": ["A piece of office furniture with drawers for storing documents."],
+    "chinese_translations": ["文件柜", "档案柜"],
+    "example_sentences": "Please file these documents in the filing cabinet."
+  },
+  {
+    "word": ["guarantee"],
+    "english_synonyms": ["warranty", "assurance", "promise", "pledge"],
+    "english_explanations": ["A formal promise or assurance that certain conditions will be fulfilled."],
+    "chinese_translations": ["保证", "担保", "保修"],
+    "example_sentences": "The product comes with a one-year guarantee."
+  },
+  {
+    "word": ["humanoid"],
+    "english_synonyms": ["anthropoid", "human-like", "android"],
+    "english_explanations": ["Having an appearance or character resembling that of a human."],
+    "chinese_translations": ["类人的", "人形的"],
+    "example_sentences": "The humanoid robot can perform basic household tasks."
+  },
+  {
+    "word": ["inkjet"],
+    "english_synonyms": ["inkjet printer", "spray printing"],
+    "english_explanations": ["A type of printer that produces images by spraying tiny droplets of ink."],
+    "chinese_translations": ["喷墨的", "喷墨打印"],
+    "example_sentences": "The inkjet printer produces high-quality color photos."
+  },
+  {
+    "word": ["microwave oven"],
+    "english_synonyms": ["microwave", "electric oven"],
+    "english_explanations": ["An oven that uses electromagnetic radiation to heat and cook food quickly."],
+    "chinese_translations": ["微波炉"],
+    "example_sentences": "You can reheat the food in the microwave oven."
+  },
+  {
+    "word": ["mobility"],
+    "english_synonyms": ["movability", "flexibility", "portability", "motion"],
+    "english_explanations": ["The ability to move or be moved freely and easily."],
+    "chinese_translations": ["移动性", "灵活性", "流动性"],
+    "example_sentences": "The new wheelchair offers greater mobility for patients."
+  },
+  {
+    "word": ["multipurpose"],
+    "english_synonyms": ["versatile", "all-purpose", "multi-use", "general"],
+    "english_explanations": ["Having several different purposes or functions."],
+    "chinese_translations": ["多用途的", "多功能的"],
+    "example_sentences": "This multipurpose room can be used for meetings or training."
+  },
+  {
+    "word": ["nuisance"],
+    "english_synonyms": ["annoyance", "inconvenience", "bother", "pest"],
+    "english_explanations": ["A person, thing, or circumstance causing inconvenience or annoyance."],
+    "chinese_translations": ["麻烦事", "讨厌的人", "滋扰"],
+    "example_sentences": "The construction noise is a real nuisance for nearby residents."
+  },
+  {
+    "word": ["on-site service"],
+    "english_synonyms": ["field service", "at-location service", "door-to-door service"],
+    "english_explanations": ["Service provided at the customer's location rather than at the provider's premises."],
+    "chinese_translations": ["现场服务", "上门服务"],
+    "example_sentences": "We provide on-site service for all equipment repairs."
+  },
+  {
+    "word": ["PDA", "personal digital assistant"],
+    "english_synonyms": ["handheld computer", "pocket organizer", "smart device"],
+    "english_explanations": ["A small mobile hand-held device that provides computing and information storage."],
+    "chinese_translations": ["个人数字助理", "掌上电脑"],
+    "example_sentences": "The PDA was a precursor to the modern smartphone."
+  },
+  {
+    "word": ["predecessor"],
+    "english_synonyms": ["forerunner", "precursor", "ancestor", "former holder"],
+    "english_explanations": ["A person who held a job or office before the current holder; something that came before."],
+    "chinese_translations": ["前任", "前辈", "前身"],
+    "example_sentences": "The new model is more efficient than its predecessor."
+  },
+  {
+    "word": ["preview"],
+    "english_synonyms": ["sneak peek", "first look", "trailer", "advance showing"],
+    "english_explanations": ["An opportunity to see something before it is officially available."],
+    "chinese_translations": ["预览", "预展", "预告片"],
+    "example_sentences": "We got a preview of the new product before its official launch."
+  },
+  {
+    "word": ["rayon"],
+    "english_synonyms": ["viscose", "semi-synthetic fiber", "artificial silk"],
+    "english_explanations": ["A textile fiber or fabric made from regenerated cellulose, known as artificial silk."],
+    "chinese_translations": ["人造丝", "粘胶纤维"],
+    "example_sentences": "This dress is made of rayon, which feels soft and smooth."
+  },
+  {
+    "word": ["refund"],
+    "english_synonyms": ["repayment", "reimbursement", "rebate", "return"],
+    "english_explanations": ["A repayment of a sum of money, typically to a dissatisfied customer."],
+    "chinese_translations": ["退款", "退还"],
+    "example_sentences": "If you are not satisfied, we offer a full refund within 30 days."
+  },
+  {
+    "word": ["retail"],
+    "english_synonyms": ["sell", "merchandising", "consumer sales"],
+    "english_explanations": ["The sale of goods to the public in relatively small quantities for use or consumption."],
+    "chinese_translations": ["零售", "零售业"],
+    "example_sentences": "The suggested retail price is $99."
+  },
+  {
+    "word": ["smart phone"],
+    "english_synonyms": ["smartphone", "mobile device", "handheld computer"],
+    "english_explanations": ["A mobile phone that performs many of the functions of a computer, with a touchscreen interface."],
+    "chinese_translations": ["智能手机"],
+    "example_sentences": "The smart phone has replaced many traditional electronic devices."
+  },
+  {
+    "word": ["stylish"],
+    "english_synonyms": ["fashionable", "trendy", "elegant", "chic"],
+    "english_explanations": ["Having an attractive and sophisticated appearance; fashionable."],
+    "chinese_translations": ["时尚的", "时髦的"],
+    "example_sentences": "The new office has a stylish and modern design."
+  },
+  {
+    "word": ["target market"],
+    "english_synonyms": ["intended audience", "customer base", "demographic"],
+    "english_explanations": ["A specific group of consumers at which a company aims its products and marketing."],
+    "chinese_translations": ["目标市场"],
+    "example_sentences": "Our target market is young professionals aged 25 to 35."
+  },
+  {
+    "word": ["touch-tone"],
+    "english_synonyms": ["push-button", "DTMF", "tone dialing"],
+    "english_explanations": ["Relating to a telephone that generates tones when keys are pressed."],
+    "chinese_translations": ["按键式的", "音频的"],
+    "example_sentences": "Please use a touch-tone phone to access the automated system."
+  },
+  {
+    "word": ["tray"],
+    "english_synonyms": ["plate", "platter", "serving dish", "holder"],
+    "english_explanations": ["A flat, shallow container with a raised rim, used for carrying or holding items."],
+    "chinese_translations": ["托盘", "盘子"],
+    "example_sentences": "Please place the documents in the incoming tray."
+  },
+  {
+    "word": ["user-friendly"],
+    "english_synonyms": ["easy to use", "intuitive", "accessible", "simple"],
+    "english_explanations": ["Easy to use or understand, especially for people without technical knowledge."],
+    "chinese_translations": ["用户友好的", "易于使用的"],
+    "example_sentences": "The software is designed to be user-friendly for beginners."
+  },
+  {
+    "word": ["volume"],
+    "english_synonyms": ["quantity", "amount", "capacity", "level"],
+    "english_explanations": ["The amount of space occupied by a substance; the quantity or power of sound."],
+    "chinese_translations": ["体积", "容量", "音量", "量"],
+    "example_sentences": "Sales volume has increased significantly this quarter."
+  },
+  {
+    "word": ["warranty"],
+    "english_synonyms": ["guarantee", "assurance", "promise", "commitment"],
+    "english_explanations": ["A written guarantee promising to repair or replace a product if necessary within a period."],
+    "chinese_translations": ["保修", "保证书"],
+    "example_sentences": "The laptop comes with a two-year warranty."
+  },
+  {
+    "word": ["waterproof"],
+    "english_synonyms": ["water-resistant", "impermeable", "watertight", "sealed"],
+    "english_explanations": ["Impervious to water; not allowing water to pass through."],
+    "chinese_translations": ["防水的", "不透水的"],
+    "example_sentences": "This watch is waterproof up to 100 meters."
+  },
+  {
+    "word": ["accompany"],
+    "english_synonyms": ["escort", "go with", "attend", "join"],
+    "english_explanations": ["To go somewhere with someone as a companion; to play music along with."],
+    "chinese_translations": ["陪同", "陪伴", "伴随"],
+    "example_sentences": "I will accompany you to the meeting."
+  },
+  {
+    "word": ["alternative"],
+    "english_synonyms": ["option", "choice", "substitute", "other"],
+    "english_explanations": ["One of two or more available possibilities; different from the usual or conventional."],
+    "chinese_translations": ["替代方案", "选择", "另类的"],
+    "example_sentences": "We need to find an alternative supplier."
+  },
+  {
+    "word": ["balcony"],
+    "english_synonyms": ["terrace", "veranda", "gallery", "deck"],
+    "english_explanations": ["A platform projecting from the wall of a building, supported by columns or brackets."],
+    "chinese_translations": ["阳台", "楼座"],
+    "example_sentences": "The hotel room has a private balcony overlooking the sea."
+  },
+  {
+    "word": ["considerate"],
+    "english_synonyms": ["thoughtful", "attentive", "kind", "caring"],
+    "english_explanations": ["Careful not to inconvenience or harm others; showing careful thought."],
+    "chinese_translations": ["体贴的", "考虑周到的"],
+    "example_sentences": "It was considerate of you to bring coffee for everyone."
+  },
+  {
+    "word": ["cozy"],
+    "english_synonyms": ["comfortable", "snug", "warm", "homely"],
+    "english_explanations": ["Giving a feeling of comfort, warmth, and relaxation."],
+    "chinese_translations": ["舒适的", "温馨的", "惬意的"],
+    "example_sentences": "The lounge has a cozy atmosphere."
+  },
+  {
+    "word": ["escort"],
+    "english_synonyms": ["accompany", "guide", "chaperone", "guard"],
+    "english_explanations": ["To go with someone to provide protection, guidance, or companionship."],
+    "chinese_translations": ["护送", "陪同", "护卫"],
+    "example_sentences": "Security will escort you to the conference room."
+  },
+  {
+    "word": ["gesture"],
+    "english_synonyms": ["movement", "signal", "action", "motion"],
+    "english_explanations": ["A movement of part of the body to express an idea or meaning; an action to convey feeling."],
+    "chinese_translations": ["手势", "姿态", "表示"],
+    "example_sentences": "He made a gesture of apology."
+  },
+  {
+    "word": ["movement"],
+    "english_synonyms": ["motion", "action", "campaign", "group"],
+    "english_explanations": ["An act of moving; a group of people working together for a shared goal."],
+    "chinese_translations": ["运动", "移动", "活动"],
+    "example_sentences": "The civil rights movement changed American society."
+  },
+  {
+    "word": ["occupied"],
+    "english_synonyms": ["busy", "in use", "taken", "engaged"],
+    "english_explanations": ["Being used by someone; having one's time filled with activity."],
+    "chinese_translations": ["占用的", "忙碌的", "已占用的"],
+    "example_sentences": "The restroom is occupied at the moment."
+  },
+  {
+    "word": ["parking lot"],
+    "english_synonyms": ["car park", "parking area", "lot"],
+    "english_explanations": ["An area where cars and other vehicles can be parked."],
+    "chinese_translations": ["停车场", "停车区"],
+    "example_sentences": "The parking lot is located behind the building."
+  },
+  {
+    "word": ["plain"],
+    "english_synonyms": ["simple", "unadorned", "clear", "ordinary"],
+    "english_explanations": ["Not decorated or elaborate; simple or ordinary in character."],
+    "chinese_translations": ["简单的", "朴素的", "平原"],
+    "example_sentences": "I prefer plain designs without too many decorations."
+  },
+  {
+    "word": ["procedure"],
+    "english_synonyms": ["process", "method", "protocol", "step"],
+    "english_explanations": ["An established or official way of doing something; a series of actions."],
+    "chinese_translations": ["程序", "步骤", "手续"],
+    "example_sentences": "Please follow the standard procedure for reporting incidents."
+  },
+  {
+    "word": ["register"],
+    "english_synonyms": ["enroll", "record", "sign up", "check in"],
+    "english_explanations": ["To enter or record on an official list; to sign up for something."],
+    "chinese_translations": ["登记", "注册"],
+    "example_sentences": "Please register at the front desk upon arrival."
+  },
+  {
+    "word": ["send sb. up"],
+    "english_synonyms": ["escort up", "guide upstairs", "summon"],
+    "english_explanations": ["To direct or escort someone to an upper floor or higher level."],
+    "chinese_translations": ["送某人上楼", "带某人上去"],
+    "example_sentences": "Please send Mr. Smith up to the conference room."
+  },
+  {
+    "word": ["sketch"],
+    "english_synonyms": ["drawing", "draft", "outline", "plan"],
+    "english_explanations": ["A rough or unfinished drawing or painting; a brief written or spoken account."],
+    "chinese_translations": ["草图", "素描", "简述"],
+    "example_sentences": "The architect presented a sketch of the proposed building."
+  },
+  {
+    "word": ["superb"],
+    "english_synonyms": ["excellent", "outstanding", "magnificent", "first-rate"],
+    "english_explanations": ["Of the highest quality; exceptionally good."],
+    "chinese_translations": ["极好的", "卓越的"],
+    "example_sentences": "The hotel provides superb service to all guests."
+  },
+  {
+    "word": ["tact"],
+    "english_synonyms": ["diplomacy", "sensitivity", "discretion", "judgment"],
+    "english_explanations": ["Skill and sensitivity in dealing with others or with difficult issues."],
+    "chinese_translations": ["机智", "圆滑", "得体"],
+    "example_sentences": "Handling complaints requires a lot of tact."
+  },
+  {
+    "word": ["take sb. to"],
+    "english_synonyms": ["escort someone to", "guide someone to", "lead someone to"],
+    "english_explanations": ["To accompany or guide a person to a particular place."],
+    "chinese_translations": ["带某人去"],
+    "example_sentences": "I will take you to the manager's office."
+  },
+  {
+    "word": ["thoughtful"],
+    "english_synonyms": ["considerate", "caring", "reflective", "attentive"],
+    "english_explanations": ["Showing consideration for the needs of other people; absorbed in thought."],
+    "chinese_translations": ["体贴的", "深思熟虑的"],
+    "example_sentences": "It was thoughtful of you to send a thank-you note."
+  },
+  {
+    "word": ["unfortunately"],
+    "english_synonyms": ["regrettably", "sadly", "unluckily", "alas"],
+    "english_explanations": ["Used to express regret about something disappointing or unpleasant."],
+    "chinese_translations": ["不幸地", "遗憾地", "可惜"],
+    "example_sentences": "Unfortunately, the flight has been cancelled."
+  },
+  {
+    "word": ["well-decorated"],
+    "english_synonyms": ["nicely furnished", "elegantly appointed", "attractively decorated"],
+    "english_explanations": ["Having an attractive and tasteful arrangement of furnishings and ornaments."],
+    "chinese_translations": ["装饰精美的", "布置雅致的"],
+    "example_sentences": "The well-decorated room created a welcoming atmosphere."
+  },
+  {
+    "word": ["acceptable"],
+    "english_synonyms": ["satisfactory", "adequate", "tolerable", "permissible"],
+    "english_explanations": ["Able to be agreed on; satisfactory; adequate though not outstanding."],
+    "chinese_translations": ["可接受的", "令人满意的"],
+    "example_sentences": "The quality of the product is acceptable for the price."
+  },
+  {
+    "word": ["bamboo shoot"],
+    "english_synonyms": ["bamboo sprout", "takenoko"],
+    "english_explanations": ["The edible young growth of bamboo, commonly used in Asian cuisine."],
+    "chinese_translations": ["竹笋"],
+    "example_sentences": "Bamboo shoot is a popular ingredient in Chinese dishes."
+  },
+  {
+    "word": ["bean curd"],
+    "english_synonyms": ["tofu", "soybean curd", "doufu"],
+    "english_explanations": ["A soft white food made from coagulated soybean milk, popular in East Asian cooking."],
+    "chinese_translations": ["豆腐"],
+    "example_sentences": "Bean curd is an excellent source of plant protein."
+  },
+  {
+    "word": ["canned"],
+    "english_synonyms": ["tinned", "preserved", "prepackaged"],
+    "english_explanations": ["Preserved and stored in a sealed metal container."],
+    "chinese_translations": ["罐装的"],
+    "example_sentences": "Canned fruits are convenient for long-term storage."
+  },
+  {
+    "word": ["care for"],
+    "english_synonyms": ["look after", "take care of", "like", "want"],
+    "english_explanations": ["To look after someone or something; to like or want something."],
+    "chinese_translations": ["照顾", "喜欢", "愿意"],
+    "example_sentences": "Would you care for some dessert?"
+  },
+  {
+    "word": ["chestnut"],
+    "english_synonyms": ["marron", "conker"],
+    "english_explanations": ["A shiny brown edible nut that develops within a prickly husk."],
+    "chinese_translations": ["栗子", "板栗"],
+    "example_sentences": "Roasted chestnuts are a popular winter snack."
+  },
+  {
+    "word": ["delighted"],
+    "english_synonyms": ["pleased", "thrilled", "happy", "overjoyed"],
+    "english_explanations": ["Feeling or showing great pleasure."],
+    "chinese_translations": ["高兴的", "欣喜的"],
+    "example_sentences": "We are delighted to welcome you as our guest."
+  },
+  {
+    "word": ["dessert"],
+    "english_synonyms": ["sweet", "pudding", "afters", "confection"],
+    "english_explanations": ["The sweet course eaten at the end of a meal."],
+    "chinese_translations": ["甜点", "甜品"],
+    "example_sentences": "For dessert, we have chocolate cake or ice cream."
+  },
+  {
+    "word": ["en casserole"],
+    "english_synonyms": ["casserole-style", "baked in a dish"],
+    "english_explanations": ["Cooked and served in a casserole dish, typically baked in the oven."],
+    "chinese_translations": ["砂锅炖的", "焙盘的"],
+    "example_sentences": "The chicken en casserole was delicious."
+  },
+  {
+    "word": ["facility"],
+    "english_synonyms": ["amenity", "service", "resource", "equipment"],
+    "english_explanations": ["A place, amenity, or piece of equipment provided for a particular purpose."],
+    "chinese_translations": ["设施", "设备", "便利"],
+    "example_sentences": "The hotel has excellent sports facilities."
+  },
+  {
+    "word": ["fatty"],
+    "english_synonyms": ["oily", "greasy", "rich", "adipose"],
+    "english_explanations": ["Containing a large amount of fat."],
+    "chinese_translations": ["油腻的", "多脂肪的"],
+    "example_sentences": "This cut of meat is quite fatty."
+  },
+  {
+    "word": ["fruitful"],
+    "english_synonyms": ["productive", "rewarding", "successful", "profitable"],
+    "english_explanations": ["Producing good or useful results; fertile and productive."],
+    "chinese_translations": ["富有成效的", "多产的"],
+    "example_sentences": "The negotiation proved to be very fruitful."
+  },
+  {
+    "word": ["invitation"],
+    "english_synonyms": ["request", "bid", "call", "summons"],
+    "english_explanations": ["A written or verbal request inviting someone to go somewhere or do something."],
+    "chinese_translations": ["邀请", "请柬"],
+    "example_sentences": "Thank you for the kind invitation to dinner."
+  },
+  {
+    "word": ["lounge"],
+    "english_synonyms": ["sitting room", "waiting area", "lobby", "bar"],
+    "english_explanations": ["A public room in a hotel or theater for waiting or relaxing; a comfortable sitting room."],
+    "chinese_translations": ["休息室", "客厅", "酒吧"],
+    "example_sentences": "Guests can relax in the hotel lounge."
+  },
+  {
+    "word": ["main course"],
+    "english_synonyms": ["entree", "main dish", "principal course"],
+    "english_explanations": ["The most substantial course of a meal, typically served after the starter."],
+    "chinese_translations": ["主菜"],
+    "example_sentences": "The main course was grilled salmon with vegetables."
+  },
+  {
+    "word": ["mushroom"],
+    "english_synonyms": ["fungus", "toadstool"],
+    "english_explanations": ["A fungal growth that typically takes the form of a domed cap on a stalk."],
+    "chinese_translations": ["蘑菇", "菌类"],
+    "example_sentences": "The dish is garnished with fresh mushrooms."
+  },
+  {
+    "word": ["original"],
+    "english_synonyms": ["initial", "first", "authentic", "creative"],
+    "english_explanations": ["Present or existing from the beginning; not derived from something else; new and unique."],
+    "chinese_translations": ["原始的", "最初的", "独创的"],
+    "example_sentences": "The original recipe has been passed down for generations."
+  },
+  {
+    "word": ["prawn cracker"],
+    "english_synonyms": ["shrimp chip", "krupuk"],
+    "english_explanations": ["A crispy snack made from starch and prawn, popular in Southeast Asian cuisine."],
+    "chinese_translations": ["虾片"],
+    "example_sentences": "Prawn crackers are often served as an appetizer in Chinese restaurants."
+  },
+  {
+    "word": ["soft drink"],
+    "english_synonyms": ["soda", "non-alcoholic beverage", "fizzy drink", "pop"],
+    "english_explanations": ["A non-alcoholic beverage, typically carbonated and flavored."],
+    "chinese_translations": ["软饮料", "不含酒精的饮料"],
+    "example_sentences": "Would you like a soft drink with your meal?"
+  },
+  {
+    "word": ["splendid"],
+    "english_synonyms": ["magnificent", "excellent", "impressive", "superb"],
+    "english_explanations": ["Magnificent; very impressive; extremely good."],
+    "chinese_translations": ["极好的", "壮丽的", "辉煌的"],
+    "example_sentences": "We had a splendid time at the banquet."
+  },
+  {
+    "word": ["starter"],
+    "english_synonyms": ["appetizer", "first course", "hors d'oeuvre", "beginning"],
+    "english_explanations": ["The first course of a meal; a person or thing that starts something."],
+    "chinese_translations": ["开胃菜", "头盘", "初学者"],
+    "example_sentences": "For the starter, I recommend the soup of the day."
+  },
+  {
+    "word": ["terrific"],
+    "english_synonyms": ["excellent", "wonderful", "fantastic", "great"],
+    "english_explanations": ["Of great size, amount, or intensity; extremely good or wonderful."],
+    "chinese_translations": ["极好的", "了不起的", "非常大的"],
+    "example_sentences": "The team did a terrific job on the presentation."
+  },
+  {
+    "word": ["to one's liking"],
+    "english_synonyms": ["to one's taste", "satisfactory", "pleasing"],
+    "english_explanations": ["In a way that pleases or suits someone."],
+    "chinese_translations": ["合某人的口味", "称某人的心"],
+    "example_sentences": "The room was decorated to her liking."
+  },
+  {
+    "word": ["vegetarian"],
+    "english_synonyms": ["vegan", "plant-based eater", "herbivore"],
+    "english_explanations": ["A person who does not eat meat; food suitable for such a person."],
+    "chinese_translations": ["素食者", "素食的"],
+    "example_sentences": "Do you have any vegetarian options on the menu?"
+  },
+  {
+    "word": ["domestic"],
+    "english_synonyms": ["internal", "home", "household", "native"],
+    "english_explanations": ["Existing or occurring inside a particular country; relating to the home or family."],
+    "chinese_translations": ["国内的", "家庭的"],
+    "example_sentences": "Domestic flights are usually cheaper than international ones."
+  },
+  {
+    "word": ["domestic market"],
+    "english_synonyms": ["home market", "internal market", "local market"],
+    "english_explanations": ["The market within a country's own borders, as opposed to international markets."],
+    "chinese_translations": ["国内市场"],
+    "example_sentences": "The company focuses primarily on the domestic market."
+  },
+  {
+    "word": ["downward"],
+    "english_synonyms": ["declining", "descending", "falling", "decreasing"],
+    "english_explanations": ["Moving or leading toward a lower place or level."],
+    "chinese_translations": ["向下的", "下降的"],
+    "example_sentences": "There has been a downward trend in sales this quarter."
+  },
+  {
+    "word": ["dramatically"],
+    "english_synonyms": ["significantly", "radically", "strikingly", "substantially"],
+    "english_explanations": ["In a dramatic manner; very suddenly and noticeably."],
+    "chinese_translations": ["显著地", "戏剧性地"],
+    "example_sentences": "Profits have increased dramatically over the past year."
+  },
+  {
+    "word": ["export market"],
+    "english_synonyms": ["foreign market", "overseas market", "international market"],
+    "english_explanations": ["A market in a foreign country where domestic goods are sold."],
+    "chinese_translations": ["出口市场", "海外市场"],
+    "example_sentences": "China is an important export market for many countries."
+  },
+  {
+    "word": ["horizontal"],
+    "english_synonyms": ["flat", "level", "parallel", "lateral"],
+    "english_explanations": ["Parallel to the plane of the horizon; involving companies at the same stage of production."],
+    "chinese_translations": ["水平的", "横向的"],
+    "example_sentences": "The chart displays data in a horizontal format."
+  },
+  {
+    "word": ["inventory"],
+    "english_synonyms": ["stock", "supply", "goods", "checklist"],
+    "english_explanations": ["A complete list of items such as property, goods in stock, or contents."],
+    "chinese_translations": ["库存", "存货清单"],
+    "example_sentences": "We need to take inventory of all warehouse stock."
+  },
+  {
+    "word": ["maintenance"],
+    "english_synonyms": ["upkeep", "preservation", "servicing", "care"],
+    "english_explanations": ["The work needed to keep something in proper condition; the act of maintaining."],
+    "chinese_translations": ["维护", "保养", "维修"],
+    "example_sentences": "Regular maintenance is essential for the equipment."
+  },
+  {
+    "word": ["market share"],
+    "english_synonyms": ["share of market", "market portion"],
+    "english_explanations": ["The portion of a market controlled by a particular company or product."],
+    "chinese_translations": ["市场份额", "市场占有率"],
+    "example_sentences": "The company increased its market share by 5% this year."
+  },
+  {
+    "word": ["net loss"],
+    "english_synonyms": ["deficit", "negative earnings", "loss"],
+    "english_explanations": ["The amount by which expenses exceed revenues; a negative profit."],
+    "chinese_translations": ["净亏损", "净损失"],
+    "example_sentences": "The company reported a net loss for the fiscal year."
+  },
+  {
+    "word": ["net profit"],
+    "english_synonyms": ["bottom line", "net income", "clear profit"],
+    "english_explanations": ["The actual profit after all expenses and taxes have been deducted from revenue."],
+    "chinese_translations": ["净利润", "纯利润"],
+    "example_sentences": "The net profit margin improved compared to last quarter."
+  },
+  {
+    "word": ["operating revenue"],
+    "english_synonyms": ["operating income", "sales revenue", "turnover"],
+    "english_explanations": ["Revenue generated from a company's primary business activities."],
+    "chinese_translations": ["营业收入", "运营收入"],
+    "example_sentences": "Operating revenue grew by 12% this quarter."
+  },
+  {
+    "word": ["output"],
+    "english_synonyms": ["production", "yield", "result", "productivity"],
+    "english_explanations": ["The amount of something produced by a person, machine, or industry."],
+    "chinese_translations": ["产量", "产出", "输出"],
+    "example_sentences": "Factory output has increased since the new equipment was installed."
+  },
+  {
+    "word": ["overhaul"],
+    "english_synonyms": ["overhaul", "renovate", "reexamine", "modernize"],
+    "english_explanations": ["To take apart and examine thoroughly in order to repair; a thorough examination and repair."],
+    "chinese_translations": ["彻底检修", "大修", "全面改革"],
+    "example_sentences": "The engine needs a complete overhaul."
+  },
+  {
+    "word": ["peak"],
+    "english_synonyms": ["summit", "top", "maximum", "high point"],
+    "english_explanations": ["The highest point of something; the point of greatest activity or achievement."],
+    "chinese_translations": ["高峰", "峰值", "顶峰"],
+    "example_sentences": "Sales reach their peak during the holiday season."
+  },
+  {
+    "word": ["remain flat"],
+    "english_synonyms": ["stay level", "hold steady", "unchanged", "plateau"],
+    "english_explanations": ["To stay at the same level without significant increase or decrease."],
+    "chinese_translations": ["保持平稳", "持平", "没有变化"],
+    "example_sentences": "Despite market fluctuations, prices remain flat."
+  },
+  {
+    "word": ["route"],
+    "english_synonyms": ["path", "course", "way", "itinerary"],
+    "english_explanations": ["A way or course taken in getting from a starting point to a destination."],
+    "chinese_translations": ["路线", "航线", "途径"],
+    "example_sentences": "What is the most efficient delivery route?"
+  },
+  {
+    "word": ["significant"],
+    "english_synonyms": ["important", "substantial", "considerable", "meaningful"],
+    "english_explanations": ["Sufficiently great or important to be worthy of attention; having meaning."],
+    "chinese_translations": ["重要的", "显著的", "有意义的"],
+    "example_sentences": "There has been a significant improvement in performance."
+  },
+  {
+    "word": ["steadily"],
+    "english_synonyms": ["continuously", "constantly", "gradually", "firmly"],
+    "english_explanations": ["In a regular and even manner; gradually and consistently."],
+    "chinese_translations": ["稳定地", "持续地"],
+    "example_sentences": "The company has grown steadily over the past decade."
+  },
+  {
+    "word": ["trend"],
+    "english_synonyms": ["tendency", "direction", "pattern", "movement"],
+    "english_explanations": ["A general direction in which something is developing or changing."],
+    "chinese_translations": ["趋势", "潮流"],
+    "example_sentences": "There is a growing trend toward online shopping."
+  },
+  {
+    "word": ["turbulence"],
+    "english_synonyms": ["instability", "unrest", "disruption", "fluctuation"],
+    "english_explanations": ["Violent or unsteady movement of air or water; a state of conflict or confusion."],
+    "chinese_translations": ["动荡", "骚乱", "气流"],
+    "example_sentences": "The market experienced considerable turbulence last year."
+  },
+  {
+    "word": ["turnover"],
+    "english_synonyms": ["revenue", "sales", "churn rate", "rotation"],
+    "english_explanations": ["The total amount of money taken by a business; or the rate at which employees leave."],
+    "chinese_translations": ["营业额", "人员流动率"],
+    "example_sentences": "Employee turnover has decreased since the new benefits were introduced."
+  },
+  {
+    "word": ["vertical"],
+    "english_synonyms": ["upright", "perpendicular", "longitudinal", "up-and-down"],
+    "english_explanations": ["At right angles to a horizontal plane; involving companies at different stages of production."],
+    "chinese_translations": ["垂直的", "纵向的"],
+    "example_sentences": "The chart shows a vertical line indicating the target."
+  },
+  {
+    "word": ["year-on-year growth"],
+    "english_synonyms": ["annual growth", "YoY growth", "year-over-year increase"],
+    "english_explanations": ["The percentage change in a value compared to the same period in the previous year."],
+    "chinese_translations": ["同比增长"],
+    "example_sentences": "The company reported 15% year-on-year growth in revenue."
+  },
+  {
+    "word": ["amount to"],
+    "english_synonyms": ["total", "add up to", "equal", "come to"],
+    "english_explanations": ["To add up in quantity or number; to be equivalent to in effect."],
+    "chinese_translations": ["总计", "相当于", "意味着"],
+    "example_sentences": "The total cost amounts to $5,000."
+  },
+  {
+    "word": ["breakdown"],
+    "english_synonyms": ["failure", "analysis", "collapse", "malfunction"],
+    "english_explanations": ["A failure of a machine or system to function; a detailed analysis of information."],
+    "chinese_translations": ["故障", "崩溃", "细分", "明细"],
+    "example_sentences": "Please provide a cost breakdown for the project."
+  },
+  {
+    "word": ["cargo"],
+    "english_synonyms": ["freight", "goods", "shipment", "load"],
+    "english_explanations": ["Goods carried on a ship, aircraft, or motor vehicle."],
+    "chinese_translations": ["货物", " cargo"],
+    "example_sentences": "The ship was carrying a cargo of electronic equipment."
+  },
+  {
+    "word": ["civil aviation"],
+    "english_synonyms": ["commercial aviation", "private aviation", "non-military aviation"],
+    "english_explanations": ["Air travel and transport by aircraft other than military or state aircraft."],
+    "chinese_translations": ["民用航空"],
+    "example_sentences": "Civil aviation has grown rapidly in the past two decades."
+  }
+]
