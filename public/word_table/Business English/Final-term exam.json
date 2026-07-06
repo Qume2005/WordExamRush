@@ -1,0 +1,331 @@
+[
+{
+"word": ["programmer"],
+"english_synonyms": ["coder", "software developer", "software engineer"],
+"english_explanations": ["A person who writes computer programs or software."],
+"chinese_translations": ["程序设计员", "程序员"],
+"example_sentences": "I'm a computer programmer with Lenovo."
+},
+{
+"word": ["rewarding"],
+"english_synonyms": ["worthwhile", "satisfying", "fulfilling"],
+"english_explanations": ["Giving satisfaction, pleasure, or profit; worth doing or having."],
+"chinese_translations": ["有价值的", "有意义的", "令人满足的"],
+"example_sentences": "Being a programmer can be a very rewarding career."
+},
+{
+"word": ["design"],
+"english_synonyms": ["plan", "create", "devise", "develop"],
+"english_explanations": ["To decide how something will look or work by drawing plans or making models."],
+"chinese_translations": ["设计", "构思"],
+"example_sentences": "I work on design and development of new software."
+},
+{
+"word": ["creative"],
+"english_synonyms": ["imaginative", "innovative", "inventive", "original"],
+"english_explanations": ["Relating to or involving the use of imagination or original ideas to create something."],
+"chinese_translations": ["创造性的", "有创意的"],
+"example_sentences": "Creative thinking is essential in software development."
+},
+{
+"word": ["creative thinking"],
+"english_synonyms": ["lateral thinking", "innovative thinking", "divergent thinking"],
+"english_explanations": ["The ability to think about problems in a new way or from a different perspective."],
+"chinese_translations": ["创造性思维", "创新思维"],
+"example_sentences": "Creative thinking helps programmers solve complex problems."
+},
+{
+"word": ["overtime"],
+"english_synonyms": ["extra hours", "additional working time"],
+"english_explanations": ["Time spent working beyond the normal working hours, usually paid at a higher rate."],
+"chinese_translations": ["加班时间", "加班"],
+"example_sentences": "I often work overtime to meet project deadlines."
+},
+{
+"word": ["regularly"],
+"english_synonyms": ["frequently", "routinely", "consistently", "periodically"],
+"english_explanations": ["At regular intervals or times; often or repeatedly."],
+"chinese_translations": ["有规律地", "定期地", "经常"],
+"example_sentences": "We have meetings regularly to discuss progress."
+},
+{
+"word": ["accountant"],
+"english_synonyms": ["bookkeeper", "auditor", "financial officer"],
+"english_explanations": ["A person whose job is to keep or inspect financial accounts."],
+"chinese_translations": ["会计", "会计师"],
+"example_sentences": "Jennifer is an accountant now."
+},
+{
+"word": ["chemical"],
+"english_synonyms": ["synthetic", "artificial"],
+"english_explanations": ["Relating to chemistry or the use of chemicals."],
+"chinese_translations": ["化学的"],
+"example_sentences": "The company produces chemical products."
+},
+{
+"word": ["line of business"],
+"english_synonyms": ["industry", "sector", "field", "area of business"],
+"english_explanations": ["The particular type of commercial activity or industry that a company is involved in."],
+"chinese_translations": ["行业", "业务领域"],
+"example_sentences": "What line of business are you in?"
+},
+{
+"word": ["responsible to"],
+"english_synonyms": ["accountable to", "answerable to", "reporting to"],
+"english_explanations": ["Having a duty to report to someone and be answerable for one's actions."],
+"chinese_translations": ["对...负责", "向...汇报"],
+"example_sentences": "Who are you responsible to in your new position?"
+},
+{
+"word": ["get through"],
+"english_synonyms": ["connect", "reach", "make contact"],
+"english_explanations": ["To succeed in making contact with someone by telephone."],
+"chinese_translations": ["接通电话", "联系上"],
+"example_sentences": "I can't get through to the manager."
+},
+{
+"word": ["engaged"],
+"english_synonyms": ["busy", "occupied", "in use"],
+"english_explanations": ["(Of a telephone line) already in use by another caller; busy."],
+"chinese_translations": ["电话占线的", "忙碌的"],
+"example_sentences": "The line's engaged. I'll call back later."
+},
+{
+"word": ["speak up"],
+"english_synonyms": ["speak louder", "raise one's voice", "talk louder"],
+"english_explanations": ["To speak more loudly so that people can hear you clearly."],
+"chinese_translations": ["大声点", "大声说"],
+"example_sentences": "Could you speak up a little, please? I can't hear you very well."
+},
+{
+"word": ["crossed line"],
+"english_synonyms": ["crossed wires", "interference"],
+"english_explanations": ["A telephone problem where two or more conversations are mixed together, or where you can hear another conversation."],
+"chinese_translations": ["串线", "电话串线"],
+"example_sentences": "I think we've got a crossed line. I can hear another conversation."
+},
+{
+"word": ["scent"],
+"english_synonyms": ["fragrance", "perfume", "aroma"],
+"english_explanations": ["A pleasant smell, especially of a particular type."],
+"chinese_translations": ["香味", "气味"],
+"example_sentences": "I'm calling for some price information on French perfumes and their scents."
+},
+{
+"word": ["odour"],
+"english_synonyms": ["smell", "scent", "fragrance", "aroma"],
+"english_explanations": ["A distinctive smell, especially an unpleasant one, though it can also refer to pleasant smells."],
+"chinese_translations": ["气味", "香味"],
+"example_sentences": "This perfume has a very pleasant odour."
+},
+{
+"word": ["keep your voice down"],
+"english_synonyms": ["speak quietly", "lower your voice", "talk softly"],
+"english_explanations": ["To speak more quietly; to reduce the volume of one's voice."],
+"chinese_translations": ["小声点", "压低声音"],
+"example_sentences": "Please keep your voice down in the office."
+},
+{
+"word": ["be engaged in"],
+"english_synonyms": ["be involved in", "be occupied with", "be busy with", "participate in"],
+"english_explanations": ["To be busy doing something; to be actively involved in an activity."],
+"chinese_translations": ["忙于...", "从事于..."],
+"example_sentences": "He is engaged in an important discussion right now."
+},
+{
+"word": ["brief"],
+"english_synonyms": ["short", "concise", "succinct", "compact"],
+"english_explanations": ["Lasting only a short time; using few words."],
+"chinese_translations": ["简短的", "简要的"],
+"example_sentences": "This brief talk will hopefully act as a springboard for discussion."
+},
+{
+"word": ["points of view"],
+"english_synonyms": ["perspectives", "viewpoints", "standpoints", "angles"],
+"english_explanations": ["A particular way of considering or judging a situation; an opinion or attitude."],
+"chinese_translations": ["观点", "看法"],
+"example_sentences": "I'm going to look at the campaign from three points of view."
+},
+{
+"word": ["springboard"],
+"english_synonyms": ["starting point", "launchpad", "catalyst", "foundation"],
+"english_explanations": ["Something that helps you start an activity or achieve success; a point of departure."],
+"chinese_translations": ["跳板", "起点"],
+"example_sentences": "This brief talk will hopefully act as a springboard for discussion."
+},
+{
+"word": ["corporate campaign"],
+"english_synonyms": ["company initiative", "business drive", "corporate program"],
+"english_explanations": ["A planned series of activities designed to promote a company's image, products, or goals."],
+"chinese_translations": ["企业活动", "公司宣传活动"],
+"example_sentences": "I'm responsible for public affairs in our recent corporate campaign."
+},
+{
+"word": ["financial institutions"],
+"english_synonyms": ["banks", "financial organizations", "financial bodies"],
+"english_explanations": ["Organizations such as banks, investment companies, and insurance companies that provide financial services."],
+"chinese_translations": ["金融机构"],
+"example_sentences": "I will look at the campaign from the financial institutions' point of view."
+},
+{
+"word": ["shareholders"],
+"english_synonyms": ["stockholders", "investors", "stakeholders"],
+"english_explanations": ["People who own shares in a company and therefore have a financial interest in its success."],
+"chinese_translations": ["股东"],
+"example_sentences": "Finally, I will consider the shareholders' point of view."
+},
+{
+"word": ["interrupt"],
+"english_synonyms": ["disturb", "cut in", "break in", "disrupt"],
+"english_explanations": ["To stop someone from continuing what they are saying or doing by saying or doing something yourself."],
+"chinese_translations": ["打断", "中断"],
+"example_sentences": "If you have any questions, just interrupt me as I go along."
+},
+{
+"word": ["make an appointment"],
+"english_synonyms": ["schedule a meeting", "book a time", "arrange a meeting"],
+"english_explanations": ["To arrange to meet someone at a particular time, usually for business or professional purposes."],
+"chinese_translations": ["预约", "安排会面"],
+"example_sentences": "If a visitor wants to meet an executive, he should make an appointment in advance."
+},
+{
+"word": ["in the middle of"],
+"english_synonyms": ["during", "in the midst of", "while doing"],
+"english_explanations": ["Busy doing something; at a point between the beginning and end of an activity."],
+"chinese_translations": ["在...中间", "正在做...的时候"],
+"example_sentences": "He may arrive while the executive is in the middle of an important discussion."
+},
+{
+"word": ["by name"],
+"english_synonyms": ["using one's name", "personally"],
+"english_explanations": ["Using someone's actual name rather than a general title or pronoun."],
+"chinese_translations": ["直呼其名", "点名"],
+"example_sentences": "The receptionist should address him or her by name to give a friendly impression."
+},
+{
+"word": ["in touch with"],
+"english_synonyms": ["in contact with", "communicating with"],
+"english_explanations": ["Communicating or having contact with someone."],
+"chinese_translations": ["与...联系", "和...保持联系"],
+"example_sentences": "She should ask if the visitor would like to get in touch with the executive later."
+},
+{
+"word": ["out of the question"],
+"english_synonyms": ["impossible", "unacceptable", "not possible", "not an option"],
+"english_explanations": ["Completely impossible and therefore not worth discussing; not allowed."],
+"chinese_translations": ["不可能", "毫无可能"],
+"example_sentences": "Meeting with the executive without an appointment is out of the question."
+},
+{
+"word": ["make suggestions"],
+"english_synonyms": ["propose ideas", "recommend", "advise", "offer advice"],
+"english_explanations": ["To put forward ideas or plans for other people to consider."],
+"chinese_translations": ["提出建议", "给出建议"],
+"example_sentences": "The most difficult part of a receptionist's job is to apologise, explain, and make suggestions."
+},
+{
+"word": ["executive"],
+"english_synonyms": ["manager", "director", "administrator", "senior manager"],
+"english_explanations": ["A person with a high-ranking position in a company, responsible for making important decisions."],
+"chinese_translations": ["高管", "行政人员", "主管"],
+"example_sentences": "If a visitor wants to meet an executive in a large company, he should make an appointment."
+},
+{
+"word": ["receptionist"],
+"english_synonyms": ["front desk officer", "greeter", "front desk clerk"],
+"english_explanations": ["A person employed in an office or other establishment to receive clients, visitors, or patients."],
+"chinese_translations": ["接待员", "前台"],
+"example_sentences": "The receptionist should contact the executive's office immediately when a client arrives."
+},
+{
+"word": ["client"],
+"english_synonyms": ["customer", "patron", "buyer", "prospect"],
+"english_explanations": ["A person or organization that uses the services or advice of a professional person or company."],
+"chinese_translations": ["客户", "委托人"],
+"example_sentences": "When an important client arrives, the receptionist should address him by name."
+},
+{
+"word": ["available"],
+"english_synonyms": ["free", "accessible", "on hand", "ready"],
+"english_explanations": ["Able to be used or obtained; not occupied or busy; free to do something."],
+"chinese_translations": ["有空的", "可用的", "有时间的"],
+"example_sentences": "If he isn't available, she should ask the visitor to make an appointment."
+},
+{
+"word": ["immediately"],
+"english_synonyms": ["at once", "right away", "instantly", "promptly"],
+"english_explanations": ["Without delay; at once; right away."],
+"chinese_translations": ["立即", "马上"],
+"example_sentences": "After the visitor arrives, the receptionist should contact the executive's office immediately."
+},
+{
+"word": ["occupy"],
+"english_synonyms": ["engage", "busy", "absorb", "employ"],
+"english_explanations": ["To fill or use a space, time, or area; to keep someone busy."],
+"chinese_translations": ["占据", "占用", "使忙碌"],
+"example_sentences": "Mr. Hansen is occupied right now because he is on a long-distance call."
+},
+{
+"word": ["occupied"],
+"english_synonyms": ["busy", "engaged", "unavailable", "tied up"],
+"english_explanations": ["Being used by someone; busy and not free to do something else."],
+"chinese_translations": ["忙碌的", "占用的", "没空的"],
+"example_sentences": "Mr. Hansen is occupied right now."
+},
+{
+"word": ["plain"],
+"english_synonyms": ["black", "without milk or sugar", "simple", "unflavoured"],
+"english_explanations": ["(Of coffee or tea) without milk, cream, or sugar; simple and not decorated."],
+"chinese_translations": ["（咖啡）不加奶油和糖的", "纯的"],
+"example_sentences": "The visitor asks for a plain coffee."
+},
+{
+"word": ["send sb. up"],
+"english_synonyms": ["escort upstairs", "show upstairs", "take upstairs"],
+"english_explanations": ["To ask or direct someone to go to a higher floor, especially in an office building."],
+"chinese_translations": ["请...上楼", "送...上楼"],
+"example_sentences": "The receptionist sends the visitor up to see Mr. Hansen."
+},
+{
+"word": ["long-distance call"],
+"english_synonyms": ["long-distance telephone call", "trunk call"],
+"english_explanations": ["A telephone call made to a place that is far away, usually costing more than a local call."],
+"chinese_translations": ["长途电话"],
+"example_sentences": "Mr. Hansen is occupied because he is on a long-distance call."
+},
+{
+"word": ["appointment"],
+"english_synonyms": ["meeting", "engagement", "arrangement", "interview"],
+"english_explanations": ["An arrangement to meet someone at a particular time and place, especially for business."],
+"chinese_translations": ["预约", "约会", "会面"],
+"example_sentences": "Mr. Dantini comes for his appointment with Mr. Hansen."
+},
+{
+"word": ["visitor"],
+"english_synonyms": ["guest", "caller", "tourist", "traveller"],
+"english_explanations": ["A person who visits a place or person; someone who comes to see someone in an office."],
+"chinese_translations": ["访客", "参观者", "访问者"],
+"example_sentences": "The receptionist offers the visitor a coffee to drink."
+},
+{
+"word": ["effort"],
+"english_synonyms": ["attempt", "endeavour", "exertion", "struggle"],
+"english_explanations": ["A vigorous or determined attempt to do something; physical or mental energy needed to do something."],
+"chinese_translations": ["努力", "尝试"],
+"example_sentences": "Thank you for making the effort to be here with us today."
+},
+{
+"word": ["act as"],
+"english_synonyms": ["serve as", "function as", "work as", "play the role of"],
+"english_explanations": ["To perform the role or function of someone or something else."],
+"chinese_translations": ["充当", "担任", "起...作用"],
+"example_sentences": "This talk will hopefully act as a springboard for discussion."
+},
+{
+"word": ["go along"],
+"english_synonyms": ["proceed", "continue", "move along", "progress"],
+"english_explanations": ["To proceed or continue with an activity; to make progress."],
+"chinese_translations": ["进行", "继续"],
+"example_sentences": "Just interrupt me as I go along if you have any questions."
+}
+]
