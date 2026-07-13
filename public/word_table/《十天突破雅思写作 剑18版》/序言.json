@@ -1,0 +1,786 @@
+[
+  {
+    "word": ["academic"],
+    "english_synonyms": ["scholarly", "educational", "intellectual"],
+    "english_explanations": ["Relating to education and scholarship, especially at the college or university level."],
+    "chinese_translations": ["学术的"],
+    "example_sentences": "Develop academic writing skills."
+  },
+  {
+    "word": ["accompanying"],
+    "english_synonyms": ["associated", "related", "attached"],
+    "english_explanations": ["Provided or occurring at the same time as something else."],
+    "chinese_translations": ["伴随的", "附带的"],
+    "example_sentences": "Furnishing my readers with accompanying audio support to help them to memorise particular selections of the visual text."
+  },
+  {
+    "word": ["accurate"],
+    "english_synonyms": ["precise", "correct", "exact"],
+    "english_explanations": ["Free from errors; conforming exactly to truth or to a standard."],
+    "chinese_translations": ["准确的", "精确的"],
+    "example_sentences": "Grammar is flexible and accurate, with a wide range of structures included."
+  },
+  {
+    "word": ["addressed"],
+    "english_synonyms": ["dealt with", "handled", "tackled"],
+    "english_explanations": ["Thought about and begun to deal with a problem or issue."],
+    "chinese_translations": ["处理的", "论述的"],
+    "example_sentences": "Both sides of the question are addressed in well-developed paragraphs."
+  },
+  {
+    "word": ["appropriately"],
+    "english_synonyms": ["suitably", "properly", "fittingly"],
+    "english_explanations": ["In a way that is suitable or proper in the circumstances."],
+    "chinese_translations": ["适当地", "恰当地"],
+    "example_sentences": "Cohesive devices are used appropriately."
+  },
+  {
+    "word": ["apply"],
+    "english_synonyms": ["relate", "pertain", "be relevant"],
+    "english_explanations": ["To be relevant or applicable to a particular situation."],
+    "chinese_translations": ["适用", "应用"],
+    "example_sentences": "The Chaos Theory does not apply here."
+  },
+  {
+    "word": ["appreciation"],
+    "english_synonyms": ["gratitude", "thankfulness", "recognition"],
+    "english_explanations": ["Recognition and enjoyment of the good qualities of someone or something; gratitude."],
+    "chinese_translations": ["感激", "欣赏"],
+    "example_sentences": "A special note of appreciation to Amanda, for the loving support."
+  },
+  {
+    "word": ["arguments"],
+    "english_synonyms": ["reasoning", "claims", "assertions"],
+    "english_explanations": ["A reason or set of reasons given with the aim of persuading others that an action or idea is right or wrong."],
+    "chinese_translations": ["论点", "论据"],
+    "example_sentences": "Helping my readers to generate enough ideas that will allow them to write convincing arguments within the time limits of the test."
+  },
+  {
+    "word": ["assessment"],
+    "english_synonyms": ["evaluation", "appraisal", "judgment"],
+    "english_explanations": ["The evaluation or estimation of the nature, quality, or ability of someone or something."],
+    "chinese_translations": ["评估", "测评"],
+    "example_sentences": "Cambridge English Language Assessment."
+  },
+  {
+    "word": ["baffling"],
+    "english_synonyms": ["puzzling", "confusing", "perplexing"],
+    "english_explanations": ["Impossible to understand; perplexing."],
+    "chinese_translations": ["令人困惑的", "难懂的"],
+    "example_sentences": "The baffling grammatical quagmire."
+  },
+  {
+    "word": ["bewildering"],
+    "english_synonyms": ["confusing", "baffling", "disorienting"],
+    "english_explanations": ["Causing someone to become completely perplexed or confused."],
+    "chinese_translations": ["令人困惑的", "使人不知所措的"],
+    "example_sentences": "Deconstructing bewildering grammatical points for my readers in a practical fashion."
+  },
+  {
+    "word": ["bizarrely"],
+    "english_synonyms": ["strangely", "oddly", "weirdly"],
+    "english_explanations": ["In a very strange or unusual manner."],
+    "chinese_translations": ["古怪地", "奇特地"],
+    "example_sentences": "The bizarrely contorted sentences."
+  },
+  {
+    "word": ["break through"],
+    "english_synonyms": ["penetrate", "surpass", "overcome"],
+    "english_explanations": ["To make a way through a barrier or obstacle; to achieve success after a difficult period."],
+    "chinese_translations": ["突破", "冲破"],
+    "example_sentences": "The innumerable passages which could, purportedly, help them break through to a higher score."
+  },
+  {
+    "word": ["chaos"],
+    "english_synonyms": ["disorder", "confusion", "turmoil"],
+    "english_explanations": ["Complete disorder and confusion."],
+    "chinese_translations": ["混乱", "混沌"],
+    "example_sentences": "The Chaos Theory does not apply here."
+  },
+  {
+    "word": ["clarity"],
+    "english_synonyms": ["clearness", "lucidity", "transparency"],
+    "english_explanations": ["The quality of being coherent and intelligible; clearness of thought or expression."],
+    "chinese_translations": ["清晰", "明了"],
+    "example_sentences": "Clarity counts."
+  },
+  {
+    "word": ["coherence"],
+    "english_synonyms": ["consistency", "logicality", "unity"],
+    "english_explanations": ["The quality of being logical, consistent, and able to be followed easily."],
+    "chinese_translations": ["连贯性", "一致性"],
+    "example_sentences": "Essay Structure, Coherence & Cohesion."
+  },
+  {
+    "word": ["cohesion"],
+    "english_synonyms": ["unity", "togetherness", "solidarity"],
+    "english_explanations": ["The action or fact of forming a united whole; the grammatical and lexical linking within a text."],
+    "chinese_translations": ["衔接", "凝聚"],
+    "example_sentences": "Essay Structure, Coherence & Cohesion."
+  },
+  {
+    "word": ["cohesive"],
+    "english_synonyms": ["unified", "connected", "integrated"],
+    "english_explanations": ["Characterized by or causing cohesion; forming a united and effective whole."],
+    "chinese_translations": ["衔接的", "凝聚的"],
+    "example_sentences": "Cohesive devices are used appropriately."
+  },
+  {
+    "word": ["comes into play"],
+    "english_synonyms": ["becomes active", "takes effect", "becomes relevant"],
+    "english_explanations": ["To start to have an effect or influence in a particular situation."],
+    "chinese_translations": ["发挥作用", "产生影响"],
+    "example_sentences": "When linear thinking comes into play."
+  },
+  {
+    "word": ["committed"],
+    "english_synonyms": ["dedicated", "devoted", "pledged"],
+    "english_explanations": ["Having pledged oneself to a particular course of action or cause."],
+    "chinese_translations": ["投入的", "致力于"],
+    "example_sentences": "Legions of secondary school and university students have committed themselves to taking the IELTS test."
+  },
+  {
+    "word": ["concise"],
+    "english_synonyms": ["succinct", "brief", "compact"],
+    "english_explanations": ["Giving a lot of information clearly and in a few words; brief but comprehensive."],
+    "chinese_translations": ["简洁的", "简明的"],
+    "example_sentences": "Distilling the common English writing lexicon into a concise list of words and phrases."
+  },
+  {
+    "word": ["conjunctions"],
+    "english_synonyms": ["connectives", "joining words", "linking words"],
+    "english_explanations": ["Words used to connect clauses or sentences or to coordinate words in the same clause."],
+    "chinese_translations": ["连词", "连接词"],
+    "example_sentences": "Essential conjunctions, common transitional phrases and key sentence structures."
+  },
+  {
+    "word": ["contorted"],
+    "english_synonyms": ["twisted", "distorted", "warped"],
+    "english_explanations": ["Twisted or bent out of its normal shape; forced into an unnatural form."],
+    "chinese_translations": ["扭曲的", "变形的"],
+    "example_sentences": "The bizarrely contorted sentences."
+  },
+  {
+    "word": ["convincing"],
+    "english_synonyms": ["persuasive", "compelling", "cogent"],
+    "english_explanations": ["Able to persuade someone to believe that something is true or to act."],
+    "chinese_translations": ["有说服力的", "令人信服的"],
+    "example_sentences": "Helping my readers to generate enough ideas that will allow them to write convincing arguments within the time limits of the test."
+  },
+  {
+    "word": ["counts"],
+    "english_synonyms": ["matters", "is important", "is significant"],
+    "english_explanations": ["To be of importance or significance; to have value."],
+    "chinese_translations": ["重要", "有价值"],
+    "example_sentences": "What counts in IELTS Writing counts here."
+  },
+  {
+    "word": ["criteria"],
+    "english_synonyms": ["standards", "principles", "measures"],
+    "english_explanations": ["A principle or standard by which something may be judged or decided."],
+    "chinese_translations": ["标准", "准则"],
+    "example_sentences": "I set the following nine criteria to assist me in developing the contents of this book."
+  },
+  {
+    "word": ["daunted"],
+    "english_synonyms": ["intimidated", "discouraged", "dismayed"],
+    "english_explanations": ["Made to feel apprehensive or intimidated; overwhelmed by a task or challenge."],
+    "chinese_translations": ["胆怯的", "畏缩的"],
+    "example_sentences": "Many of them feel daunted and disoriented by the sheer volume of information they are supplied."
+  },
+  {
+    "word": ["deconstructing"],
+    "english_synonyms": ["analyzing", "breaking down", "dissecting"],
+    "english_explanations": ["Analyzing something by reducing it to its constituent parts; breaking down complex ideas."],
+    "chinese_translations": ["解构", "剖析"],
+    "example_sentences": "Deconstructing bewildering grammatical points for my readers in a practical fashion."
+  },
+  {
+    "word": ["dedicated"],
+    "english_synonyms": ["committed", "devoted", "faithful"],
+    "english_explanations": ["Devoted to a task or purpose; having single-minded loyalty or integrity."],
+    "chinese_translations": ["专注的", "献身的"],
+    "example_sentences": "This book is fully dedicated to my intelligent, responsive and self-motivated Chinese students."
+  },
+  {
+    "word": ["diagram"],
+    "english_synonyms": ["chart", "graph", "drawing"],
+    "english_explanations": ["A simplified drawing showing the appearance, structure, or workings of something."],
+    "chinese_translations": ["图表", "示意图"],
+    "example_sentences": "When linear thinking comes into play... particularly process diagram."
+  },
+  {
+    "word": ["diction"],
+    "english_synonyms": ["word choice", "phrasing", "expression"],
+    "english_explanations": ["The choice and use of words and phrases in speech or writing."],
+    "chinese_translations": ["措辞", "用词"],
+    "example_sentences": "Training my readers in proper diction (word choice and usage)."
+  },
+  {
+    "word": ["discouraging"],
+    "english_synonyms": ["deterring", "dissuading", "disheartening"],
+    "english_explanations": ["Having the effect of depriving someone of confidence or enthusiasm."],
+    "chinese_translations": ["阻止的", "令人气馁的"],
+    "example_sentences": "Providing my readers with various sample essays for study while discouraging rote memorisation or mere reproduction of the essays."
+  },
+  {
+    "word": ["disoriented"],
+    "english_synonyms": ["confused", "bewildered", "lost"],
+    "english_explanations": ["Confused and unable to determine one's position or direction; lacking a sense of orientation."],
+    "chinese_translations": ["迷失方向的", "困惑的"],
+    "example_sentences": "Many of them feel daunted and disoriented by the sheer volume of information they are supplied."
+  },
+  {
+    "word": ["distilling"],
+    "english_synonyms": ["extracting", "condensing", "refining"],
+    "english_explanations": ["Extracting the essential meaning or most important aspects of something; purifying by heating and cooling."],
+    "chinese_translations": ["提炼", "萃取"],
+    "example_sentences": "Distilling the common English writing lexicon into a concise list of words and phrases."
+  },
+  {
+    "word": ["drafts"],
+    "english_synonyms": ["preliminary versions", "outlines", "sketches"],
+    "english_explanations": ["Preliminary versions of a piece of writing; an early version not yet finalized."],
+    "chinese_translations": ["草稿", "草案"],
+    "example_sentences": "The Chinese text I wrote in the first and second drafts."
+  },
+  {
+    "word": ["effective"],
+    "english_synonyms": ["efficient", "successful", "productive"],
+    "english_explanations": ["Successful in producing a desired or intended result; having the power to produce an effect."],
+    "chinese_translations": ["有效的"],
+    "example_sentences": "It pays to pinpoint effective structures."
+  },
+  {
+    "word": ["era"],
+    "english_synonyms": ["age", "period", "epoch"],
+    "english_explanations": ["A long and distinct period of history with a particular feature or characteristic."],
+    "chinese_translations": ["时代", "年代"],
+    "example_sentences": "The Ten-Day Guide in the Cambridge IELTS-18 Era."
+  },
+  {
+    "word": ["essential"],
+    "english_synonyms": ["crucial", "necessary", "vital"],
+    "english_explanations": ["Absolutely necessary; extremely important; fundamental to the nature of something."],
+    "chinese_translations": ["必要的", "本质的"],
+    "example_sentences": "Essential Words & Phrases; essential conjunctions."
+  },
+  {
+    "word": ["examiners"],
+    "english_synonyms": ["assessors", "evaluators", "judges"],
+    "english_explanations": ["A person who tests and judges the quality of students' or candidates' performance."],
+    "chinese_translations": ["考官", "评审员"],
+    "example_sentences": "Examiners' comments; the real writing examiners' marking process."
+  },
+  {
+    "word": ["fashion"],
+    "english_synonyms": ["manner", "way", "mode"],
+    "english_explanations": ["A manner of doing something; a way in which something is done or presented."],
+    "chinese_translations": ["方式", "方法"],
+    "example_sentences": "Deconstructing bewildering grammatical points for my readers in a practical fashion."
+  },
+  {
+    "word": ["flexible"],
+    "english_synonyms": ["adaptable", "pliable", "elastic"],
+    "english_explanations": ["Able to make changes or deal with a range of different situations; capable of bending easily without breaking."],
+    "chinese_translations": ["灵活的", "柔韧的"],
+    "example_sentences": "Grammar is flexible and accurate."
+  },
+  {
+    "word": ["focused"],
+    "english_synonyms": ["concentrated", "targeted", "purposeful"],
+    "english_explanations": ["Directing one's attention or effort to a single point or task; having a clear aim."],
+    "chinese_translations": ["专注的", "有焦点的"],
+    "example_sentences": "Training my readers to build a tight-knit and focused essay structure."
+  },
+  {
+    "word": ["furnishing"],
+    "english_synonyms": ["providing", "supplying", "equipping"],
+    "english_explanations": ["Providing or supplying something that is needed or wanted."],
+    "chinese_translations": ["提供", "供给"],
+    "example_sentences": "Furnishing my readers with accompanying audio support to help them to memorise particular selections of the visual text."
+  },
+  {
+    "word": ["generate"],
+    "english_synonyms": ["produce", "create", "formulate"],
+    "english_explanations": ["To produce or create something; to bring into existence; to produce energy or ideas."],
+    "chinese_translations": ["产生", "生成"],
+    "example_sentences": "Helping my readers to generate enough ideas that will allow them to write convincing arguments."
+  },
+  {
+    "word": ["grammatical"],
+    "english_synonyms": ["syntactic", "linguistic", "structural"],
+    "english_explanations": ["Relating to grammar or the rules of a language; conforming to the rules of grammar."],
+    "chinese_translations": ["语法的", "符合语法的"],
+    "example_sentences": "The baffling grammatical quagmire; grammatical points; Grammatical Range and Accuracy."
+  },
+  {
+    "word": ["handy"],
+    "english_synonyms": ["useful", "convenient", "practical"],
+    "english_explanations": ["Convenient to handle or use; useful and practical; readily accessible."],
+    "chinese_translations": ["方便的", "实用的"],
+    "example_sentences": "Providing a handy toolkit of linking devices."
+  },
+  {
+    "word": ["hints"],
+    "english_synonyms": ["clues", "suggestions", "tips"],
+    "english_explanations": ["Small pieces of practical information or advice; indirect suggestions about what to do."],
+    "chinese_translations": ["提示", "建议"],
+    "example_sentences": "Giving me hints about how to make this book more meaningful in a Chinese context."
+  },
+  {
+    "word": ["identifying"],
+    "english_synonyms": ["recognizing", "distinguishing", "detecting"],
+    "english_explanations": ["Establishing or indicating who or what someone or something is; recognizing a problem or need."],
+    "chinese_translations": ["识别", "确认"],
+    "example_sentences": "Identifying common mechanical mistakes made by IELTS candidates."
+  },
+  {
+    "word": ["imperial"],
+    "english_synonyms": ["royal", "majestic", "sovereign"],
+    "english_explanations": ["Relating to an empire or emperor; majestic or magnificent in size or quality."],
+    "chinese_translations": ["帝国的", "皇家的"],
+    "example_sentences": "Imperial College."
+  },
+  {
+    "word": ["innumerable"],
+    "english_synonyms": ["countless", "numerous", "myriad"],
+    "english_explanations": ["Too many to be counted; extremely numerous; countless."],
+    "chinese_translations": ["无数的", "数不清的"],
+    "example_sentences": "The innumerable passages which could, purportedly, help them break through to a higher score."
+  },
+  {
+    "word": ["instilling"],
+    "english_synonyms": ["inculcating", "implanting", "infusing"],
+    "english_explanations": ["Gradually but firmly establishing an idea or attitude in a person's mind; putting in drop by drop."],
+    "chinese_translations": ["灌输", "逐步培养"],
+    "example_sentences": "Instilling a good sentence sense and providing a handy toolkit of linking devices."
+  },
+  {
+    "word": ["instructor"],
+    "english_synonyms": ["teacher", "tutor", "coach"],
+    "english_explanations": ["A person who teaches something; a teacher of a practical skill or sport."],
+    "chinese_translations": ["讲师", "教员"],
+    "example_sentences": "Getting a brief respite from my whirlwind life as an IELTS instructor."
+  },
+  {
+    "word": ["intelligent"],
+    "english_synonyms": ["clever", "bright", "smart"],
+    "english_explanations": ["Having or showing intelligence, especially of a high level; able to learn and understand things easily."],
+    "chinese_translations": ["聪明的", "有智慧的"],
+    "example_sentences": "This book is fully dedicated to my intelligent, responsive and self-motivated Chinese students."
+  },
+  {
+    "word": ["tight-knit"],
+    "english_synonyms": ["closely integrated", "cohesive", "united"],
+    "english_explanations": ["Bound together by strong relationships and common interests; closely connected or organized."],
+    "chinese_translations": ["紧密团结的", "紧密的"],
+    "example_sentences": "Training my readers to build a tight-knit and focused essay structure."
+  },
+  {
+    "word": ["legions"],
+    "english_synonyms": ["multitudes", "hordes", "throngs"],
+    "english_explanations": ["Great numbers of people or things; a vast host or multitude."],
+    "chinese_translations": ["大量", "众多"],
+    "example_sentences": "Legions of secondary school and university students have committed themselves to taking the IELTS test."
+  },
+  {
+    "word": ["lexicon"],
+    "english_synonyms": ["vocabulary", "wordbook", "dictionary"],
+    "english_explanations": ["The vocabulary of a person, language, or branch of knowledge; a dictionary or word list."],
+    "chinese_translations": ["词汇", "词典"],
+    "example_sentences": "Distilling the common English writing lexicon into a concise list of words and phrases."
+  },
+  {
+    "word": ["limits"],
+    "english_synonyms": ["bounds", "restrictions", "boundaries"],
+    "english_explanations": ["A point or level beyond which something does not or may not extend or pass; time or space restrictions."],
+    "chinese_translations": ["限制", "界限"],
+    "example_sentences": "Write convincing arguments within the time limits of the test."
+  },
+  {
+    "word": ["linear"],
+    "english_synonyms": ["sequential", "straight", "direct"],
+    "english_explanations": ["Arranged in or extending along a straight or nearly straight line; proceeding from one stage to the next in a single series of steps."],
+    "chinese_translations": ["线性的", "直线的"],
+    "example_sentences": "When linear thinking comes into play."
+  },
+  {
+    "word": ["linking"],
+    "english_synonyms": ["connecting", "joining", "associating"],
+    "english_explanations": ["Making, forming, or suggesting a connection between things; connecting words or ideas."],
+    "chinese_translations": ["连接的", "衔接的"],
+    "example_sentences": "Providing a handy toolkit of linking devices."
+  },
+  {
+    "word": ["materials"],
+    "english_synonyms": ["resources", "supplies", "content"],
+    "english_explanations": ["The things from which something is or can be made; information or documents providing information for study or writing."],
+    "chinese_translations": ["材料", "资料"],
+    "example_sentences": "This book goes beyond what readers generally find in other IELTS writing section preparation materials."
+  },
+  {
+    "word": ["maximum"],
+    "english_synonyms": ["greatest", "highest", "utmost"],
+    "english_explanations": ["As great, high, or intense as possible; the greatest or highest amount attainable."],
+    "chinese_translations": ["最大的", "最高的"],
+    "example_sentences": "To ensure that you gain maximum benefits."
+  },
+  {
+    "word": ["meaningful"],
+    "english_synonyms": ["significant", "important", "purposeful"],
+    "english_explanations": ["Having a serious, important, or useful quality or purpose; full of meaning or significance."],
+    "chinese_translations": ["有意义的"],
+    "example_sentences": "Giving me hints about how to make this book more meaningful in a Chinese context."
+  },
+  {
+    "word": ["mechanical"],
+    "english_synonyms": ["automatic", "rote", "unthinking"],
+    "english_explanations": ["Done without thought or spontaneity; relating to machines or machinery; relating to habitual physical movement."],
+    "chinese_translations": ["机械的", "呆板的"],
+    "example_sentences": "Identifying common mechanical mistakes made by IELTS candidates."
+  },
+  {
+    "word": ["memorisation"],
+    "english_synonyms": ["learning by heart", "committing to memory", "rote learning"],
+    "english_explanations": ["The process of committing something to memory; learning something so that it can be recalled exactly."],
+    "chinese_translations": ["记忆", "背诵"],
+    "example_sentences": "Discouraging rote memorisation or mere reproduction of the essays."
+  },
+  {
+    "word": ["mere"],
+    "english_synonyms": ["simple", "nothing more than", "bare"],
+    "english_explanations": ["Used to emphasize how small or insignificant someone or something is; nothing more than what is specified."],
+    "chinese_translations": ["仅仅的", "纯粹的"],
+    "example_sentences": "Discouraging rote memorisation or mere reproduction of the essays."
+  },
+  {
+    "word": ["mindset"],
+    "english_synonyms": ["attitude", "outlook", "mentality"],
+    "english_explanations": ["The established set of attitudes held by someone; a fixed mental attitude or disposition."],
+    "chinese_translations": ["思维模式", "心态"],
+    "example_sentences": "It focuses on the skills, techniques and mindset needed to do well in the writing section of the test."
+  },
+  {
+    "word": ["module"],
+    "english_synonyms": ["unit", "component", "section"],
+    "english_explanations": ["A self-contained unit or section of a larger system, course, or program; each of a set of standardized parts."],
+    "chinese_translations": ["模块", "单元"],
+    "example_sentences": "Preparing for the writing module of the test; the IELTS writing module."
+  },
+  {
+    "word": ["native"],
+    "english_synonyms": ["indigenous", "local", "natural"],
+    "english_explanations": ["A person born in a specified place or associated with a place by birth; belonging to a particular place by birth."],
+    "chinese_translations": ["本地的", "母语的"],
+    "example_sentences": "Write supporting sentences like native speakers."
+  },
+  {
+    "word": ["paragraphs"],
+    "english_synonyms": ["sections", "passages", "units"],
+    "english_explanations": ["A distinct section of a piece of writing, usually dealing with a single theme and indicated by a new line."],
+    "chinese_translations": ["段落"],
+    "example_sentences": "Both sides of the question are addressed in well-developed paragraphs."
+  },
+  {
+    "word": ["passages"],
+    "english_synonyms": ["extracts", "sections", "texts"],
+    "english_explanations": ["Short sections of text or music; the process of moving through or past something."],
+    "chinese_translations": ["文章节选", "段落"],
+    "example_sentences": "The innumerable passages which could, purportedly, help them break through to a higher score."
+  },
+  {
+    "word": ["pays"],
+    "english_synonyms": ["is worthwhile", "is profitable", "is beneficial"],
+    "english_explanations": ["To be worthwhile or advantageous; to yield a return or reward."],
+    "chinese_translations": ["值得", "有好处"],
+    "example_sentences": "It pays to pinpoint effective structures."
+  },
+  {
+    "word": ["pinpoint"],
+    "english_synonyms": ["identify precisely", "locate exactly", "determine"],
+    "english_explanations": ["To find or identify exactly; to locate or show the exact position of something with great precision."],
+    "chinese_translations": ["精确定位", "准确指出"],
+    "example_sentences": "It pays to pinpoint effective structures."
+  },
+  {
+    "word": ["presenting"],
+    "english_synonyms": ["introducing", "offering", "displaying"],
+    "english_explanations": ["Showing, offering, or making something available; introducing or bringing before the public."],
+    "chinese_translations": ["呈现", "展示"],
+    "example_sentences": "Presenting a high level of utility to candidates of other English writing tests."
+  },
+  {
+    "word": ["principles"],
+    "english_synonyms": ["fundamentals", "tenets", "rules"],
+    "english_explanations": ["A fundamental truth or proposition that serves as the foundation for a system of belief or behavior; a rule or code of conduct."],
+    "chinese_translations": ["原则", "准则"],
+    "example_sentences": "How Imperial College explains academic writing principles to students."
+  },
+  {
+    "word": ["proper"],
+    "english_synonyms": ["correct", "appropriate", "suitable"],
+    "english_explanations": ["Truly what something is said to be; appropriate to the purpose or circumstances; following established standards."],
+    "chinese_translations": ["恰当的", "正确的"],
+    "example_sentences": "Training my readers in proper diction (word choice and usage)."
+  },
+  {
+    "word": ["publications"],
+    "english_synonyms": ["works", "writings", "books"],
+    "english_explanations": ["Books, journals, or other printed or digital works that have been published and made available to the public."],
+    "chinese_translations": ["出版物", "著作"],
+    "example_sentences": "I had a chance to reflect on my teaching experience and to consider how my own publications could best help IELTS candidates to succeed."
+  },
+  {
+    "word": ["purportedly"],
+    "english_synonyms": ["allegedly", "ostensibly", "reportedly"],
+    "english_explanations": "As appears or is stated to be the case, though not necessarily so; supposedly or allegedly.",
+    "chinese_translations": ["据称", "据说"],
+    "example_sentences": "The innumerable passages which could, purportedly, help them break through to a higher score."
+  },
+  {
+    "word": ["quagmire"],
+    "english_synonyms": ["swamp", "morass", "muddle"],
+    "english_explanations": ["An awkward, complex, or hazardous situation; a soft boggy area of land that gives way underfoot."],
+    "chinese_translations": ["困境", "泥潭"],
+    "example_sentences": "The baffling grammatical quagmire."
+  },
+  {
+    "word": ["range"],
+    "english_synonyms": ["scope", "variety", "spectrum"],
+    "english_explanations": ["The area of variation between upper and lower limits on a particular scale; a set of different things of the same general type."],
+    "chinese_translations": ["范围", "幅度", "一系列"],
+    "example_sentences": "There is a good range of vocabulary; a wide range of structures."
+  },
+  {
+    "word": ["reflect"],
+    "english_synonyms": ["ponder", "consider", "think over"],
+    "english_explanations": ["To think carefully or deeply about something; to throw back light, heat, or sound without absorbing it."],
+    "chinese_translations": ["反思", "反射"],
+    "example_sentences": "I had a chance to reflect on my teaching experience."
+  },
+  {
+    "word": ["reproduction"],
+    "english_synonyms": ["copying", "duplication", "replication"],
+    "english_explanations": ["The action of copying something; the production of offspring by sexual or asexual processes."],
+    "chinese_translations": ["复制", "重现"],
+    "example_sentences": "Discouraging rote memorisation or mere reproduction of the essays."
+  },
+  {
+    "word": ["resource"],
+    "english_synonyms": ["asset", "supply", "reserve"],
+    "english_explanations": ["A stock or supply of money, materials, staff, and other assets that can be drawn on by a person or organization."],
+    "chinese_translations": ["资源"],
+    "example_sentences": "Lexical Resource."
+  },
+  {
+    "word": ["responsive"],
+    "english_synonyms": ["receptive", "alert", "sensitive"],
+    "english_explanations": ["Reacting quickly and positively; readily reacting to suggestions, influences, or efforts."],
+    "chinese_translations": ["反应灵敏的", "积极响应的"],
+    "example_sentences": "This book is fully dedicated to my intelligent, responsive and self-motivated Chinese students."
+  },
+  {
+    "word": ["respite"],
+    "english_synonyms": ["rest", "relief", "break"],
+    "english_explanations": ["A short period of rest or relief from something difficult or unpleasant; a temporary delay or cessation."],
+    "chinese_translations": ["喘息", "暂时的休息"],
+    "example_sentences": "Getting a brief respite from my whirlwind life as an IELTS instructor."
+  },
+  {
+    "word": ["rote"],
+    "english_synonyms": ["repetition", "memorization", "mechanical learning"],
+    "english_explanations": ["Mechanical or habitual repetition of something to be learned; learning by repetition without understanding."],
+    "chinese_translations": ["死记硬背"],
+    "example_sentences": "Discouraging rote memorisation or mere reproduction of the essays."
+  },
+  {
+    "word": ["sample"],
+    "english_synonyms": ["specimen", "example", "model"],
+    "english_explanations": ["A small part or quantity intended to show what the whole is like; an example taken from a larger body."],
+    "chinese_translations": ["样本", "范例"],
+    "example_sentences": "Providing my readers with various sample essays for study; Sample answers."
+  },
+  {
+    "word": ["secondary"],
+    "english_synonyms": ["subordinate", "lesser", "minor"],
+    "english_explanations": ["Coming after, less important than, or resulting from someone or something else that is primary; relating to education for children approximately 11-18 years old."],
+    "chinese_translations": ["次要的", "中学的"],
+    "example_sentences": "Legions of secondary school and university students have committed themselves to taking the IELTS test."
+  },
+  {
+    "word": ["selections"],
+    "english_synonyms": ["choices", "picks", "excerpts"],
+    "english_explanations": "The action or fact of carefully choosing someone or something as being the best or most suitable; a selected passage from a piece of writing.",
+    "chinese_translations": ["选择", "选段"],
+    "example_sentences": "Furnishing my readers with accompanying audio support to help them to memorise particular selections of the visual text."
+  },
+  {
+    "word": ["self-motivated"],
+    "english_synonyms": ["driven", "ambitious", "proactive"],
+    "english_explanations": ["Motivated to do or achieve something because of one's own enthusiasm or interest, without external pressure."],
+    "chinese_translations": ["自我激励的", "积极主动的"],
+    "example_sentences": "This book is fully dedicated to my intelligent, responsive and self-motivated Chinese students."
+  },
+  {
+    "word": ["sense"],
+    "english_synonyms": ["feeling", "awareness", "perception"],
+    "english_explanations": "A faculty by which the body perceives an external stimulus; a keen intuitive awareness of or sensitivity to something.",
+    "chinese_translations": ["感觉", "意识"],
+    "example_sentences": "Instilling a good sentence sense."
+  },
+  {
+    "word": ["sheer"],
+    "english_synonyms": ["utter", "absolute", "complete"],
+    "english_explanations": ["Nothing other than; unmixed with anything else; complete and without restriction; very steep or perpendicular."],
+    "chinese_translations": ["纯粹的", "十足的", "完全的"],
+    "example_sentences": "Many of them feel daunted and disoriented by the sheer volume of information they are supplied."
+  },
+  {
+  "word": ["speakers"],
+  "english_synonyms": ["orators", "talkers", "presenters"],
+  "english_explanations": "A person who speaks; a person who speaks a particular language.",
+  "chinese_translations": ["说话者", "演讲者"],
+  "example_sentences": "Write supporting sentences like native speakers."
+  },
+  {
+  "word": ["structures"],
+  "english_synonyms": ["frameworks", "organizations", "constructions"],
+  "english_explanations": "The arrangement of and relations between the parts or elements of something complex; a building or other object constructed from several parts.",
+  "chinese_translations": ["结构", "构造"],
+  "example_sentences": "A wide range of structures included; pinpoint effective structures; key sentence structures."
+  },
+  {
+  "word": ["succeed"],
+  "english_synonyms": ["achieve", "prosper", "triumph"],
+  "english_explanations": "To achieve the desired aim or result; to prosper or flourish in a particular field or activity.",
+  "chinese_translations": ["成功"],
+  "example_sentences": "Help IELTS candidates to succeed."
+  },
+  {
+  "word": ["supplied"],
+  "english_synonyms": ["provided", "furnished", "given"],
+  "english_explanations": "Make something needed or wanted available to someone; provide with something required.",
+  "chinese_translations": ["提供", "供给"],
+  "example_sentences": "Many of them feel daunted and disoriented by the sheer volume of information they are supplied."
+  },
+  {
+  "word": ["techniques"],
+  "english_synonyms": ["methods", "procedures", "approaches"],
+  "english_explanations": "A way of carrying out a particular task, especially the execution or performance of an artistic work or a scientific procedure.",
+  "chinese_translations": ["技巧", "方法"],
+  "example_sentences": "It focuses on the skills, techniques and mindset needed to do well in the writing section of the test."
+  },
+  {
+  "word": ["theory"],
+  "english_synonyms": ["hypothesis", "concept", "framework"],
+  "english_explanations": "A supposition or a system of ideas intended to explain something, especially one based on general principles independent of the thing to be explained.",
+  "chinese_translations": ["理论", "学说"],
+  "example_sentences": "The Chaos Theory does not apply here."
+  },
+  {
+  "word": ["toolkit"],
+  "english_synonyms": ["set of tools", "resources", "arsenal"],
+  "english_explanations": "A set of tools kept in a box or bag and used for a particular purpose; a collection of resources or techniques.",
+  "chinese_translations": ["工具包", "工具箱"],
+  "example_sentences": "Providing a handy toolkit of linking devices."
+  },
+  {
+  "word": ["touching"],
+  "english_synonyms": ["moving", "affecting", "emotional"],
+  "english_explanations": "Arousing feelings of sympathy or gratitude; making someone feel emotional.",
+  "chinese_translations": ["感人的", "触动人心的"],
+  "example_sentences": "For the touching up of the Chinese text I wrote in the first and second drafts."
+  },
+  {
+  "word": ["transitional"],
+  "english_synonyms": ["connecting", "intermediate", "bridging"],
+  "english_explanations": "Relating to or characterized by transition; serving to connect one part of a text with another.",
+  "chinese_translations": ["过渡的", "转折的"],
+  "example_sentences": "Common transitional phrases and key sentence structures."
+  },
+  {
+  "word": ["university"],
+  "english_synonyms": ["college", "institution", "academy"],
+  "english_explanations": "An educational institution designed for instruction, examination, or both, of students in many branches of advanced learning.",
+  "chinese_translations": ["大学"],
+  "example_sentences": "Legions of secondary school and university students have committed themselves to taking the IELTS test."
+  },
+  {
+  "word": ["usage"],
+  "english_synonyms": ["use", "employment", "application"],
+  "english_explanations": "The action of using something or the fact of being used; the way in which a word or phrase is normally and correctly used.",
+  "chinese_translations": ["用法", "使用"],
+  "example_sentences": "Proper diction (word choice and usage)."
+  },
+  {
+  "word": ["utility"],
+  "english_synonyms": ["usefulness", "practicality", "value"],
+  "english_explanations": "The state of being useful, profitable, or beneficial; usefulness in a practical sense.",
+  "chinese_translations": ["实用性", "效用"],
+  "example_sentences": "Presenting a high level of utility to candidates of other English writing tests."
+  },
+  {
+  "word": ["vacation"],
+  "english_synonyms": ["holiday", "break", "leave"],
+  "english_explanations": "An extended period of recreation, especially one spent away from home or in traveling; a fixed holiday period.",
+  "chinese_translations": ["假期", "度假"],
+  "example_sentences": "While I was on vacation in Florida this past winter."
+  },
+  {
+  "word": ["vantage"],
+  "english_synonyms": ["advantage", "position", "standpoint"],
+  "english_explanations": "A place or position affording a good view of something; a superior position or advantage.",
+  "chinese_translations": ["优势", "有利位置"],
+  "example_sentences": "Vantage point."
+  },
+  {
+  "word": ["various"],
+  "english_synonyms": ["diverse", "different", "assorted"],
+  "english_explanations": "More than one; several; different from one another; of diverse kinds.",
+  "chinese_translations": ["各种各样的", "不同的"],
+  "example_sentences": "Providing my readers with various sample essays for study."
+  },
+  {
+  "word": ["visual"],
+  "english_synonyms": ["optic", "graphic", "visible"],
+  "english_explanations": "Relating to seeing or sight; of such a nature as to be easily perceived or recognized.",
+  "chinese_translations": ["视觉的", "形象的"],
+  "example_sentences": "Help them to memorise particular selections of the visual text."
+  },
+  {
+  "word": ["vocabulary"],
+  "english_synonyms": ["lexicon", "word stock", "terminology"],
+  "english_explanations": "The body of words used in a particular language; all the words known and used by a particular person.",
+  "chinese_translations": ["词汇"],
+  "example_sentences": "There is a good range of vocabulary; Essential Words & Phrases."
+  },
+  {
+  "word": ["well-developed"],
+  "english_synonyms": ["fully grown", "mature", "elaborated"],
+  "english_explanations": "Having grown or been developed fully; carefully elaborated and detailed in structure or content.",
+  "chinese_translations": ["发展完善的", "详尽的"],
+  "example_sentences": "Both sides of the question are addressed in well-developed paragraphs."
+  },
+  {
+  "word": ["whirlwind"],
+  "english_synonyms": ["tornado", "vortex", "cyclone"],
+  "english_explanations": "A column of air moving rapidly around and around in a cylindrical or funnel shape; a very energetic or tumultuous person or process.",
+  "chinese_translations": ["旋风", " hectic的生活"],
+  "example_sentences": "Getting a brief respite from my whirlwind life as an IELTS instructor."
+  },
+  {
+  "word": ["within"],
+  "english_synonyms": ["inside", "in", "into"],
+  "english_explanations": "Inside something; before a particular period of time has passed; not exceeding or going beyond.",
+  "chinese_translations": ["在...之内", "不超过"],
+  "example_sentences": "Write convincing arguments within the time limits of the test."
+  },
+  {
+  "word": ["worth"],
+  "english_synonyms": ["worthy of", "deserving", "valuable"],
+  "english_explanations": "Equivalent in value to the sum or item specified; sufficiently good, important, or interesting to justify a specified action.",
+  "chinese_translations": ["值得的", "有价值的"],
+  "example_sentences": "Write things worth reading. Do things worth writing about."
+  }
+]
