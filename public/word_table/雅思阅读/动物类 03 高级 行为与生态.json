@@ -1,0 +1,286 @@
+[
+  {
+    "word": ["roost"],
+    "english_synonyms": ["perch", "settle"],
+    "english_explanations": [
+      "To settle down to rest, as a bird on a branch; the place where birds rest."
+    ],
+    "chinese_translations": ["栖息", "栖木"],
+    "example_sentences": "Crows return to their roost at dusk."
+  },
+  {
+    "word": ["incubate"],
+    "english_synonyms": ["brood", "hatch"],
+    "english_explanations": [
+      "To sit on eggs to keep them warm until they hatch."
+    ],
+    "chinese_translations": ["孵化", "孵卵"],
+    "example_sentences": "The female incubates the eggs while the male brings food."
+  },
+  {
+    "word": ["burrow"],
+    "english_synonyms": ["tunnel", "dig"],
+    "english_explanations": [
+      "A hole or tunnel dug by an animal to live in; to dig such a hole."
+    ],
+    "chinese_translations": ["洞穴", "打洞"],
+    "example_sentences": "Rabbits burrowed beneath the hedgerow."
+  },
+  {
+    "word": ["lair"],
+    "english_synonyms": [],
+    "english_explanations": [
+      "The resting place of a wild animal, especially a fierce one."
+    ],
+    "chinese_translations": ["兽穴"],
+    "example_sentences": "The wolves returned to their lair with the kill."
+  },
+  {
+    "word": ["den"],
+    "english_synonyms": [],
+    "english_explanations": [
+      "The hidden home of a wild animal, such as a cave or hollow."
+    ],
+    "chinese_translations": ["兽穴"],
+    "example_sentences": "The cubs waited in the den while the mother hunted."
+  },
+  {
+    "word": ["forage"],
+    "english_synonyms": ["search for food", "feed"],
+    "english_explanations": [
+      "To search widely for food or supplies."
+    ],
+    "chinese_translations": ["觅食"],
+    "example_sentences": "Capuchins forage for fruit in the canopy."
+  },
+  {
+    "word": ["scavenge"],
+    "english_synonyms": ["feed on carrion"],
+    "english_explanations": [
+      "To feed on dead animals that one has not killed oneself."
+    ],
+    "chinese_translations": ["食腐", "捡食腐肉"],
+    "example_sentences": "Hyenas both hunt and scavenge."
+  },
+  {
+    "word": ["predation"],
+    "english_synonyms": ["preying", "hunting"],
+    "english_explanations": [
+      "The act of one animal killing and eating another."
+    ],
+    "chinese_translations": ["捕食", "捕食行为"],
+    "example_sentences": "Nest predation by stoats devastated the colony."
+  },
+  {
+    "word": ["symbiosis"],
+    "english_synonyms": [],
+    "english_explanations": [
+      "A close, long-term interaction between two different species living together."
+    ],
+    "chinese_translations": ["共生", "共生关系"],
+    "example_sentences": "The ants and their fungus live in symbiosis."
+  },
+  {
+    "word": ["inbreeding"],
+    "english_synonyms": [],
+    "english_explanations": [
+      "Mating among closely related individuals, which reduces genetic diversity."
+    ],
+    "chinese_translations": ["近亲繁殖"],
+    "example_sentences": "Small isolated populations suffer from inbreeding."
+  },
+  {
+    "word": ["zooplankton"],
+    "english_synonyms": [],
+    "english_explanations": [
+      "Tiny drifting animals in water that feed on phytoplankton."
+    ],
+    "chinese_translations": ["浮游动物"],
+    "example_sentences": "Zooplankton swarm in the sunlit surface waters."
+  },
+  {
+    "word": ["phytoplankton"],
+    "english_synonyms": [],
+    "english_explanations": [
+      "Microscopic drifting algae that photosynthesize in water."
+    ],
+    "chinese_translations": ["浮游植物"],
+    "example_sentences": "Phytoplankton produce much of the ocean's oxygen."
+  },
+  {
+    "word": ["generalist"],
+    "english_synonyms": [],
+    "english_explanations": [
+      "A species able to thrive on a wide range of foods and habitats."
+    ],
+    "chinese_translations": ["泛化种", "广食性物种"],
+    "example_sentences": "Rats are generalists that survive in almost any habitat."
+  },
+  {
+    "word": ["migratory"],
+    "english_synonyms": [],
+    "english_explanations": [
+      "(of animals) travelling from one region to another with the seasons."
+    ],
+    "chinese_translations": ["迁徙的", "候鸟的"],
+    "example_sentences": "Migratory birds cross the Sahara each autumn."
+  },
+  {
+    "word": ["overwinter", "wintering"],
+    "english_synonyms": [],
+    "english_explanations": [
+      "To pass the winter, often dormant or in a milder place; the act of doing so."
+    ],
+    "chinese_translations": ["越冬"],
+    "example_sentences": "The butterflies overwinter in the mountains of Mexico."
+  },
+  {
+    "word": ["groom"],
+    "english_synonyms": ["preen"],
+    "english_explanations": [
+      "To clean and smooth fur or feathers, alone or mutually."
+    ],
+    "chinese_translations": ["理毛", "梳理毛发"],
+    "example_sentences": "Otters groom their fur constantly to keep it waterproof."
+  },
+  {
+    "word": ["squirm"],
+    "english_synonyms": ["wriggle", "twist"],
+    "english_explanations": [
+      "To twist the body about, as when uncomfortable or trying to escape."
+    ],
+    "chinese_translations": ["蠕动", "扭动"],
+    "example_sentences": "The crayfish squirmed in the otter's paws."
+  },
+  {
+    "word": ["warble"],
+    "english_synonyms": ["sing", "trill"],
+    "english_explanations": [
+      "(of a bird) to sing with a continuous alternating flow of notes."
+    ],
+    "chinese_translations": ["啭鸣", "鸣啭"],
+    "example_sentences": "The bird warbled a bubbling song at first light."
+  },
+  {
+    "word": ["lunge"],
+    "english_synonyms": ["dart", "thrust"],
+    "english_explanations": [
+      "To make a sudden forward movement or attack."
+    ],
+    "chinese_translations": ["猛冲", "突进"],
+    "example_sentences": "The barracuda lunged at the flashing lure."
+  },
+  {
+    "word": ["devour"],
+    "english_synonyms": ["gobble up", "eat up"],
+    "english_explanations": ["To eat up eagerly and completely."],
+    "chinese_translations": ["吞食", "狼吞虎咽地吃"],
+    "example_sentences": "The chicks devour whatever the parents bring."
+  },
+  {
+    "word": ["ingest"],
+    "english_synonyms": ["swallow", "take in"],
+    "english_explanations": [
+      "To take food or other substances into the body."
+    ],
+    "chinese_translations": ["摄入", "摄取"],
+    "example_sentences": "Caterpillars ingest toxins from the leaves they eat."
+  },
+  {
+    "word": ["expel"],
+    "english_synonyms": ["eject", "drive out"],
+    "english_explanations": [
+      "To force something out of the body or a container."
+    ],
+    "chinese_translations": ["排出", "驱出"],
+    "example_sentences": "The termites expel stale air through chimneys in the mound."
+  },
+  {
+    "word": ["undulation"],
+    "english_synonyms": ["wave motion", "ripple"],
+    "english_explanations": [
+      "A wavelike motion, as of a fish's body when swimming."
+    ],
+    "chinese_translations": ["波动", "起伏摆动"],
+    "example_sentences": "Eels swim by undulation of the whole body."
+  },
+  {
+    "word": ["propulsion", "propulsive"],
+    "english_synonyms": [],
+    "english_explanations": [
+      "The force that drives a body forward; relating to such force."
+    ],
+    "chinese_translations": ["推进", "推进的"],
+    "example_sentences": "Otters gain propulsion from their muscular tails."
+  },
+  {
+    "word": ["buoyancy"],
+    "english_synonyms": ["floating power"],
+    "english_explanations": [
+      "The ability of a body to float in a fluid."
+    ],
+    "chinese_translations": ["浮力"],
+    "example_sentences": "The gas bladder gives the fish buoyancy."
+  },
+  {
+    "word": ["streamlined", "streamlining"],
+    "english_synonyms": [],
+    "english_explanations": [
+      "Shaped to reduce resistance when moving through air or water."
+    ],
+    "chinese_translations": ["流线型的", "流线型"],
+    "example_sentences": "Tuna have streamlined bodies built for speed."
+  },
+  {
+    "word": ["maneuverability"],
+    "english_synonyms": [],
+    "english_explanations": [
+      "The ability to change direction quickly and easily."
+    ],
+    "chinese_translations": ["机动性", "灵活性"],
+    "example_sentences": "Broad pectoral fins give the fish great maneuverability."
+  },
+  {
+    "word": ["lubricate"],
+    "english_synonyms": ["oil", "make slippery"],
+    "english_explanations": [
+      "To make surfaces smooth and slippery so they move easily."
+    ],
+    "chinese_translations": ["润滑"],
+    "example_sentences": "Mucus lubricates the fish's body as it swims."
+  },
+  {
+    "word": ["viscous"],
+    "english_synonyms": ["thick", "syrupy"],
+    "english_explanations": [
+      "Thick and sticky; not flowing freely."
+    ],
+    "chinese_translations": ["黏稠的"],
+    "example_sentences": "Seawater feels more viscous than air to a swimming fish."
+  },
+  {
+    "word": ["viscosity"],
+    "english_synonyms": ["thickness", "stickiness"],
+    "english_explanations": [
+      "A fluid's resistance to flow; its thickness."
+    ],
+    "chinese_translations": ["黏度", "黏性"],
+    "example_sentences": "Cool water rises in viscosity and slows the swimmer."
+  },
+  {
+    "word": ["overshoot"],
+    "english_synonyms": ["overrun", "exceed"],
+    "english_explanations": [
+      "To pass beyond an intended point or limit."
+    ],
+    "chinese_translations": ["飞过头", "超出"],
+    "example_sentences": "Some migrants overshoot their breeding grounds in strong winds."
+  },
+  {
+    "word": ["overfly"],
+    "english_synonyms": ["fly over", "fly across"],
+    "english_explanations": ["To fly over or across a place."],
+    "chinese_translations": ["飞越"],
+    "example_sentences": "The geese overfly the desert without stopping."
+  }
+]

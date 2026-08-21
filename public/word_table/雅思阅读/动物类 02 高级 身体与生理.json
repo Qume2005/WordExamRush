@@ -1,0 +1,171 @@
+[
+  {
+    "word": ["plumage"],
+    "english_synonyms": ["feathers", "feathering"],
+    "english_explanations": [
+      "A bird's feathers collectively, including their colour and condition."
+    ],
+    "chinese_translations": ["全身羽毛", "羽毛"],
+    "example_sentences": "Male birds display bright plumage to attract mates."
+  },
+  {
+    "word": ["forelimb"],
+    "english_synonyms": ["front limb", "foreleg"],
+    "english_explanations": [
+      "Either of the front limbs of a four-legged animal, such as a wing or front leg."
+    ],
+    "chinese_translations": ["前肢"],
+    "example_sentences": "Whales' forelimbs evolved into flippers."
+  },
+  {
+    "word": ["hindquarters"],
+    "english_synonyms": ["hind legs", "rump"],
+    "english_explanations": [
+      "The rear part of a four-legged animal, including the hind legs and buttocks."
+    ],
+    "chinese_translations": ["后躯", "后腿"],
+    "example_sentences": "The kangaroo's powerful hindquarters propel each leap."
+  },
+  {
+    "word": ["pectoral"],
+    "english_synonyms": ["chest"],
+    "english_explanations": [
+      "Relating to the chest or breast, such as a pectoral fin."
+    ],
+    "chinese_translations": ["胸的", "胸鳍的"],
+    "example_sentences": "The pectoral fins steer the fish through the water."
+  },
+  {
+    "word": ["ventral"],
+    "english_synonyms": ["abdominal", "belly-side"],
+    "english_explanations": [
+      "Relating to the underside or belly of an animal's body."
+    ],
+    "chinese_translations": ["腹侧的", "腹部的"],
+    "example_sentences": "The ventral side of the fish is paler than its back."
+  },
+  {
+    "word": ["vertebra", "vertebrae"],
+    "english_synonyms": ["spinal bone"],
+    "english_explanations": [
+      "One of the small bones that interlock to form the backbone and protect the spinal cord."
+    ],
+    "chinese_translations": ["脊椎骨", "椎骨"],
+    "example_sentences": "A giraffe's neck has only seven vertebrae, like a human's."
+  },
+  {
+    "word": ["cranial"],
+    "english_synonyms": ["of the skull"],
+    "english_explanations": ["Relating to the skull or head."],
+    "chinese_translations": ["颅的", "头颅的"],
+    "example_sentences": "The fossil's cranial capacity suggested a large brain."
+  },
+  {
+    "word": ["webbed", "webbing"],
+    "english_synonyms": [],
+    "english_explanations": [
+      "(of feet) having the toes joined by skin, for swimming; the skin itself."
+    ],
+    "chinese_translations": ["有蹼的", "蹼"],
+    "example_sentences": "Ducks propel themselves with their webbed feet."
+  },
+  {
+    "word": ["talon"],
+    "english_synonyms": ["claw"],
+    "english_explanations": [
+      "A large sharp claw of a bird of prey, used to seize and kill."
+    ],
+    "chinese_translations": ["利爪", "爪"],
+    "example_sentences": "The eagle gripped the rabbit with its talons."
+  },
+  {
+    "word": ["homeostasis"],
+    "english_synonyms": ["internal balance", "equilibrium"],
+    "english_explanations": [
+      "The tendency of an organism to keep its internal conditions stable."
+    ],
+    "chinese_translations": ["体内平衡", "内稳态"],
+    "example_sentences": "Sweating is part of the body's homeostasis."
+  },
+  {
+    "word": ["gestation"],
+    "english_synonyms": ["pregnancy"],
+    "english_explanations": [
+      "The period during which a mammal carries its unborn young."
+    ],
+    "chinese_translations": ["妊娠", "怀孕期"],
+    "example_sentences": "The gestation period of an elephant lasts nearly two years."
+  },
+  {
+    "word": ["estrus"],
+    "english_synonyms": ["heat", "oestrus"],
+    "english_explanations": [
+      "A recurring period when a female mammal is receptive to mating."
+    ],
+    "chinese_translations": ["发情期"],
+    "example_sentences": "Female elephants advertise estrus through low-frequency calls."
+  },
+  {
+    "word": ["hibernate"],
+    "english_synonyms": ["sleep through winter", "lie dormant"],
+    "english_explanations": [
+      "To pass the winter in a dormant state with slowed metabolism."
+    ],
+    "chinese_translations": ["冬眠"],
+    "example_sentences": "Cave bears once hibernated through Europe's ice-age winters."
+  },
+  {
+    "word": ["infrasonic", "infrasound"],
+    "english_synonyms": [],
+    "english_explanations": [
+      "(of sound) below the frequencies humans can hear; sound of such frequency."
+    ],
+    "chinese_translations": ["次声的", "次声波"],
+    "example_sentences": "Elephants coordinate herds using infrasonic rumbles."
+  },
+  {
+    "word": ["glycogen"],
+    "english_synonyms": [],
+    "english_explanations": [
+      "A stored form of sugar held in animals' muscles and liver for energy."
+    ],
+    "chinese_translations": ["糖原"],
+    "example_sentences": "Migrating fish burn the glycogen stored in their muscles."
+  },
+  {
+    "word": ["cellulose"],
+    "english_synonyms": [],
+    "english_explanations": [
+      "The insoluble fibre of plant cell walls, digestible only with microbial help."
+    ],
+    "chinese_translations": ["纤维素"],
+    "example_sentences": "Termites digest cellulose thanks to microbes in their gut."
+  },
+  {
+    "word": ["guanine"],
+    "english_synonyms": [],
+    "english_explanations": [
+      "A base of DNA whose crystals also give fish skin its silvery shimmer."
+    ],
+    "chinese_translations": ["鸟嘌呤"],
+    "example_sentences": "Guanine crystals give fish their metallic sheen."
+  },
+  {
+    "word": ["flagella", "flagellum"],
+    "english_synonyms": [],
+    "english_explanations": [
+      "Long whip-like strands with which single cells propel themselves."
+    ],
+    "chinese_translations": ["鞭毛"],
+    "example_sentences": "Some bacteria swim using rotating flagella."
+  },
+  {
+    "word": ["bladder"],
+    "english_synonyms": [],
+    "english_explanations": [
+      "An organ that holds urine; in fish, the gas-filled sac that controls buoyancy."
+    ],
+    "chinese_translations": ["膀胱", "鳔"],
+    "example_sentences": "The fish adjusts its depth using the gas in its bladder."
+  }
+]

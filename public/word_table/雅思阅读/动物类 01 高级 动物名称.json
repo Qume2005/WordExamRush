@@ -1,0 +1,227 @@
+[
+  {
+    "word": ["thylacine"],
+    "english_synonyms": ["Tasmanian tiger", "Tasmanian wolf"],
+    "english_explanations": [
+      "A carnivorous marsupial of Tasmania resembling a striped dog, hunted to extinction in the 1930s."
+    ],
+    "chinese_translations": ["袋狼", "塔斯马尼亚虎"],
+    "example_sentences": "The thylacine was the largest carnivorous marsupial of modern times."
+  },
+  {
+    "word": ["tuatara"],
+    "english_synonyms": ["sphenodon"],
+    "english_explanations": [
+      "A rare reptile found only in New Zealand, the sole survivor of an ancient order that predates the dinosaurs."
+    ],
+    "chinese_translations": ["喙头蜥", "新西兰活化石蜥蜴"],
+    "example_sentences": "The tuatara has changed little since the age of the dinosaurs."
+  },
+  {
+    "word": ["capuchin"],
+    "english_synonyms": ["capuchin monkey"],
+    "english_explanations": [
+      "An intelligent monkey of Central and South America, named for the cowl-like tuft of hair on its head."
+    ],
+    "chinese_translations": ["卷尾猴"],
+    "example_sentences": "Capuchins use stones to crack open nuts in the forest."
+  },
+  {
+    "word": ["coelacanth"],
+    "english_synonyms": [],
+    "english_explanations": [
+      "A primitive lobe-finned fish thought extinct for millions of years until a living one was caught in 1938."
+    ],
+    "chinese_translations": ["腔棘鱼"],
+    "example_sentences": "The coelacanth is often described as a living fossil."
+  },
+  {
+    "word": ["sailfish"],
+    "english_synonyms": [],
+    "english_explanations": [
+      "A large ocean fish with a huge sail-like dorsal fin, among the fastest fish in the sea."
+    ],
+    "chinese_translations": ["旗鱼"],
+    "example_sentences": "The sailfish raised its enormous dorsal fin as it chased the sardines."
+  },
+  {
+    "word": ["swordfish"],
+    "english_synonyms": ["broadbill"],
+    "english_explanations": [
+      "A large migratory ocean fish with a long, flattened, sword-like bill."
+    ],
+    "chinese_translations": ["剑鱼"],
+    "example_sentences": "The swordfish uses its pointed bill to slash at schools of fish."
+  },
+  {
+    "word": ["barracuda"],
+    "english_synonyms": ["sea pike"],
+    "english_explanations": [
+      "A slender predatory tropical fish with prominent fang-like teeth."
+    ],
+    "chinese_translations": ["梭鱼", "金梭鱼"],
+    "example_sentences": "Snorkelers were warned to watch out for barracudas above the reef."
+  },
+  {
+    "word": ["goby"],
+    "english_synonyms": [],
+    "english_explanations": [
+      "A small bottom-dwelling fish whose pelvic fins are fused into a sucker."
+    ],
+    "chinese_translations": ["虾虎鱼"],
+    "example_sentences": "Some gobies even climb waterfalls using their sucker fins."
+  },
+  {
+    "word": ["mackerel"],
+    "english_synonyms": [],
+    "english_explanations": [
+      "A fast-moving sea fish with oily flesh, commonly eaten as food."
+    ],
+    "chinese_translations": ["鲭鱼"],
+    "example_sentences": "A shoal of mackerel glittered just beneath the surface."
+  },
+  {
+    "word": ["peregrine"],
+    "english_synonyms": ["peregrine falcon", "duck hawk"],
+    "english_explanations": [
+      "A powerful falcon renowned for the speed of its diving strikes."
+    ],
+    "chinese_translations": ["游隼"],
+    "example_sentences": "The peregrine stooped on its prey at over 300 kilometres per hour."
+  },
+  {
+    "word": ["shearwater"],
+    "english_synonyms": ["muttonbird"],
+    "english_explanations": [
+      "A long-winged seabird that skims low over the waves and migrates vast distances."
+    ],
+    "chinese_translations": ["鹱", "海鸟"],
+    "example_sentences": "Shearwaters nest in burrows on remote islands."
+  },
+  {
+    "word": ["tern"],
+    "english_synonyms": ["sea swallow"],
+    "english_explanations": [
+      "A slender seabird with a forked tail that plunge-dives for fish."
+    ],
+    "chinese_translations": ["燕鸥"],
+    "example_sentences": "Arctic terns migrate from pole to pole each year."
+  },
+  {
+    "word": ["plover"],
+    "english_synonyms": [],
+    "english_explanations": [
+      "A small wading bird with a short bill, found along shores and fields."
+    ],
+    "chinese_translations": ["鸻", "涉禽"],
+    "example_sentences": "Golden plovers rest in the fields after long flights."
+  },
+  {
+    "word": ["warbler"],
+    "english_synonyms": [],
+    "english_explanations": [
+      "A small active songbird with a musical, warbling call."
+    ],
+    "chinese_translations": ["莺", "鸣禽"],
+    "example_sentences": "A warbler's song rang out from the topmost branch."
+  },
+  {
+    "word": ["stoat"],
+    "english_synonyms": ["ermine", "short-tailed weasel"],
+    "english_explanations": [
+      "A small agile weasel whose coat turns white in winter except for the black tail tip."
+    ],
+    "chinese_translations": ["白鼬"],
+    "example_sentences": "The stoat slipped into its white winter coat."
+  },
+  {
+    "word": ["ferret"],
+    "english_synonyms": [],
+    "english_explanations": [
+      "A domesticated polecat with a long slim body, kept for hunting rabbits."
+    ],
+    "chinese_translations": ["雪貂"],
+    "example_sentences": "Ferrets were once used to drive rabbits from their burrows."
+  },
+  {
+    "word": ["possum"],
+    "english_synonyms": ["opossum"],
+    "english_explanations": [
+      "A tree-dwelling marsupial that feigns death when threatened."
+    ],
+    "chinese_translations": ["负鼠"],
+    "example_sentences": "The possum froze and played dead until the danger passed."
+  },
+  {
+    "word": ["hyena"],
+    "english_synonyms": ["hyaena"],
+    "english_explanations": [
+      "A doglike carnivore of Africa and Asia, known as a scavenger with a whooping, laughing call."
+    ],
+    "chinese_translations": ["鬣狗"],
+    "example_sentences": "Hyenas' whooping calls echo across the savanna at night."
+  },
+  {
+    "word": ["sloth"],
+    "english_synonyms": [],
+    "english_explanations": [
+      "A slow-moving mammal of Central and South America that hangs upside down in trees."
+    ],
+    "chinese_translations": ["树懒"],
+    "example_sentences": "The sloth descends from its tree about once a week."
+  },
+  {
+    "word": ["cuckoo"],
+    "english_synonyms": [],
+    "english_explanations": [
+      "A bird famous for laying its eggs in other birds' nests and for its repeating call."
+    ],
+    "chinese_translations": ["杜鹃", "布谷鸟"],
+    "example_sentences": "The cuckoo lays its eggs in reed warblers' nests."
+  },
+  {
+    "word": ["crayfish"],
+    "english_synonyms": ["crawfish", "crawdad"],
+    "english_explanations": [
+      "A small freshwater crustacean resembling a lobster."
+    ],
+    "chinese_translations": ["小龙虾", "淡水小龙虾"],
+    "example_sentences": "Otters feed on crayfish along the riverbed."
+  },
+  {
+    "word": ["scarab"],
+    "english_synonyms": ["dung beetle"],
+    "english_explanations": [
+      "A stout beetle that rolls balls of dung, sacred in ancient Egypt."
+    ],
+    "chinese_translations": ["圣甲虫", "蜣螂"],
+    "example_sentences": "Scarabs were sacred symbols in ancient Egypt."
+  },
+  {
+    "word": ["marsupial"],
+    "english_synonyms": [],
+    "english_explanations": [
+      "A mammal that carries and suckles its young in a pouch, such as kangaroos and koalas."
+    ],
+    "chinese_translations": ["有袋动物"],
+    "example_sentences": "Most marsupials carry their young in a pouch."
+  },
+  {
+    "word": ["megafauna"],
+    "english_synonyms": [],
+    "english_explanations": [
+      "The large animals of a particular region or period, such as mammoths and giant sloths."
+    ],
+    "chinese_translations": ["巨型动物群"],
+    "example_sentences": "Australia's megafauna disappeared soon after humans arrived."
+  },
+  {
+    "word": ["vermin"],
+    "english_synonyms": ["pests"],
+    "english_explanations": [
+      "Wild animals regarded as harmful to crops, livestock, or property."
+    ],
+    "chinese_translations": ["害兽", "害虫"],
+    "example_sentences": "Farmers once hunted the wolves as vermin."
+  }
+]
