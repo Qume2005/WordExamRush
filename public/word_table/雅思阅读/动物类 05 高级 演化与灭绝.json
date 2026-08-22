@@ -7,7 +7,7 @@
     ],
     "chinese_translations": ["古生物学"],
     "example_sentences": "Paleontology traces the ancestry of the elephants.",
-    "roots": [{"root":"paleo-","meaning":"ancient"},{"root":"ont","meaning":"being"},{"root":"-ology","meaning":"study of"}]
+    "roots": [{"root":"pale-","meaning":"ancient"},{"root":"ont","meaning":"being"},{"root":"-ology","meaning":"study of"}]
   },
   {
     "word": ["paleobiologist"],
@@ -90,7 +90,7 @@
     ],
     "chinese_translations": ["亚种"],
     "example_sentences": "Each island hosts its own subspecies of the lizard.",
-    "roots": [{"root":"sub-","meaning":"under"},{"root":"spec","meaning":"kind"}]
+    "roots": [{"root":"sub-","meaning":"under"},{"root":"spec","meaning":"kind"},{"root":"-ies","meaning":"noun form"}]
   },
   {
     "word": ["invertebrate"],

@@ -42,7 +42,7 @@
 "english_explanations": ["To be relevant or applicable to a particular situation."],
 "chinese_translations": ["适用", "应用"],
 "example_sentences": "The Chaos Theory does not apply here.",
-"roots": [{"root":"ap-","meaning":"to"},{"root":"plic","meaning":"fold"}]
+"roots": [{"root":"ap-","meaning":"to"},{"root":"ply","meaning":"fold"}]
 },
 {
 "word": ["appreciation"],
@@ -255,7 +255,7 @@
 "english_explanations": ["Extracting the essential meaning or most important aspects of something or purifying by heating and cooling."],
 "chinese_translations": ["提炼", "萃取"],
 "example_sentences": "Distilling the common English writing lexicon into a concise list of words and phrases.",
-"roots": [{"root":"de-","meaning":"apart"},{"root":"still","meaning":"drip"},{"root":"-ing","meaning":"doing"}]
+"roots": [{"root":"di-","meaning":"apart"},{"root":"still","meaning":"drip"},{"root":"-ing","meaning":"doing"}]
 },
 {
 "word": ["drafts"],
@@ -336,7 +336,7 @@
 "english_explanations": ["Relating to grammar or the rules of a language or conforming to the rules of grammar."],
 "chinese_translations": ["语法的", "符合语法的"],
 "example_sentences": "The baffling grammatical quagmire or grammatical points or Grammatical Range and Accuracy.",
-"roots": [{"root":"gram","meaning":"letter"},{"root":"-atic","meaning":"relating to"},{"root":"-al","meaning":"relating to"}]
+"roots": [{"root":"gram","meaning":"letter"},{"root":"-matical","meaning":"relating to"}]
 },
 {
 "word": ["handy"],
@@ -398,7 +398,7 @@
 "english_explanations": ["Having or showing intelligence especially of a high level or able to learn and understand things easily."],
 "chinese_translations": ["聪明的", "有智慧的"],
 "example_sentences": "This book is fully dedicated to my intelligent responsive and self-motivated Chinese students.",
-"roots": [{"root":"inter-","meaning":"between"},{"root":"lect","meaning":"choose"},{"root":"-ent","meaning":"doing"}]
+"roots": [{"root":"intel-","meaning":"between"},{"root":"lig","meaning":"choose"},{"root":"-ent","meaning":"doing"}]
 },
 {
 "word": ["tight-knit"],
@@ -480,7 +480,7 @@
 "english_explanations": ["The process of committing something to memory or learning something so that it can be recalled exactly."],
 "chinese_translations": ["记忆", "背诵"],
 "example_sentences": "Discouraging rote memorisation or mere reproduction of the essays.",
-"roots": [{"root":"memor","meaning":"memory"},{"root":"-ise","meaning":"to make"},{"root":"-ation","meaning":"act or state"}]
+"roots": [{"root":"memor","meaning":"memory"},{"root":"-isation","meaning":"act or state"}]
 },
 {
 "word": ["mere"],
@@ -577,7 +577,7 @@
 "english_explanations": ["As appears or is stated to be the case though not necessarily so or supposedly or allegedly."],
 "chinese_translations": ["据称", "据说"],
 "example_sentences": "The innumerable passages which could purportedly help them break through to a higher score.",
-"roots": [{"root":"pro-","meaning":"forth"},{"root":"port","meaning":"carry"},{"root":"-ed","meaning":"past"},{"root":"-ly","meaning":"manner"}]
+"roots": [{"root":"pur-","meaning":"forth"},{"root":"port","meaning":"carry"},{"root":"-ed","meaning":"past"},{"root":"-ly","meaning":"manner"}]
 },
 {
 "word": ["quagmire"],
@@ -703,7 +703,7 @@
 "english_explanations": ["To achieve the desired aim or result or to prosper or flourish in a particular field or activity."],
 "chinese_translations": ["成功"],
 "example_sentences": "Help IELTS candidates to succeed.",
-"roots": [{"root":"suc-","meaning":"under"},{"root":"ced","meaning":"go"}]
+"roots": [{"root":"suc-","meaning":"under"},{"root":"ceed","meaning":"go"}]
 },
 {
 "word": ["supplied"],

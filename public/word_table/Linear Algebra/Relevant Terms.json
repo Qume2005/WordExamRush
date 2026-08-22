@@ -121,7 +121,7 @@
 "english_explanations": ["The matrix obtained by swapping the rows and columns of the original matrix."],
 "chinese_translations": ["转置"],
 "example_sentences": "The transpose of a column vector is a row vector with the same entries.",
-"roots": [{"root":"trans-","meaning":"across"},{"root":"pos","meaning":"put"}]
+"roots": [{"root":"trans-","meaning":"across"},{"root":"pose","meaning":"put"}]
 },
 {
 "word": ["inverse"],
@@ -129,7 +129,7 @@
 "english_explanations": ["A matrix that, when multiplied by the original square matrix, yields the identity matrix."],
 "chinese_translations": ["逆矩阵", "逆"],
 "example_sentences": "A matrix has an inverse if and only if its determinant is nonzero.",
-"roots": [{"root":"in-","meaning":"into"},{"root":"vers","meaning":"turn"}]
+"roots": [{"root":"in-","meaning":"into"},{"root":"verse","meaning":"turn"}]
 },
 {
 "word": ["identity matrix"],
@@ -518,7 +518,7 @@
 "english_explanations": ["Describing a square matrix that can be transformed into a diagonal matrix via a similarity transformation."],
 "chinese_translations": ["可对角化的"],
 "example_sentences": "Not every matrix is diagonalizable; defective matrices lack a full set of eigenvectors.",
-"roots": [{"root":"dia-","meaning":"across"},{"root":"gon","meaning":"angle"},{"root":"-al","meaning":"relating to"},{"root":"-ize","meaning":"to make"},{"root":"-able","meaning":"able to be"}]
+"roots": [{"root":"dia-","meaning":"across"},{"root":"gon","meaning":"angle"},{"root":"-al","meaning":"relating to"},{"root":"-izable","meaning":"able to be made"}]
 },
 {
 "word": ["similarity"],

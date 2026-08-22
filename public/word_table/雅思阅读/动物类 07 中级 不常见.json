@@ -245,7 +245,7 @@
     ],
     "chinese_translations": ["寄生虫"],
     "example_sentences": "A parasite weakens the caterpillar from within.",
-    "roots": [{"root":"para-","meaning":"beside"},{"root":"sit","meaning":"food"}]
+    "roots": [{"root":"para-","meaning":"beside"},{"root":"site","meaning":"food"}]
   },
   {
     "word": ["parasitic"],
@@ -416,7 +416,7 @@
     ],
     "chinese_translations": ["圈养", "被囚禁的状态"],
     "example_sentences": "Few cubs born in captivity survive release.",
-    "roots": [{"root":"capt","meaning":"seize"},{"root":"-ive","meaning":"having"},{"root":"-ity","meaning":"state of"}]
+    "roots": [{"root":"capt","meaning":"seize"},{"root":"-ivity","meaning":"state of"}]
   },
   {
     "word": ["asteroid"],
@@ -674,7 +674,7 @@
     ],
     "chinese_translations": ["构成", "组成"],
     "example_sentences": "Workers constitute the bulk of the colony.",
-    "roots": [{"root":"con-","meaning":"together"},{"root":"stitut","meaning":"set up"}]
+    "roots": [{"root":"con-","meaning":"together"},{"root":"stitute","meaning":"set up"}]
   },
   {
     "word": ["offspring"],

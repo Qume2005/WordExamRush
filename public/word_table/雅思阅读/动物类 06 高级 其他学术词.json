@@ -16,7 +16,7 @@
     ],
     "chinese_translations": ["冲击", "影响"],
     "example_sentences": "New roads impinge on the otters' territory.",
-    "roots": [{"root":"im-","meaning":"upon"},{"root":"ping","meaning":"strike"}]
+    "roots": [{"root":"im-","meaning":"upon"},{"root":"pinge","meaning":"strike"}]
   },
   {
     "word": ["envelop"],
@@ -124,7 +124,7 @@
     ],
     "chinese_translations": ["天生的", "先天的"],
     "example_sentences": "The turtles' urge to head seaward is innate.",
-    "roots": [{"root":"in-","meaning":"in"},{"root":"nat","meaning":"born"}]
+    "roots": [{"root":"in-","meaning":"in"},{"root":"nate","meaning":"born"}]
   },
   {
     "word": ["inborn"],
@@ -188,7 +188,7 @@
     ],
     "chinese_translations": ["预示", "预兆"],
     "example_sentences": "Falling counts presage a population crash.",
-    "roots": [{"root":"pre-","meaning":"before"},{"root":"sag","meaning":"perceive"}]
+    "roots": [{"root":"pre-","meaning":"before"},{"root":"sage","meaning":"perceive"}]
   },
   {
     "word": ["mystify"],

@@ -145,7 +145,7 @@
 "english_explanations": ["Feeling unable to cope with the amount or intensity of something."],
 "chinese_translations": ["不堪重负的", "被压垮的"],
 "example_sentences": "She felt overwhelmed by the demands of her new job.",
-"roots": [{"root":"over-","meaning":"over"},{"root":"whelm","meaning":"cover"}]
+"roots": [{"root":"over-","meaning":"over"},{"root":"whelm","meaning":"cover"},{"root":"-ed","meaning":"past"}]
 },
 {
 "word": ["irreparably"],
@@ -174,7 +174,7 @@
 "english_explanations": ["Gradually increasing in quantity over time."],
 "chinese_translations": ["累积"],
 "example_sentences": "He spent years accumulating wealth through smart investments.",
-"roots": [{"root":"ac-","meaning":"to"},{"root":"cumul","meaning":"heap"},{"root":"-ate","meaning":"verb suffix"}]
+"roots": [{"root":"ac-","meaning":"to"},{"root":"cumul","meaning":"heap"},{"root":"-ating","meaning":"doing"}]
 },
 {
 "word": ["persist"],

@@ -12,7 +12,7 @@
 "english_explanations": ["The quality of being easy to reach, enter, use, or understand by people with different abilities."],
 "chinese_translations": ["可及性", "无障碍性", "易用性"],
 "example_sentences": "Accessibility in digital learning platforms ensures all students can participate equally.",
-"roots": [{"root":"ac-","meaning":"to"},{"root":"cess","meaning":"go"},{"root":"-ible","meaning":"able to be"},{"root":"-ity","meaning":"state or quality"}]
+"roots": [{"root":"ac-","meaning":"to"},{"root":"cess","meaning":"go"},{"root":"-ibility","meaning":"able to be, state"}]
 },
 {
 "word": ["adaptive"],
@@ -35,7 +35,7 @@
 "english_explanations": ["To study or examine something in detail in order to understand it or explain it."],
 "chinese_translations": ["分析", "解析"],
 "example_sentences": "We need to analyse the data carefully before drawing any conclusions.",
-"roots": [{"root":"ana-","meaning":"up"},{"root":"lys","meaning":"loosen"}]
+"roots": [{"root":"ana-","meaning":"up"},{"root":"lyse","meaning":"loosen"}]
 },
 {
 "word": ["analytical"],
@@ -43,7 +43,7 @@
 "english_explanations": ["Relating to or using analysis or logical reasoning to understand complex issues."],
 "chinese_translations": ["分析的", "解析的"],
 "example_sentences": "Analytical skills are essential for interpreting research findings accurately.",
-"roots": [{"root":"ana-","meaning":"up"},{"root":"lys","meaning":"loosen"},{"root":"-ic","meaning":"relating to"},{"root":"-al","meaning":"relating to"}]
+"roots": [{"root":"ana-","meaning":"up"},{"root":"lyt","meaning":"loosen"},{"root":"-ical","meaning":"relating to"}]
 },
 {
 "word": ["application"],
@@ -265,7 +265,7 @@
 "english_explanations": ["Relating to or involving the use of imagination or original ideas to create something."],
 "chinese_translations": ["创造性的", "有创意的"],
 "example_sentences": "Creative thinking is essential for solving novel problems in the workplace.",
-"roots": [{"root":"cre","meaning":"make"},{"root":"-ate","meaning":"to cause"},{"root":"-ive","meaning":"tending to"}]
+"roots": [{"root":"cre","meaning":"make"},{"root":"-ative","meaning":"tending to"}]
 },
 {
 "word": ["creativity"],
@@ -316,7 +316,7 @@
 "english_explanations": ["The manner or style of giving a speech, lecture, or educational content", "The process of distributing something."],
 "chinese_translations": ["传授", "交付", "表达"],
 "example_sentences": "The delivery of online content requires different pedagogical strategies than face-to-face instruction.",
-"roots": [{"root":"de-","meaning":"from"},{"root":"liber","meaning":"free"},{"root":"-y","meaning":"state"}]
+"roots": [{"root":"de-","meaning":"from"},{"root":"liver","meaning":"free"},{"root":"-y","meaning":"state"}]
 },
 {
 "word": ["demanding"],
@@ -363,7 +363,7 @@
 "english_explanations": ["To make new or secret information known", "To allow something to be seen."],
 "chinese_translations": ["披露", "公开", "透露"],
 "example_sentences": "Institutions must disclose how student data is collected and used by AI systems.",
-"roots": [{"root":"dis-","meaning":"un-"},{"root":"clos","meaning":"close"}]
+"roots": [{"root":"dis-","meaning":"un-"},{"root":"close","meaning":"close"}]
 },
 {
 "word": ["diversity"],
@@ -379,7 +379,7 @@
 "english_explanations": ["The state or quality of being able to accomplish something with the least waste of time and effort."],
 "chinese_translations": ["效率", "效能"],
 "example_sentences": "AI can improve administrative efficiency, allowing teachers to focus on instruction.",
-"roots": [{"root":"ef-","meaning":"out"},{"root":"fic","meaning":"make"},{"root":"-ient","meaning":"doing"},{"root":"-cy","meaning":"state"}]
+"roots": [{"root":"ef-","meaning":"out"},{"root":"fic","meaning":"make"},{"root":"-iency","meaning":"state of doing"}]
 },
 {
 "word": ["embedded"],
@@ -432,7 +432,7 @@
 "english_explanations": ["Fair and impartial", "Providing equal opportunities and resources according to need."],
 "chinese_translations": ["公平的", "公正的", "平等的"],
 "example_sentences": "Ensuring equitable access to technology remains a challenge for many schools.",
-"roots": [{"root":"equ","meaning":"fair"},{"root":"-able","meaning":"able to be"}]
+"roots": [{"root":"equit","meaning":"fair"},{"root":"-able","meaning":"able to be"}]
 },
 {
 "word": ["error"],
@@ -652,7 +652,7 @@
 "english_explanations": ["Relating to the intellect or mental faculties", "A person possessing a highly developed intellect."],
 "chinese_translations": ["智力的", "知识的", "知识分子"],
 "example_sentences": "Intellectual curiosity drives students to explore topics beyond the curriculum.",
-"roots": [{"root":"inter-","meaning":"between"},{"root":"lect","meaning":"choose"},{"root":"-ual","meaning":"relating to"}]
+"roots": [{"root":"intel-","meaning":"between"},{"root":"lect","meaning":"choose"},{"root":"-ual","meaning":"relating to"}]
 },
 {
 "word": ["interact"],
@@ -719,7 +719,7 @@
 "english_explanations": ["The ability to read and write", "Competence or knowledge in a specified area such as digital or media literacy."],
 "chinese_translations": ["读写能力", "素养", "识字"],
 "example_sentences": "Digital literacy is now considered as fundamental as traditional reading and writing.",
-"roots": [{"root":"liter","meaning":"letter"},{"root":"-ate","meaning":"having"},{"root":"-cy","meaning":"state"}]
+"roots": [{"root":"liter","meaning":"letter"},{"root":"-acy","meaning":"state"}]
 },
 {
 "word": ["machine learning"],
@@ -911,7 +911,7 @@
 "english_explanations": ["The effectiveness of productive effort, especially in industry, as measured in terms of the rate of output per unit of input."],
 "chinese_translations": ["生产力", "效率", "产出"],
 "example_sentences": "AI tools can increase teacher productivity by automating routine administrative tasks.",
-"roots": [{"root":"pro-","meaning":"forward"},{"root":"duc","meaning":"lead"},{"root":"-tive","meaning":"tending to"},{"root":"-ity","meaning":"state or quality"}]
+"roots": [{"root":"pro-","meaning":"forward"},{"root":"duct","meaning":"lead"},{"root":"-ivity","meaning":"state of tending"}]
 },
 {
 "word": ["proficiency"],
@@ -951,7 +951,7 @@
 "english_explanations": ["A suggestion or proposal as to the best course of action, especially one put forward by an authoritative body."],
 "chinese_translations": ["建议", "推荐", "劝告"],
 "example_sentences": "AI can provide personalized recommendations for further study based on student performance.",
-"roots": [{"root":"re-","meaning":"again"},{"root":"com-","meaning":"together"},{"root":"mand","meaning":"entrust"},{"root":"-ation","meaning":"act"}]
+"roots": [{"root":"re-","meaning":"again"},{"root":"com-","meaning":"together"},{"root":"mend","meaning":"entrust"},{"root":"-ation","meaning":"act"}]
 },
 {
 "word": ["reflection"],
@@ -991,7 +991,7 @@
 "english_explanations": ["To take the place of", "To substitute for something or someone", "To put something back in its place."],
 "chinese_translations": ["替代", "取代", "更换"],
 "example_sentences": "The goal of AI should be to augment teaching, not to replace human educators.",
-"roots": [{"root":"re-","meaning":"again"},{"root":"plac","meaning":"place"}]
+"roots": [{"root":"re-","meaning":"again"},{"root":"place","meaning":"place"}]
 },
 {
 "word": ["reproduce"],
@@ -999,7 +999,7 @@
 "english_explanations": ["To produce a copy of", "To make something happen again in the same way", "To produce offspring."],
 "chinese_translations": ["复制", "再现", "繁殖"],
 "example_sentences": "Students should understand ideas deeply rather than merely reproduce information from sources.",
-"roots": [{"root":"re-","meaning":"again"},{"root":"pro-","meaning":"forward"},{"root":"duc","meaning":"lead"}]
+"roots": [{"root":"re-","meaning":"again"},{"root":"pro-","meaning":"forward"},{"root":"duce","meaning":"lead"}]
 },
 {
 "word": ["research"],
@@ -1150,7 +1150,7 @@
 "english_explanations": ["A person or thing acting or serving in place of another", "To replace one thing with another."],
 "chinese_translations": ["替代品", "代替", "替补"],
 "example_sentences": "AI should not be seen as a substitute for human interaction in education.",
-"roots": [{"root":"sub-","meaning":"under"},{"root":"stitut","meaning":"set in place"}]
+"roots": [{"root":"sub-","meaning":"under"},{"root":"stitute","meaning":"set in place"}]
 },
 {
 "word": ["superficial"],

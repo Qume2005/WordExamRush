@@ -155,7 +155,7 @@
 "english_explanations": ["The end or finish of an event or process; a judgment or decision reached after consideration."],
 "chinese_translations": ["结论", "结尾", "结束"],
 "example_sentences": "In conclusion, the project exceeded all expectations.",
-"roots": [{"root":"con-","meaning":"together"},{"root":"clud","meaning":"close"},{"root":"-sion","meaning":"noun form"}]
+"roots": [{"root":"con-","meaning":"together"},{"root":"clus","meaning":"close"},{"root":"-ion","meaning":"noun form"}]
 },
 {
 "word": ["conduct"],
@@ -346,7 +346,7 @@
 "english_explanations": ["Only; without any others being included or involved."],
 "chinese_translations": ["专门地", "仅仅", "独占地"],
 "example_sentences": "This product line is exclusively available through our online store.",
-"roots": [{"root":"ex-","meaning":"out"},{"root":"clud","meaning":"shut"},{"root":"-ive","meaning":"adj"},{"root":"-ly","meaning":"adverb"}]
+"roots": [{"root":"ex-","meaning":"out"},{"root":"clus","meaning":"shut"},{"root":"-ive","meaning":"adj"},{"root":"-ly","meaning":"adverb"}]
 },
 {
 "word": ["exposition"],
@@ -450,7 +450,7 @@
 "english_explanations": ["To fill someone with the urge or ability to do or feel something; to breathe in."],
 "chinese_translations": ["激励", "鼓舞", "启发"],
 "example_sentences": "The CEO's speech inspired the team to achieve their quarterly goals.",
-"roots": [{"root":"in-","meaning":"in"},{"root":"spir","meaning":"breathe"}]
+"roots": [{"root":"in-","meaning":"in"},{"root":"spire","meaning":"breathe"}]
 },
 {
 "word": ["instruction"],
@@ -466,7 +466,7 @@
 "english_explanations": ["Of or situated on the inside; existing or occurring within an organization."],
 "chinese_translations": ["内部的", "国内的", "内在的"],
 "example_sentences": "The memo is for internal use only and should not be shared externally.",
-"roots": [{"root":"inter","meaning":"between"},{"root":"-al","meaning":"adj"}]
+"roots": [{"root":"intern","meaning":"between"},{"root":"-al","meaning":"adj"}]
 },
 {
 "word": ["interrupt"],
@@ -565,7 +565,7 @@
 "english_explanations": ["An outline of something, especially a person's face, as seen from one side; a short description of someone or something."],
 "chinese_translations": ["简介", "轮廓", "形象"],
 "example_sentences": "Please update your company profile on the website.",
-"roots": [{"root":"pro-","meaning":"forth"},{"root":"fil","meaning":"line"}]
+"roots": [{"root":"pro-","meaning":"forth"},{"root":"file","meaning":"line"}]
 },
 {
 "word": ["profit"],
@@ -596,7 +596,7 @@
 "english_explanations": ["A written or printed statement acknowledging that something has been paid for or received."],
 "chinese_translations": ["收据", "发票", "收到"],
 "example_sentences": "Please keep your receipt for any returns or exchanges.",
-"roots": [{"root":"re-","meaning":"back"},{"root":"ceip","meaning":"take"}]
+"roots": [{"root":"re-","meaning":"back"},{"root":"ceipt","meaning":"take"}]
 },
 {
 "word": ["registration"],
@@ -604,7 +604,7 @@
 "english_explanations": ["The action or process of registering or being registered; an entry in a register."],
 "chinese_translations": ["注册", "登记", "报名"],
 "example_sentences": "Conference registration closes two weeks before the event.",
-"roots": [{"root":"re-","meaning":"back"},{"root":"gister","meaning":"record"},{"root":"-ation","meaning":"noun form"}]
+"roots": [{"root":"re-","meaning":"back"},{"root":"gistr","meaning":"record"},{"root":"-ation","meaning":"noun form"}]
 },
 {
 "word": ["repeatedly"],
@@ -652,7 +652,7 @@
 "english_explanations": ["Income, especially when of a company or organization and of a substantial nature."],
 "chinese_translations": ["收入", "收益", "税收"],
 "example_sentences": "Annual revenue increased by fifteen percent compared to last year.",
-"roots": [{"root":"re-","meaning":"back"},{"root":"ven","meaning":"come"}]
+"roots": [{"root":"re-","meaning":"back"},{"root":"venue","meaning":"come"}]
 },
 {
 "word": ["robust"],

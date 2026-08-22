@@ -313,7 +313,7 @@
     "english_explanations": ["To regard something as likely to happen.", "To believe that someone will or should achieve something."],
     "chinese_translations": ["期望", "预期", "预料", "要求"],
     "example_sentences": "We expect the shipment to arrive by Friday afternoon.",
-    "roots": [{"root":"ex-","meaning":"out"},{"root":"spect","meaning":"look"}]
+    "roots": [{"root":"ex-","meaning":"out"},{"root":"pect","meaning":"look"}]
   },
   {
     "word": ["extension"],
@@ -321,7 +321,7 @@
     "english_explanations": ["A part that is added to something to enlarge or prolong it.", "An additional period of time given to someone to allow them to finish a task.", "A telephone line leading from the main switchboard to a particular phone."],
     "chinese_translations": ["延伸", "分机", "延期", "扩建"],
     "example_sentences": "You can reach me on extension 224 during office hours.",
-    "roots": [{"root":"ex-","meaning":"out"},{"root":"tend","meaning":"stretch"},{"root":"-sion","meaning":"noun form"}]
+    "roots": [{"root":"ex-","meaning":"out"},{"root":"tens","meaning":"stretch"},{"root":"-ion","meaning":"noun form"}]
   },
   {
     "word": ["feedback"],
@@ -336,7 +336,7 @@
     "english_explanations": ["Able to make changes or deal with a situation that is changing.", "Able to be easily modified to respond to altered circumstances."],
     "chinese_translations": ["灵活的", "柔韧的", "可变通的"],
     "example_sentences": "We need to remain flexible in our approach to meet the client's changing needs.",
-    "roots": [{"root":"flect","meaning":"bend"},{"root":"-ible","meaning":"capable of"}]
+    "roots": [{"root":"flex","meaning":"bend"},{"root":"-ible","meaning":"capable of"}]
   },
   {
     "word": ["identify", "identification"],
@@ -432,7 +432,7 @@
     "english_explanations": ["To provide someone with a reason for doing something.", "To stimulate someone's interest in or enthusiasm for doing something."],
     "chinese_translations": ["激励", "激发", "促使"],
     "example_sentences": "Good managers know how to motivate their team to achieve better results.",
-    "roots": [{"root":"mot","meaning":"move"},{"root":"-ive","meaning":"adj"},{"root":"-ate","meaning":"verb form"}]
+    "roots": [{"root":"motiv","meaning":"move"},{"root":"-ate","meaning":"verb form"}]
   },
   {
     "word": ["negotiation", "negotiate"],
@@ -448,7 +448,7 @@
     "english_explanations": ["The action of telling someone about something, typically in a formal or official manner.", "A formal or official announcement or statement."],
     "chinese_translations": ["通知", "通告", "告示"],
     "example_sentences": "You will receive a notification by email once your application has been processed.",
-    "roots": [{"root":"not","meaning":"mark"},{"root":"-ify","meaning":"make"},{"root":"-ation","meaning":"noun form"}]
+    "roots": [{"root":"not","meaning":"mark"},{"root":"-ification","meaning":"make, noun form"}]
   },
   {
     "word": ["objection", "object"],
@@ -478,7 +478,7 @@
     "english_explanations": ["A person who takes part in something.", "Someone who participates in a particular event or activity."],
     "chinese_translations": ["参与者", "参加者", "与会者"],
     "example_sentences": "Each participant in the study was asked to complete a questionnaire.",
-    "roots": [{"root":"part","meaning":"part"},{"root":"cip","meaning":"take"},{"root":"-ant","meaning":"person"}]
+    "roots": [{"root":"part","meaning":"part"},{"root":"-icip","meaning":"take"},{"root":"-ant","meaning":"person"}]
   },
   {
     "word": ["performance", "perform"],
@@ -548,7 +548,7 @@
     "english_explanations": ["Producing or able to produce large amounts of goods, crops, or other commodities.", "Achieving a significant amount or result."],
     "chinese_translations": ["多产的", "高效的", "富有成效的"],
     "example_sentences": "The meeting was productive, and we finalized the project timeline.",
-    "roots": [{"root":"pro-","meaning":"forward"},{"root":"duc","meaning":"lead"},{"root":"-ive","meaning":"adj"}]
+    "roots": [{"root":"pro-","meaning":"forward"},{"root":"duct","meaning":"lead"},{"root":"-ive","meaning":"adj"}]
   },
   {
     "word": ["projector", "project", "projection"],
@@ -693,7 +693,7 @@
     "english_explanations": ["The quality, state, or degree of being stable.", "The strength to stand or endure."],
     "chinese_translations": ["稳定性", "稳固", "安定"],
     "example_sentences": "The new government policy aims to bring economic stability to the region.",
-    "roots": [{"root":"sta","meaning":"stand"},{"root":"-ability","meaning":"noun form"}]
+    "roots": [{"root":"st","meaning":"stand"},{"root":"-ability","meaning":"noun form"}]
   },
   {
     "word": ["strike", "struck", "stricken"],
@@ -708,7 +708,7 @@
     "english_explanations": ["To assume that something is the case on the basis of evidence or probability but without proof.", "To be required to do something because of the position one is in or an agreement one has made."],
     "chinese_translations": ["假设", "认为", "应该", "意味着"],
     "example_sentences": "I suppose we could reschedule the meeting for next week if necessary.",
-    "roots": [{"root":"sup-","meaning":"under"},{"root":"pos","meaning":"put"}]
+    "roots": [{"root":"sup-","meaning":"under"},{"root":"pose","meaning":"put"}]
   },
   {
     "word": ["surname", "family name", "last name"],

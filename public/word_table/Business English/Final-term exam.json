@@ -5,7 +5,7 @@
 "english_explanations": ["A person who writes computer programs or software."],
 "chinese_translations": ["程序设计员", "程序员"],
 "example_sentences": "I'm a computer programmer with Lenovo.",
-"roots": [{"root":"pro-","meaning":"forth"},{"root":"gram","meaning":"write"},{"root":"-er","meaning":"one who"}]
+"roots": [{"root":"pro-","meaning":"forth"},{"root":"gramm","meaning":"write"},{"root":"-er","meaning":"one who"}]
 },
 {
 "word": ["rewarding"],
@@ -232,7 +232,7 @@
 "english_explanations": ["A person with a high-ranking position in a company, responsible for making important decisions."],
 "chinese_translations": ["高管", "行政人员", "主管"],
 "example_sentences": "If a visitor wants to meet an executive in a large company, he should make an appointment.",
-"roots": [{"root":"ex-","meaning":"out"},{"root":"secut","meaning":"follow"},{"root":"-ive","meaning":"adj"}]
+"roots": [{"root":"ex-","meaning":"out"},{"root":"ecut","meaning":"follow"},{"root":"-ive","meaning":"adj"}]
 },
 {
 "word": ["receptionist"],

@@ -28,6 +28,13 @@ function validateWord(word, fileLabel) {
   if (Array.isArray(word.roots) && !word.roots.every(r => r && typeof r === 'object' && typeof r.root === 'string' && r.root.trim() && typeof r.meaning === 'string' && r.meaning.trim())) {
     throw new Error(`${fileLabel}: roots 每项必须是含非空 root 与 meaning 的对象`)
   }
+  if (Array.isArray(word.roots) && word.roots.length > 0) {
+    const joined = word.roots.map(r => r.root).join('').replace(/-/g, '').toLowerCase()
+    const variants = word.word.map(w => w.replace(/-/g, '').toLowerCase())
+    if (!variants.includes(joined)) {
+      throw new Error(`${fileLabel}: 词根拼接结果 "${joined}" 不等于单词 "${word.word.join('/')}"`)
+    }
+  }
 }
 
 function validateFile(content, filePath) {

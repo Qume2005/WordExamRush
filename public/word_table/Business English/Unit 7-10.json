@@ -655,7 +655,7 @@
     "english_explanations": ["An additional part of a building or telephone line; an extra period of time."],
     "chinese_translations": ["分机", "延期", "扩展"],
     "example_sentences": "My extension is 452; please call me anytime.",
-    "roots": [{"root":"ex-","meaning":"out"},{"root":"tend","meaning":"stretch"},{"root":"-sion","meaning":"act of"}]
+    "roots": [{"root":"ex-","meaning":"out"},{"root":"tens","meaning":"stretch"},{"root":"-ion","meaning":"act of"}]
   },
   {
     "word": ["have a word with"],
@@ -705,7 +705,7 @@
     "english_explanations": ["Causing strong reactions, interest, or debate; deliberately controversial."],
     "chinese_translations": ["挑衅的", "刺激性的", "发人深省的"],
     "example_sentences": "The speaker raised several provocative questions.",
-    "roots": [{"root":"pro-","meaning":"forward"},{"root":"vok","meaning":"call"},{"root":"-ative","meaning":"tending to"}]
+    "roots": [{"root":"pro-","meaning":"forward"},{"root":"voc","meaning":"call"},{"root":"-ative","meaning":"tending to"}]
   },
   {
     "word": ["quality"],
@@ -797,7 +797,7 @@
     "english_explanations": ["To distribute resources or duties for a particular purpose."],
     "chinese_translations": ["分配", "配置"],
     "example_sentences": "We need to allocate more funds to research and development.",
-    "roots": [{"root":"ad-","meaning":"to"},{"root":"loc","meaning":"place"},{"root":"-ate","meaning":"verb suffix"}]
+    "roots": [{"root":"al-","meaning":"to"},{"root":"loc","meaning":"place"},{"root":"-ate","meaning":"verb suffix"}]
   },
   {
     "word": ["analysis"],

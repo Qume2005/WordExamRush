@@ -55,7 +55,7 @@
     "english_explanations": ["To study or examine something in detail in order to understand it or explain it."],
     "chinese_translations": ["分析", "解析"],
     "example_sentences": "We need to analyse the data carefully before drawing any conclusions.",
-    "roots": [{"root":"ana-","meaning":"up"},{"root":"lys","meaning":"loosen"}]
+    "roots": [{"root":"ana-","meaning":"up"},{"root":"lyse","meaning":"loosen"}]
   },
   {
     "word": ["artificial intelligence"],
@@ -127,7 +127,7 @@
     "english_explanations": ["To examine the similarities and differences between two or more things."],
     "chinese_translations": ["比较", "对比"],
     "example_sentences": "It is useful to compare traditional teaching methods with modern digital approaches.",
-    "roots": [{"root":"com-","meaning":"together"},{"root":"par","meaning":"arrange"}]
+    "roots": [{"root":"com-","meaning":"together"},{"root":"pare","meaning":"arrange"}]
   },
   {
     "word": ["confirm"],
@@ -166,7 +166,7 @@
     "english_explanations": ["To determine the behavior or supervise the running of something."],
     "chinese_translations": ["控制", "管理", "监督"],
     "example_sentences": "The study used a control group to isolate the effects of the new teaching method.",
-    "roots": [{"root":"contr-","meaning":"against"},{"root":"rol","meaning":"roll"}]
+    "roots": [{"root":"con-","meaning":"against"},{"root":"trol","meaning":"roll"}]
   },
   {
     "word": ["correlation"],
@@ -289,7 +289,7 @@
     "english_explanations": ["To give someone the authority or means to do something."],
     "chinese_translations": ["使能够", "赋能", "促成"],
     "example_sentences": "Technology can enable students to access educational resources beyond the physical classroom.",
-    "roots": [{"root":"en-","meaning":"to make"},{"root":"abl","meaning":"able"}]
+    "roots": [{"root":"en-","meaning":"to make"},{"root":"able","meaning":"able"}]
   },
   {
     "word": ["engage", "engagement"],
@@ -348,7 +348,7 @@
     "english_explanations": ["To travel through or look around a place or subject to learn about it, or to inquire into in detail."],
     "chinese_translations": ["探索", "探究", "研究"],
     "example_sentences": "Students are encouraged to explore multiple perspectives before forming an opinion.",
-    "roots": [{"root":"ex-","meaning":"out"},{"root":"plor","meaning":"cry out"}]
+    "roots": [{"root":"ex-","meaning":"out"},{"root":"plore","meaning":"cry out"}]
   },
   {
     "word": ["external factors"],
@@ -414,7 +414,7 @@
     "english_explanations": ["To make or become greater in size, amount, or degree."],
     "chinese_translations": ["增加", "增长", "提高"],
     "example_sentences": "The school aims to increase student retention rates through improved support services.",
-    "roots": [{"root":"in-","meaning":"into"},{"root":"creas","meaning":"grow"}]
+    "roots": [{"root":"in-","meaning":"into"},{"root":"crease","meaning":"grow"}]
   },
   {
     "word": ["inequalities"],
@@ -422,7 +422,7 @@
     "english_explanations": ["Differences in size, degree, or circumstances that are perceived as unfair or unjust."],
     "chinese_translations": ["不平等", "不均衡", "差异"],
     "example_sentences": "Educational inequalities often reflect broader socioeconomic divisions in society.",
-    "roots": [{"root":"in-","meaning":"not"},{"root":"equ","meaning":"equal"},{"root":"-al","meaning":"relating to"},{"root":"-ity","meaning":"state"},{"root":"-s","meaning":"plural"}]
+    "roots": [{"root":"in-","meaning":"not"},{"root":"equal","meaning":"equal"},{"root":"-ities","meaning":"plural, state"}]
   },
   {
     "word": ["innovation-focused"],
@@ -547,7 +547,7 @@
     "english_explanations": ["A system of methods used in a particular area of study or activity."],
     "chinese_translations": ["方法论", "研究方法"],
     "example_sentences": "The methodology section explains how data was collected and analyzed.",
-    "roots": [{"root":"meth-","meaning":"after"},{"root":"hod","meaning":"way"},{"root":"-ology","meaning":"study of"}]
+    "roots": [{"root":"met-","meaning":"after"},{"root":"hod","meaning":"way"},{"root":"-ology","meaning":"study of"}]
   },
   {
     "word": ["minimize risks"],
@@ -740,7 +740,7 @@
     "english_explanations": ["To take the place of something or someone that was there previously."],
     "chinese_translations": ["替代", "取代", "更换"],
     "example_sentences": "Technology should augment rather than replace the essential role of human teachers.",
-    "roots": [{"root":"re-","meaning":"again"},{"root":"plac","meaning":"place"}]
+    "roots": [{"root":"re-","meaning":"again"},{"root":"place","meaning":"place"}]
   },
   {
     "word": ["report"],

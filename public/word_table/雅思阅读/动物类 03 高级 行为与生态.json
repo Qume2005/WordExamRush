@@ -100,7 +100,7 @@
     ],
     "chinese_translations": ["浮游动物"],
     "example_sentences": "Zooplankton swarm in the sunlit surface waters.",
-    "roots": [{"root":"zoo-","meaning":"animal"},{"root":"plankt","meaning":"wandering"}]
+    "roots": [{"root":"zoo-","meaning":"animal"},{"root":"plankt","meaning":"wandering"},{"root":"-on","meaning":"noun form"}]
   },
   {
     "word": ["phytoplankton"],
@@ -110,7 +110,7 @@
     ],
     "chinese_translations": ["浮游植物"],
     "example_sentences": "Phytoplankton produce much of the ocean's oxygen.",
-    "roots": [{"root":"phyto-","meaning":"plant"},{"root":"plankt","meaning":"wandering"}]
+    "roots": [{"root":"phyto-","meaning":"plant"},{"root":"plankt","meaning":"wandering"},{"root":"-on","meaning":"noun form"}]
   },
   {
     "word": ["generalist"],
@@ -183,7 +183,7 @@
     "english_explanations": ["To eat up eagerly and completely."],
     "chinese_translations": ["吞食", "狼吞虎咽地吃"],
     "example_sentences": "The chicks devour whatever the parents bring.",
-    "roots": [{"root":"de-","meaning":"completely"},{"root":"vor","meaning":"swallow"}]
+    "roots": [{"root":"de-","meaning":"completely"},{"root":"vour","meaning":"swallow"}]
   },
   {
     "word": ["ingest"],
@@ -213,7 +213,7 @@
     ],
     "chinese_translations": ["波动", "起伏摆动"],
     "example_sentences": "Eels swim by undulation of the whole body.",
-    "roots": [{"root":"und","meaning":"wave"},{"root":"-ation","meaning":"process of"}]
+    "roots": [{"root":"undul","meaning":"wave"},{"root":"-ation","meaning":"process of"}]
   },
   {
     "word": ["propulsion", "propulsive"],
