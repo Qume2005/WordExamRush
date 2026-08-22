@@ -7,6 +7,14 @@ import {
   isQuizComplete,
   calcProgressPercent,
 } from '../business/quizEngine'
+import {
+  isMuted,
+  toggleMuted,
+  playCorrect,
+  playWrong,
+  playUnknown,
+  playComboMilestone,
+} from '../business/soundManager'
 import QuizCard from './QuizCard.vue'
 import ResultReveal from './ResultReveal.vue'
 
@@ -21,6 +29,11 @@ const currentCard = ref(null)
 const answerResult = ref(null)
 const isRevealing = ref(false)
 const selectedIndex = ref(-1)
+const streak = ref(0)
+const muted = ref(isMuted())
+const questionIndex = ref(0)
+const progressFillEl = ref(null)
+const cardWrapEl = ref(null)
 
 const wordMap = computed(() => {
   const m = new Map()
@@ -54,6 +67,7 @@ function loadNextCard() {
   }
 
   currentCard.value = createNextCard(wordId, props.words)
+  questionIndex.value++
 }
 
 function recordResult(isCorrect, optionIndex) {
@@ -72,6 +86,20 @@ function recordResult(isCorrect, optionIndex) {
 
   recordAnswer(props.progressMap, result)
   answerResult.value = result
+  if (result.isCorrect) {
+    streak.value++
+    playCorrect(streak.value)
+    flashProgress()
+    if (streak.value % 5 === 0) playComboMilestone()
+  } else {
+    streak.value = 0
+    if (result.selectedIndex >= 0) {
+      playWrong()
+      shakeCard()
+    } else {
+      playUnknown()
+    }
+  }
   isRevealing.value = true
   selectedIndex.value = optionIndex
   emit('save-progress')
@@ -113,6 +141,29 @@ function onKeydown(e) {
   }
 }
 
+function flashProgress() {
+  if (matchMedia('(prefers-reduced-motion: reduce)').matches) return
+  progressFillEl.value?.animate(
+    [{ filter: 'brightness(1)' }, { filter: 'brightness(1.6)' }, { filter: 'brightness(1)' }],
+    { duration: 350, easing: 'ease-out' }
+  )
+}
+
+function shakeCard() {
+  if (matchMedia('(prefers-reduced-motion: reduce)').matches) return
+  cardWrapEl.value?.animate(
+    [
+      { transform: 'translateX(0)' },
+      { transform: 'translateX(-8px)' },
+      { transform: 'translateX(8px)' },
+      { transform: 'translateX(-5px)' },
+      { transform: 'translateX(5px)' },
+      { transform: 'translateX(0)' }
+    ],
+    { duration: 400 }
+  )
+}
+
 onMounted(() => {
   loadNextCard()
   window.addEventListener('keydown', onKeydown)
@@ -128,29 +179,38 @@ onUnmounted(() => {
     <div class="top-bar">
       <div class="progress-bar-wrapper">
         <div class="progress-bar-track">
-          <div class="progress-bar-fill" :style="{ width: progressPercent + '%' }"></div>
+          <div class="progress-bar-fill" ref="progressFillEl" :style="{ width: progressPercent + '%' }"></div>
         </div>
         <span class="progress-bar-text">{{ progressText }}</span>
       </div>
+      <div v-if="streak >= 2" :class="['streak-chip', { 'streak-chip--hot': streak >= 5 }]">
+        <span :key="streak" class="streak-pop">🔥 ×{{ streak }}</span>
+      </div>
       <div class="top-actions">
-        <button class="action-btn" @click="emit('back')" title="返回选择">&#8592; 返回</button>
+        <button class="action-btn" @click="emit('back')" title="返回选择">← 返回</button>
         <button class="action-btn action-btn--danger" @click="emit('reset-progress')" title="重置进度">重置进度</button>
+        <button class="action-btn" @click="muted = toggleMuted()" :title="muted ? '开启音效' : '静音'">{{ muted ? '🔇' : '🔊' }}</button>
       </div>
     </div>
-    <QuizCard
-      v-if="currentCard"
-      :card="currentCard"
-      :disabled="isRevealing"
-      :selected-index="selectedIndex"
-      @answer="onAnswer"
-      @dont-know="onDontKnow"
-    />
-    <ResultReveal
-      v-if="isRevealing && answerResult && targetWord"
-      :result="answerResult"
-      :target-word="targetWord"
-      @next="onNext"
-    />
+    <Transition name="card" mode="out-in">
+      <div v-if="currentCard" :key="questionIndex" ref="cardWrapEl" class="card-wrap">
+        <QuizCard
+          :card="currentCard"
+          :disabled="isRevealing"
+          :selected-index="selectedIndex"
+          @answer="onAnswer"
+          @dont-know="onDontKnow"
+        />
+      </div>
+    </Transition>
+    <Transition name="reveal">
+      <ResultReveal
+        v-if="isRevealing && answerResult && targetWord"
+        :result="answerResult"
+        :target-word="targetWord"
+        @next="onNext"
+      />
+    </Transition>
   </div>
 </template>
 
@@ -167,6 +227,7 @@ onUnmounted(() => {
   align-items: center;
   gap: 12px;
   margin-bottom: 20px;
+  flex-wrap: wrap;
 }
 
 .progress-bar-wrapper {
@@ -226,5 +287,66 @@ onUnmounted(() => {
   border-color: var(--color-danger);
   color: var(--color-danger);
   background: var(--color-danger-light);
+}
+
+.streak-chip {
+  padding: 4px 12px;
+  border-radius: 999px;
+  background: var(--color-primary-light);
+  color: var(--color-primary);
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.streak-pop {
+  display: inline-block;
+  animation: streak-pop 0.32s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+@keyframes streak-pop {
+  0% { transform: scale(1) }
+  50% { transform: scale(1.25) }
+  100% { transform: scale(1) }
+}
+
+.streak-chip--hot {
+  color: #e8590c;
+  background: #fff4e6;
+  animation: hot-breathe 2s ease-in-out infinite alternate;
+}
+
+@keyframes hot-breathe {
+  0% { box-shadow: 0 0 0 rgba(232, 89, 12, 0) }
+  100% { box-shadow: 0 0 8px rgba(232, 89, 12, 0.35) }
+}
+
+.card-wrap {
+  /* shake animation target wrapper */
+}
+
+.card-enter-active {
+  transition: opacity 0.25s ease, transform 0.25s ease;
+}
+
+.card-leave-active {
+  transition: opacity 0.15s ease;
+}
+
+.card-enter-from {
+  opacity: 0;
+  transform: translateY(12px);
+}
+
+.card-leave-to {
+  opacity: 0;
+}
+
+.reveal-enter-active {
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.reveal-enter-from {
+  opacity: 0;
+  transform: translateY(8px);
 }
 </style>
