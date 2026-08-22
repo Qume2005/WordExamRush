@@ -15,6 +15,7 @@ import {
   playUnknown,
   playComboMilestone,
   playFinish,
+  speakWord,
 } from '../business/soundManager'
 import QuizCard from './QuizCard.vue'
 import ResultReveal from './ResultReveal.vue'
@@ -129,6 +130,22 @@ function isModifierKey(e) {
 
 function onKeydown(e) {
   if (!currentCard.value || isModifierKey(e)) return
+
+  // p 键发音：答题时仅英文单词题面可读（其余模式读了会泄露答案），
+  // 揭示后读目标单词，与点击揭示区单词一致；长按不重复读
+  if (e.key.toLowerCase() === 'p') {
+    if (e.repeat) return
+    e.preventDefault()
+    if (isRevealing.value) {
+      if (targetWord.value) speakWord(targetWord.value.word[0])
+    } else if (
+      currentCard.value.mode === 'en-to-zh' ||
+      currentCard.value.mode === 'en-to-synonym'
+    ) {
+      speakWord(currentCard.value.prompt)
+    }
+    return
+  }
 
   if (isRevealing.value) {
     e.preventDefault()
