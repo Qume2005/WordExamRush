@@ -74,3 +74,17 @@ body {
 .btn-primary:active {
   transform: scale(0.97);
 }
+
+/* 无障碍：减少动态效果偏好时停用动画
+   （WAAPI 的 P7 闪光/P3 卡抖不受此 CSS 守卫覆盖，
+    已由 QuizScreen 内 matchMedia JS guard 独立守卫，
+    改动时须保持两处守卫） */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

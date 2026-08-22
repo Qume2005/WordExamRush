@@ -1,7 +1,12 @@
 <script setup>
 import { ref, onMounted, onUnmounted } from 'vue'
 import { createProgressMap, createEmptyProgress } from './business/quizEngine'
-import { saveFileProgress, saveFolderProgress, saveSession, clearSession } from './business/progressStorage'
+import {
+  saveFileProgress,
+  saveFolderProgress,
+  saveSession,
+  clearSession,
+} from './business/progressStorage'
 import InputScreen from './components/InputScreen.vue'
 import WordDetailScreen from './components/WordDetailScreen.vue'
 import QuizScreen from './components/QuizScreen.vue'

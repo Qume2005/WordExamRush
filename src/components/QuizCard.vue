@@ -65,19 +65,34 @@ function handleSelect(index) {
           @click="handleSelect(index)"
         >
           <span v-if="isDesktop && selectedIndex === -1" class="key-hint">{{ index + 1 }}</span>
-          <span v-if="selectedIndex !== -1 && opt.isCorrect" class="icon icon-correct">&#10003;</span>
-          <span v-if="selectedIndex === index && !opt.isCorrect" class="icon icon-wrong">&#10007;</span>
-          <span v-if="selectedIndex === -1 && disabled && opt.isCorrect" class="icon icon-correct">&#10003;</span>
+          <span
+            v-if="selectedIndex !== -1 && opt.isCorrect"
+            class="icon icon-correct"
+          >&#10003;</span>
+          <span
+            v-if="selectedIndex === index && !opt.isCorrect"
+            class="icon icon-wrong"
+          >&#10007;</span>
+          <span
+            v-if="selectedIndex === -1 && disabled && opt.isCorrect"
+            class="icon icon-correct"
+          >&#10003;</span>
           {{ opt.label }}
         </button>
       </template>
       <button
         v-if="(selectedIndex === -1 && !disabled) || isDesktop"
-        :class="['option-btn', disabled && selectedIndex === -1 ? 'option-btn--unknown' : 'option-btn--dont-know']"
+        :class="[
+          'option-btn',
+          disabled && selectedIndex === -1 ? 'option-btn--unknown' : 'option-btn--dont-know',
+        ]"
         :disabled="disabled"
         @click="emit('dont-know')"
       >
-        <span v-if="isDesktop && selectedIndex === -1" class="key-hint key-hint--wide">任意键</span>
+        <span
+          v-if="isDesktop && selectedIndex === -1"
+          class="key-hint key-hint--wide"
+        >任意键</span>
         <span v-if="disabled && selectedIndex === -1" class="icon icon-unknown">&#33;</span>
         不知道
       </button>

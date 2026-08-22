@@ -184,7 +184,11 @@ onUnmounted(() => {
     <div class="top-bar">
       <div class="progress-bar-wrapper">
         <div class="progress-bar-track">
-          <div class="progress-bar-fill" ref="progressFillEl" :style="{ width: progressPercent + '%' }"></div>
+          <div
+            class="progress-bar-fill"
+            ref="progressFillEl"
+            :style="{ width: progressPercent + '%' }"
+          ></div>
         </div>
         <span class="progress-bar-text">{{ progressText }}</span>
       </div>
@@ -193,8 +197,16 @@ onUnmounted(() => {
       </div>
       <div class="top-actions">
         <button class="action-btn" @click="emit('back')" title="返回选择">← 返回</button>
-        <button class="action-btn action-btn--danger" @click="emit('reset-progress')" title="重置进度">重置进度</button>
-        <button class="action-btn" @click="muted = toggleMuted()" :title="muted ? '开启音效' : '静音'">{{ muted ? '🔇' : '🔊' }}</button>
+        <button
+          class="action-btn action-btn--danger"
+          @click="emit('reset-progress')"
+          title="重置进度"
+        >重置进度</button>
+        <button
+          class="action-btn"
+          @click="muted = toggleMuted()"
+          :title="muted ? '开启音效' : '静音'"
+        >{{ muted ? '🔇' : '🔊' }}</button>
       </div>
     </div>
     <ConfettiBurst v-if="showConfetti" @done="showConfetti = false" />

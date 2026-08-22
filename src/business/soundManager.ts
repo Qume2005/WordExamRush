@@ -11,7 +11,9 @@ let ctx: AudioContext | null = null
 
 /** 获取或创建 AudioContext，处理 webkit 前缀与 suspended 状态 */
 function getCtx(): AudioContext | null {
-  const AC = window.AudioContext ?? (window as unknown as { webkitAudioContext?: typeof AudioContext }).webkitAudioContext
+  const AC =
+    window.AudioContext ??
+    (window as unknown as { webkitAudioContext?: typeof AudioContext }).webkitAudioContext
   if (!AC) return null
   if (!ctx) ctx = new AC()
   if (ctx.state === 'suspended') void ctx.resume()
