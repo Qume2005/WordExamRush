@@ -95,7 +95,8 @@
     "english_synonyms": ["donation", "input", "addition", "commitment"],
     "english_explanations": ["Something given or contributed towards a common purpose or goal."],
     "chinese_translations": ["贡献", "捐款"],
-    "example_sentences": "Her contribution to the project was invaluable."
+    "example_sentences": "Her contribution to the project was invaluable.",
+    "roots": [{"root":"con-","meaning":"together"},{"root":"tribut","meaning":"give"},{"root":"-ion","meaning":"act of"}]
   },
   {
     "word": ["corporation"],
@@ -179,7 +180,8 @@
     "english_synonyms": ["reserved", "shy", "reticent", "inward-looking"],
     "english_explanations": ["Characterized by a preference for quiet, solitary environments and introspection."],
     "chinese_translations": ["内向的"],
-    "example_sentences": "Introverted employees often excel in focused, independent work."
+    "example_sentences": "Introverted employees often excel in focused, independent work.",
+    "roots": [{"root":"intro-","meaning":"inward"},{"root":"vert","meaning":"turn"},{"root":"-ed","meaning":"having the quality of"}]
   },
   {
     "word": ["major"],
@@ -312,7 +314,8 @@
     "english_synonyms": ["shorthand typist", "court reporter"],
     "english_explanations": ["A person who types in shorthand to transcribe speech."],
     "chinese_translations": ["速记员", "速记打字员"],
-    "example_sentences": "The stenographer recorded the entire meeting."
+    "example_sentences": "The stenographer recorded the entire meeting.",
+    "roots": [{"root":"steno","meaning":"narrow"},{"root":"graph","meaning":"write"},{"root":"-er","meaning":"person who"}]
   },
   {
     "word": ["stretch"],
@@ -473,7 +476,8 @@
     "english_synonyms": ["cameraman", "lensman", "shutterbug"],
     "english_explanations": ["A person who takes photographs, especially as a job."],
     "chinese_translations": ["摄影师"],
-    "example_sentences": "We hired a professional photographer for the product shoot."
+    "example_sentences": "We hired a professional photographer for the product shoot.",
+    "roots": [{"root":"photo","meaning":"light"},{"root":"graph","meaning":"write"},{"root":"-er","meaning":"person who"}]
   },
   {
     "word": ["programmer"],
@@ -557,7 +561,8 @@
     "english_synonyms": ["branch", "affiliate", "division", "offshoot"],
     "english_explanations": ["A company controlled by a parent company; secondary in importance."],
     "chinese_translations": ["子公司", "附属的"],
-    "example_sentences": "The company has several overseas subsidiaries."
+    "example_sentences": "The company has several overseas subsidiaries.",
+    "roots": [{"root":"sub-","meaning":"under"},{"root":"sid","meaning":"sit"},{"root":"-iary","meaning":"relating to"}]
   },
   {
     "word": ["vice president"],
@@ -627,7 +632,8 @@
     "english_synonyms": ["interruption", "disturbance", "diversion", "interference"],
     "english_explanations": ["A thing that prevents someone from concentrating on something else."],
     "chinese_translations": ["分心", "干扰"],
-    "example_sentences": "Noise from the street was a constant distraction."
+    "example_sentences": "Noise from the street was a constant distraction.",
+    "roots": [{"root":"dis-","meaning":"apart"},{"root":"tract","meaning":"pull"},{"root":"-ion","meaning":"act of"}]
   },
   {
     "word": ["engaged"],
@@ -648,7 +654,8 @@
     "english_synonyms": ["addition", "expansion", "prolongation", "annex"],
     "english_explanations": ["An additional part of a building or telephone line; an extra period of time."],
     "chinese_translations": ["分机", "延期", "扩展"],
-    "example_sentences": "My extension is 452; please call me anytime."
+    "example_sentences": "My extension is 452; please call me anytime.",
+    "roots": [{"root":"ex-","meaning":"out"},{"root":"tend","meaning":"stretch"},{"root":"-sion","meaning":"act of"}]
   },
   {
     "word": ["have a word with"],
@@ -697,7 +704,8 @@
     "english_synonyms": ["challenging", "stimulating", "controversial", "inflammatory"],
     "english_explanations": ["Causing strong reactions, interest, or debate; deliberately controversial."],
     "chinese_translations": ["挑衅的", "刺激性的", "发人深省的"],
-    "example_sentences": "The speaker raised several provocative questions."
+    "example_sentences": "The speaker raised several provocative questions.",
+    "roots": [{"root":"pro-","meaning":"forward"},{"root":"vok","meaning":"call"},{"root":"-ative","meaning":"tending to"}]
   },
   {
     "word": ["quality"],
@@ -788,7 +796,8 @@
     "english_synonyms": ["assign", "distribute", "allot", "apportion"],
     "english_explanations": ["To distribute resources or duties for a particular purpose."],
     "chinese_translations": ["分配", "配置"],
-    "example_sentences": "We need to allocate more funds to research and development."
+    "example_sentences": "We need to allocate more funds to research and development.",
+    "roots": [{"root":"ad-","meaning":"to"},{"root":"loc","meaning":"place"},{"root":"-ate","meaning":"verb suffix"}]
   },
   {
     "word": ["analysis"],
@@ -823,7 +832,8 @@
     "english_synonyms": ["allocate", "dispense", "hand out", "spread"],
     "english_explanations": ["To give out shares of something; to spread over an area."],
     "chinese_translations": ["分配", "分发", "经销"],
-    "example_sentences": "The company distributes its products worldwide."
+    "example_sentences": "The company distributes its products worldwide.",
+    "roots": [{"root":"dis-","meaning":"apart"},{"root":"tribut","meaning":"give"},{"root":"-e","meaning":"verb ending"}]
   },
   {
     "word": ["embarrassing"],
@@ -893,21 +903,24 @@
     "english_synonyms": ["efficient", "fruitful", "effective", "profitable"],
     "english_explanations": ["Achieving a significant amount or result; producing large amounts of goods or crops."],
     "chinese_translations": ["高效的", "多产的"],
-    "example_sentences": "The meeting was very productive, with several decisions made."
+    "example_sentences": "The meeting was very productive, with several decisions made.",
+    "roots": [{"root":"pro-","meaning":"forward"},{"root":"duct","meaning":"lead"},{"root":"-ive","meaning":"having the quality of"}]
   },
   {
     "word": ["projector"],
     "english_synonyms": ["overhead projector", "digital projector", "display device"],
     "english_explanations": ["An apparatus for projecting images or video onto a screen."],
     "chinese_translations": ["投影仪"],
-    "example_sentences": "We need a projector for the conference room presentation."
+    "example_sentences": "We need a projector for the conference room presentation.",
+    "roots": [{"root":"pro-","meaning":"forward"},{"root":"ject","meaning":"throw"},{"root":"-or","meaning":"device that"}]
   },
   {
     "word": ["proposal"],
     "english_synonyms": ["suggestion", "plan", "tender", "proposition"],
     "english_explanations": ["A plan or suggestion put forward for consideration or discussion."],
     "chinese_translations": ["提案", "建议", "投标"],
-    "example_sentences": "The committee approved the proposal for the new project."
+    "example_sentences": "The committee approved the proposal for the new project.",
+    "roots": [{"root":"pro-","meaning":"forward"},{"root":"pos","meaning":"put"},{"root":"-al","meaning":"act of"}]
   },
   {
     "word": ["quota"],
@@ -949,7 +962,8 @@
     "english_synonyms": ["colleague", "partner", "connect", "relate"],
     "english_explanations": ["A person connected to an organization; to connect or join with something."],
     "chinese_translations": ["同事", "伙伴", "联想", "关联"],
-    "example_sentences": "He is a business associate of many years."
+    "example_sentences": "He is a business associate of many years.",
+    "roots": [{"root":"as-","meaning":"to"},{"root":"soci","meaning":"join"},{"root":"-ate","meaning":"verb suffix"}]
   },
   {
     "word": ["boarding pass"],
@@ -1019,7 +1033,8 @@
     "english_synonyms": ["exhibition", "trade fair", "show", "display"],
     "english_explanations": ["A large-scale public exhibition or show of industrial or commercial products."],
     "chinese_translations": ["博览会", "展览会"],
-    "example_sentences": "The company showcased its new products at the exposition."
+    "example_sentences": "The company showcased its new products at the exposition.",
+    "roots": [{"root":"ex-","meaning":"out"},{"root":"pos","meaning":"put"},{"root":"-ition","meaning":"act of"}]
   },
   {
     "word": ["fasten"],
@@ -1096,7 +1111,8 @@
     "english_synonyms": ["booking", "advance arrangement", "hold"],
     "english_explanations": ["An arrangement to have something held for one's use at a future time."],
     "chinese_translations": ["预订", "预约"],
-    "example_sentences": "I made a reservation at the restaurant for 7 PM."
+    "example_sentences": "I made a reservation at the restaurant for 7 PM.",
+    "roots": [{"root":"re-","meaning":"back"},{"root":"serv","meaning":"keep"},{"root":"-ation","meaning":"act of"}]
   },
   {
     "word": ["round-trip"],
@@ -1166,7 +1182,8 @@
     "english_synonyms": ["dealer", "wholesaler", "supplier", "agent"],
     "english_explanations": ["An agent or company that supplies goods to retailers or customers."],
     "chinese_translations": ["经销商", "分销商"],
-    "example_sentences": "We are looking for a new distributor in the Asian market."
+    "example_sentences": "We are looking for a new distributor in the Asian market.",
+    "roots": [{"root":"dis-","meaning":"apart"},{"root":"tribut","meaning":"give"},{"root":"-or","meaning":"one who"}]
   },
   {
     "word": ["E-Business Platform"],
@@ -1418,7 +1435,8 @@
     "english_synonyms": ["forerunner", "precursor", "ancestor", "former holder"],
     "english_explanations": ["A person who held a job or office before the current holder; something that came before."],
     "chinese_translations": ["前任", "前辈", "前身"],
-    "example_sentences": "The new model is more efficient than its predecessor."
+    "example_sentences": "The new model is more efficient than its predecessor.",
+    "roots": [{"root":"pre-","meaning":"before"},{"root":"decess","meaning":"go"},{"root":"-or","meaning":"person"}]
   },
   {
     "word": ["preview"],
@@ -1439,7 +1457,8 @@
     "english_synonyms": ["repayment", "reimbursement", "rebate", "return"],
     "english_explanations": ["A repayment of a sum of money, typically to a dissatisfied customer."],
     "chinese_translations": ["退款", "退还"],
-    "example_sentences": "If you are not satisfied, we offer a full refund within 30 days."
+    "example_sentences": "If you are not satisfied, we offer a full refund within 30 days.",
+    "roots": [{"root":"re-","meaning":"back"},{"root":"fund","meaning":"money"}]
   },
   {
     "word": ["retail"],
@@ -1593,7 +1612,8 @@
     "english_synonyms": ["process", "method", "protocol", "step"],
     "english_explanations": ["An established or official way of doing something; a series of actions."],
     "chinese_translations": ["程序", "步骤", "手续"],
-    "example_sentences": "Please follow the standard procedure for reporting incidents."
+    "example_sentences": "Please follow the standard procedure for reporting incidents.",
+    "roots": [{"root":"pro-","meaning":"forward"},{"root":"ced","meaning":"go"},{"root":"-ure","meaning":"act of"}]
   },
   {
     "word": ["register"],
@@ -1663,7 +1683,8 @@
     "english_synonyms": ["satisfactory", "adequate", "tolerable", "permissible"],
     "english_explanations": ["Able to be agreed on; satisfactory; adequate though not outstanding."],
     "chinese_translations": ["可接受的", "令人满意的"],
-    "example_sentences": "The quality of the product is acceptable for the price."
+    "example_sentences": "The quality of the product is acceptable for the price.",
+    "roots": [{"root":"ac-","meaning":"to"},{"root":"cept","meaning":"take"},{"root":"-able","meaning":"capable of"}]
   },
   {
     "word": ["bamboo shoot"],
@@ -1824,14 +1845,16 @@
     "english_synonyms": ["vegan", "plant-based eater", "herbivore"],
     "english_explanations": ["A person who does not eat meat; food suitable for such a person."],
     "chinese_translations": ["素食者", "素食的"],
-    "example_sentences": "Do you have any vegetarian options on the menu?"
+    "example_sentences": "Do you have any vegetarian options on the menu?",
+    "roots": [{"root":"veget","meaning":"live"},{"root":"-arian","meaning":"relating to"}]
   },
   {
     "word": ["domestic"],
     "english_synonyms": ["internal", "home", "household", "native"],
     "english_explanations": ["Existing or occurring inside a particular country; relating to the home or family."],
     "chinese_translations": ["国内的", "家庭的"],
-    "example_sentences": "Domestic flights are usually cheaper than international ones."
+    "example_sentences": "Domestic flights are usually cheaper than international ones.",
+    "roots": [{"root":"dom-","meaning":"house"},{"root":"est","meaning":"est"},{"root":"-ic","meaning":"relating to"}]
   },
   {
     "word": ["domestic market"],
@@ -1873,7 +1896,8 @@
     "english_synonyms": ["stock", "supply", "goods", "checklist"],
     "english_explanations": ["A complete list of items such as property, goods in stock, or contents."],
     "chinese_translations": ["库存", "存货清单"],
-    "example_sentences": "We need to take inventory of all warehouse stock."
+    "example_sentences": "We need to take inventory of all warehouse stock.",
+    "roots": [{"root":"in-","meaning":"in"},{"root":"vent","meaning":"come"},{"root":"-ory","meaning":"place for"}]
   },
   {
     "word": ["maintenance"],
@@ -1950,7 +1974,8 @@
     "english_synonyms": ["important", "substantial", "considerable", "meaningful"],
     "english_explanations": ["Sufficiently great or important to be worthy of attention; having meaning."],
     "chinese_translations": ["重要的", "显著的", "有意义的"],
-    "example_sentences": "There has been a significant improvement in performance."
+    "example_sentences": "There has been a significant improvement in performance.",
+    "roots": [{"root":"sign","meaning":"mark"},{"root":"-ific","meaning":"make"},{"root":"-ant","meaning":"adjective suffix"}]
   },
   {
     "word": ["steadily"],
@@ -1985,7 +2010,8 @@
     "english_synonyms": ["upright", "perpendicular", "longitudinal", "up-and-down"],
     "english_explanations": ["At right angles to a horizontal plane; involving companies at different stages of production."],
     "chinese_translations": ["垂直的", "纵向的"],
-    "example_sentences": "The chart shows a vertical line indicating the target."
+    "example_sentences": "The chart shows a vertical line indicating the target.",
+    "roots": [{"root":"vert","meaning":"turn"},{"root":"-ical","meaning":"relating to"}]
   },
   {
     "word": ["year-on-year growth"],

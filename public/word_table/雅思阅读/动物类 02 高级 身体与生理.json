@@ -6,7 +6,8 @@
       "A bird's feathers collectively, including their colour and condition."
     ],
     "chinese_translations": ["全身羽毛", "羽毛"],
-    "example_sentences": "Male birds display bright plumage to attract mates."
+    "example_sentences": "Male birds display bright plumage to attract mates.",
+    "roots": [{"root":"plum","meaning":"feather"},{"root":"-age","meaning":"state or collection"}]
   },
   {
     "word": ["forelimb"],
@@ -15,7 +16,8 @@
       "Either of the front limbs of a four-legged animal, such as a wing or front leg."
     ],
     "chinese_translations": ["前肢"],
-    "example_sentences": "Whales' forelimbs evolved into flippers."
+    "example_sentences": "Whales' forelimbs evolved into flippers.",
+    "roots": [{"root":"fore-","meaning":"front"},{"root":"limb","meaning":"limb"}]
   },
   {
     "word": ["hindquarters"],
@@ -33,7 +35,8 @@
       "Relating to the chest or breast, such as a pectoral fin."
     ],
     "chinese_translations": ["胸的", "胸鳍的"],
-    "example_sentences": "The pectoral fins steer the fish through the water."
+    "example_sentences": "The pectoral fins steer the fish through the water.",
+    "roots": [{"root":"pect","meaning":"breast"},{"root":"-oral","meaning":"relating to"}]
   },
   {
     "word": ["ventral"],
@@ -42,7 +45,8 @@
       "Relating to the underside or belly of an animal's body."
     ],
     "chinese_translations": ["腹侧的", "腹部的"],
-    "example_sentences": "The ventral side of the fish is paler than its back."
+    "example_sentences": "The ventral side of the fish is paler than its back.",
+    "roots": [{"root":"ventr","meaning":"belly"},{"root":"-al","meaning":"relating to"}]
   },
   {
     "word": ["vertebra", "vertebrae"],
@@ -58,7 +62,8 @@
     "english_synonyms": ["of the skull"],
     "english_explanations": ["Relating to the skull or head."],
     "chinese_translations": ["颅的", "头颅的"],
-    "example_sentences": "The fossil's cranial capacity suggested a large brain."
+    "example_sentences": "The fossil's cranial capacity suggested a large brain.",
+    "roots": [{"root":"crani","meaning":"skull"},{"root":"-al","meaning":"relating to"}]
   },
   {
     "word": ["webbed", "webbing"],
@@ -85,7 +90,8 @@
       "The tendency of an organism to keep its internal conditions stable."
     ],
     "chinese_translations": ["体内平衡", "内稳态"],
-    "example_sentences": "Sweating is part of the body's homeostasis."
+    "example_sentences": "Sweating is part of the body's homeostasis.",
+    "roots": [{"root":"homeo-","meaning":"same"},{"root":"stasis","meaning":"standing still"}]
   },
   {
     "word": ["gestation"],
@@ -94,7 +100,8 @@
       "The period during which a mammal carries its unborn young."
     ],
     "chinese_translations": ["妊娠", "怀孕期"],
-    "example_sentences": "The gestation period of an elephant lasts nearly two years."
+    "example_sentences": "The gestation period of an elephant lasts nearly two years.",
+    "roots": [{"root":"gest","meaning":"bear"},{"root":"-ation","meaning":"process of"}]
   },
   {
     "word": ["estrus"],
@@ -112,7 +119,8 @@
       "To pass the winter in a dormant state with slowed metabolism."
     ],
     "chinese_translations": ["冬眠"],
-    "example_sentences": "Cave bears once hibernated through Europe's ice-age winters."
+    "example_sentences": "Cave bears once hibernated through Europe's ice-age winters.",
+    "roots": [{"root":"hibern","meaning":"winter"},{"root":"-ate","meaning":"to perform"}]
   },
   {
     "word": ["infrasonic", "infrasound"],
@@ -121,7 +129,8 @@
       "(of sound) below the frequencies humans can hear; sound of such frequency."
     ],
     "chinese_translations": ["次声的", "次声波"],
-    "example_sentences": "Elephants coordinate herds using infrasonic rumbles."
+    "example_sentences": "Elephants coordinate herds using infrasonic rumbles.",
+    "roots": [{"root":"infra-","meaning":"below"},{"root":"son","meaning":"sound"},{"root":"-ic","meaning":"relating to"}]
   },
   {
     "word": ["glycogen"],
@@ -130,7 +139,8 @@
       "A stored form of sugar held in animals' muscles and liver for energy."
     ],
     "chinese_translations": ["糖原"],
-    "example_sentences": "Migrating fish burn the glycogen stored in their muscles."
+    "example_sentences": "Migrating fish burn the glycogen stored in their muscles.",
+    "roots": [{"root":"glyc","meaning":"sweet"},{"root":"-ogen","meaning":"producing"}]
   },
   {
     "word": ["cellulose"],
@@ -139,7 +149,8 @@
       "The insoluble fibre of plant cell walls, digestible only with microbial help."
     ],
     "chinese_translations": ["纤维素"],
-    "example_sentences": "Termites digest cellulose thanks to microbes in their gut."
+    "example_sentences": "Termites digest cellulose thanks to microbes in their gut.",
+    "roots": [{"root":"cellul","meaning":"cell"},{"root":"-ose","meaning":"full of"}]
   },
   {
     "word": ["guanine"],

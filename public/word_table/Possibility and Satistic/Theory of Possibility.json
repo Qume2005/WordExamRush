@@ -88,14 +88,16 @@
 "english_synonyms": ["convergent", "stable", "reliable"],
 "english_explanations": ["An estimator is consistent if it converges in probability to the true parameter value as the sample size increases to infinity."],
 "chinese_translations": ["相合的", "一致的"],
-"example_sentences": "A consistent estimator approaches the true parameter value as the sample size grows larger."
+"example_sentences": "A consistent estimator approaches the true parameter value as the sample size grows larger.",
+"roots": [{"root":"con-","meaning":"together"},{"root":"sist","meaning":"stand"},{"root":"-ent","meaning":"doing"}]
 },
 {
 "word": ["continuous"],
 "english_synonyms": ["uninterrupted", "unbroken"],
 "english_explanations": ["Describing a random variable that can take any value within a given range, with a probability density function rather than a probability mass function."],
 "chinese_translations": ["连续的"],
-"example_sentences": "A continuous random variable can take on an uncountably infinite number of possible values within an interval."
+"example_sentences": "A continuous random variable can take on an uncountably infinite number of possible values within an interval.",
+"roots": [{"root":"con-","meaning":"together"},{"root":"tin","meaning":"hold"},{"root":"-uous","meaning":"characterized by"}]
 },
 {
 "word": ["convergence in distribution"],
@@ -116,14 +118,16 @@
 "english_synonyms": ["association", "relationship", "dependence", "connection"],
 "english_explanations": ["A statistical measure that expresses the extent to which two random variables are linearly related, ranging from -1 to +1."],
 "chinese_translations": ["相关", "相关性"],
-"example_sentences": "The correlation between height and weight in the sample was found to be positive and strong."
+"example_sentences": "The correlation between height and weight in the sample was found to be positive and strong.",
+"roots": [{"root":"cor-","meaning":"together"},{"root":"re-","meaning":"back"},{"root":"lat","meaning":"carry"},{"root":"-ion","meaning":"act"}]
 },
 {
 "word": ["covariance"],
 "english_synonyms": ["joint variability"],
 "english_explanations": ["A measure of the joint variability of two random variables, indicating how they change together; positive covariance means they tend to increase or decrease together."],
 "chinese_translations": ["协方差"],
-"example_sentences": "Covariance measures the degree to which two random variables move in the same direction."
+"example_sentences": "Covariance measures the degree to which two random variables move in the same direction.",
+"roots": [{"root":"co-","meaning":"together"},{"root":"vari","meaning":"change"},{"root":"-ance","meaning":"state"}]
 },
 {
 "word": ["cumulative distribution function"],
@@ -144,7 +148,8 @@
 "english_synonyms": ["probability distribution", "allocation", "spread"],
 "english_explanations": ["A mathematical function that provides the probabilities of occurrence of different possible outcomes for a random variable."],
 "chinese_translations": ["分布"],
-"example_sentences": "The normal distribution is one of the most important probability distributions in statistics."
+"example_sentences": "The normal distribution is one of the most important probability distributions in statistics.",
+"roots": [{"root":"dis-","meaning":"apart"},{"root":"trib","meaning":"assign"},{"root":"-ution","meaning":"act"}]
 },
 {
 "word": ["estimate"],
@@ -172,7 +177,8 @@
 "english_synonyms": ["expected value", "mean", "first moment", "average"],
 "english_explanations": ["The long-run average value of a random variable over many repeated trials, representing the weighted average of all possible values."],
 "chinese_translations": ["期望", "期望值"],
-"example_sentences": "The expectation of a fair die roll is 3.5, which is the average outcome over many rolls."
+"example_sentences": "The expectation of a fair die roll is 3.5, which is the average outcome over many rolls.",
+"roots": [{"root":"ex-","meaning":"out"},{"root":"pect","meaning":"look"},{"root":"-ation","meaning":"act or state"}]
 },
 {
 "word": ["expected value"],
@@ -193,14 +199,16 @@
 "english_synonyms": ["autonomy", "freedom", "unrelatedness"],
 "english_explanations": ["The property of two or more events or random variables where the occurrence or value of one does not affect the probability of the other."],
 "chinese_translations": ["独立性"],
-"example_sentences": "Independence between two random variables means that knowing the value of one provides no information about the other."
+"example_sentences": "Independence between two random variables means that knowing the value of one provides no information about the other.",
+"roots": [{"root":"in-","meaning":"not"},{"root":"de-","meaning":"from"},{"root":"pend","meaning":"hang"},{"root":"-ence","meaning":"state"}]
 },
 {
 "word": ["independent"],
 "english_synonyms": ["unrelated", "unconnected", "autonomous", "separate"],
 "english_explanations": ["Describing events or random variables where the outcome or value of one does not influence or provide information about the outcome or value of another."],
 "chinese_translations": ["独立的", "无关的"],
-"example_sentences": "Two events are independent if the occurrence of one does not change the probability of the other occurring."
+"example_sentences": "Two events are independent if the occurrence of one does not change the probability of the other occurring.",
+"roots": [{"root":"in-","meaning":"not"},{"root":"de-","meaning":"from"},{"root":"pend","meaning":"hang"},{"root":"-ent","meaning":"doing"}]
 },
 {
 "word": ["joint distribution"],
@@ -256,7 +264,8 @@
 "english_synonyms": ["quantifiable", "observable", "well-defined"],
 "english_explanations": ["Describing a set or function for which a measure can be defined, or a random variable for which probabilities can be assigned to events."],
 "chinese_translations": ["可测的", "可测量的"],
-"example_sentences": "A measurable function allows us to define probabilities for events in a rigorous mathematical framework."
+"example_sentences": "A measurable function allows us to define probabilities for events in a rigorous mathematical framework.",
+"roots": [{"root":"measur","meaning":"measure"},{"root":"-able","meaning":"able to be"}]
 },
 {
 "word": ["measure"],
@@ -284,7 +293,8 @@
 "english_synonyms": ["simulation", "representation", "formulation", "construction"],
 "english_explanations": ["The process of creating a mathematical or statistical representation of a real-world phenomenon or system to analyze and predict behavior."],
 "chinese_translations": ["建模", "模型化"],
-"example_sentences": "Statistical modelling involves using probability distributions to describe and predict real-world phenomena."
+"example_sentences": "Statistical modelling involves using probability distributions to describe and predict real-world phenomena.",
+"roots": [{"root":"mod","meaning":"measure"},{"root":"-el","meaning":"small"},{"root":"-ing","meaning":"doing"}]
 },
 {
 "word": ["moment"],
@@ -312,7 +322,8 @@
 "english_synonyms": ["standardise", "standardize", "scale", "adjust"],
 "english_explanations": ["To transform data or a function so that it conforms to a standard scale or satisfies a specific condition, such as having unit norm or total probability equal to one."],
 "chinese_translations": ["标准化", "归一化", "规范化"],
-"example_sentences": "We often normalise a probability density function so that the total area under the curve equals one."
+"example_sentences": "We often normalise a probability density function so that the total area under the curve equals one.",
+"roots": [{"root":"norm","meaning":"rule"},{"root":"-al","meaning":"relating to"},{"root":"-ise","meaning":"to make"}]
 },
 {
 "word": ["outcome"],
@@ -326,14 +337,16 @@
 "english_synonyms": ["variable", "constant", "coefficient", "quantity"],
 "english_explanations": ["A numerical characteristic of a population or probability distribution that is typically unknown and estimated from sample data."],
 "chinese_translations": ["参数"],
-"example_sentences": "The parameter μ represents the true population mean that we attempt to estimate from sample data."
+"example_sentences": "The parameter μ represents the true population mean that we attempt to estimate from sample data.",
+"roots": [{"root":"para-","meaning":"beside"},{"root":"meter","meaning":"measure"}]
 },
 {
 "word": ["permutation"],
 "english_synonyms": ["arrangement", "ordering", "sequence"],
 "english_explanations": ["An arrangement of objects in a specific order, where the ordering matters, as opposed to combinations where order does not matter."],
 "chinese_translations": ["排列"],
-"example_sentences": "The number of permutations of n distinct objects taken r at a time is given by n!/(n-r)!."
+"example_sentences": "The number of permutations of n distinct objects taken r at a time is given by n!/(n-r)!.",
+"roots": [{"root":"per-","meaning":"through"},{"root":"mut","meaning":"change"},{"root":"-ation","meaning":"act or state"}]
 },
 {
 "word": ["Poisson distribution"],
@@ -361,7 +374,8 @@
 "english_synonyms": ["chance", "likelihood", "odds", "possibility"],
 "english_explanations": ["A numerical measure between 0 and 1 that quantifies the likelihood of an event occurring, where 0 indicates impossibility and 1 indicates certainty."],
 "chinese_translations": ["概率", "几率", "或然率"],
-"example_sentences": "Probability theory provides the mathematical foundation for analyzing uncertain events and random phenomena."
+"example_sentences": "Probability theory provides the mathematical foundation for analyzing uncertain events and random phenomena.",
+"roots": [{"root":"prob","meaning":"prove"},{"root":"-abil","meaning":"able"},{"root":"-ity","meaning":"state or quality"}]
 },
 {
 "word": ["probability density function"],
@@ -382,7 +396,8 @@
 "english_synonyms": ["fractile", "percentile point"],
 "english_explanations": ["A cut-off point dividing the range of a probability distribution into continuous intervals with equal probabilities, or the value below which a given percentage of observations fall."],
 "chinese_translations": ["分位数"],
-"example_sentences": "The median is the 0.5 quantile of a probability distribution."
+"example_sentences": "The median is the 0.5 quantile of a probability distribution.",
+"roots": [{"root":"quant","meaning":"how much"},{"root":"-ile","meaning":"relating to"}]
 },
 {
 "word": ["random"],
@@ -445,7 +460,8 @@
 "english_synonyms": ["sample statistic", "estimate", "figure"],
 "english_explanations": ["A numerical quantity calculated from a sample of data, used to estimate a population parameter or to test a hypothesis."],
 "chinese_translations": ["统计量"],
-"example_sentences": "The sample mean is a statistic used to estimate the unknown population mean."
+"example_sentences": "The sample mean is a statistic used to estimate the unknown population mean.",
+"roots": [{"root":"stat","meaning":"state"},{"root":"-ist","meaning":"one who"},{"root":"-ic","meaning":"relating to"}]
 },
 {
 "word": ["stochastic process"],
@@ -473,6 +489,7 @@
 "english_synonyms": ["dispersion", "variability", "spread"],
 "english_explanations": ["A measure of the spread between numbers in a dataset, specifically the expected value of the squared deviation of a random variable from its mean."],
 "chinese_translations": ["方差"],
-"example_sentences": "The variance quantifies how far a set of numbers are spread out from their average value."
+"example_sentences": "The variance quantifies how far a set of numbers are spread out from their average value.",
+"roots": [{"root":"vari","meaning":"change"},{"root":"-ance","meaning":"state"}]
 }
 ]

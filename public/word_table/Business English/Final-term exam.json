@@ -4,7 +4,8 @@
 "english_synonyms": ["coder", "software developer", "software engineer"],
 "english_explanations": ["A person who writes computer programs or software."],
 "chinese_translations": ["程序设计员", "程序员"],
-"example_sentences": "I'm a computer programmer with Lenovo."
+"example_sentences": "I'm a computer programmer with Lenovo.",
+"roots": [{"root":"pro-","meaning":"forth"},{"root":"gram","meaning":"write"},{"root":"-er","meaning":"one who"}]
 },
 {
 "word": ["rewarding"],
@@ -53,7 +54,8 @@
 "english_synonyms": ["bookkeeper", "auditor", "financial officer"],
 "english_explanations": ["A person whose job is to keep or inspect financial accounts."],
 "chinese_translations": ["会计", "会计师"],
-"example_sentences": "Jennifer is an accountant now."
+"example_sentences": "Jennifer is an accountant now.",
+"roots": [{"root":"ac-","meaning":"to"},{"root":"count","meaning":"reckon"},{"root":"-ant","meaning":"person"}]
 },
 {
 "word": ["chemical"],
@@ -179,7 +181,8 @@
 "english_synonyms": ["disturb", "cut in", "break in", "disrupt"],
 "english_explanations": ["To stop someone from continuing what they are saying or doing by saying or doing something yourself."],
 "chinese_translations": ["打断", "中断"],
-"example_sentences": "If you have any questions, just interrupt me as I go along."
+"example_sentences": "If you have any questions, just interrupt me as I go along.",
+"roots": [{"root":"inter-","meaning":"between"},{"root":"rupt","meaning":"break"}]
 },
 {
 "word": ["make an appointment"],
@@ -228,14 +231,16 @@
 "english_synonyms": ["manager", "director", "administrator", "senior manager"],
 "english_explanations": ["A person with a high-ranking position in a company, responsible for making important decisions."],
 "chinese_translations": ["高管", "行政人员", "主管"],
-"example_sentences": "If a visitor wants to meet an executive in a large company, he should make an appointment."
+"example_sentences": "If a visitor wants to meet an executive in a large company, he should make an appointment.",
+"roots": [{"root":"ex-","meaning":"out"},{"root":"secut","meaning":"follow"},{"root":"-ive","meaning":"adj"}]
 },
 {
 "word": ["receptionist"],
 "english_synonyms": ["front desk officer", "greeter", "front desk clerk"],
 "english_explanations": ["A person employed in an office or other establishment to receive clients, visitors, or patients."],
 "chinese_translations": ["接待员", "前台"],
-"example_sentences": "The receptionist should contact the executive's office immediately when a client arrives."
+"example_sentences": "The receptionist should contact the executive's office immediately when a client arrives.",
+"roots": [{"root":"re-","meaning":"back"},{"root":"cept","meaning":"take"},{"root":"-ion","meaning":"act"},{"root":"-ist","meaning":"person"}]
 },
 {
 "word": ["client"],
@@ -249,14 +254,16 @@
 "english_synonyms": ["free", "accessible", "on hand", "ready"],
 "english_explanations": ["Able to be used or obtained; not occupied or busy; free to do something."],
 "chinese_translations": ["有空的", "可用的", "有时间的"],
-"example_sentences": "If he isn't available, she should ask the visitor to make an appointment."
+"example_sentences": "If he isn't available, she should ask the visitor to make an appointment.",
+"roots": [{"root":"a-","meaning":"to"},{"root":"vail","meaning":"be worth"},{"root":"-able","meaning":"capable of"}]
 },
 {
 "word": ["immediately"],
 "english_synonyms": ["at once", "right away", "instantly", "promptly"],
 "english_explanations": ["Without delay; at once; right away."],
 "chinese_translations": ["立即", "马上"],
-"example_sentences": "After the visitor arrives, the receptionist should contact the executive's office immediately."
+"example_sentences": "After the visitor arrives, the receptionist should contact the executive's office immediately.",
+"roots": [{"root":"im-","meaning":"not"},{"root":"medi","meaning":"middle"},{"root":"-ate","meaning":"verb form"},{"root":"-ly","meaning":"adverb form"}]
 },
 {
 "word": ["occupy"],
@@ -298,21 +305,24 @@
 "english_synonyms": ["meeting", "engagement", "arrangement", "interview"],
 "english_explanations": ["An arrangement to meet someone at a particular time and place, especially for business."],
 "chinese_translations": ["预约", "约会", "会面"],
-"example_sentences": "Mr. Dantini comes for his appointment with Mr. Hansen."
+"example_sentences": "Mr. Dantini comes for his appointment with Mr. Hansen.",
+"roots": [{"root":"ap-","meaning":"to"},{"root":"point","meaning":"fix"},{"root":"-ment","meaning":"act"}]
 },
 {
 "word": ["visitor"],
 "english_synonyms": ["guest", "caller", "tourist", "traveller"],
 "english_explanations": ["A person who visits a place or person; someone who comes to see someone in an office."],
 "chinese_translations": ["访客", "参观者", "访问者"],
-"example_sentences": "The receptionist offers the visitor a coffee to drink."
+"example_sentences": "The receptionist offers the visitor a coffee to drink.",
+"roots": [{"root":"vis","meaning":"see"},{"root":"-it","meaning":"go"},{"root":"-or","meaning":"person"}]
 },
 {
 "word": ["effort"],
 "english_synonyms": ["attempt", "endeavour", "exertion", "struggle"],
 "english_explanations": ["A vigorous or determined attempt to do something; physical or mental energy needed to do something."],
 "chinese_translations": ["努力", "尝试"],
-"example_sentences": "Thank you for making the effort to be here with us today."
+"example_sentences": "Thank you for making the effort to be here with us today.",
+"roots": [{"root":"ef-","meaning":"out"},{"root":"fort","meaning":"strong"}]
 },
 {
 "word": ["act as"],

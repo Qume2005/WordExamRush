@@ -15,7 +15,8 @@
       "To have a noticeable effect on something, often negatively (impinge on)."
     ],
     "chinese_translations": ["冲击", "影响"],
-    "example_sentences": "New roads impinge on the otters' territory."
+    "example_sentences": "New roads impinge on the otters' territory.",
+    "roots": [{"root":"im-","meaning":"upon"},{"root":"ping","meaning":"strike"}]
   },
   {
     "word": ["envelop"],
@@ -33,7 +34,8 @@
       "In a very careful, thorough way that misses no detail."
     ],
     "chinese_translations": ["一丝不苟地", "严谨地"],
-    "example_sentences": "The ants scrupulously weed their fungus gardens."
+    "example_sentences": "The ants scrupulously weed their fungus gardens.",
+    "roots": [{"root":"scrupul","meaning":"anxiety over small things"},{"root":"-ous","meaning":"full of"},{"root":"-ly","meaning":"in a manner"}]
   },
   {
     "word": ["intricately"],
@@ -42,7 +44,8 @@
       "In a way involving many small, complicated interrelated parts."
     ],
     "chinese_translations": ["复杂精细地", "错综复杂地"],
-    "example_sentences": "The nest is intricately woven from grass fibres."
+    "example_sentences": "The nest is intricately woven from grass fibres.",
+    "roots": [{"root":"intric","meaning":"entangled"},{"root":"-ate","meaning":"relating to"},{"root":"-ly","meaning":"in a manner"}]
   },
   {
     "word": ["perceptible"],
@@ -51,7 +54,8 @@
       "Able to be noticed or sensed, however slightly."
     ],
     "chinese_translations": ["可察觉的", "可感知的"],
-    "example_sentences": "The change in the fish's speed was barely perceptible."
+    "example_sentences": "The change in the fish's speed was barely perceptible.",
+    "roots": [{"root":"per-","meaning":"through"},{"root":"cept","meaning":"take"},{"root":"-ible","meaning":"able to be"}]
   },
   {
     "word": ["desolate"],
@@ -60,7 +64,8 @@
       "Empty, bare, and sad; lacking life or comfort."
     ],
     "chinese_translations": ["荒凉的", "荒芜的"],
-    "example_sentences": "The young island seemed desolate until the finches arrived."
+    "example_sentences": "The young island seemed desolate until the finches arrived.",
+    "roots": [{"root":"de-","meaning":"completely"},{"root":"sol","meaning":"alone"},{"root":"-ate","meaning":"to make"}]
   },
   {
     "word": ["ferocious"],
@@ -69,7 +74,8 @@
       "Aggressive and violent; very intense."
     ],
     "chinese_translations": ["凶猛的", "残忍的"],
-    "example_sentences": "The thylacine had a ferocious reputation it hardly deserved."
+    "example_sentences": "The thylacine had a ferocious reputation it hardly deserved.",
+    "roots": [{"root":"feroc","meaning":"fierce"},{"root":"-ious","meaning":"full of"}]
   },
   {
     "word": ["sluggish"],
@@ -87,7 +93,8 @@
       "Very good at something through practice (adept at)."
     ],
     "chinese_translations": ["熟练的", "擅长的"],
-    "example_sentences": "Migrating birds are adept at riding tail winds."
+    "example_sentences": "Migrating birds are adept at riding tail winds.",
+    "roots": [{"root":"ad-","meaning":"to"},{"root":"ept","meaning":"skilled"}]
   },
   {
     "word": ["conducive"],
@@ -96,7 +103,8 @@
       "Making a particular outcome likely (conducive to)."
     ],
     "chinese_translations": ["有助于…的", "有利的"],
-    "example_sentences": "Warm updraughts are conducive to soaring flight."
+    "example_sentences": "Warm updraughts are conducive to soaring flight.",
+    "roots": [{"root":"con-","meaning":"together"},{"root":"duc","meaning":"lead"},{"root":"-ive","meaning":"tending to"}]
   },
   {
     "word": ["deterrent"],
@@ -105,7 +113,8 @@
       "Something that discourages an action or behaviour."
     ],
     "chinese_translations": ["威慑物", "遏制物"],
-    "example_sentences": "Bright colouration acts as a deterrent to predators."
+    "example_sentences": "Bright colouration acts as a deterrent to predators.",
+    "roots": [{"root":"de-","meaning":"away"},{"root":"terr","meaning":"frighten"},{"root":"-ent","meaning":"thing that"}]
   },
   {
     "word": ["innate"],
@@ -114,7 +123,8 @@
       "Present from birth rather than learned."
     ],
     "chinese_translations": ["天生的", "先天的"],
-    "example_sentences": "The turtles' urge to head seaward is innate."
+    "example_sentences": "The turtles' urge to head seaward is innate.",
+    "roots": [{"root":"in-","meaning":"in"},{"root":"nat","meaning":"born"}]
   },
   {
     "word": ["inborn"],
@@ -141,7 +151,8 @@
       "Not able to work, survive, or succeed."
     ],
     "chinese_translations": ["不可行的", "无法生存的"],
-    "example_sentences": "Without new blood, the colony becomes unviable."
+    "example_sentences": "Without new blood, the colony becomes unviable.",
+    "roots": [{"root":"un-","meaning":"not"},{"root":"vi","meaning":"live"},{"root":"-able","meaning":"able to be"}]
   },
   {
     "word": ["unenviable"],
@@ -159,7 +170,8 @@
       "Growing by successive additions."
     ],
     "chinese_translations": ["累积的", "累积性的"],
-    "example_sentences": "Accumulative hunting pressure wiped out the colony."
+    "example_sentences": "Accumulative hunting pressure wiped out the colony.",
+    "roots": [{"root":"ac-","meaning":"toward"},{"root":"cumul","meaning":"heap"},{"root":"-ative","meaning":"tending to"}]
   },
   {
     "word": ["rapidity"],
@@ -175,7 +187,8 @@
       "To be a sign or warning that something will happen."
     ],
     "chinese_translations": ["预示", "预兆"],
-    "example_sentences": "Falling counts presage a population crash."
+    "example_sentences": "Falling counts presage a population crash.",
+    "roots": [{"root":"pre-","meaning":"before"},{"root":"sag","meaning":"perceive"}]
   },
   {
     "word": ["mystify"],
@@ -211,7 +224,8 @@
       "The study of how the nervous system functions."
     ],
     "chinese_translations": ["神经生理学"],
-    "example_sentences": "Neurophysiology explains how elephants detect distant calls."
+    "example_sentences": "Neurophysiology explains how elephants detect distant calls.",
+    "roots": [{"root":"neuro-","meaning":"nerve"},{"root":"physi","meaning":"nature"},{"root":"-ology","meaning":"study of"}]
   },
   {
     "word": ["auditory"],
@@ -220,7 +234,8 @@
       "Connected with the sense of hearing."
     ],
     "chinese_translations": ["听觉的"],
-    "example_sentences": "The moth's auditory organs detect bat calls."
+    "example_sentences": "The moth's auditory organs detect bat calls.",
+    "roots": [{"root":"audit","meaning":"hear"},{"root":"-ory","meaning":"relating to"}]
   },
   {
     "word": ["barometric"],
@@ -229,6 +244,7 @@
       "Relating to the pressure of the atmosphere."
     ],
     "chinese_translations": ["气压的", "气压计的"],
-    "example_sentences": "Birds sense barometric changes before storms."
+    "example_sentences": "Birds sense barometric changes before storms.",
+    "roots": [{"root":"baro-","meaning":"pressure"},{"root":"metr","meaning":"measure"},{"root":"-ic","meaning":"relating to"}]
   }
 ]

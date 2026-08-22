@@ -144,7 +144,8 @@
 "english_synonyms": ["burdened", "swamped", "overloaded"],
 "english_explanations": ["Feeling unable to cope with the amount or intensity of something."],
 "chinese_translations": ["不堪重负的", "被压垮的"],
-"example_sentences": "She felt overwhelmed by the demands of her new job."
+"example_sentences": "She felt overwhelmed by the demands of her new job.",
+"roots": [{"root":"over-","meaning":"over"},{"root":"whelm","meaning":"cover"}]
 },
 {
 "word": ["irreparably"],
@@ -172,14 +173,16 @@
 "english_synonyms": ["gathering", "amassing", "collecting"],
 "english_explanations": ["Gradually increasing in quantity over time."],
 "chinese_translations": ["累积"],
-"example_sentences": "He spent years accumulating wealth through smart investments."
+"example_sentences": "He spent years accumulating wealth through smart investments.",
+"roots": [{"root":"ac-","meaning":"to"},{"root":"cumul","meaning":"heap"},{"root":"-ate","meaning":"verb suffix"}]
 },
 {
 "word": ["persist"],
 "english_synonyms": ["continue", "endure", "persevere"],
 "english_explanations": ["To continue to exist or occur over a prolonged period."],
 "chinese_translations": ["持续存在"],
-"example_sentences": "Despite efforts to reduce it, poverty continues to persist in the region."
+"example_sentences": "Despite efforts to reduce it, poverty continues to persist in the region.",
+"roots": [{"root":"per-","meaning":"through"},{"root":"sist","meaning":"stand"}]
 },
 {
 "word": ["payoff"],
@@ -207,7 +210,8 @@
 "english_synonyms": ["disrupting", "sabotaging", "throwing off course"],
 "english_explanations": ["To cause a plan or process to fail or go off track."],
 "chinese_translations": ["使脱轨", "破坏"],
-"example_sentences": "Unexpected costs are derailing the project's timeline."
+"example_sentences": "Unexpected costs are derailing the project's timeline.",
+"roots": [{"root":"de-","meaning":"away from"},{"root":"rail","meaning":"track"},{"root":"-ing","meaning":"gerund"}]
 },
 {
 "word": ["prophetess"],
@@ -242,7 +246,8 @@
 "english_synonyms": ["benefactor", "humanitarian", "donor"],
 "english_explanations": ["A person who seeks to promote the welfare of others, especially through charitable donations."],
 "chinese_translations": ["慈善家"],
-"example_sentences": "The philanthropist donated millions to educational causes."
+"example_sentences": "The philanthropist donated millions to educational causes.",
+"roots": [{"root":"phil-","meaning":"love"},{"root":"anthrop","meaning":"human"},{"root":"-ist","meaning":"person who"}]
 },
 {
 "word": ["tycoon"],

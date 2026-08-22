@@ -4,14 +4,16 @@
 "english_synonyms": ["directed quantity", "arrow", "tuple"],
 "english_explanations": ["A mathematical object that has both magnitude and direction, or an ordered list of numbers in a vector space."],
 "chinese_translations": ["向量", "矢量"],
-"example_sentences": "The velocity of the particle is represented by a vector pointing northeast."
+"example_sentences": "The velocity of the particle is represented by a vector pointing northeast.",
+"roots": [{"root":"vect","meaning":"carry"},{"root":"-or","meaning":"one who"}]
 },
 {
 "word": ["scalar"],
 "english_synonyms": ["real number", "constant", "coefficient"],
 "english_explanations": ["A single numerical value without direction, used to scale vectors or matrices."],
 "chinese_translations": ["标量", "纯量"],
-"example_sentences": "Multiplying a matrix by a scalar scales every entry in the matrix uniformly."
+"example_sentences": "Multiplying a matrix by a scalar scales every entry in the matrix uniformly.",
+"roots": [{"root":"scal","meaning":"ladder"},{"root":"-ar","meaning":"relating to"}]
 },
 {
 "word": ["matrix"],
@@ -53,7 +55,8 @@
 "english_synonyms": ["rank", "degree of freedom"],
 "english_explanations": ["The number of vectors in any basis for a vector space, representing the space's degrees of freedom."],
 "chinese_translations": ["维度", "维数"],
-"example_sentences": "The dimension of the solution space tells us how many free variables exist in the system."
+"example_sentences": "The dimension of the solution space tells us how many free variables exist in the system.",
+"roots": [{"root":"di-","meaning":"apart"},{"root":"mens","meaning":"measure"},{"root":"-ion","meaning":"act"}]
 },
 {
 "word": ["subspace"],
@@ -102,7 +105,8 @@
 "english_synonyms": ["det", "signed volume"],
 "english_explanations": ["A scalar value computed from a square matrix that determines whether the matrix is invertible and describes geometric scaling."],
 "chinese_translations": ["行列式"],
-"example_sentences": "The determinant of a 2×2 matrix ad − bc tells us the area scaling factor of the associated linear map."
+"example_sentences": "The determinant of a 2×2 matrix ad − bc tells us the area scaling factor of the associated linear map.",
+"roots": [{"root":"de-","meaning":"off"},{"root":"termin","meaning":"end"},{"root":"-ant","meaning":"doing"}]
 },
 {
 "word": ["trace"],
@@ -116,14 +120,16 @@
 "english_synonyms": ["flip", "reflection across diagonal"],
 "english_explanations": ["The matrix obtained by swapping the rows and columns of the original matrix."],
 "chinese_translations": ["转置"],
-"example_sentences": "The transpose of a column vector is a row vector with the same entries."
+"example_sentences": "The transpose of a column vector is a row vector with the same entries.",
+"roots": [{"root":"trans-","meaning":"across"},{"root":"pos","meaning":"put"}]
 },
 {
 "word": ["inverse"],
 "english_synonyms": ["reciprocal matrix", "multiplicative inverse"],
 "english_explanations": ["A matrix that, when multiplied by the original square matrix, yields the identity matrix."],
 "chinese_translations": ["逆矩阵", "逆"],
-"example_sentences": "A matrix has an inverse if and only if its determinant is nonzero."
+"example_sentences": "A matrix has an inverse if and only if its determinant is nonzero.",
+"roots": [{"root":"in-","meaning":"into"},{"root":"vers","meaning":"turn"}]
 },
 {
 "word": ["identity matrix"],
@@ -179,14 +185,16 @@
 "english_synonyms": ["perpendicular", "at right angles"],
 "english_explanations": ["Describing two vectors whose inner product is zero, or geometrically perpendicular to each other."],
 "chinese_translations": ["正交的", "垂直的"],
-"example_sentences": "Two vectors are orthogonal if and only if their dot product equals zero."
+"example_sentences": "Two vectors are orthogonal if and only if their dot product equals zero.",
+"roots": [{"root":"ortho-","meaning":"right"},{"root":"gon","meaning":"angle"},{"root":"-al","meaning":"relating to"}]
 },
 {
 "word": ["orthonormal"],
 "english_synonyms": ["orthogonal and normalized"],
 "english_explanations": ["Describing a set of vectors that are mutually orthogonal and each have unit norm."],
 "chinese_translations": ["标准正交的", "规范正交的"],
-"example_sentences": "The columns of an orthogonal matrix form an orthonormal set."
+"example_sentences": "The columns of an orthogonal matrix form an orthonormal set.",
+"roots": [{"root":"ortho-","meaning":"right"},{"root":"norm","meaning":"rule"},{"root":"-al","meaning":"relating to"}]
 },
 {
 "word": ["linear transformation"],
@@ -221,7 +229,8 @@
 "english_synonyms": ["signed minor"],
 "english_explanations": ["A minor multiplied by (−1)^(i+j), used in cofactor expansion and computing the adjugate matrix."],
 "chinese_translations": ["余子式", "代数余子式"],
-"example_sentences": "The cofactor of an entry is its minor with the appropriate sign based on its position."
+"example_sentences": "The cofactor of an entry is its minor with the appropriate sign based on its position.",
+"roots": [{"root":"co-","meaning":"together"},{"root":"fact","meaning":"make"},{"root":"-or","meaning":"one who"}]
 },
 {
 "word": ["adjugate", "adjoint"],
@@ -249,7 +258,8 @@
 "english_synonyms": ["uniform", "Ax = 0"],
 "english_explanations": ["Describing a system of linear equations where all constant terms are zero, i.e., Ax = 0."],
 "chinese_translations": ["齐次的"],
-"example_sentences": "A homogeneous system always has at least the trivial solution x = 0."
+"example_sentences": "A homogeneous system always has at least the trivial solution x = 0.",
+"roots": [{"root":"homo-","meaning":"same"},{"root":"gen","meaning":"kind"},{"root":"-eous","meaning":"characterized by"}]
 },
 {
 "word": ["inhomogeneous", "non-homogeneous"],
@@ -263,14 +273,16 @@
 "english_synonyms": ["solvable", "compatible"],
 "english_explanations": ["Describing a system of linear equations that has at least one solution."],
 "chinese_translations": ["相容的", "一致的"],
-"example_sentences": "If the rank of the augmented matrix equals the rank of the coefficient matrix, the system is consistent."
+"example_sentences": "If the rank of the augmented matrix equals the rank of the coefficient matrix, the system is consistent.",
+"roots": [{"root":"con-","meaning":"together"},{"root":"sist","meaning":"stand"},{"root":"-ent","meaning":"doing"}]
 },
 {
 "word": ["inconsistent"],
 "english_synonyms": ["unsolvable", "contradictory"],
 "english_explanations": ["Describing a system of linear equations that has no solution."],
 "chinese_translations": ["不相容的", "不一致的"],
-"example_sentences": "An overdetermined system with contradictory equations is inconsistent."
+"example_sentences": "An overdetermined system with contradictory equations is inconsistent.",
+"roots": [{"root":"in-","meaning":"not"},{"root":"con-","meaning":"together"},{"root":"sist","meaning":"stand"},{"root":"-ent","meaning":"doing"}]
 },
 {
 "word": ["pivot"],
@@ -312,7 +324,8 @@
 "english_synonyms": ["rearrangement", "ordering"],
 "english_explanations": ["A bijective function that rearranges the elements of a finite set, or the resulting arrangement."],
 "chinese_translations": ["置换", "排列"],
-"example_sentences": "Every permutation can be expressed as a product of transpositions."
+"example_sentences": "Every permutation can be expressed as a product of transpositions.",
+"roots": [{"root":"per-","meaning":"through"},{"root":"mut","meaning":"change"},{"root":"-ation","meaning":"act or state"}]
 },
 {
 "word": ["permutation matrix"],
@@ -389,14 +402,16 @@
 "english_synonyms": ["sign-changing"],
 "english_explanations": ["Describing a symmetric matrix (or quadratic form) that takes both positive and negative values."],
 "chinese_translations": ["不定的"],
-"example_sentences": "An indefinite quadratic form yields a saddle point at the origin."
+"example_sentences": "An indefinite quadratic form yields a saddle point at the origin.",
+"roots": [{"root":"in-","meaning":"not"},{"root":"de-","meaning":"off"},{"root":"fin","meaning":"end"},{"root":"-ite","meaning":"adjective"}]
 },
 {
 "word": ["signature"],
 "english_synonyms": ["inertia", "Sylvester index"],
 "english_explanations": ["The triple (p, q, r) counting positive, negative, and zero eigenvalues of a symmetric matrix, or p − q."],
 "chinese_translations": ["符号差", "惯性指数"],
-"example_sentences": "Sylvester's law of inertia states that the signature of a real symmetric matrix is preserved under congruence."
+"example_sentences": "Sylvester's law of inertia states that the signature of a real symmetric matrix is preserved under congruence.",
+"roots": [{"root":"sign","meaning":"mark"},{"root":"-ature","meaning":"act or result"}]
 },
 {
 "word": ["singular value decomposition"],
@@ -494,14 +509,16 @@
 "english_synonyms": ["find eigenbasis", "spectrally decompose"],
 "english_explanations": ["To transform a matrix into a diagonal matrix by a similarity transformation using its eigenvectors."],
 "chinese_translations": ["对角化"],
-"example_sentences": "A matrix is diagonalizable if it has enough linearly independent eigenvectors to form a basis."
+"example_sentences": "A matrix is diagonalizable if it has enough linearly independent eigenvectors to form a basis.",
+"roots": [{"root":"dia-","meaning":"across"},{"root":"gon","meaning":"angle"},{"root":"-al","meaning":"relating to"},{"root":"-ize","meaning":"to make"}]
 },
 {
 "word": ["diagonalizable", "diagonalisable"],
 "english_synonyms": ["spectrally decomposable"],
 "english_explanations": ["Describing a square matrix that can be transformed into a diagonal matrix via a similarity transformation."],
 "chinese_translations": ["可对角化的"],
-"example_sentences": "Not every matrix is diagonalizable; defective matrices lack a full set of eigenvectors."
+"example_sentences": "Not every matrix is diagonalizable; defective matrices lack a full set of eigenvectors.",
+"roots": [{"root":"dia-","meaning":"across"},{"root":"gon","meaning":"angle"},{"root":"-al","meaning":"relating to"},{"root":"-ize","meaning":"to make"},{"root":"-able","meaning":"able to be"}]
 },
 {
 "word": ["similarity"],
@@ -522,7 +539,8 @@
 "english_synonyms": ["complex orthogonal", "norm-preserving"],
 "english_explanations": ["Describing a complex square matrix whose conjugate transpose is also its inverse, preserving the Hermitian inner product."],
 "chinese_translations": ["酉的", "幺正的", " unitary"],
-"example_sentences": "A unitary matrix has orthonormal columns with respect to the complex inner product."
+"example_sentences": "A unitary matrix has orthonormal columns with respect to the complex inner product.",
+"roots": [{"root":"un","meaning":"one"},{"root":"-it","meaning":"noun"},{"root":"-ary","meaning":"relating to"}]
 },
 {
 "word": ["Hermitian"],
@@ -543,7 +561,8 @@
 "english_synonyms": ["scaling to unit length", "standardization"],
 "english_explanations": ["The process of scaling a vector or function so that its norm becomes one, or adjusting data to a standard scale."],
 "chinese_translations": ["归一化", "规范化", "标准化"],
-"example_sentences": "Normalization of eigenvectors ensures they have unit length."
+"example_sentences": "Normalization of eigenvectors ensures they have unit length.",
+"roots": [{"root":"norm","meaning":"rule"},{"root":"-al","meaning":"relating to"},{"root":"-is","meaning":"process"},{"root":"-ation","meaning":"act or state"}]
 },
 {
 "word": ["Gaussian elimination"],

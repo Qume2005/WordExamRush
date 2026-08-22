@@ -15,7 +15,8 @@
       "To sit on eggs to keep them warm until they hatch."
     ],
     "chinese_translations": ["孵化", "孵卵"],
-    "example_sentences": "The female incubates the eggs while the male brings food."
+    "example_sentences": "The female incubates the eggs while the male brings food.",
+    "roots": [{"root":"in-","meaning":"on"},{"root":"cub","meaning":"lie"},{"root":"-ate","meaning":"to perform"}]
   },
   {
     "word": ["burrow"],
@@ -69,7 +70,8 @@
       "The act of one animal killing and eating another."
     ],
     "chinese_translations": ["捕食", "捕食行为"],
-    "example_sentences": "Nest predation by stoats devastated the colony."
+    "example_sentences": "Nest predation by stoats devastated the colony.",
+    "roots": [{"root":"pred","meaning":"prey"},{"root":"-ation","meaning":"act of"}]
   },
   {
     "word": ["symbiosis"],
@@ -78,7 +80,8 @@
       "A close, long-term interaction between two different species living together."
     ],
     "chinese_translations": ["共生", "共生关系"],
-    "example_sentences": "The ants and their fungus live in symbiosis."
+    "example_sentences": "The ants and their fungus live in symbiosis.",
+    "roots": [{"root":"sym-","meaning":"together"},{"root":"bio","meaning":"life"},{"root":"-sis","meaning":"state of"}]
   },
   {
     "word": ["inbreeding"],
@@ -96,7 +99,8 @@
       "Tiny drifting animals in water that feed on phytoplankton."
     ],
     "chinese_translations": ["浮游动物"],
-    "example_sentences": "Zooplankton swarm in the sunlit surface waters."
+    "example_sentences": "Zooplankton swarm in the sunlit surface waters.",
+    "roots": [{"root":"zoo-","meaning":"animal"},{"root":"plankt","meaning":"wandering"}]
   },
   {
     "word": ["phytoplankton"],
@@ -105,7 +109,8 @@
       "Microscopic drifting algae that photosynthesize in water."
     ],
     "chinese_translations": ["浮游植物"],
-    "example_sentences": "Phytoplankton produce much of the ocean's oxygen."
+    "example_sentences": "Phytoplankton produce much of the ocean's oxygen.",
+    "roots": [{"root":"phyto-","meaning":"plant"},{"root":"plankt","meaning":"wandering"}]
   },
   {
     "word": ["generalist"],
@@ -114,7 +119,8 @@
       "A species able to thrive on a wide range of foods and habitats."
     ],
     "chinese_translations": ["泛化种", "广食性物种"],
-    "example_sentences": "Rats are generalists that survive in almost any habitat."
+    "example_sentences": "Rats are generalists that survive in almost any habitat.",
+    "roots": [{"root":"gener","meaning":"kind"},{"root":"-al","meaning":"relating to"},{"root":"-ist","meaning":"one who"}]
   },
   {
     "word": ["migratory"],
@@ -123,7 +129,8 @@
       "(of animals) travelling from one region to another with the seasons."
     ],
     "chinese_translations": ["迁徙的", "候鸟的"],
-    "example_sentences": "Migratory birds cross the Sahara each autumn."
+    "example_sentences": "Migratory birds cross the Sahara each autumn.",
+    "roots": [{"root":"migr","meaning":"move"},{"root":"-atory","meaning":"relating to"}]
   },
   {
     "word": ["overwinter", "wintering"],
@@ -175,7 +182,8 @@
     "english_synonyms": ["gobble up", "eat up"],
     "english_explanations": ["To eat up eagerly and completely."],
     "chinese_translations": ["吞食", "狼吞虎咽地吃"],
-    "example_sentences": "The chicks devour whatever the parents bring."
+    "example_sentences": "The chicks devour whatever the parents bring.",
+    "roots": [{"root":"de-","meaning":"completely"},{"root":"vor","meaning":"swallow"}]
   },
   {
     "word": ["ingest"],
@@ -184,7 +192,8 @@
       "To take food or other substances into the body."
     ],
     "chinese_translations": ["摄入", "摄取"],
-    "example_sentences": "Caterpillars ingest toxins from the leaves they eat."
+    "example_sentences": "Caterpillars ingest toxins from the leaves they eat.",
+    "roots": [{"root":"in-","meaning":"into"},{"root":"gest","meaning":"carry"}]
   },
   {
     "word": ["expel"],
@@ -193,7 +202,8 @@
       "To force something out of the body or a container."
     ],
     "chinese_translations": ["排出", "驱出"],
-    "example_sentences": "The termites expel stale air through chimneys in the mound."
+    "example_sentences": "The termites expel stale air through chimneys in the mound.",
+    "roots": [{"root":"ex-","meaning":"out"},{"root":"pel","meaning":"drive"}]
   },
   {
     "word": ["undulation"],
@@ -202,7 +212,8 @@
       "A wavelike motion, as of a fish's body when swimming."
     ],
     "chinese_translations": ["波动", "起伏摆动"],
-    "example_sentences": "Eels swim by undulation of the whole body."
+    "example_sentences": "Eels swim by undulation of the whole body.",
+    "roots": [{"root":"und","meaning":"wave"},{"root":"-ation","meaning":"process of"}]
   },
   {
     "word": ["propulsion", "propulsive"],
@@ -211,7 +222,8 @@
       "The force that drives a body forward; relating to such force."
     ],
     "chinese_translations": ["推进", "推进的"],
-    "example_sentences": "Otters gain propulsion from their muscular tails."
+    "example_sentences": "Otters gain propulsion from their muscular tails.",
+    "roots": [{"root":"pro-","meaning":"forward"},{"root":"puls","meaning":"drive"},{"root":"-ion","meaning":"act of"}]
   },
   {
     "word": ["buoyancy"],
@@ -247,7 +259,8 @@
       "To make surfaces smooth and slippery so they move easily."
     ],
     "chinese_translations": ["润滑"],
-    "example_sentences": "Mucus lubricates the fish's body as it swims."
+    "example_sentences": "Mucus lubricates the fish's body as it swims.",
+    "roots": [{"root":"lubric","meaning":"slippery"},{"root":"-ate","meaning":"to make"}]
   },
   {
     "word": ["viscous"],
@@ -256,7 +269,8 @@
       "Thick and sticky; not flowing freely."
     ],
     "chinese_translations": ["黏稠的"],
-    "example_sentences": "Seawater feels more viscous than air to a swimming fish."
+    "example_sentences": "Seawater feels more viscous than air to a swimming fish.",
+    "roots": [{"root":"visc","meaning":"sticky"},{"root":"-ous","meaning":"full of"}]
   },
   {
     "word": ["viscosity"],
@@ -265,7 +279,8 @@
       "A fluid's resistance to flow; its thickness."
     ],
     "chinese_translations": ["黏度", "黏性"],
-    "example_sentences": "Cool water rises in viscosity and slows the swimmer."
+    "example_sentences": "Cool water rises in viscosity and slows the swimmer.",
+    "roots": [{"root":"visc","meaning":"sticky"},{"root":"-osity","meaning":"quality of"}]
   },
   {
     "word": ["overshoot"],

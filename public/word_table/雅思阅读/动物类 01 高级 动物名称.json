@@ -204,7 +204,8 @@
       "A mammal that carries and suckles its young in a pouch, such as kangaroos and koalas."
     ],
     "chinese_translations": ["有袋动物"],
-    "example_sentences": "Most marsupials carry their young in a pouch."
+    "example_sentences": "Most marsupials carry their young in a pouch.",
+    "roots": [{"root":"marsup","meaning":"pouch"},{"root":"-ial","meaning":"relating to"}]
   },
   {
     "word": ["megafauna"],
@@ -213,7 +214,8 @@
       "The large animals of a particular region or period, such as mammoths and giant sloths."
     ],
     "chinese_translations": ["巨型动物群"],
-    "example_sentences": "Australia's megafauna disappeared soon after humans arrived."
+    "example_sentences": "Australia's megafauna disappeared soon after humans arrived.",
+    "roots": [{"root":"mega-","meaning":"great"},{"root":"fauna","meaning":"animals"}]
   },
   {
     "word": ["vermin"],

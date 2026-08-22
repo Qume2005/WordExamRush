@@ -69,7 +69,8 @@
       "Of or near the equator, typically hot and humid."
     ],
     "chinese_translations": ["赤道的", "赤道附近的"],
-    "example_sentences": "Equatorial forests steam in the midday heat."
+    "example_sentences": "Equatorial forests steam in the midday heat.",
+    "roots": [{"root":"equatori","meaning":"equator"},{"root":"-al","meaning":"relating to"}]
   },
   {
     "word": ["temperate"],
@@ -78,7 +79,8 @@
       "(of climate) mild, without extremes of heat or cold."
     ],
     "chinese_translations": ["温带的", "气候温和的"],
-    "example_sentences": "Temperate forests turn red in autumn."
+    "example_sentences": "Temperate forests turn red in autumn.",
+    "roots": [{"root":"temper","meaning":"moderate"},{"root":"-ate","meaning":"having the quality of"}]
   },
   {
     "word": ["sunlit"],

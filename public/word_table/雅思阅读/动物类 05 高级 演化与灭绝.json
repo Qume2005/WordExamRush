@@ -6,7 +6,8 @@
       "The science of ancient life through fossil animals and plants."
     ],
     "chinese_translations": ["古生物学"],
-    "example_sentences": "Paleontology traces the ancestry of the elephants."
+    "example_sentences": "Paleontology traces the ancestry of the elephants.",
+    "roots": [{"root":"paleo-","meaning":"ancient"},{"root":"ont","meaning":"being"},{"root":"-ology","meaning":"study of"}]
   },
   {
     "word": ["paleobiologist"],
@@ -15,7 +16,8 @@
       "A scientist who studies the biology of extinct organisms."
     ],
     "chinese_translations": ["古生物学家"],
-    "example_sentences": "The paleobiologist dated the mammoth bones with isotopes."
+    "example_sentences": "The paleobiologist dated the mammoth bones with isotopes.",
+    "roots": [{"root":"paleo-","meaning":"ancient"},{"root":"bio","meaning":"life"},{"root":"log","meaning":"study"},{"root":"-ist","meaning":"one who"}]
   },
   {
     "word": ["Triassic"],
@@ -87,7 +89,8 @@
       "A population within a species that differs in genetics or appearance."
     ],
     "chinese_translations": ["亚种"],
-    "example_sentences": "Each island hosts its own subspecies of the lizard."
+    "example_sentences": "Each island hosts its own subspecies of the lizard.",
+    "roots": [{"root":"sub-","meaning":"under"},{"root":"spec","meaning":"kind"}]
   },
   {
     "word": ["invertebrate"],
@@ -96,7 +99,8 @@
       "An animal lacking a backbone, such as an insect or worm."
     ],
     "chinese_translations": ["无脊椎动物"],
-    "example_sentences": "Owls feed on invertebrates after dark."
+    "example_sentences": "Owls feed on invertebrates after dark.",
+    "roots": [{"root":"in-","meaning":"not"},{"root":"vertebr","meaning":"backbone"},{"root":"-ate","meaning":"having"}]
   },
   {
     "word": ["vertebrate"],
@@ -105,7 +109,8 @@
       "An animal with a backbone, including fish, birds, and mammals."
     ],
     "chinese_translations": ["脊椎动物"],
-    "example_sentences": "Fish, birds and mammals are all vertebrates."
+    "example_sentences": "Fish, birds and mammals are all vertebrates.",
+    "roots": [{"root":"vertebr","meaning":"backbone"},{"root":"-ate","meaning":"having"}]
   },
   {
     "word": ["excavate"],
@@ -114,7 +119,8 @@
       "To dig out something buried, especially archaeological remains."
     ],
     "chinese_translations": ["发掘", "挖掘"],
-    "example_sentences": "Workers excavated bear bones from the cave floor."
+    "example_sentences": "Workers excavated bear bones from the cave floor.",
+    "roots": [{"root":"ex-","meaning":"out"},{"root":"cav","meaning":"hollow"},{"root":"-ate","meaning":"to perform"}]
   },
   {
     "word": ["unearth"],
@@ -150,7 +156,8 @@
       "A form of an element with a different atomic weight, used to date and trace remains."
     ],
     "chinese_translations": ["同位素"],
-    "example_sentences": "Isotopes in bones reveal what the cave bears ate."
+    "example_sentences": "Isotopes in bones reveal what the cave bears ate.",
+    "roots": [{"root":"iso-","meaning":"equal"},{"root":"tope","meaning":"place"}]
   },
   {
     "word": ["spectrometer"],
@@ -159,7 +166,8 @@
       "An instrument that analyses light or mass to identify substances."
     ],
     "chinese_translations": ["光谱仪"],
-    "example_sentences": "The team ran the samples through a mass spectrometer."
+    "example_sentences": "The team ran the samples through a mass spectrometer.",
+    "roots": [{"root":"spectro-","meaning":"spectrum"},{"root":"meter","meaning":"measure"}]
   },
   {
     "word": ["decimation"],
@@ -168,7 +176,8 @@
       "The destruction or killing of a large proportion of a group."
     ],
     "chinese_translations": ["大批毁灭", "大量杀灭"],
-    "example_sentences": "Otters suffered decimation during the fur-trade years."
+    "example_sentences": "Otters suffered decimation during the fur-trade years.",
+    "roots": [{"root":"decim","meaning":"tenth"},{"root":"-ation","meaning":"act of"}]
   },
   {
     "word": ["overkill"],
@@ -186,7 +195,8 @@
       "To cause severe and lasting damage to something."
     ],
     "chinese_translations": ["摧毁", "毁灭"],
-    "example_sentences": "A flood devastated the ants' nest galleries."
+    "example_sentences": "A flood devastated the ants' nest galleries.",
+    "roots": [{"root":"de-","meaning":"completely"},{"root":"vast","meaning":"waste"},{"root":"-ate","meaning":"to make"}]
   },
   {
     "word": ["reintroduce", "reintroduction"],
@@ -195,7 +205,8 @@
       "To return a species, often captive-bred, to its former wild habitat."
     ],
     "chinese_translations": ["重新引入野外", "放归"],
-    "example_sentences": "Otters were reintroduced to the river after decades of absence."
+    "example_sentences": "Otters were reintroduced to the river after decades of absence.",
+    "roots": [{"root":"re-","meaning":"again"},{"root":"intro-","meaning":"inward"},{"root":"duce","meaning":"lead"}]
   },
   {
     "word": ["ecotourism"],
@@ -213,7 +224,8 @@
       "A person who works to protect wildlife and habitats."
     ],
     "chinese_translations": ["自然保护主义者", "环保主义者"],
-    "example_sentences": "Conservationists campaigned to save the thylacine, but too late."
+    "example_sentences": "Conservationists campaigned to save the thylacine, but too late.",
+    "roots": [{"root":"con-","meaning":"together"},{"root":"serv","meaning":"keep"},{"root":"-ation","meaning":"act of"},{"root":"-ist","meaning":"one who"}]
   },
   {
     "word": ["captive-bred"],
@@ -231,6 +243,7 @@
       "The state of a species having no living members."
     ],
     "chinese_translations": ["灭绝", "绝种"],
-    "example_sentences": "The flightless bird slid into extinction within decades."
+    "example_sentences": "The flightless bird slid into extinction within decades.",
+    "roots": [{"root":"ex-","meaning":"out"},{"root":"tinct","meaning":"extinguish"},{"root":"-ion","meaning":"act of"}]
   }
 ]

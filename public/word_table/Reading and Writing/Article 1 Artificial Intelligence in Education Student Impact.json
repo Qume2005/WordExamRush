@@ -39,7 +39,8 @@
     "english_synonyms": ["embrace", "implement", "take up"],
     "english_explanations": ["To choose to follow or use a particular method, approach, or technology."],
     "chinese_translations": ["采用", "采纳", "引入"],
-    "example_sentences": "Many institutions decided to adopt online teaching methods during the pandemic."
+    "example_sentences": "Many institutions decided to adopt online teaching methods during the pandemic.",
+    "roots": [{"root":"ad-","meaning":"to"},{"root":"opt","meaning":"choose"}]
   },
   {
     "word": ["algorithmic bias"],
@@ -53,7 +54,8 @@
     "english_synonyms": ["examine", "investigate", "evaluate", "study"],
     "english_explanations": ["To study or examine something in detail in order to understand it or explain it."],
     "chinese_translations": ["分析", "解析"],
-    "example_sentences": "We need to analyse the data carefully before drawing any conclusions."
+    "example_sentences": "We need to analyse the data carefully before drawing any conclusions.",
+    "roots": [{"root":"ana-","meaning":"up"},{"root":"lys","meaning":"loosen"}]
   },
   {
     "word": ["artificial intelligence"],
@@ -67,7 +69,8 @@
     "english_synonyms": ["evaluation", "appraisal", "measurement"],
     "english_explanations": ["The process of evaluating or measuring a person's knowledge, skills, or performance."],
     "chinese_translations": ["评估", "评价", "测评"],
-    "example_sentences": "Formative assessment helps teachers adjust instruction based on student progress."
+    "example_sentences": "Formative assessment helps teachers adjust instruction based on student progress.",
+    "roots": [{"root":"as-","meaning":"to"},{"root":"sess","meaning":"sit"},{"root":"-ment","meaning":"act or result"}]
   },
   {
     "word": ["automated guidance"],
@@ -123,21 +126,24 @@
     "english_synonyms": ["contrast", "evaluate against", "juxtapose"],
     "english_explanations": ["To examine the similarities and differences between two or more things."],
     "chinese_translations": ["比较", "对比"],
-    "example_sentences": "It is useful to compare traditional teaching methods with modern digital approaches."
+    "example_sentences": "It is useful to compare traditional teaching methods with modern digital approaches.",
+    "roots": [{"root":"com-","meaning":"together"},{"root":"par","meaning":"arrange"}]
   },
   {
     "word": ["confirm"],
     "english_synonyms": ["verify", "validate", "substantiate", "corroborate"],
     "english_explanations": ["To establish the truth or correctness of something through evidence or testing."],
     "chinese_translations": ["确认", "证实", "验证"],
-    "example_sentences": "Further experiments are needed to confirm the initial findings of the study."
+    "example_sentences": "Further experiments are needed to confirm the initial findings of the study.",
+    "roots": [{"root":"con-","meaning":"completely"},{"root":"firm","meaning":"strong"}]
   },
   {
     "word": ["consistent"],
     "english_synonyms": ["uniform", "steady", "coherent", "reliable"],
     "english_explanations": ["Acting or done in the same way over time, especially so as to be fair or accurate."],
     "chinese_translations": ["一致的", "持续的", "连贯的"],
-    "example_sentences": "Consistent feedback from teachers helps students understand their progress over time."
+    "example_sentences": "Consistent feedback from teachers helps students understand their progress over time.",
+    "roots": [{"root":"con-","meaning":"together"},{"root":"sist","meaning":"stand"},{"root":"-ent","meaning":"doing"}]
   },
   {
     "word": ["content difficulty"],
@@ -151,21 +157,24 @@
     "english_synonyms": ["situational", "background-related", "circumstantial"],
     "english_explanations": ["Relating to or depending on the particular circumstances or setting in which something occurs."],
     "chinese_translations": ["情境化的", "上下文相关的", "背景相关的"],
-    "example_sentences": "Contextual clues can help students infer the meaning of unfamiliar vocabulary."
+    "example_sentences": "Contextual clues can help students infer the meaning of unfamiliar vocabulary.",
+    "roots": [{"root":"con-","meaning":"together"},{"root":"text","meaning":"weave"},{"root":"-ual","meaning":"relating to"}]
   },
   {
     "word": ["control"],
     "english_synonyms": ["regulate", "manage", "supervise", "direct"],
     "english_explanations": ["To determine the behavior or supervise the running of something."],
     "chinese_translations": ["控制", "管理", "监督"],
-    "example_sentences": "The study used a control group to isolate the effects of the new teaching method."
+    "example_sentences": "The study used a control group to isolate the effects of the new teaching method.",
+    "roots": [{"root":"contr-","meaning":"against"},{"root":"rol","meaning":"roll"}]
   },
   {
     "word": ["correlation"],
     "english_synonyms": ["association", "relationship", "connection", "link"],
     "english_explanations": ["A mutual relationship or connection between two or more variables."],
     "chinese_translations": ["相关性", "关联"],
-    "example_sentences": "A strong correlation was found between student engagement and academic achievement."
+    "example_sentences": "A strong correlation was found between student engagement and academic achievement.",
+    "roots": [{"root":"cor-","meaning":"together"},{"root":"re-","meaning":"back"},{"root":"lat","meaning":"carry"},{"root":"-ion","meaning":"act"}]
   },
   {
     "word": ["creativity"],
@@ -235,7 +244,8 @@
     "english_synonyms": ["show", "illustrate", "exhibit", "prove"],
     "english_explanations": ["To clearly show the existence or truth of something by giving proof or evidence."],
     "chinese_translations": ["证明", "展示", "演示"],
-    "example_sentences": "The study aims to demonstrate the effectiveness of gamification in improving student motivation."
+    "example_sentences": "The study aims to demonstrate the effectiveness of gamification in improving student motivation.",
+    "roots": [{"root":"de-","meaning":"completely"},{"root":"monstr","meaning":"show"},{"root":"-ate","meaning":"to cause"}]
   },
   {
     "word": ["direct causal effect"],
@@ -270,14 +280,16 @@
     "english_synonyms": ["compassion", "understanding", "sensitivity"],
     "english_explanations": ["The ability to understand and share the feelings of another person."],
     "chinese_translations": ["同理心", "共情", "移情"],
-    "example_sentences": "Developing empathy is a key objective in social-emotional learning programs."
+    "example_sentences": "Developing empathy is a key objective in social-emotional learning programs.",
+    "roots": [{"root":"em-","meaning":"in"},{"root":"path","meaning":"feeling"},{"root":"-y","meaning":"characterized by"}]
   },
   {
     "word": ["enable"],
     "english_synonyms": ["empower", "facilitate", "allow", "permit"],
     "english_explanations": ["To give someone the authority or means to do something."],
     "chinese_translations": ["使能够", "赋能", "促成"],
-    "example_sentences": "Technology can enable students to access educational resources beyond the physical classroom."
+    "example_sentences": "Technology can enable students to access educational resources beyond the physical classroom.",
+    "roots": [{"root":"en-","meaning":"to make"},{"root":"abl","meaning":"able"}]
   },
   {
     "word": ["engage", "engagement"],
@@ -298,7 +310,8 @@
     "english_synonyms": ["fairness", "justice", "impartiality"],
     "english_explanations": ["The quality of being fair and impartial, often involving the recognition of different needs and circumstances."],
     "chinese_translations": ["公平", "公正", "公平性"],
-    "example_sentences": "Educational equity ensures that all students receive the support they need to succeed."
+    "example_sentences": "Educational equity ensures that all students receive the support they need to succeed.",
+    "roots": [{"root":"equ","meaning":"fair"},{"root":"-ity","meaning":"state or quality"}]
   },
   {
     "word": ["ethical concerns"],
@@ -312,7 +325,8 @@
     "english_synonyms": ["moral philosophy", "moral principles", "values"],
     "english_explanations": ["Moral principles that govern a person's behavior or the conducting of an activity."],
     "chinese_translations": ["伦理学", "道德规范", "伦理"],
-    "example_sentences": "Researchers must adhere to strict ethics guidelines when conducting studies involving human participants."
+    "example_sentences": "Researchers must adhere to strict ethics guidelines when conducting studies involving human participants.",
+    "roots": [{"root":"eth","meaning":"character"},{"root":"-ics","meaning":"study of"}]
   },
   {
     "word": ["evidence-based insights"],
@@ -333,7 +347,8 @@
     "english_synonyms": ["investigate", "discover", "probe", "delve into"],
     "english_explanations": ["To travel through or look around a place or subject to learn about it, or to inquire into in detail."],
     "chinese_translations": ["探索", "探究", "研究"],
-    "example_sentences": "Students are encouraged to explore multiple perspectives before forming an opinion."
+    "example_sentences": "Students are encouraged to explore multiple perspectives before forming an opinion.",
+    "roots": [{"root":"ex-","meaning":"out"},{"root":"plor","meaning":"cry out"}]
   },
   {
     "word": ["external factors"],
@@ -361,7 +376,8 @@
     "english_synonyms": ["adaptable", "versatile", "elastic", "accommodating"],
     "english_explanations": ["Able to be easily modified to respond to altered circumstances or conditions."],
     "chinese_translations": ["灵活的", "弹性的", "可变通的"],
-    "example_sentences": "Flexible learning schedules allow students to balance education with work commitments."
+    "example_sentences": "Flexible learning schedules allow students to balance education with work commitments.",
+    "roots": [{"root":"flex","meaning":"bend"},{"root":"-ible","meaning":"able to be"}]
   },
   {
     "word": ["foster"],
@@ -389,21 +405,24 @@
     "english_synonyms": ["execution", "application", "deployment", "enactment"],
     "english_explanations": ["The process of putting a decision, plan, or system into effect."],
     "chinese_translations": ["实施", "执行", "落实"],
-    "example_sentences": "Successful implementation of the new curriculum requires comprehensive teacher training."
+    "example_sentences": "Successful implementation of the new curriculum requires comprehensive teacher training.",
+    "roots": [{"root":"im-","meaning":"into"},{"root":"ple","meaning":"fill"},{"root":"-ment","meaning":"result"},{"root":"-ation","meaning":"act"}]
   },
   {
     "word": ["increase"],
     "english_synonyms": ["raise", "augment", "expand", "escalate"],
     "english_explanations": ["To make or become greater in size, amount, or degree."],
     "chinese_translations": ["增加", "增长", "提高"],
-    "example_sentences": "The school aims to increase student retention rates through improved support services."
+    "example_sentences": "The school aims to increase student retention rates through improved support services.",
+    "roots": [{"root":"in-","meaning":"into"},{"root":"creas","meaning":"grow"}]
   },
   {
     "word": ["inequalities"],
     "english_synonyms": ["disparities", "imbalances", "unevenness", "differences"],
     "english_explanations": ["Differences in size, degree, or circumstances that are perceived as unfair or unjust."],
     "chinese_translations": ["不平等", "不均衡", "差异"],
-    "example_sentences": "Educational inequalities often reflect broader socioeconomic divisions in society."
+    "example_sentences": "Educational inequalities often reflect broader socioeconomic divisions in society.",
+    "roots": [{"root":"in-","meaning":"not"},{"root":"equ","meaning":"equal"},{"root":"-al","meaning":"relating to"},{"root":"-ity","meaning":"state"},{"root":"-s","meaning":"plural"}]
   },
   {
     "word": ["innovation-focused"],
@@ -431,7 +450,8 @@
     "english_synonyms": ["original", "creative", "groundbreaking", "novel"],
     "english_explanations": ["Featuring new methods, advanced ideas, or original approaches to solving problems."],
     "chinese_translations": ["创新的", "革新的"],
-    "example_sentences": "The professor developed an innovative teaching method that flipped the traditional classroom model."
+    "example_sentences": "The professor developed an innovative teaching method that flipped the traditional classroom model.",
+    "roots": [{"root":"in-","meaning":"into"},{"root":"nov","meaning":"new"},{"root":"-at","meaning":"having"},{"root":"-ive","meaning":"tending to"}]
   },
   {
     "word": ["instant feedback"],
@@ -452,7 +472,8 @@
     "english_synonyms": ["teaching", "education", "training", "tuition"],
     "english_explanations": ["The act of teaching or the content that is taught to learners."],
     "chinese_translations": ["教学", "指导", "讲授"],
-    "example_sentences": "Effective instruction adapts to the diverse learning needs of all students."
+    "example_sentences": "Effective instruction adapts to the diverse learning needs of all students.",
+    "roots": [{"root":"in-","meaning":"into"},{"root":"struct","meaning":"build"},{"root":"-ion","meaning":"act"}]
   },
   {
     "word": ["intelligent tutoring systems"],
@@ -473,7 +494,8 @@
     "english_synonyms": ["research", "study", "explore", "inquire into"],
     "english_explanations": ["To carry out a systematic or formal inquiry to discover and examine the facts of something."],
     "chinese_translations": ["调查", "研究", "探究"],
-    "example_sentences": "The team will investigate the factors contributing to high dropout rates in the district."
+    "example_sentences": "The team will investigate the factors contributing to high dropout rates in the district.",
+    "roots": [{"root":"in-","meaning":"into"},{"root":"vestig","meaning":"trace"},{"root":"-ate","meaning":"to cause"}]
   },
   {
     "word": ["learning analytics"],
@@ -494,7 +516,8 @@
     "english_synonyms": ["constraints", "restrictions", "shortcomings", "boundaries"],
     "english_explanations": ["Factors or conditions that restrict the scope, effectiveness, or power of something."],
     "chinese_translations": ["局限性", "限制", "不足"],
-    "example_sentences": "Researchers must acknowledge the limitations of their study in the final report."
+    "example_sentences": "Researchers must acknowledge the limitations of their study in the final report.",
+    "roots": [{"root":"limit","meaning":"boundary"},{"root":"-ation","meaning":"act or state"},{"root":"-s","meaning":"plural"}]
   },
   {
     "word": ["literature review"],
@@ -515,14 +538,16 @@
     "english_synonyms": ["quantify", "assess", "gauge", "evaluate"],
     "english_explanations": ["To ascertain the size, amount, or degree of something using an instrument or standard unit."],
     "chinese_translations": ["测量", "衡量", "评估"],
-    "example_sentences": "Standardized tests are often used to measure student achievement across different schools."
+    "example_sentences": "Standardized tests are often used to measure student achievement across different schools.",
+    "roots": [{"root":"meas","meaning":"measure"},{"root":"-ure","meaning":"act or result"}]
   },
   {
     "word": ["methodology"],
     "english_synonyms": ["methods", "approach", "framework", "procedures"],
     "english_explanations": ["A system of methods used in a particular area of study or activity."],
     "chinese_translations": ["方法论", "研究方法"],
-    "example_sentences": "The methodology section explains how data was collected and analyzed."
+    "example_sentences": "The methodology section explains how data was collected and analyzed.",
+    "roots": [{"root":"meth-","meaning":"after"},{"root":"hod","meaning":"way"},{"root":"-ology","meaning":"study of"}]
   },
   {
     "word": ["minimize risks"],
@@ -550,28 +575,32 @@
     "english_synonyms": ["observe", "track", "supervise", "oversee"],
     "english_explanations": ["To observe and check the progress or quality of something over a period of time."],
     "chinese_translations": ["监控", "监测", "监督"],
-    "example_sentences": "Teachers use dashboards to monitor student engagement in real time."
+    "example_sentences": "Teachers use dashboards to monitor student engagement in real time.",
+    "roots": [{"root":"mon","meaning":"warn"},{"root":"-itor","meaning":"one who"}]
   },
   {
     "word": ["motivation"],
     "english_synonyms": ["drive", "incentive", "enthusiasm", "commitment"],
     "english_explanations": ["The reason or reasons one has for acting or behaving in a particular way."],
     "chinese_translations": ["动机", "积极性", "动力"],
-    "example_sentences": "Intrinsic motivation often leads to deeper and more sustained learning than extrinsic rewards."
+    "example_sentences": "Intrinsic motivation often leads to deeper and more sustained learning than extrinsic rewards.",
+    "roots": [{"root":"mot","meaning":"move"},{"root":"-iv","meaning":"relating to"},{"root":"-ation","meaning":"act or state"}]
   },
   {
     "word": ["negative"],
     "english_synonyms": ["adverse", "unfavorable", "pessimistic", "harmful"],
     "english_explanations": ["Characterized by the absence rather than the presence of distinguishing features, or expressing criticism."],
     "chinese_translations": ["负面的", "消极的", "否定的"],
-    "example_sentences": "Negative feedback, when constructive, can guide students toward improvement."
+    "example_sentences": "Negative feedback, when constructive, can guide students toward improvement.",
+    "roots": [{"root":"neg","meaning":"deny"},{"root":"-ative","meaning":"tending to"}]
   },
   {
     "word": ["neutral"],
     "english_synonyms": ["impartial", "objective", "unbiased", "middle"],
     "english_explanations": ["Not supporting or helping either side in a conflict, disagreement, or process."],
     "chinese_translations": ["中性的", "中立的", "客观的"],
-    "example_sentences": "The researcher maintained a neutral stance to ensure the validity of the findings."
+    "example_sentences": "The researcher maintained a neutral stance to ensure the validity of the findings.",
+    "roots": [{"root":"neutr","meaning":"neither"},{"root":"-al","meaning":"relating to"}]
   },
   {
     "word": ["novelty effect"],
@@ -627,21 +656,24 @@
     "english_synonyms": ["systems", "frameworks", "infrastructures", "environments"],
     "english_explanations": ["Hardware or software systems that serve as a foundation for other applications or services."],
     "chinese_translations": ["平台", "系统"],
-    "example_sentences": "Online learning platforms have become essential tools for modern education delivery."
+    "example_sentences": "Online learning platforms have become essential tools for modern education delivery.",
+    "roots": [{"root":"plat","meaning":"flat"},{"root":"form","meaning":"shape"},{"root":"-s","meaning":"plural"}]
   },
   {
     "word": ["positive"],
     "english_synonyms": ["favorable", "constructive", "beneficial", "optimistic"],
     "english_explanations": ["Characterized by or displaying affirmation, acceptance, or certainty."],
     "chinese_translations": ["积极的", "正面的", "肯定的"],
-    "example_sentences": "Positive reinforcement is a powerful tool for shaping student behavior."
+    "example_sentences": "Positive reinforcement is a powerful tool for shaping student behavior.",
+    "roots": [{"root":"pos","meaning":"place"},{"root":"-itive","meaning":"tending to"}]
   },
   {
     "word": ["practical"],
     "english_synonyms": ["applied", "functional", "realistic", "hands-on"],
     "english_explanations": ["Concerned with the actual doing or use of something rather than with theory and ideas."],
     "chinese_translations": ["实用的", "实践的", "实际的"],
-    "example_sentences": "The course includes practical exercises to help students apply theoretical knowledge."
+    "example_sentences": "The course includes practical exercises to help students apply theoretical knowledge.",
+    "roots": [{"root":"pract","meaning":"do"},{"root":"-ical","meaning":"relating to"}]
   },
   {
     "word": ["problem-solving skills"],
@@ -662,7 +694,8 @@
     "english_synonyms": ["advancement", "development", "improvement", "growth"],
     "english_explanations": ["Forward or onward movement toward a destination or goal, or gradual improvement over time."],
     "chinese_translations": ["进步", "进展", "发展"],
-    "example_sentences": "Teachers regularly assess student progress to inform instructional decisions."
+    "example_sentences": "Teachers regularly assess student progress to inform instructional decisions.",
+    "roots": [{"root":"pro-","meaning":"forward"},{"root":"gress","meaning":"step"}]
   },
   {
     "word": ["qualitative"],
@@ -683,7 +716,8 @@
     "english_synonyms": ["numerical", "statistical", "measurable"],
     "english_explanations": ["Relating to, measuring, or measured by the quantity of something rather than its quality."],
     "chinese_translations": ["定量的", "量化的"],
-    "example_sentences": "Quantitative research methods rely on large sample sizes and statistical testing."
+    "example_sentences": "Quantitative research methods rely on large sample sizes and statistical testing.",
+    "roots": [{"root":"quant","meaning":"how much"},{"root":"-it","meaning":"noun"},{"root":"-ative","meaning":"tending to"}]
   },
   {
     "word": ["refine instruction"],
@@ -697,21 +731,24 @@
     "english_synonyms": ["dependability", "consistency", "trustworthiness", "stability"],
     "english_explanations": ["The quality of being trustworthy or of performing consistently well."],
     "chinese_translations": ["可靠性", "信度"],
-    "example_sentences": "The reliability of an assessment tool is crucial for valid educational measurement."
+    "example_sentences": "The reliability of an assessment tool is crucial for valid educational measurement.",
+    "roots": [{"root":"re-","meaning":"back"},{"root":"li","meaning":"bind"},{"root":"-abil","meaning":"able"},{"root":"-ity","meaning":"state"}]
   },
   {
     "word": ["replace"],
     "english_synonyms": ["substitute", "supersede", "supplant", "take over"],
     "english_explanations": ["To take the place of something or someone that was there previously."],
     "chinese_translations": ["替代", "取代", "更换"],
-    "example_sentences": "Technology should augment rather than replace the essential role of human teachers."
+    "example_sentences": "Technology should augment rather than replace the essential role of human teachers.",
+    "roots": [{"root":"re-","meaning":"again"},{"root":"plac","meaning":"place"}]
   },
   {
     "word": ["report"],
     "english_synonyms": ["document", "account", "statement", "study"],
     "english_explanations": ["A formal account of the results, proceedings, or conclusions of an investigation or activity."],
     "chinese_translations": ["报告", "研究报告"],
-    "example_sentences": "The final report summarized the key findings and recommendations of the research team."
+    "example_sentences": "The final report summarized the key findings and recommendations of the research team.",
+    "roots": [{"root":"re-","meaning":"back"},{"root":"port","meaning":"carry"}]
   },
   {
     "word": ["research objectives"],
@@ -760,7 +797,8 @@
     "english_synonyms": ["data", "figures", "numerical information", "stats"],
     "english_explanations": ["The practice or science of collecting and analyzing numerical data in large quantities."],
     "chinese_translations": ["统计学", "统计数据"],
-    "example_sentences": "A solid understanding of statistics is essential for conducting rigorous educational research."
+    "example_sentences": "A solid understanding of statistics is essential for conducting rigorous educational research.",
+    "roots": [{"root":"stat","meaning":"state"},{"root":"-ist","meaning":"one who"},{"root":"-ics","meaning":"study of"}]
   },
   {
     "word": ["student engagement"],
@@ -788,14 +826,16 @@
     "english_synonyms": ["personal", "individual", "biased", "interpretive"],
     "english_explanations": ["Based on or influenced by personal feelings, tastes, or opinions rather than objective facts."],
     "chinese_translations": ["主观的", "个人的"],
-    "example_sentences": "Teacher observations can sometimes be subjective, requiring calibration for reliability."
+    "example_sentences": "Teacher observations can sometimes be subjective, requiring calibration for reliability.",
+    "roots": [{"root":"sub-","meaning":"under"},{"root":"ject","meaning":"throw"},{"root":"-ive","meaning":"tending to"}]
   },
   {
     "word": ["support"],
     "english_synonyms": ["assistance", "help", "backing", "aid"],
     "english_explanations": ["The act of providing material or emotional assistance to help someone succeed or cope."],
     "chinese_translations": ["支持", "帮助", "援助"],
-    "example_sentences": "Academic support services play a critical role in helping at-risk students succeed."
+    "example_sentences": "Academic support services play a critical role in helping at-risk students succeed.",
+    "roots": [{"root":"sup-","meaning":"under"},{"root":"port","meaning":"carry"}]
   },
   {
     "word": ["systematic review"],
@@ -844,7 +884,8 @@
     "english_synonyms": ["change", "convert", "revolutionize", "alter fundamentally"],
     "english_explanations": ["To make a marked change in the form, nature, or appearance of something."],
     "chinese_translations": ["转变", "变革", "转化"],
-    "example_sentences": "Artificial intelligence has the potential to transform traditional educational models."
+    "example_sentences": "Artificial intelligence has the potential to transform traditional educational models.",
+    "roots": [{"root":"trans-","meaning":"across"},{"root":"form","meaning":"shape"}]
   },
   {
     "word": ["transparent design"],
@@ -858,7 +899,8 @@
     "english_synonyms": ["coaching", "instruction", "mentoring", "private teaching"],
     "english_explanations": ["The act of giving individual instruction or guidance to a student, typically outside regular classes."],
     "chinese_translations": ["辅导", "家教", "个别指导"],
-    "example_sentences": "One-on-one tutoring has been shown to produce significant gains in student achievement."
+    "example_sentences": "One-on-one tutoring has been shown to produce significant gains in student achievement.",
+    "roots": [{"root":"tut","meaning":"watch"},{"root":"-or","meaning":"one who"},{"root":"-ing","meaning":"doing"}]
   },
   {
     "word": ["virtual environments"],

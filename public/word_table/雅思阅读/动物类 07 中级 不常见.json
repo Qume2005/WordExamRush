@@ -4,7 +4,8 @@
     "english_synonyms": ["clever", "inventive", "resourceful"],
     "english_explanations": ["Cleverly inventive and skilful."],
     "chinese_translations": ["精巧的", "巧妙的"],
-    "example_sentences": "An ingenious experiment tracked the shearwaters with tiny loggers."
+    "example_sentences": "An ingenious experiment tracked the shearwaters with tiny loggers.",
+    "roots": [{"root":"in-","meaning":"in"},{"root":"geni","meaning":"talent"},{"root":"-ous","meaning":"full of"}]
   },
   {
     "word": ["notoriously"],
@@ -20,7 +21,8 @@
     "english_synonyms": ["dry", "parched"],
     "english_explanations": ["Having little or no rain."],
     "chinese_translations": ["干旱的", "贫瘠的"],
-    "example_sentences": "Termites thrive in arid grasslands."
+    "example_sentences": "Termites thrive in arid grasslands.",
+    "roots": [{"root":"ar","meaning":"dry"},{"root":"-id","meaning":"having the quality of"}]
   },
   {
     "word": ["shrub"],
@@ -36,7 +38,8 @@
     "english_synonyms": ["sudden", "unexpected"],
     "english_explanations": ["Sudden and unexpected."],
     "chinese_translations": ["突然的", "意外的"],
-    "example_sentences": "An abrupt change in the current swept the school aside."
+    "example_sentences": "An abrupt change in the current swept the school aside.",
+    "roots": [{"root":"ab-","meaning":"away"},{"root":"rupt","meaning":"break"}]
   },
   {
     "word": ["pigment"],
@@ -45,7 +48,8 @@
       "A substance that gives colour to a tissue or cell."
     ],
     "chinese_translations": ["色素"],
-    "example_sentences": "Red pigment absorbs the last traces of sunlight below the surface."
+    "example_sentences": "Red pigment absorbs the last traces of sunlight below the surface.",
+    "roots": [{"root":"pig","meaning":"paint"},{"root":"-ment","meaning":"result of"}]
   },
   {
     "word": ["soar"],
@@ -115,7 +119,8 @@
       "Matter that settles to the bottom of water or wind."
     ],
     "chinese_translations": ["沉积物", "沉积层"],
-    "example_sentences": "Dinosaur tracks lay buried in ancient sediment."
+    "example_sentences": "Dinosaur tracks lay buried in ancient sediment.",
+    "roots": [{"root":"sed","meaning":"settle"},{"root":"-iment","meaning":"that which"}]
   },
   {
     "word": ["cultivate"],
@@ -124,7 +129,8 @@
       "To prepare land and raise crops; to encourage the growth of."
     ],
     "chinese_translations": ["培育", "种植", "培养"],
-    "example_sentences": "The ants cultivate a fungus in underground gardens."
+    "example_sentences": "The ants cultivate a fungus in underground gardens.",
+    "roots": [{"root":"cultiv","meaning":"till"},{"root":"-ate","meaning":"to perform"}]
   },
   {
     "word": ["vibration"],
@@ -133,7 +139,8 @@
       "A continuous slight shaking movement."
     ],
     "chinese_translations": ["振动", "颤动"],
-    "example_sentences": "Elephants answer distant vibrations felt through the ground."
+    "example_sentences": "Elephants answer distant vibrations felt through the ground.",
+    "roots": [{"root":"vibr","meaning":"shake"},{"root":"-ation","meaning":"act of"}]
   },
   {
     "word": ["pouch"],
@@ -151,7 +158,8 @@
       "Belonging to or inherited from ancestors."
     ],
     "chinese_translations": ["祖先的", "祖传的"],
-    "example_sentences": "The storks follow an ancestral flyway."
+    "example_sentences": "The storks follow an ancestral flyway.",
+    "roots": [{"root":"ancestr","meaning":"ancestor"},{"root":"-al","meaning":"relating to"}]
   },
   {
     "word": ["dusk"],
@@ -178,7 +186,8 @@
       "Difficult to find, catch, or achieve."
     ],
     "chinese_translations": ["难以捉摸的", "难以找到的"],
-    "example_sentences": "The thylacine remains an elusive symbol of lost wildlife."
+    "example_sentences": "The thylacine remains an elusive symbol of lost wildlife.",
+    "roots": [{"root":"e-","meaning":"out"},{"root":"lus","meaning":"play"},{"root":"-ive","meaning":"tending to"}]
   },
   {
     "word": ["biodiversity"],
@@ -187,7 +196,8 @@
       "The variety of plant and animal life in a habitat."
     ],
     "chinese_translations": ["生物多样性"],
-    "example_sentences": "Islands pack remarkable biodiversity into small areas."
+    "example_sentences": "Islands pack remarkable biodiversity into small areas.",
+    "roots": [{"root":"bio-","meaning":"life"},{"root":"divers","meaning":"different"},{"root":"-ity","meaning":"quality of"}]
   },
   {
     "word": ["anomaly"],
@@ -205,7 +215,8 @@
       "(of air or water) moving irregularly and violently."
     ],
     "chinese_translations": ["湍流的", "汹涌的"],
-    "example_sentences": "Turbulent eddies form behind a swimming penguin."
+    "example_sentences": "Turbulent eddies form behind a swimming penguin.",
+    "roots": [{"root":"turb","meaning":"disturb"},{"root":"-ulent","meaning":"full of"}]
   },
   {
     "word": ["turbulence"],
@@ -214,7 +225,8 @@
       "Violent, irregular motion in air or water."
     ],
     "chinese_translations": ["湍流", "湍流现象"],
-    "example_sentences": "Gliding birds save energy in turbulence."
+    "example_sentences": "Gliding birds save energy in turbulence.",
+    "roots": [{"root":"turb","meaning":"disturb"},{"root":"-ulence","meaning":"quality of"}]
   },
   {
     "word": ["plight"],
@@ -232,7 +244,8 @@
       "An organism that lives on or in a host and feeds at its expense."
     ],
     "chinese_translations": ["寄生虫"],
-    "example_sentences": "A parasite weakens the caterpillar from within."
+    "example_sentences": "A parasite weakens the caterpillar from within.",
+    "roots": [{"root":"para-","meaning":"beside"},{"root":"sit","meaning":"food"}]
   },
   {
     "word": ["parasitic"],
@@ -241,7 +254,8 @@
       "Living on or in a host and harming it."
     ],
     "chinese_translations": ["寄生的"],
-    "example_sentences": "Parasitic flies lay their eggs on the worker ants."
+    "example_sentences": "Parasitic flies lay their eggs on the worker ants.",
+    "roots": [{"root":"para-","meaning":"beside"},{"root":"sit","meaning":"food"},{"root":"-ic","meaning":"relating to"}]
   },
   {
     "word": ["toxin"],
@@ -250,7 +264,8 @@
       "A poisonous substance produced by a living organism."
     ],
     "chinese_translations": ["毒素"],
-    "example_sentences": "Monkeys avoid leaves rich in toxins."
+    "example_sentences": "Monkeys avoid leaves rich in toxins.",
+    "roots": [{"root":"tox","meaning":"poison"},{"root":"-in","meaning":"substance"}]
   },
   {
     "word": ["relentless"],
@@ -268,7 +283,8 @@
       "To put or go under water."
     ],
     "chinese_translations": ["淹没", "浸没", "潜入水中"],
-    "example_sentences": "The otter submerges with one smooth kick."
+    "example_sentences": "The otter submerges with one smooth kick.",
+    "roots": [{"root":"sub-","meaning":"under"},{"root":"merge","meaning":"dip"}]
   },
   {
     "word": ["symmetry"],
@@ -277,7 +293,8 @@
       "Exact correspondence of form on opposite sides of a dividing line."
     ],
     "chinese_translations": ["对称", "对称性"],
-    "example_sentences": "The trackway's symmetry revealed a walking gait."
+    "example_sentences": "The trackway's symmetry revealed a walking gait.",
+    "roots": [{"root":"sym-","meaning":"together"},{"root":"metr","meaning":"measure"},{"root":"-y","meaning":"state of"}]
   },
   {
     "word": ["canopy"],
@@ -379,7 +396,8 @@
       "Relating to earthquakes or vibrations in the ground."
     ],
     "chinese_translations": ["地震的", "与地震有关的"],
-    "example_sentences": "Elephants may pick up seismic signals through their feet."
+    "example_sentences": "Elephants may pick up seismic signals through their feet.",
+    "roots": [{"root":"seism","meaning":"shake"},{"root":"-ic","meaning":"relating to"}]
   },
   {
     "word": ["intricate"],
@@ -397,7 +415,8 @@
       "The condition of being kept enclosed or confined."
     ],
     "chinese_translations": ["圈养", "被囚禁的状态"],
-    "example_sentences": "Few cubs born in captivity survive release."
+    "example_sentences": "Few cubs born in captivity survive release.",
+    "roots": [{"root":"capt","meaning":"seize"},{"root":"-ive","meaning":"having"},{"root":"-ity","meaning":"state of"}]
   },
   {
     "word": ["asteroid"],
@@ -406,7 +425,8 @@
       "A small rocky body orbiting the sun."
     ],
     "chinese_translations": ["小行星"],
-    "example_sentences": "An asteroid impact ended the dinosaurs' reign."
+    "example_sentences": "An asteroid impact ended the dinosaurs' reign.",
+    "roots": [{"root":"aster","meaning":"star"},{"root":"-oid","meaning":"resembling"}]
   },
   {
     "word": ["cavity"],
@@ -415,7 +435,8 @@
       "An empty space within a solid body."
     ],
     "chinese_translations": ["腔", "洞", "空腔"],
-    "example_sentences": "The mound's central cavity channels warm air."
+    "example_sentences": "The mound's central cavity channels warm air.",
+    "roots": [{"root":"cav","meaning":"hollow"},{"root":"-ity","meaning":"state of"}]
   },
   {
     "word": ["physiology"],
@@ -424,7 +445,8 @@
       "The branch of biology dealing with how organisms function."
     ],
     "chinese_translations": ["生理学", "生理机能"],
-    "example_sentences": "Diving physiology limits the penguin's depth."
+    "example_sentences": "Diving physiology limits the penguin's depth.",
+    "roots": [{"root":"physi","meaning":"nature"},{"root":"-ology","meaning":"study of"}]
   },
   {
     "word": ["aquatic"],
@@ -433,7 +455,8 @@
       "Living in or relating to water."
     ],
     "chinese_translations": ["水生的", "水栖的"],
-    "example_sentences": "Otters are agile aquatic hunters."
+    "example_sentences": "Otters are agile aquatic hunters.",
+    "roots": [{"root":"aqu","meaning":"water"},{"root":"-atic","meaning":"relating to"}]
   },
   {
     "word": ["empirical"],
@@ -442,7 +465,8 @@
       "Based on observation and experiment rather than theory."
     ],
     "chinese_translations": ["基于实证的", "经验主义的"],
-    "example_sentences": "The theory finally gained empirical support."
+    "example_sentences": "The theory finally gained empirical support.",
+    "roots": [{"root":"empir","meaning":"experience"},{"root":"-ical","meaning":"relating to"}]
   },
   {
     "word": ["drastic"],
@@ -451,7 +475,8 @@
       "Extreme in effect or degree."
     ],
     "chinese_translations": ["剧烈的", "激烈的"],
-    "example_sentences": "Drastic drops in range preceded extinction."
+    "example_sentences": "Drastic drops in range preceded extinction.",
+    "roots": [{"root":"drast","meaning":"act"},{"root":"-ic","meaning":"relating to"}]
   },
   {
     "word": ["plausible"],
@@ -460,7 +485,8 @@
       "Seemingly reasonable or probable."
     ],
     "chinese_translations": ["貌似合理的", "貌似可信的"],
-    "example_sentences": "Climate change offers a plausible alternative to overkill."
+    "example_sentences": "Climate change offers a plausible alternative to overkill.",
+    "roots": [{"root":"plaus","meaning":"approve"},{"root":"-ible","meaning":"able to be"}]
   },
   {
     "word": ["formidable"],
@@ -469,7 +495,8 @@
       "Inspiring fear or respect through power; hard to defeat."
     ],
     "chinese_translations": ["强大的", "可怕的", "令人生畏的"],
-    "example_sentences": "Barracudas hunt with formidable speed."
+    "example_sentences": "Barracudas hunt with formidable speed.",
+    "roots": [{"root":"formid","meaning":"fear"},{"root":"-able","meaning":"able to be"}]
   },
   {
     "word": ["posture"],
@@ -487,7 +514,8 @@
       "Able to be used for many purposes; adaptable."
     ],
     "chinese_translations": ["多功能的", "多才多艺的"],
-    "example_sentences": "The trunk is a versatile tool."
+    "example_sentences": "The trunk is a versatile tool.",
+    "roots": [{"root":"vers","meaning":"turn"},{"root":"-atile","meaning":"capable of"}]
   },
   {
     "word": ["demise"],
@@ -503,7 +531,8 @@
       "Likely to be affected by something (susceptible to)."
     ],
     "chinese_translations": ["易受影响的", "敏感的"],
-    "example_sentences": "Island birds are susceptible to new diseases."
+    "example_sentences": "Island birds are susceptible to new diseases.",
+    "roots": [{"root":"sus-","meaning":"under"},{"root":"cept","meaning":"take"},{"root":"-ible","meaning":"able to be"}]
   },
   {
     "word": ["cardiovascular"],
@@ -512,7 +541,8 @@
       "Relating to the heart and blood vessels."
     ],
     "chinese_translations": ["心血管的"],
-    "example_sentences": "The giraffe's cardiovascular system tolerates huge pressure swings."
+    "example_sentences": "The giraffe's cardiovascular system tolerates huge pressure swings.",
+    "roots": [{"root":"cardio-","meaning":"heart"},{"root":"vascul","meaning":"vessel"},{"root":"-ar","meaning":"relating to"}]
   },
   {
     "word": ["intriguing"],
@@ -537,7 +567,8 @@
       "A space of time between events."
     ],
     "chinese_translations": ["间隔", "间歇"],
-    "example_sentences": "The tremors repeat at 40-second intervals."
+    "example_sentences": "The tremors repeat at 40-second intervals.",
+    "roots": [{"root":"inter-","meaning":"between"},{"root":"val","meaning":"wall"}]
   },
   {
     "word": ["crust"],
@@ -555,7 +586,8 @@
       "Resistance met when one surface moves over another."
     ],
     "chinese_translations": ["摩擦", "摩擦力"],
-    "example_sentences": "Mucus cuts friction as the eel swims."
+    "example_sentences": "Mucus cuts friction as the eel swims.",
+    "roots": [{"root":"frict","meaning":"rub"},{"root":"-ion","meaning":"act of"}]
   },
   {
     "word": ["nutrient"],
@@ -564,7 +596,8 @@
       "A substance that provides nourishment for growth."
     ],
     "chinese_translations": ["营养物", "养分"],
-    "example_sentences": "Flooded forests release nutrients into the estuary."
+    "example_sentences": "Flooded forests release nutrients into the estuary.",
+    "roots": [{"root":"nutri","meaning":"nourish"},{"root":"-ent","meaning":"thing that"}]
   },
   {
     "word": ["potent"],
@@ -580,7 +613,8 @@
       "Providing additional or reserve support."
     ],
     "chinese_translations": ["辅助的", "备用的"],
-    "example_sentences": "The fish's auxiliary fins add lift."
+    "example_sentences": "The fish's auxiliary fins add lift.",
+    "roots": [{"root":"auxili","meaning":"help"},{"root":"-ary","meaning":"relating to"}]
   },
   {
     "word": ["endurance"],
@@ -589,7 +623,8 @@
       "The ability to sustain prolonged physical effort."
     ],
     "chinese_translations": ["耐力", "持久力"],
-    "example_sentences": "Bar-tailed godwits fly 11,000 kilometres on endurance alone."
+    "example_sentences": "Bar-tailed godwits fly 11,000 kilometres on endurance alone.",
+    "roots": [{"root":"en-","meaning":"in"},{"root":"dur","meaning":"hard"},{"root":"-ance","meaning":"ability"}]
   },
   {
     "word": ["onset"],
@@ -628,7 +663,8 @@
       "To become aware of something through the senses."
     ],
     "chinese_translations": ["感知", "察觉"],
-    "example_sentences": "Sharks perceive the faint electric fields of their prey."
+    "example_sentences": "Sharks perceive the faint electric fields of their prey.",
+    "roots": [{"root":"per-","meaning":"through"},{"root":"ceive","meaning":"take"}]
   },
   {
     "word": ["constitute"],
@@ -637,7 +673,8 @@
       "To be the parts that together make up something."
     ],
     "chinese_translations": ["构成", "组成"],
-    "example_sentences": "Workers constitute the bulk of the colony."
+    "example_sentences": "Workers constitute the bulk of the colony.",
+    "roots": [{"root":"con-","meaning":"together"},{"root":"stitut","meaning":"set up"}]
   },
   {
     "word": ["offspring"],
@@ -655,7 +692,8 @@
       "Plants in general, especially those of an area."
     ],
     "chinese_translations": ["植被", "草木"],
-    "example_sentences": "Goats stripped the vegetation to bare soil."
+    "example_sentences": "Goats stripped the vegetation to bare soil.",
+    "roots": [{"root":"veget","meaning":"grow"},{"root":"-ation","meaning":"process of"}]
   },
   {
     "word": ["credible"],
@@ -664,7 +702,8 @@
       "Able to be believed; convincing."
     ],
     "chinese_translations": ["可信的", "可靠的"],
-    "example_sentences": "The sighting was deemed credible by the panel."
+    "example_sentences": "The sighting was deemed credible by the panel.",
+    "roots": [{"root":"cred","meaning":"believe"},{"root":"-ible","meaning":"able to be"}]
   },
   {
     "word": ["compensate"],
@@ -673,7 +712,8 @@
       "To make up for something lost or deficient."
     ],
     "chinese_translations": ["补偿", "弥补"],
-    "example_sentences": "Thick fur compensates for the otter's lack of blubber."
+    "example_sentences": "Thick fur compensates for the otter's lack of blubber.",
+    "roots": [{"root":"com-","meaning":"together"},{"root":"pens","meaning":"weigh"},{"root":"-ate","meaning":"to perform"}]
   },
   {
     "word": ["predominantly"],
@@ -682,21 +722,24 @@
       "For the most part; mainly."
     ],
     "chinese_translations": ["主要地", "大多"],
-    "example_sentences": "The whale's diet is predominantly krill."
+    "example_sentences": "The whale's diet is predominantly krill.",
+    "roots": [{"root":"pre-","meaning":"foremost"},{"root":"domin","meaning":"rule"},{"root":"-ant","meaning":"being"},{"root":"-ly","meaning":"in a manner"}]
   },
   {
     "word": ["respiratory"],
     "english_synonyms": [],
     "english_explanations": ["Relating to breathing."],
     "chinese_translations": ["呼吸的"],
-    "example_sentences": "The mound works like a respiratory organ for the colony."
+    "example_sentences": "The mound works like a respiratory organ for the colony.",
+    "roots": [{"root":"re-","meaning":"again"},{"root":"spir","meaning":"breathe"},{"root":"-atory","meaning":"relating to"}]
   },
   {
     "word": ["reproductive"],
     "english_synonyms": [],
     "english_explanations": ["Relating to reproduction."],
     "chinese_translations": ["生殖的", "繁殖的"],
-    "example_sentences": "Older matriarchs boost the herd's reproductive success."
+    "example_sentences": "Older matriarchs boost the herd's reproductive success.",
+    "roots": [{"root":"re-","meaning":"again"},{"root":"pro-","meaning":"forward"},{"root":"duct","meaning":"lead"},{"root":"-ive","meaning":"relating to"}]
   },
   {
     "word": ["flee"],
@@ -757,7 +800,8 @@
       "Power and influence over others."
     ],
     "chinese_translations": ["支配地位", "优势"],
-    "example_sentences": "The bull asserts dominance in neck-swinging contests."
+    "example_sentences": "The bull asserts dominance in neck-swinging contests.",
+    "roots": [{"root":"domin","meaning":"lord"},{"root":"-ance","meaning":"state of"}]
   },
   {
     "word": ["devastating"],
@@ -807,7 +851,8 @@
       "The number of deaths in a group, often as a rate."
     ],
     "chinese_translations": ["死亡率"],
-    "example_sentences": "Chick mortality runs high in wet summers."
+    "example_sentences": "Chick mortality runs high in wet summers.",
+    "roots": [{"root":"mort","meaning":"death"},{"root":"-al","meaning":"relating to"},{"root":"-ity","meaning":"state of"}]
   },
   {
     "word": ["exotic"],
@@ -942,7 +987,8 @@
       "A surprising fact made known for the first time."
     ],
     "chinese_translations": ["揭示", "惊人发现"],
-    "example_sentences": "The tracking study brought a revelation: the birds sleep on the wing."
+    "example_sentences": "The tracking study brought a revelation: the birds sleep on the wing.",
+    "roots": [{"root":"re-","meaning":"again"},{"root":"vel","meaning":"cover"},{"root":"-ation","meaning":"act of"}]
   },
   {
     "word": ["grasp"],
@@ -996,7 +1042,8 @@
       "Movement in a circuit, as of blood or air."
     ],
     "chinese_translations": ["循环", "流通"],
-    "example_sentences": "The mound's chimneys drive air circulation."
+    "example_sentences": "The mound's chimneys drive air circulation.",
+    "roots": [{"root":"circul","meaning":"circle"},{"root":"-ation","meaning":"process of"}]
   },
   {
     "word": ["spike"],
