@@ -37,3 +37,7 @@ public/word_table/manifest.json
 
 # Vitest
 __screenshots__/
+
+# Agent work directories
+.omo/
+.playwright-mcp/
