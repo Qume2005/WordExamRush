@@ -1,3 +1,9 @@
+/** Morpheme breakdown entry (prefix/root/suffix) shown on the answer card */
+export interface RootInfo {
+  root: string
+  meaning: string
+}
+
 /** Raw word from user JSON input */
 export interface RawWord {
   word: string[]
@@ -5,6 +11,7 @@ export interface RawWord {
   english_explanations: string[]
   chinese_translations: string[]
   example_sentences: string
+  roots?: RootInfo[]
 }
 
 /** Merged and normalized word */
@@ -15,6 +22,7 @@ export interface ProcessedWord {
   english_explanations: string[]
   chinese_translations: string[]
   example_sentences: string
+  roots: RootInfo[]
 }
 
 /** Quiz card modes */

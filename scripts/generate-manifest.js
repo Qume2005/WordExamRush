@@ -22,6 +22,12 @@ function validateWord(word, fileLabel) {
   if (word.english_explanations !== undefined && !Array.isArray(word.english_explanations)) {
     throw new Error(`${fileLabel}: english_explanations 必须是数组`)
   }
+  if (word.roots !== undefined && !Array.isArray(word.roots)) {
+    throw new Error(`${fileLabel}: roots 必须是数组`)
+  }
+  if (Array.isArray(word.roots) && !word.roots.every(r => r && typeof r === 'object' && typeof r.root === 'string' && r.root.trim() && typeof r.meaning === 'string' && r.meaning.trim())) {
+    throw new Error(`${fileLabel}: roots 每项必须是含非空 root 与 meaning 的对象`)
+  }
 }
 
 function validateFile(content, filePath) {

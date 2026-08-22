@@ -12,6 +12,7 @@ const emit = defineEmits(['next'])
 const shuffledExplanations = computed(() => shuffle(props.targetWord.chinese_translations))
 const shuffledSynonyms = computed(() => shuffle(props.targetWord.english_synonyms))
 const shuffledEnglishExplanations = computed(() => shuffle(props.targetWord.english_explanations || []))
+const roots = computed(() => props.targetWord.roots || [])
 </script>
 
 <template>
@@ -22,6 +23,18 @@ const shuffledEnglishExplanations = computed(() => shuffle(props.targetWord.engl
     </div>
     <div class="word-detail">
       <h3 class="word-title">{{ targetWord.word.join(' / ') }}</h3>
+      <div v-if="roots.length > 0" class="detail-section detail-roots">
+        <span class="detail-label">词根：</span>
+        <div class="root-chips">
+          <template v-for="(r, i) in roots" :key="r.root">
+            <span v-if="i > 0" class="root-plus">+</span>
+            <span class="root-chip">
+              <span class="root-meaning">{{ r.meaning }}</span>
+              <span class="root-text">{{ r.root }}</span>
+            </span>
+          </template>
+        </div>
+      </div>
       <div class="detail-section">
         <span class="detail-label">中文释义：</span>
         <span class="detail-value">{{ shuffledExplanations.join('、') }}</span>
@@ -113,6 +126,44 @@ const shuffledEnglishExplanations = computed(() => shuffle(props.targetWord.engl
 
 .detail-sentence {
   font-style: italic;
+}
+
+.detail-roots {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.root-chips {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.root-chip {
+  display: flex;
+  flex-direction: column;
+  padding: 6px 10px;
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+  background: var(--color-primary-light);
+}
+
+.root-meaning {
+  font-size: 12px;
+  color: var(--color-text-secondary);
+}
+
+.root-text {
+  font-weight: 700;
+  color: var(--color-text);
+}
+
+.root-plus {
+  align-self: center;
+  color: var(--color-text-secondary);
 }
 
 .btn-next {

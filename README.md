@@ -12,6 +12,7 @@
 - 进度按单词表独立追踪，支持断点续传
 - 单词表内容变更后自动清理过期进度
 - 构建时自动验证单词表格式
+- 答案卡词根拆解展示（有词根数据的词）
 
 ## 单词表格式
 
@@ -34,8 +35,16 @@ public/word_table/
     "word": ["abandon", "abandon<英>"],
     "english_synonyms": ["forsake", "desert"],
     "english_explanations": ["to leave a place forever"],
-    "chinese_explanations": ["放弃", "遗弃"],
+    "chinese_translations": ["放弃", "遗弃"],
     "example_sentences": "He abandoned his old car."
+  },
+  {
+    "word": ["inspect"],
+    "english_synonyms": ["examine", "review"],
+    "english_explanations": ["To look at something closely or carefully."],
+    "chinese_translations": ["检查", "审视"],
+    "example_sentences": "The manager inspected the report carefully.",
+    "roots": [{"root": "in-", "meaning": "into"}, {"root": "spect", "meaning": "look"}]
   }
 ]
 ```
@@ -49,6 +58,7 @@ public/word_table/
 | `english_explanations` | `string[]` | 否  | 英文释义（有则启用"看解释选单词"模式） |
 | `chinese_translations` | `string[]` | 是  | 中文释义                 |
 | `example_sentences`    | `string`   | 是  | 例句                   |
+| `roots`                | `RootInfo[]` | 否 | 词根拆解（如 in-+spect），每项 {root, meaning}，meaning 为针对该词的简短英文释义；有则答案卡显示词根区块 |
 
 ## 开发
 

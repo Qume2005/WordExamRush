@@ -1,4 +1,4 @@
-import type { RawWord, ProcessedWord } from '../types'
+import type { RawWord, ProcessedWord, RootInfo } from '../types'
 
 /**
  * Validate raw input. Returns null if valid, or an error message string.
@@ -23,6 +23,16 @@ function validateRawInput(data: unknown): string | null {
     }
     if (item.english_explanations !== undefined && !Array.isArray(item.english_explanations)) {
       return `第 ${i + 1} 项的 english_explanations 字段格式不正确`
+    }
+    if (item.roots !== undefined) {
+      if (!Array.isArray(item.roots)) {
+        return `第 ${i + 1} 项的 roots 字段格式不正确`
+      }
+      for (const r of item.roots) {
+        if (!r || typeof r !== 'object' || typeof r.root !== 'string' || !r.root.trim() || typeof r.meaning !== 'string' || !r.meaning.trim()) {
+          return `第 ${i + 1} 项的 roots 字段格式不正确`
+        }
+      }
     }
     if (!Array.isArray(item.chinese_translations)) {
       return `第 ${i + 1} 项缺少 chinese_translations 字段`
@@ -63,6 +73,7 @@ function mergeWords(raw: RawWord[]): ProcessedWord[] {
     const engExplanations = new Set<string>()
     const explanations = new Set<string>()
     const sentences: string[] = []
+    const rootsMap = new Map<string, RootInfo>()
 
     for (const item of items) {
       for (const w of item.word) {
@@ -85,6 +96,12 @@ function mergeWords(raw: RawWord[]): ProcessedWord[] {
       }
       const trimmed = item.example_sentences.trim()
       if (trimmed) sentences.push(trimmed)
+      if (Array.isArray(item.roots)) {
+        for (const r of item.roots) {
+          const key = r.root.trim().toLowerCase()
+          if (!rootsMap.has(key)) rootsMap.set(key, r)
+        }
+      }
     }
 
     result.push({
@@ -94,6 +111,7 @@ function mergeWords(raw: RawWord[]): ProcessedWord[] {
       english_explanations: [...engExplanations],
       chinese_translations: [...explanations],
       example_sentences: sentences.join(' | '),
+      roots: [...rootsMap.values()],
     })
   }
 
