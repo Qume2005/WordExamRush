@@ -80,34 +80,48 @@ onUnmounted(() => window.removeEventListener('keydown', onGlobalKeydown))
 </script>
 
 <template>
-  <InputScreen
-    v-if="phase === 'input'"
-    @resume-quiz="onResumeQuiz"
-    @show-detail="onShowDetail"
-  />
-  <WordDetailScreen
-    v-else-if="phase === 'detail'"
-    :title="detailTitle"
-    :words="words"
-    :progress-map="progressMap"
-    @start-quiz="onDetailStartQuiz"
-    @back="onBack"
-    @reset-word="onResetWord"
-    @save-progress="saveProgress"
-  />
-  <QuizScreen
-    v-else-if="phase === 'quiz'"
-    :words="words"
-    :progress-map="progressMap"
-    @finish-quiz="onFinishQuiz"
-    @back="onBack"
-    @reset-progress="onResetProgress"
-    @save-progress="saveProgress"
-  />
-  <SummaryScreen
-    v-else
-    :words="words"
-    :progress-map="progressMap"
-    @back="onBack"
-  />
+  <Transition name="screen" mode="out-in">
+    <InputScreen
+      v-if="phase === 'input'"
+      @resume-quiz="onResumeQuiz"
+      @show-detail="onShowDetail"
+    />
+    <WordDetailScreen
+      v-else-if="phase === 'detail'"
+      :title="detailTitle"
+      :words="words"
+      :progress-map="progressMap"
+      @start-quiz="onDetailStartQuiz"
+      @back="onBack"
+      @reset-word="onResetWord"
+      @save-progress="saveProgress"
+    />
+    <QuizScreen
+      v-else-if="phase === 'quiz'"
+      :words="words"
+      :progress-map="progressMap"
+      @finish-quiz="onFinishQuiz"
+      @back="onBack"
+      @reset-progress="onResetProgress"
+      @save-progress="saveProgress"
+    />
+    <SummaryScreen
+      v-else
+      :words="words"
+      :progress-map="progressMap"
+      @back="onBack"
+    />
+  </Transition>
 </template>
+
+<style>
+.screen-enter-active,
+.screen-leave-active {
+  transition: opacity 0.15s ease
+}
+
+.screen-enter-from,
+.screen-leave-to {
+  opacity: 0
+}
+</style>

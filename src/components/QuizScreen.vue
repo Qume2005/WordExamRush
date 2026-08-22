@@ -14,6 +14,7 @@ import {
   playWrong,
   playUnknown,
   playComboMilestone,
+  playFinish,
 } from '../business/soundManager'
 import QuizCard from './QuizCard.vue'
 import ResultReveal from './ResultReveal.vue'
@@ -58,12 +59,14 @@ function loadNextCard() {
   selectedIndex.value = -1
 
   if (isQuizComplete(props.progressMap)) {
+    if (currentCard.value) playFinish()
     emit('finish-quiz')
     return
   }
 
   const wordId = selectNextWord(props.progressMap, props.words)
   if (wordId === null) {
+    if (currentCard.value) playFinish()
     emit('finish-quiz')
     return
   }
