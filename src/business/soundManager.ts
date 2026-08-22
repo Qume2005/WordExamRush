@@ -112,3 +112,67 @@ export function playFinish(): void {
     tone('triangle', notes[i], notes[i], i * 120, 120, 0.14)
   }
 }
+
+/**
+ * 单词读音 — 系统 TTS，去掉 "<英>" 类变体标记，语速 0.9 便于听清单词。
+ * auto=true 为出题自动朗读（受静音控制）；手动点击始终播放。
+ * 每次朗读先打断上一段再延后一拍 speak，快速切卡不叠音。
+ */
+
+// 声音列表异步加载：缓存 + voiceschanged 刷新，只注册一次监听
+let cachedVoices: SpeechSynthesisVoice[] | null = null
+
+function getVoicesCached(): SpeechSynthesisVoice[] {
+  if (cachedVoices === null) {
+    cachedVoices = speechSynthesis.getVoices()
+    speechSynthesis.addEventListener('voiceschanged', () => {
+      cachedVoices = speechSynthesis.getVoices()
+    })
+  }
+  return cachedVoices
+}
+
+/**
+ * 按质量挑英文声音。macOS 会把 Albert（老烟枪音色）、Bad News 等怪声音
+ * 也报成 en-US，取列表第一个会抽中它们，所以按音色打分取最高。
+ */
+function pickEnVoice(): SpeechSynthesisVoice | null {
+  const score = (v: SpeechSynthesisVoice): number => {
+    let s = 0
+    const lang = v.lang.replace('_', '-').toLowerCase()
+    if (lang.startsWith('en-us')) s += 2
+    else if (lang.startsWith('en')) s += 1
+    if (/(enhanced|premium|natural|neural)/i.test(v.name)) s += 5
+    if (/google/i.test(v.name)) s += 4
+    if (/(samantha|alex|aria|jenny|guy|zira|david|mark|ava|kate|daniel)/i.test(v.name)) s += 2
+    if (v.localService) s += 1
+    return s
+  }
+  const en = getVoicesCached().filter(v => v.lang.toLowerCase().startsWith('en'))
+  let best: SpeechSynthesisVoice | null = null
+  for (const v of en) {
+    if (best === null || score(v) > score(best)) best = v
+  }
+  return best
+}
+
+let pendingSpeak: ReturnType<typeof setTimeout> | null = null
+
+export function speakWord(text: string, auto = false): void {
+  if (auto && isMuted()) return
+  if (!('speechSynthesis' in window)) return
+  const clean = text.replace(/<[^>]*>/g, '').trim()
+  if (!clean) return
+  speechSynthesis.cancel()
+  if (pendingSpeak !== null) clearTimeout(pendingSpeak)
+  const utter = new SpeechSynthesisUtterance(clean)
+  utter.lang = 'en-US'
+  utter.rate = 0.9
+  const voice = pickEnVoice()
+  if (voice) utter.voice = voice
+  // 延后一拍：cancel 与 speak 同一拍执行在部分引擎上会失效导致叠音/卡死
+  pendingSpeak = setTimeout(() => {
+    pendingSpeak = null
+    speechSynthesis.speak(utter)
+  }, 0)
+}

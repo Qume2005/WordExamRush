@@ -1,6 +1,7 @@
 <script setup>
 import { computed } from 'vue'
 import { shuffle } from '../utils/shuffle'
+import { speakWord } from '../business/soundManager'
 
 const props = defineProps({
   result: { type: Object, required: true },
@@ -45,7 +46,14 @@ const roots = computed(() => props.targetWord.roots || [])
       }}</span>
     </div>
     <div class="word-detail">
-      <h3 class="word-title">{{ targetWord.word.join(' / ') }}</h3>
+      <h3 class="word-title">
+        {{ targetWord.word.join(' / ') }}
+        <button
+          class="speak-btn"
+          title="播放读音"
+          @click="speakWord(targetWord.word[0])"
+        >🔊</button>
+      </h3>
       <div v-if="roots.length > 0" class="detail-section detail-roots">
         <span class="detail-label">词根：</span>
         <div class="root-chips">
@@ -134,6 +142,27 @@ const roots = computed(() => props.targetWord.roots || [])
   font-weight: 700;
   color: var(--color-text);
   margin: 0;
+}
+
+.speak-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 17px;
+  line-height: 1;
+  padding: 3px;
+  vertical-align: middle;
+  opacity: 0.6;
+  transition: opacity 0.15s, transform 0.15s;
+}
+
+.speak-btn:hover {
+  opacity: 1;
+  transform: scale(1.15);
+}
+
+.speak-btn:active {
+  transform: scale(0.95);
 }
 
 .detail-section {

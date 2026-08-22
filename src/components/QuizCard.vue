@@ -1,5 +1,6 @@
 <script setup>
 import { computed, ref, onMounted, onUnmounted } from 'vue'
+import { speakWord } from '../business/soundManager'
 
 const props = defineProps({
   card: { type: Object, required: true },
@@ -19,13 +20,21 @@ const modeLabel = computed(() => {
   }
 })
 
+// 仅 prompt 本身是英文单词的模式才朗读；另外两种模式读了会泄露答案
+const isWordPrompt = computed(() =>
+  props.card.mode === 'en-to-zh' || props.card.mode === 'en-to-synonym'
+)
+
 const isDesktop = ref(window.innerWidth >= 768)
 
 function onResize() {
   isDesktop.value = window.innerWidth >= 768
 }
 
-onMounted(() => window.addEventListener('resize', onResize))
+onMounted(() => {
+  window.addEventListener('resize', onResize)
+  if (isWordPrompt.value) speakWord(props.card.prompt, true)
+})
 onUnmounted(() => window.removeEventListener('resize', onResize))
 
 function shouldShowOption(index, opt) {
@@ -56,7 +65,15 @@ function handleSelect(index) {
 <template>
   <div :class="['quiz-card', { 'quiz-card--revealing': disabled }]">
     <span class="mode-label">{{ modeLabel }}</span>
-    <p class="prompt">{{ card.prompt }}</p>
+    <p class="prompt">
+      {{ card.prompt }}
+      <button
+        v-if="isWordPrompt"
+        class="speak-btn"
+        title="播放读音"
+        @click="speakWord(card.prompt)"
+      >🔊</button>
+    </p>
     <div class="options">
       <template v-for="(opt, index) in card.options" :key="index">
         <button
@@ -125,6 +142,27 @@ function handleSelect(index) {
   color: var(--color-text);
   margin: 0;
   text-align: center;
+}
+
+.speak-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  line-height: 1;
+  padding: 4px;
+  vertical-align: middle;
+  opacity: 0.6;
+  transition: opacity 0.15s, transform 0.15s;
+}
+
+.speak-btn:hover {
+  opacity: 1;
+  transform: scale(1.15);
+}
+
+.speak-btn:active {
+  transform: scale(0.95);
 }
 
 .options {
