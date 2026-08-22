@@ -17,6 +17,7 @@ import {
 } from '../business/soundManager'
 import QuizCard from './QuizCard.vue'
 import ResultReveal from './ResultReveal.vue'
+import ConfettiBurst from './ConfettiBurst.vue'
 
 const props = defineProps({
   words: { type: Array, required: true },
@@ -31,6 +32,7 @@ const isRevealing = ref(false)
 const selectedIndex = ref(-1)
 const streak = ref(0)
 const muted = ref(isMuted())
+const showConfetti = ref(false)
 const questionIndex = ref(0)
 const progressFillEl = ref(null)
 const cardWrapEl = ref(null)
@@ -90,7 +92,7 @@ function recordResult(isCorrect, optionIndex) {
     streak.value++
     playCorrect(streak.value)
     flashProgress()
-    if (streak.value % 5 === 0) playComboMilestone()
+    if (streak.value % 5 === 0) { playComboMilestone(); showConfetti.value = true }
   } else {
     streak.value = 0
     if (result.selectedIndex >= 0) {
@@ -192,6 +194,7 @@ onUnmounted(() => {
         <button class="action-btn" @click="muted = toggleMuted()" :title="muted ? '开启音效' : '静音'">{{ muted ? '🔇' : '🔊' }}</button>
       </div>
     </div>
+    <ConfettiBurst v-if="showConfetti" @done="showConfetti = false" />
     <Transition name="card" mode="out-in">
       <div v-if="currentCard" :key="questionIndex" ref="cardWrapEl" class="card-wrap">
         <QuizCard
