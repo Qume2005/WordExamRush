@@ -54,7 +54,7 @@ function handleSelect(index) {
 </script>
 
 <template>
-  <div class="quiz-card">
+  <div :class="['quiz-card', { 'quiz-card--revealing': disabled }]">
     <span class="mode-label">{{ modeLabel }}</span>
     <p class="prompt">{{ card.prompt }}</p>
     <div class="options">
@@ -148,6 +148,7 @@ function handleSelect(index) {
   background: var(--color-success-light);
   color: var(--color-success);
   font-weight: 600;
+  animation: correct-pulse 0.4s ease-out;
 }
 
 .option-btn--wrong {
@@ -155,6 +156,7 @@ function handleSelect(index) {
   background: var(--color-danger-light);
   color: var(--color-danger);
   font-weight: 600;
+  animation: wrong-flash 0.35s ease-out;
 }
 
 .key-hint {
@@ -220,5 +222,46 @@ function handleSelect(index) {
 
 .icon-wrong {
   color: var(--color-danger);
+}
+
+.option-btn:active {
+  transform: scale(0.97);
+}
+
+.quiz-card:not(.quiz-card--revealing) .prompt {
+  animation: prompt-breathe 2.4s ease-in-out infinite alternate;
+}
+
+@keyframes correct-pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(45, 198, 83, 0.5);
+    transform: scale(1);
+  }
+  60% {
+    box-shadow: 0 0 0 12px rgba(45, 198, 83, 0);
+    transform: scale(1.02);
+  }
+  100% {
+    box-shadow: 0 0 0 0 transparent;
+    transform: scale(1);
+  }
+}
+
+@keyframes wrong-flash {
+  0% {
+    filter: brightness(1.6);
+  }
+  100% {
+    filter: brightness(1);
+  }
+}
+
+@keyframes prompt-breathe {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.02);
+  }
 }
 </style>
