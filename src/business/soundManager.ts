@@ -39,6 +39,16 @@ function tone(
 ): void {
   const ac = getCtx()
   if (!ac) return
+  // Chrome 在 TTS 朗读期间会静音 Web Audio：答题时单词往往还在读，
+  // 音效会整段被吃掉。播音效前先掐掉朗读，并留 120ms 等音频通道释放
+  if ('speechSynthesis' in window && (speechSynthesis.speaking || speechSynthesis.pending)) {
+    speechSynthesis.cancel()
+    if (pendingSpeak !== null) {
+      clearTimeout(pendingSpeak)
+      pendingSpeak = null
+    }
+    startMs += 120
+  }
   const t0 = ac.currentTime
   const osc = ac.createOscillator()
   osc.type = type
