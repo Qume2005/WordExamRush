@@ -143,14 +143,15 @@ function getVoicesCached(): SpeechSynthesisVoice[] {
 }
 
 /**
- * 按质量挑英文声音。macOS 会把 Albert（老烟枪音色）、Bad News 等怪声音
- * 也报成 en-US，取列表第一个会抽中它们，所以按音色打分取最高。
+ * 按质量挑英音声音（en-GB 优先）。macOS 会把 Albert（老烟枪音色）、
+ * Bad News 等怪声音也报成英语，取列表第一个会抽中它们，所以按音色打分取最高。
+ * en-GB 加大分（+6）保证压过任何美音，包括 Enhanced/Google 美音。
  */
 function pickEnVoice(): SpeechSynthesisVoice | null {
   const score = (v: SpeechSynthesisVoice): number => {
     let s = 0
     const lang = v.lang.replace('_', '-').toLowerCase()
-    if (lang.startsWith('en-us')) s += 2
+    if (lang.startsWith('en-gb')) s += 6
     else if (lang.startsWith('en')) s += 1
     if (/(enhanced|premium|natural|neural)/i.test(v.name)) s += 5
     if (/google/i.test(v.name)) s += 4
@@ -176,7 +177,7 @@ export function speakWord(text: string, auto = false): void {
   speechSynthesis.cancel()
   if (pendingSpeak !== null) clearTimeout(pendingSpeak)
   const utter = new SpeechSynthesisUtterance(clean)
-  utter.lang = 'en-US'
+  utter.lang = 'en-GB'
   utter.rate = 0.9
   const voice = pickEnVoice()
   if (voice) utter.voice = voice
