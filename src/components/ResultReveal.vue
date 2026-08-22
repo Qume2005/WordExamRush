@@ -11,15 +11,38 @@ const emit = defineEmits(['next'])
 
 const shuffledExplanations = computed(() => shuffle(props.targetWord.chinese_translations))
 const shuffledSynonyms = computed(() => shuffle(props.targetWord.english_synonyms))
-const shuffledEnglishExplanations = computed(() => shuffle(props.targetWord.english_explanations || []))
+const shuffledEnglishExplanations = computed(() =>
+  shuffle(props.targetWord.english_explanations || [])
+)
 const roots = computed(() => props.targetWord.roots || [])
 </script>
 
 <template>
   <div class="result-reveal">
-    <div :class="['banner', result.isCorrect ? 'banner--correct' : result.selectedIndex === -1 ? 'banner--unknown' : 'banner--wrong']">
-      <span class="banner-icon">{{ result.isCorrect ? '&#10003;' : result.selectedIndex === -1 ? '&#33;' : '&#10007;' }}</span>
-      <span>{{ result.isCorrect ? '回答正确！' : result.selectedIndex === -1 ? '不知道' : '回答错误' }}</span>
+    <div
+      :class="[
+        'banner',
+        result.isCorrect
+          ? 'banner--correct'
+          : result.selectedIndex === -1
+            ? 'banner--unknown'
+            : 'banner--wrong',
+      ]"
+    >
+      <span class="banner-icon">{{
+        result.isCorrect
+          ? '&#10003;'
+          : result.selectedIndex === -1
+            ? '&#33;'
+            : '&#10007;'
+      }}</span>
+      <span>{{
+        result.isCorrect
+          ? '回答正确！'
+          : result.selectedIndex === -1
+            ? '不知道'
+            : '回答错误'
+      }}</span>
     </div>
     <div class="word-detail">
       <h3 class="word-title">{{ targetWord.word.join(' / ') }}</h3>
@@ -52,7 +75,10 @@ const roots = computed(() => props.targetWord.roots || [])
         <span class="detail-value detail-sentence">{{ targetWord.example_sentences }}</span>
       </div>
     </div>
-    <button class="btn btn-primary btn-next" @click="emit('next')">下一题 <span class="key-tip">按任意键继续</span></button>
+    <button
+      class="btn btn-primary btn-next"
+      @click="emit('next')"
+    >下一题 <span class="key-tip">按任意键继续</span></button>
   </div>
 </template>
 
