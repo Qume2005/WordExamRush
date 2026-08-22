@@ -177,9 +177,55 @@ const roots = computed(() => props.targetWord.roots || [])
   margin-left: 8px;
 }
 
+.banner {
+  animation: banner-in 0.3s cubic-bezier(0.34, 1.56, 0.64, 1)
+}
+
+@keyframes banner-in {
+  0% {
+    transform: scale(0.8);
+    opacity: 0
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1
+  }
+}
+
+.word-detail > .detail-section {
+  animation: detail-in 0.3s ease-out backwards
+}
+
+.word-detail > .detail-section:nth-child(2) {
+  animation-delay: 0.05s
+}
+
+.word-detail > .detail-section:nth-child(3) {
+  animation-delay: 0.1s
+}
+
+.word-detail > .detail-section:nth-child(4) {
+  animation-delay: 0.15s
+}
+
+.word-detail > .detail-section:nth-child(5) {
+  animation-delay: 0.2s
+}
+
+.word-detail > .detail-section:nth-child(6) {
+  animation-delay: 0.25s
+}
+
+@keyframes detail-in {
+  from {
+    opacity: 0;
+    transform: translateY(6px)
+  }
+}
+
 @media (max-width: 767px) {
   .key-tip {
-    display: none;
+    display: none
   }
 }
 </style>
