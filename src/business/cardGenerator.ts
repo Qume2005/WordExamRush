@@ -69,7 +69,7 @@ function generateZhToEn(target: ProcessedWord, words: ProcessedWord[]): QuizCard
   const pickedWord = pickRandom(target.word, 1)[0]
   const correctOption: CardOption = { label: pickedWord, isCorrect: true }
 
-  const distractors = pickWordDistractors(target, words, 'chinese_translations', 4)
+  const distractors = pickWordDistractors(target, words, 'chinese_translations', 3)
 
   const options = shuffle([correctOption, ...distractors])
   const correctAnswer = pickedWord
@@ -84,7 +84,7 @@ function generateEnToZh(target: ProcessedWord, words: ProcessedWord[]): QuizCard
   const prompt = pickRandom(target.word, 1)[0]
   const correctAnswer = pickRandom(target.chinese_translations, 1)[0]
   const correctOption: CardOption = { label: correctAnswer, isCorrect: true }
-  const distractors = pickFieldDistractors(target, words, 'chinese_translations', correctAnswer, 4)
+  const distractors = pickFieldDistractors(target, words, 'chinese_translations', correctAnswer, 3)
   const options = shuffle([correctOption, ...distractors])
 
   return { wordId: target.id, mode: 'en-to-zh', prompt, options, correctAnswer }
@@ -97,7 +97,7 @@ function generateEnToSynonym(target: ProcessedWord, words: ProcessedWord[]): Qui
   const prompt = pickRandom(target.word, 1)[0]
   const correctAnswer = pickRandom(target.english_synonyms, 1)[0]
   const correctOption: CardOption = { label: correctAnswer, isCorrect: true }
-  const distractors = pickFieldDistractors(target, words, 'english_synonyms', correctAnswer, 4)
+  const distractors = pickFieldDistractors(target, words, 'english_synonyms', correctAnswer, 3)
   const options = shuffle([correctOption, ...distractors])
 
   return { wordId: target.id, mode: 'en-to-synonym', prompt, options, correctAnswer }
@@ -111,7 +111,7 @@ function generateEnExplanationToEn(target: ProcessedWord, words: ProcessedWord[]
   const pickedWord = pickRandom(target.word, 1)[0]
   const correctOption: CardOption = { label: pickedWord, isCorrect: true }
 
-  const distractors = pickWordDistractors(target, words, 'english_explanations', 4)
+  const distractors = pickWordDistractors(target, words, 'english_explanations', 3)
 
   const options = shuffle([correctOption, ...distractors])
   const correctAnswer = pickedWord
