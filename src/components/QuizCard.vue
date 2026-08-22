@@ -58,19 +58,19 @@ function handleSelect(index) {
     <span class="mode-label">{{ modeLabel }}</span>
     <p class="prompt">{{ card.prompt }}</p>
     <div class="options">
-      <button
-        v-for="(opt, index) in card.options"
-        v-if="shouldShowOption(index, opt)"
-        :key="index"
-        :class="optionClass(opt, index)"
-        @click="handleSelect(index)"
-      >
-        <span v-if="isDesktop && selectedIndex === -1" class="key-hint">{{ index + 1 }}</span>
-        <span v-if="selectedIndex !== -1 && opt.isCorrect" class="icon icon-correct">&#10003;</span>
-        <span v-if="selectedIndex === index && !opt.isCorrect" class="icon icon-wrong">&#10007;</span>
-        <span v-if="selectedIndex === -1 && disabled && opt.isCorrect" class="icon icon-correct">&#10003;</span>
-        {{ opt.label }}
-      </button>
+      <template v-for="(opt, index) in card.options" :key="index">
+        <button
+          v-if="shouldShowOption(index, opt)"
+          :class="optionClass(opt, index)"
+          @click="handleSelect(index)"
+        >
+          <span v-if="isDesktop && selectedIndex === -1" class="key-hint">{{ index + 1 }}</span>
+          <span v-if="selectedIndex !== -1 && opt.isCorrect" class="icon icon-correct">&#10003;</span>
+          <span v-if="selectedIndex === index && !opt.isCorrect" class="icon icon-wrong">&#10007;</span>
+          <span v-if="selectedIndex === -1 && disabled && opt.isCorrect" class="icon icon-correct">&#10003;</span>
+          {{ opt.label }}
+        </button>
+      </template>
       <button
         v-if="(selectedIndex === -1 && !disabled) || isDesktop"
         :class="['option-btn', disabled && selectedIndex === -1 ? 'option-btn--unknown' : 'option-btn--dont-know']"
