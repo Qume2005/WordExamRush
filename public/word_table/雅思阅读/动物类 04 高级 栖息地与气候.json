@@ -1,6 +1,7 @@
 [
   {
     "word": ["undergrowth"],
+    "phonetic": "/ˈʌndəɡrəʊθ/",
     "english_synonyms": ["underbrush", "brush"],
     "english_explanations": [
       "The bushes and small plants growing beneath the trees of a wood."
@@ -10,6 +11,7 @@
   },
   {
     "word": ["savanna", "savannah"],
+    "phonetic": "/səˈvænə/",
     "english_synonyms": [],
     "english_explanations": [
       "A grassy plain with scattered trees, typical of tropical Africa."
@@ -19,6 +21,7 @@
   },
   {
     "word": ["grassland"],
+    "phonetic": "/ˈɡrɑːslænd/",
     "english_synonyms": ["prairie", "pasture"],
     "english_explanations": [
       "Land covered mainly by grasses, with few or no trees."
@@ -28,6 +31,7 @@
   },
   {
     "word": ["hollow"],
+    "phonetic": "/ˈhɒləʊ/",
     "english_synonyms": ["opening", "depression"],
     "english_explanations": [
       "A hole or sunken space, especially in a tree trunk, where animals may nest."
@@ -37,6 +41,7 @@
   },
   {
     "word": ["windbreak"],
+    "phonetic": "/ˈwɪndbreɪk/",
     "english_synonyms": ["shelterbelt"],
     "english_explanations": [
       "A row of trees or a fence planted to break the force of the wind."
@@ -46,6 +51,7 @@
   },
   {
     "word": ["climes"],
+    "phonetic": "/klaɪm/",
     "english_synonyms": ["climates"],
     "english_explanations": [
       "(literary) regions considered with regard to their climate."
@@ -55,6 +61,7 @@
   },
   {
     "word": ["latitude"],
+    "phonetic": "/ˈlætɪtjuːd/",
     "english_synonyms": [],
     "english_explanations": [
       "The distance north or south of the equator, measured in degrees."
@@ -64,6 +71,7 @@
   },
   {
     "word": ["equatorial"],
+    "phonetic": "/ˌekwəˈtɔːriəl/",
     "english_synonyms": ["tropical"],
     "english_explanations": [
       "Of or near the equator, typically hot and humid."
@@ -74,6 +82,7 @@
   },
   {
     "word": ["temperate"],
+    "phonetic": "/ˈtempərət/",
     "english_synonyms": ["mild"],
     "english_explanations": [
       "(of climate) mild, without extremes of heat or cold."
@@ -84,6 +93,7 @@
   },
   {
     "word": ["sunlit"],
+    "phonetic": "/ˈsʌnlɪt/",
     "english_synonyms": ["sunny", "lit by the sun"],
     "english_explanations": ["Lit or warmed by the sun."],
     "chinese_translations": ["阳光照耀的", "被阳光照射的"],
@@ -91,6 +101,7 @@
   },
   {
     "word": ["blistering"],
+    "phonetic": "/ˈblɪstərɪŋ/",
     "english_synonyms": ["scorching", "burning hot"],
     "english_explanations": ["Extremely hot."],
     "chinese_translations": ["酷热的", "灼热的"],
@@ -98,6 +109,7 @@
   },
   {
     "word": ["shallows"],
+    "phonetic": "/ˈʃæləʊz/",
     "english_synonyms": ["shallow water"],
     "english_explanations": [
       "Areas of water that are not deep, near the shore."
@@ -107,6 +119,7 @@
   },
   {
     "word": ["waterside"],
+    "phonetic": "/ˈwɔːtəsaɪd/",
     "english_synonyms": ["waterfront", "shoreline"],
     "english_explanations": [
       "Land lying along the edge of a body of water."
@@ -116,6 +129,7 @@
   },
   {
     "word": ["kelp"],
+    "phonetic": "/kelp/",
     "english_synonyms": [],
     "english_explanations": [
       "Large brown seaweed that grows in underwater forests."
@@ -125,6 +139,7 @@
   },
   {
     "word": ["acacia"],
+    "phonetic": "/əˈkeɪʃə/",
     "english_synonyms": [],
     "english_explanations": [
       "A thorny tree of warm regions, a chief food of giraffes."

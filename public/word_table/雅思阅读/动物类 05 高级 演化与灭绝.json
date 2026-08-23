@@ -1,6 +1,7 @@
 [
   {
     "word": ["paleontology"],
+    "phonetic": "/ˌpæliɒnˈtɒlədʒi/",
     "english_synonyms": [],
     "english_explanations": [
       "The science of ancient life through fossil animals and plants."
@@ -11,6 +12,7 @@
   },
   {
     "word": ["paleobiologist"],
+    "phonetic": "/ˌpæliəʊbaɪˈɒlədʒɪst/",
     "english_synonyms": [],
     "english_explanations": [
       "A scientist who studies the biology of extinct organisms."
@@ -21,6 +23,7 @@
   },
   {
     "word": ["Triassic"],
+    "phonetic": "/traɪˈæsɪk/",
     "english_synonyms": [],
     "english_explanations": [
       "The earliest period of the Mesozoic era, about 252 to 201 million years ago."
@@ -30,6 +33,7 @@
   },
   {
     "word": ["Jurassic"],
+    "phonetic": "/dʒʊˈræsɪk/",
     "english_synonyms": [],
     "english_explanations": [
       "The middle period of the Mesozoic era, about 201 to 145 million years ago."
@@ -39,6 +43,7 @@
   },
   {
     "word": ["Cretaceous"],
+    "phonetic": "/krɪˈteɪʃəs/",
     "english_synonyms": [],
     "english_explanations": [
       "The last period of the Mesozoic era, ending 66 million years ago in a mass extinction."
@@ -48,6 +53,7 @@
   },
   {
     "word": ["Pleistocene"],
+    "phonetic": "/ˈplaɪstəsiːn/",
     "english_synonyms": [],
     "english_explanations": [
       "The epoch of repeated ice ages, from about 2.6 million to 11,700 years ago."
@@ -57,6 +63,7 @@
   },
   {
     "word": ["epoch"],
+    "phonetic": "/ˈiːpɒk/",
     "english_synonyms": ["era", "period", "age"],
     "english_explanations": [
       "A division of geological time; a distinctive period in history."
@@ -66,6 +73,7 @@
   },
   {
     "word": ["millennia", "millennium"],
+    "phonetic": "/mɪˈleniəm/",
     "english_synonyms": [],
     "english_explanations": [
       "Periods of a thousand years (singular: millennium)."
@@ -75,6 +83,7 @@
   },
   {
     "word": ["lineage"],
+    "phonetic": "/ˈlɪniɪdʒ/",
     "english_synonyms": ["line of descent", "ancestry"],
     "english_explanations": [
       "A sequence of descendants traced from a common ancestor."
@@ -84,6 +93,7 @@
   },
   {
     "word": ["subspecies"],
+    "phonetic": "/ˈsʌbspiːʃiːz/",
     "english_synonyms": [],
     "english_explanations": [
       "A population within a species that differs in genetics or appearance."
@@ -94,6 +104,7 @@
   },
   {
     "word": ["invertebrate"],
+    "phonetic": "/ɪnˈvɜːtɪbrət/",
     "english_synonyms": [],
     "english_explanations": [
       "An animal lacking a backbone, such as an insect or worm."
@@ -104,6 +115,7 @@
   },
   {
     "word": ["vertebrate"],
+    "phonetic": "/ˈvɜːtɪbrət/",
     "english_synonyms": [],
     "english_explanations": [
       "An animal with a backbone, including fish, birds, and mammals."
@@ -114,6 +126,7 @@
   },
   {
     "word": ["excavate"],
+    "phonetic": "/ˈekskəveɪt/",
     "english_synonyms": ["dig out", "dig up"],
     "english_explanations": [
       "To dig out something buried, especially archaeological remains."
@@ -124,6 +137,7 @@
   },
   {
     "word": ["unearth"],
+    "phonetic": "/ʌnˈɜːθ/",
     "english_synonyms": ["bring to light", "discover"],
     "english_explanations": [
       "To find by digging; to reveal something hidden."
@@ -133,6 +147,7 @@
   },
   {
     "word": ["iridium"],
+    "phonetic": "/ɪˈrɪdiəm/",
     "english_synonyms": [],
     "english_explanations": [
       "A dense metal rare on the surface, concentrated by asteroid impacts."
@@ -142,6 +157,7 @@
   },
   {
     "word": ["magnetite"],
+    "phonetic": "/ˈmæɡnətaɪt/",
     "english_synonyms": [],
     "english_explanations": [
       "A naturally magnetic iron ore; birds may use it to sense direction."
@@ -151,6 +167,7 @@
   },
   {
     "word": ["isotope"],
+    "phonetic": "/ˈaɪsətəʊp/",
     "english_synonyms": [],
     "english_explanations": [
       "A form of an element with a different atomic weight, used to date and trace remains."
@@ -161,6 +178,7 @@
   },
   {
     "word": ["spectrometer"],
+    "phonetic": "/spekˈtrɒmɪtə(r)/",
     "english_synonyms": [],
     "english_explanations": [
       "An instrument that analyses light or mass to identify substances."
@@ -171,6 +189,7 @@
   },
   {
     "word": ["decimation"],
+    "phonetic": "/ˈdesɪmeɪt/",
     "english_synonyms": ["devastation", "slaughter"],
     "english_explanations": [
       "The destruction or killing of a large proportion of a group."
@@ -181,6 +200,7 @@
   },
   {
     "word": ["overkill"],
+    "phonetic": "/ˈəʊvəkɪl/",
     "english_synonyms": [],
     "english_explanations": [
       "Killing far beyond what is sustainable; a proposed cause of megafaunal extinction."
@@ -190,6 +210,7 @@
   },
   {
     "word": ["devastate"],
+    "phonetic": "/ˈdevəsteɪt/",
     "english_synonyms": ["destroy", "ruin", "ravage"],
     "english_explanations": [
       "To cause severe and lasting damage to something."
@@ -200,6 +221,7 @@
   },
   {
     "word": ["reintroduce", "reintroduction"],
+    "phonetic": "/ˌriːɪntrəˈdjuːs/",
     "english_synonyms": ["release back into the wild"],
     "english_explanations": [
       "To return a species, often captive-bred, to its former wild habitat."
@@ -210,6 +232,7 @@
   },
   {
     "word": ["ecotourism"],
+    "phonetic": "/ˈiːkəʊtʊərɪzəm/",
     "english_synonyms": [],
     "english_explanations": [
       "Tourism to natural areas designed to support conservation."
@@ -219,6 +242,7 @@
   },
   {
     "word": ["conservationist"],
+    "phonetic": "/ˌkɒnsəˈveɪʃənɪst/",
     "english_synonyms": ["environmentalist", "preservationist"],
     "english_explanations": [
       "A person who works to protect wildlife and habitats."
@@ -229,6 +253,7 @@
   },
   {
     "word": ["captive-bred"],
+    "phonetic": "/ˌkæptɪvˈbred/",
     "english_synonyms": ["bred in captivity"],
     "english_explanations": [
       "(of animals) born and raised in captivity, often for release into the wild."
@@ -238,6 +263,7 @@
   },
   {
     "word": ["extinction"],
+    "phonetic": "/ɪkˈstɪŋkʃn/",
     "english_synonyms": [],
     "english_explanations": [
       "The state of a species having no living members."

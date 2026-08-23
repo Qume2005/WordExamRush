@@ -1,6 +1,7 @@
 [
   {
     "word": ["conundrum"],
+    "phonetic": "/kəˈnʌndrəm/",
     "english_synonyms": ["puzzle", "riddle", "enigma"],
     "english_explanations": [
       "A confusing and difficult problem or question."
@@ -10,6 +11,7 @@
   },
   {
     "word": ["impinge"],
+    "phonetic": "/ɪmˈpɪndʒ/",
     "english_synonyms": ["affect", "encroach", "intrude"],
     "english_explanations": [
       "To have a noticeable effect on something, often negatively (impinge on)."
@@ -20,6 +22,7 @@
   },
   {
     "word": ["envelop"],
+    "phonetic": "/ɪnˈveləp/",
     "english_synonyms": ["wrap", "surround", "enclose"],
     "english_explanations": [
       "To wrap up or surround completely."
@@ -29,6 +32,7 @@
   },
   {
     "word": ["scrupulously"],
+    "phonetic": "/ˈskruːpjələs/",
     "english_synonyms": ["meticulously", "conscientiously"],
     "english_explanations": [
       "In a very careful, thorough way that misses no detail."
@@ -39,6 +43,7 @@
   },
   {
     "word": ["intricately"],
+    "phonetic": "/ˈɪntrɪkət/",
     "english_synonyms": ["elaborately", "in a complex manner"],
     "english_explanations": [
       "In a way involving many small, complicated interrelated parts."
@@ -49,6 +54,7 @@
   },
   {
     "word": ["perceptible"],
+    "phonetic": "/pəˈseptəbl/",
     "english_synonyms": ["noticeable", "detectable", "discernible"],
     "english_explanations": [
       "Able to be noticed or sensed, however slightly."
@@ -59,6 +65,7 @@
   },
   {
     "word": ["desolate"],
+    "phonetic": "/ˈdesələt/",
     "english_synonyms": ["barren", "bleak", "deserted"],
     "english_explanations": [
       "Empty, bare, and sad; lacking life or comfort."
@@ -69,6 +76,7 @@
   },
   {
     "word": ["ferocious"],
+    "phonetic": "/fəˈrəʊʃəs/",
     "english_synonyms": ["fierce", "savage", "vicious"],
     "english_explanations": [
       "Aggressive and violent; very intense."
@@ -79,6 +87,7 @@
   },
   {
     "word": ["sluggish"],
+    "phonetic": "/ˈslʌɡɪʃ/",
     "english_synonyms": ["lethargic", "slow-moving"],
     "english_explanations": [
       "Slow to move or react; lacking energy."
@@ -88,6 +97,7 @@
   },
   {
     "word": ["adept"],
+    "phonetic": "/əˈdept/",
     "english_synonyms": ["skilled", "proficient", "expert"],
     "english_explanations": [
       "Very good at something through practice (adept at)."
@@ -98,6 +108,7 @@
   },
   {
     "word": ["conducive"],
+    "phonetic": "/kənˈdjuːsɪv/",
     "english_synonyms": ["favourable", "helpful"],
     "english_explanations": [
       "Making a particular outcome likely (conducive to)."
@@ -108,6 +119,7 @@
   },
   {
     "word": ["deterrent"],
+    "phonetic": "/dɪˈterənt/",
     "english_synonyms": ["discouragement", "disincentive"],
     "english_explanations": [
       "Something that discourages an action or behaviour."
@@ -118,6 +130,7 @@
   },
   {
     "word": ["innate"],
+    "phonetic": "/ɪˈneɪt/",
     "english_synonyms": ["instinctive", "built-in"],
     "english_explanations": [
       "Present from birth rather than learned."
@@ -128,6 +141,7 @@
   },
   {
     "word": ["inborn"],
+    "phonetic": "/ˌɪnˈbɔːn/",
     "english_synonyms": ["natural", "congenital"],
     "english_explanations": [
       "In existence from birth; inherent."
@@ -137,6 +151,7 @@
   },
   {
     "word": ["unwittingly"],
+    "phonetic": "/ʌnˈwɪtɪŋli/",
     "english_synonyms": ["unknowingly", "unintentionally"],
     "english_explanations": [
       "Without being aware of what one is doing."
@@ -146,6 +161,7 @@
   },
   {
     "word": ["unviable"],
+    "phonetic": "/ʌnˈvaɪəbl/",
     "english_synonyms": ["unworkable", "not feasible"],
     "english_explanations": [
       "Not able to work, survive, or succeed."
@@ -156,6 +172,7 @@
   },
   {
     "word": ["unenviable"],
+    "phonetic": "/ʌnˈenviəbl/",
     "english_synonyms": ["undesirable", "thankless"],
     "english_explanations": [
       "(of a task or position) unpleasant and not to be envied."
@@ -165,6 +182,7 @@
   },
   {
     "word": ["accumulative"],
+    "phonetic": "/əˈkjuːmjələtɪv/",
     "english_synonyms": ["cumulative", "accumulating"],
     "english_explanations": [
       "Growing by successive additions."
@@ -175,6 +193,7 @@
   },
   {
     "word": ["rapidity"],
+    "phonetic": "/ˈræpɪd/",
     "english_synonyms": ["swiftness", "quickness"],
     "english_explanations": ["Great speed."],
     "chinese_translations": ["迅速", "快速"],
@@ -182,6 +201,7 @@
   },
   {
     "word": ["presage"],
+    "phonetic": "/ˈpresɪdʒ/",
     "english_synonyms": ["foretell", "herald", "foreshadow"],
     "english_explanations": [
       "To be a sign or warning that something will happen."
@@ -192,6 +212,7 @@
   },
   {
     "word": ["mystify"],
+    "phonetic": "/ˈmɪstɪfaɪ/",
     "english_synonyms": ["baffle", "bewilder", "confuse"],
     "english_explanations": [
       "To confuse someone completely."
@@ -201,6 +222,7 @@
   },
   {
     "word": ["hoax"],
+    "phonetic": "/həʊks/",
     "english_synonyms": ["fake", "fraud", "deception"],
     "english_explanations": [
       "A trick intended to deceive people, often for publicity."
@@ -210,6 +232,7 @@
   },
   {
     "word": ["inkling"],
+    "phonetic": "/ˈɪŋklɪŋ/",
     "english_synonyms": ["hint", "notion", "idea"],
     "english_explanations": [
       "A slight knowledge or vague idea about something."
@@ -219,6 +242,7 @@
   },
   {
     "word": ["neurophysiology"],
+    "phonetic": "/ˌnjʊərəʊfɪziˈɒlədʒi/",
     "english_synonyms": [],
     "english_explanations": [
       "The study of how the nervous system functions."
@@ -229,6 +253,7 @@
   },
   {
     "word": ["auditory"],
+    "phonetic": "/ˈɔːdətri/",
     "english_synonyms": ["aural", "relating to hearing"],
     "english_explanations": [
       "Connected with the sense of hearing."
@@ -239,6 +264,7 @@
   },
   {
     "word": ["barometric"],
+    "phonetic": "/bəˈrɒmɪtə(r)/",
     "english_synonyms": ["relating to air pressure"],
     "english_explanations": [
       "Relating to the pressure of the atmosphere."

@@ -1,6 +1,7 @@
 [
   {
     "word": ["roost"],
+    "phonetic": "/ruːst/",
     "english_synonyms": ["perch", "settle"],
     "english_explanations": [
       "To settle down to rest, as a bird on a branch; the place where birds rest."
@@ -10,6 +11,7 @@
   },
   {
     "word": ["incubate"],
+    "phonetic": "/ˈɪŋkjubeɪt/",
     "english_synonyms": ["brood", "hatch"],
     "english_explanations": [
       "To sit on eggs to keep them warm until they hatch."
@@ -20,6 +22,7 @@
   },
   {
     "word": ["burrow"],
+    "phonetic": "/ˈbʌrəʊ/",
     "english_synonyms": ["tunnel", "dig"],
     "english_explanations": [
       "A hole or tunnel dug by an animal to live in; to dig such a hole."
@@ -29,6 +32,7 @@
   },
   {
     "word": ["lair"],
+    "phonetic": "/leə(r)/",
     "english_synonyms": [],
     "english_explanations": [
       "The resting place of a wild animal, especially a fierce one."
@@ -38,6 +42,7 @@
   },
   {
     "word": ["den"],
+    "phonetic": "/den/",
     "english_synonyms": [],
     "english_explanations": [
       "The hidden home of a wild animal, such as a cave or hollow."
@@ -47,6 +52,7 @@
   },
   {
     "word": ["forage"],
+    "phonetic": "/ˈfɒrɪdʒ/",
     "english_synonyms": ["search for food", "feed"],
     "english_explanations": [
       "To search widely for food or supplies."
@@ -56,6 +62,7 @@
   },
   {
     "word": ["scavenge"],
+    "phonetic": "/ˈskævɪndʒ/",
     "english_synonyms": ["feed on carrion"],
     "english_explanations": [
       "To feed on dead animals that one has not killed oneself."
@@ -65,6 +72,7 @@
   },
   {
     "word": ["predation"],
+    "phonetic": "/prɪˈdeɪʃn/",
     "english_synonyms": ["preying", "hunting"],
     "english_explanations": [
       "The act of one animal killing and eating another."
@@ -75,6 +83,7 @@
   },
   {
     "word": ["symbiosis"],
+    "phonetic": "/ˌsɪmbaɪˈəʊsɪs/",
     "english_synonyms": [],
     "english_explanations": [
       "A close, long-term interaction between two different species living together."
@@ -85,6 +94,7 @@
   },
   {
     "word": ["inbreeding"],
+    "phonetic": "/ˈɪnbriːdɪŋ/",
     "english_synonyms": [],
     "english_explanations": [
       "Mating among closely related individuals, which reduces genetic diversity."
@@ -94,6 +104,7 @@
   },
   {
     "word": ["zooplankton"],
+    "phonetic": "/ˈzəʊəplæŋktən/",
     "english_synonyms": [],
     "english_explanations": [
       "Tiny drifting animals in water that feed on phytoplankton."
@@ -104,6 +115,7 @@
   },
   {
     "word": ["phytoplankton"],
+    "phonetic": "/ˌfaɪtəˈplæŋktən/",
     "english_synonyms": [],
     "english_explanations": [
       "Microscopic drifting algae that photosynthesize in water."
@@ -114,6 +126,7 @@
   },
   {
     "word": ["generalist"],
+    "phonetic": "/ˈdʒenrəlɪst/",
     "english_synonyms": [],
     "english_explanations": [
       "A species able to thrive on a wide range of foods and habitats."
@@ -124,6 +137,7 @@
   },
   {
     "word": ["migratory"],
+    "phonetic": "/ˈmaɪɡrətri/",
     "english_synonyms": [],
     "english_explanations": [
       "(of animals) travelling from one region to another with the seasons."
@@ -134,6 +148,7 @@
   },
   {
     "word": ["overwinter", "wintering"],
+    "phonetic": "/ˌəʊvəˈwɪntə(r)/",
     "english_synonyms": [],
     "english_explanations": [
       "To pass the winter, often dormant or in a milder place; the act of doing so."
@@ -143,6 +158,7 @@
   },
   {
     "word": ["groom"],
+    "phonetic": "/ɡruːm/",
     "english_synonyms": ["preen"],
     "english_explanations": [
       "To clean and smooth fur or feathers, alone or mutually."
@@ -152,6 +168,7 @@
   },
   {
     "word": ["squirm"],
+    "phonetic": "/skwɜːm/",
     "english_synonyms": ["wriggle", "twist"],
     "english_explanations": [
       "To twist the body about, as when uncomfortable or trying to escape."
@@ -161,6 +178,7 @@
   },
   {
     "word": ["warble"],
+    "phonetic": "/ˈwɔːbl/",
     "english_synonyms": ["sing", "trill"],
     "english_explanations": [
       "(of a bird) to sing with a continuous alternating flow of notes."
@@ -170,6 +188,7 @@
   },
   {
     "word": ["lunge"],
+    "phonetic": "/lʌndʒ/",
     "english_synonyms": ["dart", "thrust"],
     "english_explanations": [
       "To make a sudden forward movement or attack."
@@ -179,6 +198,7 @@
   },
   {
     "word": ["devour"],
+    "phonetic": "/dɪˈvaʊə(r)/",
     "english_synonyms": ["gobble up", "eat up"],
     "english_explanations": ["To eat up eagerly and completely."],
     "chinese_translations": ["吞食", "狼吞虎咽地吃"],
@@ -187,6 +207,7 @@
   },
   {
     "word": ["ingest"],
+    "phonetic": "/ɪnˈdʒest/",
     "english_synonyms": ["swallow", "take in"],
     "english_explanations": [
       "To take food or other substances into the body."
@@ -197,6 +218,7 @@
   },
   {
     "word": ["expel"],
+    "phonetic": "/ɪkˈspel/",
     "english_synonyms": ["eject", "drive out"],
     "english_explanations": [
       "To force something out of the body or a container."
@@ -207,6 +229,7 @@
   },
   {
     "word": ["undulation"],
+    "phonetic": "/ˌʌndjuˈleɪʃn/",
     "english_synonyms": ["wave motion", "ripple"],
     "english_explanations": [
       "A wavelike motion, as of a fish's body when swimming."
@@ -217,6 +240,7 @@
   },
   {
     "word": ["propulsion", "propulsive"],
+    "phonetic": "/prəˈpʌlʃn/",
     "english_synonyms": [],
     "english_explanations": [
       "The force that drives a body forward; relating to such force."
@@ -227,6 +251,7 @@
   },
   {
     "word": ["buoyancy"],
+    "phonetic": "/ˈbɔɪənt/",
     "english_synonyms": ["floating power"],
     "english_explanations": [
       "The ability of a body to float in a fluid."
@@ -236,6 +261,7 @@
   },
   {
     "word": ["streamlined", "streamlining"],
+    "phonetic": "/ˈstriːmlaɪn/",
     "english_synonyms": [],
     "english_explanations": [
       "Shaped to reduce resistance when moving through air or water."
@@ -245,6 +271,7 @@
   },
   {
     "word": ["maneuverability"],
+    "phonetic": "/məˌnuːvərəˈbɪləti/",
     "english_synonyms": [],
     "english_explanations": [
       "The ability to change direction quickly and easily."
@@ -254,6 +281,7 @@
   },
   {
     "word": ["lubricate"],
+    "phonetic": "/ˈluːbrɪkeɪt/",
     "english_synonyms": ["oil", "make slippery"],
     "english_explanations": [
       "To make surfaces smooth and slippery so they move easily."
@@ -264,6 +292,7 @@
   },
   {
     "word": ["viscous"],
+    "phonetic": "/ˈvɪskəs/",
     "english_synonyms": ["thick", "syrupy"],
     "english_explanations": [
       "Thick and sticky; not flowing freely."
@@ -274,6 +303,7 @@
   },
   {
     "word": ["viscosity"],
+    "phonetic": "/ˈvɪskəs/",
     "english_synonyms": ["thickness", "stickiness"],
     "english_explanations": [
       "A fluid's resistance to flow; its thickness."
@@ -284,6 +314,7 @@
   },
   {
     "word": ["overshoot"],
+    "phonetic": "/ˌəʊvəˈʃuːt/",
     "english_synonyms": ["overrun", "exceed"],
     "english_explanations": [
       "To pass beyond an intended point or limit."
@@ -293,6 +324,7 @@
   },
   {
     "word": ["overfly"],
+    "phonetic": "/ˌəʊvəˈflaɪ/",
     "english_synonyms": ["fly over", "fly across"],
     "english_explanations": ["To fly over or across a place."],
     "chinese_translations": ["飞越"],

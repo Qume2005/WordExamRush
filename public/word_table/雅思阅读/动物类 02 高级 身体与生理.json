@@ -1,6 +1,7 @@
 [
   {
     "word": ["plumage"],
+    "phonetic": "/ˈpluːmɪdʒ/",
     "english_synonyms": ["feathers", "feathering"],
     "english_explanations": [
       "A bird's feathers collectively, including their colour and condition."
@@ -11,6 +12,7 @@
   },
   {
     "word": ["forelimb"],
+    "phonetic": "/ˈfɔːleɡ/",
     "english_synonyms": ["front limb", "foreleg"],
     "english_explanations": [
       "Either of the front limbs of a four-legged animal, such as a wing or front leg."
@@ -21,6 +23,7 @@
   },
   {
     "word": ["hindquarters"],
+    "phonetic": "/ˌhaɪndˈkwɔːtəz/",
     "english_synonyms": ["hind legs", "rump"],
     "english_explanations": [
       "The rear part of a four-legged animal, including the hind legs and buttocks."
@@ -30,6 +33,7 @@
   },
   {
     "word": ["pectoral"],
+    "phonetic": "/ˈpektərəl/",
     "english_synonyms": ["chest"],
     "english_explanations": [
       "Relating to the chest or breast, such as a pectoral fin."
@@ -40,6 +44,7 @@
   },
   {
     "word": ["ventral"],
+    "phonetic": "/ˈventrəl/",
     "english_synonyms": ["abdominal", "belly-side"],
     "english_explanations": [
       "Relating to the underside or belly of an animal's body."
@@ -50,6 +55,7 @@
   },
   {
     "word": ["vertebra", "vertebrae"],
+    "phonetic": "/ˈvɜːtɪbrə/",
     "english_synonyms": ["spinal bone"],
     "english_explanations": [
       "One of the small bones that interlock to form the backbone and protect the spinal cord."
@@ -59,6 +65,7 @@
   },
   {
     "word": ["cranial"],
+    "phonetic": "/ˈkreɪniəm/",
     "english_synonyms": ["of the skull"],
     "english_explanations": ["Relating to the skull or head."],
     "chinese_translations": ["颅的", "头颅的"],
@@ -67,6 +74,7 @@
   },
   {
     "word": ["webbed", "webbing"],
+    "phonetic": "/webd/",
     "english_synonyms": [],
     "english_explanations": [
       "(of feet) having the toes joined by skin, for swimming; the skin itself."
@@ -76,6 +84,7 @@
   },
   {
     "word": ["talon"],
+    "phonetic": "/ˈtælən/",
     "english_synonyms": ["claw"],
     "english_explanations": [
       "A large sharp claw of a bird of prey, used to seize and kill."
@@ -85,6 +94,7 @@
   },
   {
     "word": ["homeostasis"],
+    "phonetic": "/ˌhəʊmiəˈsteɪsɪs/",
     "english_synonyms": ["internal balance", "equilibrium"],
     "english_explanations": [
       "The tendency of an organism to keep its internal conditions stable."
@@ -95,6 +105,7 @@
   },
   {
     "word": ["gestation"],
+    "phonetic": "/dʒeˈsteɪʃn/",
     "english_synonyms": ["pregnancy"],
     "english_explanations": [
       "The period during which a mammal carries its unborn young."
@@ -105,6 +116,7 @@
   },
   {
     "word": ["estrus"],
+    "phonetic": "/ˈiːstrəs/",
     "english_synonyms": ["heat", "oestrus"],
     "english_explanations": [
       "A recurring period when a female mammal is receptive to mating."
@@ -114,6 +126,7 @@
   },
   {
     "word": ["hibernate"],
+    "phonetic": "/ˈhaɪbəneɪt/",
     "english_synonyms": ["sleep through winter", "lie dormant"],
     "english_explanations": [
       "To pass the winter in a dormant state with slowed metabolism."
@@ -124,6 +137,7 @@
   },
   {
     "word": ["infrasonic", "infrasound"],
+    "phonetic": "/ˌɪnfrəˈsɒnɪk/",
     "english_synonyms": [],
     "english_explanations": [
       "(of sound) below the frequencies humans can hear; sound of such frequency."
@@ -134,6 +148,7 @@
   },
   {
     "word": ["glycogen"],
+    "phonetic": "/ˈɡlaɪkədʒən/",
     "english_synonyms": [],
     "english_explanations": [
       "A stored form of sugar held in animals' muscles and liver for energy."
@@ -144,6 +159,7 @@
   },
   {
     "word": ["cellulose"],
+    "phonetic": "/ˈseljuləʊs/",
     "english_synonyms": [],
     "english_explanations": [
       "The insoluble fibre of plant cell walls, digestible only with microbial help."
@@ -154,6 +170,7 @@
   },
   {
     "word": ["guanine"],
+    "phonetic": "/ˈɡwɑːniːn/",
     "english_synonyms": [],
     "english_explanations": [
       "A base of DNA whose crystals also give fish skin its silvery shimmer."
@@ -163,6 +180,7 @@
   },
   {
     "word": ["flagella", "flagellum"],
+    "phonetic": "/fləˈdʒelə/",
     "english_synonyms": [],
     "english_explanations": [
       "Long whip-like strands with which single cells propel themselves."
@@ -172,6 +190,7 @@
   },
   {
     "word": ["bladder"],
+    "phonetic": "/ˈblædə(r)/",
     "english_synonyms": [],
     "english_explanations": [
       "An organ that holds urine; in fish, the gas-filled sac that controls buoyancy."

@@ -1,6 +1,7 @@
 [
   {
     "word": ["thylacine"],
+    "phonetic": "/ˈθaɪləsiːn/",
     "english_synonyms": ["Tasmanian tiger", "Tasmanian wolf"],
     "english_explanations": [
       "A carnivorous marsupial of Tasmania resembling a striped dog, hunted to extinction in the 1930s."
@@ -10,6 +11,7 @@
   },
   {
     "word": ["tuatara"],
+    "phonetic": "/tuːəˈtɑːrə/",
     "english_synonyms": ["sphenodon"],
     "english_explanations": [
       "A rare reptile found only in New Zealand, the sole survivor of an ancient order that predates the dinosaurs."
@@ -19,6 +21,7 @@
   },
   {
     "word": ["capuchin"],
+    "phonetic": "/ˈkæptʃɪn/",
     "english_synonyms": ["capuchin monkey"],
     "english_explanations": [
       "An intelligent monkey of Central and South America, named for the cowl-like tuft of hair on its head."
@@ -28,6 +31,7 @@
   },
   {
     "word": ["coelacanth"],
+    "phonetic": "/ˈsiːləkænθ/",
     "english_synonyms": [],
     "english_explanations": [
       "A primitive lobe-finned fish thought extinct for millions of years until a living one was caught in 1938."
@@ -37,6 +41,7 @@
   },
   {
     "word": ["sailfish"],
+    "phonetic": "/ˈseɪlfɪʃ/",
     "english_synonyms": [],
     "english_explanations": [
       "A large ocean fish with a huge sail-like dorsal fin, among the fastest fish in the sea."
@@ -46,6 +51,7 @@
   },
   {
     "word": ["swordfish"],
+    "phonetic": "/ˈsɔːdfɪʃ/",
     "english_synonyms": ["broadbill"],
     "english_explanations": [
       "A large migratory ocean fish with a long, flattened, sword-like bill."
@@ -55,6 +61,7 @@
   },
   {
     "word": ["barracuda"],
+    "phonetic": "/ˌbærəˈkjuːdə/",
     "english_synonyms": ["sea pike"],
     "english_explanations": [
       "A slender predatory tropical fish with prominent fang-like teeth."
@@ -64,6 +71,7 @@
   },
   {
     "word": ["goby"],
+    "phonetic": "/ˈɡəʊbi/",
     "english_synonyms": [],
     "english_explanations": [
       "A small bottom-dwelling fish whose pelvic fins are fused into a sucker."
@@ -73,6 +81,7 @@
   },
   {
     "word": ["mackerel"],
+    "phonetic": "/ˈmækrəl/",
     "english_synonyms": [],
     "english_explanations": [
       "A fast-moving sea fish with oily flesh, commonly eaten as food."
@@ -82,6 +91,7 @@
   },
   {
     "word": ["peregrine"],
+    "phonetic": "/ˈperɪɡrɪn/",
     "english_synonyms": ["peregrine falcon", "duck hawk"],
     "english_explanations": [
       "A powerful falcon renowned for the speed of its diving strikes."
@@ -91,6 +101,7 @@
   },
   {
     "word": ["shearwater"],
+    "phonetic": "/ˈʃɪəwɔːtə(r)/",
     "english_synonyms": ["muttonbird"],
     "english_explanations": [
       "A long-winged seabird that skims low over the waves and migrates vast distances."
@@ -100,6 +111,7 @@
   },
   {
     "word": ["tern"],
+    "phonetic": "/tɜːn/",
     "english_synonyms": ["sea swallow"],
     "english_explanations": [
       "A slender seabird with a forked tail that plunge-dives for fish."
@@ -109,6 +121,7 @@
   },
   {
     "word": ["plover"],
+    "phonetic": "/ˈplʌvə(r)/",
     "english_synonyms": [],
     "english_explanations": [
       "A small wading bird with a short bill, found along shores and fields."
@@ -118,6 +131,7 @@
   },
   {
     "word": ["warbler"],
+    "phonetic": "/ˈwɔːblə(r)/",
     "english_synonyms": [],
     "english_explanations": [
       "A small active songbird with a musical, warbling call."
@@ -127,6 +141,7 @@
   },
   {
     "word": ["stoat"],
+    "phonetic": "/stəʊt/",
     "english_synonyms": ["ermine", "short-tailed weasel"],
     "english_explanations": [
       "A small agile weasel whose coat turns white in winter except for the black tail tip."
@@ -136,6 +151,7 @@
   },
   {
     "word": ["ferret"],
+    "phonetic": "/ˈferɪt/",
     "english_synonyms": [],
     "english_explanations": [
       "A domesticated polecat with a long slim body, kept for hunting rabbits."
@@ -145,6 +161,7 @@
   },
   {
     "word": ["possum"],
+    "phonetic": "/ˈpɒsəm/",
     "english_synonyms": ["opossum"],
     "english_explanations": [
       "A tree-dwelling marsupial that feigns death when threatened."
@@ -154,6 +171,7 @@
   },
   {
     "word": ["hyena"],
+    "phonetic": "/haɪˈiːnə/",
     "english_synonyms": ["hyaena"],
     "english_explanations": [
       "A doglike carnivore of Africa and Asia, known as a scavenger with a whooping, laughing call."
@@ -163,6 +181,7 @@
   },
   {
     "word": ["sloth"],
+    "phonetic": "/sləʊθ/",
     "english_synonyms": [],
     "english_explanations": [
       "A slow-moving mammal of Central and South America that hangs upside down in trees."
@@ -172,6 +191,7 @@
   },
   {
     "word": ["cuckoo"],
+    "phonetic": "/ˈkʊkuː/",
     "english_synonyms": [],
     "english_explanations": [
       "A bird famous for laying its eggs in other birds' nests and for its repeating call."
@@ -181,6 +201,7 @@
   },
   {
     "word": ["crayfish"],
+    "phonetic": "/ˈkreɪfɪʃ/",
     "english_synonyms": ["crawfish", "crawdad"],
     "english_explanations": [
       "A small freshwater crustacean resembling a lobster."
@@ -190,6 +211,7 @@
   },
   {
     "word": ["scarab"],
+    "phonetic": "/ˈskærəb/",
     "english_synonyms": ["dung beetle"],
     "english_explanations": [
       "A stout beetle that rolls balls of dung, sacred in ancient Egypt."
@@ -199,6 +221,7 @@
   },
   {
     "word": ["marsupial"],
+    "phonetic": "/mɑːˈsuːpiəl/",
     "english_synonyms": [],
     "english_explanations": [
       "A mammal that carries and suckles its young in a pouch, such as kangaroos and koalas."
@@ -209,6 +232,7 @@
   },
   {
     "word": ["megafauna"],
+    "phonetic": "/ˈmeɡəfɔːnə/",
     "english_synonyms": [],
     "english_explanations": [
       "The large animals of a particular region or period, such as mammoths and giant sloths."
@@ -219,6 +243,7 @@
   },
   {
     "word": ["vermin"],
+    "phonetic": "/ˈvɜːmɪn/",
     "english_synonyms": ["pests"],
     "english_explanations": [
       "Wild animals regarded as harmful to crops, livestock, or property."

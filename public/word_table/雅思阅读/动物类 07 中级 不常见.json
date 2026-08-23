@@ -1,6 +1,7 @@
 [
   {
     "word": ["ingenious"],
+    "phonetic": "/ɪnˈdʒiːniəs/",
     "english_synonyms": ["clever", "inventive", "resourceful"],
     "english_explanations": ["Cleverly inventive and skilful."],
     "chinese_translations": ["精巧的", "巧妙的"],
@@ -9,6 +10,7 @@
   },
   {
     "word": ["notoriously"],
+    "phonetic": "/nəʊˈtɔːriəs/",
     "english_synonyms": ["infamously"],
     "english_explanations": [
       "To a well-known degree, usually for something bad."
@@ -18,6 +20,7 @@
   },
   {
     "word": ["arid"],
+    "phonetic": "/ˈærɪd/",
     "english_synonyms": ["dry", "parched"],
     "english_explanations": ["Having little or no rain."],
     "chinese_translations": ["干旱的", "贫瘠的"],
@@ -26,6 +29,7 @@
   },
   {
     "word": ["shrub"],
+    "phonetic": "/ʃrʌb/",
     "english_synonyms": ["bush"],
     "english_explanations": [
       "A woody plant smaller than a tree, with several stems."
@@ -35,6 +39,7 @@
   },
   {
     "word": ["abrupt"],
+    "phonetic": "/əˈbrʌpt/",
     "english_synonyms": ["sudden", "unexpected"],
     "english_explanations": ["Sudden and unexpected."],
     "chinese_translations": ["突然的", "意外的"],
@@ -43,6 +48,7 @@
   },
   {
     "word": ["pigment"],
+    "phonetic": "/ˈpɪɡmənt/",
     "english_synonyms": ["colouring matter"],
     "english_explanations": [
       "A substance that gives colour to a tissue or cell."
@@ -53,6 +59,7 @@
   },
   {
     "word": ["soar"],
+    "phonetic": "/sɔː(r)/",
     "english_synonyms": ["rise high", "fly upward", "climb"],
     "english_explanations": [
       "To fly or rise high; to increase rapidly."
@@ -62,6 +69,7 @@
   },
   {
     "word": ["futile"],
+    "phonetic": "/ˈfjuːtaɪl/",
     "english_synonyms": ["pointless", "useless", "fruitless"],
     "english_explanations": ["Producing no result; pointless."],
     "chinese_translations": ["徒劳的", "无用的"],
@@ -69,6 +77,7 @@
   },
   {
     "word": ["melancholy"],
+    "phonetic": "/ˈmelənkəli/",
     "english_synonyms": ["sadness", "gloom", "dejection"],
     "english_explanations": [
       "A sad, thoughtful mood; sad."
@@ -78,6 +87,7 @@
   },
   {
     "word": ["dazzling"],
+    "phonetic": "/ˈdæzl/",
     "english_synonyms": ["blinding", "brilliant", "stunning"],
     "english_explanations": [
       "Extremely bright or impressive."
@@ -87,6 +97,7 @@
   },
   {
     "word": ["scatter"],
+    "phonetic": "/ˈskætə(r)/",
     "english_synonyms": ["disperse", "spread", "strew"],
     "english_explanations": [
       "To throw about loosely; to move apart in different directions."
@@ -96,6 +107,7 @@
   },
   {
     "word": ["vanish"],
+    "phonetic": "/ˈvænɪʃ/",
     "english_synonyms": ["disappear", "fade"],
     "english_explanations": [
       "To disappear suddenly and completely."
@@ -105,6 +117,7 @@
   },
   {
     "word": ["camouflage"],
+    "phonetic": "/ˈkæməflɑːʒ/",
     "english_synonyms": ["disguise", "concealment"],
     "english_explanations": [
       "Colouring or shape that hides an animal in its surroundings."
@@ -114,6 +127,7 @@
   },
   {
     "word": ["sediment"],
+    "phonetic": "/ˈsedɪmənt/",
     "english_synonyms": ["deposit", "silt"],
     "english_explanations": [
       "Matter that settles to the bottom of water or wind."
@@ -124,6 +138,7 @@
   },
   {
     "word": ["cultivate"],
+    "phonetic": "/ˈkʌltɪveɪt/",
     "english_synonyms": ["grow", "farm", "foster"],
     "english_explanations": [
       "To prepare land and raise crops; to encourage the growth of."
@@ -134,6 +149,7 @@
   },
   {
     "word": ["vibration"],
+    "phonetic": "/vaɪˈbreɪʃn/",
     "english_synonyms": ["oscillation", "tremor"],
     "english_explanations": [
       "A continuous slight shaking movement."
@@ -144,6 +160,7 @@
   },
   {
     "word": ["pouch"],
+    "phonetic": "/paʊtʃ/",
     "english_synonyms": ["sac", "pocket"],
     "english_explanations": [
       "A pocket-like fold of skin, as in a marsupial."
@@ -153,6 +170,7 @@
   },
   {
     "word": ["ancestral"],
+    "phonetic": "/ˈænsestə(r)/",
     "english_synonyms": ["of one's ancestors", "passed down"],
     "english_explanations": [
       "Belonging to or inherited from ancestors."
@@ -163,6 +181,7 @@
   },
   {
     "word": ["dusk"],
+    "phonetic": "/dʌsk/",
     "english_synonyms": ["nightfall", "twilight", "sunset"],
     "english_explanations": [
       "The darker part of twilight, just before night."
@@ -172,6 +191,7 @@
   },
   {
     "word": ["proponent"],
+    "phonetic": "/prəˈpəʊnənt/",
     "english_synonyms": ["supporter", "advocate", "champion"],
     "english_explanations": [
       "A person who argues publicly for a theory or proposal."
@@ -181,6 +201,7 @@
   },
   {
     "word": ["elusive"],
+    "phonetic": "/iˈluːsɪv/",
     "english_synonyms": ["evasive", "hard to catch"],
     "english_explanations": [
       "Difficult to find, catch, or achieve."
@@ -191,6 +212,7 @@
   },
   {
     "word": ["biodiversity"],
+    "phonetic": "/ˌbaɪəʊdaɪˈvɜːsəti/",
     "english_synonyms": [],
     "english_explanations": [
       "The variety of plant and animal life in a habitat."
@@ -201,6 +223,7 @@
   },
   {
     "word": ["anomaly"],
+    "phonetic": "/əˈnɒməli/",
     "english_synonyms": ["irregularity", "abnormality", "outlier"],
     "english_explanations": [
       "Something that deviates from what is normal or expected."
@@ -210,6 +233,7 @@
   },
   {
     "word": ["turbulent"],
+    "phonetic": "/ˈtɜːbjələnt/",
     "english_synonyms": ["rough", "agitated", "choppy"],
     "english_explanations": [
       "(of air or water) moving irregularly and violently."
@@ -220,6 +244,7 @@
   },
   {
     "word": ["turbulence"],
+    "phonetic": "/ˈtɜːbjələns/",
     "english_synonyms": ["rough flow", "agitation"],
     "english_explanations": [
       "Violent, irregular motion in air or water."
@@ -230,6 +255,7 @@
   },
   {
     "word": ["plight"],
+    "phonetic": "/plaɪt/",
     "english_synonyms": ["predicament", "difficult situation", "dilemma"],
     "english_explanations": [
       "A dangerous or unfortunate situation."
@@ -239,6 +265,7 @@
   },
   {
     "word": ["parasite"],
+    "phonetic": "/ˈpærəsaɪt/",
     "english_synonyms": [],
     "english_explanations": [
       "An organism that lives on or in a host and feeds at its expense."
@@ -249,6 +276,7 @@
   },
   {
     "word": ["parasitic"],
+    "phonetic": "/ˌpærəˈsɪtɪk/",
     "english_synonyms": [],
     "english_explanations": [
       "Living on or in a host and harming it."
@@ -259,6 +287,7 @@
   },
   {
     "word": ["toxin"],
+    "phonetic": "/ˈtɒksɪn/",
     "english_synonyms": ["poison", "poisonous substance"],
     "english_explanations": [
       "A poisonous substance produced by a living organism."
@@ -269,6 +298,7 @@
   },
   {
     "word": ["relentless"],
+    "phonetic": "/rɪˈlentləs/",
     "english_synonyms": ["ceaseless", "unrelenting", "persistent"],
     "english_explanations": [
       "Never stopping; harshly constant."
@@ -278,6 +308,7 @@
   },
   {
     "word": ["submerge"],
+    "phonetic": "/səbˈmɜːdʒ/",
     "english_synonyms": ["sink", "immerse", "dive under"],
     "english_explanations": [
       "To put or go under water."
@@ -288,6 +319,7 @@
   },
   {
     "word": ["symmetry"],
+    "phonetic": "/ˈsɪmətri/",
     "english_synonyms": ["balance", "evenness"],
     "english_explanations": [
       "Exact correspondence of form on opposite sides of a dividing line."
@@ -298,6 +330,7 @@
   },
   {
     "word": ["canopy"],
+    "phonetic": "/ˈkænəpi/",
     "english_synonyms": [],
     "english_explanations": [
       "The uppermost layer of a forest, formed by tree crowns."
@@ -307,6 +340,7 @@
   },
   {
     "word": ["fauna"],
+    "phonetic": "/ˈfɔːnə/",
     "english_synonyms": [],
     "english_explanations": [
       "The animals of a particular region or period."
@@ -316,6 +350,7 @@
   },
   {
     "word": ["flora"],
+    "phonetic": "/ˈflɔːrə/",
     "english_synonyms": [],
     "english_explanations": [
       "The plants of a particular region or period."
@@ -325,6 +360,7 @@
   },
   {
     "word": ["inhabit"],
+    "phonetic": "/ɪnˈhæbɪt/",
     "english_synonyms": ["dwell in", "occupy", "live in"],
     "english_explanations": ["To live in or occupy a place."],
     "chinese_translations": ["栖息于", "居住于"],
@@ -332,6 +368,7 @@
   },
   {
     "word": ["starve"],
+    "phonetic": "/stɑːv/",
     "english_synonyms": ["go hungry", "famish"],
     "english_explanations": [
       "To suffer or die from lack of food."
@@ -341,6 +378,7 @@
   },
   {
     "word": ["persist"],
+    "phonetic": "/pəˈsɪst/",
     "english_synonyms": ["continue", "live on", "carry on"],
     "english_explanations": [
       "To continue to exist despite difficulty."
@@ -350,6 +388,7 @@
   },
   {
     "word": ["flourish"],
+    "phonetic": "/ˈflʌrɪʃ/",
     "english_synonyms": ["prosper", "burgeon"],
     "english_explanations": ["To grow or develop vigorously."],
     "chinese_translations": ["繁盛", "茂盛"],
@@ -357,6 +396,7 @@
   },
   {
     "word": ["thrive"],
+    "phonetic": "/θraɪv/",
     "english_synonyms": ["do well", "boom", "grow vigorously"],
     "english_explanations": ["To grow strongly and successfully."],
     "chinese_translations": ["繁盛", "兴旺"],
@@ -364,6 +404,7 @@
   },
   {
     "word": ["conversely"],
+    "phonetic": "/ˈkɒnvɜːsli/",
     "english_synonyms": ["on the contrary", "oppositely"],
     "english_explanations": [
       "Introducing a statement that is the opposite of the previous one."
@@ -373,6 +414,7 @@
   },
   {
     "word": ["invaluable"],
+    "phonetic": "/ɪnˈvæljuəbl/",
     "english_synonyms": ["priceless", "precious"],
     "english_explanations": [
       "Extremely valuable or useful."
@@ -382,6 +424,7 @@
   },
   {
     "word": ["optimum"],
+    "phonetic": "/ˈɒptɪməm/",
     "english_synonyms": ["best", "ideal", "optimal"],
     "english_explanations": [
       "Most favourable; the best possible conditions."
@@ -391,6 +434,7 @@
   },
   {
     "word": ["seismic"],
+    "phonetic": "/ˈsaɪzmɪk/",
     "english_synonyms": ["relating to earthquakes"],
     "english_explanations": [
       "Relating to earthquakes or vibrations in the ground."
@@ -401,6 +445,7 @@
   },
   {
     "word": ["intricate"],
+    "phonetic": "/ˈɪntrɪkət/",
     "english_synonyms": ["complex", "complicated", "elaborate"],
     "english_explanations": [
       "Very complicated or detailed."
@@ -410,6 +455,7 @@
   },
   {
     "word": ["captivity"],
+    "phonetic": "/kæpˈtɪvəti/",
     "english_synonyms": ["confinement", "imprisonment"],
     "english_explanations": [
       "The condition of being kept enclosed or confined."
@@ -420,6 +466,7 @@
   },
   {
     "word": ["asteroid"],
+    "phonetic": "/ˈæstərɔɪd/",
     "english_synonyms": [],
     "english_explanations": [
       "A small rocky body orbiting the sun."
@@ -430,6 +477,7 @@
   },
   {
     "word": ["cavity"],
+    "phonetic": "/ˈkævəti/",
     "english_synonyms": ["hole", "pit"],
     "english_explanations": [
       "An empty space within a solid body."
@@ -440,6 +488,7 @@
   },
   {
     "word": ["physiology"],
+    "phonetic": "/ˌfɪziˈɒlədʒi/",
     "english_synonyms": [],
     "english_explanations": [
       "The branch of biology dealing with how organisms function."
@@ -450,6 +499,7 @@
   },
   {
     "word": ["aquatic"],
+    "phonetic": "/əˈkwætɪk/",
     "english_synonyms": ["living in water"],
     "english_explanations": [
       "Living in or relating to water."
@@ -460,6 +510,7 @@
   },
   {
     "word": ["empirical"],
+    "phonetic": "/ɪmˈpɪrɪkl/",
     "english_synonyms": ["based on observation", "evidence-based"],
     "english_explanations": [
       "Based on observation and experiment rather than theory."
@@ -470,6 +521,7 @@
   },
   {
     "word": ["drastic"],
+    "phonetic": "/ˈdræstɪk/",
     "english_synonyms": ["severe", "extreme", "radical"],
     "english_explanations": [
       "Extreme in effect or degree."
@@ -480,6 +532,7 @@
   },
   {
     "word": ["plausible"],
+    "phonetic": "/ˈplɔːzəbl/",
     "english_synonyms": ["believable", "reasonable"],
     "english_explanations": [
       "Seemingly reasonable or probable."
@@ -490,6 +543,7 @@
   },
   {
     "word": ["formidable"],
+    "phonetic": "/ˈfɔːmɪdəbl/",
     "english_synonyms": ["daunting", "intimidating"],
     "english_explanations": [
       "Inspiring fear or respect through power; hard to defeat."
@@ -500,6 +554,7 @@
   },
   {
     "word": ["posture"],
+    "phonetic": "/ˈpɒstʃə(r)/",
     "english_synonyms": ["stance", "carriage", "pose"],
     "english_explanations": [
       "The way a body is held when standing or moving."
@@ -509,6 +564,7 @@
   },
   {
     "word": ["versatile"],
+    "phonetic": "/ˈvɜːsətaɪl/",
     "english_synonyms": ["adaptable", "all-round", "multifunctional"],
     "english_explanations": [
       "Able to be used for many purposes; adaptable."
@@ -519,6 +575,7 @@
   },
   {
     "word": ["demise"],
+    "phonetic": "/dɪˈmaɪz/",
     "english_synonyms": ["death", "downfall", "end"],
     "english_explanations": ["The end or death of something."],
     "chinese_translations": ["消亡", "死亡", "终结"],
@@ -526,6 +583,7 @@
   },
   {
     "word": ["susceptible"],
+    "phonetic": "/səˈseptəbl/",
     "english_synonyms": ["vulnerable", "prone", "liable"],
     "english_explanations": [
       "Likely to be affected by something (susceptible to)."
@@ -536,6 +594,7 @@
   },
   {
     "word": ["cardiovascular"],
+    "phonetic": "/ˌkɑːdiəʊˈvæskjələ(r)/",
     "english_synonyms": [],
     "english_explanations": [
       "Relating to the heart and blood vessels."
@@ -546,6 +605,7 @@
   },
   {
     "word": ["intriguing"],
+    "phonetic": "/ɪnˈtriːɡɪŋ/",
     "english_synonyms": ["fascinating", "captivating"],
     "english_explanations": [
       "Arousing curiosity; fascinating."
@@ -555,6 +615,7 @@
   },
   {
     "word": ["retrieve"],
+    "phonetic": "/rɪˈtriːv/",
     "english_synonyms": ["get back", "fetch", "recover"],
     "english_explanations": ["To get or bring back."],
     "chinese_translations": ["取回", "检索", "找回"],
@@ -562,6 +623,7 @@
   },
   {
     "word": ["interval"],
+    "phonetic": "/ˈɪntəvl/",
     "english_synonyms": ["gap", "pause", "interim"],
     "english_explanations": [
       "A space of time between events."
@@ -572,6 +634,7 @@
   },
   {
     "word": ["crust"],
+    "phonetic": "/krʌst/",
     "english_synonyms": ["shell", "outer layer"],
     "english_explanations": [
       "The outermost solid layer of the earth; a hard outer covering."
@@ -581,6 +644,7 @@
   },
   {
     "word": ["friction"],
+    "phonetic": "/ˈfrɪkʃn/",
     "english_synonyms": ["rubbing", "resistance"],
     "english_explanations": [
       "Resistance met when one surface moves over another."
@@ -591,6 +655,7 @@
   },
   {
     "word": ["nutrient"],
+    "phonetic": "/ˈnjuːtriənt/",
     "english_synonyms": ["nourishment"],
     "english_explanations": [
       "A substance that provides nourishment for growth."
@@ -601,6 +666,7 @@
   },
   {
     "word": ["potent"],
+    "phonetic": "/ˈpəʊtnt/",
     "english_synonyms": ["powerful", "strong", "effective"],
     "english_explanations": ["Powerful in effect."],
     "chinese_translations": ["强效的", "强有力的"],
@@ -608,6 +674,7 @@
   },
   {
     "word": ["auxiliary"],
+    "phonetic": "/ɔːɡˈzɪliəri/",
     "english_synonyms": ["supplementary", "backup", "supporting"],
     "english_explanations": [
       "Providing additional or reserve support."
@@ -618,6 +685,7 @@
   },
   {
     "word": ["endurance"],
+    "phonetic": "/ɪnˈdjʊərəns/",
     "english_synonyms": ["stamina", "staying power"],
     "english_explanations": [
       "The ability to sustain prolonged physical effort."
@@ -628,6 +696,7 @@
   },
   {
     "word": ["onset"],
+    "phonetic": "/ˈɒnset/",
     "english_synonyms": ["beginning", "start", "outset"],
     "english_explanations": [
       "The beginning of something, especially something unpleasant."
@@ -637,6 +706,7 @@
   },
   {
     "word": ["laden"],
+    "phonetic": "/ˈleɪdn/",
     "english_synonyms": ["loaded", "burdened", "weighed down"],
     "english_explanations": ["Heavily loaded with something."],
     "chinese_translations": ["满载的", "装满的"],
@@ -644,6 +714,7 @@
   },
   {
     "word": ["upright"],
+    "phonetic": "/ˈʌpraɪt/",
     "english_synonyms": ["vertical", "erect"],
     "english_explanations": ["Standing straight up; vertical."],
     "chinese_translations": ["直立的", "垂直的"],
@@ -651,6 +722,7 @@
   },
   {
     "word": ["miniature"],
+    "phonetic": "/ˈmɪnətʃə(r)/",
     "english_synonyms": ["tiny", "small-scale", "mini"],
     "english_explanations": ["Much smaller than usual."],
     "chinese_translations": ["微型的", "微小的"],
@@ -658,6 +730,7 @@
   },
   {
     "word": ["perceive"],
+    "phonetic": "/pəˈsiːv/",
     "english_synonyms": ["notice", "detect", "sense"],
     "english_explanations": [
       "To become aware of something through the senses."
@@ -668,6 +741,7 @@
   },
   {
     "word": ["constitute"],
+    "phonetic": "/ˈkɒnstɪtjuːt/",
     "english_synonyms": ["make up", "form", "comprise"],
     "english_explanations": [
       "To be the parts that together make up something."
@@ -678,6 +752,7 @@
   },
   {
     "word": ["offspring"],
+    "phonetic": "/ˈɒfsprɪŋ/",
     "english_synonyms": ["young", "progeny", "descendants"],
     "english_explanations": [
       "The young of a person, animal, or plant."
@@ -687,6 +762,7 @@
   },
   {
     "word": ["vegetation"],
+    "phonetic": "/ˌvedʒəˈteɪʃn/",
     "english_synonyms": ["plant life", "plant cover"],
     "english_explanations": [
       "Plants in general, especially those of an area."
@@ -697,6 +773,7 @@
   },
   {
     "word": ["credible"],
+    "phonetic": "/ˈkredəbl/",
     "english_synonyms": ["trustworthy", "convincing"],
     "english_explanations": [
       "Able to be believed; convincing."
@@ -707,6 +784,7 @@
   },
   {
     "word": ["compensate"],
+    "phonetic": "/ˈkɒmpenseɪt/",
     "english_synonyms": ["make up for", "offset", "counterbalance"],
     "english_explanations": [
       "To make up for something lost or deficient."
@@ -717,6 +795,7 @@
   },
   {
     "word": ["predominantly"],
+    "phonetic": "/prɪˈdɒmɪnəntli/",
     "english_synonyms": ["mainly", "mostly", "chiefly"],
     "english_explanations": [
       "For the most part; mainly."
@@ -727,6 +806,7 @@
   },
   {
     "word": ["respiratory"],
+    "phonetic": "/rəˈspɪrətri/",
     "english_synonyms": [],
     "english_explanations": ["Relating to breathing."],
     "chinese_translations": ["呼吸的"],
@@ -735,6 +815,7 @@
   },
   {
     "word": ["reproductive"],
+    "phonetic": "/ˌriːprəˈdʌktɪv/",
     "english_synonyms": [],
     "english_explanations": ["Relating to reproduction."],
     "chinese_translations": ["生殖的", "繁殖的"],
@@ -743,6 +824,7 @@
   },
   {
     "word": ["flee"],
+    "phonetic": "/fliː/",
     "english_synonyms": ["run away", "escape", "take flight"],
     "english_explanations": ["To run away from danger."],
     "chinese_translations": ["逃离", "逃走"],
@@ -750,6 +832,7 @@
   },
   {
     "word": ["undergo"],
+    "phonetic": "/ˌʌndəˈɡəʊ/",
     "english_synonyms": ["experience", "go through", "pass through"],
     "english_explanations": [
       "To experience or be subjected to a process."
@@ -759,6 +842,7 @@
   },
   {
     "word": ["confined"],
+    "phonetic": "/kənˈfaɪnd/",
     "english_synonyms": ["restricted", "limited", "enclosed"],
     "english_explanations": [
       "Limited to a small or restricted space or set of conditions."
@@ -768,6 +852,7 @@
   },
   {
     "word": ["endure"],
+    "phonetic": "/ɪnˈdjʊə(r)/",
     "english_synonyms": ["withstand", "hold out"],
     "english_explanations": [
       "To suffer patiently through hardship."
@@ -777,6 +862,7 @@
   },
   {
     "word": ["tolerate"],
+    "phonetic": "/ˈtɒləreɪt/",
     "english_synonyms": ["bear", "stand"],
     "english_explanations": [
       "To endure something unpleasant; to survive under given conditions."
@@ -786,6 +872,7 @@
   },
   {
     "word": ["exploit"],
+    "phonetic": "/ɪkˈsplɔɪt/",
     "english_synonyms": ["make use of", "utilize", "take advantage of"],
     "english_explanations": [
       "To make full use of; to use unfairly."
@@ -795,6 +882,7 @@
   },
   {
     "word": ["dominance"],
+    "phonetic": "/ˈdɒmɪnənt/",
     "english_synonyms": ["supremacy", "control", "ascendancy"],
     "english_explanations": [
       "Power and influence over others."
@@ -805,6 +893,7 @@
   },
   {
     "word": ["devastating"],
+    "phonetic": "/ˈdevəsteɪtɪŋ/",
     "english_synonyms": ["destructive", "ruinous", "catastrophic"],
     "english_explanations": ["Highly destructive."],
     "chinese_translations": ["毁灭性的", "破坏性极大的"],
@@ -812,6 +901,7 @@
   },
   {
     "word": ["niche"],
+    "phonetic": "/niːʃ/",
     "english_synonyms": ["role", "position"],
     "english_explanations": [
       "An organism's functional role in its ecosystem; a specialized market position."
@@ -821,6 +911,7 @@
   },
   {
     "word": ["endangered"],
+    "phonetic": "/ɪnˈdeɪndʒəd/",
     "english_synonyms": ["at risk", "threatened"],
     "english_explanations": [
       "(of a species) seriously at risk of extinction."
@@ -830,6 +921,7 @@
   },
   {
     "word": ["fragile"],
+    "phonetic": "/ˈfrædʒaɪl/",
     "english_synonyms": ["delicate", "easily damaged", "brittle"],
     "english_explanations": ["Easily broken or damaged."],
     "chinese_translations": ["脆弱的", "易碎的"],
@@ -837,6 +929,7 @@
   },
   {
     "word": ["drought"],
+    "phonetic": "/draʊt/",
     "english_synonyms": ["dry spell", "water shortage"],
     "english_explanations": [
       "A prolonged shortage of rainfall."
@@ -846,6 +939,7 @@
   },
   {
     "word": ["mortality"],
+    "phonetic": "/mɔːˈtæləti/",
     "english_synonyms": ["death rate", "deaths"],
     "english_explanations": [
       "The number of deaths in a group, often as a rate."
@@ -856,6 +950,7 @@
   },
   {
     "word": ["exotic"],
+    "phonetic": "/ɪɡˈzɒtɪk/",
     "english_synonyms": ["foreign", "non-native", "alien"],
     "english_explanations": [
       "From another part of the world; strikingly unusual."
@@ -865,6 +960,7 @@
   },
   {
     "word": ["sustain"],
+    "phonetic": "/səˈsteɪn/",
     "english_synonyms": ["maintain", "support", "keep up"],
     "english_explanations": [
       "To keep something going over a period of time."
@@ -874,6 +970,7 @@
   },
   {
     "word": ["terrain"],
+    "phonetic": "/təˈreɪn/",
     "english_synonyms": ["topography", "ground"],
     "english_explanations": [
       "A stretch of land considered with regard to its physical features."
@@ -883,6 +980,7 @@
   },
   {
     "word": ["anatomy"],
+    "phonetic": "/əˈnætəmi/",
     "english_synonyms": [],
     "english_explanations": [
       "The bodily structure of an organism; the study of it."
@@ -892,6 +990,7 @@
   },
   {
     "word": ["wilderness"],
+    "phonetic": "/ˈwɪldənəs/",
     "english_synonyms": ["wilds", "wild land"],
     "english_explanations": [
       "An untouched, uninhabited wild region."
@@ -901,6 +1000,7 @@
   },
   {
     "word": ["viable"],
+    "phonetic": "/ˈvaɪəbl/",
     "english_synonyms": ["feasible", "workable", "capable of surviving"],
     "english_explanations": [
       "Capable of working or surviving successfully."
@@ -910,6 +1010,7 @@
   },
   {
     "word": ["prey"],
+    "phonetic": "/preɪ/",
     "english_synonyms": ["victim"],
     "english_explanations": [
       "An animal hunted and killed for food."
@@ -919,6 +1020,7 @@
   },
   {
     "word": ["fossil"],
+    "phonetic": "/ˈfɒsl/",
     "english_synonyms": ["prehistoric remains"],
     "english_explanations": [
       "The preserved remains of a prehistoric organism."
@@ -928,6 +1030,7 @@
   },
   {
     "word": ["acute"],
+    "phonetic": "/əˈkjuːt/",
     "english_synonyms": ["sharp", "keen", "severe"],
     "english_explanations": [
       "Sharp or sensitive; severe and sudden."
@@ -937,6 +1040,7 @@
   },
   {
     "word": ["distinctive"],
+    "phonetic": "/dɪˈstɪŋktɪv/",
     "english_synonyms": ["distinguishing", "recognizable", "typical"],
     "english_explanations": [
       "Serving to identify; characteristic."
@@ -946,6 +1050,7 @@
   },
   {
     "word": ["territory"],
+    "phonetic": "/ˈterətri/",
     "english_synonyms": ["range", "domain", "turf"],
     "english_explanations": [
       "An area defended by an animal or group."
@@ -955,6 +1060,7 @@
   },
   {
     "word": ["arctic"],
+    "phonetic": "/ˈɑːktɪk/",
     "english_synonyms": [],
     "english_explanations": [
       "Of the region around the North Pole."
@@ -964,6 +1070,7 @@
   },
   {
     "word": ["thermal"],
+    "phonetic": "/ˈθɜːml/",
     "english_synonyms": [],
     "english_explanations": [
       "Relating to heat; a rising column of warm air."
@@ -973,6 +1080,7 @@
   },
   {
     "word": ["compelling"],
+    "phonetic": "/kəmˈpelɪŋ/",
     "english_synonyms": ["gripping", "persuasive"],
     "english_explanations": [
       "Convincing; holding one's attention powerfully."
@@ -982,6 +1090,7 @@
   },
   {
     "word": ["revelation"],
+    "phonetic": "/ˌrevəˈleɪʃn/",
     "english_synonyms": ["disclosure", "eye-opener"],
     "english_explanations": [
       "A surprising fact made known for the first time."
@@ -992,6 +1101,7 @@
   },
   {
     "word": ["grasp"],
+    "phonetic": "/ɡrɑːsp/",
     "english_synonyms": ["understand", "comprehend", "grip"],
     "english_explanations": [
       "To seize firmly; to understand fully."
@@ -1001,6 +1111,7 @@
   },
   {
     "word": ["wade"],
+    "phonetic": "/weɪd/",
     "english_synonyms": ["walk through water"],
     "english_explanations": [
       "To walk with effort through water or mud."
@@ -1010,6 +1121,7 @@
   },
   {
     "word": ["scale", "scales"],
+    "phonetic": "/skeɪl/",
     "english_synonyms": [],
     "english_explanations": [
       "A small hard plate protecting skin (plural: scales); a measuring series."
@@ -1019,6 +1131,7 @@
   },
   {
     "word": ["trait"],
+    "phonetic": "/treɪt/",
     "english_synonyms": ["feature", "quality"],
     "english_explanations": [
       "A distinguishing quality or characteristic."
@@ -1028,6 +1141,7 @@
   },
   {
     "word": ["blend"],
+    "phonetic": "/blend/",
     "english_synonyms": ["mix", "merge", "fuse"],
     "english_explanations": [
       "To mix together smoothly and inseparably."
@@ -1037,6 +1151,7 @@
   },
   {
     "word": ["circulation"],
+    "phonetic": "/ˌsɜːkjəˈleɪʃn/",
     "english_synonyms": ["flow", "movement"],
     "english_explanations": [
       "Movement in a circuit, as of blood or air."
@@ -1047,6 +1162,7 @@
   },
   {
     "word": ["spike"],
+    "phonetic": "/spaɪk/",
     "english_synonyms": ["sharp increase", "surge", "peak"],
     "english_explanations": [
       "A sharp rise in a quantity; a pointed projection."
@@ -1056,6 +1172,7 @@
   },
   {
     "word": ["wary"],
+    "phonetic": "/ˈweəri/",
     "english_synonyms": ["cautious", "watchful", "alert"],
     "english_explanations": [
       "Feeling or showing caution about possible danger."
@@ -1065,6 +1182,7 @@
   },
   {
     "word": ["quarry"],
+    "phonetic": "/ˈkwɒri/",
     "english_synonyms": ["game"],
     "english_explanations": [
       "An animal that is being hunted; a place where stone is cut."
@@ -1074,6 +1192,7 @@
   },
   {
     "word": ["spear"],
+    "phonetic": "/spɪə(r)/",
     "english_synonyms": ["lance", "pierce"],
     "english_explanations": [
       "A weapon with a long pointed shaft; to pierce with one."
@@ -1083,6 +1202,7 @@
   },
   {
     "word": ["beast"],
+    "phonetic": "/biːst/",
     "english_synonyms": ["animal", "brute", "creature"],
     "english_explanations": [
       "A large four-legged animal; a dangerous wild animal."
@@ -1092,6 +1212,7 @@
   },
   {
     "word": ["calf"],
+    "phonetic": "/kɑːf/",
     "english_synonyms": [],
     "english_explanations": [
       "The young of cattle, elephants, whales, and some other animals."
@@ -1101,6 +1222,7 @@
   },
   {
     "word": ["cub"],
+    "phonetic": "/kʌb/",
     "english_synonyms": [],
     "english_explanations": [
       "The young of foxes, bears, lions, and other mammals."
@@ -1110,6 +1232,7 @@
   },
   {
     "word": ["chick"],
+    "phonetic": "/tʃɪk/",
     "english_synonyms": [],
     "english_explanations": ["A newly hatched bird."],
     "chinese_translations": ["雏鸟", "幼鸟"],
@@ -1117,6 +1240,7 @@
   },
   {
     "word": ["finch"],
+    "phonetic": "/fɪntʃ/",
     "english_synonyms": [],
     "english_explanations": [
       "A small seed-eating songbird with a conical bill."
@@ -1126,6 +1250,7 @@
   },
   {
     "word": ["falcon"],
+    "phonetic": "/ˈfɔːlkən/",
     "english_synonyms": [],
     "english_explanations": [
       "A fast-flying bird of prey with long pointed wings."
@@ -1135,6 +1260,7 @@
   },
   {
     "word": ["tuna"],
+    "phonetic": "/ˈtjuːnə/",
     "english_synonyms": [],
     "english_explanations": [
       "A large, fast ocean fish prized as food."
@@ -1144,6 +1270,7 @@
   },
   {
     "word": ["trout"],
+    "phonetic": "/traʊt/",
     "english_synonyms": [],
     "english_explanations": [
       "A freshwater game fish of the salmon family."
@@ -1153,6 +1280,7 @@
   },
   {
     "word": ["pike"],
+    "phonetic": "/paɪk/",
     "english_synonyms": [],
     "english_explanations": [
       "A long-bodied predatory freshwater fish."
@@ -1162,6 +1290,7 @@
   },
   {
     "word": ["eel"],
+    "phonetic": "/iːl/",
     "english_synonyms": [],
     "english_explanations": ["A snakelike fish."],
     "chinese_translations": ["鳗鱼"],
@@ -1169,6 +1298,7 @@
   },
   {
     "word": ["dorsal"],
+    "phonetic": "/ˈdɔːsl/",
     "english_synonyms": [],
     "english_explanations": [
       "Relating to the back or upper side of an animal."
