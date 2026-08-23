@@ -13,6 +13,7 @@
 - 单词表内容变更后自动清理过期进度
 - 构建时自动验证单词表格式
 - 答案卡词根拆解展示（有词根数据的词）
+- 答案卡音标展示（有音标数据的词）
 
 ## 单词表格式
 
@@ -33,6 +34,7 @@ public/word_table/
 [
   {
     "word": ["abandon", "abandon<英>"],
+    "phonetic": "/əˈbændən/",
     "english_synonyms": ["forsake", "desert"],
     "english_explanations": ["to leave a place forever"],
     "chinese_translations": ["放弃", "遗弃"],
@@ -54,6 +56,7 @@ public/word_table/
 | 字段                     | 类型         | 必填 | 说明                   |
 |------------------------|------------|----|----------------------|
 | `word`                 | `string[]` | 是  | 单词及拼写变体              |
+| `phonetic`             | `string`   | 否  | 音标（如 /əˈbændən/），原样显示在答案卡单词旁 |
 | `english_synonyms`     | `string[]` | 是  | 英文近义词                |
 | `english_explanations` | `string[]` | 否  | 英文释义（有则启用"看解释选单词"模式） |
 | `chinese_translations` | `string[]` | 是  | 中文释义                 |
