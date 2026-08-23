@@ -48,6 +48,7 @@ const roots = computed(() => props.targetWord.roots || [])
     <div class="word-detail">
       <h3 class="word-title">
         {{ targetWord.word.join(' / ') }}
+        <span v-if="targetWord.phonetic" class="word-phonetic">{{ targetWord.phonetic }}</span>
         <button
           class="speak-btn"
           title="播放读音"
@@ -142,6 +143,13 @@ const roots = computed(() => props.targetWord.roots || [])
   font-weight: 700;
   color: var(--color-text);
   margin: 0;
+}
+
+.word-phonetic {
+  font-size: 15px;
+  font-weight: 400;
+  color: var(--color-text-secondary);
+  margin-left: 6px;
 }
 
 .speak-btn {
