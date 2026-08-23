@@ -19,6 +19,9 @@ function validateWord(word, fileLabel) {
   if (typeof word.example_sentences !== 'string') {
     throw new Error(`${fileLabel}: example_sentences 必须是字符串`)
   }
+  if (word.phonetic !== undefined && typeof word.phonetic !== 'string') {
+    throw new Error(`${fileLabel}: phonetic 必须是字符串`)
+  }
   if (word.english_explanations !== undefined && !Array.isArray(word.english_explanations)) {
     throw new Error(`${fileLabel}: english_explanations 必须是数组`)
   }

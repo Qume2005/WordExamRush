@@ -40,6 +40,9 @@ function validateRawInput(data: unknown): string | null {
     if (typeof item.example_sentences !== 'string') {
       return `第 ${i + 1} 项缺少 example_sentences 字段`
     }
+    if (item.phonetic !== undefined && typeof item.phonetic !== 'string') {
+      return `第 ${i + 1} 项的 phonetic 字段格式不正确`
+    }
   }
   return null
 }
@@ -74,8 +77,12 @@ function mergeWords(raw: RawWord[]): ProcessedWord[] {
     const explanations = new Set<string>()
     const sentences: string[] = []
     const rootsMap = new Map<string, RootInfo>()
+    let phonetic = ''
 
     for (const item of items) {
+      if (!phonetic && typeof item.phonetic === 'string' && item.phonetic.trim()) {
+        phonetic = item.phonetic.trim()
+      }
       for (const w of item.word) {
         const trimmed = w.trim()
         if (trimmed) wordVariants.add(trimmed.toLowerCase())
@@ -107,6 +114,7 @@ function mergeWords(raw: RawWord[]): ProcessedWord[] {
     result.push({
       id: id++,
       word: [...wordVariants],
+      phonetic,
       english_synonyms: [...synonyms],
       english_explanations: [...engExplanations],
       chinese_translations: [...explanations],

@@ -7,6 +7,7 @@ export interface RootInfo {
 /** Raw word from user JSON input */
 export interface RawWord {
   word: string[]
+  phonetic?: string
   english_synonyms: string[]
   english_explanations: string[]
   chinese_translations: string[]
@@ -18,6 +19,7 @@ export interface RawWord {
 export interface ProcessedWord {
   id: number
   word: string[]
+  phonetic: string
   english_synonyms: string[]
   english_explanations: string[]
   chinese_translations: string[]
