@@ -76,6 +76,10 @@ function loadNextCard() {
   questionIndex.value++
 }
 
+// 题面就是单词本身的题型（看词选义/同义词）不需要答完再读；
+// 其余题型答完（含不知道）自动读正确单词，auto=true 跟随静音开关
+const AUTO_SPEAK_MODES = new Set(['zh-to-en', 'en-explanation-to-en'])
+
 function recordResult(isCorrect, optionIndex) {
   if (isRevealing.value || !currentCard.value) return
 
@@ -105,6 +109,11 @@ function recordResult(isCorrect, optionIndex) {
     } else {
       playUnknown()
     }
+  }
+  // 音效（Web Audio）会掐掉朗读，先让音效播完，延迟后再读单词
+  if (AUTO_SPEAK_MODES.has(card.mode) && targetWord.value) {
+    const text = targetWord.value.word[0]
+    setTimeout(() => speakWord(text, true), 400)
   }
   isRevealing.value = true
   selectedIndex.value = optionIndex
