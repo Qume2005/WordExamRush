@@ -1,6 +1,6 @@
 <script setup>
 import { computed } from 'vue'
-import { getWordProgress } from '../business/quizEngine'
+import { aggregateWordProgress } from '../business/quizEngine'
 import { sparklinePoints } from '../utils/sparkline'
 import WordTable from './WordTable.vue'
 
@@ -14,10 +14,13 @@ const emit = defineEmits(['start-quiz', 'back', 'reset-word', 'save-progress'])
 
 const rows = computed(() =>
   props.words.map((w) => {
-    const p = props.progressMap.get(w.id)
-    const history = p?.history || []
-    const progress = p ? getWordProgress(p) : 0
-    const appearances = p?.appearances || 0
+    const entry = props.progressMap.get(w.id)
+    const agg = entry
+      ? aggregateWordProgress(entry)
+      : { appearances: 0, correctCount: 0, history: [], progress: 0 }
+    const history = agg.history
+    const progress = agg.progress
+    const appearances = agg.appearances
 
     let statusClass = 'status--unlearned'
     let statusText = '未学习'

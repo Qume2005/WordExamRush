@@ -53,6 +53,12 @@ export interface WordProgress {
   history: boolean[]  // true = correct, false = wrong
 }
 
+/** 每个单词的进度容器：各题型各自独立记忆 */
+export interface WordModeProgress {
+  wordId: number
+  modes: Partial<Record<CardMode, WordProgress>>
+}
+
 /** Result of a user's answer */
 export interface AnswerResult {
   card: QuizCard

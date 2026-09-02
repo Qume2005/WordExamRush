@@ -1,6 +1,6 @@
 <script setup>
 import { ref, onMounted, onUnmounted } from 'vue'
-import { createProgressMap, createEmptyProgress } from './business/quizEngine'
+import { createProgressMap, createWordProgress } from './business/quizEngine'
 import {
   saveFileProgress,
   saveFolderProgress,
@@ -69,7 +69,9 @@ function onResetProgress() {
 }
 
 function onResetWord(wordId) {
-  progressMap.value.set(wordId, createEmptyProgress(wordId))
+  const word = words.value.find(w => w.id === wordId)
+  if (!word) return
+  progressMap.value.set(wordId, createWordProgress(word))
   saveProgress()
 }
 

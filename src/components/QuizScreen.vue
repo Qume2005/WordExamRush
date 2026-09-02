@@ -72,7 +72,7 @@ function loadNextCard() {
     return
   }
 
-  currentCard.value = createNextCard(wordId, props.words)
+  currentCard.value = createNextCard(wordId, props.words, props.progressMap)
   questionIndex.value++
 }
 

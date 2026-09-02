@@ -2,7 +2,7 @@
 import { ref, computed, onMounted } from 'vue'
 import { parseAndProcess } from '../business/wordProcessor'
 import { resolveFileHash, ensureFileEntry, calcFilePercent, calcFileSparkline, consumeSession } from '../business/progressStorage'
-import { createEmptyProgress } from '../business/quizEngine'
+import { createWordProgress } from '../business/quizEngine'
 import SparklineChart from './SparklineChart.vue'
 
 const emit = defineEmits(['resume-quiz', 'show-detail'])
@@ -146,7 +146,7 @@ async function loadFolder(folder, files) {
     const wordKey = combined[i].word.join(',')
     const fd = fileData[src]
     const existing = fd?.wordKeyMap.get(wordKey)
-    progress.set(i, existing ? { ...existing, wordId: i } : createEmptyProgress(i))
+    progress.set(i, existing ? { ...existing, wordId: i } : createWordProgress(combined[i]))
   }
 
   return { words: combined, progress, fileKey: folder, wordSources }

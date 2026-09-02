@@ -1,5 +1,5 @@
-import type { ProcessedWord, WordProgress } from '../types'
-import { getWordProgress, createEmptyProgress } from './quizEngine'
+import type { ProcessedWord, WordModeProgress } from '../types'
+import { aggregateWordProgress, createWordProgress } from './quizEngine'
 import { hashString } from '../utils/hash'
 import { sparklinePoints } from '../utils/sparkline'
 
@@ -51,31 +51,32 @@ export function resolveFileHash(folder: string, fileName: string, rawJson: strin
 }
 
 /** Read saved progress for a single file by hash */
-export function loadFileProgress(hash: string): { words: ProcessedWord[]; progress: [number, WordProgress][] } | null {
+export function loadFileProgress(hash: string): { words: ProcessedWord[]; progress: [number, WordModeProgress][] } | null {
   const saved = localStorage.getItem(getProgressKey(hash))
   if (!saved) return null
   try {
     const data = JSON.parse(saved)
-    if (data.words && data.progress) return data
+    // v2 起进度按题型分开存；旧结构直接视为无进度（重置）
+    if (data.version === 2 && data.words && data.progress) return data
   } catch { /* ignore */ }
   return null
 }
 
 /** Save progress for a single file session */
-export function saveFileProgress(hash: string, words: ProcessedWord[], progressMap: Map<number, WordProgress>): void {
+export function saveFileProgress(hash: string, words: ProcessedWord[], progressMap: Map<number, WordModeProgress>): void {
   localStorage.setItem(
     getProgressKey(hash),
-    JSON.stringify({ words, progress: [...progressMap.entries()] })
+    JSON.stringify({ version: 2, words, progress: [...progressMap.entries()] })
   )
 }
 
 /** Save folder session progress back to individual files */
 export function saveFolderProgress(
   words: ProcessedWord[],
-  progressMap: Map<number, WordProgress>,
+  progressMap: Map<number, WordModeProgress>,
   wordSources: string[]
 ): void {
-  const fileUpdates: Record<string, { wordKey: string; progress: WordProgress }[]> = {}
+  const fileUpdates: Record<string, { wordKey: string; progress: WordModeProgress }[]> = {}
 
   for (let i = 0; i < words.length; i++) {
     const src = wordSources[i]
@@ -90,7 +91,7 @@ export function saveFolderProgress(
     const saved = localStorage.getItem(getProgressKey(src))
     if (!saved) continue
     const fileData = JSON.parse(saved)
-    const pm = new Map(fileData.progress as [number, WordProgress][])
+    const pm = new Map(fileData.progress as [number, WordModeProgress][])
 
     // Build wordKey → id map for O(1) lookup
     const keyToId = new Map<string, number>()
@@ -111,13 +112,14 @@ export function saveFolderProgress(
 }
 
 /** Ensure a file has an initial localStorage entry, return existing or new data */
-export function ensureFileEntry(hash: string, processed: ProcessedWord[]): { words: ProcessedWord[]; progress: [number, WordProgress][] } {
+export function ensureFileEntry(hash: string, processed: ProcessedWord[]): { words: ProcessedWord[]; progress: [number, WordModeProgress][] } {
   const saved = loadFileProgress(hash)
   if (saved) return saved
 
   const initial = {
+    version: 2 as const,
     words: processed,
-    progress: processed.map((_: ProcessedWord, i: number) => [i, createEmptyProgress(i)] as [number, WordProgress])
+    progress: processed.map((w: ProcessedWord, i: number) => [i, createWordProgress(w)] as [number, WordModeProgress])
   }
   localStorage.setItem(getProgressKey(hash), JSON.stringify(initial))
   return initial
@@ -136,10 +138,12 @@ export function calcFileSparkline(folder: string, fileName: string): string {
   const data = getFileData(folder, fileName)
   if (!data) return ''
 
-  // Flatten all words' histories into one sequence
+  // Flatten all words' per-mode histories into one sequence
   const allHistory: boolean[] = []
-  for (const [, p] of data.progress) {
-    allHistory.push(...p.history)
+  for (const [, entry] of data.progress) {
+    for (const p of Object.values(entry.modes)) {
+      if (p) allHistory.push(...p.history)
+    }
   }
 
   return sparklinePoints(allHistory)
@@ -149,10 +153,9 @@ export function calcFileSparkline(folder: string, fileName: string): string {
 export function calcFilePercent(folder: string, fileName: string): number {
   const data = getFileData(folder, fileName)
   if (!data) return 0
-  const map = new Map(data.progress)
   let totalProgress = 0
-  for (const p of map.values()) {
-    totalProgress += getWordProgress(p)
+  for (const [, entry] of data.progress) {
+    totalProgress += aggregateWordProgress(entry).progress
   }
   return data.words.length ? Math.round((totalProgress / data.words.length) * 100) : 0
 }
