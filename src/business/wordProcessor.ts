@@ -1,4 +1,4 @@
-import type { RawWord, ProcessedWord, RootInfo } from '../types'
+import type { RawWord, ProcessedWord, RootInfo, SenseEntry } from '../types'
 
 /**
  * Validate raw input. Returns null if valid, or an error message string.
@@ -34,11 +34,26 @@ function validateRawInput(data: unknown): string | null {
         }
       }
     }
-    if (!Array.isArray(item.chinese_translations)) {
-      return `第 ${i + 1} 项缺少 chinese_translations 字段`
+    if (!Array.isArray(item.chinese_translations) || item.chinese_translations.length === 0) {
+      return `第 ${i + 1} 项缺少 chinese_translations 字段（必须是非空数组）`
     }
-    if (typeof item.example_sentences !== 'string') {
-      return `第 ${i + 1} 项缺少 example_sentences 字段`
+    if (item.example_sentences !== undefined) {
+      return `第 ${i + 1} 项存在已废弃字段 example_sentences：例句请写在每条释义的 example 中`
+    }
+    for (let j = 0; j < item.chinese_translations.length; j++) {
+      const sense = item.chinese_translations[j]
+      if (!sense || typeof sense !== 'object') {
+        return `第 ${i + 1} 项第 ${j + 1} 条释义格式不正确`
+      }
+      if (typeof sense.pos !== 'string' || !sense.pos.trim()) {
+        return `第 ${i + 1} 项第 ${j + 1} 条释义缺少 pos 字段`
+      }
+      if (typeof sense.meaning !== 'string' || !sense.meaning.trim()) {
+        return `第 ${i + 1} 项第 ${j + 1} 条释义缺少 meaning 字段`
+      }
+      if (typeof sense.example !== 'string' || !sense.example.trim()) {
+        return `第 ${i + 1} 项第 ${j + 1} 条释义缺少 example 字段`
+      }
     }
     if (item.phonetic !== undefined && typeof item.phonetic !== 'string') {
       return `第 ${i + 1} 项的 phonetic 字段格式不正确`
@@ -53,8 +68,7 @@ function validateRawInput(data: unknown): string | null {
  *
  * Merge strategy:
  *  - english_synonyms: union (deduplicated)
- *  - chinese_translations: union (deduplicated)
- *  - example_sentences: concatenate with " | "
+ *  - chinese_translations: union (deduplicated by pos + meaning, keep first example)
  */
 function mergeWords(raw: RawWord[]): ProcessedWord[] {
   const groups = new Map<string, RawWord[]>()
@@ -74,10 +88,9 @@ function mergeWords(raw: RawWord[]): ProcessedWord[] {
     const wordVariants = new Set<string>()
     const synonyms = new Set<string>()
     const engExplanations = new Set<string>()
-    const explanations = new Set<string>()
-    const sentences: string[] = []
     const rootsMap = new Map<string, RootInfo>()
     let phonetic = ''
+    const senses = new Map<string, SenseEntry>()
 
     for (const item of items) {
       if (!phonetic && typeof item.phonetic === 'string' && item.phonetic.trim()) {
@@ -97,12 +110,12 @@ function mergeWords(raw: RawWord[]): ProcessedWord[] {
           if (trimmed) engExplanations.add(trimmed)
         }
       }
-      for (const e of item.chinese_translations) {
-        const trimmed = e.trim()
-        if (trimmed) explanations.add(trimmed)
+      for (const sense of item.chinese_translations) {
+        const key = sense.pos.trim() + '\u0000' + sense.meaning.trim()
+        if (!senses.has(key)) {
+          senses.set(key, sense)
+        }
       }
-      const trimmed = item.example_sentences.trim()
-      if (trimmed) sentences.push(trimmed)
       if (Array.isArray(item.roots)) {
         for (const r of item.roots) {
           const key = r.root.trim().toLowerCase()
@@ -117,8 +130,7 @@ function mergeWords(raw: RawWord[]): ProcessedWord[] {
       phonetic,
       english_synonyms: [...synonyms],
       english_explanations: [...engExplanations],
-      chinese_translations: [...explanations],
-      example_sentences: sentences.join(' | '),
+      chinese_translations: [...senses.values()],
       roots: [...rootsMap.values()],
     })
   }

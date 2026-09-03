@@ -4,14 +4,20 @@ export interface RootInfo {
   meaning: string
 }
 
+/** 释义条目：词性 + 释义 + 该条专属例句 */
+export interface SenseEntry {
+  pos: string
+  meaning: string
+  example: string
+}
+
 /** Raw word from user JSON input */
 export interface RawWord {
   word: string[]
   phonetic?: string
   english_synonyms: string[]
   english_explanations: string[]
-  chinese_translations: string[]
-  example_sentences: string
+  chinese_translations: SenseEntry[]
   roots?: RootInfo[]
 }
 
@@ -22,8 +28,7 @@ export interface ProcessedWord {
   phonetic: string
   english_synonyms: string[]
   english_explanations: string[]
-  chinese_translations: string[]
-  example_sentences: string
+  chinese_translations: SenseEntry[]
   roots: RootInfo[]
 }
 
@@ -70,7 +75,7 @@ export interface AnswerResult {
 /** Row in the end-of-quiz summary */
 export interface SummaryRow {
   word: string[]
-  chinese_translations: string[]
+  chinese_translations: SenseEntry[]
   english_explanations: string[]
   appearances: number
   accuracy: number

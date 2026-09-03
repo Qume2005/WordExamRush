@@ -9,6 +9,8 @@ import {
   selectNextWord,
   isQuizComplete,
 } from '../src/business/quizEngine'
+import { generateCard } from '../src/business/cardGenerator'
+import { parseAndProcess } from '../src/business/wordProcessor'
 import type { ProcessedWord, CardMode, QuizCard } from '../src/types'
 
 function check(cond: unknown, msg: string): void {
@@ -28,8 +30,7 @@ function fakeWord(id: number, word: string): ProcessedWord {
     phonetic: '',
     english_synonyms: ['syn-' + word],
     english_explanations: ['expl of ' + word],
-    chinese_translations: ['中文' + word],
-    example_sentences: '',
+    chinese_translations: [{ pos: 'n.', meaning: '中文' + word, example: 'Example of ' + word + '.' }],
     roots: [],
   }
 }
@@ -84,5 +85,78 @@ for (const p of Object.values(map.get(0)!.modes)) { p!.appearances = 3; p!.corre
 for (const p of Object.values(map.get(1)!.modes)) { p!.appearances = 3; p!.correctCount = 3 }
 check(isQuizComplete(map), 'all complete')
 eq(selectNextWord(map, words), null, 'selection exhausted')
+
+// generateCard zh-to-en prompt 以词性开头
+const zhCard = generateCard(words[0], words, 'zh-to-en')
+check(/^(?:n|v|adj|adv|prep|conj|pron|det|excl)\. /.test(zhCard.prompt), 'zh-to-en prompt starts with pos.')
+
+// generateCard en-to-zh options：无重复标签，含 correctAnswer，干扰项 ≠ correctAnswer
+const enCard = generateCard(words[0], words, 'en-to-zh')
+const labels = enCard.options.map(o => o.label)
+eq(new Set(labels).size, labels.length, 'en-to-zh options have no duplicate labels')
+check(labels.includes(enCard.correctAnswer), 'en-to-zh options include correctAnswer')
+for (const o of enCard.options) {
+  check(o.isCorrect || o.label !== enCard.correctAnswer, 'en-to-zh distractor !== correctAnswer')
+}
+
+// parseAndProcess 接受新 schema，拒绝旧 flat 数组和废弃字段 example_sentences
+const newSchemaSample = [
+  {
+    word: ['test'],
+    english_synonyms: ['exam'],
+    english_explanations: ['a trial'],
+    chinese_translations: [{ pos: 'n.', meaning: '测试', example: 'Example of test.' }],
+  }
+]
+const [newOk, newErr] = parseAndProcess(newSchemaSample)
+check(newErr === null, 'parseAndProcess accepts new-schema sample')
+eq(newOk[0].chinese_translations[0].pos, 'n.', 'new-schema pos preserved')
+
+const flatSample = [
+  {
+    word: ['test'],
+    english_synonyms: ['exam'],
+    english_explanations: ['a trial'],
+    chinese_translations: ['放弃'],
+  }
+]
+const [, flatErr] = parseAndProcess(flatSample)
+check(flatErr !== null, 'parseAndProcess rejects flat-array sample')
+
+const deprecatedSample = [
+  {
+    word: ['test'],
+    english_synonyms: ['exam'],
+    english_explanations: ['a trial'],
+    chinese_translations: [{ pos: 'n.', meaning: '测试', example: 'Example of test.' }],
+    example_sentences: 'This is a test.',
+  }
+]
+const [, depErr] = parseAndProcess(deprecatedSample)
+check(depErr !== null && depErr.includes('example_sentences'), 'parseAndProcess rejects example_sentences')
+
+// parseAndProcess 相同 headword + 相同 (pos+meaning) 但不同 example → 合并为 1 条，保留首个 example
+const mergeSample = [
+  {
+    word: ['test'],
+    english_synonyms: ['exam'],
+    english_explanations: ['a trial'],
+    chinese_translations: [
+      { pos: 'n.', meaning: '测试', example: 'First example.' },
+    ],
+  },
+  {
+    word: ['test'],
+    english_synonyms: ['exam2'],
+    english_explanations: ['a trial2'],
+    chinese_translations: [
+      { pos: 'n.', meaning: '测试', example: 'Second example.' },
+    ],
+  },
+]
+const [mergeResult, mergeErr] = parseAndProcess(mergeSample)
+check(mergeErr === null, 'parseAndProcess merges duplicate senses')
+eq(mergeResult[0].chinese_translations.length, 1, 'merged to 1 sense')
+eq(mergeResult[0].chinese_translations[0].example, 'First example.', 'first example kept')
 
 console.log('quiz-engine-check: all assertions passed')

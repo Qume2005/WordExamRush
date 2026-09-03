@@ -56,8 +56,8 @@ export function loadFileProgress(hash: string): { words: ProcessedWord[]; progre
   if (!saved) return null
   try {
     const data = JSON.parse(saved)
-    // v2 起进度按题型分开存；旧结构直接视为无进度（重置）
-    if (data.version === 2 && data.words && data.progress) return data
+    // v3 起释义为 SenseEntry 条目；旧版本快照直接视为无进度（重置）
+    if (data.version === 3 && data.words && data.progress) return data
   } catch { /* ignore */ }
   return null
 }
@@ -66,7 +66,7 @@ export function loadFileProgress(hash: string): { words: ProcessedWord[]; progre
 export function saveFileProgress(hash: string, words: ProcessedWord[], progressMap: Map<number, WordModeProgress>): void {
   localStorage.setItem(
     getProgressKey(hash),
-    JSON.stringify({ version: 2, words, progress: [...progressMap.entries()] })
+    JSON.stringify({ version: 3, words, progress: [...progressMap.entries()] })
   )
 }
 
@@ -117,7 +117,7 @@ export function ensureFileEntry(hash: string, processed: ProcessedWord[]): { wor
   if (saved) return saved
 
   const initial = {
-    version: 2 as const,
+    version: 3 as const,
     words: processed,
     progress: processed.map((w: ProcessedWord, i: number) => [i, createWordProgress(w)] as [number, WordModeProgress])
   }

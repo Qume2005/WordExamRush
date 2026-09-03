@@ -10,7 +10,6 @@ const props = defineProps({
 
 const emit = defineEmits(['next'])
 
-const shuffledExplanations = computed(() => shuffle(props.targetWord.chinese_translations))
 const shuffledSynonyms = computed(() => shuffle(props.targetWord.english_synonyms))
 const shuffledEnglishExplanations = computed(() =>
   shuffle(props.targetWord.english_explanations || [])
@@ -67,9 +66,15 @@ const roots = computed(() => props.targetWord.roots || [])
           </template>
         </div>
       </div>
-      <div class="detail-section">
+      <div class="detail-section detail-senses">
         <span class="detail-label">中文释义：</span>
-        <span class="detail-value">{{ shuffledExplanations.join('、') }}</span>
+        <div class="sense-list">
+          <div v-for="(sense, i) in targetWord.chinese_translations" :key="i" class="sense-entry">
+            <span class="sense-pos">{{ sense.pos }}</span>
+            <span class="sense-meaning">{{ sense.meaning }}</span>
+            <div class="sense-example">{{ sense.example }}</div>
+          </div>
+        </div>
       </div>
       <div v-if="shuffledEnglishExplanations.length > 0" class="detail-section">
         <span class="detail-label">英文释义：</span>
@@ -78,10 +83,6 @@ const roots = computed(() => props.targetWord.roots || [])
       <div v-if="shuffledSynonyms.length > 0" class="detail-section">
         <span class="detail-label">近义词：</span>
         <span class="detail-value">{{ shuffledSynonyms.join(', ') }}</span>
-      </div>
-      <div class="detail-section">
-        <span class="detail-label">例句：</span>
-        <span class="detail-value detail-sentence">{{ targetWord.example_sentences }}</span>
       </div>
     </div>
     <button
@@ -188,6 +189,38 @@ const roots = computed(() => props.targetWord.roots || [])
 }
 
 .detail-sentence {
+  font-style: italic;
+}
+
+/* 逐条释义：词性小标签 + 释义 + 该条例句 */
+.sense-list {
+  margin-top: 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.sense-entry {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 6px;
+}
+
+.sense-pos {
+  color: var(--color-text-secondary);
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.sense-meaning {
+  color: var(--color-text);
+}
+
+.sense-example {
+  width: 100%;
+  padding-left: 8px;
+  color: var(--color-text-secondary);
   font-style: italic;
 }
 

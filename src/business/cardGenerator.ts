@@ -1,5 +1,6 @@
-import type { ProcessedWord, CardMode, QuizCard, CardOption } from '../types'
+import type { ProcessedWord, CardMode, QuizCard, CardOption, SenseEntry } from '../types'
 import { shuffle, pickRandom } from '../utils/shuffle'
+import { formatSense } from '../utils/sense'
 
 /**
  * Pick distractor words whose given field doesn't overlap with the target's.
@@ -11,9 +12,9 @@ function pickWordDistractors(
   field: 'chinese_translations' | 'english_explanations',
   count: number
 ): CardOption[] {
-  const targetSet = new Set(target[field])
+  const targetSet = new Set(target[field].map(e => typeof e === 'string' ? e : formatSense(e)))
   const nonOverlapping = words.filter(
-    w => w.id !== target.id && !w[field].some(e => targetSet.has(e))
+    w => w.id !== target.id && !w[field].some(e => targetSet.has(typeof e === 'string' ? e : formatSense(e)))
   )
   const pool = nonOverlapping.length >= count ? nonOverlapping : words.filter(w => w.id !== target.id)
   return pickRandom(pool, Math.min(count, pool.length))
@@ -32,7 +33,8 @@ function pickFieldDistractors(
 ): CardOption[] {
   const allOther = words
     .filter(w => w.id !== target.id)
-    .flatMap(w => w[field])
+    .flatMap(w => w[field] as readonly (SenseEntry | string)[])
+    .map((e: SenseEntry | string): string => typeof e === 'string' ? e : formatSense(e))
     .filter(v => v !== correctValue)
 
   const uniqueOthers = [...new Set(allOther)]
@@ -65,7 +67,7 @@ export function generateCard(
  * Distractors are words whose Chinese explanations don't overlap with the target's.
  */
 function generateZhToEn(target: ProcessedWord, words: ProcessedWord[]): QuizCard {
-  const prompt = pickRandom(target.chinese_translations, 1)[0]
+  const prompt = formatSense(pickRandom(target.chinese_translations, 1)[0])
   const pickedWord = pickRandom(target.word, 1)[0]
   const correctOption: CardOption = { label: pickedWord, isCorrect: true }
 
@@ -82,7 +84,7 @@ function generateZhToEn(target: ProcessedWord, words: ProcessedWord[]): QuizCard
  */
 function generateEnToZh(target: ProcessedWord, words: ProcessedWord[]): QuizCard {
   const prompt = pickRandom(target.word, 1)[0]
-  const correctAnswer = pickRandom(target.chinese_translations, 1)[0]
+  const correctAnswer = formatSense(pickRandom(target.chinese_translations, 1)[0])
   const correctOption: CardOption = { label: correctAnswer, isCorrect: true }
   const distractors = pickFieldDistractors(target, words, 'chinese_translations', correctAnswer, 3)
   const options = shuffle([correctOption, ...distractors])
