@@ -4,10 +4,11 @@ export interface RootInfo {
   meaning: string
 }
 
-/** 释义条目：词性 + 释义 + 该条专属例句 */
+/** 释义条目：词性 + 释义 + 该条英英释义 + 该条专属例句 */
 export interface SenseEntry {
   pos: string
   meaning: string
+  english: string
   example: string
 }
 

@@ -30,7 +30,7 @@ function fakeWord(id: number, word: string): ProcessedWord {
     phonetic: '',
     english_synonyms: ['syn-' + word],
     english_explanations: ['expl of ' + word],
-    chinese_translations: [{ pos: 'n.', meaning: '中文' + word, example: 'Example of ' + word + '.' }],
+    chinese_translations: [{ pos: 'n.', meaning: '中文' + word, english: 'English definition of ' + word + '.', example: 'Example of ' + word + '.' }],
     roots: [],
   }
 }
@@ -105,7 +105,7 @@ const newSchemaSample = [
     word: ['test'],
     english_synonyms: ['exam'],
     english_explanations: ['a trial'],
-    chinese_translations: [{ pos: 'n.', meaning: '测试', example: 'Example of test.' }],
+    chinese_translations: [{ pos: 'n.', meaning: '测试', english: 'a test', example: 'Example of test.' }],
   }
 ]
 const [newOk, newErr] = parseAndProcess(newSchemaSample)
@@ -135,6 +135,31 @@ const deprecatedSample = [
 const [, depErr] = parseAndProcess(deprecatedSample)
 check(depErr !== null && depErr.includes('example_sentences'), 'parseAndProcess rejects example_sentences')
 
+// parseAndProcess 拒绝缺少 english 字段的释义
+const missingEnglishSample = [
+  {
+    word: ['test'],
+    english_synonyms: ['exam'],
+    english_explanations: ['a trial'],
+    chinese_translations: [{ pos: 'n.', meaning: '测试', example: 'Example of test.' }],
+  }
+]
+const [, missingEnglishErr] = parseAndProcess(missingEnglishSample)
+check(missingEnglishErr !== null && missingEnglishErr.includes('缺少 english 字段'), 'parseAndProcess rejects missing english')
+
+// parseAndProcess 接受包含 english 的完整 4 字段释义
+const fullSenseSample = [
+  {
+    word: ['test'],
+    english_synonyms: ['exam'],
+    english_explanations: ['a trial'],
+    chinese_translations: [{ pos: 'n.', meaning: '测试', english: 'a test', example: 'Example of test.' }],
+  }
+]
+const [fullOk, fullErr] = parseAndProcess(fullSenseSample)
+check(fullErr === null, 'parseAndProcess accepts full 4-field sense')
+eq(fullOk[0].chinese_translations[0].english, 'a test', 'english field preserved')
+
 // parseAndProcess 相同 headword + 相同 (pos+meaning) 但不同 example → 合并为 1 条，保留首个 example
 const mergeSample = [
   {
@@ -142,7 +167,7 @@ const mergeSample = [
     english_synonyms: ['exam'],
     english_explanations: ['a trial'],
     chinese_translations: [
-      { pos: 'n.', meaning: '测试', example: 'First example.' },
+      { pos: 'n.', meaning: '测试', english: 'a test', example: 'First example.' },
     ],
   },
   {
@@ -150,7 +175,7 @@ const mergeSample = [
     english_synonyms: ['exam2'],
     english_explanations: ['a trial2'],
     chinese_translations: [
-      { pos: 'n.', meaning: '测试', example: 'Second example.' },
+      { pos: 'n.', meaning: '测试', english: 'a test', example: 'Second example.' },
     ],
   },
 ]

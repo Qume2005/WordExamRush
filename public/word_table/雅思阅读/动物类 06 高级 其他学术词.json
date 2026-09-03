@@ -1,849 +1,276 @@
 [
   {
-    "word": [
-      "conundrum"
-    ],
+    "word": ["conundrum"],
     "phonetic": "/kəˈnʌndrəm/",
-    "english_synonyms": [
-      "puzzle",
-      "riddle",
-      "enigma"
-    ],
+    "english_synonyms": ["puzzle", "riddle", "enigma"],
     "english_explanations": [
       "A confusing and difficult problem or question."
     ],
-    "chinese_translations": [
-      {
-        "pos": "n.",
-        "meaning": "难题",
-        "example": "How birds navigate remains a conundrum."
-      },
-      {
-        "pos": "n.",
-        "meaning": "谜题",
-        "example": "How birds navigate remains a conundrum."
-      }
-    ]
+    "chinese_translations": ["难题", "谜题"],
+    "example_sentences": "How birds navigate remains a conundrum."
   },
   {
-    "word": [
-      "impinge"
-    ],
+    "word": ["impinge"],
     "phonetic": "/ɪmˈpɪndʒ/",
-    "english_synonyms": [
-      "affect",
-      "encroach",
-      "intrude"
-    ],
+    "english_synonyms": ["affect", "encroach", "intrude"],
     "english_explanations": [
       "To have a noticeable effect on something, often negatively (impinge on)."
     ],
-    "chinese_translations": [
-      {
-        "pos": "v.",
-        "meaning": "冲击",
-        "example": "New roads impinge on the otters' territory."
-      },
-      {
-        "pos": "v.",
-        "meaning": "影响",
-        "example": "He never allowed his work to impinge on his private life."
-      }
-    ],
-    "roots": [
-      {
-        "root": "im-",
-        "meaning": "upon"
-      },
-      {
-        "root": "pinge",
-        "meaning": "strike"
-      }
-    ]
+    "chinese_translations": ["冲击", "影响"],
+    "example_sentences": "New roads impinge on the otters' territory.",
+    "roots": [{"root":"im-","meaning":"upon"},{"root":"pinge","meaning":"strike"}]
   },
   {
-    "word": [
-      "envelop"
-    ],
+    "word": ["envelop"],
     "phonetic": "/ɪnˈveləp/",
-    "english_synonyms": [
-      "wrap",
-      "surround",
-      "enclose"
-    ],
+    "english_synonyms": ["wrap", "surround", "enclose"],
     "english_explanations": [
       "To wrap up or surround completely."
     ],
-    "chinese_translations": [
-      {
-        "pos": "v.",
-        "meaning": "包裹",
-        "example": "Mist enveloped the canopy at dawn."
-      },
-      {
-        "pos": "v.",
-        "meaning": "笼罩",
-        "example": "Mist enveloped the canopy at dawn."
-      }
-    ]
+    "chinese_translations": ["包裹", "笼罩"],
+    "example_sentences": "Mist enveloped the canopy at dawn."
   },
   {
-    "word": [
-      "scrupulously"
-    ],
+    "word": ["scrupulously"],
     "phonetic": "/ˈskruːpjələs/",
-    "english_synonyms": [
-      "meticulously",
-      "conscientiously"
-    ],
+    "english_synonyms": ["meticulously", "conscientiously"],
     "english_explanations": [
       "In a very careful, thorough way that misses no detail."
     ],
-    "chinese_translations": [
-      {
-        "pos": "adv.",
-        "meaning": "一丝不苟地",
-        "example": "The ants scrupulously weed their fungus gardens."
-      },
-      {
-        "pos": "adv.",
-        "meaning": "严谨地",
-        "example": "The ants scrupulously weed their fungus gardens."
-      }
-    ],
-    "roots": [
-      {
-        "root": "scrupul",
-        "meaning": "anxiety over small things"
-      },
-      {
-        "root": "-ous",
-        "meaning": "full of"
-      },
-      {
-        "root": "-ly",
-        "meaning": "in a manner"
-      }
-    ]
+    "chinese_translations": ["一丝不苟地", "严谨地"],
+    "example_sentences": "The ants scrupulously weed their fungus gardens.",
+    "roots": [{"root":"scrupul","meaning":"anxiety over small things"},{"root":"-ous","meaning":"full of"},{"root":"-ly","meaning":"in a manner"}]
   },
   {
-    "word": [
-      "intricately"
-    ],
+    "word": ["intricately"],
     "phonetic": "/ˈɪntrɪkət/",
-    "english_synonyms": [
-      "elaborately",
-      "in a complex manner"
-    ],
+    "english_synonyms": ["elaborately", "in a complex manner"],
     "english_explanations": [
       "In a way involving many small, complicated interrelated parts."
     ],
-    "chinese_translations": [
-      {
-        "pos": "adv.",
-        "meaning": "复杂精细地",
-        "example": "The nest is intricately woven from grass fibres."
-      },
-      {
-        "pos": "adv.",
-        "meaning": "错综复杂地",
-        "example": "The nest is intricately woven from grass fibres."
-      }
-    ],
-    "roots": [
-      {
-        "root": "intric",
-        "meaning": "entangled"
-      },
-      {
-        "root": "-ate",
-        "meaning": "relating to"
-      },
-      {
-        "root": "-ly",
-        "meaning": "in a manner"
-      }
-    ]
+    "chinese_translations": ["复杂精细地", "错综复杂地"],
+    "example_sentences": "The nest is intricately woven from grass fibres.",
+    "roots": [{"root":"intric","meaning":"entangled"},{"root":"-ate","meaning":"relating to"},{"root":"-ly","meaning":"in a manner"}]
   },
   {
-    "word": [
-      "perceptible"
-    ],
+    "word": ["perceptible"],
     "phonetic": "/pəˈseptəbl/",
-    "english_synonyms": [
-      "noticeable",
-      "detectable",
-      "discernible"
-    ],
+    "english_synonyms": ["noticeable", "detectable", "discernible"],
     "english_explanations": [
       "Able to be noticed or sensed, however slightly."
     ],
-    "chinese_translations": [
-      {
-        "pos": "n.",
-        "meaning": "可察觉的",
-        "example": "The change in the fish's speed was barely perceptible."
-      },
-      {
-        "pos": "adj.",
-        "meaning": "可感知的",
-        "example": "the perceptible world"
-      }
-    ],
-    "roots": [
-      {
-        "root": "per-",
-        "meaning": "through"
-      },
-      {
-        "root": "cept",
-        "meaning": "take"
-      },
-      {
-        "root": "-ible",
-        "meaning": "able to be"
-      }
-    ]
+    "chinese_translations": ["可察觉的", "可感知的"],
+    "example_sentences": "The change in the fish's speed was barely perceptible.",
+    "roots": [{"root":"per-","meaning":"through"},{"root":"cept","meaning":"take"},{"root":"-ible","meaning":"able to be"}]
   },
   {
-    "word": [
-      "desolate"
-    ],
+    "word": ["desolate"],
     "phonetic": "/ˈdesələt/",
-    "english_synonyms": [
-      "barren",
-      "bleak",
-      "deserted"
-    ],
+    "english_synonyms": ["barren", "bleak", "deserted"],
     "english_explanations": [
       "Empty, bare, and sad; lacking life or comfort."
     ],
-    "chinese_translations": [
-      {
-        "pos": "adj.",
-        "meaning": "荒凉的",
-        "example": "a bleak and desolate landscape"
-      },
-      {
-        "pos": "n.",
-        "meaning": "荒芜的",
-        "example": "The young island seemed desolate until the finches arrived."
-      }
-    ],
-    "roots": [
-      {
-        "root": "de-",
-        "meaning": "completely"
-      },
-      {
-        "root": "sol",
-        "meaning": "alone"
-      },
-      {
-        "root": "-ate",
-        "meaning": "to make"
-      }
-    ]
+    "chinese_translations": ["荒凉的", "荒芜的"],
+    "example_sentences": "The young island seemed desolate until the finches arrived.",
+    "roots": [{"root":"de-","meaning":"completely"},{"root":"sol","meaning":"alone"},{"root":"-ate","meaning":"to make"}]
   },
   {
-    "word": [
-      "ferocious"
-    ],
+    "word": ["ferocious"],
     "phonetic": "/fəˈrəʊʃəs/",
-    "english_synonyms": [
-      "fierce",
-      "savage",
-      "vicious"
-    ],
+    "english_synonyms": ["fierce", "savage", "vicious"],
     "english_explanations": [
       "Aggressive and violent; very intense."
     ],
-    "chinese_translations": [
-      {
-        "pos": "adj.",
-        "meaning": "凶猛的",
-        "example": "a ferocious beast/attack/storm"
-      },
-      {
-        "pos": "n.",
-        "meaning": "残忍的",
-        "example": "The thylacine had a ferocious reputation it hardly deserved."
-      }
-    ],
-    "roots": [
-      {
-        "root": "feroc",
-        "meaning": "fierce"
-      },
-      {
-        "root": "-ious",
-        "meaning": "full of"
-      }
-    ]
+    "chinese_translations": ["凶猛的", "残忍的"],
+    "example_sentences": "The thylacine had a ferocious reputation it hardly deserved.",
+    "roots": [{"root":"feroc","meaning":"fierce"},{"root":"-ious","meaning":"full of"}]
   },
   {
-    "word": [
-      "sluggish"
-    ],
+    "word": ["sluggish"],
     "phonetic": "/ˈslʌɡɪʃ/",
-    "english_synonyms": [
-      "lethargic",
-      "slow-moving"
-    ],
+    "english_synonyms": ["lethargic", "slow-moving"],
     "english_explanations": [
       "Slow to move or react; lacking energy."
     ],
-    "chinese_translations": [
-      {
-        "pos": "adj.",
-        "meaning": "迟缓的",
-        "example": "sluggish traffic"
-      },
-      {
-        "pos": "adj.",
-        "meaning": "缓慢的",
-        "example": "sluggish traffic"
-      }
-    ]
+    "chinese_translations": ["迟缓的", "缓慢的"],
+    "example_sentences": "In cold water the fish becomes sluggish."
   },
   {
-    "word": [
-      "adept"
-    ],
+    "word": ["adept"],
     "phonetic": "/əˈdept/",
-    "english_synonyms": [
-      "skilled",
-      "proficient",
-      "expert"
-    ],
+    "english_synonyms": ["skilled", "proficient", "expert"],
     "english_explanations": [
       "Very good at something through practice (adept at)."
     ],
-    "chinese_translations": [
-      {
-        "pos": "adj.",
-        "meaning": "熟练的",
-        "example": "Migrating birds are adept at riding tail winds."
-      },
-      {
-        "pos": "adj.",
-        "meaning": "擅长的",
-        "example": "Migrating birds are adept at riding tail winds."
-      }
-    ],
-    "roots": [
-      {
-        "root": "ad-",
-        "meaning": "to"
-      },
-      {
-        "root": "ept",
-        "meaning": "skilled"
-      }
-    ]
+    "chinese_translations": ["熟练的", "擅长的"],
+    "example_sentences": "Migrating birds are adept at riding tail winds.",
+    "roots": [{"root":"ad-","meaning":"to"},{"root":"ept","meaning":"skilled"}]
   },
   {
-    "word": [
-      "conducive"
-    ],
+    "word": ["conducive"],
     "phonetic": "/kənˈdjuːsɪv/",
-    "english_synonyms": [
-      "favourable",
-      "helpful"
-    ],
+    "english_synonyms": ["favourable", "helpful"],
     "english_explanations": [
       "Making a particular outcome likely (conducive to)."
     ],
-    "chinese_translations": [
-      {
-        "pos": "n.",
-        "meaning": "有助于…的",
-        "example": "Warm updraughts are conducive to soaring flight."
-      },
-      {
-        "pos": "n.",
-        "meaning": "有利的",
-        "example": "Warm updraughts are conducive to soaring flight."
-      }
-    ],
-    "roots": [
-      {
-        "root": "con-",
-        "meaning": "together"
-      },
-      {
-        "root": "duc",
-        "meaning": "lead"
-      },
-      {
-        "root": "-ive",
-        "meaning": "tending to"
-      }
-    ]
+    "chinese_translations": ["有助于…的", "有利的"],
+    "example_sentences": "Warm updraughts are conducive to soaring flight.",
+    "roots": [{"root":"con-","meaning":"together"},{"root":"duc","meaning":"lead"},{"root":"-ive","meaning":"tending to"}]
   },
   {
-    "word": [
-      "deterrent"
-    ],
+    "word": ["deterrent"],
     "phonetic": "/dɪˈterənt/",
-    "english_synonyms": [
-      "discouragement",
-      "disincentive"
-    ],
+    "english_synonyms": ["discouragement", "disincentive"],
     "english_explanations": [
       "Something that discourages an action or behaviour."
     ],
-    "chinese_translations": [
-      {
-        "pos": "n.",
-        "meaning": "威慑物",
-        "example": "Bright colouration acts as a deterrent to predators."
-      },
-      {
-        "pos": "n.",
-        "meaning": "遏制物",
-        "example": "Bright colouration acts as a deterrent to predators."
-      }
-    ],
-    "roots": [
-      {
-        "root": "de-",
-        "meaning": "away"
-      },
-      {
-        "root": "terr",
-        "meaning": "frighten"
-      },
-      {
-        "root": "-ent",
-        "meaning": "thing that"
-      }
-    ]
+    "chinese_translations": ["威慑物", "遏制物"],
+    "example_sentences": "Bright colouration acts as a deterrent to predators.",
+    "roots": [{"root":"de-","meaning":"away"},{"root":"terr","meaning":"frighten"},{"root":"-ent","meaning":"thing that"}]
   },
   {
-    "word": [
-      "innate"
-    ],
+    "word": ["innate"],
     "phonetic": "/ɪˈneɪt/",
-    "english_synonyms": [
-      "instinctive",
-      "built-in"
-    ],
+    "english_synonyms": ["instinctive", "built-in"],
     "english_explanations": [
       "Present from birth rather than learned."
     ],
-    "chinese_translations": [
-      {
-        "pos": "adj.",
-        "meaning": "天生的",
-        "example": "the innate ability to learn"
-      },
-      {
-        "pos": "adj.",
-        "meaning": "先天的",
-        "example": "the innate ability to learn"
-      }
-    ],
-    "roots": [
-      {
-        "root": "in-",
-        "meaning": "in"
-      },
-      {
-        "root": "nate",
-        "meaning": "born"
-      }
-    ]
+    "chinese_translations": ["天生的", "先天的"],
+    "example_sentences": "The turtles' urge to head seaward is innate.",
+    "roots": [{"root":"in-","meaning":"in"},{"root":"nate","meaning":"born"}]
   },
   {
-    "word": [
-      "inborn"
-    ],
+    "word": ["inborn"],
     "phonetic": "/ˌɪnˈbɔːn/",
-    "english_synonyms": [
-      "natural",
-      "congenital"
-    ],
+    "english_synonyms": ["natural", "congenital"],
     "english_explanations": [
       "In existence from birth; inherent."
     ],
-    "chinese_translations": [
-      {
-        "pos": "adj.",
-        "meaning": "天生的",
-        "example": "An inborn compass guides the young cuckoo south."
-      },
-      {
-        "pos": "n.",
-        "meaning": "与生俱来的",
-        "example": "An inborn compass guides the young cuckoo south."
-      }
-    ]
+    "chinese_translations": ["天生的", "与生俱来的"],
+    "example_sentences": "An inborn compass guides the young cuckoo south."
   },
   {
-    "word": [
-      "unwittingly"
-    ],
+    "word": ["unwittingly"],
     "phonetic": "/ʌnˈwɪtɪŋli/",
-    "english_synonyms": [
-      "unknowingly",
-      "unintentionally"
-    ],
+    "english_synonyms": ["unknowingly", "unintentionally"],
     "english_explanations": [
       "Without being aware of what one is doing."
     ],
-    "chinese_translations": [
-      {
-        "pos": "adv.",
-        "meaning": "不知情地",
-        "example": "Ships unwittingly carried rats to the islands."
-      },
-      {
-        "pos": "adv.",
-        "meaning": "无意地",
-        "example": "Ships unwittingly carried rats to the islands."
-      }
-    ]
+    "chinese_translations": ["不知情地", "无意地"],
+    "example_sentences": "Ships unwittingly carried rats to the islands."
   },
   {
-    "word": [
-      "unviable"
-    ],
+    "word": ["unviable"],
     "phonetic": "/ʌnˈvaɪəbl/",
-    "english_synonyms": [
-      "unworkable",
-      "not feasible"
-    ],
+    "english_synonyms": ["unworkable", "not feasible"],
     "english_explanations": [
       "Not able to work, survive, or succeed."
     ],
-    "chinese_translations": [
-      {
-        "pos": "n.",
-        "meaning": "不可行的",
-        "example": "Without new blood, the colony becomes unviable."
-      },
-      {
-        "pos": "n.",
-        "meaning": "无法生存的",
-        "example": "Without new blood, the colony becomes unviable."
-      }
-    ],
-    "roots": [
-      {
-        "root": "un-",
-        "meaning": "not"
-      },
-      {
-        "root": "vi",
-        "meaning": "live"
-      },
-      {
-        "root": "-able",
-        "meaning": "able to be"
-      }
-    ]
+    "chinese_translations": ["不可行的", "无法生存的"],
+    "example_sentences": "Without new blood, the colony becomes unviable.",
+    "roots": [{"root":"un-","meaning":"not"},{"root":"vi","meaning":"live"},{"root":"-able","meaning":"able to be"}]
   },
   {
-    "word": [
-      "unenviable"
-    ],
+    "word": ["unenviable"],
     "phonetic": "/ʌnˈenviəbl/",
-    "english_synonyms": [
-      "undesirable",
-      "thankless"
-    ],
+    "english_synonyms": ["undesirable", "thankless"],
     "english_explanations": [
       "(of a task or position) unpleasant and not to be envied."
     ],
-    "chinese_translations": [
-      {
-        "pos": "adj.",
-        "meaning": "不值得羡慕的",
-        "example": "She was given the unenviable task of informing the losers."
-      },
-      {
-        "pos": "n.",
-        "meaning": "尴尬艰难的",
-        "example": "She faced the unenviable task of choosing which pups to release."
-      }
-    ]
+    "chinese_translations": ["不值得羡慕的", "尴尬艰难的"],
+    "example_sentences": "She faced the unenviable task of choosing which pups to release."
   },
   {
-    "word": [
-      "accumulative"
-    ],
+    "word": ["accumulative"],
     "phonetic": "/əˈkjuːmjələtɪv/",
-    "english_synonyms": [
-      "cumulative",
-      "accumulating"
-    ],
+    "english_synonyms": ["cumulative", "accumulating"],
     "english_explanations": [
       "Growing by successive additions."
     ],
-    "chinese_translations": [
-      {
-        "pos": "adj.",
-        "meaning": "累积的",
-        "example": "the accumulative effects of pollution"
-      },
-      {
-        "pos": "n.",
-        "meaning": "累积性的",
-        "example": "Accumulative hunting pressure wiped out the colony."
-      }
-    ],
-    "roots": [
-      {
-        "root": "ac-",
-        "meaning": "toward"
-      },
-      {
-        "root": "cumul",
-        "meaning": "heap"
-      },
-      {
-        "root": "-ative",
-        "meaning": "tending to"
-      }
-    ]
+    "chinese_translations": ["累积的", "累积性的"],
+    "example_sentences": "Accumulative hunting pressure wiped out the colony.",
+    "roots": [{"root":"ac-","meaning":"toward"},{"root":"cumul","meaning":"heap"},{"root":"-ative","meaning":"tending to"}]
   },
   {
-    "word": [
-      "rapidity"
-    ],
+    "word": ["rapidity"],
     "phonetic": "/ˈræpɪd/",
-    "english_synonyms": [
-      "swiftness",
-      "quickness"
-    ],
-    "english_explanations": [
-      "Great speed."
-    ],
-    "chinese_translations": [
-      {
-        "pos": "adj.",
-        "meaning": "迅速",
-        "example": "a rapid pulse/heartbeat"
-      },
-      {
-        "pos": "adj.",
-        "meaning": "快速",
-        "example": "a rapid pulse/heartbeat"
-      }
-    ]
+    "english_synonyms": ["swiftness", "quickness"],
+    "english_explanations": ["Great speed."],
+    "chinese_translations": ["迅速", "快速"],
+    "example_sentences": "The rapidity of the strike stunned the prey."
   },
   {
-    "word": [
-      "presage"
-    ],
+    "word": ["presage"],
     "phonetic": "/ˈpresɪdʒ/",
-    "english_synonyms": [
-      "foretell",
-      "herald",
-      "foreshadow"
-    ],
+    "english_synonyms": ["foretell", "herald", "foreshadow"],
     "english_explanations": [
       "To be a sign or warning that something will happen."
     ],
-    "chinese_translations": [
-      {
-        "pos": "v.",
-        "meaning": "预示",
-        "example": "Falling counts presage a population crash."
-      },
-      {
-        "pos": "v.",
-        "meaning": "预兆",
-        "example": "Falling counts presage a population crash."
-      }
-    ],
-    "roots": [
-      {
-        "root": "pre-",
-        "meaning": "before"
-      },
-      {
-        "root": "sage",
-        "meaning": "perceive"
-      }
-    ]
+    "chinese_translations": ["预示", "预兆"],
+    "example_sentences": "Falling counts presage a population crash.",
+    "roots": [{"root":"pre-","meaning":"before"},{"root":"sage","meaning":"perceive"}]
   },
   {
-    "word": [
-      "mystify"
-    ],
+    "word": ["mystify"],
     "phonetic": "/ˈmɪstɪfaɪ/",
-    "english_synonyms": [
-      "baffle",
-      "bewilder",
-      "confuse"
-    ],
+    "english_synonyms": ["baffle", "bewilder", "confuse"],
     "english_explanations": [
       "To confuse someone completely."
     ],
-    "chinese_translations": [
-      {
-        "pos": "v.",
-        "meaning": "使困惑",
-        "example": "The birds' homing skill mystified biologists for decades."
-      },
-      {
-        "pos": "v.",
-        "meaning": "使迷惑",
-        "example": "They were totally mystified by the girl's disappearance."
-      }
-    ]
+    "chinese_translations": ["使困惑", "使迷惑"],
+    "example_sentences": "The birds' homing skill mystified biologists for decades."
   },
   {
-    "word": [
-      "hoax"
-    ],
+    "word": ["hoax"],
     "phonetic": "/həʊks/",
-    "english_synonyms": [
-      "fake",
-      "fraud",
-      "deception"
-    ],
+    "english_synonyms": ["fake", "fraud", "deception"],
     "english_explanations": [
       "A trick intended to deceive people, often for publicity."
     ],
-    "chinese_translations": [
-      {
-        "pos": "n.",
-        "meaning": "骗局",
-        "example": "a bomb hoax"
-      },
-      {
-        "pos": "n.",
-        "meaning": "恶作剧",
-        "example": "a bomb hoax"
-      }
-    ]
+    "chinese_translations": ["骗局", "恶作剧"],
+    "example_sentences": "The photographs of a living thylacine turned out to be a hoax."
   },
   {
-    "word": [
-      "inkling"
-    ],
+    "word": ["inkling"],
     "phonetic": "/ˈɪŋklɪŋ/",
-    "english_synonyms": [
-      "hint",
-      "notion",
-      "idea"
-    ],
+    "english_synonyms": ["hint", "notion", "idea"],
     "english_explanations": [
       "A slight knowledge or vague idea about something."
     ],
-    "chinese_translations": [
-      {
-        "pos": "n.",
-        "meaning": "模糊的概念",
-        "example": "Scientists had no inkling the fish still existed."
-      },
-      {
-        "pos": "n.",
-        "meaning": "略知一二",
-        "example": "Scientists had no inkling the fish still existed."
-      }
-    ]
+    "chinese_translations": ["模糊的概念", "略知一二"],
+    "example_sentences": "Scientists had no inkling the fish still existed."
   },
   {
-    "word": [
-      "neurophysiology"
-    ],
+    "word": ["neurophysiology"],
     "phonetic": "/ˌnjʊərəʊfɪziˈɒlədʒi/",
     "english_synonyms": [],
     "english_explanations": [
       "The study of how the nervous system functions."
     ],
-    "chinese_translations": [
-      {
-        "pos": "n.",
-        "meaning": "神经生理学",
-        "example": "Neurophysiology explains how elephants detect distant calls."
-      }
-    ],
-    "roots": [
-      {
-        "root": "neuro-",
-        "meaning": "nerve"
-      },
-      {
-        "root": "physi",
-        "meaning": "nature"
-      },
-      {
-        "root": "-ology",
-        "meaning": "study of"
-      }
-    ]
+    "chinese_translations": ["神经生理学"],
+    "example_sentences": "Neurophysiology explains how elephants detect distant calls.",
+    "roots": [{"root":"neuro-","meaning":"nerve"},{"root":"physi","meaning":"nature"},{"root":"-ology","meaning":"study of"}]
   },
   {
-    "word": [
-      "auditory"
-    ],
+    "word": ["auditory"],
     "phonetic": "/ˈɔːdətri/",
-    "english_synonyms": [
-      "aural",
-      "relating to hearing"
-    ],
+    "english_synonyms": ["aural", "relating to hearing"],
     "english_explanations": [
       "Connected with the sense of hearing."
     ],
-    "chinese_translations": [
-      {
-        "pos": "adj.",
-        "meaning": "听觉的",
-        "example": "auditory stimuli"
-      }
-    ],
-    "roots": [
-      {
-        "root": "audit",
-        "meaning": "hear"
-      },
-      {
-        "root": "-ory",
-        "meaning": "relating to"
-      }
-    ]
+    "chinese_translations": ["听觉的"],
+    "example_sentences": "The moth's auditory organs detect bat calls.",
+    "roots": [{"root":"audit","meaning":"hear"},{"root":"-ory","meaning":"relating to"}]
   },
   {
-    "word": [
-      "barometric"
-    ],
+    "word": ["barometric"],
     "phonetic": "/bəˈrɒmɪtə(r)/",
-    "english_synonyms": [
-      "relating to air pressure"
-    ],
+    "english_synonyms": ["relating to air pressure"],
     "english_explanations": [
       "Relating to the pressure of the atmosphere."
     ],
-    "chinese_translations": [
-      {
-        "pos": "adj.",
-        "meaning": "气压的",
-        "example": "Birds sense barometric changes before storms."
-      },
-      {
-        "pos": "adj.",
-        "meaning": "气压计的",
-        "example": "Birds sense barometric changes before storms."
-      }
-    ],
-    "roots": [
-      {
-        "root": "baro-",
-        "meaning": "pressure"
-      },
-      {
-        "root": "metr",
-        "meaning": "measure"
-      },
-      {
-        "root": "-ic",
-        "meaning": "relating to"
-      }
-    ]
+    "chinese_translations": ["气压的", "气压计的"],
+    "example_sentences": "Birds sense barometric changes before storms.",
+    "roots": [{"root":"baro-","meaning":"pressure"},{"root":"metr","meaning":"measure"},{"root":"-ic","meaning":"relating to"}]
   }
 ]

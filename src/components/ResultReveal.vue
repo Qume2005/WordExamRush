@@ -11,9 +11,6 @@ const props = defineProps({
 const emit = defineEmits(['next'])
 
 const shuffledSynonyms = computed(() => shuffle(props.targetWord.english_synonyms))
-const shuffledEnglishExplanations = computed(() =>
-  shuffle(props.targetWord.english_explanations || [])
-)
 const roots = computed(() => props.targetWord.roots || [])
 </script>
 
@@ -72,13 +69,10 @@ const roots = computed(() => props.targetWord.roots || [])
           <div v-for="(sense, i) in targetWord.chinese_translations" :key="i" class="sense-entry">
             <span class="sense-pos">{{ sense.pos }}</span>
             <span class="sense-meaning">{{ sense.meaning }}</span>
+            <div v-if="sense.english" class="sense-english">{{ sense.english }}</div>
             <div class="sense-example">{{ sense.example }}</div>
           </div>
         </div>
-      </div>
-      <div v-if="shuffledEnglishExplanations.length > 0" class="detail-section">
-        <span class="detail-label">英文释义：</span>
-        <span class="detail-value">{{ shuffledEnglishExplanations.join('; ') }}</span>
       </div>
       <div v-if="shuffledSynonyms.length > 0" class="detail-section">
         <span class="detail-label">近义词：</span>
@@ -215,6 +209,13 @@ const roots = computed(() => props.targetWord.roots || [])
 
 .sense-meaning {
   color: var(--color-text);
+}
+
+.sense-english {
+  width: 100%;
+  padding-left: 8px;
+  color: var(--color-text-secondary);
+  font-size: 13px;
 }
 
 .sense-example {

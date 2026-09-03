@@ -1,707 +1,275 @@
 [
   {
-    "word": [
-      "paleontology"
-    ],
+    "word": ["paleontology"],
     "phonetic": "/ˌpæliɒnˈtɒlədʒi/",
     "english_synonyms": [],
     "english_explanations": [
       "The science of ancient life through fossil animals and plants."
     ],
-    "chinese_translations": [
-      {
-        "pos": "n.",
-        "meaning": "古生物学",
-        "example": "Paleontology traces the ancestry of the elephants."
-      }
-    ],
-    "roots": [
-      {
-        "root": "pale-",
-        "meaning": "ancient"
-      },
-      {
-        "root": "ont",
-        "meaning": "being"
-      },
-      {
-        "root": "-ology",
-        "meaning": "study of"
-      }
-    ]
+    "chinese_translations": ["古生物学"],
+    "example_sentences": "Paleontology traces the ancestry of the elephants.",
+    "roots": [{"root":"pale-","meaning":"ancient"},{"root":"ont","meaning":"being"},{"root":"-ology","meaning":"study of"}]
   },
   {
-    "word": [
-      "paleobiologist"
-    ],
+    "word": ["paleobiologist"],
     "phonetic": "/ˌpæliəʊbaɪˈɒlədʒɪst/",
     "english_synonyms": [],
     "english_explanations": [
       "A scientist who studies the biology of extinct organisms."
     ],
-    "chinese_translations": [
-      {
-        "pos": "n.",
-        "meaning": "古生物学家",
-        "example": "The paleobiologist dated the mammoth bones with isotopes."
-      }
-    ],
-    "roots": [
-      {
-        "root": "paleo-",
-        "meaning": "ancient"
-      },
-      {
-        "root": "bio",
-        "meaning": "life"
-      },
-      {
-        "root": "log",
-        "meaning": "study"
-      },
-      {
-        "root": "-ist",
-        "meaning": "one who"
-      }
-    ]
+    "chinese_translations": ["古生物学家"],
+    "example_sentences": "The paleobiologist dated the mammoth bones with isotopes.",
+    "roots": [{"root":"paleo-","meaning":"ancient"},{"root":"bio","meaning":"life"},{"root":"log","meaning":"study"},{"root":"-ist","meaning":"one who"}]
   },
   {
-    "word": [
-      "Triassic"
-    ],
+    "word": ["Triassic"],
     "phonetic": "/traɪˈæsɪk/",
     "english_synonyms": [],
     "english_explanations": [
       "The earliest period of the Mesozoic era, about 252 to 201 million years ago."
     ],
-    "chinese_translations": [
-      {
-        "pos": "n.",
-        "meaning": "三叠纪",
-        "example": "The first dinosaurs appeared in the Triassic."
-      }
-    ]
+    "chinese_translations": ["三叠纪"],
+    "example_sentences": "The first dinosaurs appeared in the Triassic."
   },
   {
-    "word": [
-      "Jurassic"
-    ],
+    "word": ["Jurassic"],
     "phonetic": "/dʒʊˈræsɪk/",
     "english_synonyms": [],
     "english_explanations": [
       "The middle period of the Mesozoic era, about 201 to 145 million years ago."
     ],
-    "chinese_translations": [
-      {
-        "pos": "adj.",
-        "meaning": "侏罗纪",
-        "example": "Giant sauropods dominated the Jurassic landscape."
-      }
-    ]
+    "chinese_translations": ["侏罗纪"],
+    "example_sentences": "Giant sauropods dominated the Jurassic landscape."
   },
   {
-    "word": [
-      "Cretaceous"
-    ],
+    "word": ["Cretaceous"],
     "phonetic": "/krɪˈteɪʃəs/",
     "english_synonyms": [],
     "english_explanations": [
       "The last period of the Mesozoic era, ending 66 million years ago in a mass extinction."
     ],
-    "chinese_translations": [
-      {
-        "pos": "adj.",
-        "meaning": "白垩纪",
-        "example": "The Cretaceous ended with the dinosaurs' extinction."
-      }
-    ]
+    "chinese_translations": ["白垩纪"],
+    "example_sentences": "The Cretaceous ended with the dinosaurs' extinction."
   },
   {
-    "word": [
-      "Pleistocene"
-    ],
+    "word": ["Pleistocene"],
     "phonetic": "/ˈplaɪstəsiːn/",
     "english_synonyms": [],
     "english_explanations": [
       "The epoch of repeated ice ages, from about 2.6 million to 11,700 years ago."
     ],
-    "chinese_translations": [
-      {
-        "pos": "n.",
-        "meaning": "更新世",
-        "example": "Mammoths roamed the Pleistocene steppe."
-      }
-    ]
+    "chinese_translations": ["更新世"],
+    "example_sentences": "Mammoths roamed the Pleistocene steppe."
   },
   {
-    "word": [
-      "epoch"
-    ],
+    "word": ["epoch"],
     "phonetic": "/ˈiːpɒk/",
-    "english_synonyms": [
-      "era",
-      "period",
-      "age"
-    ],
+    "english_synonyms": ["era", "period", "age"],
     "english_explanations": [
       "A division of geological time; a distinctive period in history."
     ],
-    "chinese_translations": [
-      {
-        "pos": "n.",
-        "meaning": "世",
-        "example": "geological epochs"
-      },
-      {
-        "pos": "n.",
-        "meaning": "纪元",
-        "example": "The death of the emperor marked the end of an epoch in the country's history."
-      },
-      {
-        "pos": "n.",
-        "meaning": "时代",
-        "example": "The death of the emperor marked the end of an epoch in the country's history."
-      }
-    ]
+    "chinese_translations": ["世", "纪元", "时代"],
+    "example_sentences": "The fossils date from a warmer epoch."
   },
   {
-    "word": [
-      "millennia",
-      "millennium"
-    ],
+    "word": ["millennia", "millennium"],
     "phonetic": "/mɪˈleniəm/",
     "english_synonyms": [],
     "english_explanations": [
       "Periods of a thousand years (singular: millennium)."
     ],
-    "chinese_translations": [
-      {
-        "pos": "n.",
-        "meaning": "数千年",
-        "example": "The tortoises colonized the islands millennia ago."
-      },
-      {
-        "pos": "n.",
-        "meaning": "千年期",
-        "example": "the second millennium AD"
-      }
-    ]
+    "chinese_translations": ["数千年", "千年期"],
+    "example_sentences": "The tortoises colonized the islands millennia ago."
   },
   {
-    "word": [
-      "lineage"
-    ],
+    "word": ["lineage"],
     "phonetic": "/ˈlɪniɪdʒ/",
-    "english_synonyms": [
-      "line of descent",
-      "ancestry"
-    ],
+    "english_synonyms": ["line of descent", "ancestry"],
     "english_explanations": [
       "A sequence of descendants traced from a common ancestor."
     ],
-    "chinese_translations": [
-      {
-        "pos": "n.",
-        "meaning": "世系",
-        "example": "DNA shows the finches share one lineage."
-      },
-      {
-        "pos": "n.",
-        "meaning": "谱系",
-        "example": "DNA shows the finches share one lineage."
-      },
-      {
-        "pos": "n.",
-        "meaning": "血统",
-        "example": "DNA shows the finches share one lineage."
-      }
-    ]
+    "chinese_translations": ["世系", "谱系", "血统"],
+    "example_sentences": "DNA shows the finches share one lineage."
   },
   {
-    "word": [
-      "subspecies"
-    ],
+    "word": ["subspecies"],
     "phonetic": "/ˈsʌbspiːʃiːz/",
     "english_synonyms": [],
     "english_explanations": [
       "A population within a species that differs in genetics or appearance."
     ],
-    "chinese_translations": [
-      {
-        "pos": "n.",
-        "meaning": "亚种",
-        "example": "Each island hosts its own subspecies of the lizard."
-      }
-    ],
-    "roots": [
-      {
-        "root": "sub-",
-        "meaning": "under"
-      },
-      {
-        "root": "spec",
-        "meaning": "kind"
-      },
-      {
-        "root": "-ies",
-        "meaning": "noun form"
-      }
-    ]
+    "chinese_translations": ["亚种"],
+    "example_sentences": "Each island hosts its own subspecies of the lizard.",
+    "roots": [{"root":"sub-","meaning":"under"},{"root":"spec","meaning":"kind"},{"root":"-ies","meaning":"noun form"}]
   },
   {
-    "word": [
-      "invertebrate"
-    ],
+    "word": ["invertebrate"],
     "phonetic": "/ɪnˈvɜːtɪbrət/",
     "english_synonyms": [],
     "english_explanations": [
       "An animal lacking a backbone, such as an insect or worm."
     ],
-    "chinese_translations": [
-      {
-        "pos": "n.",
-        "meaning": "无脊椎动物",
-        "example": "Owls feed on invertebrates after dark."
-      }
-    ],
-    "roots": [
-      {
-        "root": "in-",
-        "meaning": "not"
-      },
-      {
-        "root": "vertebr",
-        "meaning": "backbone"
-      },
-      {
-        "root": "-ate",
-        "meaning": "having"
-      }
-    ]
+    "chinese_translations": ["无脊椎动物"],
+    "example_sentences": "Owls feed on invertebrates after dark.",
+    "roots": [{"root":"in-","meaning":"not"},{"root":"vertebr","meaning":"backbone"},{"root":"-ate","meaning":"having"}]
   },
   {
-    "word": [
-      "vertebrate"
-    ],
+    "word": ["vertebrate"],
     "phonetic": "/ˈvɜːtɪbrət/",
     "english_synonyms": [],
     "english_explanations": [
       "An animal with a backbone, including fish, birds, and mammals."
     ],
-    "chinese_translations": [
-      {
-        "pos": "n.",
-        "meaning": "脊椎动物",
-        "example": "Fish, birds and mammals are all vertebrates."
-      }
-    ],
-    "roots": [
-      {
-        "root": "vertebr",
-        "meaning": "backbone"
-      },
-      {
-        "root": "-ate",
-        "meaning": "having"
-      }
-    ]
+    "chinese_translations": ["脊椎动物"],
+    "example_sentences": "Fish, birds and mammals are all vertebrates.",
+    "roots": [{"root":"vertebr","meaning":"backbone"},{"root":"-ate","meaning":"having"}]
   },
   {
-    "word": [
-      "excavate"
-    ],
+    "word": ["excavate"],
     "phonetic": "/ˈekskəveɪt/",
-    "english_synonyms": [
-      "dig out",
-      "dig up"
-    ],
+    "english_synonyms": ["dig out", "dig up"],
     "english_explanations": [
       "To dig out something buried, especially archaeological remains."
     ],
-    "chinese_translations": [
-      {
-        "pos": "v.",
-        "meaning": "发掘",
-        "example": "The site has been excavated by archaeologists."
-      },
-      {
-        "pos": "v.",
-        "meaning": "挖掘",
-        "example": "The body was discovered when builders excavated the area."
-      }
-    ],
-    "roots": [
-      {
-        "root": "ex-",
-        "meaning": "out"
-      },
-      {
-        "root": "cav",
-        "meaning": "hollow"
-      },
-      {
-        "root": "-ate",
-        "meaning": "to perform"
-      }
-    ]
+    "chinese_translations": ["发掘", "挖掘"],
+    "example_sentences": "Workers excavated bear bones from the cave floor.",
+    "roots": [{"root":"ex-","meaning":"out"},{"root":"cav","meaning":"hollow"},{"root":"-ate","meaning":"to perform"}]
   },
   {
-    "word": [
-      "unearth"
-    ],
+    "word": ["unearth"],
     "phonetic": "/ʌnˈɜːθ/",
-    "english_synonyms": [
-      "bring to light",
-      "discover"
-    ],
+    "english_synonyms": ["bring to light", "discover"],
     "english_explanations": [
       "To find by digging; to reveal something hidden."
     ],
-    "chinese_translations": [
-      {
-        "pos": "v.",
-        "meaning": "出土",
-        "example": "to unearth buried treasures"
-      },
-      {
-        "pos": "v.",
-        "meaning": "发掘出",
-        "example": "Speleologists unearthed cave-bear skulls in the alpine cave."
-      }
-    ]
+    "chinese_translations": ["出土", "发掘出"],
+    "example_sentences": "Speleologists unearthed cave-bear skulls in the alpine cave."
   },
   {
-    "word": [
-      "iridium"
-    ],
+    "word": ["iridium"],
     "phonetic": "/ɪˈrɪdiəm/",
     "english_synonyms": [],
     "english_explanations": [
       "A dense metal rare on the surface, concentrated by asteroid impacts."
     ],
-    "chinese_translations": [
-      {
-        "pos": "n.",
-        "meaning": "铱",
-        "example": "The iridium layer marks the dinosaurs' demise."
-      }
-    ]
+    "chinese_translations": ["铱"],
+    "example_sentences": "The iridium layer marks the dinosaurs' demise."
   },
   {
-    "word": [
-      "magnetite"
-    ],
+    "word": ["magnetite"],
     "phonetic": "/ˈmæɡnətaɪt/",
     "english_synonyms": [],
     "english_explanations": [
       "A naturally magnetic iron ore; birds may use it to sense direction."
     ],
-    "chinese_translations": [
-      {
-        "pos": "n.",
-        "meaning": "磁铁矿",
-        "example": "Beak cells contain magnetite, a built-in compass."
-      }
-    ]
+    "chinese_translations": ["磁铁矿"],
+    "example_sentences": "Beak cells contain magnetite, a built-in compass."
   },
   {
-    "word": [
-      "isotope"
-    ],
+    "word": ["isotope"],
     "phonetic": "/ˈaɪsətəʊp/",
     "english_synonyms": [],
     "english_explanations": [
       "A form of an element with a different atomic weight, used to date and trace remains."
     ],
-    "chinese_translations": [
-      {
-        "pos": "n.",
-        "meaning": "同位素",
-        "example": "radioactive isotopes"
-      }
-    ],
-    "roots": [
-      {
-        "root": "iso-",
-        "meaning": "equal"
-      },
-      {
-        "root": "tope",
-        "meaning": "place"
-      }
-    ]
+    "chinese_translations": ["同位素"],
+    "example_sentences": "Isotopes in bones reveal what the cave bears ate.",
+    "roots": [{"root":"iso-","meaning":"equal"},{"root":"tope","meaning":"place"}]
   },
   {
-    "word": [
-      "spectrometer"
-    ],
+    "word": ["spectrometer"],
     "phonetic": "/spekˈtrɒmɪtə(r)/",
     "english_synonyms": [],
     "english_explanations": [
       "An instrument that analyses light or mass to identify substances."
     ],
-    "chinese_translations": [
-      {
-        "pos": "n.",
-        "meaning": "光谱仪",
-        "example": "The team ran the samples through a mass spectrometer."
-      }
-    ],
-    "roots": [
-      {
-        "root": "spectro-",
-        "meaning": "spectrum"
-      },
-      {
-        "root": "meter",
-        "meaning": "measure"
-      }
-    ]
+    "chinese_translations": ["光谱仪"],
+    "example_sentences": "The team ran the samples through a mass spectrometer.",
+    "roots": [{"root":"spectro-","meaning":"spectrum"},{"root":"meter","meaning":"measure"}]
   },
   {
-    "word": [
-      "decimation"
-    ],
+    "word": ["decimation"],
     "phonetic": "/ˈdesɪmeɪt/",
-    "english_synonyms": [
-      "devastation",
-      "slaughter"
-    ],
+    "english_synonyms": ["devastation", "slaughter"],
     "english_explanations": [
       "The destruction or killing of a large proportion of a group."
     ],
-    "chinese_translations": [
-      {
-        "pos": "n.",
-        "meaning": "大批毁灭",
-        "example": "Otters suffered decimation during the fur-trade years."
-      },
-      {
-        "pos": "n.",
-        "meaning": "大量杀灭",
-        "example": "Otters suffered decimation during the fur-trade years."
-      }
-    ],
-    "roots": [
-      {
-        "root": "decim",
-        "meaning": "tenth"
-      },
-      {
-        "root": "-ation",
-        "meaning": "act of"
-      }
-    ]
+    "chinese_translations": ["大批毁灭", "大量杀灭"],
+    "example_sentences": "Otters suffered decimation during the fur-trade years.",
+    "roots": [{"root":"decim","meaning":"tenth"},{"root":"-ation","meaning":"act of"}]
   },
   {
-    "word": [
-      "overkill"
-    ],
+    "word": ["overkill"],
     "phonetic": "/ˈəʊvəkɪl/",
     "english_synonyms": [],
     "english_explanations": [
       "Killing far beyond what is sustainable; a proposed cause of megafaunal extinction."
     ],
-    "chinese_translations": [
-      {
-        "pos": "n.",
-        "meaning": "过度捕杀",
-        "example": "Human overkill may explain the mammoths' disappearance."
-      }
-    ]
+    "chinese_translations": ["过度捕杀"],
+    "example_sentences": "Human overkill may explain the mammoths' disappearance."
   },
   {
-    "word": [
-      "devastate"
-    ],
+    "word": ["devastate"],
     "phonetic": "/ˈdevəsteɪt/",
-    "english_synonyms": [
-      "destroy",
-      "ruin",
-      "ravage"
-    ],
+    "english_synonyms": ["destroy", "ruin", "ravage"],
     "english_explanations": [
       "To cause severe and lasting damage to something."
     ],
-    "chinese_translations": [
-      {
-        "pos": "v.",
-        "meaning": "摧毁",
-        "example": "The bomb devastated much of the old part of the city."
-      },
-      {
-        "pos": "v.",
-        "meaning": "毁灭",
-        "example": "The bomb devastated much of the old part of the city."
-      }
-    ],
-    "roots": [
-      {
-        "root": "de-",
-        "meaning": "completely"
-      },
-      {
-        "root": "vast",
-        "meaning": "waste"
-      },
-      {
-        "root": "-ate",
-        "meaning": "to make"
-      }
-    ]
+    "chinese_translations": ["摧毁", "毁灭"],
+    "example_sentences": "A flood devastated the ants' nest galleries.",
+    "roots": [{"root":"de-","meaning":"completely"},{"root":"vast","meaning":"waste"},{"root":"-ate","meaning":"to make"}]
   },
   {
-    "word": [
-      "reintroduce",
-      "reintroduction"
-    ],
+    "word": ["reintroduce", "reintroduction"],
     "phonetic": "/ˌriːɪntrəˈdjuːs/",
-    "english_synonyms": [
-      "release back into the wild"
-    ],
+    "english_synonyms": ["release back into the wild"],
     "english_explanations": [
       "To return a species, often captive-bred, to its former wild habitat."
     ],
-    "chinese_translations": [
-      {
-        "pos": "v.",
-        "meaning": "重新引入野外",
-        "example": "Otters were reintroduced to the river after decades of absence."
-      },
-      {
-        "pos": "v.",
-        "meaning": "放归",
-        "example": "Otters were reintroduced to the river after decades of absence."
-      }
-    ],
-    "roots": [
-      {
-        "root": "re-",
-        "meaning": "again"
-      },
-      {
-        "root": "intro-",
-        "meaning": "inward"
-      },
-      {
-        "root": "duce",
-        "meaning": "lead"
-      }
-    ]
+    "chinese_translations": ["重新引入野外", "放归"],
+    "example_sentences": "Otters were reintroduced to the river after decades of absence.",
+    "roots": [{"root":"re-","meaning":"again"},{"root":"intro-","meaning":"inward"},{"root":"duce","meaning":"lead"}]
   },
   {
-    "word": [
-      "ecotourism"
-    ],
+    "word": ["ecotourism"],
     "phonetic": "/ˈiːkəʊtʊərɪzəm/",
     "english_synonyms": [],
     "english_explanations": [
       "Tourism to natural areas designed to support conservation."
     ],
-    "chinese_translations": [
-      {
-        "pos": "n.",
-        "meaning": "生态旅游",
-        "example": "Ecotourism now funds the monkey reserve."
-      }
-    ]
+    "chinese_translations": ["生态旅游"],
+    "example_sentences": "Ecotourism now funds the monkey reserve."
   },
   {
-    "word": [
-      "conservationist"
-    ],
+    "word": ["conservationist"],
     "phonetic": "/ˌkɒnsəˈveɪʃənɪst/",
-    "english_synonyms": [
-      "environmentalist",
-      "preservationist"
-    ],
+    "english_synonyms": ["environmentalist", "preservationist"],
     "english_explanations": [
       "A person who works to protect wildlife and habitats."
     ],
-    "chinese_translations": [
-      {
-        "pos": "n.",
-        "meaning": "自然保护主义者",
-        "example": "Conservationists campaigned to save the thylacine, but too late."
-      },
-      {
-        "pos": "n.",
-        "meaning": "环保主义者",
-        "example": "Conservationists campaigned to save the thylacine, but too late."
-      }
-    ],
-    "roots": [
-      {
-        "root": "con-",
-        "meaning": "together"
-      },
-      {
-        "root": "serv",
-        "meaning": "keep"
-      },
-      {
-        "root": "-ation",
-        "meaning": "act of"
-      },
-      {
-        "root": "-ist",
-        "meaning": "one who"
-      }
-    ]
+    "chinese_translations": ["自然保护主义者", "环保主义者"],
+    "example_sentences": "Conservationists campaigned to save the thylacine, but too late.",
+    "roots": [{"root":"con-","meaning":"together"},{"root":"serv","meaning":"keep"},{"root":"-ation","meaning":"act of"},{"root":"-ist","meaning":"one who"}]
   },
   {
-    "word": [
-      "captive-bred"
-    ],
+    "word": ["captive-bred"],
     "phonetic": "/ˌkæptɪvˈbred/",
-    "english_synonyms": [
-      "bred in captivity"
-    ],
+    "english_synonyms": ["bred in captivity"],
     "english_explanations": [
       "(of animals) born and raised in captivity, often for release into the wild."
     ],
-    "chinese_translations": [
-      {
-        "pos": "n.",
-        "meaning": "人工圈养繁殖的",
-        "example": "Captive-bred ferrets learned to hunt before release."
-      }
-    ]
+    "chinese_translations": ["人工圈养繁殖的"],
+    "example_sentences": "Captive-bred ferrets learned to hunt before release."
   },
   {
-    "word": [
-      "extinction"
-    ],
+    "word": ["extinction"],
     "phonetic": "/ɪkˈstɪŋkʃn/",
     "english_synonyms": [],
     "english_explanations": [
       "The state of a species having no living members."
     ],
-    "chinese_translations": [
-      {
-        "pos": "n.",
-        "meaning": "灭绝",
-        "example": "a tribe threatened with extinction/in danger of extinction"
-      },
-      {
-        "pos": "n.",
-        "meaning": "绝种",
-        "example": "a tribe threatened with extinction/in danger of extinction"
-      }
-    ],
-    "roots": [
-      {
-        "root": "ex-",
-        "meaning": "out"
-      },
-      {
-        "root": "tinct",
-        "meaning": "extinguish"
-      },
-      {
-        "root": "-ion",
-        "meaning": "act of"
-      }
-    ]
+    "chinese_translations": ["灭绝", "绝种"],
+    "example_sentences": "The flightless bird slid into extinction within decades.",
+    "roots": [{"root":"ex-","meaning":"out"},{"root":"tinct","meaning":"extinguish"},{"root":"-ion","meaning":"act of"}]
   }
 ]

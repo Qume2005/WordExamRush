@@ -51,6 +51,9 @@ function validateRawInput(data: unknown): string | null {
       if (typeof sense.meaning !== 'string' || !sense.meaning.trim()) {
         return `第 ${i + 1} 项第 ${j + 1} 条释义缺少 meaning 字段`
       }
+      if (typeof sense.english !== 'string' || !sense.english.trim()) {
+        return `第 ${i + 1} 项第 ${j + 1} 条释义缺少 english 字段`
+      }
       if (typeof sense.example !== 'string' || !sense.example.trim()) {
         return `第 ${i + 1} 项第 ${j + 1} 条释义缺少 example 字段`
       }
