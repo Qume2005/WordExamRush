@@ -27,6 +27,9 @@ function validateWord(word, fileLabel) {
     if (typeof sense.meaning !== 'string' || !sense.meaning.trim()) {
       throw new Error(`${fileLabel}: 第 ${j + 1} 条释义缺少 meaning 字段`)
     }
+    if (typeof sense.english !== 'string' || !sense.english.trim()) {
+      throw new Error(`${fileLabel}: 第 ${j + 1} 条释义缺少 english 字段`)
+    }
     if (typeof sense.example !== 'string' || !sense.example.trim()) {
       throw new Error(`${fileLabel}: 第 ${j + 1} 条释义缺少 example 字段`)
     }

@@ -1,12 +1,13 @@
 #!/usr/bin/env node
 /**
  * 词典富化迁移脚本：把 17 张旧格式词表（chinese_translations: string[] + example_sentences）
- * 迁移为新 schema（chinese_translations: {pos, meaning, example}[]，删除 example_sentences）。
+ * 迁移为新 schema（chinese_translations: {pos, meaning, english, example}[]，删除 example_sentences）。
  *
  * 用法：
  *   node scripts/migrate-word-tables.mjs --dict "<mdx路径>"              # dry-run：只写报告 + preview，不碰 public/
  *   node scripts/migrate-word-tables.mjs --dict "<mdx路径>" --apply      # 落盘：改写 public/ 下的词表 JSON
  *   node scripts/migrate-word-tables.mjs --dict "<mdx路径>" --probe <词>  # 探查模式：打印词典原始 HTML
+ *   加 --force-sense-english 可对已含 per-sense english 的文件强行 --apply。
  *
  * 词典路径只通过 --dict 传入，绝不硬编码、绝不复制进仓库。
  *
@@ -32,7 +33,10 @@
  *    "definite article"/"number"/"ordinal number"）不进核心集 → 该 sn-g 不参与
  *    词典匹配（防垃圾词性）。
  * 5. 中文释义 = `<def>` 内嵌的 `<chn>`（def 全文含英文释义 + 中文释义）。
- * 6. 例句 = 义项内所有 `<x>` 节点。双解例句结构：英文部分 + 可选 `<chn>` 子节点
+ * 6. 英文释义 = `<def>` 全文减去 chn 部分：取 def 文本中首个 CJK 字符之前的
+ *    英文段，剥离 `<chnsep>` 工件与尾部杂散 CJK/符号，空白归一化。英文释义
+ *    必须至少含一个拉丁字母且不含 CJK，否则置空并走回退规则。
+ * 7. 例句 = 义项内所有 `<x>` 节点。双解例句结构：英文部分 + 可选 `<chn>` 子节点
  *    （中文翻译）+ 常见双空格分隔。剥除 chn 子节点、剔除首部短语型示例
  *    （x 内不含 a/chn 子元素且 def 含 chn 时，x 是英文释义搭配展示），
  *    之后必须含拉丁字母才可用。
@@ -56,11 +60,12 @@ function getFlag(name) {
 const DICT_PATH = getFlag('--dict')
 const APPLY = args.includes('--apply')
 const PROBE = getFlag('--probe')
+const FORCE_SENSE_ENGLISH = args.includes('--force-sense-english')
 
 const WORD_TABLE_DIR = path.resolve('public/word_table')
 const EVIDENCE_DIR = path.resolve('.omo/evidence')
-const PREVIEW_DIR = path.join(EVIDENCE_DIR, 'preview')
-const REPORT_PATH = path.join(EVIDENCE_DIR, 'migration-report.md')
+const PREVIEW_DIR = path.join(EVIDENCE_DIR, 'sense-english-preview')
+const REPORT_PATH = path.join(EVIDENCE_DIR, 'sense-english-migration-report.md')
 
 // ---------- 词典访问 ----------
 let dict = null
@@ -184,7 +189,20 @@ function extractEnglishExample($, xEl) {
   return t
 }
 
-/** 解析一个词条 HTML → [{pos, chinese, examples}]；解析失败返回 [] */
+/** 英文释义提取：def 全文 − chn 部分。取首个 CJK 字符前的英文段（chnsep 等工件
+ *  会被该切分天然剥除），归一化空白；无拉丁字母或含 CJK 则置空走回退。 */
+function extractEnglishDefinition($, defEl) {
+  const defText = textOf($, defEl)
+  const cjkIdx = defText.search(CJK_RE)
+  const en = (cjkIdx === -1 ? defText : defText.slice(0, cjkIdx))
+    .replace(/[\u4e00-\u9fff\u3000-\u303f\uff00-\uffef]+$/, '')
+    .replace(/\s+/g, ' ')
+    .trim()
+  if (!LATIN_RE.test(en) || CJK_RE.test(en)) return ''
+  return en
+}
+
+/** 解析一个词条 HTML → [{pos, chinese, english, examples}]；解析失败返回 [] */
 function parseEntryHTML(html) {
   if (!html) return []
   const $ = cheerio.load(html)
@@ -235,7 +253,7 @@ function parseEntryHTML(html) {
         const e = extractEnglishExample($, xEl)
         if (e) examples.push(e)
       })
-    senses.push({ pos: posAbbr, chinese, examples })
+    senses.push({ pos: posAbbr, chinese, english: extractEnglishDefinition($, defEl), examples })
   })
   return senses.filter((s) => s.chinese) // 无中文释义的义项不参与匹配
 }
@@ -267,9 +285,19 @@ function isSenseMatch(dictSense, meaning) {
   return d.includes(m) || m.includes(d)
 }
 
+/** 回退英文释义（供未命中词典义项的 sense 使用），取自旧 english_explanations：
+ *  恰好一条 → 每个 sense 共用；条数与 sense 数相同 → 位置一一对应；
+ *  其余 → 全部取第一个非空条（数据无空条，此分支为规约兜底）。 */
+function fallbackEnglishFor(ee, senseCount, senseIndex) {
+  const nonEmpty = ee.filter((e) => String(e).trim())
+  if (nonEmpty.length === 1) return nonEmpty[0]
+  if (ee.length === senseCount && senseCount > 1) return ee[senseIndex]
+  return nonEmpty[0]
+}
+
 /**
  * 对单个词项做富化。
- * 返回 { source: 'oxford'|'fallback', senses: [{pos, meaning, example, senseSource}] }
+ * 返回 { source: 'oxford'|'fallback', senses: [{pos, meaning, english, example, senseSource}] }
  */
 function enrichWordItem(item) {
   const headword = item.word[0] || ''
@@ -290,18 +318,21 @@ function enrichWordItem(item) {
     const dictSenses = parseEntryHTML(html)
     if (dictSenses.length) {
       const out = []
-      for (const meaning of meanings) {
+      for (const [i, meaning] of meanings.entries()) {
         const matched = dictSenses.find((s) => isSenseMatch(s, meaning))
+        const eeFallback = () => fallbackEnglishFor(item.english_explanations || [], meanings.length, i)
         if (matched && matched.pos && matched.examples.length) {
-          out.push({ pos: matched.pos, meaning, example: matched.examples[0], senseSource: 'oxford' })
+          out.push({ pos: matched.pos, meaning, english: matched.english || eeFallback(), englishSource: matched.english ? 'oxford' : 'fallback-ee', example: matched.examples[0], senseSource: 'oxford' })
         } else if (matched && matched.pos) {
-          out.push({ pos: matched.pos, meaning, example: oldExample, senseSource: 'oxford' })
+          out.push({ pos: matched.pos, meaning, english: eeFallback(), englishSource: 'fallback-ee', example: oldExample, senseSource: 'oxford' })
         } else if (matched) {
-          out.push({ pos: inferPosFromEnglish(item.english_explanations, headword), meaning, example: oldExample, senseSource: 'fallback' })
+          out.push({ pos: inferPosFromEnglish(item.english_explanations, headword), meaning, english: eeFallback(), englishSource: 'fallback-ee', example: oldExample, senseSource: 'fallback' })
         } else {
           out.push({
             pos: inferPosFromEnglish(item.english_explanations, headword),
             meaning,
+            english: eeFallback(),
+            englishSource: 'fallback-ee',
             example: oldExample,
             senseSource: 'fallback',
           })
@@ -317,7 +348,14 @@ function enrichWordItem(item) {
   // 例句复用旧 example_sentences 即可，词性统计上仍计入 oxford。
   if (!senses) {
     const pos = inferPosFromEnglish(item.english_explanations, headword)
-    senses = meanings.map((meaning) => ({ pos, meaning, example: oldExample, senseSource: 'fallback' }))
+    senses = meanings.map((meaning, i) => ({
+      pos,
+      meaning,
+      english: fallbackEnglishFor(item.english_explanations || [], meanings.length, i),
+      englishSource: 'fallback-ee',
+      example: oldExample,
+      senseSource: 'fallback',
+    }))
     source = 'fallback'
   }
 
@@ -328,7 +366,7 @@ function enrichWordItem(item) {
     const key = `${s.pos}\u0000${s.meaning}`
     if (seen.has(key)) continue
     seen.add(key)
-    deduped.push({ pos: s.pos, meaning: s.meaning, example: s.example })
+    deduped.push({ pos: s.pos, meaning: s.meaning, english: s.english, example: s.example })
   }
   return { source, senses: deduped }
 }
@@ -340,6 +378,8 @@ function assertSenseOk(item, sense) {
   if (!LATIN_RE.test(sense.example)) throw new Error(`健全性断言失败（example 无英文）: ${label} → ${JSON.stringify(sense)}`)
   if (!POS_WHOLE_RE.test(sense.pos)) throw new Error(`健全性断言失败（pos 格式非法）: ${label} → ${JSON.stringify(sense)}`)
   if (!ALLOWED_POS.has(sense.pos)) throw new Error(`健全性断言失败（pos 不在白名单）: ${label} → ${JSON.stringify(sense)}`)
+  if (!LATIN_RE.test(sense.english)) throw new Error(`健全性断言失败（english 无英文）: ${label} → ${JSON.stringify(sense)}`)
+  if (CJK_RE.test(sense.english)) throw new Error(`健全性断言失败（english 含中文）: ${label} → ${JSON.stringify(sense)}`)
 }
 
 // ---------- 文件遍历 ----------
@@ -359,6 +399,14 @@ function listWordTableFiles() {
 // ---------- 幂等保护 ----------
 function isAlreadyMigrated(data) {
   return Array.isArray(data) && data.length > 0 && data.every((it) => it && typeof it === 'object' && it.example_sentences === undefined)
+}
+
+// 上一轮迁移（SenseEntry 无 english）的产物也算已处理：首词首义已带非空 english
+// 键即视为已含 per-sense english，--apply 拒绝，除非显式 --force-sense-english。
+function hasSenseEnglish(data) {
+  const first = Array.isArray(data) ? data[0] : null
+  const s0 = first && Array.isArray(first.chinese_translations) ? first.chinese_translations[0] : null
+  return !!(s0 && typeof s0 === 'object' && typeof s0.english === 'string' && s0.english.trim())
 }
 
 // ---------- probe 模式 ----------
@@ -392,14 +440,15 @@ function migrateData(data) {
       word: item.word,
       ...(item.phonetic !== undefined ? { phonetic: item.phonetic } : {}),
       english_synonyms: item.english_synonyms,
-      english_explanations: item.english_explanations,
-      chinese_translations: senses,
+      // 英英释义按义项派生（保序去重），维持 string[] 供"看英文解释选单词"模式
+      english_explanations: [...new Set(senses.map((s) => s.english))],
+      chinese_translations: senses.map(({ pos, meaning, english, example }) => ({ pos, meaning, english, example })),
       ...(item.roots !== undefined ? { roots: item.roots } : {}),
     }
     perWord.push({
       word: item.word.join('/'),
       source,
-      senses: senses.map((s) => ({ pos: s.pos, meaning: s.meaning })),
+      senses: senses.map((s) => ({ pos: s.pos, meaning: s.meaning, englishSource: s.englishSource })),
       count: senses.length,
     })
     if (source === 'oxford') oxfordCount++
@@ -441,6 +490,10 @@ async function main() {
       console.error(`幂等保护：${rel} 已是新格式（不含 example_sentences），--apply 拒绝运行`)
       process.exit(4)
     }
+    if (APPLY && hasSenseEnglish(data) && !FORCE_SENSE_ENGLISH) {
+      console.error(`幂等保护：${rel} 已含 per-sense english，--apply 拒绝运行（确需重跑请加 --force-sense-english）`)
+      process.exit(4)
+    }
 
     const { perWord, oxfordCount } = migrateData(data)
     totalWords += perWord.length
@@ -463,28 +516,38 @@ async function main() {
 
     fileStats.push({ rel, words: perWord.length, oxford: oxfordCount, posDist })
     report.push({ rel, perWord })
+    const fileSenses = perWord.reduce((n, w) => n + w.count, 0)
+    const fileOxE = perWord.reduce((n, w) => n + w.senses.filter((s) => s.englishSource === 'oxford').length, 0)
     console.log(`  ${rel}: ${perWord.length} 词，oxford 命中 ${oxfordCount}`)
+    console.log(`    english 来源：oxford ${fileOxE} / fallback-ee ${fileSenses - fileOxE}（共 ${fileSenses} 义项）`)
   }
 
   // ---------- 报告 ----------
   const posDistTotal = {}
   for (const f of fileStats) for (const [k, v] of Object.entries(f.posDist)) posDistTotal[k] = (posDistTotal[k] || 0) + v
 
-  let md = `# 词典迁移 dry-run 报告\n\n`
+  // english 覆盖与来源统计（义项粒度）
+  const allSenses = report.flatMap((r) => r.perWord).flatMap((w) => w.senses)
+  const enOxford = allSenses.filter((s) => s.englishSource === 'oxford').length
+  const enFallback = allSenses.length - enOxford
+  const enCovered = allSenses.length // 健全性断言已保证每个 sense 非空，否则中途 throw
+
+  let md = `# 词典迁移 dry-run 报告（sense-english）\n\n`
   md += `- 词典：\`${path.basename(DICT_PATH || '')}\`（--dict 传入，未入库）\n`
   md += `- 模式：${APPLY ? '**--apply（已落盘）**' : 'dry-run（仅报告 + preview）'}\n`
   md += `- 文件数：${fileStats.length} / 词项总数：${totalWords}\n`
   md += `- 词典命中（oxford）词项：${totalOxford}（${((totalOxford / totalWords) * 100).toFixed(1)}%）\n`
   md += `- 回退（fallback）词项：${totalWords - totalOxford}（${(((totalWords - totalOxford) / totalWords) * 100).toFixed(1)}%）\n\n`
+  md += `## english 覆盖\n\n- 义项总数：${allSenses.length}\n- english 非空：${enCovered}（${((enCovered / allSenses.length) * 100).toFixed(1)}%）\n- 来源 oxford（词典 def 英文段）：${enOxford}（${((enOxford / allSenses.length) * 100).toFixed(1)}%）\n- 来源 fallback-ee（旧 english_explanations）：${enFallback}（${((enFallback / allSenses.length) * 100).toFixed(1)}%）\n\n`
   md += `## 词性分布（全部义项）\n\n| pos | 条数 |\n|---|---|\n`
   for (const [k, v] of Object.entries(posDistTotal).sort((a, b) => b[1] - a[1])) md += `| ${k} | ${v} |\n`
   md += `\n## 分文件统计\n\n| 文件 | 词数 | oxford 命中 | 命中率 |\n|---|---|---|---|\n`
   for (const f of fileStats) md += `| ${f.rel} | ${f.words} | ${f.oxford} | ${((f.oxford / f.words) * 100).toFixed(0)}% |\n`
   md += `\n## 每词明细\n\n`
   for (const { rel, perWord } of report) {
-    md += `### ${rel}\n\n| 词 | 来源 | 条目（pos + meaning） |\n|---|---|---|\n`
+    md += `### ${rel}\n\n| 词 | 来源 | 条目（pos + meaning + english 来源） |\n|---|---|---|\n`
     for (const w of perWord) {
-      md += `| ${w.word} | ${w.source} | ${w.senses.map((s) => `${s.pos} ${s.meaning}`).join('<br>')} |\n`
+      md += `| ${w.word} | ${w.source} | ${w.senses.map((s) => `${s.pos} ${s.meaning}（english: ${s.englishSource}）`).join('<br>')} |\n`
     }
     md += `\n`
   }
