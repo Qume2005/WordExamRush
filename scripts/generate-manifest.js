@@ -16,8 +16,23 @@ function validateWord(word, fileLabel) {
   if (!Array.isArray(word.chinese_translations) || word.chinese_translations.length === 0) {
     throw new Error(`${fileLabel}: chinese_translations 必须是非空数组`)
   }
-  if (typeof word.example_sentences !== 'string') {
-    throw new Error(`${fileLabel}: example_sentences 必须是字符串`)
+  for (let j = 0; j < word.chinese_translations.length; j++) {
+    const sense = word.chinese_translations[j]
+    if (!sense || typeof sense !== 'object') {
+      throw new Error(`${fileLabel}: 第 ${j + 1} 条释义格式不正确`)
+    }
+    if (typeof sense.pos !== 'string' || !sense.pos.trim()) {
+      throw new Error(`${fileLabel}: 第 ${j + 1} 条释义缺少 pos 字段`)
+    }
+    if (typeof sense.meaning !== 'string' || !sense.meaning.trim()) {
+      throw new Error(`${fileLabel}: 第 ${j + 1} 条释义缺少 meaning 字段`)
+    }
+    if (typeof sense.example !== 'string' || !sense.example.trim()) {
+      throw new Error(`${fileLabel}: 第 ${j + 1} 条释义缺少 example 字段`)
+    }
+  }
+  if (word.example_sentences !== undefined) {
+    throw new Error(`${fileLabel}: 存在已废弃字段 example_sentences：例句请写在每条释义的 example 中`)
   }
   if (word.phonetic !== undefined && typeof word.phonetic !== 'string') {
     throw new Error(`${fileLabel}: phonetic 必须是字符串`)
