@@ -11,6 +11,7 @@ import {
 } from '../src/business/quizEngine'
 import { generateCard } from '../src/business/cardGenerator'
 import { parseAndProcess } from '../src/business/wordProcessor'
+import { formatSenseGroups, groupSenses } from '../src/utils/sense'
 import type { ProcessedWord, CardMode, QuizCard } from '../src/types'
 
 function check(cond: unknown, msg: string): void {
@@ -183,5 +184,32 @@ const [mergeResult, mergeErr] = parseAndProcess(mergeSample)
 check(mergeErr === null, 'parseAndProcess merges duplicate senses')
 eq(mergeResult[0].chinese_translations.length, 1, 'merged to 1 sense')
 eq(mergeResult[0].chinese_translations[0].example, 'First example.', 'first example kept')
+
+// groupSenses：相邻且 pos/english/example 全同的释义归并为一组（thylacine 场景）
+const thylacineSenses = [
+  { pos: 'n.', meaning: '袋狼', english: 'EN1', example: 'EX1' },
+  { pos: 'n.', meaning: '塔斯马尼亚虎', english: 'EN1', example: 'EX1' },
+]
+eq(groupSenses(thylacineSenses), [
+  { pos: 'n.', english: 'EN1', example: 'EX1', meanings: ['袋狼', '塔斯马尼亚虎'] },
+], 'groupSenses merges consecutive identical pos/english/example')
+
+// 非相邻的相同条目不归并，保持独立两组
+const nonAdjacentSenses = [
+  { pos: 'n.', meaning: '甲', english: 'EN1', example: 'EX1' },
+  { pos: 'n.', meaning: '乙', english: 'EN2', example: 'EX2' },
+  { pos: 'n.', meaning: '丙', english: 'EN1', example: 'EX1' },
+]
+eq(groupSenses(nonAdjacentSenses).length, 3, 'non-adjacent identical senses stay separate')
+
+// example 不同则拆组，即使 pos/english 相同
+const differingExampleSenses = [
+  { pos: 'v.', meaning: '放弃', english: 'EN1', example: 'EX1' },
+  { pos: 'v.', meaning: '遗弃', english: 'EN1', example: 'EX2' },
+]
+eq(groupSenses(differingExampleSenses).length, 2, 'differing example splits groups')
+
+// formatSenseGroups：组内中文释义用全角斜杠连接，组间用 sep
+eq(formatSenseGroups(groupSenses(thylacineSenses), '；'), 'n. 袋狼／塔斯马尼亚虎', 'formatSenseGroups joins meanings with full-width slash')
 
 console.log('quiz-engine-check: all assertions passed')

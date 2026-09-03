@@ -1,6 +1,6 @@
 <script setup>
 import SparklineChart from './SparklineChart.vue'
-import { formatSenses } from '../utils/sense'
+import { formatSenseGroups, groupSenses } from '../utils/sense'
 
 defineProps({
   rows: { type: Array, required: true },
@@ -25,7 +25,7 @@ const emit = defineEmits(['row-click', 'reset'])
     <tbody>
       <tr v-for="row in rows" :key="row.word.join(',')" @click="$emit('row-click', row)">
         <td class="cell-word">{{ row.word.join(' / ') }}</td>
-        <td class="cell-explanations">{{ formatSenses(row.chineseTranslations, '；') }}</td>
+        <td class="cell-explanations">{{ formatSenseGroups(groupSenses(row.chineseTranslations), '；') }}</td>
         <td class="cell-explanations">{{ row.englishExplanations.join('; ') }}</td>
         <td class="cell-chart">
           <SparklineChart :points="row.points" />

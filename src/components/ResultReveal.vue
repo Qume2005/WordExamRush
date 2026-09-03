@@ -1,6 +1,7 @@
 <script setup>
 import { computed } from 'vue'
 import { shuffle } from '../utils/shuffle'
+import { groupSenses } from '../utils/sense'
 import { speakWord } from '../business/soundManager'
 
 const props = defineProps({
@@ -12,6 +13,7 @@ const emit = defineEmits(['next'])
 
 const shuffledSynonyms = computed(() => shuffle(props.targetWord.english_synonyms))
 const roots = computed(() => props.targetWord.roots || [])
+const senseGroups = computed(() => groupSenses(props.targetWord.chinese_translations))
 </script>
 
 <template>
@@ -66,11 +68,11 @@ const roots = computed(() => props.targetWord.roots || [])
       <div class="detail-section detail-senses">
         <span class="detail-label">中文释义：</span>
         <div class="sense-list">
-          <div v-for="(sense, i) in targetWord.chinese_translations" :key="i" class="sense-entry">
-            <span class="sense-pos">{{ sense.pos }}</span>
-            <span class="sense-meaning">{{ sense.meaning }}</span>
-            <div v-if="sense.english" class="sense-english">{{ sense.english }}</div>
-            <div class="sense-example">{{ sense.example }}</div>
+          <div v-for="(group, gi) in senseGroups" :key="gi" class="sense-entry">
+            <span class="sense-pos">{{ group.pos }}</span>
+            <span class="sense-meaning">{{ group.meanings.join('／') }}</span>
+            <div v-if="group.english" class="sense-english">{{ group.english }}</div>
+            <div class="sense-example">{{ group.example }}</div>
           </div>
         </div>
       </div>
