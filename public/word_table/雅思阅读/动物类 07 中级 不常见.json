@@ -1,1309 +1,4073 @@
 [
   {
-    "word": ["ingenious"],
+    "word": [
+      "ingenious"
+    ],
     "phonetic": "/ɪnˈdʒiːniəs/",
-    "english_synonyms": ["clever", "inventive", "resourceful"],
-    "english_explanations": ["Cleverly inventive and skilful."],
-    "chinese_translations": ["精巧的", "巧妙的"],
-    "example_sentences": "An ingenious experiment tracked the shearwaters with tiny loggers.",
-    "roots": [{"root":"in-","meaning":"in"},{"root":"geni","meaning":"talent"},{"root":"-ous","meaning":"full of"}]
+    "english_synonyms": [
+      "clever",
+      "inventive",
+      "resourceful"
+    ],
+    "english_explanations": [
+      "very suitable for a particular purpose and resulting from clever new ideas"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "adj.",
+        "meaning": "精巧的",
+        "english": "very suitable for a particular purpose and resulting from clever new ideas",
+        "example": "an ingenious device"
+      },
+      {
+        "pos": "adj.",
+        "meaning": "巧妙的",
+        "english": "very suitable for a particular purpose and resulting from clever new ideas",
+        "example": "an ingenious device"
+      }
+    ],
+    "roots": [
+      {
+        "root": "in-",
+        "meaning": "in"
+      },
+      {
+        "root": "geni",
+        "meaning": "talent"
+      },
+      {
+        "root": "-ous",
+        "meaning": "full of"
+      }
+    ]
   },
   {
-    "word": ["notoriously"],
+    "word": [
+      "notoriously"
+    ],
     "phonetic": "/nəʊˈtɔːriəs/",
-    "english_synonyms": ["infamously"],
+    "english_synonyms": [
+      "infamously"
+    ],
     "english_explanations": [
       "To a well-known degree, usually for something bad."
     ],
-    "chinese_translations": ["臭名昭著地", "众所周知地"],
-    "example_sentences": "Island species are notoriously vulnerable to introduced predators."
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "臭名昭著地",
+        "english": "To a well-known degree, usually for something bad.",
+        "example": "Island species are notoriously vulnerable to introduced predators."
+      },
+      {
+        "pos": "v.",
+        "meaning": "众所周知地",
+        "english": "To a well-known degree, usually for something bad.",
+        "example": "Island species are notoriously vulnerable to introduced predators."
+      }
+    ]
   },
   {
-    "word": ["arid"],
+    "word": [
+      "arid"
+    ],
     "phonetic": "/ˈærɪd/",
-    "english_synonyms": ["dry", "parched"],
-    "english_explanations": ["Having little or no rain."],
-    "chinese_translations": ["干旱的", "贫瘠的"],
-    "example_sentences": "Termites thrive in arid grasslands.",
-    "roots": [{"root":"ar","meaning":"dry"},{"root":"-id","meaning":"having the quality of"}]
+    "english_synonyms": [
+      "dry",
+      "parched"
+    ],
+    "english_explanations": [
+      "having little or no rain; very dry",
+      "Having little or no rain."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "adj.",
+        "meaning": "干旱的",
+        "english": "having little or no rain; very dry",
+        "example": "arid and semi-arid deserts"
+      },
+      {
+        "pos": "n.",
+        "meaning": "贫瘠的",
+        "english": "Having little or no rain.",
+        "example": "Termites thrive in arid grasslands."
+      }
+    ],
+    "roots": [
+      {
+        "root": "ar",
+        "meaning": "dry"
+      },
+      {
+        "root": "-id",
+        "meaning": "having the quality of"
+      }
+    ]
   },
   {
-    "word": ["shrub"],
+    "word": [
+      "shrub"
+    ],
     "phonetic": "/ʃrʌb/",
-    "english_synonyms": ["bush"],
+    "english_synonyms": [
+      "bush"
+    ],
     "english_explanations": [
       "A woody plant smaller than a tree, with several stems."
     ],
-    "chinese_translations": ["灌木"],
-    "example_sentences": "Finches nest in the low shrubs."
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "灌木",
+        "english": "A woody plant smaller than a tree, with several stems.",
+        "example": "Finches nest in the low shrubs."
+      }
+    ]
   },
   {
-    "word": ["abrupt"],
+    "word": [
+      "abrupt"
+    ],
     "phonetic": "/əˈbrʌpt/",
-    "english_synonyms": ["sudden", "unexpected"],
-    "english_explanations": ["Sudden and unexpected."],
-    "chinese_translations": ["突然的", "意外的"],
-    "example_sentences": "An abrupt change in the current swept the school aside.",
-    "roots": [{"root":"ab-","meaning":"away"},{"root":"rupt","meaning":"break"}]
+    "english_synonyms": [
+      "sudden",
+      "unexpected"
+    ],
+    "english_explanations": [
+      "sudden and unexpected, often in an unpleasant way"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "adj.",
+        "meaning": "突然的",
+        "english": "sudden and unexpected, often in an unpleasant way",
+        "example": "an abrupt change/halt/departure"
+      },
+      {
+        "pos": "adj.",
+        "meaning": "意外的",
+        "english": "sudden and unexpected, often in an unpleasant way",
+        "example": "an abrupt change/halt/departure"
+      }
+    ],
+    "roots": [
+      {
+        "root": "ab-",
+        "meaning": "away"
+      },
+      {
+        "root": "rupt",
+        "meaning": "break"
+      }
+    ]
   },
   {
-    "word": ["pigment"],
+    "word": [
+      "pigment"
+    ],
     "phonetic": "/ˈpɪɡmənt/",
-    "english_synonyms": ["colouring matter"],
+    "english_synonyms": [
+      "colouring matter"
+    ],
     "english_explanations": [
       "A substance that gives colour to a tissue or cell."
     ],
-    "chinese_translations": ["色素"],
-    "example_sentences": "Red pigment absorbs the last traces of sunlight below the surface.",
-    "roots": [{"root":"pig","meaning":"paint"},{"root":"-ment","meaning":"result of"}]
-  },
-  {
-    "word": ["soar"],
-    "phonetic": "/sɔː(r)/",
-    "english_synonyms": ["rise high", "fly upward", "climb"],
-    "english_explanations": [
-      "To fly or rise high; to increase rapidly."
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "色素",
+        "english": "A substance that gives colour to a tissue or cell.",
+        "example": "Red pigment absorbs the last traces of sunlight below the surface."
+      }
     ],
-    "chinese_translations": ["翱翔", "猛增", "高飞"],
-    "example_sentences": "Temperatures inside the mound soar at midday."
+    "roots": [
+      {
+        "root": "pig",
+        "meaning": "paint"
+      },
+      {
+        "root": "-ment",
+        "meaning": "result of"
+      }
+    ]
   },
   {
-    "word": ["futile"],
-    "phonetic": "/ˈfjuːtaɪl/",
-    "english_synonyms": ["pointless", "useless", "fruitless"],
-    "english_explanations": ["Producing no result; pointless."],
-    "chinese_translations": ["徒劳的", "无用的"],
-    "example_sentences": "Flapping into a headwind is futile for a heavy bird."
-  },
-  {
-    "word": ["melancholy"],
-    "phonetic": "/ˈmelənkəli/",
-    "english_synonyms": ["sadness", "gloom", "dejection"],
+    "word": [
+      "soar"
+    ],
+    "phonetic": "/sɔː(r)/",
+    "english_synonyms": [
+      "rise high",
+      "fly upward",
+      "climb"
+    ],
     "english_explanations": [
+      "to fly very high in the air or remain high in the air",
+      "if the value, amount or level of sth soars, it rises very quickly"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "翱翔",
+        "english": "to fly very high in the air or remain high in the air",
+        "example": "an eagle soaring high above the cliffs"
+      },
+      {
+        "pos": "v.",
+        "meaning": "猛增",
+        "english": "if the value, amount or level of sth soars, it rises very quickly",
+        "example": "soaring costs/prices/temperatures"
+      },
+      {
+        "pos": "v.",
+        "meaning": "高飞",
+        "english": "to fly very high in the air or remain high in the air",
+        "example": "an eagle soaring high above the cliffs"
+      }
+    ]
+  },
+  {
+    "word": [
+      "futile"
+    ],
+    "phonetic": "/ˈfjuːtaɪl/",
+    "english_synonyms": [
+      "pointless",
+      "useless",
+      "fruitless"
+    ],
+    "english_explanations": [
+      "having no purpose because there is no chance of success",
+      "Producing no result; pointless."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "adj.",
+        "meaning": "徒劳的",
+        "english": "having no purpose because there is no chance of success",
+        "example": "a futile attempt/exercise/gesture"
+      },
+      {
+        "pos": "n.",
+        "meaning": "无用的",
+        "english": "Producing no result; pointless.",
+        "example": "Flapping into a headwind is futile for a heavy bird."
+      }
+    ]
+  },
+  {
+    "word": [
+      "melancholy"
+    ],
+    "phonetic": "/ˈmelənkəli/",
+    "english_synonyms": [
+      "sadness",
+      "gloom",
+      "dejection"
+    ],
+    "english_explanations": [
+      "a deep feeling of sadness that lasts for a long time and often cannot be explained",
       "A sad, thoughtful mood; sad."
     ],
-    "chinese_translations": ["忧郁", "忧郁的"],
-    "example_sentences": "The owl's call carried a note of melancholy."
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "忧郁",
+        "english": "a deep feeling of sadness that lasts for a long time and often cannot be explained",
+        "example": "A mood of melancholy descended on us."
+      },
+      {
+        "pos": "n.",
+        "meaning": "忧郁的",
+        "english": "A sad, thoughtful mood; sad.",
+        "example": "The owl's call carried a note of melancholy."
+      }
+    ]
   },
   {
-    "word": ["dazzling"],
+    "word": [
+      "dazzling"
+    ],
     "phonetic": "/ˈdæzl/",
-    "english_synonyms": ["blinding", "brilliant", "stunning"],
+    "english_synonyms": [
+      "blinding",
+      "brilliant",
+      "stunning"
+    ],
     "english_explanations": [
       "Extremely bright or impressive."
     ],
-    "chinese_translations": ["耀眼的", "使人眩目的"],
-    "example_sentences": "The fish flashed a dazzling silver flank."
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "耀眼的",
+        "english": "Extremely bright or impressive.",
+        "example": "The fish flashed a dazzling silver flank."
+      },
+      {
+        "pos": "n.",
+        "meaning": "使人眩目的",
+        "english": "Extremely bright or impressive.",
+        "example": "The fish flashed a dazzling silver flank."
+      }
+    ]
   },
   {
-    "word": ["scatter"],
-    "phonetic": "/ˈskætə(r)/",
-    "english_synonyms": ["disperse", "spread", "strew"],
-    "english_explanations": [
-      "To throw about loosely; to move apart in different directions."
+    "word": [
+      "scatter"
     ],
-    "chinese_translations": ["散布", "驱散", "分散"],
-    "example_sentences": "The flock scatters when a falcon appears."
+    "phonetic": "/ˈskætə(r)/",
+    "english_synonyms": [
+      "disperse",
+      "spread",
+      "strew"
+    ],
+    "english_explanations": [
+      "To throw about loosely; to move apart in different directions.",
+      "to move or to make people or animals move very quickly in different directions"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "散布",
+        "english": "To throw about loosely; to move apart in different directions.",
+        "example": "The flock scatters when a falcon appears."
+      },
+      {
+        "pos": "v.",
+        "meaning": "驱散",
+        "english": "to move or to make people or animals move very quickly in different directions",
+        "example": "At the first gunshot, the crowd scattered."
+      },
+      {
+        "pos": "v.",
+        "meaning": "分散",
+        "english": "to move or to make people or animals move very quickly in different directions",
+        "example": "At the first gunshot, the crowd scattered."
+      }
+    ]
   },
   {
-    "word": ["vanish"],
+    "word": [
+      "vanish"
+    ],
     "phonetic": "/ˈvænɪʃ/",
-    "english_synonyms": ["disappear", "fade"],
+    "english_synonyms": [
+      "disappear",
+      "fade"
+    ],
     "english_explanations": [
+      "to disappear suddenly and/or in a way that you cannot explain",
       "To disappear suddenly and completely."
     ],
-    "chinese_translations": ["消失", "突然不见"],
-    "example_sentences": "The megafauna vanished within a few thousand years."
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "消失",
+        "english": "to disappear suddenly and/or in a way that you cannot explain",
+        "example": "The magician vanished in a puff of smoke."
+      },
+      {
+        "pos": "v.",
+        "meaning": "突然不见",
+        "english": "To disappear suddenly and completely.",
+        "example": "The megafauna vanished within a few thousand years."
+      }
+    ]
   },
   {
-    "word": ["camouflage"],
-    "phonetic": "/ˈkæməflɑːʒ/",
-    "english_synonyms": ["disguise", "concealment"],
-    "english_explanations": [
-      "Colouring or shape that hides an animal in its surroundings."
+    "word": [
+      "camouflage"
     ],
-    "chinese_translations": ["伪装", "掩饰"],
-    "example_sentences": "The giraffe's patchwork coat is camouflage among the acacias."
+    "phonetic": "/ˈkæməflɑːʒ/",
+    "english_synonyms": [
+      "disguise",
+      "concealment"
+    ],
+    "english_explanations": [
+      "a way of hiding soldiers and military equipment, using paint, leaves or nets, so that they look like part of their surroundings",
+      "to hide sb/sth by making them or it look like the things around, or like sth else"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "伪装",
+        "english": "a way of hiding soldiers and military equipment, using paint, leaves or nets, so that they look like part of their surroundings",
+        "example": "a camouflage jacket (= covered with green and brown marks and worn by soldiers)"
+      },
+      {
+        "pos": "v.",
+        "meaning": "掩饰",
+        "english": "to hide sb/sth by making them or it look like the things around, or like sth else",
+        "example": "The soldiers camouflaged themselves with leaves."
+      }
+    ]
   },
   {
-    "word": ["sediment"],
+    "word": [
+      "sediment"
+    ],
     "phonetic": "/ˈsedɪmənt/",
-    "english_synonyms": ["deposit", "silt"],
+    "english_synonyms": [
+      "deposit",
+      "silt"
+    ],
     "english_explanations": [
       "Matter that settles to the bottom of water or wind."
     ],
-    "chinese_translations": ["沉积物", "沉积层"],
-    "example_sentences": "Dinosaur tracks lay buried in ancient sediment.",
-    "roots": [{"root":"sed","meaning":"settle"},{"root":"-iment","meaning":"that which"}]
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "沉积物",
+        "english": "Matter that settles to the bottom of water or wind.",
+        "example": "Dinosaur tracks lay buried in ancient sediment."
+      },
+      {
+        "pos": "n.",
+        "meaning": "沉积层",
+        "english": "Matter that settles to the bottom of water or wind.",
+        "example": "Dinosaur tracks lay buried in ancient sediment."
+      }
+    ],
+    "roots": [
+      {
+        "root": "sed",
+        "meaning": "settle"
+      },
+      {
+        "root": "-iment",
+        "meaning": "that which"
+      }
+    ]
   },
   {
-    "word": ["cultivate"],
+    "word": [
+      "cultivate"
+    ],
     "phonetic": "/ˈkʌltɪveɪt/",
-    "english_synonyms": ["grow", "farm", "foster"],
+    "english_synonyms": [
+      "grow",
+      "farm",
+      "foster"
+    ],
     "english_explanations": [
+      "to grow plants or crops",
       "To prepare land and raise crops; to encourage the growth of."
     ],
-    "chinese_translations": ["培育", "种植", "培养"],
-    "example_sentences": "The ants cultivate a fungus in underground gardens.",
-    "roots": [{"root":"cultiv","meaning":"till"},{"root":"-ate","meaning":"to perform"}]
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "培育",
+        "english": "to grow plants or crops",
+        "example": "The people cultivate mainly rice and beans."
+      },
+      {
+        "pos": "v.",
+        "meaning": "种植",
+        "english": "to grow plants or crops",
+        "example": "The people cultivate mainly rice and beans."
+      },
+      {
+        "pos": "v.",
+        "meaning": "培养",
+        "english": "To prepare land and raise crops; to encourage the growth of.",
+        "example": "The ants cultivate a fungus in underground gardens."
+      }
+    ],
+    "roots": [
+      {
+        "root": "cultiv",
+        "meaning": "till"
+      },
+      {
+        "root": "-ate",
+        "meaning": "to perform"
+      }
+    ]
   },
   {
-    "word": ["vibration"],
+    "word": [
+      "vibration"
+    ],
     "phonetic": "/vaɪˈbreɪʃn/",
-    "english_synonyms": ["oscillation", "tremor"],
-    "english_explanations": [
-      "A continuous slight shaking movement."
+    "english_synonyms": [
+      "oscillation",
+      "tremor"
     ],
-    "chinese_translations": ["振动", "颤动"],
-    "example_sentences": "Elephants answer distant vibrations felt through the ground.",
-    "roots": [{"root":"vibr","meaning":"shake"},{"root":"-ation","meaning":"act of"}]
+    "english_explanations": [
+      "A continuous slight shaking movement.",
+      "a continuous shaking movement or feeling"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "振动",
+        "english": "A continuous slight shaking movement.",
+        "example": "Elephants answer distant vibrations felt through the ground."
+      },
+      {
+        "pos": "n.",
+        "meaning": "颤动",
+        "english": "a continuous shaking movement or feeling",
+        "example": "We could feel the vibrations from the trucks passing outside."
+      }
+    ],
+    "roots": [
+      {
+        "root": "vibr",
+        "meaning": "shake"
+      },
+      {
+        "root": "-ation",
+        "meaning": "act of"
+      }
+    ]
   },
   {
-    "word": ["pouch"],
+    "word": [
+      "pouch"
+    ],
     "phonetic": "/paʊtʃ/",
-    "english_synonyms": ["sac", "pocket"],
-    "english_explanations": [
-      "A pocket-like fold of skin, as in a marsupial."
+    "english_synonyms": [
+      "sac",
+      "pocket"
     ],
-    "chinese_translations": ["育儿袋", "小袋"],
-    "example_sentences": "The joey completes its development in the pouch."
+    "english_explanations": [
+      "A pocket-like fold of skin, as in a marsupial.",
+      "a small bag, usually made of leather, and often carried in a pocket or attached to a belt"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "育儿袋",
+        "english": "A pocket-like fold of skin, as in a marsupial.",
+        "example": "The joey completes its development in the pouch."
+      },
+      {
+        "pos": "n.",
+        "meaning": "小袋",
+        "english": "a small bag, usually made of leather, and often carried in a pocket or attached to a belt",
+        "example": "a tobacco pouch"
+      }
+    ]
   },
   {
-    "word": ["ancestral"],
+    "word": [
+      "ancestral"
+    ],
     "phonetic": "/ˈænsestə(r)/",
-    "english_synonyms": ["of one's ancestors", "passed down"],
+    "english_synonyms": [
+      "of one's ancestors",
+      "passed down"
+    ],
     "english_explanations": [
       "Belonging to or inherited from ancestors."
     ],
-    "chinese_translations": ["祖先的", "祖传的"],
-    "example_sentences": "The storks follow an ancestral flyway.",
-    "roots": [{"root":"ancestr","meaning":"ancestor"},{"root":"-al","meaning":"relating to"}]
-  },
-  {
-    "word": ["dusk"],
-    "phonetic": "/dʌsk/",
-    "english_synonyms": ["nightfall", "twilight", "sunset"],
-    "english_explanations": [
-      "The darker part of twilight, just before night."
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "祖先的",
+        "english": "Belonging to or inherited from ancestors.",
+        "example": "The storks follow an ancestral flyway."
+      },
+      {
+        "pos": "n.",
+        "meaning": "祖传的",
+        "english": "Belonging to or inherited from ancestors.",
+        "example": "The storks follow an ancestral flyway."
+      }
     ],
-    "chinese_translations": ["黄昏", "傍晚"],
-    "example_sentences": "The owl stirs from its roost at dusk."
+    "roots": [
+      {
+        "root": "ancestr",
+        "meaning": "ancestor"
+      },
+      {
+        "root": "-al",
+        "meaning": "relating to"
+      }
+    ]
   },
   {
-    "word": ["proponent"],
+    "word": [
+      "dusk"
+    ],
+    "phonetic": "/dʌsk/",
+    "english_synonyms": [
+      "nightfall",
+      "twilight",
+      "sunset"
+    ],
+    "english_explanations": [
+      "the time of day when the light has almost gone, but it is not yet dark"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "黄昏",
+        "english": "the time of day when the light has almost gone, but it is not yet dark",
+        "example": "The street lights go on at dusk."
+      },
+      {
+        "pos": "n.",
+        "meaning": "傍晚",
+        "english": "the time of day when the light has almost gone, but it is not yet dark",
+        "example": "The street lights go on at dusk."
+      }
+    ]
+  },
+  {
+    "word": [
+      "proponent"
+    ],
     "phonetic": "/prəˈpəʊnənt/",
-    "english_synonyms": ["supporter", "advocate", "champion"],
+    "english_synonyms": [
+      "supporter",
+      "advocate",
+      "champion"
+    ],
     "english_explanations": [
       "A person who argues publicly for a theory or proposal."
     ],
-    "chinese_translations": ["支持者", "拥护者"],
-    "example_sentences": "Proponents of the overkill theory cite butchered bones."
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "支持者",
+        "english": "A person who argues publicly for a theory or proposal.",
+        "example": "Proponents of the overkill theory cite butchered bones."
+      },
+      {
+        "pos": "n.",
+        "meaning": "拥护者",
+        "english": "A person who argues publicly for a theory or proposal.",
+        "example": "Proponents of the overkill theory cite butchered bones."
+      }
+    ]
   },
   {
-    "word": ["elusive"],
+    "word": [
+      "elusive"
+    ],
     "phonetic": "/iˈluːsɪv/",
-    "english_synonyms": ["evasive", "hard to catch"],
+    "english_synonyms": [
+      "evasive",
+      "hard to catch"
+    ],
     "english_explanations": [
       "Difficult to find, catch, or achieve."
     ],
-    "chinese_translations": ["难以捉摸的", "难以找到的"],
-    "example_sentences": "The thylacine remains an elusive symbol of lost wildlife.",
-    "roots": [{"root":"e-","meaning":"out"},{"root":"lus","meaning":"play"},{"root":"-ive","meaning":"tending to"}]
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "难以捉摸的",
+        "english": "Difficult to find, catch, or achieve.",
+        "example": "The thylacine remains an elusive symbol of lost wildlife."
+      },
+      {
+        "pos": "n.",
+        "meaning": "难以找到的",
+        "english": "Difficult to find, catch, or achieve.",
+        "example": "The thylacine remains an elusive symbol of lost wildlife."
+      }
+    ],
+    "roots": [
+      {
+        "root": "e-",
+        "meaning": "out"
+      },
+      {
+        "root": "lus",
+        "meaning": "play"
+      },
+      {
+        "root": "-ive",
+        "meaning": "tending to"
+      }
+    ]
   },
   {
-    "word": ["biodiversity"],
+    "word": [
+      "biodiversity"
+    ],
     "phonetic": "/ˌbaɪəʊdaɪˈvɜːsəti/",
     "english_synonyms": [],
     "english_explanations": [
       "The variety of plant and animal life in a habitat."
     ],
-    "chinese_translations": ["生物多样性"],
-    "example_sentences": "Islands pack remarkable biodiversity into small areas.",
-    "roots": [{"root":"bio-","meaning":"life"},{"root":"divers","meaning":"different"},{"root":"-ity","meaning":"quality of"}]
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "生物多样性",
+        "english": "The variety of plant and animal life in a habitat.",
+        "example": "Islands pack remarkable biodiversity into small areas."
+      }
+    ],
+    "roots": [
+      {
+        "root": "bio-",
+        "meaning": "life"
+      },
+      {
+        "root": "divers",
+        "meaning": "different"
+      },
+      {
+        "root": "-ity",
+        "meaning": "quality of"
+      }
+    ]
   },
   {
-    "word": ["anomaly"],
+    "word": [
+      "anomaly"
+    ],
     "phonetic": "/əˈnɒməli/",
-    "english_synonyms": ["irregularity", "abnormality", "outlier"],
-    "english_explanations": [
-      "Something that deviates from what is normal or expected."
+    "english_synonyms": [
+      "irregularity",
+      "abnormality",
+      "outlier"
     ],
-    "chinese_translations": ["异常", "反常"],
-    "example_sentences": "The trackways showed a curious anomaly in stride length."
+    "english_explanations": [
+      "a thing, situation, etc. that is different from what is normal or expected"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "异常",
+        "english": "a thing, situation, etc. that is different from what is normal or expected",
+        "example": "the many anomalies in the tax system"
+      },
+      {
+        "pos": "n.",
+        "meaning": "反常",
+        "english": "a thing, situation, etc. that is different from what is normal or expected",
+        "example": "the many anomalies in the tax system"
+      }
+    ]
   },
   {
-    "word": ["turbulent"],
+    "word": [
+      "turbulent"
+    ],
     "phonetic": "/ˈtɜːbjələnt/",
-    "english_synonyms": ["rough", "agitated", "choppy"],
-    "english_explanations": [
-      "(of air or water) moving irregularly and violently."
+    "english_synonyms": [
+      "rough",
+      "agitated",
+      "choppy"
     ],
-    "chinese_translations": ["湍流的", "汹涌的"],
-    "example_sentences": "Turbulent eddies form behind a swimming penguin.",
-    "roots": [{"root":"turb","meaning":"disturb"},{"root":"-ulent","meaning":"full of"}]
+    "english_explanations": [
+      "(of air or water) moving irregularly and violently.",
+      "changing direction suddenly and violently"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "湍流的",
+        "english": "(of air or water) moving irregularly and violently.",
+        "example": "Turbulent eddies form behind a swimming penguin."
+      },
+      {
+        "pos": "adj.",
+        "meaning": "汹涌的",
+        "english": "changing direction suddenly and violently",
+        "example": "The aircraft is designed to withstand turbulent conditions."
+      }
+    ],
+    "roots": [
+      {
+        "root": "turb",
+        "meaning": "disturb"
+      },
+      {
+        "root": "-ulent",
+        "meaning": "full of"
+      }
+    ]
   },
   {
-    "word": ["turbulence"],
+    "word": [
+      "turbulence"
+    ],
     "phonetic": "/ˈtɜːbjələns/",
-    "english_synonyms": ["rough flow", "agitation"],
+    "english_synonyms": [
+      "rough flow",
+      "agitation"
+    ],
     "english_explanations": [
+      "a series of sudden and violent changes in the direction that air or water is moving in",
       "Violent, irregular motion in air or water."
     ],
-    "chinese_translations": ["湍流", "湍流现象"],
-    "example_sentences": "Gliding birds save energy in turbulence.",
-    "roots": [{"root":"turb","meaning":"disturb"},{"root":"-ulence","meaning":"quality of"}]
-  },
-  {
-    "word": ["plight"],
-    "phonetic": "/plaɪt/",
-    "english_synonyms": ["predicament", "difficult situation", "dilemma"],
-    "english_explanations": [
-      "A dangerous or unfortunate situation."
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "湍流",
+        "english": "a series of sudden and violent changes in the direction that air or water is moving in",
+        "example": "We experienced severe turbulence during the flight."
+      },
+      {
+        "pos": "n.",
+        "meaning": "湍流现象",
+        "english": "Violent, irregular motion in air or water.",
+        "example": "Gliding birds save energy in turbulence."
+      }
     ],
-    "chinese_translations": ["困境", "苦境"],
-    "example_sentences": "Documentaries publicized the otters' plight."
+    "roots": [
+      {
+        "root": "turb",
+        "meaning": "disturb"
+      },
+      {
+        "root": "-ulence",
+        "meaning": "quality of"
+      }
+    ]
   },
   {
-    "word": ["parasite"],
+    "word": [
+      "plight"
+    ],
+    "phonetic": "/plaɪt/",
+    "english_synonyms": [
+      "predicament",
+      "difficult situation",
+      "dilemma"
+    ],
+    "english_explanations": [
+      "a difficult and sad situation"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "困境",
+        "english": "a difficult and sad situation",
+        "example": "the plight of the homeless"
+      },
+      {
+        "pos": "n.",
+        "meaning": "苦境",
+        "english": "a difficult and sad situation",
+        "example": "the plight of the homeless"
+      }
+    ]
+  },
+  {
+    "word": [
+      "parasite"
+    ],
     "phonetic": "/ˈpærəsaɪt/",
     "english_synonyms": [],
     "english_explanations": [
       "An organism that lives on or in a host and feeds at its expense."
     ],
-    "chinese_translations": ["寄生虫"],
-    "example_sentences": "A parasite weakens the caterpillar from within.",
-    "roots": [{"root":"para-","meaning":"beside"},{"root":"site","meaning":"food"}]
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "寄生虫",
+        "english": "An organism that lives on or in a host and feeds at its expense.",
+        "example": "A parasite weakens the caterpillar from within."
+      }
+    ],
+    "roots": [
+      {
+        "root": "para-",
+        "meaning": "beside"
+      },
+      {
+        "root": "site",
+        "meaning": "food"
+      }
+    ]
   },
   {
-    "word": ["parasitic"],
+    "word": [
+      "parasitic"
+    ],
     "phonetic": "/ˌpærəˈsɪtɪk/",
     "english_synonyms": [],
     "english_explanations": [
-      "Living on or in a host and harming it."
+      "living on another animal or plant and getting its food from it"
     ],
-    "chinese_translations": ["寄生的"],
-    "example_sentences": "Parasitic flies lay their eggs on the worker ants.",
-    "roots": [{"root":"para-","meaning":"beside"},{"root":"sit","meaning":"food"},{"root":"-ic","meaning":"relating to"}]
+    "chinese_translations": [
+      {
+        "pos": "adj.",
+        "meaning": "寄生的",
+        "english": "living on another animal or plant and getting its food from it",
+        "example": "a parasitic mite"
+      }
+    ],
+    "roots": [
+      {
+        "root": "para-",
+        "meaning": "beside"
+      },
+      {
+        "root": "sit",
+        "meaning": "food"
+      },
+      {
+        "root": "-ic",
+        "meaning": "relating to"
+      }
+    ]
   },
   {
-    "word": ["toxin"],
+    "word": [
+      "toxin"
+    ],
     "phonetic": "/ˈtɒksɪn/",
-    "english_synonyms": ["poison", "poisonous substance"],
+    "english_synonyms": [
+      "poison",
+      "poisonous substance"
+    ],
     "english_explanations": [
       "A poisonous substance produced by a living organism."
     ],
-    "chinese_translations": ["毒素"],
-    "example_sentences": "Monkeys avoid leaves rich in toxins.",
-    "roots": [{"root":"tox","meaning":"poison"},{"root":"-in","meaning":"substance"}]
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "毒素",
+        "english": "A poisonous substance produced by a living organism.",
+        "example": "Monkeys avoid leaves rich in toxins."
+      }
+    ],
+    "roots": [
+      {
+        "root": "tox",
+        "meaning": "poison"
+      },
+      {
+        "root": "-in",
+        "meaning": "substance"
+      }
+    ]
   },
   {
-    "word": ["relentless"],
+    "word": [
+      "relentless"
+    ],
     "phonetic": "/rɪˈlentləs/",
-    "english_synonyms": ["ceaseless", "unrelenting", "persistent"],
+    "english_synonyms": [
+      "ceaseless",
+      "unrelenting",
+      "persistent"
+    ],
     "english_explanations": [
+      "refusing to give up or be less strict or severe",
       "Never stopping; harshly constant."
     ],
-    "chinese_translations": ["无情的", "持续不断的"],
-    "example_sentences": "Relentless logging shrank the forest."
+    "chinese_translations": [
+      {
+        "pos": "adj.",
+        "meaning": "无情的",
+        "english": "refusing to give up or be less strict or severe",
+        "example": "a relentless enemy"
+      },
+      {
+        "pos": "n.",
+        "meaning": "持续不断的",
+        "english": "Never stopping; harshly constant.",
+        "example": "Relentless logging shrank the forest."
+      }
+    ]
   },
   {
-    "word": ["submerge"],
+    "word": [
+      "submerge"
+    ],
     "phonetic": "/səbˈmɜːdʒ/",
-    "english_synonyms": ["sink", "immerse", "dive under"],
-    "english_explanations": [
-      "To put or go under water."
+    "english_synonyms": [
+      "sink",
+      "immerse",
+      "dive under"
     ],
-    "chinese_translations": ["淹没", "浸没", "潜入水中"],
-    "example_sentences": "The otter submerges with one smooth kick.",
-    "roots": [{"root":"sub-","meaning":"under"},{"root":"merge","meaning":"dip"}]
+    "english_explanations": [
+      "to go under the surface of water or liquid; to put sth or make sth go under the surface of water or liquid"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "淹没",
+        "english": "to go under the surface of water or liquid; to put sth or make sth go under the surface of water or liquid",
+        "example": "The submarine had had time to submerge before the warship could approach."
+      },
+      {
+        "pos": "v.",
+        "meaning": "浸没",
+        "english": "to go under the surface of water or liquid; to put sth or make sth go under the surface of water or liquid",
+        "example": "The submarine had had time to submerge before the warship could approach."
+      },
+      {
+        "pos": "v.",
+        "meaning": "潜入水中",
+        "english": "to go under the surface of water or liquid; to put sth or make sth go under the surface of water or liquid",
+        "example": "The submarine had had time to submerge before the warship could approach."
+      }
+    ],
+    "roots": [
+      {
+        "root": "sub-",
+        "meaning": "under"
+      },
+      {
+        "root": "merge",
+        "meaning": "dip"
+      }
+    ]
   },
   {
-    "word": ["symmetry"],
+    "word": [
+      "symmetry"
+    ],
     "phonetic": "/ˈsɪmətri/",
-    "english_synonyms": ["balance", "evenness"],
-    "english_explanations": [
-      "Exact correspondence of form on opposite sides of a dividing line."
+    "english_synonyms": [
+      "balance",
+      "evenness"
     ],
-    "chinese_translations": ["对称", "对称性"],
-    "example_sentences": "The trackway's symmetry revealed a walking gait.",
-    "roots": [{"root":"sym-","meaning":"together"},{"root":"metr","meaning":"measure"},{"root":"-y","meaning":"state of"}]
+    "english_explanations": [
+      "the exact match in size and shape between two halves, parts or sides of sth"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "对称",
+        "english": "the exact match in size and shape between two halves, parts or sides of sth",
+        "example": "the perfect symmetry of the garden design"
+      },
+      {
+        "pos": "n.",
+        "meaning": "对称性",
+        "english": "the exact match in size and shape between two halves, parts or sides of sth",
+        "example": "the perfect symmetry of the garden design"
+      }
+    ],
+    "roots": [
+      {
+        "root": "sym-",
+        "meaning": "together"
+      },
+      {
+        "root": "metr",
+        "meaning": "measure"
+      },
+      {
+        "root": "-y",
+        "meaning": "state of"
+      }
+    ]
   },
   {
-    "word": ["canopy"],
+    "word": [
+      "canopy"
+    ],
     "phonetic": "/ˈkænəpi/",
     "english_synonyms": [],
     "english_explanations": [
-      "The uppermost layer of a forest, formed by tree crowns."
+      "The uppermost layer of a forest, formed by tree crowns.",
+      "a layer of sth that spreads over an area like a roof, especially branches of trees in a forest"
     ],
-    "chinese_translations": ["树冠层", "冠层"],
-    "example_sentences": "Monkeys travel through the canopy without descending."
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "树冠层",
+        "english": "The uppermost layer of a forest, formed by tree crowns.",
+        "example": "Monkeys travel through the canopy without descending."
+      },
+      {
+        "pos": "n.",
+        "meaning": "冠层",
+        "english": "a layer of sth that spreads over an area like a roof, especially branches of trees in a forest",
+        "example": "The canopy of a rainforest is about 10 metres thick."
+      }
+    ]
   },
   {
-    "word": ["fauna"],
+    "word": [
+      "fauna"
+    ],
     "phonetic": "/ˈfɔːnə/",
     "english_synonyms": [],
     "english_explanations": [
-      "The animals of a particular region or period."
+      "all the animals living in an area or in a particular period of history"
     ],
-    "chinese_translations": ["动物群", "动物区系"],
-    "example_sentences": "The cave fauna includes bats and blind fish."
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "动物群",
+        "english": "all the animals living in an area or in a particular period of history",
+        "example": "the local flora and fauna (= plants and animals)"
+      },
+      {
+        "pos": "n.",
+        "meaning": "动物区系",
+        "english": "all the animals living in an area or in a particular period of history",
+        "example": "the local flora and fauna (= plants and animals)"
+      }
+    ]
   },
   {
-    "word": ["flora"],
+    "word": [
+      "flora"
+    ],
     "phonetic": "/ˈflɔːrə/",
     "english_synonyms": [],
     "english_explanations": [
-      "The plants of a particular region or period."
+      "the plants of a particular area, type of environment or period of time"
     ],
-    "chinese_translations": ["植物群", "植物区系"],
-    "example_sentences": "The island flora includes twenty endemic species."
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "植物群",
+        "english": "the plants of a particular area, type of environment or period of time",
+        "example": "alpine flora"
+      },
+      {
+        "pos": "n.",
+        "meaning": "植物区系",
+        "english": "the plants of a particular area, type of environment or period of time",
+        "example": "alpine flora"
+      }
+    ]
   },
   {
-    "word": ["inhabit"],
+    "word": [
+      "inhabit"
+    ],
     "phonetic": "/ɪnˈhæbɪt/",
-    "english_synonyms": ["dwell in", "occupy", "live in"],
-    "english_explanations": ["To live in or occupy a place."],
-    "chinese_translations": ["栖息于", "居住于"],
-    "example_sentences": "Tuatara inhabit cold burrows on offshore islands."
-  },
-  {
-    "word": ["starve"],
-    "phonetic": "/stɑːv/",
-    "english_synonyms": ["go hungry", "famish"],
-    "english_explanations": [
-      "To suffer or die from lack of food."
+    "english_synonyms": [
+      "dwell in",
+      "occupy",
+      "live in"
     ],
-    "chinese_translations": ["挨饿", "饿死"],
-    "example_sentences": "Chicks starve if the fish stocks fail."
+    "english_explanations": [
+      "To live in or occupy a place."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "栖息于",
+        "english": "To live in or occupy a place.",
+        "example": "Tuatara inhabit cold burrows on offshore islands."
+      },
+      {
+        "pos": "v.",
+        "meaning": "居住于",
+        "english": "To live in or occupy a place.",
+        "example": "Tuatara inhabit cold burrows on offshore islands."
+      }
+    ]
   },
   {
-    "word": ["persist"],
-    "phonetic": "/pəˈsɪst/",
-    "english_synonyms": ["continue", "live on", "carry on"],
+    "word": [
+      "starve"
+    ],
+    "phonetic": "/stɑːv/",
+    "english_synonyms": [
+      "go hungry",
+      "famish"
+    ],
     "english_explanations": [
+      "to suffer or die because you do not have enough food to eat; to make sb suffer or die in this way"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "挨饿",
+        "english": "to suffer or die because you do not have enough food to eat; to make sb suffer or die in this way",
+        "example": "The animals were left to starve to death."
+      },
+      {
+        "pos": "v.",
+        "meaning": "饿死",
+        "english": "to suffer or die because you do not have enough food to eat; to make sb suffer or die in this way",
+        "example": "The animals were left to starve to death."
+      }
+    ]
+  },
+  {
+    "word": [
+      "persist"
+    ],
+    "phonetic": "/pəˈsɪst/",
+    "english_synonyms": [
+      "continue",
+      "live on",
+      "carry on"
+    ],
+    "english_explanations": [
+      "to continue to exist",
       "To continue to exist despite difficulty."
     ],
-    "chinese_translations": ["持续存在", "坚持下去"],
-    "example_sentences": "A few populations persist in remote valleys."
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "持续存在",
+        "english": "to continue to exist",
+        "example": "If the symptoms persist, consult your doctor."
+      },
+      {
+        "pos": "v.",
+        "meaning": "坚持下去",
+        "english": "To continue to exist despite difficulty.",
+        "example": "A few populations persist in remote valleys."
+      }
+    ]
   },
   {
-    "word": ["flourish"],
+    "word": [
+      "flourish"
+    ],
     "phonetic": "/ˈflʌrɪʃ/",
-    "english_synonyms": ["prosper", "burgeon"],
-    "english_explanations": ["To grow or develop vigorously."],
-    "chinese_translations": ["繁盛", "茂盛"],
-    "example_sentences": "The finches flourished on the untouched island."
+    "english_synonyms": [
+      "prosper",
+      "burgeon"
+    ],
+    "english_explanations": [
+      "To grow or develop vigorously."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "繁盛",
+        "english": "To grow or develop vigorously.",
+        "example": "The finches flourished on the untouched island."
+      },
+      {
+        "pos": "v.",
+        "meaning": "茂盛",
+        "english": "To grow or develop vigorously.",
+        "example": "The finches flourished on the untouched island."
+      }
+    ]
   },
   {
-    "word": ["thrive"],
+    "word": [
+      "thrive"
+    ],
     "phonetic": "/θraɪv/",
-    "english_synonyms": ["do well", "boom", "grow vigorously"],
-    "english_explanations": ["To grow strongly and successfully."],
-    "chinese_translations": ["繁盛", "兴旺"],
-    "example_sentences": "Worms thrive in the fertile floodplain soil."
+    "english_synonyms": [
+      "do well",
+      "boom",
+      "grow vigorously"
+    ],
+    "english_explanations": [
+      "To grow strongly and successfully.",
+      "to become, and continue to be, successful, strong, healthy, etc."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "繁盛",
+        "english": "To grow strongly and successfully.",
+        "example": "Worms thrive in the fertile floodplain soil."
+      },
+      {
+        "pos": "v.",
+        "meaning": "兴旺",
+        "english": "to become, and continue to be, successful, strong, healthy, etc.",
+        "example": "New businesses thrive in this area."
+      }
+    ]
   },
   {
-    "word": ["conversely"],
+    "word": [
+      "conversely"
+    ],
     "phonetic": "/ˈkɒnvɜːsli/",
-    "english_synonyms": ["on the contrary", "oppositely"],
+    "english_synonyms": [
+      "on the contrary",
+      "oppositely"
+    ],
     "english_explanations": [
       "Introducing a statement that is the opposite of the previous one."
     ],
-    "chinese_translations": ["相反地"],
-    "example_sentences": "Seals gain fat in cold water; conversely, they lose it in warm water."
+    "chinese_translations": [
+      {
+        "pos": "adv.",
+        "meaning": "相反地",
+        "english": "Introducing a statement that is the opposite of the previous one.",
+        "example": "Seals gain fat in cold water; conversely, they lose it in warm water."
+      }
+    ]
   },
   {
-    "word": ["invaluable"],
+    "word": [
+      "invaluable"
+    ],
     "phonetic": "/ɪnˈvæljuəbl/",
-    "english_synonyms": ["priceless", "precious"],
+    "english_synonyms": [
+      "priceless",
+      "precious"
+    ],
     "english_explanations": [
+      "extremely useful",
       "Extremely valuable or useful."
     ],
-    "chinese_translations": ["极宝贵的", "无价的"],
-    "example_sentences": "Isotope records are invaluable to palaeontologists."
+    "chinese_translations": [
+      {
+        "pos": "adj.",
+        "meaning": "极宝贵的",
+        "english": "extremely useful",
+        "example": "invaluable information"
+      },
+      {
+        "pos": "n.",
+        "meaning": "无价的",
+        "english": "Extremely valuable or useful.",
+        "example": "Isotope records are invaluable to palaeontologists."
+      }
+    ]
   },
   {
-    "word": ["optimum"],
-    "phonetic": "/ˈɒptɪməm/",
-    "english_synonyms": ["best", "ideal", "optimal"],
-    "english_explanations": [
-      "Most favourable; the best possible conditions."
+    "word": [
+      "optimum"
     ],
-    "chinese_translations": ["最佳的", "最适宜的"],
-    "example_sentences": "The mound keeps its brood at an optimum temperature."
+    "phonetic": "/ˈɒptɪməm/",
+    "english_synonyms": [
+      "best",
+      "ideal",
+      "optimal"
+    ],
+    "english_explanations": [
+      "the best possible; producing the best possible results"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "adj.",
+        "meaning": "最佳的",
+        "english": "the best possible; producing the best possible results",
+        "example": "optimum growth"
+      },
+      {
+        "pos": "adj.",
+        "meaning": "最适宜的",
+        "english": "the best possible; producing the best possible results",
+        "example": "optimum growth"
+      }
+    ]
   },
   {
-    "word": ["seismic"],
+    "word": [
+      "seismic"
+    ],
     "phonetic": "/ˈsaɪzmɪk/",
-    "english_synonyms": ["relating to earthquakes"],
+    "english_synonyms": [
+      "relating to earthquakes"
+    ],
     "english_explanations": [
+      "connected with or caused by earthquakes",
       "Relating to earthquakes or vibrations in the ground."
     ],
-    "chinese_translations": ["地震的", "与地震有关的"],
-    "example_sentences": "Elephants may pick up seismic signals through their feet.",
-    "roots": [{"root":"seism","meaning":"shake"},{"root":"-ic","meaning":"relating to"}]
+    "chinese_translations": [
+      {
+        "pos": "adj.",
+        "meaning": "地震的",
+        "english": "connected with or caused by earthquakes",
+        "example": "seismic waves"
+      },
+      {
+        "pos": "adj.",
+        "meaning": "与地震有关的",
+        "english": "Relating to earthquakes or vibrations in the ground.",
+        "example": "Elephants may pick up seismic signals through their feet."
+      }
+    ],
+    "roots": [
+      {
+        "root": "seism",
+        "meaning": "shake"
+      },
+      {
+        "root": "-ic",
+        "meaning": "relating to"
+      }
+    ]
   },
   {
-    "word": ["intricate"],
+    "word": [
+      "intricate"
+    ],
     "phonetic": "/ˈɪntrɪkət/",
-    "english_synonyms": ["complex", "complicated", "elaborate"],
+    "english_synonyms": [
+      "complex",
+      "complicated",
+      "elaborate"
+    ],
     "english_explanations": [
+      "having a lot of different parts and small details that fit together",
       "Very complicated or detailed."
     ],
-    "chinese_translations": ["错综复杂的", "复杂精细的"],
-    "example_sentences": "An intricate network of galleries honeycombs the termite mound."
+    "chinese_translations": [
+      {
+        "pos": "adj.",
+        "meaning": "错综复杂的",
+        "english": "having a lot of different parts and small details that fit together",
+        "example": "intricate patterns"
+      },
+      {
+        "pos": "n.",
+        "meaning": "复杂精细的",
+        "english": "Very complicated or detailed.",
+        "example": "An intricate network of galleries honeycombs the termite mound."
+      }
+    ]
   },
   {
-    "word": ["captivity"],
+    "word": [
+      "captivity"
+    ],
     "phonetic": "/kæpˈtɪvəti/",
-    "english_synonyms": ["confinement", "imprisonment"],
+    "english_synonyms": [
+      "confinement",
+      "imprisonment"
+    ],
     "english_explanations": [
       "The condition of being kept enclosed or confined."
     ],
-    "chinese_translations": ["圈养", "被囚禁的状态"],
-    "example_sentences": "Few cubs born in captivity survive release.",
-    "roots": [{"root":"capt","meaning":"seize"},{"root":"-ivity","meaning":"state of"}]
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "圈养",
+        "english": "The condition of being kept enclosed or confined.",
+        "example": "Few cubs born in captivity survive release."
+      },
+      {
+        "pos": "n.",
+        "meaning": "被囚禁的状态",
+        "english": "The condition of being kept enclosed or confined.",
+        "example": "Few cubs born in captivity survive release."
+      }
+    ],
+    "roots": [
+      {
+        "root": "capt",
+        "meaning": "seize"
+      },
+      {
+        "root": "-ivity",
+        "meaning": "state of"
+      }
+    ]
   },
   {
-    "word": ["asteroid"],
+    "word": [
+      "asteroid"
+    ],
     "phonetic": "/ˈæstərɔɪd/",
     "english_synonyms": [],
     "english_explanations": [
       "A small rocky body orbiting the sun."
     ],
-    "chinese_translations": ["小行星"],
-    "example_sentences": "An asteroid impact ended the dinosaurs' reign.",
-    "roots": [{"root":"aster","meaning":"star"},{"root":"-oid","meaning":"resembling"}]
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "小行星",
+        "english": "A small rocky body orbiting the sun.",
+        "example": "An asteroid impact ended the dinosaurs' reign."
+      }
+    ],
+    "roots": [
+      {
+        "root": "aster",
+        "meaning": "star"
+      },
+      {
+        "root": "-oid",
+        "meaning": "resembling"
+      }
+    ]
   },
   {
-    "word": ["cavity"],
+    "word": [
+      "cavity"
+    ],
     "phonetic": "/ˈkævəti/",
-    "english_synonyms": ["hole", "pit"],
+    "english_synonyms": [
+      "hole",
+      "pit"
+    ],
     "english_explanations": [
+      "a hole or empty space inside sth solid",
       "An empty space within a solid body."
     ],
-    "chinese_translations": ["腔", "洞", "空腔"],
-    "example_sentences": "The mound's central cavity channels warm air.",
-    "roots": [{"root":"cav","meaning":"hollow"},{"root":"-ity","meaning":"state of"}]
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "腔",
+        "english": "a hole or empty space inside sth solid",
+        "example": "the abdominal cavity"
+      },
+      {
+        "pos": "n.",
+        "meaning": "洞",
+        "english": "a hole or empty space inside sth solid",
+        "example": "the abdominal cavity"
+      },
+      {
+        "pos": "n.",
+        "meaning": "空腔",
+        "english": "An empty space within a solid body.",
+        "example": "The mound's central cavity channels warm air."
+      }
+    ],
+    "roots": [
+      {
+        "root": "cav",
+        "meaning": "hollow"
+      },
+      {
+        "root": "-ity",
+        "meaning": "state of"
+      }
+    ]
   },
   {
-    "word": ["physiology"],
+    "word": [
+      "physiology"
+    ],
     "phonetic": "/ˌfɪziˈɒlədʒi/",
     "english_synonyms": [],
     "english_explanations": [
-      "The branch of biology dealing with how organisms function."
+      "the scientific study of the normal functions of living things",
+      "the way in which a particular living thing functions"
     ],
-    "chinese_translations": ["生理学", "生理机能"],
-    "example_sentences": "Diving physiology limits the penguin's depth.",
-    "roots": [{"root":"physi","meaning":"nature"},{"root":"-ology","meaning":"study of"}]
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "生理学",
+        "english": "the scientific study of the normal functions of living things",
+        "example": "the department of anatomy and physiology"
+      },
+      {
+        "pos": "n.",
+        "meaning": "生理机能",
+        "english": "the way in which a particular living thing functions",
+        "example": "plant physiology"
+      }
+    ],
+    "roots": [
+      {
+        "root": "physi",
+        "meaning": "nature"
+      },
+      {
+        "root": "-ology",
+        "meaning": "study of"
+      }
+    ]
   },
   {
-    "word": ["aquatic"],
+    "word": [
+      "aquatic"
+    ],
     "phonetic": "/əˈkwætɪk/",
-    "english_synonyms": ["living in water"],
-    "english_explanations": [
-      "Living in or relating to water."
+    "english_synonyms": [
+      "living in water"
     ],
-    "chinese_translations": ["水生的", "水栖的"],
-    "example_sentences": "Otters are agile aquatic hunters.",
-    "roots": [{"root":"aqu","meaning":"water"},{"root":"-atic","meaning":"relating to"}]
+    "english_explanations": [
+      "growing or living in, on or near water"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "adj.",
+        "meaning": "水生的",
+        "english": "growing or living in, on or near water",
+        "example": "aquatic plants/life/ecosystems"
+      },
+      {
+        "pos": "adj.",
+        "meaning": "水栖的",
+        "english": "growing or living in, on or near water",
+        "example": "aquatic plants/life/ecosystems"
+      }
+    ],
+    "roots": [
+      {
+        "root": "aqu",
+        "meaning": "water"
+      },
+      {
+        "root": "-atic",
+        "meaning": "relating to"
+      }
+    ]
   },
   {
-    "word": ["empirical"],
+    "word": [
+      "empirical"
+    ],
     "phonetic": "/ɪmˈpɪrɪkl/",
-    "english_synonyms": ["based on observation", "evidence-based"],
-    "english_explanations": [
-      "Based on observation and experiment rather than theory."
+    "english_synonyms": [
+      "based on observation",
+      "evidence-based"
     ],
-    "chinese_translations": ["基于实证的", "经验主义的"],
-    "example_sentences": "The theory finally gained empirical support.",
-    "roots": [{"root":"empir","meaning":"experience"},{"root":"-ical","meaning":"relating to"}]
+    "english_explanations": [
+      "Based on observation and experiment rather than theory.",
+      "based on experiments or experience rather than ideas or theories"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "基于实证的",
+        "english": "Based on observation and experiment rather than theory.",
+        "example": "The theory finally gained empirical support."
+      },
+      {
+        "pos": "adj.",
+        "meaning": "经验主义的",
+        "english": "based on experiments or experience rather than ideas or theories",
+        "example": "empirical evidence/knowledge/research"
+      }
+    ],
+    "roots": [
+      {
+        "root": "empir",
+        "meaning": "experience"
+      },
+      {
+        "root": "-ical",
+        "meaning": "relating to"
+      }
+    ]
   },
   {
-    "word": ["drastic"],
+    "word": [
+      "drastic"
+    ],
     "phonetic": "/ˈdræstɪk/",
-    "english_synonyms": ["severe", "extreme", "radical"],
+    "english_synonyms": [
+      "severe",
+      "extreme",
+      "radical"
+    ],
     "english_explanations": [
       "Extreme in effect or degree."
     ],
-    "chinese_translations": ["剧烈的", "激烈的"],
-    "example_sentences": "Drastic drops in range preceded extinction.",
-    "roots": [{"root":"drast","meaning":"act"},{"root":"-ic","meaning":"relating to"}]
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "剧烈的",
+        "english": "Extreme in effect or degree.",
+        "example": "Drastic drops in range preceded extinction."
+      },
+      {
+        "pos": "n.",
+        "meaning": "激烈的",
+        "english": "Extreme in effect or degree.",
+        "example": "Drastic drops in range preceded extinction."
+      }
+    ],
+    "roots": [
+      {
+        "root": "drast",
+        "meaning": "act"
+      },
+      {
+        "root": "-ic",
+        "meaning": "relating to"
+      }
+    ]
   },
   {
-    "word": ["plausible"],
+    "word": [
+      "plausible"
+    ],
     "phonetic": "/ˈplɔːzəbl/",
-    "english_synonyms": ["believable", "reasonable"],
+    "english_synonyms": [
+      "believable",
+      "reasonable"
+    ],
     "english_explanations": [
       "Seemingly reasonable or probable."
     ],
-    "chinese_translations": ["貌似合理的", "貌似可信的"],
-    "example_sentences": "Climate change offers a plausible alternative to overkill.",
-    "roots": [{"root":"plaus","meaning":"approve"},{"root":"-ible","meaning":"able to be"}]
-  },
-  {
-    "word": ["formidable"],
-    "phonetic": "/ˈfɔːmɪdəbl/",
-    "english_synonyms": ["daunting", "intimidating"],
-    "english_explanations": [
-      "Inspiring fear or respect through power; hard to defeat."
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "貌似合理的",
+        "english": "Seemingly reasonable or probable.",
+        "example": "Climate change offers a plausible alternative to overkill."
+      },
+      {
+        "pos": "n.",
+        "meaning": "貌似可信的",
+        "english": "Seemingly reasonable or probable.",
+        "example": "Climate change offers a plausible alternative to overkill."
+      }
     ],
-    "chinese_translations": ["强大的", "可怕的", "令人生畏的"],
-    "example_sentences": "Barracudas hunt with formidable speed.",
-    "roots": [{"root":"formid","meaning":"fear"},{"root":"-able","meaning":"able to be"}]
+    "roots": [
+      {
+        "root": "plaus",
+        "meaning": "approve"
+      },
+      {
+        "root": "-ible",
+        "meaning": "able to be"
+      }
+    ]
   },
   {
-    "word": ["posture"],
-    "phonetic": "/ˈpɒstʃə(r)/",
-    "english_synonyms": ["stance", "carriage", "pose"],
+    "word": [
+      "formidable"
+    ],
+    "phonetic": "/ˈfɔːmɪdəbl/",
+    "english_synonyms": [
+      "daunting",
+      "intimidating"
+    ],
     "english_explanations": [
+      "Inspiring fear or respect through power; hard to defeat.",
+      "if people, things or situations are formidable, you feel fear and/or respect for them, because they are impressive or powerful, or because they seem very difficult"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "强大的",
+        "english": "Inspiring fear or respect through power; hard to defeat.",
+        "example": "Barracudas hunt with formidable speed."
+      },
+      {
+        "pos": "adj.",
+        "meaning": "可怕的",
+        "english": "if people, things or situations are formidable, you feel fear and/or respect for them, because they are impressive or powerful, or because they seem very difficult",
+        "example": "In debate he was a formidable opponent."
+      },
+      {
+        "pos": "n.",
+        "meaning": "令人生畏的",
+        "english": "Inspiring fear or respect through power; hard to defeat.",
+        "example": "Barracudas hunt with formidable speed."
+      }
+    ],
+    "roots": [
+      {
+        "root": "formid",
+        "meaning": "fear"
+      },
+      {
+        "root": "-able",
+        "meaning": "able to be"
+      }
+    ]
+  },
+  {
+    "word": [
+      "posture"
+    ],
+    "phonetic": "/ˈpɒstʃə(r)/",
+    "english_synonyms": [
+      "stance",
+      "carriage",
+      "pose"
+    ],
+    "english_explanations": [
+      "the position in which you hold your body when standing or sitting",
       "The way a body is held when standing or moving."
     ],
-    "chinese_translations": ["姿势", "体态"],
-    "example_sentences": "Giraffes drink in an awkward splayed posture."
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "姿势",
+        "english": "the position in which you hold your body when standing or sitting",
+        "example": "a comfortable/relaxed posture"
+      },
+      {
+        "pos": "n.",
+        "meaning": "体态",
+        "english": "The way a body is held when standing or moving.",
+        "example": "Giraffes drink in an awkward splayed posture."
+      }
+    ]
   },
   {
-    "word": ["versatile"],
-    "phonetic": "/ˈvɜːsətaɪl/",
-    "english_synonyms": ["adaptable", "all-round", "multifunctional"],
-    "english_explanations": [
-      "Able to be used for many purposes; adaptable."
+    "word": [
+      "versatile"
     ],
-    "chinese_translations": ["多功能的", "多才多艺的"],
-    "example_sentences": "The trunk is a versatile tool.",
-    "roots": [{"root":"vers","meaning":"turn"},{"root":"-atile","meaning":"capable of"}]
+    "phonetic": "/ˈvɜːsətaɪl/",
+    "english_synonyms": [
+      "adaptable",
+      "all-round",
+      "multifunctional"
+    ],
+    "english_explanations": [
+      "having many different uses",
+      "able to do many different things"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "adj.",
+        "meaning": "多功能的",
+        "english": "having many different uses",
+        "example": "Eggs are easy to cook and are an extremely versatile food."
+      },
+      {
+        "pos": "adj.",
+        "meaning": "多才多艺的",
+        "english": "able to do many different things",
+        "example": "He's a versatile actor who has played a wide variety of parts."
+      }
+    ],
+    "roots": [
+      {
+        "root": "vers",
+        "meaning": "turn"
+      },
+      {
+        "root": "-atile",
+        "meaning": "capable of"
+      }
+    ]
   },
   {
-    "word": ["demise"],
+    "word": [
+      "demise"
+    ],
     "phonetic": "/dɪˈmaɪz/",
-    "english_synonyms": ["death", "downfall", "end"],
-    "english_explanations": ["The end or death of something."],
-    "chinese_translations": ["消亡", "死亡", "终结"],
-    "example_sentences": "Habitat loss sealed the moa's demise."
+    "english_synonyms": [
+      "death",
+      "downfall",
+      "end"
+    ],
+    "english_explanations": [
+      "The end or death of something.",
+      "death"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "消亡",
+        "english": "The end or death of something.",
+        "example": "Habitat loss sealed the moa's demise."
+      },
+      {
+        "pos": "n.",
+        "meaning": "死亡",
+        "english": "death",
+        "example": "his imminent/sudden/sad demise"
+      },
+      {
+        "pos": "n.",
+        "meaning": "终结",
+        "english": "The end or death of something.",
+        "example": "Habitat loss sealed the moa's demise."
+      }
+    ]
   },
   {
-    "word": ["susceptible"],
+    "word": [
+      "susceptible"
+    ],
     "phonetic": "/səˈseptəbl/",
-    "english_synonyms": ["vulnerable", "prone", "liable"],
+    "english_synonyms": [
+      "vulnerable",
+      "prone",
+      "liable"
+    ],
     "english_explanations": [
       "Likely to be affected by something (susceptible to)."
     ],
-    "chinese_translations": ["易受影响的", "敏感的"],
-    "example_sentences": "Island birds are susceptible to new diseases.",
-    "roots": [{"root":"sus-","meaning":"under"},{"root":"cept","meaning":"take"},{"root":"-ible","meaning":"able to be"}]
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "易受影响的",
+        "english": "Likely to be affected by something (susceptible to).",
+        "example": "Island birds are susceptible to new diseases."
+      },
+      {
+        "pos": "n.",
+        "meaning": "敏感的",
+        "english": "Likely to be affected by something (susceptible to).",
+        "example": "Island birds are susceptible to new diseases."
+      }
+    ],
+    "roots": [
+      {
+        "root": "sus-",
+        "meaning": "under"
+      },
+      {
+        "root": "cept",
+        "meaning": "take"
+      },
+      {
+        "root": "-ible",
+        "meaning": "able to be"
+      }
+    ]
   },
   {
-    "word": ["cardiovascular"],
+    "word": [
+      "cardiovascular"
+    ],
     "phonetic": "/ˌkɑːdiəʊˈvæskjələ(r)/",
     "english_synonyms": [],
     "english_explanations": [
       "Relating to the heart and blood vessels."
     ],
-    "chinese_translations": ["心血管的"],
-    "example_sentences": "The giraffe's cardiovascular system tolerates huge pressure swings.",
-    "roots": [{"root":"cardio-","meaning":"heart"},{"root":"vascul","meaning":"vessel"},{"root":"-ar","meaning":"relating to"}]
+    "chinese_translations": [
+      {
+        "pos": "adj.",
+        "meaning": "心血管的",
+        "english": "Relating to the heart and blood vessels.",
+        "example": "The giraffe's cardiovascular system tolerates huge pressure swings."
+      }
+    ],
+    "roots": [
+      {
+        "root": "cardio-",
+        "meaning": "heart"
+      },
+      {
+        "root": "vascul",
+        "meaning": "vessel"
+      },
+      {
+        "root": "-ar",
+        "meaning": "relating to"
+      }
+    ]
   },
   {
-    "word": ["intriguing"],
+    "word": [
+      "intriguing"
+    ],
     "phonetic": "/ɪnˈtriːɡɪŋ/",
-    "english_synonyms": ["fascinating", "captivating"],
+    "english_synonyms": [
+      "fascinating",
+      "captivating"
+    ],
     "english_explanations": [
       "Arousing curiosity; fascinating."
     ],
-    "chinese_translations": ["引人入胜的", "有趣的"],
-    "example_sentences": "An intriguing question is how the ants navigate at night."
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "引人入胜的",
+        "english": "Arousing curiosity; fascinating.",
+        "example": "An intriguing question is how the ants navigate at night."
+      },
+      {
+        "pos": "n.",
+        "meaning": "有趣的",
+        "english": "Arousing curiosity; fascinating.",
+        "example": "An intriguing question is how the ants navigate at night."
+      }
+    ]
   },
   {
-    "word": ["retrieve"],
-    "phonetic": "/rɪˈtriːv/",
-    "english_synonyms": ["get back", "fetch", "recover"],
-    "english_explanations": ["To get or bring back."],
-    "chinese_translations": ["取回", "检索", "找回"],
-    "example_sentences": "Researchers retrieve the data loggers in autumn."
-  },
-  {
-    "word": ["interval"],
-    "phonetic": "/ˈɪntəvl/",
-    "english_synonyms": ["gap", "pause", "interim"],
-    "english_explanations": [
-      "A space of time between events."
+    "word": [
+      "retrieve"
     ],
-    "chinese_translations": ["间隔", "间歇"],
-    "example_sentences": "The tremors repeat at 40-second intervals.",
-    "roots": [{"root":"inter-","meaning":"between"},{"root":"val","meaning":"wall"}]
+    "phonetic": "/rɪˈtriːv/",
+    "english_synonyms": [
+      "get back",
+      "fetch",
+      "recover"
+    ],
+    "english_explanations": [
+      "to bring or get sth back, especially from a place where it should not be",
+      "to find and get back data or information that has been stored in the memory of a computer",
+      "to make a bad situation better; to get back sth that was lost"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "取回",
+        "english": "to bring or get sth back, especially from a place where it should not be",
+        "example": "She bent to retrieve her comb from the floor."
+      },
+      {
+        "pos": "v.",
+        "meaning": "检索",
+        "english": "to find and get back data or information that has been stored in the memory of a computer",
+        "example": "to retrieve information from the database"
+      },
+      {
+        "pos": "v.",
+        "meaning": "找回",
+        "english": "to make a bad situation better; to get back sth that was lost",
+        "example": "You can only retrieve the situation by apologizing."
+      }
+    ]
   },
   {
-    "word": ["crust"],
+    "word": [
+      "interval"
+    ],
+    "phonetic": "/ˈɪntəvl/",
+    "english_synonyms": [
+      "gap",
+      "pause",
+      "interim"
+    ],
+    "english_explanations": [
+      "a period of time between two events"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "间隔",
+        "english": "a period of time between two events",
+        "example": "The interval between major earthquakes might be 200 years."
+      },
+      {
+        "pos": "n.",
+        "meaning": "间歇",
+        "english": "a period of time between two events",
+        "example": "The interval between major earthquakes might be 200 years."
+      }
+    ],
+    "roots": [
+      {
+        "root": "inter-",
+        "meaning": "between"
+      },
+      {
+        "root": "val",
+        "meaning": "wall"
+      }
+    ]
+  },
+  {
+    "word": [
+      "crust"
+    ],
     "phonetic": "/krʌst/",
-    "english_synonyms": ["shell", "outer layer"],
+    "english_synonyms": [
+      "shell",
+      "outer layer"
+    ],
     "english_explanations": [
       "The outermost solid layer of the earth; a hard outer covering."
     ],
-    "chinese_translations": ["地壳", "硬壳"],
-    "example_sentences": "The earth's crust preserved the trackways for aeons."
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "地壳",
+        "english": "The outermost solid layer of the earth; a hard outer covering.",
+        "example": "The earth's crust preserved the trackways for aeons."
+      },
+      {
+        "pos": "n.",
+        "meaning": "硬壳",
+        "english": "The outermost solid layer of the earth; a hard outer covering.",
+        "example": "The earth's crust preserved the trackways for aeons."
+      }
+    ]
   },
   {
-    "word": ["friction"],
-    "phonetic": "/ˈfrɪkʃn/",
-    "english_synonyms": ["rubbing", "resistance"],
-    "english_explanations": [
-      "Resistance met when one surface moves over another."
+    "word": [
+      "friction"
     ],
-    "chinese_translations": ["摩擦", "摩擦力"],
-    "example_sentences": "Mucus cuts friction as the eel swims.",
-    "roots": [{"root":"frict","meaning":"rub"},{"root":"-ion","meaning":"act of"}]
+    "phonetic": "/ˈfrɪkʃn/",
+    "english_synonyms": [
+      "rubbing",
+      "resistance"
+    ],
+    "english_explanations": [
+      "the action of one object or surface moving against another"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "摩擦",
+        "english": "the action of one object or surface moving against another",
+        "example": "Friction between moving parts had caused the engine to overheat."
+      },
+      {
+        "pos": "n.",
+        "meaning": "摩擦力",
+        "english": "the action of one object or surface moving against another",
+        "example": "Friction between moving parts had caused the engine to overheat."
+      }
+    ],
+    "roots": [
+      {
+        "root": "frict",
+        "meaning": "rub"
+      },
+      {
+        "root": "-ion",
+        "meaning": "act of"
+      }
+    ]
   },
   {
-    "word": ["nutrient"],
+    "word": [
+      "nutrient"
+    ],
     "phonetic": "/ˈnjuːtriənt/",
-    "english_synonyms": ["nourishment"],
+    "english_synonyms": [
+      "nourishment"
+    ],
     "english_explanations": [
+      "a substance that is needed to keep a living thing alive and to help it to grow",
       "A substance that provides nourishment for growth."
     ],
-    "chinese_translations": ["营养物", "养分"],
-    "example_sentences": "Flooded forests release nutrients into the estuary.",
-    "roots": [{"root":"nutri","meaning":"nourish"},{"root":"-ent","meaning":"thing that"}]
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "营养物",
+        "english": "a substance that is needed to keep a living thing alive and to help it to grow",
+        "example": "a lack of essential nutrients"
+      },
+      {
+        "pos": "n.",
+        "meaning": "养分",
+        "english": "A substance that provides nourishment for growth.",
+        "example": "Flooded forests release nutrients into the estuary."
+      }
+    ],
+    "roots": [
+      {
+        "root": "nutri",
+        "meaning": "nourish"
+      },
+      {
+        "root": "-ent",
+        "meaning": "thing that"
+      }
+    ]
   },
   {
-    "word": ["potent"],
+    "word": [
+      "potent"
+    ],
     "phonetic": "/ˈpəʊtnt/",
-    "english_synonyms": ["powerful", "strong", "effective"],
-    "english_explanations": ["Powerful in effect."],
-    "chinese_translations": ["强效的", "强有力的"],
-    "example_sentences": "Some tree bark yields potent medicines."
+    "english_synonyms": [
+      "powerful",
+      "strong",
+      "effective"
+    ],
+    "english_explanations": [
+      "having a strong effect on your body or mind",
+      "powerful"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "adj.",
+        "meaning": "强效的",
+        "english": "having a strong effect on your body or mind",
+        "example": "a potent drug"
+      },
+      {
+        "pos": "adj.",
+        "meaning": "强有力的",
+        "english": "powerful",
+        "example": "a potent force"
+      }
+    ]
   },
   {
-    "word": ["auxiliary"],
+    "word": [
+      "auxiliary"
+    ],
     "phonetic": "/ɔːɡˈzɪliəri/",
-    "english_synonyms": ["supplementary", "backup", "supporting"],
+    "english_synonyms": [
+      "supplementary",
+      "backup",
+      "supporting"
+    ],
     "english_explanations": [
+      "giving help or support to the main group of workers",
       "Providing additional or reserve support."
     ],
-    "chinese_translations": ["辅助的", "备用的"],
-    "example_sentences": "The fish's auxiliary fins add lift.",
-    "roots": [{"root":"auxili","meaning":"help"},{"root":"-ary","meaning":"relating to"}]
+    "chinese_translations": [
+      {
+        "pos": "adj.",
+        "meaning": "辅助的",
+        "english": "giving help or support to the main group of workers",
+        "example": "auxiliary nurses/workers/services"
+      },
+      {
+        "pos": "adj.",
+        "meaning": "备用的",
+        "english": "Providing additional or reserve support.",
+        "example": "The fish's auxiliary fins add lift."
+      }
+    ],
+    "roots": [
+      {
+        "root": "auxili",
+        "meaning": "help"
+      },
+      {
+        "root": "-ary",
+        "meaning": "relating to"
+      }
+    ]
   },
   {
-    "word": ["endurance"],
+    "word": [
+      "endurance"
+    ],
     "phonetic": "/ɪnˈdjʊərəns/",
-    "english_synonyms": ["stamina", "staying power"],
+    "english_synonyms": [
+      "stamina",
+      "staying power"
+    ],
     "english_explanations": [
+      "the ability to continue doing sth painful or difficult for a long period of time without complaining",
       "The ability to sustain prolonged physical effort."
     ],
-    "chinese_translations": ["耐力", "持久力"],
-    "example_sentences": "Bar-tailed godwits fly 11,000 kilometres on endurance alone.",
-    "roots": [{"root":"en-","meaning":"in"},{"root":"dur","meaning":"hard"},{"root":"-ance","meaning":"ability"}]
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "耐力",
+        "english": "the ability to continue doing sth painful or difficult for a long period of time without complaining",
+        "example": "He showed remarkable endurance throughout his illness."
+      },
+      {
+        "pos": "n.",
+        "meaning": "持久力",
+        "english": "The ability to sustain prolonged physical effort.",
+        "example": "Bar-tailed godwits fly 11,000 kilometres on endurance alone."
+      }
+    ],
+    "roots": [
+      {
+        "root": "en-",
+        "meaning": "in"
+      },
+      {
+        "root": "dur",
+        "meaning": "hard"
+      },
+      {
+        "root": "-ance",
+        "meaning": "ability"
+      }
+    ]
   },
   {
-    "word": ["onset"],
+    "word": [
+      "onset"
+    ],
     "phonetic": "/ˈɒnset/",
-    "english_synonyms": ["beginning", "start", "outset"],
+    "english_synonyms": [
+      "beginning",
+      "start",
+      "outset"
+    ],
     "english_explanations": [
       "The beginning of something, especially something unpleasant."
     ],
-    "chinese_translations": ["开始", "发作"],
-    "example_sentences": "Birds fatten before the onset of the monsoon."
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "开始",
+        "english": "The beginning of something, especially something unpleasant.",
+        "example": "Birds fatten before the onset of the monsoon."
+      },
+      {
+        "pos": "n.",
+        "meaning": "发作",
+        "english": "The beginning of something, especially something unpleasant.",
+        "example": "Birds fatten before the onset of the monsoon."
+      }
+    ]
   },
   {
-    "word": ["laden"],
+    "word": [
+      "laden"
+    ],
     "phonetic": "/ˈleɪdn/",
-    "english_synonyms": ["loaded", "burdened", "weighed down"],
-    "english_explanations": ["Heavily loaded with something."],
-    "chinese_translations": ["满载的", "装满的"],
-    "example_sentences": "Foragers return laden with leaf fragments."
+    "english_synonyms": [
+      "loaded",
+      "burdened",
+      "weighed down"
+    ],
+    "english_explanations": [
+      "Heavily loaded with something.",
+      "heavily loaded with sth"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "满载的",
+        "english": "Heavily loaded with something.",
+        "example": "Foragers return laden with leaf fragments."
+      },
+      {
+        "pos": "adj.",
+        "meaning": "装满的",
+        "english": "heavily loaded with sth",
+        "example": "passengers laden with luggage"
+      }
+    ]
   },
   {
-    "word": ["upright"],
+    "word": [
+      "upright"
+    ],
     "phonetic": "/ˈʌpraɪt/",
-    "english_synonyms": ["vertical", "erect"],
-    "english_explanations": ["Standing straight up; vertical."],
-    "chinese_translations": ["直立的", "垂直的"],
-    "example_sentences": "Marmots sit upright to scan for eagles."
+    "english_synonyms": [
+      "vertical",
+      "erect"
+    ],
+    "english_explanations": [
+      "Standing straight up; vertical."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "直立的",
+        "english": "Standing straight up; vertical.",
+        "example": "Marmots sit upright to scan for eagles."
+      },
+      {
+        "pos": "n.",
+        "meaning": "垂直的",
+        "english": "Standing straight up; vertical.",
+        "example": "Marmots sit upright to scan for eagles."
+      }
+    ]
   },
   {
-    "word": ["miniature"],
+    "word": [
+      "miniature"
+    ],
     "phonetic": "/ˈmɪnətʃə(r)/",
-    "english_synonyms": ["tiny", "small-scale", "mini"],
-    "english_explanations": ["Much smaller than usual."],
-    "chinese_translations": ["微型的", "微小的"],
-    "example_sentences": "The muntjac is a miniature deer."
+    "english_synonyms": [
+      "tiny",
+      "small-scale",
+      "mini"
+    ],
+    "english_explanations": [
+      "very small; much smaller than usual",
+      "Much smaller than usual."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "adj.",
+        "meaning": "微型的",
+        "english": "very small; much smaller than usual",
+        "example": "miniature roses"
+      },
+      {
+        "pos": "n.",
+        "meaning": "微小的",
+        "english": "Much smaller than usual.",
+        "example": "The muntjac is a miniature deer."
+      }
+    ]
   },
   {
-    "word": ["perceive"],
+    "word": [
+      "perceive"
+    ],
     "phonetic": "/pəˈsiːv/",
-    "english_synonyms": ["notice", "detect", "sense"],
-    "english_explanations": [
-      "To become aware of something through the senses."
+    "english_synonyms": [
+      "notice",
+      "detect",
+      "sense"
     ],
-    "chinese_translations": ["感知", "察觉"],
-    "example_sentences": "Sharks perceive the faint electric fields of their prey.",
-    "roots": [{"root":"per-","meaning":"through"},{"root":"ceive","meaning":"take"}]
+    "english_explanations": [
+      "To become aware of something through the senses.",
+      "to notice or become aware of sth"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "感知",
+        "english": "To become aware of something through the senses.",
+        "example": "Sharks perceive the faint electric fields of their prey."
+      },
+      {
+        "pos": "v.",
+        "meaning": "察觉",
+        "english": "to notice or become aware of sth",
+        "example": "I perceived a change in his behaviour."
+      }
+    ],
+    "roots": [
+      {
+        "root": "per-",
+        "meaning": "through"
+      },
+      {
+        "root": "ceive",
+        "meaning": "take"
+      }
+    ]
   },
   {
-    "word": ["constitute"],
+    "word": [
+      "constitute"
+    ],
     "phonetic": "/ˈkɒnstɪtjuːt/",
-    "english_synonyms": ["make up", "form", "comprise"],
-    "english_explanations": [
-      "To be the parts that together make up something."
+    "english_synonyms": [
+      "make up",
+      "form",
+      "comprise"
     ],
-    "chinese_translations": ["构成", "组成"],
-    "example_sentences": "Workers constitute the bulk of the colony.",
-    "roots": [{"root":"con-","meaning":"together"},{"root":"stitute","meaning":"set up"}]
+    "english_explanations": [
+      "to be the parts that together form sth"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "link v.",
+        "meaning": "构成",
+        "english": "to be the parts that together form sth",
+        "example": "Female workers constitute the majority of the labour force."
+      },
+      {
+        "pos": "link v.",
+        "meaning": "组成",
+        "english": "to be the parts that together form sth",
+        "example": "Female workers constitute the majority of the labour force."
+      }
+    ],
+    "roots": [
+      {
+        "root": "con-",
+        "meaning": "together"
+      },
+      {
+        "root": "stitute",
+        "meaning": "set up"
+      }
+    ]
   },
   {
-    "word": ["offspring"],
+    "word": [
+      "offspring"
+    ],
     "phonetic": "/ˈɒfsprɪŋ/",
-    "english_synonyms": ["young", "progeny", "descendants"],
+    "english_synonyms": [
+      "young",
+      "progeny",
+      "descendants"
+    ],
     "english_explanations": [
+      "a child of a particular person or couple",
       "The young of a person, animal, or plant."
     ],
-    "chinese_translations": ["后代", "子女", "崽"],
-    "example_sentences": "The mare's offspring stayed close for a year."
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "后代",
+        "english": "a child of a particular person or couple",
+        "example": "the problems parents have with their teenage offspring"
+      },
+      {
+        "pos": "n.",
+        "meaning": "子女",
+        "english": "a child of a particular person or couple",
+        "example": "the problems parents have with their teenage offspring"
+      },
+      {
+        "pos": "n.",
+        "meaning": "崽",
+        "english": "The young of a person, animal, or plant.",
+        "example": "The mare's offspring stayed close for a year."
+      }
+    ]
   },
   {
-    "word": ["vegetation"],
+    "word": [
+      "vegetation"
+    ],
     "phonetic": "/ˌvedʒəˈteɪʃn/",
-    "english_synonyms": ["plant life", "plant cover"],
-    "english_explanations": [
-      "Plants in general, especially those of an area."
+    "english_synonyms": [
+      "plant life",
+      "plant cover"
     ],
-    "chinese_translations": ["植被", "草木"],
-    "example_sentences": "Goats stripped the vegetation to bare soil.",
-    "roots": [{"root":"veget","meaning":"grow"},{"root":"-ation","meaning":"process of"}]
+    "english_explanations": [
+      "plants in general, especially the plants that are found in a particular area or environment"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "植被",
+        "english": "plants in general, especially the plants that are found in a particular area or environment",
+        "example": "The hills are covered in lush green vegetation."
+      },
+      {
+        "pos": "n.",
+        "meaning": "草木",
+        "english": "plants in general, especially the plants that are found in a particular area or environment",
+        "example": "The hills are covered in lush green vegetation."
+      }
+    ],
+    "roots": [
+      {
+        "root": "veget",
+        "meaning": "grow"
+      },
+      {
+        "root": "-ation",
+        "meaning": "process of"
+      }
+    ]
   },
   {
-    "word": ["credible"],
+    "word": [
+      "credible"
+    ],
     "phonetic": "/ˈkredəbl/",
-    "english_synonyms": ["trustworthy", "convincing"],
-    "english_explanations": [
-      "Able to be believed; convincing."
+    "english_synonyms": [
+      "trustworthy",
+      "convincing"
     ],
-    "chinese_translations": ["可信的", "可靠的"],
-    "example_sentences": "The sighting was deemed credible by the panel.",
-    "roots": [{"root":"cred","meaning":"believe"},{"root":"-ible","meaning":"able to be"}]
+    "english_explanations": [
+      "that can be believed or trusted"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "adj.",
+        "meaning": "可信的",
+        "english": "that can be believed or trusted",
+        "example": "a credible explanation/witness"
+      },
+      {
+        "pos": "adj.",
+        "meaning": "可靠的",
+        "english": "that can be believed or trusted",
+        "example": "a credible explanation/witness"
+      }
+    ],
+    "roots": [
+      {
+        "root": "cred",
+        "meaning": "believe"
+      },
+      {
+        "root": "-ible",
+        "meaning": "able to be"
+      }
+    ]
   },
   {
-    "word": ["compensate"],
+    "word": [
+      "compensate"
+    ],
     "phonetic": "/ˈkɒmpenseɪt/",
-    "english_synonyms": ["make up for", "offset", "counterbalance"],
-    "english_explanations": [
-      "To make up for something lost or deficient."
+    "english_synonyms": [
+      "make up for",
+      "offset",
+      "counterbalance"
     ],
-    "chinese_translations": ["补偿", "弥补"],
-    "example_sentences": "Thick fur compensates for the otter's lack of blubber.",
-    "roots": [{"root":"com-","meaning":"together"},{"root":"pens","meaning":"weigh"},{"root":"-ate","meaning":"to perform"}]
+    "english_explanations": [
+      "to provide sth good to balance or reduce the bad effects of damage, loss, etc."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "补偿",
+        "english": "to provide sth good to balance or reduce the bad effects of damage, loss, etc.",
+        "example": "Nothing can compensate for the loss of a loved one."
+      },
+      {
+        "pos": "v.",
+        "meaning": "弥补",
+        "english": "to provide sth good to balance or reduce the bad effects of damage, loss, etc.",
+        "example": "Nothing can compensate for the loss of a loved one."
+      }
+    ],
+    "roots": [
+      {
+        "root": "com-",
+        "meaning": "together"
+      },
+      {
+        "root": "pens",
+        "meaning": "weigh"
+      },
+      {
+        "root": "-ate",
+        "meaning": "to perform"
+      }
+    ]
   },
   {
-    "word": ["predominantly"],
+    "word": [
+      "predominantly"
+    ],
     "phonetic": "/prɪˈdɒmɪnəntli/",
-    "english_synonyms": ["mainly", "mostly", "chiefly"],
+    "english_synonyms": [
+      "mainly",
+      "mostly",
+      "chiefly"
+    ],
     "english_explanations": [
+      "mostly; mainly",
       "For the most part; mainly."
     ],
-    "chinese_translations": ["主要地", "大多"],
-    "example_sentences": "The whale's diet is predominantly krill.",
-    "roots": [{"root":"pre-","meaning":"foremost"},{"root":"domin","meaning":"rule"},{"root":"-ant","meaning":"being"},{"root":"-ly","meaning":"in a manner"}]
+    "chinese_translations": [
+      {
+        "pos": "adv.",
+        "meaning": "主要地",
+        "english": "mostly; mainly",
+        "example": "She works in a predominantly male environment."
+      },
+      {
+        "pos": "adv.",
+        "meaning": "大多",
+        "english": "For the most part; mainly.",
+        "example": "The whale's diet is predominantly krill."
+      }
+    ],
+    "roots": [
+      {
+        "root": "pre-",
+        "meaning": "foremost"
+      },
+      {
+        "root": "domin",
+        "meaning": "rule"
+      },
+      {
+        "root": "-ant",
+        "meaning": "being"
+      },
+      {
+        "root": "-ly",
+        "meaning": "in a manner"
+      }
+    ]
   },
   {
-    "word": ["respiratory"],
+    "word": [
+      "respiratory"
+    ],
     "phonetic": "/rəˈspɪrətri/",
     "english_synonyms": [],
-    "english_explanations": ["Relating to breathing."],
-    "chinese_translations": ["呼吸的"],
-    "example_sentences": "The mound works like a respiratory organ for the colony.",
-    "roots": [{"root":"re-","meaning":"again"},{"root":"spir","meaning":"breathe"},{"root":"-atory","meaning":"relating to"}]
+    "english_explanations": [
+      "connected with breathing"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "adj.",
+        "meaning": "呼吸的",
+        "english": "connected with breathing",
+        "example": "the respiratory system"
+      }
+    ],
+    "roots": [
+      {
+        "root": "re-",
+        "meaning": "again"
+      },
+      {
+        "root": "spir",
+        "meaning": "breathe"
+      },
+      {
+        "root": "-atory",
+        "meaning": "relating to"
+      }
+    ]
   },
   {
-    "word": ["reproductive"],
+    "word": [
+      "reproductive"
+    ],
     "phonetic": "/ˌriːprəˈdʌktɪv/",
     "english_synonyms": [],
-    "english_explanations": ["Relating to reproduction."],
-    "chinese_translations": ["生殖的", "繁殖的"],
-    "example_sentences": "Older matriarchs boost the herd's reproductive success.",
-    "roots": [{"root":"re-","meaning":"again"},{"root":"pro-","meaning":"forward"},{"root":"duct","meaning":"lead"},{"root":"-ive","meaning":"relating to"}]
-  },
-  {
-    "word": ["flee"],
-    "phonetic": "/fliː/",
-    "english_synonyms": ["run away", "escape", "take flight"],
-    "english_explanations": ["To run away from danger."],
-    "chinese_translations": ["逃离", "逃走"],
-    "example_sentences": "Antelope flee at the first hint of a predator's scent."
-  },
-  {
-    "word": ["undergo"],
-    "phonetic": "/ˌʌndəˈɡəʊ/",
-    "english_synonyms": ["experience", "go through", "pass through"],
     "english_explanations": [
-      "To experience or be subjected to a process."
+      "connected with reproducing babies, young animals or plants"
     ],
-    "chinese_translations": ["经历", "经受"],
-    "example_sentences": "The tadpoles undergo metamorphosis in six weeks."
+    "chinese_translations": [
+      {
+        "pos": "adj.",
+        "meaning": "生殖的",
+        "english": "connected with reproducing babies, young animals or plants",
+        "example": "reproductive organs"
+      },
+      {
+        "pos": "adj.",
+        "meaning": "繁殖的",
+        "english": "connected with reproducing babies, young animals or plants",
+        "example": "reproductive organs"
+      }
+    ],
+    "roots": [
+      {
+        "root": "re-",
+        "meaning": "again"
+      },
+      {
+        "root": "pro-",
+        "meaning": "forward"
+      },
+      {
+        "root": "duct",
+        "meaning": "lead"
+      },
+      {
+        "root": "-ive",
+        "meaning": "relating to"
+      }
+    ]
   },
   {
-    "word": ["confined"],
+    "word": [
+      "flee"
+    ],
+    "phonetic": "/fliː/",
+    "english_synonyms": [
+      "run away",
+      "escape",
+      "take flight"
+    ],
+    "english_explanations": [
+      "To run away from danger."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "逃离",
+        "english": "To run away from danger.",
+        "example": "Antelope flee at the first hint of a predator's scent."
+      },
+      {
+        "pos": "v.",
+        "meaning": "逃走",
+        "english": "To run away from danger.",
+        "example": "Antelope flee at the first hint of a predator's scent."
+      }
+    ]
+  },
+  {
+    "word": [
+      "undergo"
+    ],
+    "phonetic": "/ˌʌndəˈɡəʊ/",
+    "english_synonyms": [
+      "experience",
+      "go through",
+      "pass through"
+    ],
+    "english_explanations": [
+      "to experience sth, especially a change or sth unpleasant"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "经历",
+        "english": "to experience sth, especially a change or sth unpleasant",
+        "example": "to undergo tests/trials/repairs"
+      },
+      {
+        "pos": "v.",
+        "meaning": "经受",
+        "english": "to experience sth, especially a change or sth unpleasant",
+        "example": "to undergo tests/trials/repairs"
+      }
+    ]
+  },
+  {
+    "word": [
+      "confined"
+    ],
     "phonetic": "/kənˈfaɪnd/",
-    "english_synonyms": ["restricted", "limited", "enclosed"],
+    "english_synonyms": [
+      "restricted",
+      "limited",
+      "enclosed"
+    ],
     "english_explanations": [
       "Limited to a small or restricted space or set of conditions."
     ],
-    "chinese_translations": ["受限的", "被限制的"],
-    "example_sentences": "Deep-sea species are confined to trench vents."
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "受限的",
+        "english": "Limited to a small or restricted space or set of conditions.",
+        "example": "Deep-sea species are confined to trench vents."
+      },
+      {
+        "pos": "n.",
+        "meaning": "被限制的",
+        "english": "Limited to a small or restricted space or set of conditions.",
+        "example": "Deep-sea species are confined to trench vents."
+      }
+    ]
   },
   {
-    "word": ["endure"],
+    "word": [
+      "endure"
+    ],
     "phonetic": "/ɪnˈdjʊə(r)/",
-    "english_synonyms": ["withstand", "hold out"],
-    "english_explanations": [
-      "To suffer patiently through hardship."
+    "english_synonyms": [
+      "withstand",
+      "hold out"
     ],
-    "chinese_translations": ["忍受", "忍耐"],
-    "example_sentences": "Musk oxen endure arctic winters without migrating."
+    "english_explanations": [
+      "to experience and deal with sth that is painful or unpleasant, especially without complaining"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "忍受",
+        "english": "to experience and deal with sth that is painful or unpleasant, especially without complaining",
+        "example": "They had to endure a long wait before the case came to trial."
+      },
+      {
+        "pos": "v.",
+        "meaning": "忍耐",
+        "english": "to experience and deal with sth that is painful or unpleasant, especially without complaining",
+        "example": "They had to endure a long wait before the case came to trial."
+      }
+    ]
   },
   {
-    "word": ["tolerate"],
+    "word": [
+      "tolerate"
+    ],
     "phonetic": "/ˈtɒləreɪt/",
-    "english_synonyms": ["bear", "stand"],
-    "english_explanations": [
-      "To endure something unpleasant; to survive under given conditions."
+    "english_synonyms": [
+      "bear",
+      "stand"
     ],
-    "chinese_translations": ["忍受", "容忍", "耐受"],
-    "example_sentences": "Tubeworms tolerate crushing pressures."
+    "english_explanations": [
+      "to accept sb/sth that is annoying, unpleasant, etc. without complaining",
+      "to be able to be affected by a drug, difficult conditions, etc. without being harmed"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "忍受",
+        "english": "to accept sb/sth that is annoying, unpleasant, etc. without complaining",
+        "example": "There is a limit to what one person can tolerate."
+      },
+      {
+        "pos": "v.",
+        "meaning": "容忍",
+        "english": "to accept sb/sth that is annoying, unpleasant, etc. without complaining",
+        "example": "There is a limit to what one person can tolerate."
+      },
+      {
+        "pos": "v.",
+        "meaning": "耐受",
+        "english": "to be able to be affected by a drug, difficult conditions, etc. without being harmed",
+        "example": "She tolerated the chemotherapy well."
+      }
+    ]
   },
   {
-    "word": ["exploit"],
+    "word": [
+      "exploit"
+    ],
     "phonetic": "/ɪkˈsplɔɪt/",
-    "english_synonyms": ["make use of", "utilize", "take advantage of"],
-    "english_explanations": [
-      "To make full use of; to use unfairly."
+    "english_synonyms": [
+      "make use of",
+      "utilize",
+      "take advantage of"
     ],
-    "chinese_translations": ["利用", "开发"],
-    "example_sentences": "Gulls exploit refuse tips in winter."
+    "english_explanations": [
+      "to treat a person or situation as an opportunity to gain an advantage for yourself",
+      "to develop or use sth for business or industry"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "利用",
+        "english": "to treat a person or situation as an opportunity to gain an advantage for yourself",
+        "example": "He exploited his father's name to get himself a job."
+      },
+      {
+        "pos": "v.",
+        "meaning": "开发",
+        "english": "to develop or use sth for business or industry",
+        "example": "No minerals have yet been exploited in Antarctica."
+      }
+    ]
   },
   {
-    "word": ["dominance"],
+    "word": [
+      "dominance"
+    ],
     "phonetic": "/ˈdɒmɪnənt/",
-    "english_synonyms": ["supremacy", "control", "ascendancy"],
-    "english_explanations": [
-      "Power and influence over others."
+    "english_synonyms": [
+      "supremacy",
+      "control",
+      "ascendancy"
     ],
-    "chinese_translations": ["支配地位", "优势"],
-    "example_sentences": "The bull asserts dominance in neck-swinging contests.",
-    "roots": [{"root":"domin","meaning":"lord"},{"root":"-ance","meaning":"state of"}]
+    "english_explanations": [
+      "more important, powerful or noticeable than other things"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "adj.",
+        "meaning": "支配地位",
+        "english": "more important, powerful or noticeable than other things",
+        "example": "The firm has achieved a dominant position in the world market."
+      },
+      {
+        "pos": "adj.",
+        "meaning": "优势",
+        "english": "more important, powerful or noticeable than other things",
+        "example": "The firm has achieved a dominant position in the world market."
+      }
+    ],
+    "roots": [
+      {
+        "root": "domin",
+        "meaning": "lord"
+      },
+      {
+        "root": "-ance",
+        "meaning": "state of"
+      }
+    ]
   },
   {
-    "word": ["devastating"],
+    "word": [
+      "devastating"
+    ],
     "phonetic": "/ˈdevəsteɪtɪŋ/",
-    "english_synonyms": ["destructive", "ruinous", "catastrophic"],
-    "english_explanations": ["Highly destructive."],
-    "chinese_translations": ["毁灭性的", "破坏性极大的"],
-    "example_sentences": "A devastating epidemic swept through the colonies."
+    "english_synonyms": [
+      "destructive",
+      "ruinous",
+      "catastrophic"
+    ],
+    "english_explanations": [
+      "Highly destructive."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "毁灭性的",
+        "english": "Highly destructive.",
+        "example": "A devastating epidemic swept through the colonies."
+      },
+      {
+        "pos": "n.",
+        "meaning": "破坏性极大的",
+        "english": "Highly destructive.",
+        "example": "A devastating epidemic swept through the colonies."
+      }
+    ]
   },
   {
-    "word": ["niche"],
+    "word": [
+      "niche"
+    ],
     "phonetic": "/niːʃ/",
-    "english_synonyms": ["role", "position"],
+    "english_synonyms": [
+      "role",
+      "position"
+    ],
     "english_explanations": [
       "An organism's functional role in its ecosystem; a specialized market position."
     ],
-    "chinese_translations": ["生态位", "合适的位置"],
-    "example_sentences": "Each finch species fills a different niche."
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "生态位",
+        "english": "An organism's functional role in its ecosystem; a specialized market position.",
+        "example": "Each finch species fills a different niche."
+      },
+      {
+        "pos": "n.",
+        "meaning": "合适的位置",
+        "english": "An organism's functional role in its ecosystem; a specialized market position.",
+        "example": "Each finch species fills a different niche."
+      }
+    ]
   },
   {
-    "word": ["endangered"],
+    "word": [
+      "endangered"
+    ],
     "phonetic": "/ɪnˈdeɪndʒəd/",
-    "english_synonyms": ["at risk", "threatened"],
+    "english_synonyms": [
+      "at risk",
+      "threatened"
+    ],
     "english_explanations": [
       "(of a species) seriously at risk of extinction."
     ],
-    "chinese_translations": ["濒危的"],
-    "example_sentences": "The saola is one of the world's most endangered mammals."
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "濒危的",
+        "english": "(of a species) seriously at risk of extinction.",
+        "example": "The saola is one of the world's most endangered mammals."
+      }
+    ]
   },
   {
-    "word": ["fragile"],
+    "word": [
+      "fragile"
+    ],
     "phonetic": "/ˈfrædʒaɪl/",
-    "english_synonyms": ["delicate", "easily damaged", "brittle"],
-    "english_explanations": ["Easily broken or damaged."],
-    "chinese_translations": ["脆弱的", "易碎的"],
-    "example_sentences": "Fragile island ecosystems collapse quickly."
+    "english_synonyms": [
+      "delicate",
+      "easily damaged",
+      "brittle"
+    ],
+    "english_explanations": [
+      "weak and uncertain; easily destroyed or spoilt",
+      "easily broken or damaged"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "adj.",
+        "meaning": "脆弱的",
+        "english": "weak and uncertain; easily destroyed or spoilt",
+        "example": "a fragile alliance/ceasefire/relationship"
+      },
+      {
+        "pos": "adj.",
+        "meaning": "易碎的",
+        "english": "easily broken or damaged",
+        "example": "fragile china/glass/bones"
+      }
+    ]
   },
   {
-    "word": ["drought"],
+    "word": [
+      "drought"
+    ],
     "phonetic": "/draʊt/",
-    "english_synonyms": ["dry spell", "water shortage"],
-    "english_explanations": [
-      "A prolonged shortage of rainfall."
+    "english_synonyms": [
+      "dry spell",
+      "water shortage"
     ],
-    "chinese_translations": ["干旱", "旱灾"],
-    "example_sentences": "The drought thinned the herds."
+    "english_explanations": [
+      "A prolonged shortage of rainfall.",
+      "a long period of time when there is little or no rain"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "干旱",
+        "english": "A prolonged shortage of rainfall.",
+        "example": "The drought thinned the herds."
+      },
+      {
+        "pos": "n.",
+        "meaning": "旱灾",
+        "english": "a long period of time when there is little or no rain",
+        "example": "two years of severe drought"
+      }
+    ]
   },
   {
-    "word": ["mortality"],
+    "word": [
+      "mortality"
+    ],
     "phonetic": "/mɔːˈtæləti/",
-    "english_synonyms": ["death rate", "deaths"],
-    "english_explanations": [
-      "The number of deaths in a group, often as a rate."
+    "english_synonyms": [
+      "death rate",
+      "deaths"
     ],
-    "chinese_translations": ["死亡率"],
-    "example_sentences": "Chick mortality runs high in wet summers.",
-    "roots": [{"root":"mort","meaning":"death"},{"root":"-al","meaning":"relating to"},{"root":"-ity","meaning":"state of"}]
+    "english_explanations": [
+      "the number of deaths in a particular situation or period of time"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "死亡率",
+        "english": "the number of deaths in a particular situation or period of time",
+        "example": "the infant mortality rate (= the number of babies that die at or just after birth)"
+      }
+    ],
+    "roots": [
+      {
+        "root": "mort",
+        "meaning": "death"
+      },
+      {
+        "root": "-al",
+        "meaning": "relating to"
+      },
+      {
+        "root": "-ity",
+        "meaning": "state of"
+      }
+    ]
   },
   {
-    "word": ["exotic"],
+    "word": [
+      "exotic"
+    ],
     "phonetic": "/ɪɡˈzɒtɪk/",
-    "english_synonyms": ["foreign", "non-native", "alien"],
-    "english_explanations": [
-      "From another part of the world; strikingly unusual."
+    "english_synonyms": [
+      "foreign",
+      "non-native",
+      "alien"
     ],
-    "chinese_translations": ["异域的", "外来的", "奇异的"],
-    "example_sentences": "Exotic weeds oust the native plants."
+    "english_explanations": [
+      "From another part of the world; strikingly unusual.",
+      "from or in another country, especially a tropical one; seeming exciting and unusual because it is connected with foreign countries"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "异域的",
+        "english": "From another part of the world; strikingly unusual.",
+        "example": "Exotic weeds oust the native plants."
+      },
+      {
+        "pos": "n.",
+        "meaning": "外来的",
+        "english": "From another part of the world; strikingly unusual.",
+        "example": "Exotic weeds oust the native plants."
+      },
+      {
+        "pos": "adj.",
+        "meaning": "奇异的",
+        "english": "from or in another country, especially a tropical one; seeming exciting and unusual because it is connected with foreign countries",
+        "example": "brightly-coloured exotic flowers/plants/birds"
+      }
+    ]
   },
   {
-    "word": ["sustain"],
+    "word": [
+      "sustain"
+    ],
     "phonetic": "/səˈsteɪn/",
-    "english_synonyms": ["maintain", "support", "keep up"],
-    "english_explanations": [
-      "To keep something going over a period of time."
+    "english_synonyms": [
+      "maintain",
+      "support",
+      "keep up"
     ],
-    "chinese_translations": ["维持", "支撑"],
-    "example_sentences": "Rich upwellings sustain vast shoals of fish."
+    "english_explanations": [
+      "to provide enough of what sb/sth needs in order to live or exist",
+      "to support a weight without breaking or falling"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "维持",
+        "english": "to provide enough of what sb/sth needs in order to live or exist",
+        "example": "Which planets can sustain life?"
+      },
+      {
+        "pos": "v.",
+        "meaning": "支撑",
+        "english": "to support a weight without breaking or falling",
+        "example": "The ice will not sustain your weight."
+      }
+    ]
   },
   {
-    "word": ["terrain"],
+    "word": [
+      "terrain"
+    ],
     "phonetic": "/təˈreɪn/",
-    "english_synonyms": ["topography", "ground"],
-    "english_explanations": [
-      "A stretch of land considered with regard to its physical features."
+    "english_synonyms": [
+      "topography",
+      "ground"
     ],
-    "chinese_translations": ["地形", "地带"],
-    "example_sentences": "The terrain grows rockier toward the caldera."
+    "english_explanations": [
+      "used to refer to an area of land when you are mentioning its natural features, for example, if it is rough, flat, etc."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "地形",
+        "english": "used to refer to an area of land when you are mentioning its natural features, for example, if it is rough, flat, etc.",
+        "example": "difficult/rough/mountainous, etc. terrain"
+      },
+      {
+        "pos": "n.",
+        "meaning": "地带",
+        "english": "used to refer to an area of land when you are mentioning its natural features, for example, if it is rough, flat, etc.",
+        "example": "difficult/rough/mountainous, etc. terrain"
+      }
+    ]
   },
   {
-    "word": ["anatomy"],
+    "word": [
+      "anatomy"
+    ],
     "phonetic": "/əˈnætəmi/",
     "english_synonyms": [],
     "english_explanations": [
       "The bodily structure of an organism; the study of it."
     ],
-    "chinese_translations": ["解剖学", "解剖构造"],
-    "example_sentences": "The anatomy of the flipper echoes a human hand."
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "解剖学",
+        "english": "The bodily structure of an organism; the study of it.",
+        "example": "The anatomy of the flipper echoes a human hand."
+      },
+      {
+        "pos": "n.",
+        "meaning": "解剖构造",
+        "english": "The bodily structure of an organism; the study of it.",
+        "example": "The anatomy of the flipper echoes a human hand."
+      }
+    ]
   },
   {
-    "word": ["wilderness"],
+    "word": [
+      "wilderness"
+    ],
     "phonetic": "/ˈwɪldənəs/",
-    "english_synonyms": ["wilds", "wild land"],
+    "english_synonyms": [
+      "wilds",
+      "wild land"
+    ],
     "english_explanations": [
+      "a large area of land that has never been developed or used for growing crops because it is difficult to live there",
       "An untouched, uninhabited wild region."
     ],
-    "chinese_translations": ["荒野", "荒野地区"],
-    "example_sentences": "Tasmania's wilderness hid the last thylacines."
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "荒野",
+        "english": "a large area of land that has never been developed or used for growing crops because it is difficult to live there",
+        "example": "The Antarctic is the world's last great wilderness."
+      },
+      {
+        "pos": "n.",
+        "meaning": "荒野地区",
+        "english": "An untouched, uninhabited wild region.",
+        "example": "Tasmania's wilderness hid the last thylacines."
+      }
+    ]
   },
   {
-    "word": ["viable"],
+    "word": [
+      "viable"
+    ],
     "phonetic": "/ˈvaɪəbl/",
-    "english_synonyms": ["feasible", "workable", "capable of surviving"],
+    "english_synonyms": [
+      "feasible",
+      "workable",
+      "capable of surviving"
+    ],
     "english_explanations": [
+      "that can be done; that will be successful",
       "Capable of working or surviving successfully."
     ],
-    "chinese_translations": ["可行的", "能存活的"],
-    "example_sentences": "Only large reserves keep populations viable."
+    "chinese_translations": [
+      {
+        "pos": "adj.",
+        "meaning": "可行的",
+        "english": "that can be done; that will be successful",
+        "example": "a viable option/proposition"
+      },
+      {
+        "pos": "n.",
+        "meaning": "能存活的",
+        "english": "Capable of working or surviving successfully.",
+        "example": "Only large reserves keep populations viable."
+      }
+    ]
   },
   {
-    "word": ["prey"],
+    "word": [
+      "prey"
+    ],
     "phonetic": "/preɪ/",
-    "english_synonyms": ["victim"],
+    "english_synonyms": [
+      "victim"
+    ],
     "english_explanations": [
+      "an animal, a bird, etc. that is hunted, killed and eaten by another",
       "An animal hunted and killed for food."
     ],
-    "chinese_translations": ["猎物", "捕获物"],
-    "example_sentences": "The eagle carried its prey to the eyrie."
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "猎物",
+        "english": "an animal, a bird, etc. that is hunted, killed and eaten by another",
+        "example": "The lion will often stalk its prey for hours."
+      },
+      {
+        "pos": "n.",
+        "meaning": "捕获物",
+        "english": "An animal hunted and killed for food.",
+        "example": "The eagle carried its prey to the eyrie."
+      }
+    ]
   },
   {
-    "word": ["fossil"],
+    "word": [
+      "fossil"
+    ],
     "phonetic": "/ˈfɒsl/",
-    "english_synonyms": ["prehistoric remains"],
-    "english_explanations": [
-      "The preserved remains of a prehistoric organism."
+    "english_synonyms": [
+      "prehistoric remains"
     ],
-    "chinese_translations": ["化石"],
-    "example_sentences": "The fossil record pulses with sudden extinctions."
+    "english_explanations": [
+      "the remains of an animal or a plant which have become hard and turned into rock"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "化石",
+        "english": "the remains of an animal or a plant which have become hard and turned into rock",
+        "example": "fossils over two million years old"
+      }
+    ]
   },
   {
-    "word": ["acute"],
+    "word": [
+      "acute"
+    ],
     "phonetic": "/əˈkjuːt/",
-    "english_synonyms": ["sharp", "keen", "severe"],
-    "english_explanations": [
-      "Sharp or sensitive; severe and sudden."
+    "english_synonyms": [
+      "sharp",
+      "keen",
+      "severe"
     ],
-    "chinese_translations": ["敏锐的", "急性的", "严重的"],
-    "example_sentences": "An owl's acute hearing locates mice under the snow."
+    "english_explanations": [
+      "intelligent and quick to notice and understand things",
+      "an acute illness is one that has quickly become severe and dangerous",
+      "very serious or severe"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "adj.",
+        "meaning": "敏锐的",
+        "english": "intelligent and quick to notice and understand things",
+        "example": "He is an acute observer of the social scene."
+      },
+      {
+        "pos": "adj.",
+        "meaning": "急性的",
+        "english": "an acute illness is one that has quickly become severe and dangerous",
+        "example": "acute appendicitis"
+      },
+      {
+        "pos": "adj.",
+        "meaning": "严重的",
+        "english": "very serious or severe",
+        "example": "There is an acute shortage of water."
+      }
+    ]
   },
   {
-    "word": ["distinctive"],
+    "word": [
+      "distinctive"
+    ],
     "phonetic": "/dɪˈstɪŋktɪv/",
-    "english_synonyms": ["distinguishing", "recognizable", "typical"],
-    "english_explanations": [
-      "Serving to identify; characteristic."
+    "english_synonyms": [
+      "distinguishing",
+      "recognizable",
+      "typical"
     ],
-    "chinese_translations": ["独特的", "有特色的"],
-    "example_sentences": "Each whale sings a distinctive song."
+    "english_explanations": [
+      "having a quality or characteristic that makes sth different and easily noticed"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "adj.",
+        "meaning": "独特的",
+        "english": "having a quality or characteristic that makes sth different and easily noticed",
+        "example": "clothes with a distinctive style"
+      },
+      {
+        "pos": "adj.",
+        "meaning": "有特色的",
+        "english": "having a quality or characteristic that makes sth different and easily noticed",
+        "example": "clothes with a distinctive style"
+      }
+    ]
   },
   {
-    "word": ["territory"],
+    "word": [
+      "territory"
+    ],
     "phonetic": "/ˈterətri/",
-    "english_synonyms": ["range", "domain", "turf"],
-    "english_explanations": [
-      "An area defended by an animal or group."
+    "english_synonyms": [
+      "range",
+      "domain",
+      "turf"
     ],
-    "chinese_translations": ["领地", "地盘"],
-    "example_sentences": "Otters patrol their territory nightly."
+    "english_explanations": [
+      "land that is under the control of a particular country or ruler",
+      "an area that one person, group, animal, etc. considers as their own and defends against others who try to enter it"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "领地",
+        "english": "land that is under the control of a particular country or ruler",
+        "example": "enemy/disputed/foreign territory"
+      },
+      {
+        "pos": "n.",
+        "meaning": "地盘",
+        "english": "an area that one person, group, animal, etc. considers as their own and defends against others who try to enter it",
+        "example": "Mating blackbirds will defend their territory against intruders."
+      }
+    ]
   },
   {
-    "word": ["arctic"],
+    "word": [
+      "arctic"
+    ],
     "phonetic": "/ˈɑːktɪk/",
     "english_synonyms": [],
     "english_explanations": [
       "Of the region around the North Pole."
     ],
-    "chinese_translations": ["北极的", "北极"],
-    "example_sentences": "Arctic terns see two summers a year."
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "北极的",
+        "english": "Of the region around the North Pole.",
+        "example": "Arctic terns see two summers a year."
+      },
+      {
+        "pos": "n.",
+        "meaning": "北极",
+        "english": "Of the region around the North Pole.",
+        "example": "Arctic terns see two summers a year."
+      }
+    ]
   },
   {
-    "word": ["thermal"],
+    "word": [
+      "thermal"
+    ],
     "phonetic": "/ˈθɜːml/",
     "english_synonyms": [],
     "english_explanations": [
+      "connected with heat",
+      "designed to keep you warm by preventing heat from escaping from the body",
       "Relating to heat; a rising column of warm air."
     ],
-    "chinese_translations": ["热的", "保暖的", "上升热气流"],
-    "example_sentences": "The otter's dense fur is superb thermal insulation."
+    "chinese_translations": [
+      {
+        "pos": "adj.",
+        "meaning": "热的",
+        "english": "connected with heat",
+        "example": "thermal energy"
+      },
+      {
+        "pos": "adj.",
+        "meaning": "保暖的",
+        "english": "designed to keep you warm by preventing heat from escaping from the body",
+        "example": "thermal underwear"
+      },
+      {
+        "pos": "adj.",
+        "meaning": "上升热气流",
+        "english": "Relating to heat; a rising column of warm air.",
+        "example": "The otter's dense fur is superb thermal insulation."
+      }
+    ]
   },
   {
-    "word": ["compelling"],
+    "word": [
+      "compelling"
+    ],
     "phonetic": "/kəmˈpelɪŋ/",
-    "english_synonyms": ["gripping", "persuasive"],
+    "english_synonyms": [
+      "gripping",
+      "persuasive"
+    ],
     "english_explanations": [
       "Convincing; holding one's attention powerfully."
     ],
-    "chinese_translations": ["令人信服的", "扣人心弦的"],
-    "example_sentences": "The isotope data make a compelling case."
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "令人信服的",
+        "english": "Convincing; holding one's attention powerfully.",
+        "example": "The isotope data make a compelling case."
+      },
+      {
+        "pos": "n.",
+        "meaning": "扣人心弦的",
+        "english": "Convincing; holding one's attention powerfully.",
+        "example": "The isotope data make a compelling case."
+      }
+    ]
   },
   {
-    "word": ["revelation"],
+    "word": [
+      "revelation"
+    ],
     "phonetic": "/ˌrevəˈleɪʃn/",
-    "english_synonyms": ["disclosure", "eye-opener"],
+    "english_synonyms": [
+      "disclosure",
+      "eye-opener"
+    ],
     "english_explanations": [
       "A surprising fact made known for the first time."
     ],
-    "chinese_translations": ["揭示", "惊人发现"],
-    "example_sentences": "The tracking study brought a revelation: the birds sleep on the wing.",
-    "roots": [{"root":"re-","meaning":"again"},{"root":"vel","meaning":"cover"},{"root":"-ation","meaning":"act of"}]
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "揭示",
+        "english": "A surprising fact made known for the first time.",
+        "example": "The tracking study brought a revelation: the birds sleep on the wing."
+      },
+      {
+        "pos": "n.",
+        "meaning": "惊人发现",
+        "english": "A surprising fact made known for the first time.",
+        "example": "The tracking study brought a revelation: the birds sleep on the wing."
+      }
+    ],
+    "roots": [
+      {
+        "root": "re-",
+        "meaning": "again"
+      },
+      {
+        "root": "vel",
+        "meaning": "cover"
+      },
+      {
+        "root": "-ation",
+        "meaning": "act of"
+      }
+    ]
   },
   {
-    "word": ["grasp"],
+    "word": [
+      "grasp"
+    ],
     "phonetic": "/ɡrɑːsp/",
-    "english_synonyms": ["understand", "comprehend", "grip"],
-    "english_explanations": [
-      "To seize firmly; to understand fully."
+    "english_synonyms": [
+      "understand",
+      "comprehend",
+      "grip"
     ],
-    "chinese_translations": ["掌握", "理解", "抓住"],
-    "example_sentences": "The giraffe grasps thorny twigs with its long tongue."
+    "english_explanations": [
+      "To seize firmly; to understand fully.",
+      "to understand sth completely",
+      "to take an opportunity without hesitating and use it"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "掌握",
+        "english": "To seize firmly; to understand fully.",
+        "example": "The giraffe grasps thorny twigs with its long tongue."
+      },
+      {
+        "pos": "v.",
+        "meaning": "理解",
+        "english": "to understand sth completely",
+        "example": "They failed to grasp the importance of his words."
+      },
+      {
+        "pos": "v.",
+        "meaning": "抓住",
+        "english": "to take an opportunity without hesitating and use it",
+        "example": "I grasped the opportunity to work abroad."
+      }
+    ]
   },
   {
-    "word": ["wade"],
+    "word": [
+      "wade"
+    ],
     "phonetic": "/weɪd/",
-    "english_synonyms": ["walk through water"],
-    "english_explanations": [
-      "To walk with effort through water or mud."
+    "english_synonyms": [
+      "walk through water"
     ],
-    "chinese_translations": ["涉水", "跋涉"],
-    "example_sentences": "Storks wade the shallows on stilt-like legs."
+    "english_explanations": [
+      "To walk with effort through water or mud.",
+      "to walk with an effort through sth, especially water or mud"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "涉水",
+        "english": "To walk with effort through water or mud.",
+        "example": "Storks wade the shallows on stilt-like legs."
+      },
+      {
+        "pos": "v.",
+        "meaning": "跋涉",
+        "english": "to walk with an effort through sth, especially water or mud",
+        "example": "He waded into the water to push the boat out."
+      }
+    ]
   },
   {
-    "word": ["scale", "scales"],
+    "word": [
+      "scale",
+      "scales"
+    ],
     "phonetic": "/skeɪl/",
     "english_synonyms": [],
     "english_explanations": [
-      "A small hard plate protecting skin (plural: scales); a measuring series."
+      "A small hard plate protecting skin (plural: scales); a measuring series.",
+      "a series of marks at regular intervals on an instrument that is used for measuring",
+      "the size or extent of sth, especially when compared with sth else"
     ],
-    "chinese_translations": ["鳞片", "刻度", "规模"],
-    "example_sentences": "The scales overlap like roof tiles."
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "鳞片",
+        "english": "A small hard plate protecting skin (plural: scales); a measuring series.",
+        "example": "The scales overlap like roof tiles."
+      },
+      {
+        "pos": "n.",
+        "meaning": "刻度",
+        "english": "a series of marks at regular intervals on an instrument that is used for measuring",
+        "example": "How much does it read on the scale?"
+      },
+      {
+        "pos": "n.",
+        "meaning": "规模",
+        "english": "the size or extent of sth, especially when compared with sth else",
+        "example": "They entertain on a large scale (= they hold expensive parties with a lot of guests)."
+      }
+    ]
   },
   {
-    "word": ["trait"],
+    "word": [
+      "trait"
+    ],
     "phonetic": "/treɪt/",
-    "english_synonyms": ["feature", "quality"],
-    "english_explanations": [
-      "A distinguishing quality or characteristic."
+    "english_synonyms": [
+      "feature",
+      "quality"
     ],
-    "chinese_translations": ["特征", "特点"],
-    "example_sentences": "Tameness is a costly trait on predator-free islands."
+    "english_explanations": [
+      "a particular quality in your personality"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "特征",
+        "english": "a particular quality in your personality",
+        "example": "personality traits"
+      },
+      {
+        "pos": "n.",
+        "meaning": "特点",
+        "english": "a particular quality in your personality",
+        "example": "personality traits"
+      }
+    ]
   },
   {
-    "word": ["blend"],
+    "word": [
+      "blend"
+    ],
     "phonetic": "/blend/",
-    "english_synonyms": ["mix", "merge", "fuse"],
-    "english_explanations": [
-      "To mix together smoothly and inseparably."
+    "english_synonyms": [
+      "mix",
+      "merge",
+      "fuse"
     ],
-    "chinese_translations": ["融合", "混合"],
-    "example_sentences": "The fawn's spots blend with the dappled light."
+    "english_explanations": [
+      "to form a mixture with sth",
+      "to mix two or more substances together"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "融合",
+        "english": "to form a mixture with sth",
+        "example": "Oil does not blend with water."
+      },
+      {
+        "pos": "v.",
+        "meaning": "混合",
+        "english": "to mix two or more substances together",
+        "example": "Blend the flour with the milk to make a smooth paste."
+      }
+    ]
   },
   {
-    "word": ["circulation"],
+    "word": [
+      "circulation"
+    ],
     "phonetic": "/ˌsɜːkjəˈleɪʃn/",
-    "english_synonyms": ["flow", "movement"],
-    "english_explanations": [
-      "Movement in a circuit, as of blood or air."
+    "english_synonyms": [
+      "flow",
+      "movement"
     ],
-    "chinese_translations": ["循环", "流通"],
-    "example_sentences": "The mound's chimneys drive air circulation.",
-    "roots": [{"root":"circul","meaning":"circle"},{"root":"-ation","meaning":"process of"}]
+    "english_explanations": [
+      "the movement of blood around the body",
+      "the passing or spreading of sth from one person or place to another"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "循环",
+        "english": "the movement of blood around the body",
+        "example": "Regular exercise will improve blood circulation."
+      },
+      {
+        "pos": "n.",
+        "meaning": "流通",
+        "english": "the passing or spreading of sth from one person or place to another",
+        "example": "the circulation of money/information/ideas"
+      }
+    ],
+    "roots": [
+      {
+        "root": "circul",
+        "meaning": "circle"
+      },
+      {
+        "root": "-ation",
+        "meaning": "process of"
+      }
+    ]
   },
   {
-    "word": ["spike"],
+    "word": [
+      "spike"
+    ],
     "phonetic": "/spaɪk/",
-    "english_synonyms": ["sharp increase", "surge", "peak"],
+    "english_synonyms": [
+      "sharp increase",
+      "surge",
+      "peak"
+    ],
     "english_explanations": [
       "A sharp rise in a quantity; a pointed projection."
     ],
-    "chinese_translations": ["激增", "尖峰", "长钉"],
-    "example_sentences": "A spike in strandings followed the heatwave."
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "激增",
+        "english": "A sharp rise in a quantity; a pointed projection.",
+        "example": "A spike in strandings followed the heatwave."
+      },
+      {
+        "pos": "n.",
+        "meaning": "尖峰",
+        "english": "A sharp rise in a quantity; a pointed projection.",
+        "example": "A spike in strandings followed the heatwave."
+      },
+      {
+        "pos": "n.",
+        "meaning": "长钉",
+        "english": "A sharp rise in a quantity; a pointed projection.",
+        "example": "A spike in strandings followed the heatwave."
+      }
+    ]
   },
   {
-    "word": ["wary"],
+    "word": [
+      "wary"
+    ],
     "phonetic": "/ˈweəri/",
-    "english_synonyms": ["cautious", "watchful", "alert"],
-    "english_explanations": [
-      "Feeling or showing caution about possible danger."
+    "english_synonyms": [
+      "cautious",
+      "watchful",
+      "alert"
     ],
-    "chinese_translations": ["警惕的", "小心翼翼的"],
-    "example_sentences": "Older otters are wary of traps."
+    "english_explanations": [
+      "Feeling or showing caution about possible danger.",
+      "careful when dealing with sb/sth because you think that there may be a danger or problem"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "警惕的",
+        "english": "Feeling or showing caution about possible danger.",
+        "example": "Older otters are wary of traps."
+      },
+      {
+        "pos": "adj.",
+        "meaning": "小心翼翼的",
+        "english": "careful when dealing with sb/sth because you think that there may be a danger or problem",
+        "example": "Be wary of strangers who offer you a ride."
+      }
+    ]
   },
   {
-    "word": ["quarry"],
+    "word": [
+      "quarry"
+    ],
     "phonetic": "/ˈkwɒri/",
-    "english_synonyms": ["game"],
-    "english_explanations": [
-      "An animal that is being hunted; a place where stone is cut."
+    "english_synonyms": [
+      "game"
     ],
-    "chinese_translations": ["猎物", "采石场"],
-    "example_sentences": "The falcon stoops on its quarry."
+    "english_explanations": [
+      "an animal or a person that is being hunted or followed",
+      "a place where large amounts of stone, etc. are dug out of the ground"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "猎物",
+        "english": "an animal or a person that is being hunted or followed",
+        "example": "The hunters lost sight of their quarry in the forest."
+      },
+      {
+        "pos": "n.",
+        "meaning": "采石场",
+        "english": "a place where large amounts of stone, etc. are dug out of the ground",
+        "example": "a slate quarry"
+      }
+    ]
   },
   {
-    "word": ["spear"],
+    "word": [
+      "spear"
+    ],
     "phonetic": "/spɪə(r)/",
-    "english_synonyms": ["lance", "pierce"],
-    "english_explanations": [
-      "A weapon with a long pointed shaft; to pierce with one."
+    "english_synonyms": [
+      "lance",
+      "pierce"
     ],
-    "chinese_translations": ["矛", "刺", "叉"],
-    "example_sentences": "Herons spear fish with a lightning stab."
+    "english_explanations": [
+      "A weapon with a long pointed shaft; to pierce with one.",
+      "to throw or push a spear or other pointed object through sth/sb"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "矛",
+        "english": "A weapon with a long pointed shaft; to pierce with one.",
+        "example": "Herons spear fish with a lightning stab."
+      },
+      {
+        "pos": "v.",
+        "meaning": "刺",
+        "english": "to throw or push a spear or other pointed object through sth/sb",
+        "example": "They were standing in the river spearing fish."
+      },
+      {
+        "pos": "n.",
+        "meaning": "叉",
+        "english": "A weapon with a long pointed shaft; to pierce with one.",
+        "example": "Herons spear fish with a lightning stab."
+      }
+    ]
   },
   {
-    "word": ["beast"],
+    "word": [
+      "beast"
+    ],
     "phonetic": "/biːst/",
-    "english_synonyms": ["animal", "brute", "creature"],
+    "english_synonyms": [
+      "animal",
+      "brute",
+      "creature"
+    ],
     "english_explanations": [
       "A large four-legged animal; a dangerous wild animal."
     ],
-    "chinese_translations": ["野兽", "牲畜"],
-    "example_sentences": "Cave bears were beasts of immense strength."
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "野兽",
+        "english": "A large four-legged animal; a dangerous wild animal.",
+        "example": "Cave bears were beasts of immense strength."
+      },
+      {
+        "pos": "n.",
+        "meaning": "牲畜",
+        "english": "A large four-legged animal; a dangerous wild animal.",
+        "example": "Cave bears were beasts of immense strength."
+      }
+    ]
   },
   {
-    "word": ["calf"],
+    "word": [
+      "calf"
+    ],
     "phonetic": "/kɑːf/",
     "english_synonyms": [],
     "english_explanations": [
       "The young of cattle, elephants, whales, and some other animals."
     ],
-    "chinese_translations": ["幼崽", "小牛"],
-    "example_sentences": "The whale calf stays beside its mother."
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "幼崽",
+        "english": "The young of cattle, elephants, whales, and some other animals.",
+        "example": "The whale calf stays beside its mother."
+      },
+      {
+        "pos": "n.",
+        "meaning": "小牛",
+        "english": "The young of cattle, elephants, whales, and some other animals.",
+        "example": "The whale calf stays beside its mother."
+      }
+    ]
   },
   {
-    "word": ["cub"],
+    "word": [
+      "cub"
+    ],
     "phonetic": "/kʌb/",
     "english_synonyms": [],
     "english_explanations": [
+      "a young bear, lion, fox, etc.",
       "The young of foxes, bears, lions, and other mammals."
     ],
-    "chinese_translations": ["幼兽", "幼崽"],
-    "example_sentences": "The bear cubs rough-and-tumbled on the slope."
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "幼兽",
+        "english": "a young bear, lion, fox, etc.",
+        "example": "a lioness guarding her cubs"
+      },
+      {
+        "pos": "n.",
+        "meaning": "幼崽",
+        "english": "The young of foxes, bears, lions, and other mammals.",
+        "example": "The bear cubs rough-and-tumbled on the slope."
+      }
+    ]
   },
   {
-    "word": ["chick"],
+    "word": [
+      "chick"
+    ],
     "phonetic": "/tʃɪk/",
     "english_synonyms": [],
-    "english_explanations": ["A newly hatched bird."],
-    "chinese_translations": ["雏鸟", "幼鸟"],
-    "example_sentences": "Both parents feed the chick."
+    "english_explanations": [
+      "A newly hatched bird."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "雏鸟",
+        "english": "A newly hatched bird.",
+        "example": "Both parents feed the chick."
+      },
+      {
+        "pos": "n.",
+        "meaning": "幼鸟",
+        "english": "A newly hatched bird.",
+        "example": "Both parents feed the chick."
+      }
+    ]
   },
   {
-    "word": ["finch"],
+    "word": [
+      "finch"
+    ],
     "phonetic": "/fɪntʃ/",
     "english_synonyms": [],
     "english_explanations": [
       "A small seed-eating songbird with a conical bill."
     ],
-    "chinese_translations": ["雀鸟", "雀"],
-    "example_sentences": "Ground finches crack seeds with heavy bills."
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "雀鸟",
+        "english": "A small seed-eating songbird with a conical bill.",
+        "example": "Ground finches crack seeds with heavy bills."
+      },
+      {
+        "pos": "n.",
+        "meaning": "雀",
+        "english": "A small seed-eating songbird with a conical bill.",
+        "example": "Ground finches crack seeds with heavy bills."
+      }
+    ]
   },
   {
-    "word": ["falcon"],
+    "word": [
+      "falcon"
+    ],
     "phonetic": "/ˈfɔːlkən/",
     "english_synonyms": [],
     "english_explanations": [
       "A fast-flying bird of prey with long pointed wings."
     ],
-    "chinese_translations": ["隼"],
-    "example_sentences": "The falcon chased the pigeon over the city."
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "隼",
+        "english": "A fast-flying bird of prey with long pointed wings.",
+        "example": "The falcon chased the pigeon over the city."
+      }
+    ]
   },
   {
-    "word": ["tuna"],
+    "word": [
+      "tuna"
+    ],
     "phonetic": "/ˈtjuːnə/",
     "english_synonyms": [],
     "english_explanations": [
-      "A large, fast ocean fish prized as food."
+      "a large sea fish that is used for food"
     ],
-    "chinese_translations": ["金枪鱼"],
-    "example_sentences": "Tuna maintain body heat above the surrounding sea."
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "金枪鱼",
+        "english": "a large sea fish that is used for food",
+        "example": "fishing for tuna"
+      }
+    ]
   },
   {
-    "word": ["trout"],
+    "word": [
+      "trout"
+    ],
     "phonetic": "/traʊt/",
     "english_synonyms": [],
     "english_explanations": [
-      "A freshwater game fish of the salmon family."
+      "a common freshwater fish that is used for food. There are several types of trout."
     ],
-    "chinese_translations": ["鳟鱼"],
-    "example_sentences": "Trout hold station in the cool current."
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "鳟鱼",
+        "english": "a common freshwater fish that is used for food. There are several types of trout.",
+        "example": "rainbow trout"
+      }
+    ]
   },
   {
-    "word": ["pike"],
+    "word": [
+      "pike"
+    ],
     "phonetic": "/paɪk/",
     "english_synonyms": [],
     "english_explanations": [
       "A long-bodied predatory freshwater fish."
     ],
-    "chinese_translations": ["狗鱼"],
-    "example_sentences": "The pike lurks among the reeds."
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "狗鱼",
+        "english": "A long-bodied predatory freshwater fish.",
+        "example": "The pike lurks among the reeds."
+      }
+    ]
   },
   {
-    "word": ["eel"],
+    "word": [
+      "eel"
+    ],
     "phonetic": "/iːl/",
     "english_synonyms": [],
-    "english_explanations": ["A snakelike fish."],
-    "chinese_translations": ["鳗鱼"],
-    "example_sentences": "Eels cross the Atlantic to spawn."
+    "english_explanations": [
+      "A snakelike fish."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "鳗鱼",
+        "english": "A snakelike fish.",
+        "example": "Eels cross the Atlantic to spawn."
+      }
+    ]
   },
   {
-    "word": ["dorsal"],
+    "word": [
+      "dorsal"
+    ],
     "phonetic": "/ˈdɔːsl/",
     "english_synonyms": [],
     "english_explanations": [
+      "on or connected with the back of a fish or an animal",
       "Relating to the back or upper side of an animal."
     ],
-    "chinese_translations": ["背侧的", "背鳍的"],
-    "example_sentences": "The shark's dorsal fin cut the surface."
+    "chinese_translations": [
+      {
+        "pos": "adj.",
+        "meaning": "背侧的",
+        "english": "on or connected with the back of a fish or an animal",
+        "example": "a shark's dorsal fin"
+      },
+      {
+        "pos": "adj.",
+        "meaning": "背鳍的",
+        "english": "Relating to the back or upper side of an animal.",
+        "example": "The shark's dorsal fin cut the surface."
+      }
+    ]
   }
 ]

@@ -1,150 +1,402 @@
 [
   {
-    "word": ["undergrowth"],
+    "word": [
+      "undergrowth"
+    ],
     "phonetic": "/ˈʌndəɡrəʊθ/",
-    "english_synonyms": ["underbrush", "brush"],
+    "english_synonyms": [
+      "underbrush",
+      "brush"
+    ],
     "english_explanations": [
       "The bushes and small plants growing beneath the trees of a wood."
     ],
-    "chinese_translations": ["下层灌木丛", "林下灌丛"],
-    "example_sentences": "A covey of quail scattered into the undergrowth."
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "下层灌木丛",
+        "english": "The bushes and small plants growing beneath the trees of a wood.",
+        "example": "A covey of quail scattered into the undergrowth."
+      },
+      {
+        "pos": "n.",
+        "meaning": "林下灌丛",
+        "english": "The bushes and small plants growing beneath the trees of a wood.",
+        "example": "A covey of quail scattered into the undergrowth."
+      }
+    ]
   },
   {
-    "word": ["savanna", "savannah"],
+    "word": [
+      "savanna",
+      "savannah"
+    ],
     "phonetic": "/səˈvænə/",
     "english_synonyms": [],
     "english_explanations": [
       "A grassy plain with scattered trees, typical of tropical Africa."
     ],
-    "chinese_translations": ["稀树草原"],
-    "example_sentences": "Elephants roam the savanna in search of water."
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "稀树草原",
+        "english": "A grassy plain with scattered trees, typical of tropical Africa.",
+        "example": "Elephants roam the savanna in search of water."
+      }
+    ]
   },
   {
-    "word": ["grassland"],
+    "word": [
+      "grassland"
+    ],
     "phonetic": "/ˈɡrɑːslænd/",
-    "english_synonyms": ["prairie", "pasture"],
+    "english_synonyms": [
+      "prairie",
+      "pasture"
+    ],
     "english_explanations": [
       "Land covered mainly by grasses, with few or no trees."
     ],
-    "chinese_translations": ["草原", "草地"],
-    "example_sentences": "Grassland birds nest on the ground among the tussocks."
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "草原",
+        "english": "Land covered mainly by grasses, with few or no trees.",
+        "example": "Grassland birds nest on the ground among the tussocks."
+      },
+      {
+        "pos": "n.",
+        "meaning": "草地",
+        "english": "Land covered mainly by grasses, with few or no trees.",
+        "example": "Grassland birds nest on the ground among the tussocks."
+      }
+    ]
   },
   {
-    "word": ["hollow"],
-    "phonetic": "/ˈhɒləʊ/",
-    "english_synonyms": ["opening", "depression"],
-    "english_explanations": [
-      "A hole or sunken space, especially in a tree trunk, where animals may nest."
+    "word": [
+      "hollow"
     ],
-    "chinese_translations": ["树洞", "凹陷"],
-    "example_sentences": "Owls nest in tree hollows."
+    "phonetic": "/ˈhɒləʊ/",
+    "english_synonyms": [
+      "opening",
+      "depression"
+    ],
+    "english_explanations": [
+      "A hole or sunken space, especially in a tree trunk, where animals may nest.",
+      "sinking deeply into the face"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "树洞",
+        "english": "A hole or sunken space, especially in a tree trunk, where animals may nest.",
+        "example": "Owls nest in tree hollows."
+      },
+      {
+        "pos": "adj.",
+        "meaning": "凹陷",
+        "english": "sinking deeply into the face",
+        "example": "hollow eyes/cheeks"
+      }
+    ]
   },
   {
-    "word": ["windbreak"],
+    "word": [
+      "windbreak"
+    ],
     "phonetic": "/ˈwɪndbreɪk/",
-    "english_synonyms": ["shelterbelt"],
+    "english_synonyms": [
+      "shelterbelt"
+    ],
     "english_explanations": [
       "A row of trees or a fence planted to break the force of the wind."
     ],
-    "chinese_translations": ["防风林", "防风带"],
-    "example_sentences": "Monkeys shelter behind the windbreak of pines."
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "防风林",
+        "english": "A row of trees or a fence planted to break the force of the wind.",
+        "example": "Monkeys shelter behind the windbreak of pines."
+      },
+      {
+        "pos": "n.",
+        "meaning": "防风带",
+        "english": "A row of trees or a fence planted to break the force of the wind.",
+        "example": "Monkeys shelter behind the windbreak of pines."
+      }
+    ]
   },
   {
-    "word": ["climes"],
-    "phonetic": "/klaɪm/",
-    "english_synonyms": ["climates"],
-    "english_explanations": [
-      "(literary) regions considered with regard to their climate."
+    "word": [
+      "climes"
     ],
-    "chinese_translations": ["气候带", "地带"],
-    "example_sentences": "Warmer climes await the migrating swallows."
+    "phonetic": "/klaɪm/",
+    "english_synonyms": [
+      "climates"
+    ],
+    "english_explanations": [
+      "a country with a particular kind of climate"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "气候带",
+        "english": "a country with a particular kind of climate",
+        "example": "I'm heading for sunnier climes next month."
+      },
+      {
+        "pos": "n.",
+        "meaning": "地带",
+        "english": "a country with a particular kind of climate",
+        "example": "I'm heading for sunnier climes next month."
+      }
+    ]
   },
   {
-    "word": ["latitude"],
+    "word": [
+      "latitude"
+    ],
     "phonetic": "/ˈlætɪtjuːd/",
     "english_synonyms": [],
     "english_explanations": [
       "The distance north or south of the equator, measured in degrees."
     ],
-    "chinese_translations": ["纬度"],
-    "example_sentences": "Birds time their migration by changing latitude."
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "纬度",
+        "english": "The distance north or south of the equator, measured in degrees.",
+        "example": "Birds time their migration by changing latitude."
+      }
+    ]
   },
   {
-    "word": ["equatorial"],
-    "phonetic": "/ˌekwəˈtɔːriəl/",
-    "english_synonyms": ["tropical"],
-    "english_explanations": [
-      "Of or near the equator, typically hot and humid."
+    "word": [
+      "equatorial"
     ],
-    "chinese_translations": ["赤道的", "赤道附近的"],
-    "example_sentences": "Equatorial forests steam in the midday heat.",
-    "roots": [{"root":"equatori","meaning":"equator"},{"root":"-al","meaning":"relating to"}]
+    "phonetic": "/ˌekwəˈtɔːriəl/",
+    "english_synonyms": [
+      "tropical"
+    ],
+    "english_explanations": [
+      "near the equator or typical of a country that is near the equator"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "adj.",
+        "meaning": "赤道的",
+        "english": "near the equator or typical of a country that is near the equator",
+        "example": "equatorial rainforests"
+      },
+      {
+        "pos": "adj.",
+        "meaning": "赤道附近的",
+        "english": "near the equator or typical of a country that is near the equator",
+        "example": "equatorial rainforests"
+      }
+    ],
+    "roots": [
+      {
+        "root": "equatori",
+        "meaning": "equator"
+      },
+      {
+        "root": "-al",
+        "meaning": "relating to"
+      }
+    ]
   },
   {
-    "word": ["temperate"],
+    "word": [
+      "temperate"
+    ],
     "phonetic": "/ˈtempərət/",
-    "english_synonyms": ["mild"],
+    "english_synonyms": [
+      "mild"
+    ],
     "english_explanations": [
       "(of climate) mild, without extremes of heat or cold."
     ],
-    "chinese_translations": ["温带的", "气候温和的"],
-    "example_sentences": "Temperate forests turn red in autumn.",
-    "roots": [{"root":"temper","meaning":"moderate"},{"root":"-ate","meaning":"having the quality of"}]
+    "chinese_translations": [
+      {
+        "pos": "adj.",
+        "meaning": "温带的",
+        "english": "(of climate) mild, without extremes of heat or cold.",
+        "example": "Temperate forests turn red in autumn."
+      },
+      {
+        "pos": "adj.",
+        "meaning": "气候温和的",
+        "english": "(of climate) mild, without extremes of heat or cold.",
+        "example": "Temperate forests turn red in autumn."
+      }
+    ],
+    "roots": [
+      {
+        "root": "temper",
+        "meaning": "moderate"
+      },
+      {
+        "root": "-ate",
+        "meaning": "having the quality of"
+      }
+    ]
   },
   {
-    "word": ["sunlit"],
+    "word": [
+      "sunlit"
+    ],
     "phonetic": "/ˈsʌnlɪt/",
-    "english_synonyms": ["sunny", "lit by the sun"],
-    "english_explanations": ["Lit or warmed by the sun."],
-    "chinese_translations": ["阳光照耀的", "被阳光照射的"],
-    "example_sentences": "Plankton bloom in the sunlit surface layer."
+    "english_synonyms": [
+      "sunny",
+      "lit by the sun"
+    ],
+    "english_explanations": [
+      "receiving light from the sun",
+      "Lit or warmed by the sun."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "adj.",
+        "meaning": "阳光照耀的",
+        "english": "receiving light from the sun",
+        "example": "sunlit streets"
+      },
+      {
+        "pos": "n.",
+        "meaning": "被阳光照射的",
+        "english": "Lit or warmed by the sun.",
+        "example": "Plankton bloom in the sunlit surface layer."
+      }
+    ]
   },
   {
-    "word": ["blistering"],
+    "word": [
+      "blistering"
+    ],
     "phonetic": "/ˈblɪstərɪŋ/",
-    "english_synonyms": ["scorching", "burning hot"],
-    "english_explanations": ["Extremely hot."],
-    "chinese_translations": ["酷热的", "灼热的"],
-    "example_sentences": "Blistering heat sweeps across the termite mound at noon."
+    "english_synonyms": [
+      "scorching",
+      "burning hot"
+    ],
+    "english_explanations": [
+      "Extremely hot."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "酷热的",
+        "english": "Extremely hot.",
+        "example": "Blistering heat sweeps across the termite mound at noon."
+      },
+      {
+        "pos": "n.",
+        "meaning": "灼热的",
+        "english": "Extremely hot.",
+        "example": "Blistering heat sweeps across the termite mound at noon."
+      }
+    ]
   },
   {
-    "word": ["shallows"],
+    "word": [
+      "shallows"
+    ],
     "phonetic": "/ˈʃæləʊz/",
-    "english_synonyms": ["shallow water"],
+    "english_synonyms": [
+      "shallow water"
+    ],
     "english_explanations": [
       "Areas of water that are not deep, near the shore."
     ],
-    "chinese_translations": ["浅滩", "浅水区"],
-    "example_sentences": "Young fish hide from predators in the shallows."
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "浅滩",
+        "english": "Areas of water that are not deep, near the shore.",
+        "example": "Young fish hide from predators in the shallows."
+      },
+      {
+        "pos": "n.",
+        "meaning": "浅水区",
+        "english": "Areas of water that are not deep, near the shore.",
+        "example": "Young fish hide from predators in the shallows."
+      }
+    ]
   },
   {
-    "word": ["waterside"],
+    "word": [
+      "waterside"
+    ],
     "phonetic": "/ˈwɔːtəsaɪd/",
-    "english_synonyms": ["waterfront", "shoreline"],
+    "english_synonyms": [
+      "waterfront",
+      "shoreline"
+    ],
     "english_explanations": [
+      "the area at the edge of a river, lake, etc.",
       "Land lying along the edge of a body of water."
     ],
-    "chinese_translations": ["水边", "水滨"],
-    "example_sentences": "Otters mark their territory along the waterside."
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "水边",
+        "english": "the area at the edge of a river, lake, etc.",
+        "example": "They strolled down to the waterside."
+      },
+      {
+        "pos": "n.",
+        "meaning": "水滨",
+        "english": "Land lying along the edge of a body of water.",
+        "example": "Otters mark their territory along the waterside."
+      }
+    ]
   },
   {
-    "word": ["kelp"],
+    "word": [
+      "kelp"
+    ],
     "phonetic": "/kelp/",
     "english_synonyms": [],
     "english_explanations": [
       "Large brown seaweed that grows in underwater forests."
     ],
-    "chinese_translations": ["巨藻", "海带"],
-    "example_sentences": "Sea otters wrap themselves in kelp to keep from drifting."
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "巨藻",
+        "english": "Large brown seaweed that grows in underwater forests.",
+        "example": "Sea otters wrap themselves in kelp to keep from drifting."
+      },
+      {
+        "pos": "n.",
+        "meaning": "海带",
+        "english": "Large brown seaweed that grows in underwater forests.",
+        "example": "Sea otters wrap themselves in kelp to keep from drifting."
+      }
+    ]
   },
   {
-    "word": ["acacia"],
+    "word": [
+      "acacia"
+    ],
     "phonetic": "/əˈkeɪʃə/",
     "english_synonyms": [],
     "english_explanations": [
       "A thorny tree of warm regions, a chief food of giraffes."
     ],
-    "chinese_translations": ["金合欢树", "金合欢"],
-    "example_sentences": "Giraffes browse the crowns of acacias."
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "金合欢树",
+        "english": "A thorny tree of warm regions, a chief food of giraffes.",
+        "example": "Giraffes browse the crowns of acacias."
+      },
+      {
+        "pos": "n.",
+        "meaning": "金合欢",
+        "english": "A thorny tree of warm regions, a chief food of giraffes.",
+        "example": "Giraffes browse the crowns of acacias."
+      }
+    ]
   }
 ]

@@ -1,749 +1,4356 @@
 [
   {
-    "word": ["accent"],
-    "english_synonyms": ["pronunciation", "intonation", "inflection", "diction"],
-    "english_explanations": ["A distinctive way of pronouncing a language, associated with a particular country, area, or social class."],
-    "chinese_translations": ["口音", "重音", "腔调"],
-    "example_sentences": "He spoke with a strong French accent that made him difficult to understand at first."
-  },
-  {
-    "word": ["acquaintance"],
-    "english_synonyms": ["associate", "contact", "colleague", "friend"],
-    "english_explanations": ["A person one knows slightly, but who is not a close friend.", "Knowledge or familiarity with something."],
-    "chinese_translations": ["熟人", "相识", "泛泛之交"],
-    "example_sentences": "I met her at a conference, but we are only casual acquaintances."
-  },
-  {
-    "word": ["adjourn"],
-    "english_synonyms": ["postpone", "suspend", "defer", "recess"],
-    "english_explanations": ["To break off and resume a meeting or session at a later time.", "To move to a different location, especially for refreshment."],
-    "chinese_translations": ["休会", "延期", "暂停"],
-    "example_sentences": "The chairperson decided to adjourn the meeting until next Monday."
-  },
-  {
-    "word": ["adjournment"],
-    "english_synonyms": ["postponement", "suspension", "recess", "break"],
-    "english_explanations": ["The act of adjourning a meeting or session to resume at a later time."],
-    "chinese_translations": ["休会", "延期", "暂停"],
-    "example_sentences": "The adjournment was announced after three hours of heated debate.",
-    "roots": [{"root":"ad-","meaning":"to"},{"root":"journ","meaning":"day"},{"root":"-ment","meaning":"act"}]
-  },
-  {
-    "word": ["advance"],
-    "english_synonyms": ["progress", "development", "improvement", "breakthrough"],
-    "english_explanations": ["A forward movement or development.", "Money paid before it is due or before work is completed."],
-    "chinese_translations": ["提前", "进展", "预付款"],
-    "example_sentences": "We need to book the venue two weeks in advance to secure the date."
-  },
-  {
-    "word": ["afterwards", "afterward"],
-    "english_synonyms": ["later", "subsequently", "then", "after that"],
-    "english_explanations": ["At a later or future time; after something else has happened."],
-    "chinese_translations": ["之后", "后来"],
-    "example_sentences": "We discussed the proposal during lunch and reached a decision afterwards."
-  },
-  {
-    "word": ["agenda"],
-    "english_synonyms": ["schedule", "program", "plan", "itinerary"],
-    "english_explanations": ["A list of items to be discussed at a formal meeting.", "A plan of things to be done or problems to be addressed."],
-    "chinese_translations": ["议程", "日程表"],
-    "example_sentences": "Please review the agenda before the meeting so you can prepare your questions."
-  },
-  {
-    "word": ["agreeable"],
-    "english_synonyms": ["pleasant", "enjoyable", "delightful", "willing"],
-    "english_explanations": ["Enjoyable and pleasurable; pleasant.", "Willing to agree or consent to something."],
-    "chinese_translations": ["愉快的", "欣然同意的", "和蔼可亲的"],
-    "example_sentences": "She found him to be an agreeable colleague who was always willing to help."
-  },
-  {
-    "word": ["allocate"],
-    "english_synonyms": ["assign", "allot", "distribute", "apportion"],
-    "english_explanations": ["To distribute resources, duties, or shares for a particular purpose."],
-    "chinese_translations": ["分配", "配置", "拨给"],
-    "example_sentences": "The manager will allocate specific tasks to each team member tomorrow.",
-    "roots": [{"root":"al-","meaning":"to"},{"root":"loc","meaning":"place"},{"root":"-ate","meaning":"verb form"}]
-  },
-  {
-    "word": ["analysis", "analyses"],
-    "english_synonyms": ["examination", "investigation", "evaluation", "study"],
-    "english_explanations": ["Detailed examination of the elements or structure of something.", "The process of separating something into its constituent elements."],
-    "chinese_translations": ["分析", "解析", "研究"],
-    "example_sentences": "Our analysis of the sales data revealed several interesting trends.",
-    "roots": [{"root":"ana-","meaning":"apart"},{"root":"lys","meaning":"loosen"},{"root":"-is","meaning":"noun form"}]
-  },
-  {
-    "word": ["appointment"],
-    "english_synonyms": ["meeting", "engagement", "interview", "session"],
-    "english_explanations": ["An arrangement to meet someone at a particular time and place.", "The act of assigning a job or position to someone."],
-    "chinese_translations": ["约会", "预约", "任命"],
-    "example_sentences": "I have an appointment with the client at ten o'clock tomorrow morning.",
-    "roots": [{"root":"ap-","meaning":"to"},{"root":"point","meaning":"fix"},{"root":"-ment","meaning":"act"}]
-  },
-  {
-    "word": ["arena"],
-    "english_synonyms": ["stadium", "venue", "field", "theater"],
-    "english_explanations": ["A level area surrounded by seating for sports or entertainment events.", "A place or scene of activity, debate, or conflict."],
-    "chinese_translations": ["竞技场", "舞台", "场所"],
-    "example_sentences": "The conference center served as an arena for lively debate on environmental policy."
-  },
-  {
-    "word": ["argue"],
-    "english_synonyms": ["debate", "dispute", "contend", "persuade"],
-    "english_explanations": ["To give reasons or cite evidence in support of an idea, action, or theory.", "To exchange or express diverging or opposite views in a heated way."],
-    "chinese_translations": ["争论", "辩论", "主张", "说服"],
-    "example_sentences": "The board members argued for over an hour before reaching a compromise."
-  },
-  {
-    "word": ["assembly"],
-    "english_synonyms": ["gathering", "meeting", "congregation", "convention"],
-    "english_explanations": ["A group of people gathered together in one place for a common purpose.", "The action of gathering together as a group for a common purpose."],
-    "chinese_translations": ["集会", "装配", "会议"],
-    "example_sentences": "The school assembly will begin at nine o'clock in the main hall."
-  },
-  {
-    "word": ["attempt"],
-    "english_synonyms": ["try", "endeavor", "effort", "undertaking"],
-    "english_explanations": ["An act of trying to achieve something, typically by effort or difficulty."],
-    "chinese_translations": ["尝试", "企图", "努力"],
-    "example_sentences": "This is our first attempt to enter the international market."
-  },
-  {
-    "word": ["attendance"],
-    "english_synonyms": ["presence", "turnout", "participation", "appearance"],
-    "english_explanations": ["The action or state of being present at a place or event.", "The number of people present at a particular event."],
-    "chinese_translations": ["出席", "到场", "到场人数"],
-    "example_sentences": "Attendance at the workshop was higher than we had expected.",
-    "roots": [{"root":"at-","meaning":"to"},{"root":"tend","meaning":"stretch"},{"root":"-ance","meaning":"noun form"}]
-  },
-  {
-    "word": ["beforehand"],
-    "english_synonyms": ["in advance", "earlier", "previously", "ahead of time"],
-    "english_explanations": ["Before something else happens or is done; in advance."],
-    "chinese_translations": ["事先", "预先", "提前"],
-    "example_sentences": "Please let me know beforehand if you are unable to attend the meeting."
-  },
-  {
-    "word": ["bonus", "bonuses"],
-    "english_synonyms": ["reward", "incentive", "extra", "premium"],
-    "english_explanations": ["A sum of money added to a person's wages as a reward for good performance.", "Something welcome and often unexpected that accompanies and enhances something."],
-    "chinese_translations": ["奖金", "红利", "额外津贴"],
-    "example_sentences": "Employees receive an annual bonus based on the company's profits."
-  },
-  {
-    "word": ["capture"],
-    "english_synonyms": ["seize", "catch", "trap", "record"],
-    "english_explanations": ["To take into one's possession or control by force.", "To record accurately in words or pictures."],
-    "chinese_translations": ["捕获", "捕捉", "记录", "攻占"],
-    "example_sentences": "The photographer managed to capture the perfect moment during the presentation."
-  },
-  {
-    "word": ["cellphone", "cell phone"],
-    "english_synonyms": ["mobile phone", "smartphone", "handset", "mobile"],
-    "english_explanations": ["A portable telephone that uses cellular network technology to make and receive calls."],
-    "chinese_translations": ["手机", "移动电话"],
-    "example_sentences": "Please turn off your cellphone before entering the conference room."
-  },
-  {
-    "word": ["check"],
-    "english_synonyms": ["examine", "inspect", "verify", "review"],
-    "english_explanations": ["To examine something in order to determine its accuracy, quality, or condition.", "To stop or slow down the progress of something."],
-    "chinese_translations": ["检查", "核对", "支票", "阻止"],
-    "example_sentences": "I need to check my email before leaving for the airport."
-  },
-  {
-    "word": ["client"],
-    "english_synonyms": ["customer", "patron", "buyer", "consumer"],
-    "english_explanations": ["A person or organization using the services of a professional person or company."],
-    "chinese_translations": ["客户", "委托人", "当事人"],
-    "example_sentences": "Our firm has acquired three new clients this quarter."
-  },
-  {
-    "word": ["colleague"],
-    "english_synonyms": ["coworker", "associate", "peer", "fellow worker"],
-    "english_explanations": ["A person with whom one works, especially in a profession or business."],
-    "chinese_translations": ["同事", "同僚", "同行"],
-    "example_sentences": "I discussed the project with my colleagues during lunch break."
-  },
-  {
-    "word": ["comment"],
-    "english_synonyms": ["remark", "observation", "statement", "feedback"],
-    "english_explanations": ["A verbal or written remark expressing an opinion or reaction.", "To express an opinion or reaction to something."],
-    "chinese_translations": ["评论", "意见", "批评"],
-    "example_sentences": "The manager asked if anyone had any comments on the new proposal."
-  },
-  {
-    "word": ["complaint"],
-    "english_synonyms": ["grievance", "protest", "objection", "criticism"],
-    "english_explanations": ["A statement that something is unsatisfactory or unacceptable.", "The expression of dissatisfaction with a situation or action."],
-    "chinese_translations": ["投诉", "抱怨", "不满"],
-    "example_sentences": "We received a complaint from a customer about the delayed delivery."
-  },
-  {
-    "word": ["conference"],
-    "english_synonyms": ["meeting", "convention", "summit", "symposium"],
-    "english_explanations": ["A formal meeting for discussion or debate, typically lasting several days.", "An association of sports teams or leagues."],
-    "chinese_translations": ["会议", "研讨会", "协商会"],
-    "example_sentences": "The annual sales conference will be held in Barcelona this year.",
-    "roots": [{"root":"con-","meaning":"together"},{"root":"fer","meaning":"carry"},{"root":"-ence","meaning":"noun form"}]
-  },
-  {
-    "word": ["context"],
-    "english_synonyms": ["background", "setting", "circumstances", "situation"],
-    "english_explanations": ["The circumstances that form the setting for an event, statement, or idea.", "The parts of something written or spoken that immediately precede and follow a specific word or passage."],
-    "chinese_translations": ["上下文", "语境", "背景", "环境"],
-    "example_sentences": "You need to understand the historical context to appreciate this policy decision.",
-    "roots": [{"root":"con-","meaning":"together"},{"root":"text","meaning":"weave"}]
-  },
-  {
-    "word": ["contract"],
-    "english_synonyms": ["agreement", "deal", "treaty", "compact"],
-    "english_explanations": ["A written or spoken agreement that is intended to be enforceable by law.", "To decrease in size, number, or range."],
-    "chinese_translations": ["合同", "契约", "收缩"],
-    "example_sentences": "Both parties signed the contract after reviewing the terms carefully.",
-    "roots": [{"root":"con-","meaning":"together"},{"root":"tract","meaning":"pull"}]
-  },
-  {
-    "word": ["conversation"],
-    "english_synonyms": ["discussion", "dialogue", "talk", "chat"],
-    "english_explanations": ["A talk, especially an informal one, between two or more people, in which news and ideas are exchanged."],
-    "chinese_translations": ["谈话", "会话", "交谈"],
-    "example_sentences": "I had a long conversation with the director about my career prospects.",
-    "roots": [{"root":"con-","meaning":"together"},{"root":"vers","meaning":"turn"},{"root":"-ation","meaning":"noun form"}]
-  },
-  {
-    "word": ["courteously"],
-    "english_synonyms": ["politely", "respectfully", "graciously", "civilly"],
-    "english_explanations": ["In a polite, respectful, or considerate manner."],
-    "chinese_translations": ["有礼貌地", "亲切地", "殷勤地"],
-    "example_sentences": "The receptionist courteously directed me to the correct office."
-  },
-  {
-    "word": ["declare"],
-    "english_synonyms": ["announce", "state", "proclaim", "affirm"],
-    "english_explanations": ["To announce something clearly, officially, or publicly.", "To acknowledge possession of something taxable or dutiable."],
-    "chinese_translations": ["宣布", "声明", "申报"],
-    "example_sentences": "The chairperson declared the meeting open at nine o'clock sharp."
-  },
-  {
-    "word": ["dial"],
-    "english_synonyms": ["call", "phone", "ring", "telephone"],
-    "english_explanations": ["To operate a telephone by turning a rotary dial or pressing buttons.", "The face of a clock or watch, marked to show the hours or minutes."],
-    "chinese_translations": ["拨号", "打电话", "刻度盘", "表盘"],
-    "example_sentences": "Please dial extension 405 to reach the human resources department."
-  },
-  {
-    "word": ["directory"],
-    "english_synonyms": ["guide", "index", "listing", "catalog"],
-    "english_explanations": ["A book or website listing individuals or organizations alphabetically or thematically with details such as names, addresses, and telephone numbers.", "A file that consists solely of other files or directories."],
-    "chinese_translations": ["目录", "指南", "通讯录"],
-    "example_sentences": "You can find her contact information in the company directory."
-  },
-  {
-    "word": ["discount"],
-    "english_synonyms": ["reduction", "deduction", "rebate", "concession"],
-    "english_explanations": ["A deduction from the usual cost of something.", "To regard something as being unlikely to be true or important."],
-    "chinese_translations": ["折扣", "减价", "贴现", "不重视"],
-    "example_sentences": "We offer a ten percent discount for orders placed before the end of the month.",
-    "roots": [{"root":"dis-","meaning":"apart"},{"root":"count","meaning":"reckon"}]
-  },
-  {
-    "word": ["distraction"],
-    "english_synonyms": ["interruption", "disturbance", "diversion", "interference"],
-    "english_explanations": ["A thing that prevents someone from giving full attention to something else.", "Extreme agitation of the mind or emotions."],
-    "chinese_translations": ["分心", "干扰", "娱乐", "精神错乱"],
-    "example_sentences": "The noise from the construction site was a constant distraction during our meeting.",
-    "roots": [{"root":"dis-","meaning":"apart"},{"root":"tract","meaning":"pull"},{"root":"-ion","meaning":"noun form"}]
-  },
-  {
-    "word": ["documentation"],
-    "english_synonyms": ["records", "papers", "certificates", "evidence"],
-    "english_explanations": ["Material that provides official information or evidence or that serves as a record.", "The process of classifying and annotating texts, photographs, etc."],
-    "chinese_translations": ["文件", "文档", "证明文件", "记录"],
-    "example_sentences": "Please ensure all documentation is completed before submitting your application.",
-    "roots": [{"root":"doc","meaning":"teach"},{"root":"-ument","meaning":"instrument"},{"root":"-ation","meaning":"noun form"}]
-  },
-  {
-    "word": ["efficient"],
-    "english_synonyms": ["effective", "productive", "competent", "streamlined"],
-    "english_explanations": ["Achieving maximum productivity with minimum wasted effort or expense.", "Working in a well-organized and competent way."],
-    "chinese_translations": ["高效的", "有效率的", "能干的"],
-    "example_sentences": "The new software makes our invoicing system much more efficient.",
-    "roots": [{"root":"ef-","meaning":"out"},{"root":"fic","meaning":"do"},{"root":"-ient","meaning":"adj form"}]
-  },
-  {
-    "word": ["embarrassing", "embarrass"],
-    "english_synonyms": ["humiliating", "shameful", "awkward", "mortifying"],
-    "english_explanations": ["Causing someone to feel awkward, self-conscious, or ashamed.", "To cause someone to feel awkward or self-conscious."],
-    "chinese_translations": ["令人尴尬的", "使人难堪的", "窘迫的"],
-    "example_sentences": "Forgetting the client's name during the presentation was deeply embarrassing."
-  },
-  {
-    "word": ["engaged"],
-    "english_synonyms": ["busy", "occupied", "committed", "involved"],
-    "english_explanations": ["Busy; occupied.", "Having formally agreed to marry.", "Participating or becoming involved in."],
-    "chinese_translations": ["忙碌的", "已订婚的", "从事于", "参与"],
-    "example_sentences": "I'm afraid the line is engaged; could you call back in ten minutes?"
-  },
-  {
-    "word": ["ensure"],
-    "english_synonyms": ["guarantee", "secure", "verify", "make sure"],
-    "english_explanations": ["To make certain that something will occur or be the case.", "To make sure of obtaining or providing something."],
-    "chinese_translations": ["确保", "保证", "担保"],
-    "example_sentences": "Please ensure that all doors are locked before leaving the building."
-  },
-  {
-    "word": ["enthusiastic", "enthusiasm"],
-    "english_synonyms": ["eager", "keen", "passionate", "excited"],
-    "english_explanations": ["Having or showing intense and eager enjoyment, interest, or approval."],
-    "chinese_translations": ["热情的", "热心的", "热烈的"],
-    "example_sentences": "The team was enthusiastic about the new marketing campaign."
-  },
-  {
-    "word": ["exhibition"],
-    "english_synonyms": ["display", "show", "exhibit", "demonstration"],
-    "english_explanations": ["A public display of works of art or other items of interest.", "A display or demonstration of a particular skill or quality."],
-    "chinese_translations": ["展览", "展览会", "展示"],
-    "example_sentences": "The trade exhibition attracted buyers from all over the world.",
-    "roots": [{"root":"ex-","meaning":"out"},{"root":"hib","meaning":"hold"},{"root":"-ition","meaning":"noun form"}]
-  },
-  {
-    "word": ["expect"],
-    "english_synonyms": ["anticipate", "await", "predict", "require"],
-    "english_explanations": ["To regard something as likely to happen.", "To believe that someone will or should achieve something."],
-    "chinese_translations": ["期望", "预期", "预料", "要求"],
-    "example_sentences": "We expect the shipment to arrive by Friday afternoon.",
-    "roots": [{"root":"ex-","meaning":"out"},{"root":"pect","meaning":"look"}]
-  },
-  {
-    "word": ["extension"],
-    "english_synonyms": ["addition", "expansion", "continuation", "postponement"],
-    "english_explanations": ["A part that is added to something to enlarge or prolong it.", "An additional period of time given to someone to allow them to finish a task.", "A telephone line leading from the main switchboard to a particular phone."],
-    "chinese_translations": ["延伸", "分机", "延期", "扩建"],
-    "example_sentences": "You can reach me on extension 224 during office hours.",
-    "roots": [{"root":"ex-","meaning":"out"},{"root":"tens","meaning":"stretch"},{"root":"-ion","meaning":"noun form"}]
-  },
-  {
-    "word": ["feedback"],
-    "english_synonyms": ["response", "reaction", "comment", "criticism"],
-    "english_explanations": ["Information about reactions to a product, a person's performance of a task, etc., used as a basis for improvement.", "The modification or control of a process or system by its results or effects."],
-    "chinese_translations": ["反馈", "意见", "回应"],
-    "example_sentences": "We welcome feedback from our clients on how we can improve our services."
-  },
-  {
-    "word": ["flexible", "flexibility"],
-    "english_synonyms": ["adaptable", "adjustable", "accommodating", "pliant"],
-    "english_explanations": ["Able to make changes or deal with a situation that is changing.", "Able to be easily modified to respond to altered circumstances."],
-    "chinese_translations": ["灵活的", "柔韧的", "可变通的"],
-    "example_sentences": "We need to remain flexible in our approach to meet the client's changing needs.",
-    "roots": [{"root":"flex","meaning":"bend"},{"root":"-ible","meaning":"capable of"}]
-  },
-  {
-    "word": ["identify", "identification"],
-    "english_synonyms": ["recognize", "distinguish", "determine", "establish"],
-    "english_explanations": ["To establish or indicate who or what someone or something is.", "To associate oneself closely with a particular group or cause."],
-    "chinese_translations": ["识别", "鉴定", "确认", "认同"],
-    "example_sentences": "Security staff were able to identify the suspect from the CCTV footage.",
-    "roots": [{"root":"ident","meaning":"same"},{"root":"-ify","meaning":"make"}]
-  },
-  {
-    "word": ["impression", "impress"],
-    "english_synonyms": ["feeling", "sense", "opinion", "belief"],
-    "english_explanations": ["An idea, feeling, or opinion about something or someone, especially one formed without conscious thought or on the basis of little evidence.", "An effect produced on someone."],
-    "chinese_translations": ["印象", "感想", "影响", "压痕"],
-    "example_sentences": "She made an excellent first impression during her interview.",
-    "roots": [{"root":"im-","meaning":"in"},{"root":"press","meaning":"press"},{"root":"-ion","meaning":"noun form"}]
-  },
-  {
-    "word": ["inform", "information"],
-    "english_synonyms": ["notify", "tell", "advise", "apprise"],
-    "english_explanations": ["To give facts or information to someone.", "To have a significant influence on the shape or character of something."],
-    "chinese_translations": ["通知", "告知", "使了解"],
-    "example_sentences": "Please inform us immediately if there are any changes to your contact details.",
-    "roots": [{"root":"in-","meaning":"in"},{"root":"form","meaning":"shape"}]
-  },
-  {
-    "word": ["interrupting", "interrupt"],
-    "english_synonyms": ["disturbing", "disrupting", "breaking in", "cutting in"],
-    "english_explanations": ["Stopping the continuous progress of an activity or process.", "Stopping someone speaking by saying or doing something."],
-    "chinese_translations": ["打断", "中断", "干扰"],
-    "example_sentences": "Interrupting others while they are speaking is considered rude in most business settings."
-  },
-  {
-    "word": ["jargon"],
-    "english_synonyms": ["terminology", "slang", "lingo", "cant"],
-    "english_explanations": ["Special words or expressions that are used by a particular profession or group and are difficult for others to understand."],
-    "chinese_translations": ["行话", "术语", "黑话"],
-    "example_sentences": "The legal jargon in the contract made it difficult for non-lawyers to understand."
-  },
-  {
-    "word": ["launch"],
-    "english_synonyms": ["introduce", "unveil", "release", "initiate"],
-    "english_explanations": ["To start or introduce a new product, program, or project.", "To send a rocket, missile, or satellite into the air or space."],
-    "chinese_translations": ["发起", "推出", "发射", "上市"],
-    "example_sentences": "The company will launch its new product line at the trade fair next month."
-  },
-  {
-    "word": ["leave for"],
-    "english_synonyms": ["depart for", "set off for", "head for", "make for"],
-    "english_explanations": ["To depart from one place in order to travel to another place."],
-    "chinese_translations": ["前往", "出发去"],
-    "example_sentences": "I need to leave for the airport by four o'clock to catch my flight."
-  },
-  {
-    "word": ["lengthy", "length"],
-    "english_synonyms": ["long", "prolonged", "extended", "protracted"],
-    "english_explanations": ["Lasting for a long time; very long, especially in a way that is boring or tedious."],
-    "chinese_translations": ["冗长的", "漫长的", "很长的"],
-    "example_sentences": "The negotiations were lengthy, but eventually both sides reached an agreement."
-  },
-  {
-    "word": ["manufacturer", "manufacture"],
-    "english_synonyms": ["producer", "maker", "builder", "factory"],
-    "english_explanations": ["A person or company that makes goods for sale.", "The making of articles on a large scale using machinery."],
-    "chinese_translations": ["制造商", "生产商", "厂商"],
-    "example_sentences": "The manufacturer offers a twelve-month warranty on all electronic products.",
-    "roots": [{"root":"manu","meaning":"hand"},{"root":"fact","meaning":"make"},{"root":"-urer","meaning":"one who"}]
-  },
-  {
-    "word": ["minutes"],
-    "english_synonyms": ["notes", "record", "proceedings", "transcript"],
-    "english_explanations": ["A summarized record of the proceedings at a meeting.", "Periods of time equal to sixty seconds."],
-    "chinese_translations": ["会议记录", "分钟", "纪要"],
-    "example_sentences": "The secretary circulated the minutes of the last meeting to all board members."
-  },
-  {
-    "word": ["misunderstand", "misunderstood", "misunderstanding"],
-    "english_synonyms": ["misinterpret", "misconstrue", "mistake", "confuse"],
-    "english_explanations": ["To fail to understand someone or something correctly.", "To interpret something in the wrong way."],
-    "chinese_translations": ["误解", "误会", "曲解"],
-    "example_sentences": "Please let me know if you misunderstand any of the instructions."
-  },
-  {
-    "word": ["moderate"],
-    "english_synonyms": ["reasonable", "average", "medium", "temperate"],
-    "english_explanations": ["Average in amount, intensity, quality, or degree.", "To preside over a meeting or discussion.", "A person who holds moderate views, especially in politics."],
-    "chinese_translations": ["适度的", "温和的", "中等的", "主持"],
-    "example_sentences": "The discussion was heated, so we needed someone to moderate the debate."
-  },
-  {
-    "word": ["motivate", "motivation"],
-    "english_synonyms": ["inspire", "encourage", "stimulate", "drive"],
-    "english_explanations": ["To provide someone with a reason for doing something.", "To stimulate someone's interest in or enthusiasm for doing something."],
-    "chinese_translations": ["激励", "激发", "促使"],
-    "example_sentences": "Good managers know how to motivate their team to achieve better results.",
-    "roots": [{"root":"motiv","meaning":"move"},{"root":"-ate","meaning":"verb form"}]
-  },
-  {
-    "word": ["negotiation", "negotiate"],
-    "english_synonyms": ["bargaining", "discussion", "mediation", "arbitration"],
-    "english_explanations": ["Discussion aimed at reaching an agreement.", "The process of dealing with or discussing something in order to reach an agreement."],
-    "chinese_translations": ["谈判", "协商", "磋商"],
-    "example_sentences": "The negotiation lasted six hours before both parties signed the contract.",
-    "roots": [{"root":"neg-","meaning":"not"},{"root":"oti","meaning":"leisure"},{"root":"-ation","meaning":"noun form"}]
-  },
-  {
-    "word": ["notification", "notify"],
-    "english_synonyms": ["notice", "alert", "announcement", "warning"],
-    "english_explanations": ["The action of telling someone about something, typically in a formal or official manner.", "A formal or official announcement or statement."],
-    "chinese_translations": ["通知", "通告", "告示"],
-    "example_sentences": "You will receive a notification by email once your application has been processed.",
-    "roots": [{"root":"not","meaning":"mark"},{"root":"-ification","meaning":"make, noun form"}]
-  },
-  {
-    "word": ["objection", "object"],
-    "english_synonyms": ["protest", "opposition", "complaint", "disapproval"],
-    "english_explanations": ["An expression or feeling of disapproval or opposition.", "A reason for disagreeing with or opposing something."],
-    "chinese_translations": ["反对", "异议", "抗议"],
-    "example_sentences": "The planning committee raised no objections to the proposed development.",
-    "roots": [{"root":"ob-","meaning":"against"},{"root":"ject","meaning":"throw"},{"root":"-ion","meaning":"noun form"}]
-  },
-  {
-    "word": ["overcome", "overcame"],
-    "english_synonyms": ["conquer", "defeat", "surmount", "master"],
-    "english_explanations": ["To succeed in dealing with a problem or difficulty.", "To defeat or prevail over someone or something."],
-    "chinese_translations": ["克服", "战胜", "征服"],
-    "example_sentences": "She worked hard to overcome her fear of public speaking."
-  },
-  {
-    "word": ["parliamentary", "parliament"],
-    "english_synonyms": ["legislative", "congressional", "senatorial", "governmental"],
-    "english_explanations": ["Relating to a parliament or its members.", "Enacted or established by a parliament."],
-    "chinese_translations": ["议会的", "国会的", "议会制度的"],
-    "example_sentences": "The opposition called for a parliamentary inquiry into the matter."
-  },
-  {
-    "word": ["participant", "participate"],
-    "english_synonyms": ["member", "partaker", "attendee", "contributor"],
-    "english_explanations": ["A person who takes part in something.", "Someone who participates in a particular event or activity."],
-    "chinese_translations": ["参与者", "参加者", "与会者"],
-    "example_sentences": "Each participant in the study was asked to complete a questionnaire.",
-    "roots": [{"root":"part","meaning":"part"},{"root":"-icip","meaning":"take"},{"root":"-ant","meaning":"person"}]
-  },
-  {
-    "word": ["performance", "perform"],
-    "english_synonyms": ["achievement", "accomplishment", "execution", "conduct"],
-    "english_explanations": ["The action or process of performing a task or function.", "A task or operation seen in terms of how successfully it is performed."],
-    "chinese_translations": ["表现", "表演", "业绩", "执行"],
-    "example_sentences": "The company's financial performance exceeded expectations this quarter.",
-    "roots": [{"root":"per-","meaning":"through"},{"root":"form","meaning":"form"},{"root":"-ance","meaning":"noun form"}]
-  },
-  {
-    "word": ["polite", "politeness", "politely"],
-    "english_synonyms": ["courteous", "well-mannered", "civil", "respectful"],
-    "english_explanations": ["Having or showing behavior that is respectful and considerate of other people."],
-    "chinese_translations": ["有礼貌的", "客气的", "文雅的"],
-    "example_sentences": "It is polite to wait for everyone to be served before starting your meal."
-  },
-  {
-    "word": ["positive"],
-    "english_synonyms": ["optimistic", "constructive", "favorable", "confident"],
-    "english_explanations": ["Consisting in or characterized by the presence or possession of features or qualities rather than their absence.", "Hopeful and confident about the future."],
-    "chinese_translations": ["积极的", "肯定的", "正面的", "乐观的"],
-    "example_sentences": "The manager gave positive feedback on the team's recent project.",
-    "roots": [{"root":"pos","meaning":"place"},{"root":"-itive","meaning":"adj form"}]
-  },
-  {
-    "word": ["potential", "potentially"],
-    "english_synonyms": ["possible", "prospective", "latent", "promising"],
-    "english_explanations": ["Having the capacity to become or develop into something in the future.", "Latent qualities or abilities that may be developed and lead to future success or usefulness."],
-    "chinese_translations": ["潜在的", "可能的", "潜力", "潜能"],
-    "example_sentences": "The candidate shows great potential for leadership roles.",
-    "roots": [{"root":"pot","meaning":"power"},{"root":"-ent","meaning":"adj"},{"root":"-ial","meaning":"adj form"}]
-  },
-  {
-    "word": ["pretend", "pretense", "pretence"],
-    "english_synonyms": ["feign", "simulate", "act", "fake"],
-    "english_explanations": ["To speak and act so as to make it appear that something is the case when in fact it is not.", "To claim to do or have something falsely."],
-    "chinese_translations": ["假装", "装作", "伪称"],
-    "example_sentences": "He had to pretend that he understood the technical jargon during the meeting.",
-    "roots": [{"root":"pre-","meaning":"before"},{"root":"tend","meaning":"stretch"}]
-  },
-  {
-    "word": ["private", "privacy"],
-    "english_synonyms": ["personal", "confidential", "exclusive", "secluded"],
-    "english_explanations": ["Belonging to or for the use of one particular person or group of people only.", "Not intended for or likely to be seen or heard by the public."],
-    "chinese_translations": ["私人的", "私立的", "私下的", "隐私"],
-    "example_sentences": "This is a private conversation; please do not interrupt.",
-    "roots": [{"root":"priv","meaning":"single"},{"root":"-ate","meaning":"adj form"}]
-  },
-  {
-    "word": ["procedure", "procedural"],
-    "english_synonyms": ["process", "operation", "method", "protocol"],
-    "english_explanations": ["An established or official way of doing something.", "A series of actions conducted in a certain order or manner."],
-    "chinese_translations": ["程序", "步骤", "手续", "流程"],
-    "example_sentences": "All employees must follow the correct safety procedures at all times.",
-    "roots": [{"root":"pro-","meaning":"forward"},{"root":"ced","meaning":"go"},{"root":"-ure","meaning":"noun form"}]
-  },
-  {
-    "word": ["proceeding", "proceedings", "proceed"],
-    "english_synonyms": ["process", "transaction", "action", "lawsuit"],
-    "english_explanations": ["An event or a series of activities involving a formal or established process.", "A published report of a set of meetings or a conference."],
-    "chinese_translations": ["程序", "进程", "会议记录", "诉讼"],
-    "example_sentences": "The proceedings of the conference will be published in an academic journal."
-  },
-  {
-    "word": ["productive", "productivity", "product"],
-    "english_synonyms": ["fruitful", "profitable", "efficient", "constructive"],
-    "english_explanations": ["Producing or able to produce large amounts of goods, crops, or other commodities.", "Achieving a significant amount or result."],
-    "chinese_translations": ["多产的", "高效的", "富有成效的"],
-    "example_sentences": "The meeting was productive, and we finalized the project timeline.",
-    "roots": [{"root":"pro-","meaning":"forward"},{"root":"duct","meaning":"lead"},{"root":"-ive","meaning":"adj"}]
-  },
-  {
-    "word": ["projector", "project", "projection"],
-    "english_synonyms": ["overhead projector", "beamer", "display", "screen"],
-    "english_explanations": ["An object or machine that throws an image or series of images onto a screen, typically from a transparent slide or digital source."],
-    "chinese_translations": ["投影仪", "放映机", "投影机"],
-    "example_sentences": "The presenter connected his laptop to the projector to display the slides.",
-    "roots": [{"root":"pro-","meaning":"forward"},{"root":"ject","meaning":"throw"},{"root":"-or","meaning":"device"}]
-  },
-  {
-    "word": ["proposal", "propose", "proposition"],
-    "english_synonyms": ["suggestion", "plan", "scheme", "motion"],
-    "english_explanations": ["A plan or suggestion, especially a formal or written one, put forward for consideration or discussion by others.", "The action of proposing a plan or suggestion."],
-    "chinese_translations": ["提议", "建议", "提案", "求婚"],
-    "example_sentences": "The committee rejected the proposal due to budget constraints.",
-    "roots": [{"root":"pro-","meaning":"forward"},{"root":"pos","meaning":"put"},{"root":"-al","meaning":"noun form"}]
-  },
-  {
-    "word": ["provocative", "provoke"],
-    "english_synonyms": ["controversial", "stimulating", "challenging", "inflammatory"],
-    "english_explanations": ["Causing strong reactions, feelings, or opinions.", "Intended to arouse sexual desire or interest."],
-    "chinese_translations": ["挑衅的", "刺激的", "煽动性的", "引人深思的"],
-    "example_sentences": "His provocative comments sparked a heated debate during the panel discussion.",
-    "roots": [{"root":"pro-","meaning":"forth"},{"root":"voc","meaning":"call"},{"root":"-ative","meaning":"adj"}]
-  },
-  {
-    "word": ["quality"],
-    "english_synonyms": ["standard", "grade", "caliber", "excellence"],
-    "english_explanations": ["The standard of something as measured against other things of a similar kind.", "A distinctive attribute or characteristic possessed by someone or something."],
-    "chinese_translations": ["质量", "品质", "特性", "优质"],
-    "example_sentences": "The company is known for the high quality of its customer service."
-  },
-  {
-    "word": ["quota"],
-    "english_synonyms": ["allowance", "allocation", "ration", "share"],
-    "english_explanations": ["A fixed share of something that a person or group is entitled to receive or is bound to contribute.", "A limited quantity of a particular product that may be imported under official restrictions."],
-    "chinese_translations": ["配额", "定额", "限额", "指标"],
-    "example_sentences": "Each salesperson has a monthly quota they are expected to meet."
-  },
-  {
-    "word": ["range"],
-    "english_synonyms": ["scope", "spectrum", "variety", "extent"],
-    "english_explanations": ["The area of variation between upper and lower limits on a particular scale.", "A set of different things of the same general type."],
-    "chinese_translations": ["范围", "幅度", "一系列", "射程"],
-    "example_sentences": "The store offers a wide range of products to suit different budgets."
-  },
-  {
-    "word": ["recommend", "recommendation"],
-    "english_synonyms": ["advise", "suggest", "endorse", "advocate"],
-    "english_explanations": ["To put forward someone or something with approval as being suitable for a particular purpose or role.", "To advise someone to do something."],
-    "chinese_translations": ["推荐", "建议", "劝告"],
-    "example_sentences": "I would recommend this restaurant for its excellent service and cuisine.",
-    "roots": [{"root":"re-","meaning":"again"},{"root":"com-","meaning":"with"},{"root":"mend","meaning":"trust"}]
-  },
-  {
-    "word": ["reference", "refer"],
-    "english_synonyms": ["mention", "citation", "allusion", "source"],
-    "english_explanations": ["The action of mentioning or alluding to something.", "A letter from a previous employer testifying to someone's ability or reliability, used when applying for a new job."],
-    "chinese_translations": ["参考", "提及", "推荐信", "查阅"],
-    "example_sentences": "Please include three professional references with your job application.",
-    "roots": [{"root":"re-","meaning":"back"},{"root":"fer","meaning":"carry"},{"root":"-ence","meaning":"noun form"}]
-  },
-  {
-    "word": ["reflect", "reflection"],
-    "english_synonyms": ["mirror", "show", "display", "indicate"],
-    "english_explanations": ["To throw back heat, light, or sound without absorbing it.", "To think carefully and deeply about something.", "To embody or represent something in a faithful or appropriate way."],
-    "chinese_translations": ["反映", "反射", "反思", "思考"],
-    "example_sentences": "The results reflect the hard work the team has put in over the past year.",
-    "roots": [{"root":"re-","meaning":"back"},{"root":"flect","meaning":"bend"}]
-  },
-  {
-    "word": ["request"],
-    "english_synonyms": ["appeal", "petition", "application", "demand"],
-    "english_explanations": ["An act of asking politely or formally for something.", "To politely or formally ask for something."],
-    "chinese_translations": ["请求", "要求", "申请"],
-    "example_sentences": "We received a request for more information from the potential client.",
-    "roots": [{"root":"re-","meaning":"again"},{"root":"quest","meaning":"seek"}]
-  },
-  {
-    "word": ["resistance", "resist", "resistant"],
-    "english_synonyms": ["opposition", "defiance", "hostility", "immunity"],
-    "english_explanations": ["The refusal to accept or comply with something.", "The ability not to be affected by something, especially adversely.", "The impeding or stopping effect exerted by one material thing on another."],
-    "chinese_translations": ["抵抗", "阻力", "反对", "抵抗力"],
-    "example_sentences": "There was strong resistance from local residents to the new development plan.",
-    "roots": [{"root":"re-","meaning":"back"},{"root":"sist","meaning":"stand"},{"root":"-ance","meaning":"noun form"}]
-  },
-  {
-    "word": ["responsible", "responsibility"],
-    "english_synonyms": ["accountable", "liable", "answerable", "trustworthy"],
-    "english_explanations": ["Having an obligation to do something, or having control over or care for someone.", "Being the primary cause of something and so able to be blamed or credited for it."],
-    "chinese_translations": ["负责的", "有责任的", "可靠的"],
-    "example_sentences": "As team leader, she is responsible for meeting the project deadline.",
-    "roots": [{"root":"re-","meaning":"back"},{"root":"spons","meaning":"promise"},{"root":"-ible","meaning":"capable of"}]
-  },
-  {
-    "word": ["sample"],
-    "english_synonyms": ["specimen", "example", "taste", "trial"],
-    "english_explanations": ["A small part or quantity intended to show what the whole is like.", "A sound or piece of music created by sampling."],
-    "chinese_translations": ["样本", "样品", "试样", "抽样"],
-    "example_sentences": "We will send you a free sample so you can evaluate the product quality."
-  },
-  {
-    "word": ["schedule"],
-    "english_synonyms": ["timetable", "agenda", "itinerary", "program"],
-    "english_explanations": ["A plan for carrying out a process or procedure, giving lists of intended events and times.", "To arrange or form part of a schedule."],
-    "chinese_translations": ["日程", "时间表", "计划表", "安排"],
-    "example_sentences": "Let me check my schedule to see if I am available for a meeting on Thursday."
-  },
-  {
-    "word": ["slang"],
-    "english_synonyms": ["jargon", "colloquialism", "vernacular", "idiom"],
-    "english_explanations": ["A type of language consisting of words and phrases that are regarded as very informal, are more common in speech than writing, and are typically restricted to a particular context or group of people."],
-    "chinese_translations": ["俚语", "行话", "黑话"],
-    "example_sentences": "Business slang can be confusing for people who are new to the industry."
-  },
-  {
-    "word": ["so far"],
-    "english_synonyms": ["up to now", "thus far", "to date", "until now"],
-    "english_explanations": ["Up to the present moment.", "To a limited extent."],
-    "chinese_translations": ["到目前为止", "迄今为止", "就此范围"],
-    "example_sentences": "So far, we have completed three out of the five project phases."
-  },
-  {
-    "word": ["solution", "solve"],
-    "english_synonyms": ["answer", "resolution", "remedy", "fix"],
-    "english_explanations": ["A means of solving a problem or dealing with a difficult situation.", "The correct answer to a puzzle or problem."],
-    "chinese_translations": ["解决方案", "答案", "解决办法"],
-    "example_sentences": "We need to find a cost-effective solution to reduce production delays.",
-    "roots": [{"root":"solut","meaning":"loosen"},{"root":"-ion","meaning":"noun form"}]
-  },
-  {
-    "word": ["specific", "specify", "specification"],
-    "english_synonyms": ["particular", "precise", "exact", "definite"],
-    "english_explanations": ["Clearly defined or identified.", "Relating to something distinct or separate from something else."],
-    "chinese_translations": ["具体的", "特定的", "明确的"],
-    "example_sentences": "Could you be more specific about the problems you encountered with the software?",
-    "roots": [{"root":"spec","meaning":"kind"},{"root":"-ific","meaning":"adj form"}]
-  },
-  {
-    "word": ["stability", "stable"],
-    "english_synonyms": ["steadiness", "balance", "durability", "security"],
-    "english_explanations": ["The quality, state, or degree of being stable.", "The strength to stand or endure."],
-    "chinese_translations": ["稳定性", "稳固", "安定"],
-    "example_sentences": "The new government policy aims to bring economic stability to the region.",
-    "roots": [{"root":"st","meaning":"stand"},{"root":"-ability","meaning":"noun form"}]
-  },
-  {
-    "word": ["strike", "struck", "stricken"],
-    "english_synonyms": ["hit", "beat", "knock", "attack"],
-    "english_explanations": ["To hit someone or something forcibly and deliberately.", "To refuse to continue working because of an argument with an employer about working conditions, pay levels, or job losses.", "A sudden attack, typically a military one."],
-    "chinese_translations": ["罢工", "打击", "撞击", "袭击"],
-    "example_sentences": "The workers decided to strike after negotiations over pay broke down."
-  },
-  {
-    "word": ["suppose", "supposed", "supposition"],
-    "english_synonyms": ["assume", "presume", "expect", "imagine"],
-    "english_explanations": ["To assume that something is the case on the basis of evidence or probability but without proof.", "To be required to do something because of the position one is in or an agreement one has made."],
-    "chinese_translations": ["假设", "认为", "应该", "意味着"],
-    "example_sentences": "I suppose we could reschedule the meeting for next week if necessary.",
-    "roots": [{"root":"sup-","meaning":"under"},{"root":"pose","meaning":"put"}]
-  },
-  {
-    "word": ["surname", "family name", "last name"],
-    "english_synonyms": ["family name", "last name", "patronymic", "maiden name"],
-    "english_explanations": ["A hereditary name common to all members of a family, as distinct from a given name."],
-    "chinese_translations": ["姓氏", "姓"],
-    "example_sentences": "Please write your surname in block letters at the top of the form."
-  },
-  {
-    "word": ["switch"],
-    "english_synonyms": ["change", "shift", "exchange", "swap"],
-    "english_explanations": ["A device for making and breaking the connection in an electrical circuit.", "An act of changing to something else.", "To change the position, direction, or focus of something."],
-    "chinese_translations": ["开关", "转换", "改变", "切换"],
-    "example_sentences": "Please switch off the projector before leaving the conference room."
-  },
-  {
-    "word": ["technique", "technical", "technology"],
-    "english_synonyms": ["method", "approach", "procedure", "skill"],
-    "english_explanations": ["A way of carrying out a particular task, especially the execution or performance of an artistic work or a scientific procedure.", "A skill or ability in a particular field."],
-    "chinese_translations": ["技术", "技巧", "方法", "手艺"],
-    "example_sentences": "The trainer taught us several techniques for handling difficult questions from clients.",
-    "roots": [{"root":"techn","meaning":"skill"},{"root":"-ique","meaning":"noun form"}]
-  },
-  {
-    "word": ["volume"],
-    "english_synonyms": ["quantity", "amount", "level", "capacity"],
-    "english_explanations": ["The amount of space that a substance or object occupies.", "The quantity or power of sound.", "A book forming part of a set or series."],
-    "chinese_translations": ["体积", "音量", "量", "卷"],
-    "example_sentences": "Could you please turn down the volume on the television?"
-  },
-  {
-    "word": ["workshop"],
-    "english_synonyms": ["seminar", "session", "clinic", "masterclass"],
-    "english_explanations": ["A meeting at which a group of people engage in intensive discussion and activity on a particular subject or project.", "A room or building in which goods are manufactured or repaired."],
-    "chinese_translations": ["研讨会", "讲习班", "车间", "工场"],
-    "example_sentences": "The company organized a workshop to help employees develop their presentation skills."
+    "word": [
+      "accent"
+    ],
+    "english_synonyms": [
+      "pronunciation",
+      "intonation",
+      "inflection",
+      "diction"
+    ],
+    "english_explanations": [
+      "a way of pronouncing the words of a language that shows which country, area or social class a person comes from",
+      "the emphasis that you should give to part of a word when saying it"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "口音",
+        "english": "a way of pronouncing the words of a language that shows which country, area or social class a person comes from",
+        "example": "a northern/Dublin/Indian/Scottish accent"
+      },
+      {
+        "pos": "n.",
+        "meaning": "重音",
+        "english": "the emphasis that you should give to part of a word when saying it",
+        "example": "In 'today' the accent is on the second syllable."
+      },
+      {
+        "pos": "n.",
+        "meaning": "腔调",
+        "english": "a way of pronouncing the words of a language that shows which country, area or social class a person comes from",
+        "example": "a northern/Dublin/Indian/Scottish accent"
+      }
+    ]
+  },
+  {
+    "word": [
+      "acquaintance"
+    ],
+    "english_synonyms": [
+      "associate",
+      "contact",
+      "colleague",
+      "friend"
+    ],
+    "english_explanations": [
+      "a person that you know but who is not a close friend",
+      "A person one knows slightly, but who is not a close friend."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "熟人",
+        "english": "a person that you know but who is not a close friend",
+        "example": "Claire has a wide circle of friends and acquaintances."
+      },
+      {
+        "pos": "n.",
+        "meaning": "相识",
+        "english": "A person one knows slightly, but who is not a close friend.",
+        "example": "I met her at a conference, but we are only casual acquaintances."
+      },
+      {
+        "pos": "n.",
+        "meaning": "泛泛之交",
+        "english": "a person that you know but who is not a close friend",
+        "example": "Claire has a wide circle of friends and acquaintances."
+      }
+    ]
+  },
+  {
+    "word": [
+      "adjourn"
+    ],
+    "english_synonyms": [
+      "postpone",
+      "suspend",
+      "defer",
+      "recess"
+    ],
+    "english_explanations": [
+      "to stop a meeting or an official process, especially a trial, for a period of time",
+      "To break off and resume a meeting or session at a later time."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "休会",
+        "english": "to stop a meeting or an official process, especially a trial, for a period of time",
+        "example": "The court adjourned for lunch."
+      },
+      {
+        "pos": "v.",
+        "meaning": "延期",
+        "english": "to stop a meeting or an official process, especially a trial, for a period of time",
+        "example": "The court adjourned for lunch."
+      },
+      {
+        "pos": "v.",
+        "meaning": "暂停",
+        "english": "To break off and resume a meeting or session at a later time.",
+        "example": "The chairperson decided to adjourn the meeting until next Monday."
+      }
+    ]
+  },
+  {
+    "word": [
+      "adjournment"
+    ],
+    "english_synonyms": [
+      "postponement",
+      "suspension",
+      "recess",
+      "break"
+    ],
+    "english_explanations": [
+      "to stop a meeting or an official process, especially a trial, for a period of time",
+      "The act of adjourning a meeting or session to resume at a later time."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "休会",
+        "english": "to stop a meeting or an official process, especially a trial, for a period of time",
+        "example": "The court adjourned for lunch."
+      },
+      {
+        "pos": "v.",
+        "meaning": "延期",
+        "english": "to stop a meeting or an official process, especially a trial, for a period of time",
+        "example": "The court adjourned for lunch."
+      },
+      {
+        "pos": "n.",
+        "meaning": "暂停",
+        "english": "The act of adjourning a meeting or session to resume at a later time.",
+        "example": "The adjournment was announced after three hours of heated debate."
+      }
+    ],
+    "roots": [
+      {
+        "root": "ad-",
+        "meaning": "to"
+      },
+      {
+        "root": "journ",
+        "meaning": "day"
+      },
+      {
+        "root": "-ment",
+        "meaning": "act"
+      }
+    ]
+  },
+  {
+    "word": [
+      "advance"
+    ],
+    "english_synonyms": [
+      "progress",
+      "development",
+      "improvement",
+      "breakthrough"
+    ],
+    "english_explanations": [
+      "to change the time or date of an event so that it takes place earlier",
+      "progress or a development in a particular activity or area of understanding",
+      "money paid for work before it has been done or money paid earlier than expected"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "提前",
+        "english": "to change the time or date of an event so that it takes place earlier",
+        "example": "The date of the trial has been advanced by one week."
+      },
+      {
+        "pos": "n.",
+        "meaning": "进展",
+        "english": "progress or a development in a particular activity or area of understanding",
+        "example": "recent advances in medical science"
+      },
+      {
+        "pos": "n.",
+        "meaning": "预付款",
+        "english": "money paid for work before it has been done or money paid earlier than expected",
+        "example": "They offered an advance of £5 000 after the signing of the contract."
+      }
+    ]
+  },
+  {
+    "word": [
+      "afterwards",
+      "afterward"
+    ],
+    "english_synonyms": [
+      "later",
+      "subsequently",
+      "then",
+      "after that"
+    ],
+    "english_explanations": [
+      "At a later or future time; after something else has happened.",
+      "at a later time; after an event that has already been mentioned"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "之后",
+        "english": "At a later or future time; after something else has happened.",
+        "example": "We discussed the proposal during lunch and reached a decision afterwards."
+      },
+      {
+        "pos": "adv.",
+        "meaning": "后来",
+        "english": "at a later time; after an event that has already been mentioned",
+        "example": "Afterwards she was sorry for what she'd said."
+      }
+    ]
+  },
+  {
+    "word": [
+      "agenda"
+    ],
+    "english_synonyms": [
+      "schedule",
+      "program",
+      "plan",
+      "itinerary"
+    ],
+    "english_explanations": [
+      "a list of items to be discussed at a meeting",
+      "A plan of things to be done or problems to be addressed."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "议程",
+        "english": "a list of items to be discussed at a meeting",
+        "example": "The next item on the agenda is the publicity budget."
+      },
+      {
+        "pos": "n.",
+        "meaning": "日程表",
+        "english": "A plan of things to be done or problems to be addressed.",
+        "example": "Please review the agenda before the meeting so you can prepare your questions."
+      }
+    ]
+  },
+  {
+    "word": [
+      "agreeable"
+    ],
+    "english_synonyms": [
+      "pleasant",
+      "enjoyable",
+      "delightful",
+      "willing"
+    ],
+    "english_explanations": [
+      "Enjoyable and pleasurable; pleasant.",
+      "willing to do sth or allow sth"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "愉快的",
+        "english": "Enjoyable and pleasurable; pleasant.",
+        "example": "She found him to be an agreeable colleague who was always willing to help."
+      },
+      {
+        "pos": "adj.",
+        "meaning": "欣然同意的",
+        "english": "willing to do sth or allow sth",
+        "example": "Do you think they will be agreeable to our proposal?"
+      },
+      {
+        "pos": "n.",
+        "meaning": "和蔼可亲的",
+        "english": "Enjoyable and pleasurable; pleasant.",
+        "example": "She found him to be an agreeable colleague who was always willing to help."
+      }
+    ]
+  },
+  {
+    "word": [
+      "allocate"
+    ],
+    "english_synonyms": [
+      "assign",
+      "allot",
+      "distribute",
+      "apportion"
+    ],
+    "english_explanations": [
+      "to give sth officially to sb/sth for a particular purpose",
+      "To distribute resources, duties, or shares for a particular purpose."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "分配",
+        "english": "to give sth officially to sb/sth for a particular purpose",
+        "example": "A large sum has been allocated for buying new books for the library."
+      },
+      {
+        "pos": "v.",
+        "meaning": "配置",
+        "english": "To distribute resources, duties, or shares for a particular purpose.",
+        "example": "The manager will allocate specific tasks to each team member tomorrow."
+      },
+      {
+        "pos": "v.",
+        "meaning": "拨给",
+        "english": "To distribute resources, duties, or shares for a particular purpose.",
+        "example": "The manager will allocate specific tasks to each team member tomorrow."
+      }
+    ],
+    "roots": [
+      {
+        "root": "al-",
+        "meaning": "to"
+      },
+      {
+        "root": "loc",
+        "meaning": "place"
+      },
+      {
+        "root": "-ate",
+        "meaning": "verb form"
+      }
+    ]
+  },
+  {
+    "word": [
+      "analysis",
+      "analyses"
+    ],
+    "english_synonyms": [
+      "examination",
+      "investigation",
+      "evaluation",
+      "study"
+    ],
+    "english_explanations": [
+      "the detailed study or examination of sth in order to understand more about it; the result of the study",
+      "Detailed examination of the elements or structure of something."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "分析",
+        "english": "the detailed study or examination of sth in order to understand more about it; the result of the study",
+        "example": "statistical analysis"
+      },
+      {
+        "pos": "n.",
+        "meaning": "解析",
+        "english": "Detailed examination of the elements or structure of something.",
+        "example": "Our analysis of the sales data revealed several interesting trends."
+      },
+      {
+        "pos": "n.",
+        "meaning": "研究",
+        "english": "Detailed examination of the elements or structure of something.",
+        "example": "Our analysis of the sales data revealed several interesting trends."
+      }
+    ],
+    "roots": [
+      {
+        "root": "ana-",
+        "meaning": "apart"
+      },
+      {
+        "root": "lys",
+        "meaning": "loosen"
+      },
+      {
+        "root": "-is",
+        "meaning": "noun form"
+      }
+    ]
+  },
+  {
+    "word": [
+      "appointment"
+    ],
+    "english_synonyms": [
+      "meeting",
+      "engagement",
+      "interview",
+      "session"
+    ],
+    "english_explanations": [
+      "a formal arrangement to meet or visit sb at a particular time, especially for a reason connected with their work",
+      "the act of choosing a person for a job or position of responsibility; the fact of being chosen for a job, etc."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "约会",
+        "english": "a formal arrangement to meet or visit sb at a particular time, especially for a reason connected with their work",
+        "example": "I've got a dental appointment at 3 o'clock."
+      },
+      {
+        "pos": "n.",
+        "meaning": "预约",
+        "english": "a formal arrangement to meet or visit sb at a particular time, especially for a reason connected with their work",
+        "example": "I've got a dental appointment at 3 o'clock."
+      },
+      {
+        "pos": "n.",
+        "meaning": "任命",
+        "english": "the act of choosing a person for a job or position of responsibility; the fact of being chosen for a job, etc.",
+        "example": "her recent appointment to the post"
+      }
+    ],
+    "roots": [
+      {
+        "root": "ap-",
+        "meaning": "to"
+      },
+      {
+        "root": "point",
+        "meaning": "fix"
+      },
+      {
+        "root": "-ment",
+        "meaning": "act"
+      }
+    ]
+  },
+  {
+    "word": [
+      "arena"
+    ],
+    "english_synonyms": [
+      "stadium",
+      "venue",
+      "field",
+      "theater"
+    ],
+    "english_explanations": [
+      "A level area surrounded by seating for sports or entertainment events.",
+      "an area of activity that concerns the public, especially one where there is a lot of opposition between different groups or countries"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "竞技场",
+        "english": "A level area surrounded by seating for sports or entertainment events.",
+        "example": "The conference center served as an arena for lively debate on environmental policy."
+      },
+      {
+        "pos": "n.",
+        "meaning": "舞台",
+        "english": "an area of activity that concerns the public, especially one where there is a lot of opposition between different groups or countries",
+        "example": "the political/international arena"
+      },
+      {
+        "pos": "n.",
+        "meaning": "场所",
+        "english": "an area of activity that concerns the public, especially one where there is a lot of opposition between different groups or countries",
+        "example": "the political/international arena"
+      }
+    ]
+  },
+  {
+    "word": [
+      "argue"
+    ],
+    "english_synonyms": [
+      "debate",
+      "dispute",
+      "contend",
+      "persuade"
+    ],
+    "english_explanations": [
+      "to speak angrily to sb because you disagree with them",
+      "To give reasons or cite evidence in support of an idea, action, or theory.",
+      "to persuade sb to do/not do sth by giving them reasons"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "争论",
+        "english": "to speak angrily to sb because you disagree with them",
+        "example": "My brothers are always arguing."
+      },
+      {
+        "pos": "v.",
+        "meaning": "辩论",
+        "english": "To give reasons or cite evidence in support of an idea, action, or theory.",
+        "example": "The board members argued for over an hour before reaching a compromise."
+      },
+      {
+        "pos": "v.",
+        "meaning": "主张",
+        "english": "To give reasons or cite evidence in support of an idea, action, or theory.",
+        "example": "The board members argued for over an hour before reaching a compromise."
+      },
+      {
+        "pos": "v.",
+        "meaning": "说服",
+        "english": "to persuade sb to do/not do sth by giving them reasons",
+        "example": "They argued him into withdrawing his complaint."
+      }
+    ]
+  },
+  {
+    "word": [
+      "assembly"
+    ],
+    "english_synonyms": [
+      "gathering",
+      "meeting",
+      "congregation",
+      "convention"
+    ],
+    "english_explanations": [
+      "the meeting together of a group of people for a particular purpose; a group of people who meet together for a particular purpose",
+      "the process of putting together the parts of sth such as a vehicle or piece of furniture",
+      "a group of people who have been elected to meet together regularly and make decisions or laws for a particular region or country"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "集会",
+        "english": "the meeting together of a group of people for a particular purpose; a group of people who meet together for a particular purpose",
+        "example": "They were fighting for freedom of speech and freedom of assembly."
+      },
+      {
+        "pos": "n.",
+        "meaning": "装配",
+        "english": "the process of putting together the parts of sth such as a vehicle or piece of furniture",
+        "example": "Putting the bookcase together should be a simple assembly job."
+      },
+      {
+        "pos": "n.",
+        "meaning": "会议",
+        "english": "a group of people who have been elected to meet together regularly and make decisions or laws for a particular region or country",
+        "example": "state/legislative/federal/local assemblies"
+      }
+    ]
+  },
+  {
+    "word": [
+      "attempt"
+    ],
+    "english_synonyms": [
+      "try",
+      "endeavor",
+      "effort",
+      "undertaking"
+    ],
+    "english_explanations": [
+      "an act of trying to do sth, especially sth difficult, often with no success",
+      "an effort to do better than sth, such as a very good performance in sport"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "尝试",
+        "english": "an act of trying to do sth, especially sth difficult, often with no success",
+        "example": "I passed my driving test at the first attempt."
+      },
+      {
+        "pos": "n.",
+        "meaning": "企图",
+        "english": "an act of trying to do sth, especially sth difficult, often with no success",
+        "example": "I passed my driving test at the first attempt."
+      },
+      {
+        "pos": "n.",
+        "meaning": "努力",
+        "english": "an effort to do better than sth, such as a very good performance in sport",
+        "example": "his attempt on the world land speed record"
+      }
+    ]
+  },
+  {
+    "word": [
+      "attendance"
+    ],
+    "english_synonyms": [
+      "presence",
+      "turnout",
+      "participation",
+      "appearance"
+    ],
+    "english_explanations": [
+      "the act of being present at a place, for example at school",
+      "The action or state of being present at a place or event."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "出席",
+        "english": "the act of being present at a place, for example at school",
+        "example": "Attendance at these lectures is not compulsory."
+      },
+      {
+        "pos": "n.",
+        "meaning": "到场",
+        "english": "the act of being present at a place, for example at school",
+        "example": "Attendance at these lectures is not compulsory."
+      },
+      {
+        "pos": "n.",
+        "meaning": "到场人数",
+        "english": "The action or state of being present at a place or event.",
+        "example": "Attendance at the workshop was higher than we had expected."
+      }
+    ],
+    "roots": [
+      {
+        "root": "at-",
+        "meaning": "to"
+      },
+      {
+        "root": "tend",
+        "meaning": "stretch"
+      },
+      {
+        "root": "-ance",
+        "meaning": "noun form"
+      }
+    ]
+  },
+  {
+    "word": [
+      "beforehand"
+    ],
+    "english_synonyms": [
+      "in advance",
+      "earlier",
+      "previously",
+      "ahead of time"
+    ],
+    "english_explanations": [
+      "earlier; before sth else happens or is done",
+      "Before something else happens or is done; in advance."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "adv.",
+        "meaning": "事先",
+        "english": "earlier; before sth else happens or is done",
+        "example": "two weeks/three days/a few hours beforehand"
+      },
+      {
+        "pos": "adv.",
+        "meaning": "预先",
+        "english": "earlier; before sth else happens or is done",
+        "example": "two weeks/three days/a few hours beforehand"
+      },
+      {
+        "pos": "n.",
+        "meaning": "提前",
+        "english": "Before something else happens or is done; in advance.",
+        "example": "Please let me know beforehand if you are unable to attend the meeting."
+      }
+    ]
+  },
+  {
+    "word": [
+      "bonus",
+      "bonuses"
+    ],
+    "english_synonyms": [
+      "reward",
+      "incentive",
+      "extra",
+      "premium"
+    ],
+    "english_explanations": [
+      "an extra amount of money that is added to a payment, especially to sb's wages or salary as a reward",
+      "A sum of money added to a person's wages as a reward for good performance."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "奖金",
+        "english": "an extra amount of money that is added to a payment, especially to sb's wages or salary as a reward",
+        "example": "a £100 Christmas bonus"
+      },
+      {
+        "pos": "n.",
+        "meaning": "红利",
+        "english": "an extra amount of money that is added to a payment, especially to sb's wages or salary as a reward",
+        "example": "a £100 Christmas bonus"
+      },
+      {
+        "pos": "n.",
+        "meaning": "额外津贴",
+        "english": "A sum of money added to a person's wages as a reward for good performance.",
+        "example": "Employees receive an annual bonus based on the company's profits."
+      }
+    ]
+  },
+  {
+    "word": [
+      "capture"
+    ],
+    "english_synonyms": [
+      "seize",
+      "catch",
+      "trap",
+      "record"
+    ],
+    "english_explanations": [
+      "to catch a person or an animal and keep them as a prisoner or in a confined space",
+      "To take into one's possession or control by force.",
+      "to take control of a place, building, etc. using force"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "捕获",
+        "english": "to catch a person or an animal and keep them as a prisoner or in a confined space",
+        "example": "Allied troops captured over 300 enemy soldiers."
+      },
+      {
+        "pos": "v.",
+        "meaning": "捕捉",
+        "english": "To take into one's possession or control by force.",
+        "example": "The photographer managed to capture the perfect moment during the presentation."
+      },
+      {
+        "pos": "v.",
+        "meaning": "记录",
+        "english": "To take into one's possession or control by force.",
+        "example": "The photographer managed to capture the perfect moment during the presentation."
+      },
+      {
+        "pos": "v.",
+        "meaning": "攻占",
+        "english": "to take control of a place, building, etc. using force",
+        "example": "The city was captured in 1941."
+      }
+    ]
+  },
+  {
+    "word": [
+      "cellphone",
+      "cell phone"
+    ],
+    "english_synonyms": [
+      "mobile phone",
+      "smartphone",
+      "handset",
+      "mobile"
+    ],
+    "english_explanations": [
+      "a telephone that does not have wires and works by radio, that you can carry with you and use anywhere"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "手机",
+        "english": "a telephone that does not have wires and works by radio, that you can carry with you and use anywhere",
+        "example": "cell phone users"
+      },
+      {
+        "pos": "n.",
+        "meaning": "移动电话",
+        "english": "a telephone that does not have wires and works by radio, that you can carry with you and use anywhere",
+        "example": "cell phone users"
+      }
+    ]
+  },
+  {
+    "word": [
+      "check"
+    ],
+    "english_synonyms": [
+      "examine",
+      "inspect",
+      "verify",
+      "review"
+    ],
+    "english_explanations": [
+      "To examine something in order to determine its accuracy, quality, or condition.",
+      "a printed form that you can write on and sign as a way of paying for sth instead of using money"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "检查",
+        "english": "To examine something in order to determine its accuracy, quality, or condition.",
+        "example": "I need to check my email before leaving for the airport."
+      },
+      {
+        "pos": "v.",
+        "meaning": "核对",
+        "english": "To examine something in order to determine its accuracy, quality, or condition.",
+        "example": "I need to check my email before leaving for the airport."
+      },
+      {
+        "pos": "n.",
+        "meaning": "支票",
+        "english": "a printed form that you can write on and sign as a way of paying for sth instead of using money",
+        "example": "a cheque for £50"
+      },
+      {
+        "pos": "v.",
+        "meaning": "阻止",
+        "english": "To examine something in order to determine its accuracy, quality, or condition.",
+        "example": "I need to check my email before leaving for the airport."
+      }
+    ]
+  },
+  {
+    "word": [
+      "client"
+    ],
+    "english_synonyms": [
+      "customer",
+      "patron",
+      "buyer",
+      "consumer"
+    ],
+    "english_explanations": [
+      "a person who uses the services or advice of a professional person or organization"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "客户",
+        "english": "a person who uses the services or advice of a professional person or organization",
+        "example": "a lawyer with many famous clients"
+      },
+      {
+        "pos": "n.",
+        "meaning": "委托人",
+        "english": "a person who uses the services or advice of a professional person or organization",
+        "example": "a lawyer with many famous clients"
+      },
+      {
+        "pos": "n.",
+        "meaning": "当事人",
+        "english": "a person who uses the services or advice of a professional person or organization",
+        "example": "a lawyer with many famous clients"
+      }
+    ]
+  },
+  {
+    "word": [
+      "colleague"
+    ],
+    "english_synonyms": [
+      "coworker",
+      "associate",
+      "peer",
+      "fellow worker"
+    ],
+    "english_explanations": [
+      "a person that you work with, especially in a profession or a business",
+      "A person with whom one works, especially in a profession or business."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "同事",
+        "english": "a person that you work with, especially in a profession or a business",
+        "example": "a colleague of mine from the office"
+      },
+      {
+        "pos": "n.",
+        "meaning": "同僚",
+        "english": "a person that you work with, especially in a profession or a business",
+        "example": "a colleague of mine from the office"
+      },
+      {
+        "pos": "n.",
+        "meaning": "同行",
+        "english": "A person with whom one works, especially in a profession or business.",
+        "example": "I discussed the project with my colleagues during lunch break."
+      }
+    ]
+  },
+  {
+    "word": [
+      "comment"
+    ],
+    "english_synonyms": [
+      "remark",
+      "observation",
+      "statement",
+      "feedback"
+    ],
+    "english_explanations": [
+      "something that you say or write which gives an opinion on or explains sb/sth",
+      "to express an opinion about sth",
+      "criticism that shows the faults of sth"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "评论",
+        "english": "something that you say or write which gives an opinion on or explains sb/sth",
+        "example": "Have you any comment to make about the cause of the disaster?"
+      },
+      {
+        "pos": "v.",
+        "meaning": "意见",
+        "english": "to express an opinion about sth",
+        "example": "I don't feel I can comment on their decision."
+      },
+      {
+        "pos": "n.",
+        "meaning": "批评",
+        "english": "criticism that shows the faults of sth",
+        "example": "The results are a clear comment on government education policy."
+      }
+    ]
+  },
+  {
+    "word": [
+      "complaint"
+    ],
+    "english_synonyms": [
+      "grievance",
+      "protest",
+      "objection",
+      "criticism"
+    ],
+    "english_explanations": [
+      "a reason for not being satisfied; a statement that sb makes saying that they are not satisfied"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "投诉",
+        "english": "a reason for not being satisfied; a statement that sb makes saying that they are not satisfied",
+        "example": "The most common complaint is about poor service."
+      },
+      {
+        "pos": "n.",
+        "meaning": "抱怨",
+        "english": "a reason for not being satisfied; a statement that sb makes saying that they are not satisfied",
+        "example": "The most common complaint is about poor service."
+      },
+      {
+        "pos": "n.",
+        "meaning": "不满",
+        "english": "a reason for not being satisfied; a statement that sb makes saying that they are not satisfied",
+        "example": "The most common complaint is about poor service."
+      }
+    ]
+  },
+  {
+    "word": [
+      "conference"
+    ],
+    "english_synonyms": [
+      "meeting",
+      "convention",
+      "summit",
+      "symposium"
+    ],
+    "english_explanations": [
+      "a large official meeting, usually lasting for a few days, at which people with the same work or interests come together to discuss their views",
+      "A formal meeting for discussion or debate, typically lasting several days."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "会议",
+        "english": "a large official meeting, usually lasting for a few days, at which people with the same work or interests come together to discuss their views",
+        "example": "The hotel is used for exhibitions, conferences and social events."
+      },
+      {
+        "pos": "n.",
+        "meaning": "研讨会",
+        "english": "a large official meeting, usually lasting for a few days, at which people with the same work or interests come together to discuss their views",
+        "example": "The hotel is used for exhibitions, conferences and social events."
+      },
+      {
+        "pos": "n.",
+        "meaning": "协商会",
+        "english": "A formal meeting for discussion or debate, typically lasting several days.",
+        "example": "The annual sales conference will be held in Barcelona this year."
+      }
+    ],
+    "roots": [
+      {
+        "root": "con-",
+        "meaning": "together"
+      },
+      {
+        "root": "fer",
+        "meaning": "carry"
+      },
+      {
+        "root": "-ence",
+        "meaning": "noun form"
+      }
+    ]
+  },
+  {
+    "word": [
+      "context"
+    ],
+    "english_synonyms": [
+      "background",
+      "setting",
+      "circumstances",
+      "situation"
+    ],
+    "english_explanations": [
+      "the words that come just before and after a word, phrase or statement and help you to understand its meaning",
+      "the situation in which sth happens and that helps you to understand it"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "上下文",
+        "english": "the words that come just before and after a word, phrase or statement and help you to understand its meaning",
+        "example": "You should be able to guess the meaning of the word from the context."
+      },
+      {
+        "pos": "n.",
+        "meaning": "语境",
+        "english": "the words that come just before and after a word, phrase or statement and help you to understand its meaning",
+        "example": "You should be able to guess the meaning of the word from the context."
+      },
+      {
+        "pos": "n.",
+        "meaning": "背景",
+        "english": "the situation in which sth happens and that helps you to understand it",
+        "example": "This speech needs to be set in the context of Britain in the 1960s."
+      },
+      {
+        "pos": "n.",
+        "meaning": "环境",
+        "english": "the situation in which sth happens and that helps you to understand it",
+        "example": "This speech needs to be set in the context of Britain in the 1960s."
+      }
+    ],
+    "roots": [
+      {
+        "root": "con-",
+        "meaning": "together"
+      },
+      {
+        "root": "text",
+        "meaning": "weave"
+      }
+    ]
+  },
+  {
+    "word": [
+      "contract"
+    ],
+    "english_synonyms": [
+      "agreement",
+      "deal",
+      "treaty",
+      "compact"
+    ],
+    "english_explanations": [
+      "an official written agreement",
+      "to become less or smaller; to make sth become less or smaller"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "合同",
+        "english": "an official written agreement",
+        "example": "a contract of employment"
+      },
+      {
+        "pos": "n.",
+        "meaning": "契约",
+        "english": "an official written agreement",
+        "example": "a contract of employment"
+      },
+      {
+        "pos": "v.",
+        "meaning": "收缩",
+        "english": "to become less or smaller; to make sth become less or smaller",
+        "example": "Glass contracts as it cools."
+      }
+    ],
+    "roots": [
+      {
+        "root": "con-",
+        "meaning": "together"
+      },
+      {
+        "root": "tract",
+        "meaning": "pull"
+      }
+    ]
+  },
+  {
+    "word": [
+      "conversation"
+    ],
+    "english_synonyms": [
+      "discussion",
+      "dialogue",
+      "talk",
+      "chat"
+    ],
+    "english_explanations": [
+      "an informal talk involving a small group of people or only two; the activity of talking in this way",
+      "A talk, especially an informal one, between two or more people, in which news and ideas are exchanged."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "谈话",
+        "english": "an informal talk involving a small group of people or only two; the activity of talking in this way",
+        "example": "a telephone conversation"
+      },
+      {
+        "pos": "n.",
+        "meaning": "会话",
+        "english": "A talk, especially an informal one, between two or more people, in which news and ideas are exchanged.",
+        "example": "I had a long conversation with the director about my career prospects."
+      },
+      {
+        "pos": "n.",
+        "meaning": "交谈",
+        "english": "an informal talk involving a small group of people or only two; the activity of talking in this way",
+        "example": "a telephone conversation"
+      }
+    ],
+    "roots": [
+      {
+        "root": "con-",
+        "meaning": "together"
+      },
+      {
+        "root": "vers",
+        "meaning": "turn"
+      },
+      {
+        "root": "-ation",
+        "meaning": "noun form"
+      }
+    ]
+  },
+  {
+    "word": [
+      "courteously"
+    ],
+    "english_synonyms": [
+      "politely",
+      "respectfully",
+      "graciously",
+      "civilly"
+    ],
+    "english_explanations": [
+      "In a polite, respectful, or considerate manner."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "adv.",
+        "meaning": "有礼貌地",
+        "english": "In a polite, respectful, or considerate manner.",
+        "example": "The receptionist courteously directed me to the correct office."
+      },
+      {
+        "pos": "adv.",
+        "meaning": "亲切地",
+        "english": "In a polite, respectful, or considerate manner.",
+        "example": "The receptionist courteously directed me to the correct office."
+      },
+      {
+        "pos": "adv.",
+        "meaning": "殷勤地",
+        "english": "In a polite, respectful, or considerate manner.",
+        "example": "The receptionist courteously directed me to the correct office."
+      }
+    ]
+  },
+  {
+    "word": [
+      "declare"
+    ],
+    "english_synonyms": [
+      "announce",
+      "state",
+      "proclaim",
+      "affirm"
+    ],
+    "english_explanations": [
+      "to say sth officially or publicly",
+      "To announce something clearly, officially, or publicly.",
+      "to tell the tax authorities how much money you have earned"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "宣布",
+        "english": "to say sth officially or publicly",
+        "example": "The government has declared a state of emergency."
+      },
+      {
+        "pos": "v.",
+        "meaning": "声明",
+        "english": "To announce something clearly, officially, or publicly.",
+        "example": "The chairperson declared the meeting open at nine o'clock sharp."
+      },
+      {
+        "pos": "v.",
+        "meaning": "申报",
+        "english": "to tell the tax authorities how much money you have earned",
+        "example": "All income must be declared."
+      }
+    ]
+  },
+  {
+    "word": [
+      "dial"
+    ],
+    "english_synonyms": [
+      "call",
+      "phone",
+      "ring",
+      "telephone"
+    ],
+    "english_explanations": [
+      "To operate a telephone by turning a rotary dial or pressing buttons.",
+      "the face of a clock or watch, or a similar control on a machine, piece of equipment or vehicle that shows a measurement of time, amount, speed, temperature, etc."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "拨号",
+        "english": "To operate a telephone by turning a rotary dial or pressing buttons.",
+        "example": "Please dial extension 405 to reach the human resources department."
+      },
+      {
+        "pos": "v.",
+        "meaning": "打电话",
+        "english": "To operate a telephone by turning a rotary dial or pressing buttons.",
+        "example": "Please dial extension 405 to reach the human resources department."
+      },
+      {
+        "pos": "n.",
+        "meaning": "刻度盘",
+        "english": "the face of a clock or watch, or a similar control on a machine, piece of equipment or vehicle that shows a measurement of time, amount, speed, temperature, etc.",
+        "example": "an alarm clock with a luminous dial"
+      },
+      {
+        "pos": "n.",
+        "meaning": "表盘",
+        "english": "the face of a clock or watch, or a similar control on a machine, piece of equipment or vehicle that shows a measurement of time, amount, speed, temperature, etc.",
+        "example": "an alarm clock with a luminous dial"
+      }
+    ]
+  },
+  {
+    "word": [
+      "directory"
+    ],
+    "english_synonyms": [
+      "guide",
+      "index",
+      "listing",
+      "catalog"
+    ],
+    "english_explanations": [
+      "A book or website listing individuals or organizations alphabetically or thematically with details such as names, addresses, and telephone numbers."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "目录",
+        "english": "A book or website listing individuals or organizations alphabetically or thematically with details such as names, addresses, and telephone numbers.",
+        "example": "You can find her contact information in the company directory."
+      },
+      {
+        "pos": "n.",
+        "meaning": "指南",
+        "english": "A book or website listing individuals or organizations alphabetically or thematically with details such as names, addresses, and telephone numbers.",
+        "example": "You can find her contact information in the company directory."
+      },
+      {
+        "pos": "n.",
+        "meaning": "通讯录",
+        "english": "A book or website listing individuals or organizations alphabetically or thematically with details such as names, addresses, and telephone numbers.",
+        "example": "You can find her contact information in the company directory."
+      }
+    ]
+  },
+  {
+    "word": [
+      "discount"
+    ],
+    "english_synonyms": [
+      "reduction",
+      "deduction",
+      "rebate",
+      "concession"
+    ],
+    "english_explanations": [
+      "an amount of money that is taken off the usual cost of sth",
+      "A deduction from the usual cost of something."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "折扣",
+        "english": "an amount of money that is taken off the usual cost of sth",
+        "example": "to get/give/offer a discount"
+      },
+      {
+        "pos": "n.",
+        "meaning": "减价",
+        "english": "A deduction from the usual cost of something.",
+        "example": "We offer a ten percent discount for orders placed before the end of the month."
+      },
+      {
+        "pos": "n.",
+        "meaning": "贴现",
+        "english": "A deduction from the usual cost of something.",
+        "example": "We offer a ten percent discount for orders placed before the end of the month."
+      },
+      {
+        "pos": "n.",
+        "meaning": "不重视",
+        "english": "A deduction from the usual cost of something.",
+        "example": "We offer a ten percent discount for orders placed before the end of the month."
+      }
+    ],
+    "roots": [
+      {
+        "root": "dis-",
+        "meaning": "apart"
+      },
+      {
+        "root": "count",
+        "meaning": "reckon"
+      }
+    ]
+  },
+  {
+    "word": [
+      "distraction"
+    ],
+    "english_synonyms": [
+      "interruption",
+      "disturbance",
+      "diversion",
+      "interference"
+    ],
+    "english_explanations": [
+      "a thing that takes your attention away from what you are doing or thinking about",
+      "A thing that prevents someone from giving full attention to something else."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "分心",
+        "english": "a thing that takes your attention away from what you are doing or thinking about",
+        "example": "I find it hard to work at home because there are too many distractions."
+      },
+      {
+        "pos": "n.",
+        "meaning": "干扰",
+        "english": "A thing that prevents someone from giving full attention to something else.",
+        "example": "The noise from the construction site was a constant distraction during our meeting."
+      },
+      {
+        "pos": "n.",
+        "meaning": "娱乐",
+        "english": "A thing that prevents someone from giving full attention to something else.",
+        "example": "The noise from the construction site was a constant distraction during our meeting."
+      },
+      {
+        "pos": "n.",
+        "meaning": "精神错乱",
+        "english": "A thing that prevents someone from giving full attention to something else.",
+        "example": "The noise from the construction site was a constant distraction during our meeting."
+      }
+    ],
+    "roots": [
+      {
+        "root": "dis-",
+        "meaning": "apart"
+      },
+      {
+        "root": "tract",
+        "meaning": "pull"
+      },
+      {
+        "root": "-ion",
+        "meaning": "noun form"
+      }
+    ]
+  },
+  {
+    "word": [
+      "documentation"
+    ],
+    "english_synonyms": [
+      "records",
+      "papers",
+      "certificates",
+      "evidence"
+    ],
+    "english_explanations": [
+      "the documents that are required for sth, or that give evidence or proof of sth",
+      "Material that provides official information or evidence or that serves as a record.",
+      "the act of recording sth in a document; the state of being recorded in a document"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "文件",
+        "english": "the documents that are required for sth, or that give evidence or proof of sth",
+        "example": "I couldn't enter the country because I didn't have all the necessary documentation."
+      },
+      {
+        "pos": "n.",
+        "meaning": "文档",
+        "english": "Material that provides official information or evidence or that serves as a record.",
+        "example": "Please ensure all documentation is completed before submitting your application."
+      },
+      {
+        "pos": "n.",
+        "meaning": "证明文件",
+        "english": "the documents that are required for sth, or that give evidence or proof of sth",
+        "example": "I couldn't enter the country because I didn't have all the necessary documentation."
+      },
+      {
+        "pos": "n.",
+        "meaning": "记录",
+        "english": "the act of recording sth in a document; the state of being recorded in a document",
+        "example": "the documentation of an agreement"
+      }
+    ],
+    "roots": [
+      {
+        "root": "doc",
+        "meaning": "teach"
+      },
+      {
+        "root": "-ument",
+        "meaning": "instrument"
+      },
+      {
+        "root": "-ation",
+        "meaning": "noun form"
+      }
+    ]
+  },
+  {
+    "word": [
+      "efficient"
+    ],
+    "english_synonyms": [
+      "effective",
+      "productive",
+      "competent",
+      "streamlined"
+    ],
+    "english_explanations": [
+      "Achieving maximum productivity with minimum wasted effort or expense."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "高效的",
+        "english": "Achieving maximum productivity with minimum wasted effort or expense.",
+        "example": "The new software makes our invoicing system much more efficient."
+      },
+      {
+        "pos": "n.",
+        "meaning": "有效率的",
+        "english": "Achieving maximum productivity with minimum wasted effort or expense.",
+        "example": "The new software makes our invoicing system much more efficient."
+      },
+      {
+        "pos": "n.",
+        "meaning": "能干的",
+        "english": "Achieving maximum productivity with minimum wasted effort or expense.",
+        "example": "The new software makes our invoicing system much more efficient."
+      }
+    ],
+    "roots": [
+      {
+        "root": "ef-",
+        "meaning": "out"
+      },
+      {
+        "root": "fic",
+        "meaning": "do"
+      },
+      {
+        "root": "-ient",
+        "meaning": "adj form"
+      }
+    ]
+  },
+  {
+    "word": [
+      "embarrassing",
+      "embarrass"
+    ],
+    "english_synonyms": [
+      "humiliating",
+      "shameful",
+      "awkward",
+      "mortifying"
+    ],
+    "english_explanations": [
+      "Causing someone to feel awkward, self-conscious, or ashamed."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "令人尴尬的",
+        "english": "Causing someone to feel awkward, self-conscious, or ashamed.",
+        "example": "Forgetting the client's name during the presentation was deeply embarrassing."
+      },
+      {
+        "pos": "n.",
+        "meaning": "使人难堪的",
+        "english": "Causing someone to feel awkward, self-conscious, or ashamed.",
+        "example": "Forgetting the client's name during the presentation was deeply embarrassing."
+      },
+      {
+        "pos": "n.",
+        "meaning": "窘迫的",
+        "english": "Causing someone to feel awkward, self-conscious, or ashamed.",
+        "example": "Forgetting the client's name during the presentation was deeply embarrassing."
+      }
+    ]
+  },
+  {
+    "word": [
+      "engaged"
+    ],
+    "english_synonyms": [
+      "busy",
+      "occupied",
+      "committed",
+      "involved"
+    ],
+    "english_explanations": [
+      "Busy; occupied.",
+      "having agreed to marry sb",
+      "busy doing sth"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "忙碌的",
+        "english": "Busy; occupied.",
+        "example": "I'm afraid the line is engaged; could you call back in ten minutes?"
+      },
+      {
+        "pos": "adj.",
+        "meaning": "已订婚的",
+        "english": "having agreed to marry sb",
+        "example": "When did you get engaged?"
+      },
+      {
+        "pos": "adj.",
+        "meaning": "从事于",
+        "english": "busy doing sth",
+        "example": "They are engaged in talks with the Irish government."
+      },
+      {
+        "pos": "n.",
+        "meaning": "参与",
+        "english": "Busy; occupied.",
+        "example": "I'm afraid the line is engaged; could you call back in ten minutes?"
+      }
+    ]
+  },
+  {
+    "word": [
+      "ensure"
+    ],
+    "english_synonyms": [
+      "guarantee",
+      "secure",
+      "verify",
+      "make sure"
+    ],
+    "english_explanations": [
+      "to make sure that sth happens or is definite"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "确保",
+        "english": "to make sure that sth happens or is definite",
+        "example": "The book ensured his success."
+      },
+      {
+        "pos": "v.",
+        "meaning": "保证",
+        "english": "to make sure that sth happens or is definite",
+        "example": "The book ensured his success."
+      },
+      {
+        "pos": "v.",
+        "meaning": "担保",
+        "english": "to make sure that sth happens or is definite",
+        "example": "The book ensured his success."
+      }
+    ]
+  },
+  {
+    "word": [
+      "enthusiastic",
+      "enthusiasm"
+    ],
+    "english_synonyms": [
+      "eager",
+      "keen",
+      "passionate",
+      "excited"
+    ],
+    "english_explanations": [
+      "feeling or showing a lot of excitement and interest about sb/sth"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "adj.",
+        "meaning": "热情的",
+        "english": "feeling or showing a lot of excitement and interest about sb/sth",
+        "example": "an enthusiastic supporter"
+      },
+      {
+        "pos": "adj.",
+        "meaning": "热心的",
+        "english": "feeling or showing a lot of excitement and interest about sb/sth",
+        "example": "an enthusiastic supporter"
+      },
+      {
+        "pos": "adj.",
+        "meaning": "热烈的",
+        "english": "feeling or showing a lot of excitement and interest about sb/sth",
+        "example": "an enthusiastic supporter"
+      }
+    ]
+  },
+  {
+    "word": [
+      "exhibition"
+    ],
+    "english_synonyms": [
+      "display",
+      "show",
+      "exhibit",
+      "demonstration"
+    ],
+    "english_explanations": [
+      "a collection of things, for example works of art, that are shown to the public",
+      "A public display of works of art or other items of interest."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "展览",
+        "english": "a collection of things, for example works of art, that are shown to the public",
+        "example": "Have you seen the Picasso exhibition?"
+      },
+      {
+        "pos": "n.",
+        "meaning": "展览会",
+        "english": "A public display of works of art or other items of interest.",
+        "example": "The trade exhibition attracted buyers from all over the world."
+      },
+      {
+        "pos": "n.",
+        "meaning": "展示",
+        "english": "A public display of works of art or other items of interest.",
+        "example": "The trade exhibition attracted buyers from all over the world."
+      }
+    ],
+    "roots": [
+      {
+        "root": "ex-",
+        "meaning": "out"
+      },
+      {
+        "root": "hib",
+        "meaning": "hold"
+      },
+      {
+        "root": "-ition",
+        "meaning": "noun form"
+      }
+    ]
+  },
+  {
+    "word": [
+      "expect"
+    ],
+    "english_synonyms": [
+      "anticipate",
+      "await",
+      "predict",
+      "require"
+    ],
+    "english_explanations": [
+      "to demand that sb will do sth because it is their duty or responsibility",
+      "to think or believe that sth will happen or that sb will do sth"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "期望",
+        "english": "to demand that sb will do sth because it is their duty or responsibility",
+        "example": "Her parents expected high standards from her."
+      },
+      {
+        "pos": "v.",
+        "meaning": "预期",
+        "english": "to think or believe that sth will happen or that sb will do sth",
+        "example": "We are expecting a rise in food prices this month."
+      },
+      {
+        "pos": "v.",
+        "meaning": "预料",
+        "english": "to think or believe that sth will happen or that sb will do sth",
+        "example": "We are expecting a rise in food prices this month."
+      },
+      {
+        "pos": "v.",
+        "meaning": "要求",
+        "english": "to demand that sb will do sth because it is their duty or responsibility",
+        "example": "Her parents expected high standards from her."
+      }
+    ],
+    "roots": [
+      {
+        "root": "ex-",
+        "meaning": "out"
+      },
+      {
+        "root": "pect",
+        "meaning": "look"
+      }
+    ]
+  },
+  {
+    "word": [
+      "extension"
+    ],
+    "english_synonyms": [
+      "addition",
+      "expansion",
+      "continuation",
+      "postponement"
+    ],
+    "english_explanations": [
+      "the act of increasing the area of activity, group of people, etc. that is affected by sth",
+      "an extra telephone line connected to a central telephone in a house or to a switchboard in a large building. In a large building, each extension usually has its own number.",
+      "an extra period of time allowed for sth",
+      "a new part that is added to a building"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "延伸",
+        "english": "the act of increasing the area of activity, group of people, etc. that is affected by sth",
+        "example": "the extension of new technology into developing countries"
+      },
+      {
+        "pos": "n.",
+        "meaning": "分机",
+        "english": "an extra telephone line connected to a central telephone in a house or to a switchboard in a large building. In a large building, each extension usually has its own number.",
+        "example": "We have an extension in the bedroom."
+      },
+      {
+        "pos": "n.",
+        "meaning": "延期",
+        "english": "an extra period of time allowed for sth",
+        "example": "He's been granted an extension of the contract for another year."
+      },
+      {
+        "pos": "n.",
+        "meaning": "扩建",
+        "english": "a new part that is added to a building",
+        "example": "a planned two-storey extension to the hospital"
+      }
+    ],
+    "roots": [
+      {
+        "root": "ex-",
+        "meaning": "out"
+      },
+      {
+        "root": "tens",
+        "meaning": "stretch"
+      },
+      {
+        "root": "-ion",
+        "meaning": "noun form"
+      }
+    ]
+  },
+  {
+    "word": [
+      "feedback"
+    ],
+    "english_synonyms": [
+      "response",
+      "reaction",
+      "comment",
+      "criticism"
+    ],
+    "english_explanations": [
+      "advice, criticism or information about how good or useful sth or sb's work is",
+      "Information about reactions to a product, a person's performance of a task, etc., used as a basis for improvement."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "反馈",
+        "english": "advice, criticism or information about how good or useful sth or sb's work is",
+        "example": "I'd appreciate some feedback on my work."
+      },
+      {
+        "pos": "n.",
+        "meaning": "意见",
+        "english": "advice, criticism or information about how good or useful sth or sb's work is",
+        "example": "I'd appreciate some feedback on my work."
+      },
+      {
+        "pos": "n.",
+        "meaning": "回应",
+        "english": "Information about reactions to a product, a person's performance of a task, etc., used as a basis for improvement.",
+        "example": "We welcome feedback from our clients on how we can improve our services."
+      }
+    ]
+  },
+  {
+    "word": [
+      "flexible",
+      "flexibility"
+    ],
+    "english_synonyms": [
+      "adaptable",
+      "adjustable",
+      "accommodating",
+      "pliant"
+    ],
+    "english_explanations": [
+      "able to change to suit new conditions or situations",
+      "able to bend easily without breaking",
+      "Able to make changes or deal with a situation that is changing."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "adj.",
+        "meaning": "灵活的",
+        "english": "able to change to suit new conditions or situations",
+        "example": "a more flexible approach"
+      },
+      {
+        "pos": "adj.",
+        "meaning": "柔韧的",
+        "english": "able to bend easily without breaking",
+        "example": "flexible plastic tubing"
+      },
+      {
+        "pos": "n.",
+        "meaning": "可变通的",
+        "english": "Able to make changes or deal with a situation that is changing.",
+        "example": "We need to remain flexible in our approach to meet the client's changing needs."
+      }
+    ],
+    "roots": [
+      {
+        "root": "flex",
+        "meaning": "bend"
+      },
+      {
+        "root": "-ible",
+        "meaning": "capable of"
+      }
+    ]
+  },
+  {
+    "word": [
+      "identify",
+      "identification"
+    ],
+    "english_synonyms": [
+      "recognize",
+      "distinguish",
+      "determine",
+      "establish"
+    ],
+    "english_explanations": [
+      "To establish or indicate who or what someone or something is.",
+      "to recognize sb/sth and be able to say who or what they are"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "识别",
+        "english": "To establish or indicate who or what someone or something is.",
+        "example": "Security staff were able to identify the suspect from the CCTV footage."
+      },
+      {
+        "pos": "v.",
+        "meaning": "鉴定",
+        "english": "to recognize sb/sth and be able to say who or what they are",
+        "example": "The bodies were identified as those of two suspected drug dealers."
+      },
+      {
+        "pos": "v.",
+        "meaning": "确认",
+        "english": "to recognize sb/sth and be able to say who or what they are",
+        "example": "The bodies were identified as those of two suspected drug dealers."
+      },
+      {
+        "pos": "v.",
+        "meaning": "认同",
+        "english": "To establish or indicate who or what someone or something is.",
+        "example": "Security staff were able to identify the suspect from the CCTV footage."
+      }
+    ],
+    "roots": [
+      {
+        "root": "ident",
+        "meaning": "same"
+      },
+      {
+        "root": "-ify",
+        "meaning": "make"
+      }
+    ]
+  },
+  {
+    "word": [
+      "impression",
+      "impress"
+    ],
+    "english_synonyms": [
+      "feeling",
+      "sense",
+      "opinion",
+      "belief"
+    ],
+    "english_explanations": [
+      "an idea, a feeling or an opinion that you get about sb/sth, or that sb/sth gives you",
+      "the effect that an experience or a person has on sb/sth",
+      "An idea, feeling, or opinion about something or someone, especially one formed without conscious thought or on the basis of little evidence."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "印象",
+        "english": "an idea, a feeling or an opinion that you get about sb/sth, or that sb/sth gives you",
+        "example": "a general/an overall impression"
+      },
+      {
+        "pos": "n.",
+        "meaning": "感想",
+        "english": "an idea, a feeling or an opinion that you get about sb/sth, or that sb/sth gives you",
+        "example": "a general/an overall impression"
+      },
+      {
+        "pos": "n.",
+        "meaning": "影响",
+        "english": "the effect that an experience or a person has on sb/sth",
+        "example": "a big impression"
+      },
+      {
+        "pos": "n.",
+        "meaning": "压痕",
+        "english": "An idea, feeling, or opinion about something or someone, especially one formed without conscious thought or on the basis of little evidence.",
+        "example": "She made an excellent first impression during her interview."
+      }
+    ],
+    "roots": [
+      {
+        "root": "im-",
+        "meaning": "in"
+      },
+      {
+        "root": "press",
+        "meaning": "press"
+      },
+      {
+        "root": "-ion",
+        "meaning": "noun form"
+      }
+    ]
+  },
+  {
+    "word": [
+      "inform",
+      "information"
+    ],
+    "english_synonyms": [
+      "notify",
+      "tell",
+      "advise",
+      "apprise"
+    ],
+    "english_explanations": [
+      "to tell sb about sth, especially in an official way",
+      "To give facts or information to someone."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "通知",
+        "english": "to tell sb about sth, especially in an official way",
+        "example": "Please inform us of any changes of address."
+      },
+      {
+        "pos": "v.",
+        "meaning": "告知",
+        "english": "To give facts or information to someone.",
+        "example": "Please inform us immediately if there are any changes to your contact details."
+      },
+      {
+        "pos": "v.",
+        "meaning": "使了解",
+        "english": "To give facts or information to someone.",
+        "example": "Please inform us immediately if there are any changes to your contact details."
+      }
+    ],
+    "roots": [
+      {
+        "root": "in-",
+        "meaning": "in"
+      },
+      {
+        "root": "form",
+        "meaning": "shape"
+      }
+    ]
+  },
+  {
+    "word": [
+      "interrupting",
+      "interrupt"
+    ],
+    "english_synonyms": [
+      "disturbing",
+      "disrupting",
+      "breaking in",
+      "cutting in"
+    ],
+    "english_explanations": [
+      "Stopping the continuous progress of an activity or process.",
+      "to stop sth for a short time"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "打断",
+        "english": "Stopping the continuous progress of an activity or process.",
+        "example": "Interrupting others while they are speaking is considered rude in most business settings."
+      },
+      {
+        "pos": "v.",
+        "meaning": "中断",
+        "english": "to stop sth for a short time",
+        "example": "The game was interrupted several times by rain."
+      },
+      {
+        "pos": "n.",
+        "meaning": "干扰",
+        "english": "Stopping the continuous progress of an activity or process.",
+        "example": "Interrupting others while they are speaking is considered rude in most business settings."
+      }
+    ]
+  },
+  {
+    "word": [
+      "jargon"
+    ],
+    "english_synonyms": [
+      "terminology",
+      "slang",
+      "lingo",
+      "cant"
+    ],
+    "english_explanations": [
+      "words or expressions that are used by a particular profession or group of people, and are difficult for others to understand",
+      "Special words or expressions that are used by a particular profession or group and are difficult for others to understand."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "行话",
+        "english": "words or expressions that are used by a particular profession or group of people, and are difficult for others to understand",
+        "example": "medical/legal/computer, etc. jargon"
+      },
+      {
+        "pos": "n.",
+        "meaning": "术语",
+        "english": "words or expressions that are used by a particular profession or group of people, and are difficult for others to understand",
+        "example": "medical/legal/computer, etc. jargon"
+      },
+      {
+        "pos": "n.",
+        "meaning": "黑话",
+        "english": "Special words or expressions that are used by a particular profession or group and are difficult for others to understand.",
+        "example": "The legal jargon in the contract made it difficult for non-lawyers to understand."
+      }
+    ]
+  },
+  {
+    "word": [
+      "launch"
+    ],
+    "english_synonyms": [
+      "introduce",
+      "unveil",
+      "release",
+      "initiate"
+    ],
+    "english_explanations": [
+      "to start an activity, especially an organized one",
+      "To start or introduce a new product, program, or project.",
+      "to send sth such as a spacecraft, weapon, etc. into space, into the sky or through water",
+      "to make a product available to the public for the first time"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "发起",
+        "english": "to start an activity, especially an organized one",
+        "example": "to launch an appeal/an inquiry/an investigation/a campaign"
+      },
+      {
+        "pos": "v.",
+        "meaning": "推出",
+        "english": "To start or introduce a new product, program, or project.",
+        "example": "The company will launch its new product line at the trade fair next month."
+      },
+      {
+        "pos": "v.",
+        "meaning": "发射",
+        "english": "to send sth such as a spacecraft, weapon, etc. into space, into the sky or through water",
+        "example": "to launch a communications satellite"
+      },
+      {
+        "pos": "v.",
+        "meaning": "上市",
+        "english": "to make a product available to the public for the first time",
+        "example": "a party to launch his latest novel"
+      }
+    ]
+  },
+  {
+    "word": [
+      "leave for"
+    ],
+    "english_synonyms": [
+      "depart for",
+      "set off for",
+      "head for",
+      "make for"
+    ],
+    "english_explanations": [
+      "To depart from one place in order to travel to another place."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "前往",
+        "english": "To depart from one place in order to travel to another place.",
+        "example": "I need to leave for the airport by four o'clock to catch my flight."
+      },
+      {
+        "pos": "v.",
+        "meaning": "出发去",
+        "english": "To depart from one place in order to travel to another place.",
+        "example": "I need to leave for the airport by four o'clock to catch my flight."
+      }
+    ]
+  },
+  {
+    "word": [
+      "lengthy",
+      "length"
+    ],
+    "english_synonyms": [
+      "long",
+      "prolonged",
+      "extended",
+      "protracted"
+    ],
+    "english_explanations": [
+      "very long, and often too long, in time or size"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "adj.",
+        "meaning": "冗长的",
+        "english": "very long, and often too long, in time or size",
+        "example": "lengthy delays"
+      },
+      {
+        "pos": "adj.",
+        "meaning": "漫长的",
+        "english": "very long, and often too long, in time or size",
+        "example": "lengthy delays"
+      },
+      {
+        "pos": "adj.",
+        "meaning": "很长的",
+        "english": "very long, and often too long, in time or size",
+        "example": "lengthy delays"
+      }
+    ]
+  },
+  {
+    "word": [
+      "manufacturer",
+      "manufacture"
+    ],
+    "english_synonyms": [
+      "producer",
+      "maker",
+      "builder",
+      "factory"
+    ],
+    "english_explanations": [
+      "A person or company that makes goods for sale.",
+      "a person or company that produces goods in large quantities"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "制造商",
+        "english": "A person or company that makes goods for sale.",
+        "example": "The manufacturer offers a twelve-month warranty on all electronic products."
+      },
+      {
+        "pos": "n.",
+        "meaning": "生产商",
+        "english": "a person or company that produces goods in large quantities",
+        "example": "a car/computer manufacturer"
+      },
+      {
+        "pos": "n.",
+        "meaning": "厂商",
+        "english": "A person or company that makes goods for sale.",
+        "example": "The manufacturer offers a twelve-month warranty on all electronic products."
+      }
+    ],
+    "roots": [
+      {
+        "root": "manu",
+        "meaning": "hand"
+      },
+      {
+        "root": "fact",
+        "meaning": "make"
+      },
+      {
+        "root": "-urer",
+        "meaning": "one who"
+      }
+    ]
+  },
+  {
+    "word": [
+      "minutes"
+    ],
+    "english_synonyms": [
+      "notes",
+      "record",
+      "proceedings",
+      "transcript"
+    ],
+    "english_explanations": [
+      "a summary or record of what is said or decided at a formal meeting",
+      "each of the 60 parts of an hour, that are equal to 60 seconds"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "会议记录",
+        "english": "a summary or record of what is said or decided at a formal meeting",
+        "example": "We read through the minutes of the last meeting."
+      },
+      {
+        "pos": "n.",
+        "meaning": "分钟",
+        "english": "each of the 60 parts of an hour, that are equal to 60 seconds",
+        "example": "It's four minutes to six."
+      },
+      {
+        "pos": "n.",
+        "meaning": "纪要",
+        "english": "a summary or record of what is said or decided at a formal meeting",
+        "example": "We read through the minutes of the last meeting."
+      }
+    ]
+  },
+  {
+    "word": [
+      "misunderstand",
+      "misunderstood",
+      "misunderstanding"
+    ],
+    "english_synonyms": [
+      "misinterpret",
+      "misconstrue",
+      "mistake",
+      "confuse"
+    ],
+    "english_explanations": [
+      "to fail to understand sb/sth correctly",
+      "To fail to understand someone or something correctly."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "误解",
+        "english": "to fail to understand sb/sth correctly",
+        "example": "I completely misunderstood her intentions."
+      },
+      {
+        "pos": "v.",
+        "meaning": "误会",
+        "english": "to fail to understand sb/sth correctly",
+        "example": "I completely misunderstood her intentions."
+      },
+      {
+        "pos": "v.",
+        "meaning": "曲解",
+        "english": "To fail to understand someone or something correctly.",
+        "example": "Please let me know if you misunderstand any of the instructions."
+      }
+    ]
+  },
+  {
+    "word": [
+      "moderate"
+    ],
+    "english_synonyms": [
+      "reasonable",
+      "average",
+      "medium",
+      "temperate"
+    ],
+    "english_explanations": [
+      "that is neither very good, large, hot, etc. nor very bad, small, cold, etc.",
+      "having or showing opinions, especially about politics, that are not extreme",
+      "to be in charge of a discussion or debate and make sure it is fair"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "adj.",
+        "meaning": "适度的",
+        "english": "that is neither very good, large, hot, etc. nor very bad, small, cold, etc.",
+        "example": "students of moderate ability"
+      },
+      {
+        "pos": "adj.",
+        "meaning": "温和的",
+        "english": "having or showing opinions, especially about politics, that are not extreme",
+        "example": "moderate views/policies"
+      },
+      {
+        "pos": "adj.",
+        "meaning": "中等的",
+        "english": "that is neither very good, large, hot, etc. nor very bad, small, cold, etc.",
+        "example": "students of moderate ability"
+      },
+      {
+        "pos": "v.",
+        "meaning": "主持",
+        "english": "to be in charge of a discussion or debate and make sure it is fair",
+        "example": "The television debate was moderated by a law professor."
+      }
+    ]
+  },
+  {
+    "word": [
+      "motivate",
+      "motivation"
+    ],
+    "english_synonyms": [
+      "inspire",
+      "encourage",
+      "stimulate",
+      "drive"
+    ],
+    "english_explanations": [
+      "to make sb want to do sth, especially sth that involves hard work and effort",
+      "To provide someone with a reason for doing something."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "激励",
+        "english": "to make sb want to do sth, especially sth that involves hard work and effort",
+        "example": "She's very good at motivating her students."
+      },
+      {
+        "pos": "v.",
+        "meaning": "激发",
+        "english": "to make sb want to do sth, especially sth that involves hard work and effort",
+        "example": "She's very good at motivating her students."
+      },
+      {
+        "pos": "v.",
+        "meaning": "促使",
+        "english": "To provide someone with a reason for doing something.",
+        "example": "Good managers know how to motivate their team to achieve better results."
+      }
+    ],
+    "roots": [
+      {
+        "root": "motiv",
+        "meaning": "move"
+      },
+      {
+        "root": "-ate",
+        "meaning": "verb form"
+      }
+    ]
+  },
+  {
+    "word": [
+      "negotiation",
+      "negotiate"
+    ],
+    "english_synonyms": [
+      "bargaining",
+      "discussion",
+      "mediation",
+      "arbitration"
+    ],
+    "english_explanations": [
+      "formal discussion between people who are trying to reach an agreement"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "谈判",
+        "english": "formal discussion between people who are trying to reach an agreement",
+        "example": "peace/trade/wage, etc. negotiations"
+      },
+      {
+        "pos": "n.",
+        "meaning": "协商",
+        "english": "formal discussion between people who are trying to reach an agreement",
+        "example": "peace/trade/wage, etc. negotiations"
+      },
+      {
+        "pos": "n.",
+        "meaning": "磋商",
+        "english": "formal discussion between people who are trying to reach an agreement",
+        "example": "peace/trade/wage, etc. negotiations"
+      }
+    ],
+    "roots": [
+      {
+        "root": "neg-",
+        "meaning": "not"
+      },
+      {
+        "root": "oti",
+        "meaning": "leisure"
+      },
+      {
+        "root": "-ation",
+        "meaning": "noun form"
+      }
+    ]
+  },
+  {
+    "word": [
+      "notification",
+      "notify"
+    ],
+    "english_synonyms": [
+      "notice",
+      "alert",
+      "announcement",
+      "warning"
+    ],
+    "english_explanations": [
+      "the act of giving or receiving official information about sth"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "通知",
+        "english": "the act of giving or receiving official information about sth",
+        "example": "advance/prior notification (= telling sb in advance about sth)"
+      },
+      {
+        "pos": "n.",
+        "meaning": "通告",
+        "english": "the act of giving or receiving official information about sth",
+        "example": "advance/prior notification (= telling sb in advance about sth)"
+      },
+      {
+        "pos": "n.",
+        "meaning": "告示",
+        "english": "the act of giving or receiving official information about sth",
+        "example": "advance/prior notification (= telling sb in advance about sth)"
+      }
+    ],
+    "roots": [
+      {
+        "root": "not",
+        "meaning": "mark"
+      },
+      {
+        "root": "-ification",
+        "meaning": "make, noun form"
+      }
+    ]
+  },
+  {
+    "word": [
+      "objection",
+      "object"
+    ],
+    "english_synonyms": [
+      "protest",
+      "opposition",
+      "complaint",
+      "disapproval"
+    ],
+    "english_explanations": [
+      "a reason why you do not like or are opposed to sth; a statement about this",
+      "An expression or feeling of disapproval or opposition."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "反对",
+        "english": "a reason why you do not like or are opposed to sth; a statement about this",
+        "example": "I have no objection to him coming to stay."
+      },
+      {
+        "pos": "n.",
+        "meaning": "异议",
+        "english": "a reason why you do not like or are opposed to sth; a statement about this",
+        "example": "I have no objection to him coming to stay."
+      },
+      {
+        "pos": "n.",
+        "meaning": "抗议",
+        "english": "An expression or feeling of disapproval or opposition.",
+        "example": "The planning committee raised no objections to the proposed development."
+      }
+    ],
+    "roots": [
+      {
+        "root": "ob-",
+        "meaning": "against"
+      },
+      {
+        "root": "ject",
+        "meaning": "throw"
+      },
+      {
+        "root": "-ion",
+        "meaning": "noun form"
+      }
+    ]
+  },
+  {
+    "word": [
+      "overcome",
+      "overcame"
+    ],
+    "english_synonyms": [
+      "conquer",
+      "defeat",
+      "surmount",
+      "master"
+    ],
+    "english_explanations": [
+      "to succeed in dealing with or controlling a problem that has been preventing you from achieving sth",
+      "to defeat sb",
+      "To succeed in dealing with a problem or difficulty."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "克服",
+        "english": "to succeed in dealing with or controlling a problem that has been preventing you from achieving sth",
+        "example": "She overcame injury to win the Olympic gold medal."
+      },
+      {
+        "pos": "v.",
+        "meaning": "战胜",
+        "english": "to defeat sb",
+        "example": "In the final game Sweden easily overcame France."
+      },
+      {
+        "pos": "v.",
+        "meaning": "征服",
+        "english": "To succeed in dealing with a problem or difficulty.",
+        "example": "She worked hard to overcome her fear of public speaking."
+      }
+    ]
+  },
+  {
+    "word": [
+      "parliamentary",
+      "parliament"
+    ],
+    "english_synonyms": [
+      "legislative",
+      "congressional",
+      "senatorial",
+      "governmental"
+    ],
+    "english_explanations": [
+      "connected with a parliament; having a parliament",
+      "Relating to a parliament or its members."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "adj.",
+        "meaning": "议会的",
+        "english": "connected with a parliament; having a parliament",
+        "example": "parliamentary elections"
+      },
+      {
+        "pos": "adj.",
+        "meaning": "国会的",
+        "english": "connected with a parliament; having a parliament",
+        "example": "parliamentary elections"
+      },
+      {
+        "pos": "adj.",
+        "meaning": "议会制度的",
+        "english": "Relating to a parliament or its members.",
+        "example": "The opposition called for a parliamentary inquiry into the matter."
+      }
+    ]
+  },
+  {
+    "word": [
+      "participant",
+      "participate"
+    ],
+    "english_synonyms": [
+      "member",
+      "partaker",
+      "attendee",
+      "contributor"
+    ],
+    "english_explanations": [
+      "a person who is taking part in an activity or event",
+      "A person who takes part in something."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "参与者",
+        "english": "a person who is taking part in an activity or event",
+        "example": "He has been an active participant in the discussion."
+      },
+      {
+        "pos": "n.",
+        "meaning": "参加者",
+        "english": "a person who is taking part in an activity or event",
+        "example": "He has been an active participant in the discussion."
+      },
+      {
+        "pos": "n.",
+        "meaning": "与会者",
+        "english": "A person who takes part in something.",
+        "example": "Each participant in the study was asked to complete a questionnaire."
+      }
+    ],
+    "roots": [
+      {
+        "root": "part",
+        "meaning": "part"
+      },
+      {
+        "root": "-icip",
+        "meaning": "take"
+      },
+      {
+        "root": "-ant",
+        "meaning": "person"
+      }
+    ]
+  },
+  {
+    "word": [
+      "performance",
+      "perform"
+    ],
+    "english_synonyms": [
+      "achievement",
+      "accomplishment",
+      "execution",
+      "conduct"
+    ],
+    "english_explanations": [
+      "the way a person performs in a play, concert, etc.",
+      "the act of performing a play, concert or some other form of entertainment",
+      "how well or badly you do sth; how well or badly sth works",
+      "the act or process of performing a task, an action, etc."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "表现",
+        "english": "the way a person performs in a play, concert, etc.",
+        "example": "She gave the greatest performance of her career."
+      },
+      {
+        "pos": "n.",
+        "meaning": "表演",
+        "english": "the act of performing a play, concert or some other form of entertainment",
+        "example": "The performance starts at seven."
+      },
+      {
+        "pos": "n.",
+        "meaning": "业绩",
+        "english": "how well or badly you do sth; how well or badly sth works",
+        "example": "the country's economic performance"
+      },
+      {
+        "pos": "n.",
+        "meaning": "执行",
+        "english": "the act or process of performing a task, an action, etc.",
+        "example": "She has shown enthusiasm in the performance of her duties."
+      }
+    ],
+    "roots": [
+      {
+        "root": "per-",
+        "meaning": "through"
+      },
+      {
+        "root": "form",
+        "meaning": "form"
+      },
+      {
+        "root": "-ance",
+        "meaning": "noun form"
+      }
+    ]
+  },
+  {
+    "word": [
+      "polite",
+      "politeness",
+      "politely"
+    ],
+    "english_synonyms": [
+      "courteous",
+      "well-mannered",
+      "civil",
+      "respectful"
+    ],
+    "english_explanations": [
+      "having or showing good manners and respect for the feelings of others",
+      "Having or showing behavior that is respectful and considerate of other people."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "adj.",
+        "meaning": "有礼貌的",
+        "english": "having or showing good manners and respect for the feelings of others",
+        "example": "Please be polite to our guests."
+      },
+      {
+        "pos": "adj.",
+        "meaning": "客气的",
+        "english": "having or showing good manners and respect for the feelings of others",
+        "example": "Please be polite to our guests."
+      },
+      {
+        "pos": "n.",
+        "meaning": "文雅的",
+        "english": "Having or showing behavior that is respectful and considerate of other people.",
+        "example": "It is polite to wait for everyone to be served before starting your meal."
+      }
+    ]
+  },
+  {
+    "word": [
+      "positive"
+    ],
+    "english_synonyms": [
+      "optimistic",
+      "constructive",
+      "favorable",
+      "confident"
+    ],
+    "english_explanations": [
+      "directed at dealing with sth or producing a successful result",
+      "Consisting in or characterized by the presence or possession of features or qualities rather than their absence.",
+      "good or useful",
+      "thinking about what is good in a situation; feeling confident and sure that sth good will happen"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "adj.",
+        "meaning": "积极的",
+        "english": "directed at dealing with sth or producing a successful result",
+        "example": "We must take positive steps to deal with the problem."
+      },
+      {
+        "pos": "n.",
+        "meaning": "肯定的",
+        "english": "Consisting in or characterized by the presence or possession of features or qualities rather than their absence.",
+        "example": "The manager gave positive feedback on the team's recent project."
+      },
+      {
+        "pos": "adj.",
+        "meaning": "正面的",
+        "english": "good or useful",
+        "example": "to make a positive contribution to a discussion"
+      },
+      {
+        "pos": "adj.",
+        "meaning": "乐观的",
+        "english": "thinking about what is good in a situation; feeling confident and sure that sth good will happen",
+        "example": "a positive attitude/outlook"
+      }
+    ],
+    "roots": [
+      {
+        "root": "pos",
+        "meaning": "place"
+      },
+      {
+        "root": "-itive",
+        "meaning": "adj form"
+      }
+    ]
+  },
+  {
+    "word": [
+      "potential",
+      "potentially"
+    ],
+    "english_synonyms": [
+      "possible",
+      "prospective",
+      "latent",
+      "promising"
+    ],
+    "english_explanations": [
+      "that can develop into sth or be developed in the future",
+      "qualities that exist and can be developed",
+      "Having the capacity to become or develop into something in the future."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "adj.",
+        "meaning": "潜在的",
+        "english": "that can develop into sth or be developed in the future",
+        "example": "potential customers"
+      },
+      {
+        "pos": "adj.",
+        "meaning": "可能的",
+        "english": "that can develop into sth or be developed in the future",
+        "example": "potential customers"
+      },
+      {
+        "pos": "n.",
+        "meaning": "潜力",
+        "english": "qualities that exist and can be developed",
+        "example": "All children should be encouraged to realize their full potential."
+      },
+      {
+        "pos": "n.",
+        "meaning": "潜能",
+        "english": "Having the capacity to become or develop into something in the future.",
+        "example": "The candidate shows great potential for leadership roles."
+      }
+    ],
+    "roots": [
+      {
+        "root": "pot",
+        "meaning": "power"
+      },
+      {
+        "root": "-ent",
+        "meaning": "adj"
+      },
+      {
+        "root": "-ial",
+        "meaning": "adj form"
+      }
+    ]
+  },
+  {
+    "word": [
+      "pretend",
+      "pretense",
+      "pretence"
+    ],
+    "english_synonyms": [
+      "feign",
+      "simulate",
+      "act",
+      "fake"
+    ],
+    "english_explanations": [
+      "to behave in a particular way, in order to make other people believe sth that is not true",
+      "To speak and act so as to make it appear that something is the case when in fact it is not."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "假装",
+        "english": "to behave in a particular way, in order to make other people believe sth that is not true",
+        "example": "I'm tired of having to pretend all the time."
+      },
+      {
+        "pos": "v.",
+        "meaning": "装作",
+        "english": "To speak and act so as to make it appear that something is the case when in fact it is not.",
+        "example": "He had to pretend that he understood the technical jargon during the meeting."
+      },
+      {
+        "pos": "v.",
+        "meaning": "伪称",
+        "english": "To speak and act so as to make it appear that something is the case when in fact it is not.",
+        "example": "He had to pretend that he understood the technical jargon during the meeting."
+      }
+    ],
+    "roots": [
+      {
+        "root": "pre-",
+        "meaning": "before"
+      },
+      {
+        "root": "tend",
+        "meaning": "stretch"
+      }
+    ]
+  },
+  {
+    "word": [
+      "private",
+      "privacy"
+    ],
+    "english_synonyms": [
+      "personal",
+      "confidential",
+      "exclusive",
+      "secluded"
+    ],
+    "english_explanations": [
+      "intended for or involving a particular person or group of people, not for people in general or for others to know about",
+      "owned or managed by an individual person or an independent company rather than by the state",
+      "that you do not want other people to know about",
+      "Belonging to or for the use of one particular person or group of people only."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "adj.",
+        "meaning": "私人的",
+        "english": "intended for or involving a particular person or group of people, not for people in general or for others to know about",
+        "example": "a private conversation"
+      },
+      {
+        "pos": "adj.",
+        "meaning": "私立的",
+        "english": "owned or managed by an individual person or an independent company rather than by the state",
+        "example": "private banks"
+      },
+      {
+        "pos": "adj.",
+        "meaning": "私下的",
+        "english": "that you do not want other people to know about",
+        "example": "her private thoughts and feelings"
+      },
+      {
+        "pos": "n.",
+        "meaning": "隐私",
+        "english": "Belonging to or for the use of one particular person or group of people only.",
+        "example": "This is a private conversation; please do not interrupt."
+      }
+    ],
+    "roots": [
+      {
+        "root": "priv",
+        "meaning": "single"
+      },
+      {
+        "root": "-ate",
+        "meaning": "adj form"
+      }
+    ]
+  },
+  {
+    "word": [
+      "procedure",
+      "procedural"
+    ],
+    "english_synonyms": [
+      "process",
+      "operation",
+      "method",
+      "protocol"
+    ],
+    "english_explanations": [
+      "a way of doing sth, especially the usual or correct way",
+      "An established or official way of doing something."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "程序",
+        "english": "a way of doing sth, especially the usual or correct way",
+        "example": "maintenance procedures"
+      },
+      {
+        "pos": "n.",
+        "meaning": "步骤",
+        "english": "a way of doing sth, especially the usual or correct way",
+        "example": "maintenance procedures"
+      },
+      {
+        "pos": "n.",
+        "meaning": "手续",
+        "english": "a way of doing sth, especially the usual or correct way",
+        "example": "maintenance procedures"
+      },
+      {
+        "pos": "n.",
+        "meaning": "流程",
+        "english": "An established or official way of doing something.",
+        "example": "All employees must follow the correct safety procedures at all times."
+      }
+    ],
+    "roots": [
+      {
+        "root": "pro-",
+        "meaning": "forward"
+      },
+      {
+        "root": "ced",
+        "meaning": "go"
+      },
+      {
+        "root": "-ure",
+        "meaning": "noun form"
+      }
+    ]
+  },
+  {
+    "word": [
+      "proceeding",
+      "proceedings",
+      "proceed"
+    ],
+    "english_synonyms": [
+      "process",
+      "transaction",
+      "action",
+      "lawsuit"
+    ],
+    "english_explanations": [
+      "the process of using a court to settle a disagreement or to deal with a complaint",
+      "An event or a series of activities involving a formal or established process."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "程序",
+        "english": "the process of using a court to settle a disagreement or to deal with a complaint",
+        "example": "bankruptcy/divorce/extradition, etc. proceedings"
+      },
+      {
+        "pos": "n.",
+        "meaning": "进程",
+        "english": "An event or a series of activities involving a formal or established process.",
+        "example": "The proceedings of the conference will be published in an academic journal."
+      },
+      {
+        "pos": "n.",
+        "meaning": "会议记录",
+        "english": "An event or a series of activities involving a formal or established process.",
+        "example": "The proceedings of the conference will be published in an academic journal."
+      },
+      {
+        "pos": "n.",
+        "meaning": "诉讼",
+        "english": "the process of using a court to settle a disagreement or to deal with a complaint",
+        "example": "bankruptcy/divorce/extradition, etc. proceedings"
+      }
+    ]
+  },
+  {
+    "word": [
+      "productive",
+      "productivity",
+      "product"
+    ],
+    "english_synonyms": [
+      "fruitful",
+      "profitable",
+      "efficient",
+      "constructive"
+    ],
+    "english_explanations": [
+      "making goods or growing crops, especially in large quantities",
+      "Producing or able to produce large amounts of goods, crops, or other commodities.",
+      "doing or achieving a lot"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "adj.",
+        "meaning": "多产的",
+        "english": "making goods or growing crops, especially in large quantities",
+        "example": "highly productive farming land"
+      },
+      {
+        "pos": "n.",
+        "meaning": "高效的",
+        "english": "Producing or able to produce large amounts of goods, crops, or other commodities.",
+        "example": "The meeting was productive, and we finalized the project timeline."
+      },
+      {
+        "pos": "adj.",
+        "meaning": "富有成效的",
+        "english": "doing or achieving a lot",
+        "example": "a productive meeting"
+      }
+    ],
+    "roots": [
+      {
+        "root": "pro-",
+        "meaning": "forward"
+      },
+      {
+        "root": "duct",
+        "meaning": "lead"
+      },
+      {
+        "root": "-ive",
+        "meaning": "adj"
+      }
+    ]
+  },
+  {
+    "word": [
+      "projector",
+      "project",
+      "projection"
+    ],
+    "english_synonyms": [
+      "overhead projector",
+      "beamer",
+      "display",
+      "screen"
+    ],
+    "english_explanations": [
+      "An object or machine that throws an image or series of images onto a screen, typically from a transparent slide or digital source."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "投影仪",
+        "english": "An object or machine that throws an image or series of images onto a screen, typically from a transparent slide or digital source.",
+        "example": "The presenter connected his laptop to the projector to display the slides."
+      },
+      {
+        "pos": "n.",
+        "meaning": "放映机",
+        "english": "An object or machine that throws an image or series of images onto a screen, typically from a transparent slide or digital source.",
+        "example": "The presenter connected his laptop to the projector to display the slides."
+      },
+      {
+        "pos": "n.",
+        "meaning": "投影机",
+        "english": "An object or machine that throws an image or series of images onto a screen, typically from a transparent slide or digital source.",
+        "example": "The presenter connected his laptop to the projector to display the slides."
+      }
+    ],
+    "roots": [
+      {
+        "root": "pro-",
+        "meaning": "forward"
+      },
+      {
+        "root": "ject",
+        "meaning": "throw"
+      },
+      {
+        "root": "-or",
+        "meaning": "device"
+      }
+    ]
+  },
+  {
+    "word": [
+      "proposal",
+      "propose",
+      "proposition"
+    ],
+    "english_synonyms": [
+      "suggestion",
+      "plan",
+      "scheme",
+      "motion"
+    ],
+    "english_explanations": [
+      "a formal suggestion or plan; the act of making a suggestion",
+      "A plan or suggestion, especially a formal or written one, put forward for consideration or discussion by others."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "提议",
+        "english": "a formal suggestion or plan; the act of making a suggestion",
+        "example": "to submit/consider/accept/reject a proposal"
+      },
+      {
+        "pos": "n.",
+        "meaning": "建议",
+        "english": "a formal suggestion or plan; the act of making a suggestion",
+        "example": "to submit/consider/accept/reject a proposal"
+      },
+      {
+        "pos": "n.",
+        "meaning": "提案",
+        "english": "A plan or suggestion, especially a formal or written one, put forward for consideration or discussion by others.",
+        "example": "The committee rejected the proposal due to budget constraints."
+      },
+      {
+        "pos": "n.",
+        "meaning": "求婚",
+        "english": "A plan or suggestion, especially a formal or written one, put forward for consideration or discussion by others.",
+        "example": "The committee rejected the proposal due to budget constraints."
+      }
+    ],
+    "roots": [
+      {
+        "root": "pro-",
+        "meaning": "forward"
+      },
+      {
+        "root": "pos",
+        "meaning": "put"
+      },
+      {
+        "root": "-al",
+        "meaning": "noun form"
+      }
+    ]
+  },
+  {
+    "word": [
+      "provocative",
+      "provoke"
+    ],
+    "english_synonyms": [
+      "controversial",
+      "stimulating",
+      "challenging",
+      "inflammatory"
+    ],
+    "english_explanations": [
+      "intended to make people angry or upset; intended to make people argue about sth",
+      "Causing strong reactions, feelings, or opinions."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "adj.",
+        "meaning": "挑衅的",
+        "english": "intended to make people angry or upset; intended to make people argue about sth",
+        "example": "a provocative remark"
+      },
+      {
+        "pos": "n.",
+        "meaning": "刺激的",
+        "english": "Causing strong reactions, feelings, or opinions.",
+        "example": "His provocative comments sparked a heated debate during the panel discussion."
+      },
+      {
+        "pos": "adj.",
+        "meaning": "煽动性的",
+        "english": "intended to make people angry or upset; intended to make people argue about sth",
+        "example": "a provocative remark"
+      },
+      {
+        "pos": "n.",
+        "meaning": "引人深思的",
+        "english": "Causing strong reactions, feelings, or opinions.",
+        "example": "His provocative comments sparked a heated debate during the panel discussion."
+      }
+    ],
+    "roots": [
+      {
+        "root": "pro-",
+        "meaning": "forth"
+      },
+      {
+        "root": "voc",
+        "meaning": "call"
+      },
+      {
+        "root": "-ative",
+        "meaning": "adj"
+      }
+    ]
+  },
+  {
+    "word": [
+      "quality"
+    ],
+    "english_synonyms": [
+      "standard",
+      "grade",
+      "caliber",
+      "excellence"
+    ],
+    "english_explanations": [
+      "The standard of something as measured against other things of a similar kind."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "质量",
+        "english": "The standard of something as measured against other things of a similar kind.",
+        "example": "The company is known for the high quality of its customer service."
+      },
+      {
+        "pos": "n.",
+        "meaning": "品质",
+        "english": "The standard of something as measured against other things of a similar kind.",
+        "example": "The company is known for the high quality of its customer service."
+      },
+      {
+        "pos": "n.",
+        "meaning": "特性",
+        "english": "The standard of something as measured against other things of a similar kind.",
+        "example": "The company is known for the high quality of its customer service."
+      },
+      {
+        "pos": "n.",
+        "meaning": "优质",
+        "english": "The standard of something as measured against other things of a similar kind.",
+        "example": "The company is known for the high quality of its customer service."
+      }
+    ]
+  },
+  {
+    "word": [
+      "quota"
+    ],
+    "english_synonyms": [
+      "allowance",
+      "allocation",
+      "ration",
+      "share"
+    ],
+    "english_explanations": [
+      "the limited number or amount of people or things that is officially allowed",
+      "an amount of sth that sb expects or needs to have or achieve"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "配额",
+        "english": "the limited number or amount of people or things that is officially allowed",
+        "example": "to introduce a strict import quota on grain"
+      },
+      {
+        "pos": "n.",
+        "meaning": "定额",
+        "english": "the limited number or amount of people or things that is officially allowed",
+        "example": "to introduce a strict import quota on grain"
+      },
+      {
+        "pos": "n.",
+        "meaning": "限额",
+        "english": "the limited number or amount of people or things that is officially allowed",
+        "example": "to introduce a strict import quota on grain"
+      },
+      {
+        "pos": "n.",
+        "meaning": "指标",
+        "english": "an amount of sth that sb expects or needs to have or achieve",
+        "example": "I'm going home now—I've done my quota of work for the day."
+      }
+    ]
+  },
+  {
+    "word": [
+      "range"
+    ],
+    "english_synonyms": [
+      "scope",
+      "spectrum",
+      "variety",
+      "extent"
+    ],
+    "english_explanations": [
+      "the limits between which sth varies",
+      "The area of variation between upper and lower limits on a particular scale.",
+      "a variety of things of a particular type",
+      "the distance over which a gun or other weapon can hit things"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "范围",
+        "english": "the limits between which sth varies",
+        "example": "Most of the students are in the 17–20 age range."
+      },
+      {
+        "pos": "n.",
+        "meaning": "幅度",
+        "english": "The area of variation between upper and lower limits on a particular scale.",
+        "example": "The store offers a wide range of products to suit different budgets."
+      },
+      {
+        "pos": "n.",
+        "meaning": "一系列",
+        "english": "a variety of things of a particular type",
+        "example": "The hotel offers a wide range of facilities."
+      },
+      {
+        "pos": "n.",
+        "meaning": "射程",
+        "english": "the distance over which a gun or other weapon can hit things",
+        "example": "These missiles have a range of 300 miles."
+      }
+    ]
+  },
+  {
+    "word": [
+      "recommend",
+      "recommendation"
+    ],
+    "english_synonyms": [
+      "advise",
+      "suggest",
+      "endorse",
+      "advocate"
+    ],
+    "english_explanations": [
+      "to tell sb that sth is good or useful, or that sb would be suitable for a particular job, etc.",
+      "to advise a particular course of action; to advise sb to do sth"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "推荐",
+        "english": "to tell sb that sth is good or useful, or that sb would be suitable for a particular job, etc.",
+        "example": "Can you recommend a good hotel?"
+      },
+      {
+        "pos": "v.",
+        "meaning": "建议",
+        "english": "to advise a particular course of action; to advise sb to do sth",
+        "example": "The report recommended a 10% pay increase."
+      },
+      {
+        "pos": "v.",
+        "meaning": "劝告",
+        "english": "to advise a particular course of action; to advise sb to do sth",
+        "example": "The report recommended a 10% pay increase."
+      }
+    ],
+    "roots": [
+      {
+        "root": "re-",
+        "meaning": "again"
+      },
+      {
+        "root": "com-",
+        "meaning": "with"
+      },
+      {
+        "root": "mend",
+        "meaning": "trust"
+      }
+    ]
+  },
+  {
+    "word": [
+      "reference",
+      "refer"
+    ],
+    "english_synonyms": [
+      "mention",
+      "citation",
+      "allusion",
+      "source"
+    ],
+    "english_explanations": [
+      "the act of looking at sth for information",
+      "The action of mentioning or alluding to something.",
+      "a letter written by sb who knows you, giving information about your character and abilities, especially to a new employer"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "参考",
+        "english": "the act of looking at sth for information",
+        "example": "Keep the list of numbers near the phone for easy reference."
+      },
+      {
+        "pos": "n.",
+        "meaning": "提及",
+        "english": "The action of mentioning or alluding to something.",
+        "example": "Please include three professional references with your job application."
+      },
+      {
+        "pos": "n.",
+        "meaning": "推荐信",
+        "english": "a letter written by sb who knows you, giving information about your character and abilities, especially to a new employer",
+        "example": "We will take up references after the interview."
+      },
+      {
+        "pos": "n.",
+        "meaning": "查阅",
+        "english": "the act of looking at sth for information",
+        "example": "Keep the list of numbers near the phone for easy reference."
+      }
+    ],
+    "roots": [
+      {
+        "root": "re-",
+        "meaning": "back"
+      },
+      {
+        "root": "fer",
+        "meaning": "carry"
+      },
+      {
+        "root": "-ence",
+        "meaning": "noun form"
+      }
+    ]
+  },
+  {
+    "word": [
+      "reflect",
+      "reflection"
+    ],
+    "english_synonyms": [
+      "mirror",
+      "show",
+      "display",
+      "indicate"
+    ],
+    "english_explanations": [
+      "to show the image of sb/sth on the surface of sth such as a mirror, water or glass",
+      "to throw back light, heat, sound, etc. from a surface",
+      "To throw back heat, light, or sound without absorbing it.",
+      "to think carefully and deeply about sth"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "反映",
+        "english": "to show the image of sb/sth on the surface of sth such as a mirror, water or glass",
+        "example": "His face was reflected in the mirror."
+      },
+      {
+        "pos": "v.",
+        "meaning": "反射",
+        "english": "to throw back light, heat, sound, etc. from a surface",
+        "example": "The windows reflected the bright afternoon sunlight."
+      },
+      {
+        "pos": "v.",
+        "meaning": "反思",
+        "english": "To throw back heat, light, or sound without absorbing it.",
+        "example": "The results reflect the hard work the team has put in over the past year."
+      },
+      {
+        "pos": "v.",
+        "meaning": "思考",
+        "english": "to think carefully and deeply about sth",
+        "example": "Before I decide, I need time to reflect."
+      }
+    ],
+    "roots": [
+      {
+        "root": "re-",
+        "meaning": "back"
+      },
+      {
+        "root": "flect",
+        "meaning": "bend"
+      }
+    ]
+  },
+  {
+    "word": [
+      "request"
+    ],
+    "english_synonyms": [
+      "appeal",
+      "petition",
+      "application",
+      "demand"
+    ],
+    "english_explanations": [
+      "the action of asking for sth formally and politely",
+      "An act of asking politely or formally for something."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "请求",
+        "english": "the action of asking for sth formally and politely",
+        "example": "They made a request for further aid."
+      },
+      {
+        "pos": "n.",
+        "meaning": "要求",
+        "english": "the action of asking for sth formally and politely",
+        "example": "They made a request for further aid."
+      },
+      {
+        "pos": "n.",
+        "meaning": "申请",
+        "english": "An act of asking politely or formally for something.",
+        "example": "We received a request for more information from the potential client."
+      }
+    ],
+    "roots": [
+      {
+        "root": "re-",
+        "meaning": "again"
+      },
+      {
+        "root": "quest",
+        "meaning": "seek"
+      }
+    ]
+  },
+  {
+    "word": [
+      "resistance",
+      "resist",
+      "resistant"
+    ],
+    "english_synonyms": [
+      "opposition",
+      "defiance",
+      "hostility",
+      "immunity"
+    ],
+    "english_explanations": [
+      "the act of using force to oppose sb/sth",
+      "a force that stops sth moving or makes it move more slowly",
+      "dislike of or opposition to a plan, an idea, etc.; refusal to obey",
+      "the power not to be affected by sth"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "抵抗",
+        "english": "the act of using force to oppose sb/sth",
+        "example": "armed resistance"
+      },
+      {
+        "pos": "n.",
+        "meaning": "阻力",
+        "english": "a force that stops sth moving or makes it move more slowly",
+        "example": "wind/air resistance (= in the design of planes or cars)"
+      },
+      {
+        "pos": "n.",
+        "meaning": "反对",
+        "english": "dislike of or opposition to a plan, an idea, etc.; refusal to obey",
+        "example": "As with all new ideas it met with resistance."
+      },
+      {
+        "pos": "n.",
+        "meaning": "抵抗力",
+        "english": "the power not to be affected by sth",
+        "example": "AIDS lowers the body's resistance to infection."
+      }
+    ],
+    "roots": [
+      {
+        "root": "re-",
+        "meaning": "back"
+      },
+      {
+        "root": "sist",
+        "meaning": "stand"
+      },
+      {
+        "root": "-ance",
+        "meaning": "noun form"
+      }
+    ]
+  },
+  {
+    "word": [
+      "responsible",
+      "responsibility"
+    ],
+    "english_synonyms": [
+      "accountable",
+      "liable",
+      "answerable",
+      "trustworthy"
+    ],
+    "english_explanations": [
+      "needing sb who can be trusted and relied on; involving important duties",
+      "Having an obligation to do something, or having control over or care for someone.",
+      "that you can trust and rely on"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "adj.",
+        "meaning": "负责的",
+        "english": "needing sb who can be trusted and relied on; involving important duties",
+        "example": "a responsible job/position"
+      },
+      {
+        "pos": "n.",
+        "meaning": "有责任的",
+        "english": "Having an obligation to do something, or having control over or care for someone.",
+        "example": "As team leader, she is responsible for meeting the project deadline."
+      },
+      {
+        "pos": "adj.",
+        "meaning": "可靠的",
+        "english": "that you can trust and rely on",
+        "example": "Clare has a mature and responsible attitude to work."
+      }
+    ],
+    "roots": [
+      {
+        "root": "re-",
+        "meaning": "back"
+      },
+      {
+        "root": "spons",
+        "meaning": "promise"
+      },
+      {
+        "root": "-ible",
+        "meaning": "capable of"
+      }
+    ]
+  },
+  {
+    "word": [
+      "sample"
+    ],
+    "english_synonyms": [
+      "specimen",
+      "example",
+      "taste",
+      "trial"
+    ],
+    "english_explanations": [
+      "a number of people or things taken from a larger group and used in tests to provide information about the group",
+      "A small part or quantity intended to show what the whole is like.",
+      "to test, question, etc., part of sth or of a group of people in order to find out what the rest is like"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "样本",
+        "english": "a number of people or things taken from a larger group and used in tests to provide information about the group",
+        "example": "The interviews were given to a random sample of students."
+      },
+      {
+        "pos": "n.",
+        "meaning": "样品",
+        "english": "a number of people or things taken from a larger group and used in tests to provide information about the group",
+        "example": "The interviews were given to a random sample of students."
+      },
+      {
+        "pos": "n.",
+        "meaning": "试样",
+        "english": "A small part or quantity intended to show what the whole is like.",
+        "example": "We will send you a free sample so you can evaluate the product quality."
+      },
+      {
+        "pos": "v.",
+        "meaning": "抽样",
+        "english": "to test, question, etc., part of sth or of a group of people in order to find out what the rest is like",
+        "example": "12% of the children sampled said they prefer cats to dogs."
+      }
+    ]
+  },
+  {
+    "word": [
+      "schedule"
+    ],
+    "english_synonyms": [
+      "timetable",
+      "agenda",
+      "itinerary",
+      "program"
+    ],
+    "english_explanations": [
+      "a plan that lists all the work that you have to do and when you must do each thing",
+      "A plan for carrying out a process or procedure, giving lists of intended events and times."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "日程",
+        "english": "a plan that lists all the work that you have to do and when you must do each thing",
+        "example": "I have a hectic schedule for the next few days."
+      },
+      {
+        "pos": "n.",
+        "meaning": "时间表",
+        "english": "A plan for carrying out a process or procedure, giving lists of intended events and times.",
+        "example": "Let me check my schedule to see if I am available for a meeting on Thursday."
+      },
+      {
+        "pos": "n.",
+        "meaning": "计划表",
+        "english": "A plan for carrying out a process or procedure, giving lists of intended events and times.",
+        "example": "Let me check my schedule to see if I am available for a meeting on Thursday."
+      },
+      {
+        "pos": "n.",
+        "meaning": "安排",
+        "english": "a plan that lists all the work that you have to do and when you must do each thing",
+        "example": "I have a hectic schedule for the next few days."
+      }
+    ]
+  },
+  {
+    "word": [
+      "slang"
+    ],
+    "english_synonyms": [
+      "jargon",
+      "colloquialism",
+      "vernacular",
+      "idiom"
+    ],
+    "english_explanations": [
+      "very informal words and expressions that are more common in spoken language, especially used by a particular group of people, for example, children, criminals, soldiers, etc.",
+      "A type of language consisting of words and phrases that are regarded as very informal, are more common in speech than writing, and are typically restricted to a particular context or group of people."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "俚语",
+        "english": "very informal words and expressions that are more common in spoken language, especially used by a particular group of people, for example, children, criminals, soldiers, etc.",
+        "example": "teenage slang"
+      },
+      {
+        "pos": "n.",
+        "meaning": "行话",
+        "english": "A type of language consisting of words and phrases that are regarded as very informal, are more common in speech than writing, and are typically restricted to a particular context or group of people.",
+        "example": "Business slang can be confusing for people who are new to the industry."
+      },
+      {
+        "pos": "n.",
+        "meaning": "黑话",
+        "english": "A type of language consisting of words and phrases that are regarded as very informal, are more common in speech than writing, and are typically restricted to a particular context or group of people.",
+        "example": "Business slang can be confusing for people who are new to the industry."
+      }
+    ]
+  },
+  {
+    "word": [
+      "so far"
+    ],
+    "english_synonyms": [
+      "up to now",
+      "thus far",
+      "to date",
+      "until now"
+    ],
+    "english_explanations": [
+      "Up to the present moment."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "到目前为止",
+        "english": "Up to the present moment.",
+        "example": "So far, we have completed three out of the five project phases."
+      },
+      {
+        "pos": "n.",
+        "meaning": "迄今为止",
+        "english": "Up to the present moment.",
+        "example": "So far, we have completed three out of the five project phases."
+      },
+      {
+        "pos": "n.",
+        "meaning": "就此范围",
+        "english": "Up to the present moment.",
+        "example": "So far, we have completed three out of the five project phases."
+      }
+    ]
+  },
+  {
+    "word": [
+      "solution",
+      "solve"
+    ],
+    "english_synonyms": [
+      "answer",
+      "resolution",
+      "remedy",
+      "fix"
+    ],
+    "english_explanations": [
+      "A means of solving a problem or dealing with a difficult situation.",
+      "an answer to a puzzle or to a problem in mathematics",
+      "a way of solving a problem or dealing with a difficult situation"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "解决方案",
+        "english": "A means of solving a problem or dealing with a difficult situation.",
+        "example": "We need to find a cost-effective solution to reduce production delays."
+      },
+      {
+        "pos": "n.",
+        "meaning": "答案",
+        "english": "an answer to a puzzle or to a problem in mathematics",
+        "example": "The solution to last week's quiz is on page 81."
+      },
+      {
+        "pos": "n.",
+        "meaning": "解决办法",
+        "english": "a way of solving a problem or dealing with a difficult situation",
+        "example": "Attempts to find a solution have failed."
+      }
+    ],
+    "roots": [
+      {
+        "root": "solut",
+        "meaning": "loosen"
+      },
+      {
+        "root": "-ion",
+        "meaning": "noun form"
+      }
+    ]
+  },
+  {
+    "word": [
+      "specific",
+      "specify",
+      "specification"
+    ],
+    "english_synonyms": [
+      "particular",
+      "precise",
+      "exact",
+      "definite"
+    ],
+    "english_explanations": [
+      "detailed and exact",
+      "connected with one particular thing only"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "adj.",
+        "meaning": "具体的",
+        "english": "detailed and exact",
+        "example": "I gave you specific instructions."
+      },
+      {
+        "pos": "adj.",
+        "meaning": "特定的",
+        "english": "connected with one particular thing only",
+        "example": "children's television programmes aimed at a specific age group"
+      },
+      {
+        "pos": "adj.",
+        "meaning": "明确的",
+        "english": "detailed and exact",
+        "example": "I gave you specific instructions."
+      }
+    ],
+    "roots": [
+      {
+        "root": "spec",
+        "meaning": "kind"
+      },
+      {
+        "root": "-ific",
+        "meaning": "adj form"
+      }
+    ]
+  },
+  {
+    "word": [
+      "stability",
+      "stable"
+    ],
+    "english_synonyms": [
+      "steadiness",
+      "balance",
+      "durability",
+      "security"
+    ],
+    "english_explanations": [
+      "The quality, state, or degree of being stable.",
+      "the quality or state of being steady and not changing or being disturbed in any way (= the quality of being stable)"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "稳定性",
+        "english": "The quality, state, or degree of being stable.",
+        "example": "The new government policy aims to bring economic stability to the region."
+      },
+      {
+        "pos": "n.",
+        "meaning": "稳固",
+        "english": "the quality or state of being steady and not changing or being disturbed in any way (= the quality of being stable)",
+        "example": "political/economic/social stability"
+      },
+      {
+        "pos": "n.",
+        "meaning": "安定",
+        "english": "The quality, state, or degree of being stable.",
+        "example": "The new government policy aims to bring economic stability to the region."
+      }
+    ],
+    "roots": [
+      {
+        "root": "st",
+        "meaning": "stand"
+      },
+      {
+        "root": "-ability",
+        "meaning": "noun form"
+      }
+    ]
+  },
+  {
+    "word": [
+      "strike",
+      "struck",
+      "stricken"
+    ],
+    "english_synonyms": [
+      "hit",
+      "beat",
+      "knock",
+      "attack"
+    ],
+    "english_explanations": [
+      "to refuse to work, because of a disagreement over pay or conditions",
+      "a bad thing or action that damages sb/sth's reputation",
+      "to hit sb/sth hard or with force",
+      "a military attack, especially by aircraft dropping bombs"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "罢工",
+        "english": "to refuse to work, because of a disagreement over pay or conditions",
+        "example": "The union has voted to strike for a pay increase of 6%."
+      },
+      {
+        "pos": "n.",
+        "meaning": "打击",
+        "english": "a bad thing or action that damages sb/sth's reputation",
+        "example": "The amount of fuel that this car uses is a big strike against it."
+      },
+      {
+        "pos": "v.",
+        "meaning": "撞击",
+        "english": "to hit sb/sth hard or with force",
+        "example": "The ship struck a rock."
+      },
+      {
+        "pos": "n.",
+        "meaning": "袭击",
+        "english": "a military attack, especially by aircraft dropping bombs",
+        "example": "an air strike"
+      }
+    ]
+  },
+  {
+    "word": [
+      "suppose",
+      "supposed",
+      "supposition"
+    ],
+    "english_synonyms": [
+      "assume",
+      "presume",
+      "expect",
+      "imagine"
+    ],
+    "english_explanations": [
+      "to pretend that sth is true; to imagine what would happen if sth were true",
+      "to think or believe that sth is true or possible (based on the knowledge that you have)",
+      "To assume that something is the case on the basis of evidence or probability but without proof."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "假设",
+        "english": "to pretend that sth is true; to imagine what would happen if sth were true",
+        "example": "Suppose flights are fully booked on that day—which other day could we go?"
+      },
+      {
+        "pos": "v.",
+        "meaning": "认为",
+        "english": "to think or believe that sth is true or possible (based on the knowledge that you have)",
+        "example": "Getting a visa isn't as simple as you might suppose."
+      },
+      {
+        "pos": "v.",
+        "meaning": "应该",
+        "english": "To assume that something is the case on the basis of evidence or probability but without proof.",
+        "example": "I suppose we could reschedule the meeting for next week if necessary."
+      },
+      {
+        "pos": "v.",
+        "meaning": "意味着",
+        "english": "To assume that something is the case on the basis of evidence or probability but without proof.",
+        "example": "I suppose we could reschedule the meeting for next week if necessary."
+      }
+    ],
+    "roots": [
+      {
+        "root": "sup-",
+        "meaning": "under"
+      },
+      {
+        "root": "pose",
+        "meaning": "put"
+      }
+    ]
+  },
+  {
+    "word": [
+      "surname",
+      "family name",
+      "last name"
+    ],
+    "english_synonyms": [
+      "family name",
+      "last name",
+      "patronymic",
+      "maiden name"
+    ],
+    "english_explanations": [
+      "A hereditary name common to all members of a family, as distinct from a given name."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "姓氏",
+        "english": "A hereditary name common to all members of a family, as distinct from a given name.",
+        "example": "Please write your surname in block letters at the top of the form."
+      },
+      {
+        "pos": "n.",
+        "meaning": "姓",
+        "english": "A hereditary name common to all members of a family, as distinct from a given name.",
+        "example": "Please write your surname in block letters at the top of the form."
+      }
+    ]
+  },
+  {
+    "word": [
+      "switch"
+    ],
+    "english_synonyms": [
+      "change",
+      "shift",
+      "exchange",
+      "swap"
+    ],
+    "english_explanations": [
+      "a small device that you press or move up and down in order to turn a light or piece of electrical equipment on and off",
+      "a change from one thing to another, especially when this is sudden and complete",
+      "A device for making and breaking the connection in an electrical circuit."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "开关",
+        "english": "a small device that you press or move up and down in order to turn a light or piece of electrical equipment on and off",
+        "example": "a light switch"
+      },
+      {
+        "pos": "n.",
+        "meaning": "转换",
+        "english": "a small device that you press or move up and down in order to turn a light or piece of electrical equipment on and off",
+        "example": "a light switch"
+      },
+      {
+        "pos": "n.",
+        "meaning": "改变",
+        "english": "a change from one thing to another, especially when this is sudden and complete",
+        "example": "a switch of priorities"
+      },
+      {
+        "pos": "n.",
+        "meaning": "切换",
+        "english": "A device for making and breaking the connection in an electrical circuit.",
+        "example": "Please switch off the projector before leaving the conference room."
+      }
+    ]
+  },
+  {
+    "word": [
+      "technique",
+      "technical",
+      "technology"
+    ],
+    "english_synonyms": [
+      "method",
+      "approach",
+      "procedure",
+      "skill"
+    ],
+    "english_explanations": [
+      "the skill with which sb is able to do sth practical",
+      "a particular way of doing sth, especially one in which you have to learn special skills",
+      "A way of carrying out a particular task, especially the execution or performance of an artistic work or a scientific procedure."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "技术",
+        "english": "the skill with which sb is able to do sth practical",
+        "example": "Her technique has improved a lot over the past season."
+      },
+      {
+        "pos": "n.",
+        "meaning": "技巧",
+        "english": "a particular way of doing sth, especially one in which you have to learn special skills",
+        "example": "The artist combines different techniques in the same painting."
+      },
+      {
+        "pos": "n.",
+        "meaning": "方法",
+        "english": "A way of carrying out a particular task, especially the execution or performance of an artistic work or a scientific procedure.",
+        "example": "The trainer taught us several techniques for handling difficult questions from clients."
+      },
+      {
+        "pos": "n.",
+        "meaning": "手艺",
+        "english": "A way of carrying out a particular task, especially the execution or performance of an artistic work or a scientific procedure.",
+        "example": "The trainer taught us several techniques for handling difficult questions from clients."
+      }
+    ],
+    "roots": [
+      {
+        "root": "techn",
+        "meaning": "skill"
+      },
+      {
+        "root": "-ique",
+        "meaning": "noun form"
+      }
+    ]
+  },
+  {
+    "word": [
+      "volume"
+    ],
+    "english_synonyms": [
+      "quantity",
+      "amount",
+      "level",
+      "capacity"
+    ],
+    "english_explanations": [
+      "the amount of space that an object or a substance fills; the amount of space that a container has",
+      "the amount of sound that is produced by a television, radio, etc.",
+      "a book, that is part of a series of books"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "体积",
+        "english": "the amount of space that an object or a substance fills; the amount of space that a container has",
+        "example": "How do you measure the volume of a gas?"
+      },
+      {
+        "pos": "n.",
+        "meaning": "音量",
+        "english": "the amount of sound that is produced by a television, radio, etc.",
+        "example": "to turn the volume up/down"
+      },
+      {
+        "pos": "n.",
+        "meaning": "量",
+        "english": "the amount of space that an object or a substance fills; the amount of space that a container has",
+        "example": "How do you measure the volume of a gas?"
+      },
+      {
+        "pos": "n.",
+        "meaning": "卷",
+        "english": "a book, that is part of a series of books",
+        "example": "an encyclopedia in 20 volumes"
+      }
+    ]
+  },
+  {
+    "word": [
+      "workshop"
+    ],
+    "english_synonyms": [
+      "seminar",
+      "session",
+      "clinic",
+      "masterclass"
+    ],
+    "english_explanations": [
+      "a period of discussion and practical work on a particular subject, in which a group of people share their knowledge and experience",
+      "a room or building in which things are made or repaired using tools or machinery"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "研讨会",
+        "english": "a period of discussion and practical work on a particular subject, in which a group of people share their knowledge and experience",
+        "example": "a drama workshop"
+      },
+      {
+        "pos": "n.",
+        "meaning": "讲习班",
+        "english": "a period of discussion and practical work on a particular subject, in which a group of people share their knowledge and experience",
+        "example": "a drama workshop"
+      },
+      {
+        "pos": "n.",
+        "meaning": "车间",
+        "english": "a room or building in which things are made or repaired using tools or machinery",
+        "example": "a chocolate/cigarette/clothing factory"
+      },
+      {
+        "pos": "n.",
+        "meaning": "工场",
+        "english": "a room or building in which things are made or repaired using tools or machinery",
+        "example": "a chocolate/cigarette/clothing factory"
+      }
+    ]
   }
 ]

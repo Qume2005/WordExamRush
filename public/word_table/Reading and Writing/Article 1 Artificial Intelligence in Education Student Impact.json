@@ -1,919 +1,4241 @@
 [
   {
-    "word": ["academic performance"],
-    "english_synonyms": ["academic achievement", "scholastic performance", "educational attainment"],
-    "english_explanations": ["The extent to which a student has achieved their educational goals."],
-    "chinese_translations": ["学业表现", "学术成就"],
-    "example_sentences": "Regular attendance and active participation often lead to improved academic performance."
-  },
-  {
-    "word": ["academic results"],
-    "english_synonyms": ["academic outcomes", "scholastic results", "educational results"],
-    "english_explanations": ["The measurable outcomes or grades obtained by students in their studies."],
-    "chinese_translations": ["学业成绩", "学术成果"],
-    "example_sentences": "The school publishes academic results annually to track overall improvement."
-  },
-  {
-    "word": ["adaptive learning platforms"],
-    "english_synonyms": ["intelligent learning systems", "personalized learning platforms"],
-    "english_explanations": ["Digital educational systems that adjust content and pace based on individual learner needs."],
-    "chinese_translations": ["自适应学习平台", "智能调适学习系统"],
-    "example_sentences": "Adaptive learning platforms use algorithms to tailor exercises to each student's proficiency level."
-  },
-  {
-    "word": ["adaptive systems"],
-    "english_synonyms": ["responsive systems", "adjustable systems"],
-    "english_explanations": ["Systems designed to modify their behavior or outputs in response to changing conditions or user inputs."],
-    "chinese_translations": ["自适应系统", "调适性系统"],
-    "example_sentences": "Modern educational software relies on adaptive systems to personalize the user experience."
-  },
-  {
-    "word": ["address"],
-    "english_synonyms": ["tackle", "handle", "deal with", "approach"],
-    "english_explanations": ["To direct attention or effort toward solving a problem or issue."],
-    "chinese_translations": ["处理", "应对", "解决"],
-    "example_sentences": "The new policy aims to address inequalities in resource distribution across schools."
-  },
-  {
-    "word": ["adopt"],
-    "english_synonyms": ["embrace", "implement", "take up"],
-    "english_explanations": ["To choose to follow or use a particular method, approach, or technology."],
-    "chinese_translations": ["采用", "采纳", "引入"],
-    "example_sentences": "Many institutions decided to adopt online teaching methods during the pandemic.",
-    "roots": [{"root":"ad-","meaning":"to"},{"root":"opt","meaning":"choose"}]
-  },
-  {
-    "word": ["algorithmic bias"],
-    "english_synonyms": ["machine bias", "computational bias"],
-    "english_explanations": ["Systematic and repeatable errors in a computer system that create unfair outcomes."],
-    "chinese_translations": ["算法偏见", "演算偏差"],
-    "example_sentences": "Researchers are increasingly concerned about algorithmic bias in automated grading systems."
-  },
-  {
-    "word": ["analyse", "analyze"],
-    "english_synonyms": ["examine", "investigate", "evaluate", "study"],
-    "english_explanations": ["To study or examine something in detail in order to understand it or explain it."],
-    "chinese_translations": ["分析", "解析"],
-    "example_sentences": "We need to analyse the data carefully before drawing any conclusions.",
-    "roots": [{"root":"ana-","meaning":"up"},{"root":"lyse","meaning":"loosen"}]
-  },
-  {
-    "word": ["artificial intelligence"],
-    "english_synonyms": ["machine intelligence", "AI", "cognitive computing"],
-    "english_explanations": ["The simulation of human intelligence processes by computer systems."],
-    "chinese_translations": ["人工智能", "AI"],
-    "example_sentences": "Artificial intelligence is transforming the way educators personalize learning experiences."
-  },
-  {
-    "word": ["assessment"],
-    "english_synonyms": ["evaluation", "appraisal", "measurement"],
-    "english_explanations": ["The process of evaluating or measuring a person's knowledge, skills, or performance."],
-    "chinese_translations": ["评估", "评价", "测评"],
-    "example_sentences": "Formative assessment helps teachers adjust instruction based on student progress.",
-    "roots": [{"root":"as-","meaning":"to"},{"root":"sess","meaning":"sit"},{"root":"-ment","meaning":"act or result"}]
-  },
-  {
-    "word": ["automated guidance"],
-    "english_synonyms": ["automated support", "machine-guided instruction"],
-    "english_explanations": ["Instructional support provided by computer systems without direct human intervention."],
-    "chinese_translations": ["自动化指导", "自动导引"],
-    "example_sentences": "The platform offers automated guidance to students who struggle with specific concepts."
-  },
-  {
-    "word": ["behaviour", "behavior"],
-    "english_synonyms": ["conduct", "actions", "demeanor"],
-    "english_explanations": ["The way in which a person acts or conducts themselves, especially in a particular context."],
-    "chinese_translations": ["行为", "举止", "表现"],
-    "example_sentences": "Positive reinforcement can significantly improve student behaviour in the classroom."
-  },
-  {
-    "word": ["broaden perspectives"],
-    "english_synonyms": ["expand horizons", "widen viewpoints"],
-    "english_explanations": ["To expand one's understanding or way of thinking by exposing them to new ideas or experiences."],
-    "chinese_translations": ["拓宽视野", "开阔眼界"],
-    "example_sentences": "Studying abroad can broaden perspectives and foster cross-cultural understanding."
-  },
-  {
-    "word": ["case studies"],
-    "english_synonyms": ["case analyses", "practical examples", "illustrative cases"],
-    "english_explanations": ["Detailed examinations of a particular instance or situation, often used for instructional purposes."],
-    "chinese_translations": ["案例研究", "个案分析"],
-    "example_sentences": "The course incorporates real-world case studies to enhance practical understanding."
-  },
-  {
-    "word": ["causation"],
-    "english_synonyms": ["causality", "cause and effect"],
-    "english_explanations": ["The relationship between an event and the cause that produces it."],
-    "chinese_translations": ["因果关系", "因果性"],
-    "example_sentences": "Establishing causation requires more than simply observing a correlation between variables."
-  },
-  {
-    "word": ["centre", "center"],
-    "english_synonyms": ["hub", "core", "middle", "focus"],
-    "english_explanations": ["A point or place that is the middle or focal point of something."],
-    "chinese_translations": ["中心", "核心"],
-    "example_sentences": "The library serves as the centre of academic life on campus."
-  },
-  {
-    "word": ["collaborative learning"],
-    "english_synonyms": ["cooperative learning", "group learning", "team-based learning"],
-    "english_explanations": ["An educational approach involving groups of students working together to solve problems or complete tasks."],
-    "chinese_translations": ["协作学习", "合作学习"],
-    "example_sentences": "Collaborative learning encourages students to share diverse ideas and develop communication skills."
-  },
-  {
-    "word": ["compare"],
-    "english_synonyms": ["contrast", "evaluate against", "juxtapose"],
-    "english_explanations": ["To examine the similarities and differences between two or more things."],
-    "chinese_translations": ["比较", "对比"],
-    "example_sentences": "It is useful to compare traditional teaching methods with modern digital approaches.",
-    "roots": [{"root":"com-","meaning":"together"},{"root":"pare","meaning":"arrange"}]
-  },
-  {
-    "word": ["confirm"],
-    "english_synonyms": ["verify", "validate", "substantiate", "corroborate"],
-    "english_explanations": ["To establish the truth or correctness of something through evidence or testing."],
-    "chinese_translations": ["确认", "证实", "验证"],
-    "example_sentences": "Further experiments are needed to confirm the initial findings of the study.",
-    "roots": [{"root":"con-","meaning":"completely"},{"root":"firm","meaning":"strong"}]
-  },
-  {
-    "word": ["consistent"],
-    "english_synonyms": ["uniform", "steady", "coherent", "reliable"],
-    "english_explanations": ["Acting or done in the same way over time, especially so as to be fair or accurate."],
-    "chinese_translations": ["一致的", "持续的", "连贯的"],
-    "example_sentences": "Consistent feedback from teachers helps students understand their progress over time.",
-    "roots": [{"root":"con-","meaning":"together"},{"root":"sist","meaning":"stand"},{"root":"-ent","meaning":"doing"}]
-  },
-  {
-    "word": ["content difficulty"],
-    "english_synonyms": ["material complexity", "task difficulty"],
-    "english_explanations": ["The level of challenge presented by educational material or subject matter."],
-    "chinese_translations": ["内容难度", "材料难度"],
-    "example_sentences": "Adaptive systems adjust content difficulty based on real-time learner performance."
-  },
-  {
-    "word": ["contextual"],
-    "english_synonyms": ["situational", "background-related", "circumstantial"],
-    "english_explanations": ["Relating to or depending on the particular circumstances or setting in which something occurs."],
-    "chinese_translations": ["情境化的", "上下文相关的", "背景相关的"],
-    "example_sentences": "Contextual clues can help students infer the meaning of unfamiliar vocabulary.",
-    "roots": [{"root":"con-","meaning":"together"},{"root":"text","meaning":"weave"},{"root":"-ual","meaning":"relating to"}]
-  },
-  {
-    "word": ["control"],
-    "english_synonyms": ["regulate", "manage", "supervise", "direct"],
-    "english_explanations": ["To determine the behavior or supervise the running of something."],
-    "chinese_translations": ["控制", "管理", "监督"],
-    "example_sentences": "The study used a control group to isolate the effects of the new teaching method.",
-    "roots": [{"root":"con-","meaning":"against"},{"root":"trol","meaning":"roll"}]
-  },
-  {
-    "word": ["correlation"],
-    "english_synonyms": ["association", "relationship", "connection", "link"],
-    "english_explanations": ["A mutual relationship or connection between two or more variables."],
-    "chinese_translations": ["相关性", "关联"],
-    "example_sentences": "A strong correlation was found between student engagement and academic achievement.",
-    "roots": [{"root":"cor-","meaning":"together"},{"root":"re-","meaning":"back"},{"root":"lat","meaning":"carry"},{"root":"-ion","meaning":"act"}]
-  },
-  {
-    "word": ["creativity"],
-    "english_synonyms": ["innovation", "originality", "imagination", "inventiveness"],
-    "english_explanations": ["The use of imagination or original ideas to create something new."],
-    "chinese_translations": ["创造力", "创意"],
-    "example_sentences": "Encouraging creativity in the classroom leads to more engaged and motivated learners."
-  },
-  {
-    "word": ["creative thinking"],
-    "english_synonyms": ["lateral thinking", "divergent thinking", "innovative cognition"],
-    "english_explanations": ["A way of looking at problems or situations from a fresh perspective that suggests unorthodox solutions."],
-    "chinese_translations": ["创造性思维", "创意思考"],
-    "example_sentences": "Creative thinking is essential for solving complex, open-ended problems."
-  },
-  {
-    "word": ["critical thinking"],
-    "english_synonyms": ["analytical thinking", "logical reasoning", "reflective thought"],
-    "english_explanations": ["The objective analysis and evaluation of an issue in order to form a judgment."],
-    "chinese_translations": ["批判性思维", "思辨能力"],
-    "example_sentences": "Higher education aims to develop critical thinking skills that extend beyond the classroom."
-  },
-  {
-    "word": ["custom learning paths"],
-    "english_synonyms": ["personalized learning routes", "individualized pathways"],
-    "english_explanations": ["Sequences of educational content tailored to the specific needs and goals of an individual learner."],
-    "chinese_translations": ["定制学习路径", "个性化学习路线"],
-    "example_sentences": "The platform generates custom learning paths based on each student's diagnostic assessment."
-  },
-  {
-    "word": ["customise", "customize"],
-    "english_synonyms": ["personalize", "tailor", "adapt", "modify"],
-    "english_explanations": ["To make or change something according to the specific needs or preferences of an individual."],
-    "chinese_translations": ["定制", "个性化", "调整"],
-    "example_sentences": "Teachers can customize the software settings to align with their curriculum goals."
-  },
-  {
-    "word": ["data privacy"],
-    "english_synonyms": ["information privacy", "data protection"],
-    "english_explanations": ["The area of data protection concerned with the proper handling of sensitive personal information."],
-    "chinese_translations": ["数据隐私", "资料隐私"],
-    "example_sentences": "Educational technology providers must prioritize data privacy when handling student records."
-  },
-  {
-    "word": ["data sources"],
-    "english_synonyms": ["information sources", "datasets", "data repositories"],
-    "english_explanations": ["Origins or locations from which data is collected for analysis or research."],
-    "chinese_translations": ["数据来源", "数据源"],
-    "example_sentences": "Researchers must evaluate the reliability of their data sources before conducting analysis."
-  },
-  {
-    "word": ["data summary"],
-    "english_synonyms": ["data overview", "statistical summary", "aggregated data"],
-    "english_explanations": ["A condensed representation of the main features or statistics of a dataset."],
-    "chinese_translations": ["数据摘要", "数据概要"],
-    "example_sentences": "The report begins with a data summary to provide readers with immediate key insights."
-  },
-  {
-    "word": ["data-driven"],
-    "english_synonyms": ["evidence-based", "empirically informed"],
-    "english_explanations": ["Determined or guided by the analysis of collected data rather than intuition alone."],
-    "chinese_translations": ["数据驱动的", "依据数据的"],
-    "example_sentences": "A data-driven approach allows educators to make informed decisions about curriculum design."
-  },
-  {
-    "word": ["demonstrate"],
-    "english_synonyms": ["show", "illustrate", "exhibit", "prove"],
-    "english_explanations": ["To clearly show the existence or truth of something by giving proof or evidence."],
-    "chinese_translations": ["证明", "展示", "演示"],
-    "example_sentences": "The study aims to demonstrate the effectiveness of gamification in improving student motivation.",
-    "roots": [{"root":"de-","meaning":"completely"},{"root":"monstr","meaning":"show"},{"root":"-ate","meaning":"to cause"}]
-  },
-  {
-    "word": ["direct causal effect"],
-    "english_synonyms": ["direct causality", "immediate causal influence"],
-    "english_explanations": ["A clear and unmediated relationship where one variable directly influences another."],
-    "chinese_translations": ["直接因果效应", "直接因果影响"],
-    "example_sentences": "Proving a direct causal effect requires rigorous experimental design and controlled conditions."
-  },
-  {
-    "word": ["diverse samples"],
-    "english_synonyms": ["varied populations", "heterogeneous groups", "broad demographics"],
-    "english_explanations": ["Research participants or data drawn from a wide range of different backgrounds or characteristics."],
-    "chinese_translations": ["多样本", "多样化样本"],
-    "example_sentences": "Using diverse samples enhances the generalizability of research findings."
-  },
-  {
-    "word": ["educational philosophy"],
-    "english_synonyms": ["pedagogical philosophy", "teaching ideology"],
-    "english_explanations": ["A set of beliefs and principles that guide the practice of teaching and learning."],
-    "chinese_translations": ["教育理念", "教育哲学"],
-    "example_sentences": "The school's educational philosophy emphasizes student-centered learning and critical inquiry."
-  },
-  {
-    "word": ["educational technology"],
-    "english_synonyms": ["EdTech", "learning technology", "instructional technology"],
-    "english_explanations": ["The combined use of computer hardware, software, and educational theory to facilitate learning."],
-    "chinese_translations": ["教育技术", "教育科技"],
-    "example_sentences": "Educational technology has rapidly evolved to support remote and hybrid learning environments."
-  },
-  {
-    "word": ["empathy"],
-    "english_synonyms": ["compassion", "understanding", "sensitivity"],
-    "english_explanations": ["The ability to understand and share the feelings of another person."],
-    "chinese_translations": ["同理心", "共情", "移情"],
-    "example_sentences": "Developing empathy is a key objective in social-emotional learning programs.",
-    "roots": [{"root":"em-","meaning":"in"},{"root":"path","meaning":"feeling"},{"root":"-y","meaning":"characterized by"}]
-  },
-  {
-    "word": ["enable"],
-    "english_synonyms": ["empower", "facilitate", "allow", "permit"],
-    "english_explanations": ["To give someone the authority or means to do something."],
-    "chinese_translations": ["使能够", "赋能", "促成"],
-    "example_sentences": "Technology can enable students to access educational resources beyond the physical classroom.",
-    "roots": [{"root":"en-","meaning":"to make"},{"root":"able","meaning":"able"}]
-  },
-  {
-    "word": ["engage", "engagement"],
-    "english_synonyms": ["involve", "participate", "commitment", "interaction"],
-    "english_explanations": ["To occupy the attention or efforts of a person, or the state of being involved and interested."],
-    "chinese_translations": ["参与", "投入", "参与度"],
-    "example_sentences": "Interactive activities are designed to engage students more deeply with the subject matter."
-  },
-  {
-    "word": ["enhance"],
-    "english_synonyms": ["improve", "augment", "boost", "elevate"],
-    "english_explanations": ["To intensify, increase, or further improve the quality, value, or extent of something."],
-    "chinese_translations": ["增强", "提高", "改善"],
-    "example_sentences": "Visual aids can significantly enhance comprehension and retention of complex information."
-  },
-  {
-    "word": ["equity"],
-    "english_synonyms": ["fairness", "justice", "impartiality"],
-    "english_explanations": ["The quality of being fair and impartial, often involving the recognition of different needs and circumstances."],
-    "chinese_translations": ["公平", "公正", "公平性"],
-    "example_sentences": "Educational equity ensures that all students receive the support they need to succeed.",
-    "roots": [{"root":"equ","meaning":"fair"},{"root":"-ity","meaning":"state or quality"}]
-  },
-  {
-    "word": ["ethical concerns"],
-    "english_synonyms": ["moral issues", "ethical considerations", "moral dilemmas"],
-    "english_explanations": ["Worries or questions related to what is morally right or wrong in a particular situation."],
-    "chinese_translations": ["伦理关切", "道德顾虑"],
-    "example_sentences": "The use of AI in grading raises several ethical concerns regarding transparency and fairness."
-  },
-  {
-    "word": ["ethics"],
-    "english_synonyms": ["moral philosophy", "moral principles", "values"],
-    "english_explanations": ["Moral principles that govern a person's behavior or the conducting of an activity."],
-    "chinese_translations": ["伦理学", "道德规范", "伦理"],
-    "example_sentences": "Researchers must adhere to strict ethics guidelines when conducting studies involving human participants.",
-    "roots": [{"root":"eth","meaning":"character"},{"root":"-ics","meaning":"study of"}]
-  },
-  {
-    "word": ["evidence-based insights"],
-    "english_synonyms": ["data-informed conclusions", "empirical findings"],
-    "english_explanations": ["Conclusions or understandings derived from systematic analysis of verifiable data and research."],
-    "chinese_translations": ["基于证据的见解", "循证洞察"],
-    "example_sentences": "Policymakers increasingly rely on evidence-based insights to shape educational reform."
-  },
-  {
-    "word": ["examine"],
-    "english_synonyms": ["investigate", "inspect", "scrutinize", "analyze"],
-    "english_explanations": ["To inspect something in detail to determine its nature or condition, or to test knowledge."],
-    "chinese_translations": ["检查", "审视", "考察"],
-    "example_sentences": "The study will examine the long-term effects of early childhood intervention programs."
-  },
-  {
-    "word": ["explore"],
-    "english_synonyms": ["investigate", "discover", "probe", "delve into"],
-    "english_explanations": ["To travel through or look around a place or subject to learn about it, or to inquire into in detail."],
-    "chinese_translations": ["探索", "探究", "研究"],
-    "example_sentences": "Students are encouraged to explore multiple perspectives before forming an opinion.",
-    "roots": [{"root":"ex-","meaning":"out"},{"root":"plore","meaning":"cry out"}]
-  },
-  {
-    "word": ["external factors"],
-    "english_synonyms": ["outside influences", "extraneous variables", "environmental factors"],
-    "english_explanations": ["Conditions or influences outside the immediate subject or system that may affect outcomes."],
-    "chinese_translations": ["外部因素", "外在影响"],
-    "example_sentences": "External factors such as family income and school funding can significantly impact student success."
-  },
-  {
-    "word": ["fairness"],
-    "english_synonyms": ["equity", "justice", "impartiality", "evenhandedness"],
-    "english_explanations": ["The quality of making judgments that are free from discrimination or dishonesty."],
-    "chinese_translations": ["公平性", "公正"],
-    "example_sentences": "Fairness in assessment requires that all students be evaluated using consistent criteria."
-  },
-  {
-    "word": ["feedback"],
-    "english_synonyms": ["response", "critique", "input", "evaluation"],
-    "english_explanations": ["Information about reactions to a product, a person's performance of a task, etc., used as a basis for improvement."],
-    "chinese_translations": ["反馈", "回馈"],
-    "example_sentences": "Timely feedback helps students identify their strengths and areas for improvement."
-  },
-  {
-    "word": ["flexible"],
-    "english_synonyms": ["adaptable", "versatile", "elastic", "accommodating"],
-    "english_explanations": ["Able to be easily modified to respond to altered circumstances or conditions."],
-    "chinese_translations": ["灵活的", "弹性的", "可变通的"],
-    "example_sentences": "Flexible learning schedules allow students to balance education with work commitments.",
-    "roots": [{"root":"flex","meaning":"bend"},{"root":"-ible","meaning":"able to be"}]
-  },
-  {
-    "word": ["foster"],
-    "english_synonyms": ["promote", "encourage", "cultivate", "nurture"],
-    "english_explanations": ["To encourage or promote the development of something, typically a quality or skill."],
-    "chinese_translations": ["培养", "促进", "培育"],
-    "example_sentences": "Group projects foster collaboration and communication skills among students."
-  },
-  {
-    "word": ["global collaboration"],
-    "english_synonyms": ["international cooperation", "worldwide partnership"],
-    "english_explanations": ["Working together with people across different countries and cultures toward shared goals."],
-    "chinese_translations": ["全球协作", "国际合作"],
-    "example_sentences": "Digital platforms facilitate global collaboration between students from different continents."
-  },
-  {
-    "word": ["higher education"],
-    "english_synonyms": ["tertiary education", "postsecondary education", "university-level education"],
-    "english_explanations": ["Education provided by universities, colleges, and other institutions that award academic degrees."],
-    "chinese_translations": ["高等教育", "大学教育"],
-    "example_sentences": "Higher education plays a crucial role in preparing students for professional careers."
-  },
-  {
-    "word": ["implementation"],
-    "english_synonyms": ["execution", "application", "deployment", "enactment"],
-    "english_explanations": ["The process of putting a decision, plan, or system into effect."],
-    "chinese_translations": ["实施", "执行", "落实"],
-    "example_sentences": "Successful implementation of the new curriculum requires comprehensive teacher training.",
-    "roots": [{"root":"im-","meaning":"into"},{"root":"ple","meaning":"fill"},{"root":"-ment","meaning":"result"},{"root":"-ation","meaning":"act"}]
-  },
-  {
-    "word": ["increase"],
-    "english_synonyms": ["raise", "augment", "expand", "escalate"],
-    "english_explanations": ["To make or become greater in size, amount, or degree."],
-    "chinese_translations": ["增加", "增长", "提高"],
-    "example_sentences": "The school aims to increase student retention rates through improved support services.",
-    "roots": [{"root":"in-","meaning":"into"},{"root":"crease","meaning":"grow"}]
-  },
-  {
-    "word": ["inequalities"],
-    "english_synonyms": ["disparities", "imbalances", "unevenness", "differences"],
-    "english_explanations": ["Differences in size, degree, or circumstances that are perceived as unfair or unjust."],
-    "chinese_translations": ["不平等", "不均衡", "差异"],
-    "example_sentences": "Educational inequalities often reflect broader socioeconomic divisions in society.",
-    "roots": [{"root":"in-","meaning":"not"},{"root":"equal","meaning":"equal"},{"root":"-ities","meaning":"plural, state"}]
-  },
-  {
-    "word": ["innovation-focused"],
-    "english_synonyms": ["innovation-centered", "innovation-oriented"],
-    "english_explanations": ["Concentrated on or directed toward the introduction of new ideas, methods, or products."],
-    "chinese_translations": ["以创新为重点的", "聚焦创新的"],
-    "example_sentences": "The university adopted an innovation-focused strategy to modernize its engineering programs."
-  },
-  {
-    "word": ["innovation skills"],
-    "english_synonyms": ["creative abilities", "inventive competencies"],
-    "english_explanations": ["Capabilities that enable individuals to generate and implement new ideas or solutions."],
-    "chinese_translations": ["创新能力", "创新技能"],
-    "example_sentences": "Curricula should explicitly target the development of innovation skills in students."
-  },
-  {
-    "word": ["innovative thinking"],
-    "english_synonyms": ["creative reasoning", "original thought", "forward-thinking"],
-    "english_explanations": ["A mental process that involves generating novel ideas and approaching problems in unconventional ways."],
-    "chinese_translations": ["创新思维", "创新性思考"],
-    "example_sentences": "Innovative thinking is essential for addressing the complex challenges of the modern world."
-  },
-  {
-    "word": ["innovative"],
-    "english_synonyms": ["original", "creative", "groundbreaking", "novel"],
-    "english_explanations": ["Featuring new methods, advanced ideas, or original approaches to solving problems."],
-    "chinese_translations": ["创新的", "革新的"],
-    "example_sentences": "The professor developed an innovative teaching method that flipped the traditional classroom model.",
-    "roots": [{"root":"in-","meaning":"into"},{"root":"nov","meaning":"new"},{"root":"-at","meaning":"having"},{"root":"-ive","meaning":"tending to"}]
-  },
-  {
-    "word": ["instant feedback"],
-    "english_synonyms": ["immediate feedback", "real-time response"],
-    "english_explanations": ["Information provided to a learner immediately after they complete an action or task."],
-    "chinese_translations": ["即时反馈", "实时反馈"],
-    "example_sentences": "Digital quizzes provide instant feedback, allowing students to correct misunderstandings immediately."
-  },
-  {
-    "word": ["institutional support"],
-    "english_synonyms": ["organizational backing", "systemic support"],
-    "english_explanations": ["Resources, policies, or assistance provided by an organization or institution to enable success."],
-    "chinese_translations": ["机构支持", "制度性支持"],
-    "example_sentences": "Institutional support is vital for sustaining long-term educational reform initiatives."
-  },
-  {
-    "word": ["instruction"],
-    "english_synonyms": ["teaching", "education", "training", "tuition"],
-    "english_explanations": ["The act of teaching or the content that is taught to learners."],
-    "chinese_translations": ["教学", "指导", "讲授"],
-    "example_sentences": "Effective instruction adapts to the diverse learning needs of all students.",
-    "roots": [{"root":"in-","meaning":"into"},{"root":"struct","meaning":"build"},{"root":"-ion","meaning":"act"}]
-  },
-  {
-    "word": ["intelligent tutoring systems"],
-    "english_synonyms": ["adaptive tutoring systems", "AI tutors"],
-    "english_explanations": ["Computer systems that provide immediate and customized instruction or feedback to learners without human intervention."],
-    "chinese_translations": ["智能辅导系统", "智能教学系统"],
-    "example_sentences": "Intelligent tutoring systems can simulate one-on-one tutoring experiences at scale."
-  },
-  {
-    "word": ["interpret"],
-    "english_synonyms": ["explain", "clarify", "make sense of", "construe"],
-    "english_explanations": ["To explain the meaning of information, data, or behavior in a particular way."],
-    "chinese_translations": ["解释", "阐释", "解读"],
-    "example_sentences": "Students must learn to interpret statistical data critically rather than accepting it at face value."
-  },
-  {
-    "word": ["investigate"],
-    "english_synonyms": ["research", "study", "explore", "inquire into"],
-    "english_explanations": ["To carry out a systematic or formal inquiry to discover and examine the facts of something."],
-    "chinese_translations": ["调查", "研究", "探究"],
-    "example_sentences": "The team will investigate the factors contributing to high dropout rates in the district.",
-    "roots": [{"root":"in-","meaning":"into"},{"root":"vestig","meaning":"trace"},{"root":"-ate","meaning":"to cause"}]
-  },
-  {
-    "word": ["learning analytics"],
-    "english_synonyms": ["educational data mining", "academic analytics"],
-    "english_explanations": ["The measurement, collection, analysis, and reporting of data about learners and their contexts."],
-    "chinese_translations": ["学习分析", "学习分析学"],
-    "example_sentences": "Learning analytics help educators identify at-risk students and intervene early."
-  },
-  {
-    "word": ["learning outcomes"],
-    "english_synonyms": ["educational outcomes", "learning objectives", "student results"],
-    "english_explanations": ["The knowledge, skills, and abilities that a student has attained at the end of a learning process."],
-    "chinese_translations": ["学习成果", "学习成效"],
-    "example_sentences": "Course design should align assessments with intended learning outcomes."
-  },
-  {
-    "word": ["limitations"],
-    "english_synonyms": ["constraints", "restrictions", "shortcomings", "boundaries"],
-    "english_explanations": ["Factors or conditions that restrict the scope, effectiveness, or power of something."],
-    "chinese_translations": ["局限性", "限制", "不足"],
-    "example_sentences": "Researchers must acknowledge the limitations of their study in the final report.",
-    "roots": [{"root":"limit","meaning":"boundary"},{"root":"-ation","meaning":"act or state"},{"root":"-s","meaning":"plural"}]
-  },
-  {
-    "word": ["literature review"],
-    "english_synonyms": ["scholarly review", "research synthesis"],
-    "english_explanations": ["A comprehensive summary of previous research on a particular topic."],
-    "chinese_translations": ["文献综述", "文献回顾"],
-    "example_sentences": "The thesis begins with a literature review to establish the current state of knowledge."
-  },
-  {
-    "word": ["longitudinal research"],
-    "english_synonyms": ["long-term study", "prospective research", "panel study"],
-    "english_explanations": ["A research design that involves repeated observations of the same variables over long periods."],
-    "chinese_translations": ["纵向研究", "追踪研究"],
-    "example_sentences": "Longitudinal research is necessary to understand the lasting effects of early education interventions."
-  },
-  {
-    "word": ["measure"],
-    "english_synonyms": ["quantify", "assess", "gauge", "evaluate"],
-    "english_explanations": ["To ascertain the size, amount, or degree of something using an instrument or standard unit."],
-    "chinese_translations": ["测量", "衡量", "评估"],
-    "example_sentences": "Standardized tests are often used to measure student achievement across different schools.",
-    "roots": [{"root":"meas","meaning":"measure"},{"root":"-ure","meaning":"act or result"}]
-  },
-  {
-    "word": ["methodology"],
-    "english_synonyms": ["methods", "approach", "framework", "procedures"],
-    "english_explanations": ["A system of methods used in a particular area of study or activity."],
-    "chinese_translations": ["方法论", "研究方法"],
-    "example_sentences": "The methodology section explains how data was collected and analyzed.",
-    "roots": [{"root":"met-","meaning":"after"},{"root":"hod","meaning":"way"},{"root":"-ology","meaning":"study of"}]
-  },
-  {
-    "word": ["minimize risks"],
-    "english_synonyms": ["reduce risks", "mitigate hazards", "limit dangers"],
-    "english_explanations": ["To reduce the probability or severity of potential negative outcomes to the lowest possible level."],
-    "chinese_translations": ["最小化风险", "降低风险"],
-    "example_sentences": "Ethical guidelines aim to minimize risks to participants in educational experiments."
-  },
-  {
-    "word": ["mixed-methods approach"],
-    "english_synonyms": ["mixed research design", "integrated methodology"],
-    "english_explanations": ["A research approach that combines quantitative and qualitative methods in a single study."],
-    "chinese_translations": ["混合方法研究", "混合研究方法"],
-    "example_sentences": "A mixed-methods approach provides both statistical depth and contextual understanding."
-  },
-  {
-    "word": ["mixed-methods"],
-    "english_synonyms": ["multi-method", "hybrid methods"],
-    "english_explanations": ["Referring to research that integrates both numerical data and narrative information."],
-    "chinese_translations": ["混合方法的", "多方法的"],
-    "example_sentences": "Mixed-methods research is increasingly popular in the social sciences."
-  },
-  {
-    "word": ["monitor"],
-    "english_synonyms": ["observe", "track", "supervise", "oversee"],
-    "english_explanations": ["To observe and check the progress or quality of something over a period of time."],
-    "chinese_translations": ["监控", "监测", "监督"],
-    "example_sentences": "Teachers use dashboards to monitor student engagement in real time.",
-    "roots": [{"root":"mon","meaning":"warn"},{"root":"-itor","meaning":"one who"}]
-  },
-  {
-    "word": ["motivation"],
-    "english_synonyms": ["drive", "incentive", "enthusiasm", "commitment"],
-    "english_explanations": ["The reason or reasons one has for acting or behaving in a particular way."],
-    "chinese_translations": ["动机", "积极性", "动力"],
-    "example_sentences": "Intrinsic motivation often leads to deeper and more sustained learning than extrinsic rewards.",
-    "roots": [{"root":"mot","meaning":"move"},{"root":"-iv","meaning":"relating to"},{"root":"-ation","meaning":"act or state"}]
-  },
-  {
-    "word": ["negative"],
-    "english_synonyms": ["adverse", "unfavorable", "pessimistic", "harmful"],
-    "english_explanations": ["Characterized by the absence rather than the presence of distinguishing features, or expressing criticism."],
-    "chinese_translations": ["负面的", "消极的", "否定的"],
-    "example_sentences": "Negative feedback, when constructive, can guide students toward improvement.",
-    "roots": [{"root":"neg","meaning":"deny"},{"root":"-ative","meaning":"tending to"}]
-  },
-  {
-    "word": ["neutral"],
-    "english_synonyms": ["impartial", "objective", "unbiased", "middle"],
-    "english_explanations": ["Not supporting or helping either side in a conflict, disagreement, or process."],
-    "chinese_translations": ["中性的", "中立的", "客观的"],
-    "example_sentences": "The researcher maintained a neutral stance to ensure the validity of the findings.",
-    "roots": [{"root":"neutr","meaning":"neither"},{"root":"-al","meaning":"relating to"}]
-  },
-  {
-    "word": ["novelty effect"],
-    "english_synonyms": ["newness effect", "initial excitement bias"],
-    "english_explanations": ["A temporary increase in performance or engagement due to the introduction of something new."],
-    "chinese_translations": ["新奇效应", "新颖效应"],
-    "example_sentences": "The novelty effect may inflate initial user satisfaction with new educational apps."
-  },
-  {
-    "word": ["one-size-fits-all"],
-    "english_synonyms": ["uniform", "standardized", "generic"],
-    "english_explanations": ["A single approach or solution designed to be suitable for all cases, without individual adaptation."],
-    "chinese_translations": ["一刀切的", "通用的", "千篇一律的"],
-    "example_sentences": "Traditional lecture formats often represent a one-size-fits-all approach that ignores individual needs."
-  },
-  {
-    "word": ["original thinking"],
-    "english_synonyms": ["independent thought", "novel reasoning", "creative cognition"],
-    "english_explanations": ["The capacity to generate ideas that are new, unique, and not derived from existing concepts."],
-    "chinese_translations": ["原创思维", "独立思考"],
-    "example_sentences": "Original thinking is highly valued in research-driven academic environments."
-  },
-  {
-    "word": ["outcomes"],
-    "english_synonyms": ["results", "consequences", "effects", "outputs"],
-    "english_explanations": ["The way a process, event, or activity turns out in the end."],
-    "chinese_translations": ["结果", "成果", "成效"],
-    "example_sentences": "Program evaluation focuses on measuring outcomes rather than simply tracking activities."
-  },
-  {
-    "word": ["outperform"],
-    "english_synonyms": ["exceed", "surpass", "outdo", "beat"],
-    "english_explanations": ["To perform better than someone or something else."],
-    "chinese_translations": ["胜过", "表现优于", "超越"],
-    "example_sentences": "Students who receive personalized tutoring tend to outperform their peers on standardized tests."
-  },
-  {
-    "word": ["personalise", "personalize"],
-    "english_synonyms": ["customize", "tailor", "individualize", "adapt"],
-    "english_explanations": ["To design or produce something to meet someone's individual requirements or preferences."],
-    "chinese_translations": ["个性化", "定制"],
-    "example_sentences": "Educational software can personalise the learning experience by adjusting to individual student pace."
-  },
-  {
-    "word": ["personalized learning"],
-    "english_synonyms": ["individualized instruction", "customized education", "tailored learning"],
-    "english_explanations": ["An educational approach that aims to customize learning for each student's strengths, needs, and interests."],
-    "chinese_translations": ["个性化学习", "因材施教"],
-    "example_sentences": "Personalized learning allows students to progress through material at their own speed."
-  },
-  {
-    "word": ["platforms"],
-    "english_synonyms": ["systems", "frameworks", "infrastructures", "environments"],
-    "english_explanations": ["Hardware or software systems that serve as a foundation for other applications or services."],
-    "chinese_translations": ["平台", "系统"],
-    "example_sentences": "Online learning platforms have become essential tools for modern education delivery.",
-    "roots": [{"root":"plat","meaning":"flat"},{"root":"form","meaning":"shape"},{"root":"-s","meaning":"plural"}]
-  },
-  {
-    "word": ["positive"],
-    "english_synonyms": ["favorable", "constructive", "beneficial", "optimistic"],
-    "english_explanations": ["Characterized by or displaying affirmation, acceptance, or certainty."],
-    "chinese_translations": ["积极的", "正面的", "肯定的"],
-    "example_sentences": "Positive reinforcement is a powerful tool for shaping student behavior.",
-    "roots": [{"root":"pos","meaning":"place"},{"root":"-itive","meaning":"tending to"}]
-  },
-  {
-    "word": ["practical"],
-    "english_synonyms": ["applied", "functional", "realistic", "hands-on"],
-    "english_explanations": ["Concerned with the actual doing or use of something rather than with theory and ideas."],
-    "chinese_translations": ["实用的", "实践的", "实际的"],
-    "example_sentences": "The course includes practical exercises to help students apply theoretical knowledge.",
-    "roots": [{"root":"pract","meaning":"do"},{"root":"-ical","meaning":"relating to"}]
-  },
-  {
-    "word": ["problem-solving skills"],
-    "english_synonyms": ["analytical skills", "resolution abilities", "troubleshooting competencies"],
-    "english_explanations": ["Cognitive abilities that enable an individual to find solutions to difficult or complex issues."],
-    "chinese_translations": ["问题解决能力", "解题技能"],
-    "example_sentences": "Employers increasingly prioritize problem-solving skills over rote memorization."
-  },
-  {
-    "word": ["problem-solving"],
-    "english_synonyms": ["troubleshooting", "resolution", "analysis"],
-    "english_explanations": ["The process of finding solutions to difficult or complex problems."],
-    "chinese_translations": ["问题解决", "解题"],
-    "example_sentences": "Collaborative problem-solving helps students learn from different approaches to challenges."
-  },
-  {
-    "word": ["progress"],
-    "english_synonyms": ["advancement", "development", "improvement", "growth"],
-    "english_explanations": ["Forward or onward movement toward a destination or goal, or gradual improvement over time."],
-    "chinese_translations": ["进步", "进展", "发展"],
-    "example_sentences": "Teachers regularly assess student progress to inform instructional decisions.",
-    "roots": [{"root":"pro-","meaning":"forward"},{"root":"gress","meaning":"step"}]
-  },
-  {
-    "word": ["qualitative"],
-    "english_synonyms": ["descriptive", "non-numerical", "interpretive"],
-    "english_explanations": ["Relating to, measuring, or measured by the quality of something rather than its quantity."],
-    "chinese_translations": ["定性的", "质性的"],
-    "example_sentences": "Qualitative data from interviews provided rich insights into student experiences."
-  },
-  {
-    "word": ["quantitative analysis"],
-    "english_synonyms": ["statistical analysis", "numerical analysis", "data analysis"],
-    "english_explanations": ["The use of mathematical and statistical methods to understand numerical data."],
-    "chinese_translations": ["定量分析", "量化分析"],
-    "example_sentences": "Quantitative analysis revealed a significant improvement in test scores after the intervention."
-  },
-  {
-    "word": ["quantitative"],
-    "english_synonyms": ["numerical", "statistical", "measurable"],
-    "english_explanations": ["Relating to, measuring, or measured by the quantity of something rather than its quality."],
-    "chinese_translations": ["定量的", "量化的"],
-    "example_sentences": "Quantitative research methods rely on large sample sizes and statistical testing.",
-    "roots": [{"root":"quant","meaning":"how much"},{"root":"-it","meaning":"noun"},{"root":"-ative","meaning":"tending to"}]
-  },
-  {
-    "word": ["refine instruction"],
-    "english_synonyms": ["optimize teaching", "improve pedagogy", "enhance delivery"],
-    "english_explanations": ["To make teaching methods more effective, precise, or polished through continuous improvement."],
-    "chinese_translations": ["优化教学", "改进教学"],
-    "example_sentences": "Data from learning analytics can help educators refine instruction for better outcomes."
-  },
-  {
-    "word": ["reliability"],
-    "english_synonyms": ["dependability", "consistency", "trustworthiness", "stability"],
-    "english_explanations": ["The quality of being trustworthy or of performing consistently well."],
-    "chinese_translations": ["可靠性", "信度"],
-    "example_sentences": "The reliability of an assessment tool is crucial for valid educational measurement.",
-    "roots": [{"root":"re-","meaning":"back"},{"root":"li","meaning":"bind"},{"root":"-abil","meaning":"able"},{"root":"-ity","meaning":"state"}]
-  },
-  {
-    "word": ["replace"],
-    "english_synonyms": ["substitute", "supersede", "supplant", "take over"],
-    "english_explanations": ["To take the place of something or someone that was there previously."],
-    "chinese_translations": ["替代", "取代", "更换"],
-    "example_sentences": "Technology should augment rather than replace the essential role of human teachers.",
-    "roots": [{"root":"re-","meaning":"again"},{"root":"place","meaning":"place"}]
-  },
-  {
-    "word": ["report"],
-    "english_synonyms": ["document", "account", "statement", "study"],
-    "english_explanations": ["A formal account of the results, proceedings, or conclusions of an investigation or activity."],
-    "chinese_translations": ["报告", "研究报告"],
-    "example_sentences": "The final report summarized the key findings and recommendations of the research team.",
-    "roots": [{"root":"re-","meaning":"back"},{"root":"port","meaning":"carry"}]
-  },
-  {
-    "word": ["research objectives"],
-    "english_synonyms": ["study aims", "investigation goals", "research purposes"],
-    "english_explanations": ["Specific, measurable goals that a research project seeks to achieve."],
-    "chinese_translations": ["研究目标", "研究目的"],
-    "example_sentences": "Clear research objectives guide the design and methodology of any academic inquiry."
-  },
-  {
-    "word": ["research questions"],
-    "english_synonyms": ["inquiry questions", "study questions", "investigative queries"],
-    "english_explanations": ["Specific questions that a research project aims to answer through systematic investigation."],
-    "chinese_translations": ["研究问题", "研究课题"],
-    "example_sentences": "Well-formulated research questions provide direction and focus for the entire study."
-  },
-  {
-    "word": ["reshape"],
-    "english_synonyms": ["reform", "restructure", "transform", "revolutionize"],
-    "english_explanations": ["To change the form, character, or direction of something fundamentally."],
-    "chinese_translations": ["重塑", "改变", "重构"],
-    "example_sentences": "Digital technologies continue to reshape the landscape of modern education."
-  },
-  {
-    "word": ["rise"],
-    "english_synonyms": ["increase", "growth", "ascent", "upswing"],
-    "english_explanations": ["An upward movement, an increase in amount or number, or the act of becoming more powerful."],
-    "chinese_translations": ["上升", "增长", "兴起"],
-    "example_sentences": "The rise of online education has democratized access to higher learning globally."
-  },
-  {
-    "word": ["standardise", "standardize"],
-    "english_synonyms": ["normalize", "uniformize", "regulate", "harmonize"],
-    "english_explanations": ["To make something conform to a standard or bring into conformity with standards."],
-    "chinese_translations": ["标准化", "统一化"],
-    "example_sentences": "It is important to standardize testing conditions to ensure fairness across all participants."
-  },
-  {
-    "word": ["standardized assessment"],
-    "english_synonyms": ["standardized testing", "norm-referenced assessment"],
-    "english_explanations": ["Evaluation methods that are administered and scored in a consistent, predetermined manner."],
-    "chinese_translations": ["标准化评估", "标准化测验"],
-    "example_sentences": "Standardized assessment allows for comparison of student performance across different schools and regions."
-  },
-  {
-    "word": ["statistics"],
-    "english_synonyms": ["data", "figures", "numerical information", "stats"],
-    "english_explanations": ["The practice or science of collecting and analyzing numerical data in large quantities."],
-    "chinese_translations": ["统计学", "统计数据"],
-    "example_sentences": "A solid understanding of statistics is essential for conducting rigorous educational research.",
-    "roots": [{"root":"stat","meaning":"state"},{"root":"-ist","meaning":"one who"},{"root":"-ics","meaning":"study of"}]
-  },
-  {
-    "word": ["student engagement"],
-    "english_synonyms": ["learner involvement", "student participation", "academic engagement"],
-    "english_explanations": ["The degree of attention, curiosity, interest, optimism, and passion that students show when they are learning."],
-    "chinese_translations": ["学生参与度", "学生投入"],
-    "example_sentences": "Interactive multimedia tools can significantly boost student engagement during lessons."
-  },
-  {
-    "word": ["student success"],
-    "english_synonyms": ["academic success", "learner achievement", "student attainment"],
-    "english_explanations": ["The achievement of educational goals and positive outcomes by students."],
-    "chinese_translations": ["学生成功", "学生成就"],
-    "example_sentences": "Institutional policies should be designed with student success as the primary objective."
-  },
-  {
-    "word": ["study methodology"],
-    "english_synonyms": ["research methodology", "study design", "research framework"],
-    "english_explanations": ["The specific procedures and techniques used to carry out a particular study or investigation."],
-    "chinese_translations": ["研究方法论", "研究方法"],
-    "example_sentences": "The study methodology section must be detailed enough to allow replication by other researchers."
-  },
-  {
-    "word": ["subjective"],
-    "english_synonyms": ["personal", "individual", "biased", "interpretive"],
-    "english_explanations": ["Based on or influenced by personal feelings, tastes, or opinions rather than objective facts."],
-    "chinese_translations": ["主观的", "个人的"],
-    "example_sentences": "Teacher observations can sometimes be subjective, requiring calibration for reliability.",
-    "roots": [{"root":"sub-","meaning":"under"},{"root":"ject","meaning":"throw"},{"root":"-ive","meaning":"tending to"}]
-  },
-  {
-    "word": ["support"],
-    "english_synonyms": ["assistance", "help", "backing", "aid"],
-    "english_explanations": ["The act of providing material or emotional assistance to help someone succeed or cope."],
-    "chinese_translations": ["支持", "帮助", "援助"],
-    "example_sentences": "Academic support services play a critical role in helping at-risk students succeed.",
-    "roots": [{"root":"sup-","meaning":"under"},{"root":"port","meaning":"carry"}]
-  },
-  {
-    "word": ["systematic review"],
-    "english_synonyms": ["structured review", "comprehensive synthesis"],
-    "english_explanations": ["A rigorous method of synthesizing research evidence using explicit, systematic methods to minimize bias."],
-    "chinese_translations": ["系统性综述", "系统评价"],
-    "example_sentences": "A systematic review was conducted to evaluate the effectiveness of online learning interventions."
-  },
-  {
-    "word": ["tailored feedback"],
-    "english_synonyms": ["customized feedback", "personalized comments", "individualized input"],
-    "english_explanations": ["Specific responses or guidance designed to address the unique performance or needs of an individual."],
-    "chinese_translations": ["定制化反馈", "个性化反馈"],
-    "example_sentences": "Tailored feedback helps students understand exactly where they need to improve."
-  },
-  {
-    "word": ["teacher opinions"],
-    "english_synonyms": ["educator views", "instructor perspectives", "teacher beliefs"],
-    "english_explanations": ["The personal views, judgments, or attitudes held by teachers regarding educational matters."],
-    "chinese_translations": ["教师观点", "教师意见"],
-    "example_sentences": "Teacher opinions were surveyed to understand their readiness for technology integration."
-  },
-  {
-    "word": ["teacher training"],
-    "english_synonyms": ["teacher preparation", "professional development", "educator training"],
-    "english_explanations": ["The process of preparing educators with the skills, knowledge, and competencies needed for teaching."],
-    "chinese_translations": ["教师培训", "师资培训"],
-    "example_sentences": "Effective teacher training is essential for the successful adoption of new pedagogical approaches."
-  },
-  {
-    "word": ["teaching and learning"],
-    "english_synonyms": ["instruction and learning", "pedagogy and acquisition"],
-    "english_explanations": ["The interconnected processes of delivering instruction and facilitating student understanding."],
-    "chinese_translations": ["教与学", "教学相长"],
-    "example_sentences": "The new framework aims to improve the quality of teaching and learning across all disciplines."
-  },
-  {
-    "word": ["technical support"],
-    "english_synonyms": ["IT support", "tech assistance", "help desk services"],
-    "english_explanations": ["Services provided to assist users with technology-related problems or questions."],
-    "chinese_translations": ["技术支持", "技术援助"],
-    "example_sentences": "Reliable technical support ensures that educational technology tools remain accessible to all users."
-  },
-  {
-    "word": ["transform"],
-    "english_synonyms": ["change", "convert", "revolutionize", "alter fundamentally"],
-    "english_explanations": ["To make a marked change in the form, nature, or appearance of something."],
-    "chinese_translations": ["转变", "变革", "转化"],
-    "example_sentences": "Artificial intelligence has the potential to transform traditional educational models.",
-    "roots": [{"root":"trans-","meaning":"across"},{"root":"form","meaning":"shape"}]
-  },
-  {
-    "word": ["transparent design"],
-    "english_synonyms": ["open design", "clear architecture", "visible structure"],
-    "english_explanations": ["The practice of creating systems or processes whose operations and decision-making are easily understood and visible."],
-    "chinese_translations": ["透明设计", "公开设计"],
-    "example_sentences": "Transparent design in educational algorithms helps build trust among users and stakeholders."
-  },
-  {
-    "word": ["tutoring"],
-    "english_synonyms": ["coaching", "instruction", "mentoring", "private teaching"],
-    "english_explanations": ["The act of giving individual instruction or guidance to a student, typically outside regular classes."],
-    "chinese_translations": ["辅导", "家教", "个别指导"],
-    "example_sentences": "One-on-one tutoring has been shown to produce significant gains in student achievement.",
-    "roots": [{"root":"tut","meaning":"watch"},{"root":"-or","meaning":"one who"},{"root":"-ing","meaning":"doing"}]
-  },
-  {
-    "word": ["virtual environments"],
-    "english_synonyms": ["digital environments", "simulated spaces", "online worlds"],
-    "english_explanations": ["Computer-generated spaces that simulate physical presence and allow users to interact within them."],
-    "chinese_translations": ["虚拟环境", "虚拟空间"],
-    "example_sentences": "Virtual environments provide immersive settings for experiential learning activities."
-  },
-  {
-    "word": ["virtual spaces"],
-    "english_synonyms": ["digital spaces", "online environments", "cyberspaces"],
-    "english_explanations": ["Online or computer-generated areas where people can meet, interact, or collaborate."],
-    "chinese_translations": ["虚拟空间", "线上空间"],
-    "example_sentences": "Students from different countries met in virtual spaces to complete collaborative projects."
+    "word": [
+      "academic performance"
+    ],
+    "english_synonyms": [
+      "academic achievement",
+      "scholastic performance",
+      "educational attainment"
+    ],
+    "english_explanations": [
+      "The extent to which a student has achieved their educational goals."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "学业表现",
+        "english": "The extent to which a student has achieved their educational goals.",
+        "example": "Regular attendance and active participation often lead to improved academic performance."
+      },
+      {
+        "pos": "n.",
+        "meaning": "学术成就",
+        "english": "The extent to which a student has achieved their educational goals.",
+        "example": "Regular attendance and active participation often lead to improved academic performance."
+      }
+    ]
+  },
+  {
+    "word": [
+      "academic results"
+    ],
+    "english_synonyms": [
+      "academic outcomes",
+      "scholastic results",
+      "educational results"
+    ],
+    "english_explanations": [
+      "The measurable outcomes or grades obtained by students in their studies."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "学业成绩",
+        "english": "The measurable outcomes or grades obtained by students in their studies.",
+        "example": "The school publishes academic results annually to track overall improvement."
+      },
+      {
+        "pos": "n.",
+        "meaning": "学术成果",
+        "english": "The measurable outcomes or grades obtained by students in their studies.",
+        "example": "The school publishes academic results annually to track overall improvement."
+      }
+    ]
+  },
+  {
+    "word": [
+      "adaptive learning platforms"
+    ],
+    "english_synonyms": [
+      "intelligent learning systems",
+      "personalized learning platforms"
+    ],
+    "english_explanations": [
+      "Digital educational systems that adjust content and pace based on individual learner needs."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "自适应学习平台",
+        "english": "Digital educational systems that adjust content and pace based on individual learner needs.",
+        "example": "Adaptive learning platforms use algorithms to tailor exercises to each student's proficiency level."
+      },
+      {
+        "pos": "n.",
+        "meaning": "智能调适学习系统",
+        "english": "Digital educational systems that adjust content and pace based on individual learner needs.",
+        "example": "Adaptive learning platforms use algorithms to tailor exercises to each student's proficiency level."
+      }
+    ]
+  },
+  {
+    "word": [
+      "adaptive systems"
+    ],
+    "english_synonyms": [
+      "responsive systems",
+      "adjustable systems"
+    ],
+    "english_explanations": [
+      "Systems designed to modify their behavior or outputs in response to changing conditions or user inputs."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "自适应系统",
+        "english": "Systems designed to modify their behavior or outputs in response to changing conditions or user inputs.",
+        "example": "Modern educational software relies on adaptive systems to personalize the user experience."
+      },
+      {
+        "pos": "n.",
+        "meaning": "调适性系统",
+        "english": "Systems designed to modify their behavior or outputs in response to changing conditions or user inputs.",
+        "example": "Modern educational software relies on adaptive systems to personalize the user experience."
+      }
+    ]
+  },
+  {
+    "word": [
+      "address"
+    ],
+    "english_synonyms": [
+      "tackle",
+      "handle",
+      "deal with",
+      "approach"
+    ],
+    "english_explanations": [
+      "to think about a problem or a situation and decide how you are going to deal with it",
+      "To direct attention or effort toward solving a problem or issue."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "处理",
+        "english": "to think about a problem or a situation and decide how you are going to deal with it",
+        "example": "Your essay does not address the real issues."
+      },
+      {
+        "pos": "v.",
+        "meaning": "应对",
+        "english": "To direct attention or effort toward solving a problem or issue.",
+        "example": "The new policy aims to address inequalities in resource distribution across schools."
+      },
+      {
+        "pos": "v.",
+        "meaning": "解决",
+        "english": "to think about a problem or a situation and decide how you are going to deal with it",
+        "example": "Your essay does not address the real issues."
+      }
+    ]
+  },
+  {
+    "word": [
+      "adopt"
+    ],
+    "english_synonyms": [
+      "embrace",
+      "implement",
+      "take up"
+    ],
+    "english_explanations": [
+      "to start to use a particular method or to show a particular attitude towards sb/sth",
+      "to formally accept a suggestion or policy by voting",
+      "To choose to follow or use a particular method, approach, or technology."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "采用",
+        "english": "to start to use a particular method or to show a particular attitude towards sb/sth",
+        "example": "All three teams adopted different approaches to the problem."
+      },
+      {
+        "pos": "v.",
+        "meaning": "采纳",
+        "english": "to formally accept a suggestion or policy by voting",
+        "example": "to adopt a resolution"
+      },
+      {
+        "pos": "v.",
+        "meaning": "引入",
+        "english": "To choose to follow or use a particular method, approach, or technology.",
+        "example": "Many institutions decided to adopt online teaching methods during the pandemic."
+      }
+    ],
+    "roots": [
+      {
+        "root": "ad-",
+        "meaning": "to"
+      },
+      {
+        "root": "opt",
+        "meaning": "choose"
+      }
+    ]
+  },
+  {
+    "word": [
+      "algorithmic bias"
+    ],
+    "english_synonyms": [
+      "machine bias",
+      "computational bias"
+    ],
+    "english_explanations": [
+      "Systematic and repeatable errors in a computer system that create unfair outcomes."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "算法偏见",
+        "english": "Systematic and repeatable errors in a computer system that create unfair outcomes.",
+        "example": "Researchers are increasingly concerned about algorithmic bias in automated grading systems."
+      },
+      {
+        "pos": "n.",
+        "meaning": "演算偏差",
+        "english": "Systematic and repeatable errors in a computer system that create unfair outcomes.",
+        "example": "Researchers are increasingly concerned about algorithmic bias in automated grading systems."
+      }
+    ]
+  },
+  {
+    "word": [
+      "analyse",
+      "analyze"
+    ],
+    "english_synonyms": [
+      "examine",
+      "investigate",
+      "evaluate",
+      "study"
+    ],
+    "english_explanations": [
+      "To study or examine something in detail in order to understand it or explain it."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "分析",
+        "english": "To study or examine something in detail in order to understand it or explain it.",
+        "example": "We need to analyse the data carefully before drawing any conclusions."
+      },
+      {
+        "pos": "v.",
+        "meaning": "解析",
+        "english": "To study or examine something in detail in order to understand it or explain it.",
+        "example": "We need to analyse the data carefully before drawing any conclusions."
+      }
+    ],
+    "roots": [
+      {
+        "root": "ana-",
+        "meaning": "up"
+      },
+      {
+        "root": "lyse",
+        "meaning": "loosen"
+      }
+    ]
+  },
+  {
+    "word": [
+      "artificial intelligence"
+    ],
+    "english_synonyms": [
+      "machine intelligence",
+      "AI",
+      "cognitive computing"
+    ],
+    "english_explanations": [
+      "The simulation of human intelligence processes by computer systems."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "人工智能",
+        "english": "The simulation of human intelligence processes by computer systems.",
+        "example": "Artificial intelligence is transforming the way educators personalize learning experiences."
+      }
+    ]
+  },
+  {
+    "word": [
+      "assessment"
+    ],
+    "english_synonyms": [
+      "evaluation",
+      "appraisal",
+      "measurement"
+    ],
+    "english_explanations": [
+      "The process of evaluating or measuring a person's knowledge, skills, or performance.",
+      "an opinion or a judgement about sb/sth that has been thought about very carefully"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "评估",
+        "english": "The process of evaluating or measuring a person's knowledge, skills, or performance.",
+        "example": "Formative assessment helps teachers adjust instruction based on student progress."
+      },
+      {
+        "pos": "n.",
+        "meaning": "评价",
+        "english": "an opinion or a judgement about sb/sth that has been thought about very carefully",
+        "example": "a detailed assessment of the risks involved"
+      },
+      {
+        "pos": "n.",
+        "meaning": "测评",
+        "english": "The process of evaluating or measuring a person's knowledge, skills, or performance.",
+        "example": "Formative assessment helps teachers adjust instruction based on student progress."
+      }
+    ],
+    "roots": [
+      {
+        "root": "as-",
+        "meaning": "to"
+      },
+      {
+        "root": "sess",
+        "meaning": "sit"
+      },
+      {
+        "root": "-ment",
+        "meaning": "act or result"
+      }
+    ]
+  },
+  {
+    "word": [
+      "automated guidance"
+    ],
+    "english_synonyms": [
+      "automated support",
+      "machine-guided instruction"
+    ],
+    "english_explanations": [
+      "Instructional support provided by computer systems without direct human intervention."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "自动化指导",
+        "english": "Instructional support provided by computer systems without direct human intervention.",
+        "example": "The platform offers automated guidance to students who struggle with specific concepts."
+      },
+      {
+        "pos": "n.",
+        "meaning": "自动导引",
+        "english": "Instructional support provided by computer systems without direct human intervention.",
+        "example": "The platform offers automated guidance to students who struggle with specific concepts."
+      }
+    ]
+  },
+  {
+    "word": [
+      "behaviour",
+      "behavior"
+    ],
+    "english_synonyms": [
+      "conduct",
+      "actions",
+      "demeanor"
+    ],
+    "english_explanations": [
+      "the way that sb behaves, especially towards other people",
+      "the way a person, an animal, a plant, a chemical, etc. behaves or functions in a particular situation"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "行为",
+        "english": "the way that sb behaves, especially towards other people",
+        "example": "good/bad behaviour"
+      },
+      {
+        "pos": "n.",
+        "meaning": "举止",
+        "english": "the way that sb behaves, especially towards other people",
+        "example": "good/bad behaviour"
+      },
+      {
+        "pos": "n.",
+        "meaning": "表现",
+        "english": "the way a person, an animal, a plant, a chemical, etc. behaves or functions in a particular situation",
+        "example": "the behaviour of dolphins/chromosomes"
+      }
+    ]
+  },
+  {
+    "word": [
+      "broaden perspectives"
+    ],
+    "english_synonyms": [
+      "expand horizons",
+      "widen viewpoints"
+    ],
+    "english_explanations": [
+      "To expand one's understanding or way of thinking by exposing them to new ideas or experiences."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "拓宽视野",
+        "english": "To expand one's understanding or way of thinking by exposing them to new ideas or experiences.",
+        "example": "Studying abroad can broaden perspectives and foster cross-cultural understanding."
+      },
+      {
+        "pos": "v.",
+        "meaning": "开阔眼界",
+        "english": "To expand one's understanding or way of thinking by exposing them to new ideas or experiences.",
+        "example": "Studying abroad can broaden perspectives and foster cross-cultural understanding."
+      }
+    ]
+  },
+  {
+    "word": [
+      "case studies"
+    ],
+    "english_synonyms": [
+      "case analyses",
+      "practical examples",
+      "illustrative cases"
+    ],
+    "english_explanations": [
+      "Detailed examinations of a particular instance or situation, often used for instructional purposes."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "案例研究",
+        "english": "Detailed examinations of a particular instance or situation, often used for instructional purposes.",
+        "example": "The course incorporates real-world case studies to enhance practical understanding."
+      },
+      {
+        "pos": "n.",
+        "meaning": "个案分析",
+        "english": "Detailed examinations of a particular instance or situation, often used for instructional purposes.",
+        "example": "The course incorporates real-world case studies to enhance practical understanding."
+      }
+    ]
+  },
+  {
+    "word": [
+      "causation"
+    ],
+    "english_synonyms": [
+      "causality",
+      "cause and effect"
+    ],
+    "english_explanations": [
+      "The relationship between an event and the cause that produces it."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "因果关系",
+        "english": "The relationship between an event and the cause that produces it.",
+        "example": "Establishing causation requires more than simply observing a correlation between variables."
+      },
+      {
+        "pos": "n.",
+        "meaning": "因果性",
+        "english": "The relationship between an event and the cause that produces it.",
+        "example": "Establishing causation requires more than simply observing a correlation between variables."
+      }
+    ]
+  },
+  {
+    "word": [
+      "centre",
+      "center"
+    ],
+    "english_synonyms": [
+      "hub",
+      "core",
+      "middle",
+      "focus"
+    ],
+    "english_explanations": [
+      "the middle point or part of sth",
+      "A point or place that is the middle or focal point of something."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "中心",
+        "english": "the middle point or part of sth",
+        "example": "the centre of a circle"
+      },
+      {
+        "pos": "n.",
+        "meaning": "核心",
+        "english": "A point or place that is the middle or focal point of something.",
+        "example": "The library serves as the centre of academic life on campus."
+      }
+    ]
+  },
+  {
+    "word": [
+      "collaborative learning"
+    ],
+    "english_synonyms": [
+      "cooperative learning",
+      "group learning",
+      "team-based learning"
+    ],
+    "english_explanations": [
+      "An educational approach involving groups of students working together to solve problems or complete tasks."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "协作学习",
+        "english": "An educational approach involving groups of students working together to solve problems or complete tasks.",
+        "example": "Collaborative learning encourages students to share diverse ideas and develop communication skills."
+      },
+      {
+        "pos": "n.",
+        "meaning": "合作学习",
+        "english": "An educational approach involving groups of students working together to solve problems or complete tasks.",
+        "example": "Collaborative learning encourages students to share diverse ideas and develop communication skills."
+      }
+    ]
+  },
+  {
+    "word": [
+      "compare"
+    ],
+    "english_synonyms": [
+      "contrast",
+      "evaluate against",
+      "juxtapose"
+    ],
+    "english_explanations": [
+      "to examine people or things to see how they are similar and how they are different"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "比较",
+        "english": "to examine people or things to see how they are similar and how they are different",
+        "example": "It is interesting to compare their situation and ours."
+      },
+      {
+        "pos": "v.",
+        "meaning": "对比",
+        "english": "to examine people or things to see how they are similar and how they are different",
+        "example": "It is interesting to compare their situation and ours."
+      }
+    ],
+    "roots": [
+      {
+        "root": "com-",
+        "meaning": "together"
+      },
+      {
+        "root": "pare",
+        "meaning": "arrange"
+      }
+    ]
+  },
+  {
+    "word": [
+      "confirm"
+    ],
+    "english_synonyms": [
+      "verify",
+      "validate",
+      "substantiate",
+      "corroborate"
+    ],
+    "english_explanations": [
+      "to state or show that sth is definitely true or correct, especially by providing evidence",
+      "To establish the truth or correctness of something through evidence or testing."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "确认",
+        "english": "to state or show that sth is definitely true or correct, especially by providing evidence",
+        "example": "Rumours of job losses were later confirmed."
+      },
+      {
+        "pos": "v.",
+        "meaning": "证实",
+        "english": "to state or show that sth is definitely true or correct, especially by providing evidence",
+        "example": "Rumours of job losses were later confirmed."
+      },
+      {
+        "pos": "v.",
+        "meaning": "验证",
+        "english": "To establish the truth or correctness of something through evidence or testing.",
+        "example": "Further experiments are needed to confirm the initial findings of the study."
+      }
+    ],
+    "roots": [
+      {
+        "root": "con-",
+        "meaning": "completely"
+      },
+      {
+        "root": "firm",
+        "meaning": "strong"
+      }
+    ]
+  },
+  {
+    "word": [
+      "consistent"
+    ],
+    "english_synonyms": [
+      "uniform",
+      "steady",
+      "coherent",
+      "reliable"
+    ],
+    "english_explanations": [
+      "always behaving in the same way, or having the same opinions, standards, etc.",
+      "happening in the same way and continuing for a period of time",
+      "having different parts that all agree with each other"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "adj.",
+        "meaning": "一致的",
+        "english": "always behaving in the same way, or having the same opinions, standards, etc.",
+        "example": "She's not very consistent in the way she treats her children."
+      },
+      {
+        "pos": "adj.",
+        "meaning": "持续的",
+        "english": "happening in the same way and continuing for a period of time",
+        "example": "the party's consistent failure to come up with any new policies"
+      },
+      {
+        "pos": "adj.",
+        "meaning": "连贯的",
+        "english": "having different parts that all agree with each other",
+        "example": "a well-thought-out and consistent argument"
+      }
+    ],
+    "roots": [
+      {
+        "root": "con-",
+        "meaning": "together"
+      },
+      {
+        "root": "sist",
+        "meaning": "stand"
+      },
+      {
+        "root": "-ent",
+        "meaning": "doing"
+      }
+    ]
+  },
+  {
+    "word": [
+      "content difficulty"
+    ],
+    "english_synonyms": [
+      "material complexity",
+      "task difficulty"
+    ],
+    "english_explanations": [
+      "The level of challenge presented by educational material or subject matter."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "内容难度",
+        "english": "The level of challenge presented by educational material or subject matter.",
+        "example": "Adaptive systems adjust content difficulty based on real-time learner performance."
+      },
+      {
+        "pos": "n.",
+        "meaning": "材料难度",
+        "english": "The level of challenge presented by educational material or subject matter.",
+        "example": "Adaptive systems adjust content difficulty based on real-time learner performance."
+      }
+    ]
+  },
+  {
+    "word": [
+      "contextual"
+    ],
+    "english_synonyms": [
+      "situational",
+      "background-related",
+      "circumstantial"
+    ],
+    "english_explanations": [
+      "Relating to or depending on the particular circumstances or setting in which something occurs."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "adj.",
+        "meaning": "情境化的",
+        "english": "Relating to or depending on the particular circumstances or setting in which something occurs.",
+        "example": "Contextual clues can help students infer the meaning of unfamiliar vocabulary."
+      },
+      {
+        "pos": "adj.",
+        "meaning": "上下文相关的",
+        "english": "Relating to or depending on the particular circumstances or setting in which something occurs.",
+        "example": "Contextual clues can help students infer the meaning of unfamiliar vocabulary."
+      },
+      {
+        "pos": "adj.",
+        "meaning": "背景相关的",
+        "english": "Relating to or depending on the particular circumstances or setting in which something occurs.",
+        "example": "Contextual clues can help students infer the meaning of unfamiliar vocabulary."
+      }
+    ],
+    "roots": [
+      {
+        "root": "con-",
+        "meaning": "together"
+      },
+      {
+        "root": "text",
+        "meaning": "weave"
+      },
+      {
+        "root": "-ual",
+        "meaning": "relating to"
+      }
+    ]
+  },
+  {
+    "word": [
+      "control"
+    ],
+    "english_synonyms": [
+      "regulate",
+      "manage",
+      "supervise",
+      "direct"
+    ],
+    "english_explanations": [
+      "the power to make decisions about how a country, an area, an organization, etc. is run",
+      "To determine the behavior or supervise the running of something."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "控制",
+        "english": "the power to make decisions about how a country, an area, an organization, etc. is run",
+        "example": "The party is expecting to gain control of the council in the next election."
+      },
+      {
+        "pos": "n.",
+        "meaning": "管理",
+        "english": "the power to make decisions about how a country, an area, an organization, etc. is run",
+        "example": "The party is expecting to gain control of the council in the next election."
+      },
+      {
+        "pos": "v.",
+        "meaning": "监督",
+        "english": "To determine the behavior or supervise the running of something.",
+        "example": "The study used a control group to isolate the effects of the new teaching method."
+      }
+    ],
+    "roots": [
+      {
+        "root": "con-",
+        "meaning": "against"
+      },
+      {
+        "root": "trol",
+        "meaning": "roll"
+      }
+    ]
+  },
+  {
+    "word": [
+      "correlation"
+    ],
+    "english_synonyms": [
+      "association",
+      "relationship",
+      "connection",
+      "link"
+    ],
+    "english_explanations": [
+      "A mutual relationship or connection between two or more variables.",
+      "a connection between two things in which one thing changes as the other does"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "相关性",
+        "english": "A mutual relationship or connection between two or more variables.",
+        "example": "A strong correlation was found between student engagement and academic achievement."
+      },
+      {
+        "pos": "n.",
+        "meaning": "关联",
+        "english": "a connection between two things in which one thing changes as the other does",
+        "example": "There is a direct correlation between exposure to sun and skin cancer."
+      }
+    ],
+    "roots": [
+      {
+        "root": "cor-",
+        "meaning": "together"
+      },
+      {
+        "root": "re-",
+        "meaning": "back"
+      },
+      {
+        "root": "lat",
+        "meaning": "carry"
+      },
+      {
+        "root": "-ion",
+        "meaning": "act"
+      }
+    ]
+  },
+  {
+    "word": [
+      "creativity"
+    ],
+    "english_synonyms": [
+      "innovation",
+      "originality",
+      "imagination",
+      "inventiveness"
+    ],
+    "english_explanations": [
+      "having the skill and ability to produce sth new, especially a work of art; showing this ability",
+      "creative ideas or material"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "adj.",
+        "meaning": "创造力",
+        "english": "having the skill and ability to produce sth new, especially a work of art; showing this ability",
+        "example": "She's very creative—she writes poetry and paints."
+      },
+      {
+        "pos": "n.",
+        "meaning": "创意",
+        "english": "creative ideas or material",
+        "example": "We need to produce better creative if we want to attract big clients."
+      }
+    ]
+  },
+  {
+    "word": [
+      "creative thinking"
+    ],
+    "english_synonyms": [
+      "lateral thinking",
+      "divergent thinking",
+      "innovative cognition"
+    ],
+    "english_explanations": [
+      "A way of looking at problems or situations from a fresh perspective that suggests unorthodox solutions."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "创造性思维",
+        "english": "A way of looking at problems or situations from a fresh perspective that suggests unorthodox solutions.",
+        "example": "Creative thinking is essential for solving complex, open-ended problems."
+      },
+      {
+        "pos": "n.",
+        "meaning": "创意思考",
+        "english": "A way of looking at problems or situations from a fresh perspective that suggests unorthodox solutions.",
+        "example": "Creative thinking is essential for solving complex, open-ended problems."
+      }
+    ]
+  },
+  {
+    "word": [
+      "critical thinking"
+    ],
+    "english_synonyms": [
+      "analytical thinking",
+      "logical reasoning",
+      "reflective thought"
+    ],
+    "english_explanations": [
+      "the process of analysing information in an objective way, in order to make a judgement about it",
+      "The objective analysis and evaluation of an issue in order to form a judgment."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "批判性思维",
+        "english": "the process of analysing information in an objective way, in order to make a judgement about it",
+        "example": "Critical thinking skills enable students to evaluate information."
+      },
+      {
+        "pos": "n.",
+        "meaning": "思辨能力",
+        "english": "The objective analysis and evaluation of an issue in order to form a judgment.",
+        "example": "Higher education aims to develop critical thinking skills that extend beyond the classroom."
+      }
+    ]
+  },
+  {
+    "word": [
+      "custom learning paths"
+    ],
+    "english_synonyms": [
+      "personalized learning routes",
+      "individualized pathways"
+    ],
+    "english_explanations": [
+      "Sequences of educational content tailored to the specific needs and goals of an individual learner."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "定制学习路径",
+        "english": "Sequences of educational content tailored to the specific needs and goals of an individual learner.",
+        "example": "The platform generates custom learning paths based on each student's diagnostic assessment."
+      },
+      {
+        "pos": "n.",
+        "meaning": "个性化学习路线",
+        "english": "Sequences of educational content tailored to the specific needs and goals of an individual learner.",
+        "example": "The platform generates custom learning paths based on each student's diagnostic assessment."
+      }
+    ]
+  },
+  {
+    "word": [
+      "customise",
+      "customize"
+    ],
+    "english_synonyms": [
+      "personalize",
+      "tailor",
+      "adapt",
+      "modify"
+    ],
+    "english_explanations": [
+      "to make or change sth to suit the needs of the owner",
+      "To make or change something according to the specific needs or preferences of an individual."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "定制",
+        "english": "to make or change sth to suit the needs of the owner",
+        "example": "You can customize the software in several ways."
+      },
+      {
+        "pos": "v.",
+        "meaning": "个性化",
+        "english": "To make or change something according to the specific needs or preferences of an individual.",
+        "example": "Teachers can customize the software settings to align with their curriculum goals."
+      },
+      {
+        "pos": "v.",
+        "meaning": "调整",
+        "english": "To make or change something according to the specific needs or preferences of an individual.",
+        "example": "Teachers can customize the software settings to align with their curriculum goals."
+      }
+    ]
+  },
+  {
+    "word": [
+      "data privacy"
+    ],
+    "english_synonyms": [
+      "information privacy",
+      "data protection"
+    ],
+    "english_explanations": [
+      "The area of data protection concerned with the proper handling of sensitive personal information."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "数据隐私",
+        "english": "The area of data protection concerned with the proper handling of sensitive personal information.",
+        "example": "Educational technology providers must prioritize data privacy when handling student records."
+      },
+      {
+        "pos": "n.",
+        "meaning": "资料隐私",
+        "english": "The area of data protection concerned with the proper handling of sensitive personal information.",
+        "example": "Educational technology providers must prioritize data privacy when handling student records."
+      }
+    ]
+  },
+  {
+    "word": [
+      "data sources"
+    ],
+    "english_synonyms": [
+      "information sources",
+      "datasets",
+      "data repositories"
+    ],
+    "english_explanations": [
+      "Origins or locations from which data is collected for analysis or research."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "数据来源",
+        "english": "Origins or locations from which data is collected for analysis or research.",
+        "example": "Researchers must evaluate the reliability of their data sources before conducting analysis."
+      },
+      {
+        "pos": "n.",
+        "meaning": "数据源",
+        "english": "Origins or locations from which data is collected for analysis or research.",
+        "example": "Researchers must evaluate the reliability of their data sources before conducting analysis."
+      }
+    ]
+  },
+  {
+    "word": [
+      "data summary"
+    ],
+    "english_synonyms": [
+      "data overview",
+      "statistical summary",
+      "aggregated data"
+    ],
+    "english_explanations": [
+      "A condensed representation of the main features or statistics of a dataset."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "数据摘要",
+        "english": "A condensed representation of the main features or statistics of a dataset.",
+        "example": "The report begins with a data summary to provide readers with immediate key insights."
+      },
+      {
+        "pos": "n.",
+        "meaning": "数据概要",
+        "english": "A condensed representation of the main features or statistics of a dataset.",
+        "example": "The report begins with a data summary to provide readers with immediate key insights."
+      }
+    ]
+  },
+  {
+    "word": [
+      "data-driven"
+    ],
+    "english_synonyms": [
+      "evidence-based",
+      "empirically informed"
+    ],
+    "english_explanations": [
+      "Determined or guided by the analysis of collected data rather than intuition alone."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "数据驱动的",
+        "english": "Determined or guided by the analysis of collected data rather than intuition alone.",
+        "example": "A data-driven approach allows educators to make informed decisions about curriculum design."
+      },
+      {
+        "pos": "n.",
+        "meaning": "依据数据的",
+        "english": "Determined or guided by the analysis of collected data rather than intuition alone.",
+        "example": "A data-driven approach allows educators to make informed decisions about curriculum design."
+      }
+    ]
+  },
+  {
+    "word": [
+      "demonstrate"
+    ],
+    "english_synonyms": [
+      "show",
+      "illustrate",
+      "exhibit",
+      "prove"
+    ],
+    "english_explanations": [
+      "to show sth clearly by giving proof or evidence",
+      "To clearly show the existence or truth of something by giving proof or evidence.",
+      "to show and explain how sth works or how to do sth"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "证明",
+        "english": "to show sth clearly by giving proof or evidence",
+        "example": "These results demonstrate convincingly that our campaign is working."
+      },
+      {
+        "pos": "v.",
+        "meaning": "展示",
+        "english": "To clearly show the existence or truth of something by giving proof or evidence.",
+        "example": "The study aims to demonstrate the effectiveness of gamification in improving student motivation."
+      },
+      {
+        "pos": "v.",
+        "meaning": "演示",
+        "english": "to show and explain how sth works or how to do sth",
+        "example": "Her job involves demonstrating new educational software."
+      }
+    ],
+    "roots": [
+      {
+        "root": "de-",
+        "meaning": "completely"
+      },
+      {
+        "root": "monstr",
+        "meaning": "show"
+      },
+      {
+        "root": "-ate",
+        "meaning": "to cause"
+      }
+    ]
+  },
+  {
+    "word": [
+      "direct causal effect"
+    ],
+    "english_synonyms": [
+      "direct causality",
+      "immediate causal influence"
+    ],
+    "english_explanations": [
+      "A clear and unmediated relationship where one variable directly influences another."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "直接因果效应",
+        "english": "A clear and unmediated relationship where one variable directly influences another.",
+        "example": "Proving a direct causal effect requires rigorous experimental design and controlled conditions."
+      },
+      {
+        "pos": "n.",
+        "meaning": "直接因果影响",
+        "english": "A clear and unmediated relationship where one variable directly influences another.",
+        "example": "Proving a direct causal effect requires rigorous experimental design and controlled conditions."
+      }
+    ]
+  },
+  {
+    "word": [
+      "diverse samples"
+    ],
+    "english_synonyms": [
+      "varied populations",
+      "heterogeneous groups",
+      "broad demographics"
+    ],
+    "english_explanations": [
+      "Research participants or data drawn from a wide range of different backgrounds or characteristics."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "多样本",
+        "english": "Research participants or data drawn from a wide range of different backgrounds or characteristics.",
+        "example": "Using diverse samples enhances the generalizability of research findings."
+      },
+      {
+        "pos": "n.",
+        "meaning": "多样化样本",
+        "english": "Research participants or data drawn from a wide range of different backgrounds or characteristics.",
+        "example": "Using diverse samples enhances the generalizability of research findings."
+      }
+    ]
+  },
+  {
+    "word": [
+      "educational philosophy"
+    ],
+    "english_synonyms": [
+      "pedagogical philosophy",
+      "teaching ideology"
+    ],
+    "english_explanations": [
+      "A set of beliefs and principles that guide the practice of teaching and learning."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "教育理念",
+        "english": "A set of beliefs and principles that guide the practice of teaching and learning.",
+        "example": "The school's educational philosophy emphasizes student-centered learning and critical inquiry."
+      },
+      {
+        "pos": "n.",
+        "meaning": "教育哲学",
+        "english": "A set of beliefs and principles that guide the practice of teaching and learning.",
+        "example": "The school's educational philosophy emphasizes student-centered learning and critical inquiry."
+      }
+    ]
+  },
+  {
+    "word": [
+      "educational technology"
+    ],
+    "english_synonyms": [
+      "EdTech",
+      "learning technology",
+      "instructional technology"
+    ],
+    "english_explanations": [
+      "The combined use of computer hardware, software, and educational theory to facilitate learning."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "教育技术",
+        "english": "The combined use of computer hardware, software, and educational theory to facilitate learning.",
+        "example": "Educational technology has rapidly evolved to support remote and hybrid learning environments."
+      },
+      {
+        "pos": "n.",
+        "meaning": "教育科技",
+        "english": "The combined use of computer hardware, software, and educational theory to facilitate learning.",
+        "example": "Educational technology has rapidly evolved to support remote and hybrid learning environments."
+      }
+    ]
+  },
+  {
+    "word": [
+      "empathy"
+    ],
+    "english_synonyms": [
+      "compassion",
+      "understanding",
+      "sensitivity"
+    ],
+    "english_explanations": [
+      "The ability to understand and share the feelings of another person."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "同理心",
+        "english": "The ability to understand and share the feelings of another person.",
+        "example": "Developing empathy is a key objective in social-emotional learning programs."
+      },
+      {
+        "pos": "n.",
+        "meaning": "共情",
+        "english": "The ability to understand and share the feelings of another person.",
+        "example": "Developing empathy is a key objective in social-emotional learning programs."
+      },
+      {
+        "pos": "n.",
+        "meaning": "移情",
+        "english": "The ability to understand and share the feelings of another person.",
+        "example": "Developing empathy is a key objective in social-emotional learning programs."
+      }
+    ],
+    "roots": [
+      {
+        "root": "em-",
+        "meaning": "in"
+      },
+      {
+        "root": "path",
+        "meaning": "feeling"
+      },
+      {
+        "root": "-y",
+        "meaning": "characterized by"
+      }
+    ]
+  },
+  {
+    "word": [
+      "enable"
+    ],
+    "english_synonyms": [
+      "empower",
+      "facilitate",
+      "allow",
+      "permit"
+    ],
+    "english_explanations": [
+      "to make it possible for sb to do sth",
+      "To give someone the authority or means to do something."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "使能够",
+        "english": "to make it possible for sb to do sth",
+        "example": "The software enables you to create your own DVDs."
+      },
+      {
+        "pos": "v.",
+        "meaning": "赋能",
+        "english": "To give someone the authority or means to do something.",
+        "example": "Technology can enable students to access educational resources beyond the physical classroom."
+      },
+      {
+        "pos": "v.",
+        "meaning": "促成",
+        "english": "To give someone the authority or means to do something.",
+        "example": "Technology can enable students to access educational resources beyond the physical classroom."
+      }
+    ],
+    "roots": [
+      {
+        "root": "en-",
+        "meaning": "to make"
+      },
+      {
+        "root": "able",
+        "meaning": "able"
+      }
+    ]
+  },
+  {
+    "word": [
+      "engage",
+      "engagement"
+    ],
+    "english_synonyms": [
+      "involve",
+      "participate",
+      "commitment",
+      "interaction"
+    ],
+    "english_explanations": [
+      "To occupy the attention or efforts of a person, or the state of being involved and interested."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "参与",
+        "english": "To occupy the attention or efforts of a person, or the state of being involved and interested.",
+        "example": "Interactive activities are designed to engage students more deeply with the subject matter."
+      },
+      {
+        "pos": "v.",
+        "meaning": "投入",
+        "english": "To occupy the attention or efforts of a person, or the state of being involved and interested.",
+        "example": "Interactive activities are designed to engage students more deeply with the subject matter."
+      },
+      {
+        "pos": "v.",
+        "meaning": "参与度",
+        "english": "To occupy the attention or efforts of a person, or the state of being involved and interested.",
+        "example": "Interactive activities are designed to engage students more deeply with the subject matter."
+      }
+    ]
+  },
+  {
+    "word": [
+      "enhance"
+    ],
+    "english_synonyms": [
+      "improve",
+      "augment",
+      "boost",
+      "elevate"
+    ],
+    "english_explanations": [
+      "to increase or further improve the good quality, value or status of sb/sth",
+      "To intensify, increase, or further improve the quality, value, or extent of something."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "增强",
+        "english": "to increase or further improve the good quality, value or status of sb/sth",
+        "example": "This is an opportunity to enhance the reputation of the company."
+      },
+      {
+        "pos": "v.",
+        "meaning": "提高",
+        "english": "to increase or further improve the good quality, value or status of sb/sth",
+        "example": "This is an opportunity to enhance the reputation of the company."
+      },
+      {
+        "pos": "v.",
+        "meaning": "改善",
+        "english": "To intensify, increase, or further improve the quality, value, or extent of something.",
+        "example": "Visual aids can significantly enhance comprehension and retention of complex information."
+      }
+    ]
+  },
+  {
+    "word": [
+      "equity"
+    ],
+    "english_synonyms": [
+      "fairness",
+      "justice",
+      "impartiality"
+    ],
+    "english_explanations": [
+      "The quality of being fair and impartial, often involving the recognition of different needs and circumstances."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "公平",
+        "english": "The quality of being fair and impartial, often involving the recognition of different needs and circumstances.",
+        "example": "Educational equity ensures that all students receive the support they need to succeed."
+      },
+      {
+        "pos": "n.",
+        "meaning": "公正",
+        "english": "The quality of being fair and impartial, often involving the recognition of different needs and circumstances.",
+        "example": "Educational equity ensures that all students receive the support they need to succeed."
+      },
+      {
+        "pos": "n.",
+        "meaning": "公平性",
+        "english": "The quality of being fair and impartial, often involving the recognition of different needs and circumstances.",
+        "example": "Educational equity ensures that all students receive the support they need to succeed."
+      }
+    ],
+    "roots": [
+      {
+        "root": "equ",
+        "meaning": "fair"
+      },
+      {
+        "root": "-ity",
+        "meaning": "state or quality"
+      }
+    ]
+  },
+  {
+    "word": [
+      "ethical concerns"
+    ],
+    "english_synonyms": [
+      "moral issues",
+      "ethical considerations",
+      "moral dilemmas"
+    ],
+    "english_explanations": [
+      "Worries or questions related to what is morally right or wrong in a particular situation."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "伦理关切",
+        "english": "Worries or questions related to what is morally right or wrong in a particular situation.",
+        "example": "The use of AI in grading raises several ethical concerns regarding transparency and fairness."
+      },
+      {
+        "pos": "n.",
+        "meaning": "道德顾虑",
+        "english": "Worries or questions related to what is morally right or wrong in a particular situation.",
+        "example": "The use of AI in grading raises several ethical concerns regarding transparency and fairness."
+      }
+    ]
+  },
+  {
+    "word": [
+      "ethics"
+    ],
+    "english_synonyms": [
+      "moral philosophy",
+      "moral principles",
+      "values"
+    ],
+    "english_explanations": [
+      "Moral principles that govern a person's behavior or the conducting of an activity.",
+      "moral principles that control or influence a person's behaviour"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "伦理学",
+        "english": "Moral principles that govern a person's behavior or the conducting of an activity.",
+        "example": "Researchers must adhere to strict ethics guidelines when conducting studies involving human participants."
+      },
+      {
+        "pos": "n.",
+        "meaning": "道德规范",
+        "english": "Moral principles that govern a person's behavior or the conducting of an activity.",
+        "example": "Researchers must adhere to strict ethics guidelines when conducting studies involving human participants."
+      },
+      {
+        "pos": "n.",
+        "meaning": "伦理",
+        "english": "moral principles that control or influence a person's behaviour",
+        "example": "professional/business/medical ethics"
+      }
+    ],
+    "roots": [
+      {
+        "root": "eth",
+        "meaning": "character"
+      },
+      {
+        "root": "-ics",
+        "meaning": "study of"
+      }
+    ]
+  },
+  {
+    "word": [
+      "evidence-based insights"
+    ],
+    "english_synonyms": [
+      "data-informed conclusions",
+      "empirical findings"
+    ],
+    "english_explanations": [
+      "Conclusions or understandings derived from systematic analysis of verifiable data and research."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "基于证据的见解",
+        "english": "Conclusions or understandings derived from systematic analysis of verifiable data and research.",
+        "example": "Policymakers increasingly rely on evidence-based insights to shape educational reform."
+      },
+      {
+        "pos": "n.",
+        "meaning": "循证洞察",
+        "english": "Conclusions or understandings derived from systematic analysis of verifiable data and research.",
+        "example": "Policymakers increasingly rely on evidence-based insights to shape educational reform."
+      }
+    ]
+  },
+  {
+    "word": [
+      "examine"
+    ],
+    "english_synonyms": [
+      "investigate",
+      "inspect",
+      "scrutinize",
+      "analyze"
+    ],
+    "english_explanations": [
+      "to look at sb/sth closely, to see if there is anything wrong or to find the cause of a problem",
+      "To inspect something in detail to determine its nature or condition, or to test knowledge.",
+      "to consider or study an idea, a subject, etc. very carefully"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "检查",
+        "english": "to look at sb/sth closely, to see if there is anything wrong or to find the cause of a problem",
+        "example": "The doctor examined her but could find nothing wrong."
+      },
+      {
+        "pos": "v.",
+        "meaning": "审视",
+        "english": "To inspect something in detail to determine its nature or condition, or to test knowledge.",
+        "example": "The study will examine the long-term effects of early childhood intervention programs."
+      },
+      {
+        "pos": "v.",
+        "meaning": "考察",
+        "english": "to consider or study an idea, a subject, etc. very carefully",
+        "example": "These ideas will be examined in more detail in Chapter 10."
+      }
+    ]
+  },
+  {
+    "word": [
+      "explore"
+    ],
+    "english_synonyms": [
+      "investigate",
+      "discover",
+      "probe",
+      "delve into"
+    ],
+    "english_explanations": [
+      "to travel to or around an area or a country in order to learn about it",
+      "to examine sth completely or carefully in order to find out more about it"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "探索",
+        "english": "to travel to or around an area or a country in order to learn about it",
+        "example": "The city is best explored on foot."
+      },
+      {
+        "pos": "v.",
+        "meaning": "探究",
+        "english": "to examine sth completely or carefully in order to find out more about it",
+        "example": "These ideas will be explored in more detail in chapter 7."
+      },
+      {
+        "pos": "v.",
+        "meaning": "研究",
+        "english": "to examine sth completely or carefully in order to find out more about it",
+        "example": "These ideas will be explored in more detail in chapter 7."
+      }
+    ],
+    "roots": [
+      {
+        "root": "ex-",
+        "meaning": "out"
+      },
+      {
+        "root": "plore",
+        "meaning": "cry out"
+      }
+    ]
+  },
+  {
+    "word": [
+      "external factors"
+    ],
+    "english_synonyms": [
+      "outside influences",
+      "extraneous variables",
+      "environmental factors"
+    ],
+    "english_explanations": [
+      "Conditions or influences outside the immediate subject or system that may affect outcomes."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "外部因素",
+        "english": "Conditions or influences outside the immediate subject or system that may affect outcomes.",
+        "example": "External factors such as family income and school funding can significantly impact student success."
+      },
+      {
+        "pos": "n.",
+        "meaning": "外在影响",
+        "english": "Conditions or influences outside the immediate subject or system that may affect outcomes.",
+        "example": "External factors such as family income and school funding can significantly impact student success."
+      }
+    ]
+  },
+  {
+    "word": [
+      "fairness"
+    ],
+    "english_synonyms": [
+      "equity",
+      "justice",
+      "impartiality",
+      "evenhandedness"
+    ],
+    "english_explanations": [
+      "The quality of making judgments that are free from discrimination or dishonesty.",
+      "the quality of treating people equally or in a way that is reasonable"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "公平性",
+        "english": "The quality of making judgments that are free from discrimination or dishonesty.",
+        "example": "Fairness in assessment requires that all students be evaluated using consistent criteria."
+      },
+      {
+        "pos": "n.",
+        "meaning": "公正",
+        "english": "the quality of treating people equally or in a way that is reasonable",
+        "example": "the fairness of the judicial system"
+      }
+    ]
+  },
+  {
+    "word": [
+      "feedback"
+    ],
+    "english_synonyms": [
+      "response",
+      "critique",
+      "input",
+      "evaluation"
+    ],
+    "english_explanations": [
+      "advice, criticism or information about how good or useful sth or sb's work is",
+      "Information about reactions to a product, a person's performance of a task, etc., used as a basis for improvement."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "反馈",
+        "english": "advice, criticism or information about how good or useful sth or sb's work is",
+        "example": "I'd appreciate some feedback on my work."
+      },
+      {
+        "pos": "n.",
+        "meaning": "回馈",
+        "english": "Information about reactions to a product, a person's performance of a task, etc., used as a basis for improvement.",
+        "example": "Timely feedback helps students identify their strengths and areas for improvement."
+      }
+    ]
+  },
+  {
+    "word": [
+      "flexible"
+    ],
+    "english_synonyms": [
+      "adaptable",
+      "versatile",
+      "elastic",
+      "accommodating"
+    ],
+    "english_explanations": [
+      "able to change to suit new conditions or situations",
+      "able to bend easily without breaking",
+      "Able to be easily modified to respond to altered circumstances or conditions."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "adj.",
+        "meaning": "灵活的",
+        "english": "able to change to suit new conditions or situations",
+        "example": "a more flexible approach"
+      },
+      {
+        "pos": "adj.",
+        "meaning": "弹性的",
+        "english": "able to bend easily without breaking",
+        "example": "flexible plastic tubing"
+      },
+      {
+        "pos": "n.",
+        "meaning": "可变通的",
+        "english": "Able to be easily modified to respond to altered circumstances or conditions.",
+        "example": "Flexible learning schedules allow students to balance education with work commitments."
+      }
+    ],
+    "roots": [
+      {
+        "root": "flex",
+        "meaning": "bend"
+      },
+      {
+        "root": "-ible",
+        "meaning": "able to be"
+      }
+    ]
+  },
+  {
+    "word": [
+      "foster"
+    ],
+    "english_synonyms": [
+      "promote",
+      "encourage",
+      "cultivate",
+      "nurture"
+    ],
+    "english_explanations": [
+      "to encourage sth to develop",
+      "To encourage or promote the development of something, typically a quality or skill."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "培养",
+        "english": "to encourage sth to develop",
+        "example": "The club's aim is to foster better relations within the community."
+      },
+      {
+        "pos": "v.",
+        "meaning": "促进",
+        "english": "to encourage sth to develop",
+        "example": "The club's aim is to foster better relations within the community."
+      },
+      {
+        "pos": "v.",
+        "meaning": "培育",
+        "english": "To encourage or promote the development of something, typically a quality or skill.",
+        "example": "Group projects foster collaboration and communication skills among students."
+      }
+    ]
+  },
+  {
+    "word": [
+      "global collaboration"
+    ],
+    "english_synonyms": [
+      "international cooperation",
+      "worldwide partnership"
+    ],
+    "english_explanations": [
+      "Working together with people across different countries and cultures toward shared goals."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "全球协作",
+        "english": "Working together with people across different countries and cultures toward shared goals.",
+        "example": "Digital platforms facilitate global collaboration between students from different continents."
+      },
+      {
+        "pos": "n.",
+        "meaning": "国际合作",
+        "english": "Working together with people across different countries and cultures toward shared goals.",
+        "example": "Digital platforms facilitate global collaboration between students from different continents."
+      }
+    ]
+  },
+  {
+    "word": [
+      "higher education"
+    ],
+    "english_synonyms": [
+      "tertiary education",
+      "postsecondary education",
+      "university-level education"
+    ],
+    "english_explanations": [
+      "Education provided by universities, colleges, and other institutions that award academic degrees."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "高等教育",
+        "english": "Education provided by universities, colleges, and other institutions that award academic degrees.",
+        "example": "Higher education plays a crucial role in preparing students for professional careers."
+      },
+      {
+        "pos": "n.",
+        "meaning": "大学教育",
+        "english": "Education provided by universities, colleges, and other institutions that award academic degrees.",
+        "example": "Higher education plays a crucial role in preparing students for professional careers."
+      }
+    ]
+  },
+  {
+    "word": [
+      "implementation"
+    ],
+    "english_synonyms": [
+      "execution",
+      "application",
+      "deployment",
+      "enactment"
+    ],
+    "english_explanations": [
+      "to make sth that has been officially decided start to happen or be used",
+      "The process of putting a decision, plan, or system into effect."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "实施",
+        "english": "to make sth that has been officially decided start to happen or be used",
+        "example": "to implement changes/decisions/policies/reforms"
+      },
+      {
+        "pos": "v.",
+        "meaning": "执行",
+        "english": "to make sth that has been officially decided start to happen or be used",
+        "example": "to implement changes/decisions/policies/reforms"
+      },
+      {
+        "pos": "n.",
+        "meaning": "落实",
+        "english": "The process of putting a decision, plan, or system into effect.",
+        "example": "Successful implementation of the new curriculum requires comprehensive teacher training."
+      }
+    ],
+    "roots": [
+      {
+        "root": "im-",
+        "meaning": "into"
+      },
+      {
+        "root": "ple",
+        "meaning": "fill"
+      },
+      {
+        "root": "-ment",
+        "meaning": "result"
+      },
+      {
+        "root": "-ation",
+        "meaning": "act"
+      }
+    ]
+  },
+  {
+    "word": [
+      "increase"
+    ],
+    "english_synonyms": [
+      "raise",
+      "augment",
+      "expand",
+      "escalate"
+    ],
+    "english_explanations": [
+      "to become or to make sth greater in amount, number, value, etc.",
+      "To make or become greater in size, amount, or degree."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "增加",
+        "english": "to become or to make sth greater in amount, number, value, etc.",
+        "example": "The population has increased from 1.2 million to 1.8 million."
+      },
+      {
+        "pos": "v.",
+        "meaning": "增长",
+        "english": "to become or to make sth greater in amount, number, value, etc.",
+        "example": "The population has increased from 1.2 million to 1.8 million."
+      },
+      {
+        "pos": "v.",
+        "meaning": "提高",
+        "english": "To make or become greater in size, amount, or degree.",
+        "example": "The school aims to increase student retention rates through improved support services."
+      }
+    ],
+    "roots": [
+      {
+        "root": "in-",
+        "meaning": "into"
+      },
+      {
+        "root": "crease",
+        "meaning": "grow"
+      }
+    ]
+  },
+  {
+    "word": [
+      "inequalities"
+    ],
+    "english_synonyms": [
+      "disparities",
+      "imbalances",
+      "unevenness",
+      "differences"
+    ],
+    "english_explanations": [
+      "the unfair difference between groups of people in society, when some have more wealth, status or opportunities than others",
+      "Differences in size, degree, or circumstances that are perceived as unfair or unjust."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "不平等",
+        "english": "the unfair difference between groups of people in society, when some have more wealth, status or opportunities than others",
+        "example": "inequality of opportunity"
+      },
+      {
+        "pos": "n.",
+        "meaning": "不均衡",
+        "english": "Differences in size, degree, or circumstances that are perceived as unfair or unjust.",
+        "example": "Educational inequalities often reflect broader socioeconomic divisions in society."
+      },
+      {
+        "pos": "n.",
+        "meaning": "差异",
+        "english": "Differences in size, degree, or circumstances that are perceived as unfair or unjust.",
+        "example": "Educational inequalities often reflect broader socioeconomic divisions in society."
+      }
+    ],
+    "roots": [
+      {
+        "root": "in-",
+        "meaning": "not"
+      },
+      {
+        "root": "equal",
+        "meaning": "equal"
+      },
+      {
+        "root": "-ities",
+        "meaning": "plural, state"
+      }
+    ]
+  },
+  {
+    "word": [
+      "innovation-focused"
+    ],
+    "english_synonyms": [
+      "innovation-centered",
+      "innovation-oriented"
+    ],
+    "english_explanations": [
+      "Concentrated on or directed toward the introduction of new ideas, methods, or products."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "以创新为重点的",
+        "english": "Concentrated on or directed toward the introduction of new ideas, methods, or products.",
+        "example": "The university adopted an innovation-focused strategy to modernize its engineering programs."
+      },
+      {
+        "pos": "n.",
+        "meaning": "聚焦创新的",
+        "english": "Concentrated on or directed toward the introduction of new ideas, methods, or products.",
+        "example": "The university adopted an innovation-focused strategy to modernize its engineering programs."
+      }
+    ]
+  },
+  {
+    "word": [
+      "innovation skills"
+    ],
+    "english_synonyms": [
+      "creative abilities",
+      "inventive competencies"
+    ],
+    "english_explanations": [
+      "Capabilities that enable individuals to generate and implement new ideas or solutions."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "创新能力",
+        "english": "Capabilities that enable individuals to generate and implement new ideas or solutions.",
+        "example": "Curricula should explicitly target the development of innovation skills in students."
+      },
+      {
+        "pos": "n.",
+        "meaning": "创新技能",
+        "english": "Capabilities that enable individuals to generate and implement new ideas or solutions.",
+        "example": "Curricula should explicitly target the development of innovation skills in students."
+      }
+    ]
+  },
+  {
+    "word": [
+      "innovative thinking"
+    ],
+    "english_synonyms": [
+      "creative reasoning",
+      "original thought",
+      "forward-thinking"
+    ],
+    "english_explanations": [
+      "A mental process that involves generating novel ideas and approaching problems in unconventional ways."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "创新思维",
+        "english": "A mental process that involves generating novel ideas and approaching problems in unconventional ways.",
+        "example": "Innovative thinking is essential for addressing the complex challenges of the modern world."
+      },
+      {
+        "pos": "n.",
+        "meaning": "创新性思考",
+        "english": "A mental process that involves generating novel ideas and approaching problems in unconventional ways.",
+        "example": "Innovative thinking is essential for addressing the complex challenges of the modern world."
+      }
+    ]
+  },
+  {
+    "word": [
+      "innovative"
+    ],
+    "english_synonyms": [
+      "original",
+      "creative",
+      "groundbreaking",
+      "novel"
+    ],
+    "english_explanations": [
+      "introducing or using new ideas, ways of doing sth, etc."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "adj.",
+        "meaning": "创新的",
+        "english": "introducing or using new ideas, ways of doing sth, etc.",
+        "example": "There will be a prize for the most innovative design."
+      },
+      {
+        "pos": "adj.",
+        "meaning": "革新的",
+        "english": "introducing or using new ideas, ways of doing sth, etc.",
+        "example": "There will be a prize for the most innovative design."
+      }
+    ],
+    "roots": [
+      {
+        "root": "in-",
+        "meaning": "into"
+      },
+      {
+        "root": "nov",
+        "meaning": "new"
+      },
+      {
+        "root": "-at",
+        "meaning": "having"
+      },
+      {
+        "root": "-ive",
+        "meaning": "tending to"
+      }
+    ]
+  },
+  {
+    "word": [
+      "instant feedback"
+    ],
+    "english_synonyms": [
+      "immediate feedback",
+      "real-time response"
+    ],
+    "english_explanations": [
+      "Information provided to a learner immediately after they complete an action or task."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "即时反馈",
+        "english": "Information provided to a learner immediately after they complete an action or task.",
+        "example": "Digital quizzes provide instant feedback, allowing students to correct misunderstandings immediately."
+      },
+      {
+        "pos": "n.",
+        "meaning": "实时反馈",
+        "english": "Information provided to a learner immediately after they complete an action or task.",
+        "example": "Digital quizzes provide instant feedback, allowing students to correct misunderstandings immediately."
+      }
+    ]
+  },
+  {
+    "word": [
+      "institutional support"
+    ],
+    "english_synonyms": [
+      "organizational backing",
+      "systemic support"
+    ],
+    "english_explanations": [
+      "Resources, policies, or assistance provided by an organization or institution to enable success."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "机构支持",
+        "english": "Resources, policies, or assistance provided by an organization or institution to enable success.",
+        "example": "Institutional support is vital for sustaining long-term educational reform initiatives."
+      },
+      {
+        "pos": "n.",
+        "meaning": "制度性支持",
+        "english": "Resources, policies, or assistance provided by an organization or institution to enable success.",
+        "example": "Institutional support is vital for sustaining long-term educational reform initiatives."
+      }
+    ]
+  },
+  {
+    "word": [
+      "instruction"
+    ],
+    "english_synonyms": [
+      "teaching",
+      "education",
+      "training",
+      "tuition"
+    ],
+    "english_explanations": [
+      "The act of teaching or the content that is taught to learners."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "教学",
+        "english": "The act of teaching or the content that is taught to learners.",
+        "example": "Effective instruction adapts to the diverse learning needs of all students."
+      },
+      {
+        "pos": "n.",
+        "meaning": "指导",
+        "english": "The act of teaching or the content that is taught to learners.",
+        "example": "Effective instruction adapts to the diverse learning needs of all students."
+      },
+      {
+        "pos": "n.",
+        "meaning": "讲授",
+        "english": "The act of teaching or the content that is taught to learners.",
+        "example": "Effective instruction adapts to the diverse learning needs of all students."
+      }
+    ],
+    "roots": [
+      {
+        "root": "in-",
+        "meaning": "into"
+      },
+      {
+        "root": "struct",
+        "meaning": "build"
+      },
+      {
+        "root": "-ion",
+        "meaning": "act"
+      }
+    ]
+  },
+  {
+    "word": [
+      "intelligent tutoring systems"
+    ],
+    "english_synonyms": [
+      "adaptive tutoring systems",
+      "AI tutors"
+    ],
+    "english_explanations": [
+      "Computer systems that provide immediate and customized instruction or feedback to learners without human intervention."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "智能辅导系统",
+        "english": "Computer systems that provide immediate and customized instruction or feedback to learners without human intervention.",
+        "example": "Intelligent tutoring systems can simulate one-on-one tutoring experiences at scale."
+      },
+      {
+        "pos": "n.",
+        "meaning": "智能教学系统",
+        "english": "Computer systems that provide immediate and customized instruction or feedback to learners without human intervention.",
+        "example": "Intelligent tutoring systems can simulate one-on-one tutoring experiences at scale."
+      }
+    ]
+  },
+  {
+    "word": [
+      "interpret"
+    ],
+    "english_synonyms": [
+      "explain",
+      "clarify",
+      "make sense of",
+      "construe"
+    ],
+    "english_explanations": [
+      "To explain the meaning of information, data, or behavior in a particular way."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "解释",
+        "english": "To explain the meaning of information, data, or behavior in a particular way.",
+        "example": "Students must learn to interpret statistical data critically rather than accepting it at face value."
+      },
+      {
+        "pos": "v.",
+        "meaning": "阐释",
+        "english": "To explain the meaning of information, data, or behavior in a particular way.",
+        "example": "Students must learn to interpret statistical data critically rather than accepting it at face value."
+      },
+      {
+        "pos": "v.",
+        "meaning": "解读",
+        "english": "To explain the meaning of information, data, or behavior in a particular way.",
+        "example": "Students must learn to interpret statistical data critically rather than accepting it at face value."
+      }
+    ]
+  },
+  {
+    "word": [
+      "investigate"
+    ],
+    "english_synonyms": [
+      "research",
+      "study",
+      "explore",
+      "inquire into"
+    ],
+    "english_explanations": [
+      "to carefully examine the facts of a situation, an event, a crime, etc. to find out the truth about it or how it happened",
+      "to find out information and facts about a subject or problem by study or research",
+      "To carry out a systematic or formal inquiry to discover and examine the facts of something."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "调查",
+        "english": "to carefully examine the facts of a situation, an event, a crime, etc. to find out the truth about it or how it happened",
+        "example": "The FBI has been called in to investigate."
+      },
+      {
+        "pos": "v.",
+        "meaning": "研究",
+        "english": "to find out information and facts about a subject or problem by study or research",
+        "example": "Scientists are investigating the effects of diet on fighting cancer."
+      },
+      {
+        "pos": "v.",
+        "meaning": "探究",
+        "english": "To carry out a systematic or formal inquiry to discover and examine the facts of something.",
+        "example": "The team will investigate the factors contributing to high dropout rates in the district."
+      }
+    ],
+    "roots": [
+      {
+        "root": "in-",
+        "meaning": "into"
+      },
+      {
+        "root": "vestig",
+        "meaning": "trace"
+      },
+      {
+        "root": "-ate",
+        "meaning": "to cause"
+      }
+    ]
+  },
+  {
+    "word": [
+      "learning analytics"
+    ],
+    "english_synonyms": [
+      "educational data mining",
+      "academic analytics"
+    ],
+    "english_explanations": [
+      "The measurement, collection, analysis, and reporting of data about learners and their contexts."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "学习分析",
+        "english": "The measurement, collection, analysis, and reporting of data about learners and their contexts.",
+        "example": "Learning analytics help educators identify at-risk students and intervene early."
+      },
+      {
+        "pos": "n.",
+        "meaning": "学习分析学",
+        "english": "The measurement, collection, analysis, and reporting of data about learners and their contexts.",
+        "example": "Learning analytics help educators identify at-risk students and intervene early."
+      }
+    ]
+  },
+  {
+    "word": [
+      "learning outcomes"
+    ],
+    "english_synonyms": [
+      "educational outcomes",
+      "learning objectives",
+      "student results"
+    ],
+    "english_explanations": [
+      "The knowledge, skills, and abilities that a student has attained at the end of a learning process."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "学习成果",
+        "english": "The knowledge, skills, and abilities that a student has attained at the end of a learning process.",
+        "example": "Course design should align assessments with intended learning outcomes."
+      },
+      {
+        "pos": "n.",
+        "meaning": "学习成效",
+        "english": "The knowledge, skills, and abilities that a student has attained at the end of a learning process.",
+        "example": "Course design should align assessments with intended learning outcomes."
+      }
+    ]
+  },
+  {
+    "word": [
+      "limitations"
+    ],
+    "english_synonyms": [
+      "constraints",
+      "restrictions",
+      "shortcomings",
+      "boundaries"
+    ],
+    "english_explanations": [
+      "Factors or conditions that restrict the scope, effectiveness, or power of something.",
+      "the act or process of limiting or controlling sb/sth"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "局限性",
+        "english": "Factors or conditions that restrict the scope, effectiveness, or power of something.",
+        "example": "Researchers must acknowledge the limitations of their study in the final report."
+      },
+      {
+        "pos": "n.",
+        "meaning": "限制",
+        "english": "the act or process of limiting or controlling sb/sth",
+        "example": "They would resist any limitation of their powers."
+      },
+      {
+        "pos": "n.",
+        "meaning": "不足",
+        "english": "Factors or conditions that restrict the scope, effectiveness, or power of something.",
+        "example": "Researchers must acknowledge the limitations of their study in the final report."
+      }
+    ],
+    "roots": [
+      {
+        "root": "limit",
+        "meaning": "boundary"
+      },
+      {
+        "root": "-ation",
+        "meaning": "act or state"
+      },
+      {
+        "root": "-s",
+        "meaning": "plural"
+      }
+    ]
+  },
+  {
+    "word": [
+      "literature review"
+    ],
+    "english_synonyms": [
+      "scholarly review",
+      "research synthesis"
+    ],
+    "english_explanations": [
+      "A comprehensive summary of previous research on a particular topic."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "文献综述",
+        "english": "A comprehensive summary of previous research on a particular topic.",
+        "example": "The thesis begins with a literature review to establish the current state of knowledge."
+      },
+      {
+        "pos": "n.",
+        "meaning": "文献回顾",
+        "english": "A comprehensive summary of previous research on a particular topic.",
+        "example": "The thesis begins with a literature review to establish the current state of knowledge."
+      }
+    ]
+  },
+  {
+    "word": [
+      "longitudinal research"
+    ],
+    "english_synonyms": [
+      "long-term study",
+      "prospective research",
+      "panel study"
+    ],
+    "english_explanations": [
+      "A research design that involves repeated observations of the same variables over long periods."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "纵向研究",
+        "english": "A research design that involves repeated observations of the same variables over long periods.",
+        "example": "Longitudinal research is necessary to understand the lasting effects of early education interventions."
+      },
+      {
+        "pos": "n.",
+        "meaning": "追踪研究",
+        "english": "A research design that involves repeated observations of the same variables over long periods.",
+        "example": "Longitudinal research is necessary to understand the lasting effects of early education interventions."
+      }
+    ]
+  },
+  {
+    "word": [
+      "measure"
+    ],
+    "english_synonyms": [
+      "quantify",
+      "assess",
+      "gauge",
+      "evaluate"
+    ],
+    "english_explanations": [
+      "to find the size, quantity, etc. of sth in standard units",
+      "a way of judging or measuring sth",
+      "To ascertain the size, amount, or degree of something using an instrument or standard unit."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "测量",
+        "english": "to find the size, quantity, etc. of sth in standard units",
+        "example": "A ship's speed is measured in knots."
+      },
+      {
+        "pos": "n.",
+        "meaning": "衡量",
+        "english": "a way of judging or measuring sth",
+        "example": "an accurate measure of ability"
+      },
+      {
+        "pos": "v.",
+        "meaning": "评估",
+        "english": "To ascertain the size, amount, or degree of something using an instrument or standard unit.",
+        "example": "Standardized tests are often used to measure student achievement across different schools."
+      }
+    ],
+    "roots": [
+      {
+        "root": "meas",
+        "meaning": "measure"
+      },
+      {
+        "root": "-ure",
+        "meaning": "act or result"
+      }
+    ]
+  },
+  {
+    "word": [
+      "methodology"
+    ],
+    "english_synonyms": [
+      "methods",
+      "approach",
+      "framework",
+      "procedures"
+    ],
+    "english_explanations": [
+      "A system of methods used in a particular area of study or activity."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "方法论",
+        "english": "A system of methods used in a particular area of study or activity.",
+        "example": "The methodology section explains how data was collected and analyzed."
+      },
+      {
+        "pos": "n.",
+        "meaning": "研究方法",
+        "english": "A system of methods used in a particular area of study or activity.",
+        "example": "The methodology section explains how data was collected and analyzed."
+      }
+    ],
+    "roots": [
+      {
+        "root": "met-",
+        "meaning": "after"
+      },
+      {
+        "root": "hod",
+        "meaning": "way"
+      },
+      {
+        "root": "-ology",
+        "meaning": "study of"
+      }
+    ]
+  },
+  {
+    "word": [
+      "minimize risks"
+    ],
+    "english_synonyms": [
+      "reduce risks",
+      "mitigate hazards",
+      "limit dangers"
+    ],
+    "english_explanations": [
+      "To reduce the probability or severity of potential negative outcomes to the lowest possible level."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "最小化风险",
+        "english": "To reduce the probability or severity of potential negative outcomes to the lowest possible level.",
+        "example": "Ethical guidelines aim to minimize risks to participants in educational experiments."
+      },
+      {
+        "pos": "v.",
+        "meaning": "降低风险",
+        "english": "To reduce the probability or severity of potential negative outcomes to the lowest possible level.",
+        "example": "Ethical guidelines aim to minimize risks to participants in educational experiments."
+      }
+    ]
+  },
+  {
+    "word": [
+      "mixed-methods approach"
+    ],
+    "english_synonyms": [
+      "mixed research design",
+      "integrated methodology"
+    ],
+    "english_explanations": [
+      "A research approach that combines quantitative and qualitative methods in a single study."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "混合方法研究",
+        "english": "A research approach that combines quantitative and qualitative methods in a single study.",
+        "example": "A mixed-methods approach provides both statistical depth and contextual understanding."
+      },
+      {
+        "pos": "n.",
+        "meaning": "混合研究方法",
+        "english": "A research approach that combines quantitative and qualitative methods in a single study.",
+        "example": "A mixed-methods approach provides both statistical depth and contextual understanding."
+      }
+    ]
+  },
+  {
+    "word": [
+      "mixed-methods"
+    ],
+    "english_synonyms": [
+      "multi-method",
+      "hybrid methods"
+    ],
+    "english_explanations": [
+      "Referring to research that integrates both numerical data and narrative information."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "混合方法的",
+        "english": "Referring to research that integrates both numerical data and narrative information.",
+        "example": "Mixed-methods research is increasingly popular in the social sciences."
+      },
+      {
+        "pos": "n.",
+        "meaning": "多方法的",
+        "english": "Referring to research that integrates both numerical data and narrative information.",
+        "example": "Mixed-methods research is increasingly popular in the social sciences."
+      }
+    ]
+  },
+  {
+    "word": [
+      "monitor"
+    ],
+    "english_synonyms": [
+      "observe",
+      "track",
+      "supervise",
+      "oversee"
+    ],
+    "english_explanations": [
+      "a piece of equipment used to check or record sth",
+      "a person whose job is to check that sth is done fairly and honestly, especially in a foreign country"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "监控",
+        "english": "a piece of equipment used to check or record sth",
+        "example": "a heart monitor"
+      },
+      {
+        "pos": "n.",
+        "meaning": "监测",
+        "english": "a piece of equipment used to check or record sth",
+        "example": "a heart monitor"
+      },
+      {
+        "pos": "n.",
+        "meaning": "监督",
+        "english": "a person whose job is to check that sth is done fairly and honestly, especially in a foreign country",
+        "example": "UN monitors declared the referendum fair."
+      }
+    ],
+    "roots": [
+      {
+        "root": "mon",
+        "meaning": "warn"
+      },
+      {
+        "root": "-itor",
+        "meaning": "one who"
+      }
+    ]
+  },
+  {
+    "word": [
+      "motivation"
+    ],
+    "english_synonyms": [
+      "drive",
+      "incentive",
+      "enthusiasm",
+      "commitment"
+    ],
+    "english_explanations": [
+      "to be the reason why sb does sth or behaves in a particular way",
+      "The reason or reasons one has for acting or behaving in a particular way."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "动机",
+        "english": "to be the reason why sb does sth or behaves in a particular way",
+        "example": "He is motivated entirely by self-interest."
+      },
+      {
+        "pos": "n.",
+        "meaning": "积极性",
+        "english": "The reason or reasons one has for acting or behaving in a particular way.",
+        "example": "Intrinsic motivation often leads to deeper and more sustained learning than extrinsic rewards."
+      },
+      {
+        "pos": "n.",
+        "meaning": "动力",
+        "english": "The reason or reasons one has for acting or behaving in a particular way.",
+        "example": "Intrinsic motivation often leads to deeper and more sustained learning than extrinsic rewards."
+      }
+    ],
+    "roots": [
+      {
+        "root": "mot",
+        "meaning": "move"
+      },
+      {
+        "root": "-iv",
+        "meaning": "relating to"
+      },
+      {
+        "root": "-ation",
+        "meaning": "act or state"
+      }
+    ]
+  },
+  {
+    "word": [
+      "negative"
+    ],
+    "english_synonyms": [
+      "adverse",
+      "unfavorable",
+      "pessimistic",
+      "harmful"
+    ],
+    "english_explanations": [
+      "considering only the bad side of sth/sb; lacking enthusiasm or hope",
+      "expressing the answer 'no'"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "adj.",
+        "meaning": "负面的",
+        "english": "considering only the bad side of sth/sb; lacking enthusiasm or hope",
+        "example": "Scientists have a fairly negative attitude to the theory."
+      },
+      {
+        "pos": "adj.",
+        "meaning": "消极的",
+        "english": "considering only the bad side of sth/sb; lacking enthusiasm or hope",
+        "example": "Scientists have a fairly negative attitude to the theory."
+      },
+      {
+        "pos": "adj.",
+        "meaning": "否定的",
+        "english": "expressing the answer 'no'",
+        "example": "His response was negative."
+      }
+    ],
+    "roots": [
+      {
+        "root": "neg",
+        "meaning": "deny"
+      },
+      {
+        "root": "-ative",
+        "meaning": "tending to"
+      }
+    ]
+  },
+  {
+    "word": [
+      "neutral"
+    ],
+    "english_synonyms": [
+      "impartial",
+      "objective",
+      "unbiased",
+      "middle"
+    ],
+    "english_explanations": [
+      "deliberately not expressing any strong feeling",
+      "not supporting or helping either side in a disagreement, competition, etc.",
+      "Not supporting or helping either side in a conflict, disagreement, or process."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "adj.",
+        "meaning": "中性的",
+        "english": "deliberately not expressing any strong feeling",
+        "example": "'So you told her?' he said in a neutral tone of voice."
+      },
+      {
+        "pos": "adj.",
+        "meaning": "中立的",
+        "english": "not supporting or helping either side in a disagreement, competition, etc.",
+        "example": "Journalists are supposed to be politically neutral."
+      },
+      {
+        "pos": "n.",
+        "meaning": "客观的",
+        "english": "Not supporting or helping either side in a conflict, disagreement, or process.",
+        "example": "The researcher maintained a neutral stance to ensure the validity of the findings."
+      }
+    ],
+    "roots": [
+      {
+        "root": "neutr",
+        "meaning": "neither"
+      },
+      {
+        "root": "-al",
+        "meaning": "relating to"
+      }
+    ]
+  },
+  {
+    "word": [
+      "novelty effect"
+    ],
+    "english_synonyms": [
+      "newness effect",
+      "initial excitement bias"
+    ],
+    "english_explanations": [
+      "A temporary increase in performance or engagement due to the introduction of something new."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "新奇效应",
+        "english": "A temporary increase in performance or engagement due to the introduction of something new.",
+        "example": "The novelty effect may inflate initial user satisfaction with new educational apps."
+      },
+      {
+        "pos": "n.",
+        "meaning": "新颖效应",
+        "english": "A temporary increase in performance or engagement due to the introduction of something new.",
+        "example": "The novelty effect may inflate initial user satisfaction with new educational apps."
+      }
+    ]
+  },
+  {
+    "word": [
+      "one-size-fits-all"
+    ],
+    "english_synonyms": [
+      "uniform",
+      "standardized",
+      "generic"
+    ],
+    "english_explanations": [
+      "A single approach or solution designed to be suitable for all cases, without individual adaptation.",
+      "designed to be suitable for a wide range of situations or needs"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "一刀切的",
+        "english": "A single approach or solution designed to be suitable for all cases, without individual adaptation.",
+        "example": "Traditional lecture formats often represent a one-size-fits-all approach that ignores individual needs."
+      },
+      {
+        "pos": "adj.",
+        "meaning": "通用的",
+        "english": "designed to be suitable for a wide range of situations or needs",
+        "example": "a one-size-fits-all monetary policy"
+      },
+      {
+        "pos": "n.",
+        "meaning": "千篇一律的",
+        "english": "A single approach or solution designed to be suitable for all cases, without individual adaptation.",
+        "example": "Traditional lecture formats often represent a one-size-fits-all approach that ignores individual needs."
+      }
+    ]
+  },
+  {
+    "word": [
+      "original thinking"
+    ],
+    "english_synonyms": [
+      "independent thought",
+      "novel reasoning",
+      "creative cognition"
+    ],
+    "english_explanations": [
+      "The capacity to generate ideas that are new, unique, and not derived from existing concepts."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "原创思维",
+        "english": "The capacity to generate ideas that are new, unique, and not derived from existing concepts.",
+        "example": "Original thinking is highly valued in research-driven academic environments."
+      },
+      {
+        "pos": "n.",
+        "meaning": "独立思考",
+        "english": "The capacity to generate ideas that are new, unique, and not derived from existing concepts.",
+        "example": "Original thinking is highly valued in research-driven academic environments."
+      }
+    ]
+  },
+  {
+    "word": [
+      "outcomes"
+    ],
+    "english_synonyms": [
+      "results",
+      "consequences",
+      "effects",
+      "outputs"
+    ],
+    "english_explanations": [
+      "the result or effect of an action or event",
+      "The way a process, event, or activity turns out in the end."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "结果",
+        "english": "the result or effect of an action or event",
+        "example": "We are waiting to hear the final outcome of the negotiations."
+      },
+      {
+        "pos": "n.",
+        "meaning": "成果",
+        "english": "The way a process, event, or activity turns out in the end.",
+        "example": "Program evaluation focuses on measuring outcomes rather than simply tracking activities."
+      },
+      {
+        "pos": "n.",
+        "meaning": "成效",
+        "english": "The way a process, event, or activity turns out in the end.",
+        "example": "Program evaluation focuses on measuring outcomes rather than simply tracking activities."
+      }
+    ]
+  },
+  {
+    "word": [
+      "outperform"
+    ],
+    "english_synonyms": [
+      "exceed",
+      "surpass",
+      "outdo",
+      "beat"
+    ],
+    "english_explanations": [
+      "To perform better than someone or something else."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "胜过",
+        "english": "To perform better than someone or something else.",
+        "example": "Students who receive personalized tutoring tend to outperform their peers on standardized tests."
+      },
+      {
+        "pos": "v.",
+        "meaning": "表现优于",
+        "english": "To perform better than someone or something else.",
+        "example": "Students who receive personalized tutoring tend to outperform their peers on standardized tests."
+      },
+      {
+        "pos": "v.",
+        "meaning": "超越",
+        "english": "To perform better than someone or something else.",
+        "example": "Students who receive personalized tutoring tend to outperform their peers on standardized tests."
+      }
+    ]
+  },
+  {
+    "word": [
+      "personalise",
+      "personalize"
+    ],
+    "english_synonyms": [
+      "customize",
+      "tailor",
+      "individualize",
+      "adapt"
+    ],
+    "english_explanations": [
+      "To design or produce something to meet someone's individual requirements or preferences."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "个性化",
+        "english": "To design or produce something to meet someone's individual requirements or preferences.",
+        "example": "Educational software can personalise the learning experience by adjusting to individual student pace."
+      },
+      {
+        "pos": "v.",
+        "meaning": "定制",
+        "english": "To design or produce something to meet someone's individual requirements or preferences.",
+        "example": "Educational software can personalise the learning experience by adjusting to individual student pace."
+      }
+    ]
+  },
+  {
+    "word": [
+      "personalized learning"
+    ],
+    "english_synonyms": [
+      "individualized instruction",
+      "customized education",
+      "tailored learning"
+    ],
+    "english_explanations": [
+      "An educational approach that aims to customize learning for each student's strengths, needs, and interests."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "个性化学习",
+        "english": "An educational approach that aims to customize learning for each student's strengths, needs, and interests.",
+        "example": "Personalized learning allows students to progress through material at their own speed."
+      },
+      {
+        "pos": "n.",
+        "meaning": "因材施教",
+        "english": "An educational approach that aims to customize learning for each student's strengths, needs, and interests.",
+        "example": "Personalized learning allows students to progress through material at their own speed."
+      }
+    ]
+  },
+  {
+    "word": [
+      "platforms"
+    ],
+    "english_synonyms": [
+      "systems",
+      "frameworks",
+      "infrastructures",
+      "environments"
+    ],
+    "english_explanations": [
+      "a raised level surface, for example one that equipment stands on or is operated from",
+      "Hardware or software systems that serve as a foundation for other applications or services."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "平台",
+        "english": "a raised level surface, for example one that equipment stands on or is operated from",
+        "example": "an oil/a gas platform"
+      },
+      {
+        "pos": "n.",
+        "meaning": "系统",
+        "english": "Hardware or software systems that serve as a foundation for other applications or services.",
+        "example": "Online learning platforms have become essential tools for modern education delivery."
+      }
+    ],
+    "roots": [
+      {
+        "root": "plat",
+        "meaning": "flat"
+      },
+      {
+        "root": "form",
+        "meaning": "shape"
+      },
+      {
+        "root": "-s",
+        "meaning": "plural"
+      }
+    ]
+  },
+  {
+    "word": [
+      "positive"
+    ],
+    "english_synonyms": [
+      "favorable",
+      "constructive",
+      "beneficial",
+      "optimistic"
+    ],
+    "english_explanations": [
+      "directed at dealing with sth or producing a successful result",
+      "good or useful",
+      "Characterized by or displaying affirmation, acceptance, or certainty."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "adj.",
+        "meaning": "积极的",
+        "english": "directed at dealing with sth or producing a successful result",
+        "example": "We must take positive steps to deal with the problem."
+      },
+      {
+        "pos": "adj.",
+        "meaning": "正面的",
+        "english": "good or useful",
+        "example": "to make a positive contribution to a discussion"
+      },
+      {
+        "pos": "n.",
+        "meaning": "肯定的",
+        "english": "Characterized by or displaying affirmation, acceptance, or certainty.",
+        "example": "Positive reinforcement is a powerful tool for shaping student behavior."
+      }
+    ],
+    "roots": [
+      {
+        "root": "pos",
+        "meaning": "place"
+      },
+      {
+        "root": "-itive",
+        "meaning": "tending to"
+      }
+    ]
+  },
+  {
+    "word": [
+      "practical"
+    ],
+    "english_synonyms": [
+      "applied",
+      "functional",
+      "realistic",
+      "hands-on"
+    ],
+    "english_explanations": [
+      "Concerned with the actual doing or use of something rather than with theory and ideas.",
+      "connected with real situations rather than with ideas or theories"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "实用的",
+        "english": "Concerned with the actual doing or use of something rather than with theory and ideas.",
+        "example": "The course includes practical exercises to help students apply theoretical knowledge."
+      },
+      {
+        "pos": "n.",
+        "meaning": "实践的",
+        "english": "Concerned with the actual doing or use of something rather than with theory and ideas.",
+        "example": "The course includes practical exercises to help students apply theoretical knowledge."
+      },
+      {
+        "pos": "adj.",
+        "meaning": "实际的",
+        "english": "connected with real situations rather than with ideas or theories",
+        "example": "to have gained practical experience of the work"
+      }
+    ],
+    "roots": [
+      {
+        "root": "pract",
+        "meaning": "do"
+      },
+      {
+        "root": "-ical",
+        "meaning": "relating to"
+      }
+    ]
+  },
+  {
+    "word": [
+      "problem-solving skills"
+    ],
+    "english_synonyms": [
+      "analytical skills",
+      "resolution abilities",
+      "troubleshooting competencies"
+    ],
+    "english_explanations": [
+      "Cognitive abilities that enable an individual to find solutions to difficult or complex issues."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "问题解决能力",
+        "english": "Cognitive abilities that enable an individual to find solutions to difficult or complex issues.",
+        "example": "Employers increasingly prioritize problem-solving skills over rote memorization."
+      },
+      {
+        "pos": "n.",
+        "meaning": "解题技能",
+        "english": "Cognitive abilities that enable an individual to find solutions to difficult or complex issues.",
+        "example": "Employers increasingly prioritize problem-solving skills over rote memorization."
+      }
+    ]
+  },
+  {
+    "word": [
+      "problem-solving"
+    ],
+    "english_synonyms": [
+      "troubleshooting",
+      "resolution",
+      "analysis"
+    ],
+    "english_explanations": [
+      "The process of finding solutions to difficult or complex problems."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "问题解决",
+        "english": "The process of finding solutions to difficult or complex problems.",
+        "example": "Collaborative problem-solving helps students learn from different approaches to challenges."
+      },
+      {
+        "pos": "n.",
+        "meaning": "解题",
+        "english": "The process of finding solutions to difficult or complex problems.",
+        "example": "Collaborative problem-solving helps students learn from different approaches to challenges."
+      }
+    ]
+  },
+  {
+    "word": [
+      "progress"
+    ],
+    "english_synonyms": [
+      "advancement",
+      "development",
+      "improvement",
+      "growth"
+    ],
+    "english_explanations": [
+      "the process of improving or developing, or of getting nearer to achieving or completing sth",
+      "Forward or onward movement toward a destination or goal, or gradual improvement over time."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "进步",
+        "english": "the process of improving or developing, or of getting nearer to achieving or completing sth",
+        "example": "to make progress"
+      },
+      {
+        "pos": "n.",
+        "meaning": "进展",
+        "english": "the process of improving or developing, or of getting nearer to achieving or completing sth",
+        "example": "to make progress"
+      },
+      {
+        "pos": "n.",
+        "meaning": "发展",
+        "english": "Forward or onward movement toward a destination or goal, or gradual improvement over time.",
+        "example": "Teachers regularly assess student progress to inform instructional decisions."
+      }
+    ],
+    "roots": [
+      {
+        "root": "pro-",
+        "meaning": "forward"
+      },
+      {
+        "root": "gress",
+        "meaning": "step"
+      }
+    ]
+  },
+  {
+    "word": [
+      "qualitative"
+    ],
+    "english_synonyms": [
+      "descriptive",
+      "non-numerical",
+      "interpretive"
+    ],
+    "english_explanations": [
+      "connected with what sth is like or how good it is, rather than with how much of it there is",
+      "Relating to, measuring, or measured by the quality of something rather than its quantity."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "adj.",
+        "meaning": "定性的",
+        "english": "connected with what sth is like or how good it is, rather than with how much of it there is",
+        "example": "qualitative analysis/research"
+      },
+      {
+        "pos": "adj.",
+        "meaning": "质性的",
+        "english": "Relating to, measuring, or measured by the quality of something rather than its quantity.",
+        "example": "Qualitative data from interviews provided rich insights into student experiences."
+      }
+    ]
+  },
+  {
+    "word": [
+      "quantitative analysis"
+    ],
+    "english_synonyms": [
+      "statistical analysis",
+      "numerical analysis",
+      "data analysis"
+    ],
+    "english_explanations": [
+      "The use of mathematical and statistical methods to understand numerical data."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "定量分析",
+        "english": "The use of mathematical and statistical methods to understand numerical data.",
+        "example": "Quantitative analysis revealed a significant improvement in test scores after the intervention."
+      },
+      {
+        "pos": "n.",
+        "meaning": "量化分析",
+        "english": "The use of mathematical and statistical methods to understand numerical data.",
+        "example": "Quantitative analysis revealed a significant improvement in test scores after the intervention."
+      }
+    ]
+  },
+  {
+    "word": [
+      "quantitative"
+    ],
+    "english_synonyms": [
+      "numerical",
+      "statistical",
+      "measurable"
+    ],
+    "english_explanations": [
+      "connected with the amount or number of sth rather than with how good it is"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "adj.",
+        "meaning": "定量的",
+        "english": "connected with the amount or number of sth rather than with how good it is",
+        "example": "quantitative analysis/research"
+      },
+      {
+        "pos": "adj.",
+        "meaning": "量化的",
+        "english": "connected with the amount or number of sth rather than with how good it is",
+        "example": "quantitative analysis/research"
+      }
+    ],
+    "roots": [
+      {
+        "root": "quant",
+        "meaning": "how much"
+      },
+      {
+        "root": "-it",
+        "meaning": "noun"
+      },
+      {
+        "root": "-ative",
+        "meaning": "tending to"
+      }
+    ]
+  },
+  {
+    "word": [
+      "refine instruction"
+    ],
+    "english_synonyms": [
+      "optimize teaching",
+      "improve pedagogy",
+      "enhance delivery"
+    ],
+    "english_explanations": [
+      "To make teaching methods more effective, precise, or polished through continuous improvement."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "优化教学",
+        "english": "To make teaching methods more effective, precise, or polished through continuous improvement.",
+        "example": "Data from learning analytics can help educators refine instruction for better outcomes."
+      },
+      {
+        "pos": "v.",
+        "meaning": "改进教学",
+        "english": "To make teaching methods more effective, precise, or polished through continuous improvement.",
+        "example": "Data from learning analytics can help educators refine instruction for better outcomes."
+      }
+    ]
+  },
+  {
+    "word": [
+      "reliability"
+    ],
+    "english_synonyms": [
+      "dependability",
+      "consistency",
+      "trustworthiness",
+      "stability"
+    ],
+    "english_explanations": [
+      "The quality of being trustworthy or of performing consistently well."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "可靠性",
+        "english": "The quality of being trustworthy or of performing consistently well.",
+        "example": "The reliability of an assessment tool is crucial for valid educational measurement."
+      },
+      {
+        "pos": "n.",
+        "meaning": "信度",
+        "english": "The quality of being trustworthy or of performing consistently well.",
+        "example": "The reliability of an assessment tool is crucial for valid educational measurement."
+      }
+    ],
+    "roots": [
+      {
+        "root": "re-",
+        "meaning": "back"
+      },
+      {
+        "root": "li",
+        "meaning": "bind"
+      },
+      {
+        "root": "-abil",
+        "meaning": "able"
+      },
+      {
+        "root": "-ity",
+        "meaning": "state"
+      }
+    ]
+  },
+  {
+    "word": [
+      "replace"
+    ],
+    "english_synonyms": [
+      "substitute",
+      "supersede",
+      "supplant",
+      "take over"
+    ],
+    "english_explanations": [
+      "To take the place of something or someone that was there previously.",
+      "to be used instead of sth/sb else; to do sth instead of sb/sth else",
+      "to change sth that is old, damaged, etc. for a similar thing that is newer or better"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "替代",
+        "english": "To take the place of something or someone that was there previously.",
+        "example": "Technology should augment rather than replace the essential role of human teachers."
+      },
+      {
+        "pos": "v.",
+        "meaning": "取代",
+        "english": "to be used instead of sth/sb else; to do sth instead of sb/sth else",
+        "example": "The new design will eventually replace all existing models."
+      },
+      {
+        "pos": "v.",
+        "meaning": "更换",
+        "english": "to change sth that is old, damaged, etc. for a similar thing that is newer or better",
+        "example": "All the old carpets need replacing."
+      }
+    ],
+    "roots": [
+      {
+        "root": "re-",
+        "meaning": "again"
+      },
+      {
+        "root": "place",
+        "meaning": "place"
+      }
+    ]
+  },
+  {
+    "word": [
+      "report"
+    ],
+    "english_synonyms": [
+      "document",
+      "account",
+      "statement",
+      "study"
+    ],
+    "english_explanations": [
+      "to give people information about sth that you have heard, seen, done, etc.",
+      "A formal account of the results, proceedings, or conclusions of an investigation or activity."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "报告",
+        "english": "to give people information about sth that you have heard, seen, done, etc.",
+        "example": "The crash happened seconds after the pilot reported engine trouble."
+      },
+      {
+        "pos": "n.",
+        "meaning": "研究报告",
+        "english": "A formal account of the results, proceedings, or conclusions of an investigation or activity.",
+        "example": "The final report summarized the key findings and recommendations of the research team."
+      }
+    ],
+    "roots": [
+      {
+        "root": "re-",
+        "meaning": "back"
+      },
+      {
+        "root": "port",
+        "meaning": "carry"
+      }
+    ]
+  },
+  {
+    "word": [
+      "research objectives"
+    ],
+    "english_synonyms": [
+      "study aims",
+      "investigation goals",
+      "research purposes"
+    ],
+    "english_explanations": [
+      "Specific, measurable goals that a research project seeks to achieve."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "研究目标",
+        "english": "Specific, measurable goals that a research project seeks to achieve.",
+        "example": "Clear research objectives guide the design and methodology of any academic inquiry."
+      },
+      {
+        "pos": "n.",
+        "meaning": "研究目的",
+        "english": "Specific, measurable goals that a research project seeks to achieve.",
+        "example": "Clear research objectives guide the design and methodology of any academic inquiry."
+      }
+    ]
+  },
+  {
+    "word": [
+      "research questions"
+    ],
+    "english_synonyms": [
+      "inquiry questions",
+      "study questions",
+      "investigative queries"
+    ],
+    "english_explanations": [
+      "Specific questions that a research project aims to answer through systematic investigation."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "研究问题",
+        "english": "Specific questions that a research project aims to answer through systematic investigation.",
+        "example": "Well-formulated research questions provide direction and focus for the entire study."
+      },
+      {
+        "pos": "n.",
+        "meaning": "研究课题",
+        "english": "Specific questions that a research project aims to answer through systematic investigation.",
+        "example": "Well-formulated research questions provide direction and focus for the entire study."
+      }
+    ]
+  },
+  {
+    "word": [
+      "reshape"
+    ],
+    "english_synonyms": [
+      "reform",
+      "restructure",
+      "transform",
+      "revolutionize"
+    ],
+    "english_explanations": [
+      "To change the form, character, or direction of something fundamentally."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "重塑",
+        "english": "To change the form, character, or direction of something fundamentally.",
+        "example": "Digital technologies continue to reshape the landscape of modern education."
+      },
+      {
+        "pos": "v.",
+        "meaning": "改变",
+        "english": "To change the form, character, or direction of something fundamentally.",
+        "example": "Digital technologies continue to reshape the landscape of modern education."
+      },
+      {
+        "pos": "v.",
+        "meaning": "重构",
+        "english": "To change the form, character, or direction of something fundamentally.",
+        "example": "Digital technologies continue to reshape the landscape of modern education."
+      }
+    ]
+  },
+  {
+    "word": [
+      "rise"
+    ],
+    "english_synonyms": [
+      "increase",
+      "growth",
+      "ascent",
+      "upswing"
+    ],
+    "english_explanations": [
+      "an upward movement",
+      "an increase in the money you are paid for the work you do",
+      "An upward movement, an increase in amount or number, or the act of becoming more powerful."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "上升",
+        "english": "an upward movement",
+        "example": "She watched the gentle rise and fall of his chest as he slept."
+      },
+      {
+        "pos": "n.",
+        "meaning": "增长",
+        "english": "an increase in the money you are paid for the work you do",
+        "example": "I'm going to ask for a rise."
+      },
+      {
+        "pos": "n.",
+        "meaning": "兴起",
+        "english": "An upward movement, an increase in amount or number, or the act of becoming more powerful.",
+        "example": "The rise of online education has democratized access to higher learning globally."
+      }
+    ]
+  },
+  {
+    "word": [
+      "standardise",
+      "standardize"
+    ],
+    "english_synonyms": [
+      "normalize",
+      "uniformize",
+      "regulate",
+      "harmonize"
+    ],
+    "english_explanations": [
+      "to make objects or activities of the same type have the same features or qualities; to make sth standard",
+      "To make something conform to a standard or bring into conformity with standards."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "标准化",
+        "english": "to make objects or activities of the same type have the same features or qualities; to make sth standard",
+        "example": "a standardized contract/design/test"
+      },
+      {
+        "pos": "v.",
+        "meaning": "统一化",
+        "english": "To make something conform to a standard or bring into conformity with standards.",
+        "example": "It is important to standardize testing conditions to ensure fairness across all participants."
+      }
+    ]
+  },
+  {
+    "word": [
+      "standardized assessment"
+    ],
+    "english_synonyms": [
+      "standardized testing",
+      "norm-referenced assessment"
+    ],
+    "english_explanations": [
+      "Evaluation methods that are administered and scored in a consistent, predetermined manner."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "标准化评估",
+        "english": "Evaluation methods that are administered and scored in a consistent, predetermined manner.",
+        "example": "Standardized assessment allows for comparison of student performance across different schools and regions."
+      },
+      {
+        "pos": "n.",
+        "meaning": "标准化测验",
+        "english": "Evaluation methods that are administered and scored in a consistent, predetermined manner.",
+        "example": "Standardized assessment allows for comparison of student performance across different schools and regions."
+      }
+    ]
+  },
+  {
+    "word": [
+      "statistics"
+    ],
+    "english_synonyms": [
+      "data",
+      "figures",
+      "numerical information",
+      "stats"
+    ],
+    "english_explanations": [
+      "the science of collecting and analysing statistics",
+      "a piece of information shown in numbers"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "统计学",
+        "english": "the science of collecting and analysing statistics",
+        "example": "There is a compulsory course in statistics."
+      },
+      {
+        "pos": "n.",
+        "meaning": "统计数据",
+        "english": "a piece of information shown in numbers",
+        "example": "An important statistic is that 94 per cent of crime relates to property."
+      }
+    ],
+    "roots": [
+      {
+        "root": "stat",
+        "meaning": "state"
+      },
+      {
+        "root": "-ist",
+        "meaning": "one who"
+      },
+      {
+        "root": "-ics",
+        "meaning": "study of"
+      }
+    ]
+  },
+  {
+    "word": [
+      "student engagement"
+    ],
+    "english_synonyms": [
+      "learner involvement",
+      "student participation",
+      "academic engagement"
+    ],
+    "english_explanations": [
+      "The degree of attention, curiosity, interest, optimism, and passion that students show when they are learning."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "学生参与度",
+        "english": "The degree of attention, curiosity, interest, optimism, and passion that students show when they are learning.",
+        "example": "Interactive multimedia tools can significantly boost student engagement during lessons."
+      },
+      {
+        "pos": "n.",
+        "meaning": "学生投入",
+        "english": "The degree of attention, curiosity, interest, optimism, and passion that students show when they are learning.",
+        "example": "Interactive multimedia tools can significantly boost student engagement during lessons."
+      }
+    ]
+  },
+  {
+    "word": [
+      "student success"
+    ],
+    "english_synonyms": [
+      "academic success",
+      "learner achievement",
+      "student attainment"
+    ],
+    "english_explanations": [
+      "The achievement of educational goals and positive outcomes by students."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "学生成功",
+        "english": "The achievement of educational goals and positive outcomes by students.",
+        "example": "Institutional policies should be designed with student success as the primary objective."
+      },
+      {
+        "pos": "n.",
+        "meaning": "学生成就",
+        "english": "The achievement of educational goals and positive outcomes by students.",
+        "example": "Institutional policies should be designed with student success as the primary objective."
+      }
+    ]
+  },
+  {
+    "word": [
+      "study methodology"
+    ],
+    "english_synonyms": [
+      "research methodology",
+      "study design",
+      "research framework"
+    ],
+    "english_explanations": [
+      "The specific procedures and techniques used to carry out a particular study or investigation."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "研究方法论",
+        "english": "The specific procedures and techniques used to carry out a particular study or investigation.",
+        "example": "The study methodology section must be detailed enough to allow replication by other researchers."
+      },
+      {
+        "pos": "n.",
+        "meaning": "研究方法",
+        "english": "The specific procedures and techniques used to carry out a particular study or investigation.",
+        "example": "The study methodology section must be detailed enough to allow replication by other researchers."
+      }
+    ]
+  },
+  {
+    "word": [
+      "subjective"
+    ],
+    "english_synonyms": [
+      "personal",
+      "individual",
+      "biased",
+      "interpretive"
+    ],
+    "english_explanations": [
+      "based on your own ideas or opinions rather than facts and therefore sometimes unfair",
+      "Based on or influenced by personal feelings, tastes, or opinions rather than objective facts."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "adj.",
+        "meaning": "主观的",
+        "english": "based on your own ideas or opinions rather than facts and therefore sometimes unfair",
+        "example": "a highly subjective point of view"
+      },
+      {
+        "pos": "n.",
+        "meaning": "个人的",
+        "english": "Based on or influenced by personal feelings, tastes, or opinions rather than objective facts.",
+        "example": "Teacher observations can sometimes be subjective, requiring calibration for reliability."
+      }
+    ],
+    "roots": [
+      {
+        "root": "sub-",
+        "meaning": "under"
+      },
+      {
+        "root": "ject",
+        "meaning": "throw"
+      },
+      {
+        "root": "-ive",
+        "meaning": "tending to"
+      }
+    ]
+  },
+  {
+    "word": [
+      "support"
+    ],
+    "english_synonyms": [
+      "assistance",
+      "help",
+      "backing",
+      "aid"
+    ],
+    "english_explanations": [
+      "to help or encourage sb/sth by saying or showing that you agree with them/it",
+      "to give or be ready to give help to sb if they need it"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "支持",
+        "english": "to help or encourage sb/sth by saying or showing that you agree with them/it",
+        "example": "to support a proposal"
+      },
+      {
+        "pos": "v.",
+        "meaning": "帮助",
+        "english": "to give or be ready to give help to sb if they need it",
+        "example": "an organization that supports people with AIDS"
+      },
+      {
+        "pos": "v.",
+        "meaning": "援助",
+        "english": "to give or be ready to give help to sb if they need it",
+        "example": "an organization that supports people with AIDS"
+      }
+    ],
+    "roots": [
+      {
+        "root": "sup-",
+        "meaning": "under"
+      },
+      {
+        "root": "port",
+        "meaning": "carry"
+      }
+    ]
+  },
+  {
+    "word": [
+      "systematic review"
+    ],
+    "english_synonyms": [
+      "structured review",
+      "comprehensive synthesis"
+    ],
+    "english_explanations": [
+      "A rigorous method of synthesizing research evidence using explicit, systematic methods to minimize bias."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "系统性综述",
+        "english": "A rigorous method of synthesizing research evidence using explicit, systematic methods to minimize bias.",
+        "example": "A systematic review was conducted to evaluate the effectiveness of online learning interventions."
+      },
+      {
+        "pos": "n.",
+        "meaning": "系统评价",
+        "english": "A rigorous method of synthesizing research evidence using explicit, systematic methods to minimize bias.",
+        "example": "A systematic review was conducted to evaluate the effectiveness of online learning interventions."
+      }
+    ]
+  },
+  {
+    "word": [
+      "tailored feedback"
+    ],
+    "english_synonyms": [
+      "customized feedback",
+      "personalized comments",
+      "individualized input"
+    ],
+    "english_explanations": [
+      "Specific responses or guidance designed to address the unique performance or needs of an individual."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "定制化反馈",
+        "english": "Specific responses or guidance designed to address the unique performance or needs of an individual.",
+        "example": "Tailored feedback helps students understand exactly where they need to improve."
+      },
+      {
+        "pos": "n.",
+        "meaning": "个性化反馈",
+        "english": "Specific responses or guidance designed to address the unique performance or needs of an individual.",
+        "example": "Tailored feedback helps students understand exactly where they need to improve."
+      }
+    ]
+  },
+  {
+    "word": [
+      "teacher opinions"
+    ],
+    "english_synonyms": [
+      "educator views",
+      "instructor perspectives",
+      "teacher beliefs"
+    ],
+    "english_explanations": [
+      "The personal views, judgments, or attitudes held by teachers regarding educational matters."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "教师观点",
+        "english": "The personal views, judgments, or attitudes held by teachers regarding educational matters.",
+        "example": "Teacher opinions were surveyed to understand their readiness for technology integration."
+      },
+      {
+        "pos": "n.",
+        "meaning": "教师意见",
+        "english": "The personal views, judgments, or attitudes held by teachers regarding educational matters.",
+        "example": "Teacher opinions were surveyed to understand their readiness for technology integration."
+      }
+    ]
+  },
+  {
+    "word": [
+      "teacher training"
+    ],
+    "english_synonyms": [
+      "teacher preparation",
+      "professional development",
+      "educator training"
+    ],
+    "english_explanations": [
+      "The process of preparing educators with the skills, knowledge, and competencies needed for teaching."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "教师培训",
+        "english": "The process of preparing educators with the skills, knowledge, and competencies needed for teaching.",
+        "example": "Effective teacher training is essential for the successful adoption of new pedagogical approaches."
+      },
+      {
+        "pos": "n.",
+        "meaning": "师资培训",
+        "english": "The process of preparing educators with the skills, knowledge, and competencies needed for teaching.",
+        "example": "Effective teacher training is essential for the successful adoption of new pedagogical approaches."
+      }
+    ]
+  },
+  {
+    "word": [
+      "teaching and learning"
+    ],
+    "english_synonyms": [
+      "instruction and learning",
+      "pedagogy and acquisition"
+    ],
+    "english_explanations": [
+      "The interconnected processes of delivering instruction and facilitating student understanding."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "教与学",
+        "english": "The interconnected processes of delivering instruction and facilitating student understanding.",
+        "example": "The new framework aims to improve the quality of teaching and learning across all disciplines."
+      },
+      {
+        "pos": "n.",
+        "meaning": "教学相长",
+        "english": "The interconnected processes of delivering instruction and facilitating student understanding.",
+        "example": "The new framework aims to improve the quality of teaching and learning across all disciplines."
+      }
+    ]
+  },
+  {
+    "word": [
+      "technical support"
+    ],
+    "english_synonyms": [
+      "IT support",
+      "tech assistance",
+      "help desk services"
+    ],
+    "english_explanations": [
+      "technical help that a company gives to customers using their computers or other products",
+      "Services provided to assist users with technology-related problems or questions."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "技术支持",
+        "english": "technical help that a company gives to customers using their computers or other products",
+        "example": "All our software licences include technical support."
+      },
+      {
+        "pos": "n.",
+        "meaning": "技术援助",
+        "english": "Services provided to assist users with technology-related problems or questions.",
+        "example": "Reliable technical support ensures that educational technology tools remain accessible to all users."
+      }
+    ]
+  },
+  {
+    "word": [
+      "transform"
+    ],
+    "english_synonyms": [
+      "change",
+      "convert",
+      "revolutionize",
+      "alter fundamentally"
+    ],
+    "english_explanations": [
+      "To make a marked change in the form, nature, or appearance of something."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "转变",
+        "english": "To make a marked change in the form, nature, or appearance of something.",
+        "example": "Artificial intelligence has the potential to transform traditional educational models."
+      },
+      {
+        "pos": "v.",
+        "meaning": "变革",
+        "english": "To make a marked change in the form, nature, or appearance of something.",
+        "example": "Artificial intelligence has the potential to transform traditional educational models."
+      },
+      {
+        "pos": "v.",
+        "meaning": "转化",
+        "english": "To make a marked change in the form, nature, or appearance of something.",
+        "example": "Artificial intelligence has the potential to transform traditional educational models."
+      }
+    ],
+    "roots": [
+      {
+        "root": "trans-",
+        "meaning": "across"
+      },
+      {
+        "root": "form",
+        "meaning": "shape"
+      }
+    ]
+  },
+  {
+    "word": [
+      "transparent design"
+    ],
+    "english_synonyms": [
+      "open design",
+      "clear architecture",
+      "visible structure"
+    ],
+    "english_explanations": [
+      "The practice of creating systems or processes whose operations and decision-making are easily understood and visible."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "透明设计",
+        "english": "The practice of creating systems or processes whose operations and decision-making are easily understood and visible.",
+        "example": "Transparent design in educational algorithms helps build trust among users and stakeholders."
+      },
+      {
+        "pos": "n.",
+        "meaning": "公开设计",
+        "english": "The practice of creating systems or processes whose operations and decision-making are easily understood and visible.",
+        "example": "Transparent design in educational algorithms helps build trust among users and stakeholders."
+      }
+    ]
+  },
+  {
+    "word": [
+      "tutoring"
+    ],
+    "english_synonyms": [
+      "coaching",
+      "instruction",
+      "mentoring",
+      "private teaching"
+    ],
+    "english_explanations": [
+      "to be a tutor to an individual student or a small group; to teach sb, especially privately",
+      "The act of giving individual instruction or guidance to a student, typically outside regular classes."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "辅导",
+        "english": "to be a tutor to an individual student or a small group; to teach sb, especially privately",
+        "example": "He tutors students in mathematics."
+      },
+      {
+        "pos": "n.",
+        "meaning": "家教",
+        "english": "The act of giving individual instruction or guidance to a student, typically outside regular classes.",
+        "example": "One-on-one tutoring has been shown to produce significant gains in student achievement."
+      },
+      {
+        "pos": "n.",
+        "meaning": "个别指导",
+        "english": "The act of giving individual instruction or guidance to a student, typically outside regular classes.",
+        "example": "One-on-one tutoring has been shown to produce significant gains in student achievement."
+      }
+    ],
+    "roots": [
+      {
+        "root": "tut",
+        "meaning": "watch"
+      },
+      {
+        "root": "-or",
+        "meaning": "one who"
+      },
+      {
+        "root": "-ing",
+        "meaning": "doing"
+      }
+    ]
+  },
+  {
+    "word": [
+      "virtual environments"
+    ],
+    "english_synonyms": [
+      "digital environments",
+      "simulated spaces",
+      "online worlds"
+    ],
+    "english_explanations": [
+      "Computer-generated spaces that simulate physical presence and allow users to interact within them."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "虚拟环境",
+        "english": "Computer-generated spaces that simulate physical presence and allow users to interact within them.",
+        "example": "Virtual environments provide immersive settings for experiential learning activities."
+      },
+      {
+        "pos": "n.",
+        "meaning": "虚拟空间",
+        "english": "Computer-generated spaces that simulate physical presence and allow users to interact within them.",
+        "example": "Virtual environments provide immersive settings for experiential learning activities."
+      }
+    ]
+  },
+  {
+    "word": [
+      "virtual spaces"
+    ],
+    "english_synonyms": [
+      "digital spaces",
+      "online environments",
+      "cyberspaces"
+    ],
+    "english_explanations": [
+      "Online or computer-generated areas where people can meet, interact, or collaborate."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "虚拟空间",
+        "english": "Online or computer-generated areas where people can meet, interact, or collaborate.",
+        "example": "Students from different countries met in virtual spaces to complete collaborative projects."
+      },
+      {
+        "pos": "n.",
+        "meaning": "线上空间",
+        "english": "Online or computer-generated areas where people can meet, interact, or collaborate.",
+        "example": "Students from different countries met in virtual spaces to complete collaborative projects."
+      }
+    ]
   }
 ]

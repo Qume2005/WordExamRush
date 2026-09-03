@@ -1,201 +1,567 @@
 [
   {
-    "word": ["plumage"],
+    "word": [
+      "plumage"
+    ],
     "phonetic": "/ˈpluːmɪdʒ/",
-    "english_synonyms": ["feathers", "feathering"],
+    "english_synonyms": [
+      "feathers",
+      "feathering"
+    ],
     "english_explanations": [
       "A bird's feathers collectively, including their colour and condition."
     ],
-    "chinese_translations": ["全身羽毛", "羽毛"],
-    "example_sentences": "Male birds display bright plumage to attract mates.",
-    "roots": [{"root":"plum","meaning":"feather"},{"root":"-age","meaning":"state or collection"}]
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "全身羽毛",
+        "english": "A bird's feathers collectively, including their colour and condition.",
+        "example": "Male birds display bright plumage to attract mates."
+      },
+      {
+        "pos": "n.",
+        "meaning": "羽毛",
+        "english": "A bird's feathers collectively, including their colour and condition.",
+        "example": "Male birds display bright plumage to attract mates."
+      }
+    ],
+    "roots": [
+      {
+        "root": "plum",
+        "meaning": "feather"
+      },
+      {
+        "root": "-age",
+        "meaning": "state or collection"
+      }
+    ]
   },
   {
-    "word": ["forelimb"],
+    "word": [
+      "forelimb"
+    ],
     "phonetic": "/ˈfɔːleɡ/",
-    "english_synonyms": ["front limb", "foreleg"],
+    "english_synonyms": [
+      "front limb",
+      "foreleg"
+    ],
     "english_explanations": [
       "Either of the front limbs of a four-legged animal, such as a wing or front leg."
     ],
-    "chinese_translations": ["前肢"],
-    "example_sentences": "Whales' forelimbs evolved into flippers.",
-    "roots": [{"root":"fore-","meaning":"front"},{"root":"limb","meaning":"limb"}]
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "前肢",
+        "english": "Either of the front limbs of a four-legged animal, such as a wing or front leg.",
+        "example": "Whales' forelimbs evolved into flippers."
+      }
+    ],
+    "roots": [
+      {
+        "root": "fore-",
+        "meaning": "front"
+      },
+      {
+        "root": "limb",
+        "meaning": "limb"
+      }
+    ]
   },
   {
-    "word": ["hindquarters"],
+    "word": [
+      "hindquarters"
+    ],
     "phonetic": "/ˌhaɪndˈkwɔːtəz/",
-    "english_synonyms": ["hind legs", "rump"],
+    "english_synonyms": [
+      "hind legs",
+      "rump"
+    ],
     "english_explanations": [
       "The rear part of a four-legged animal, including the hind legs and buttocks."
     ],
-    "chinese_translations": ["后躯", "后腿"],
-    "example_sentences": "The kangaroo's powerful hindquarters propel each leap."
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "后躯",
+        "english": "The rear part of a four-legged animal, including the hind legs and buttocks.",
+        "example": "The kangaroo's powerful hindquarters propel each leap."
+      },
+      {
+        "pos": "n.",
+        "meaning": "后腿",
+        "english": "The rear part of a four-legged animal, including the hind legs and buttocks.",
+        "example": "The kangaroo's powerful hindquarters propel each leap."
+      }
+    ]
   },
   {
-    "word": ["pectoral"],
+    "word": [
+      "pectoral"
+    ],
     "phonetic": "/ˈpektərəl/",
-    "english_synonyms": ["chest"],
+    "english_synonyms": [
+      "chest"
+    ],
     "english_explanations": [
+      "relating to or connected with the chest or breast",
       "Relating to the chest or breast, such as a pectoral fin."
     ],
-    "chinese_translations": ["胸的", "胸鳍的"],
-    "example_sentences": "The pectoral fins steer the fish through the water.",
-    "roots": [{"root":"pect","meaning":"breast"},{"root":"-oral","meaning":"relating to"}]
-  },
-  {
-    "word": ["ventral"],
-    "phonetic": "/ˈventrəl/",
-    "english_synonyms": ["abdominal", "belly-side"],
-    "english_explanations": [
-      "Relating to the underside or belly of an animal's body."
+    "chinese_translations": [
+      {
+        "pos": "adj.",
+        "meaning": "胸的",
+        "english": "relating to or connected with the chest or breast",
+        "example": "pectoral muscles"
+      },
+      {
+        "pos": "adj.",
+        "meaning": "胸鳍的",
+        "english": "Relating to the chest or breast, such as a pectoral fin.",
+        "example": "The pectoral fins steer the fish through the water."
+      }
     ],
-    "chinese_translations": ["腹侧的", "腹部的"],
-    "example_sentences": "The ventral side of the fish is paler than its back.",
-    "roots": [{"root":"ventr","meaning":"belly"},{"root":"-al","meaning":"relating to"}]
+    "roots": [
+      {
+        "root": "pect",
+        "meaning": "breast"
+      },
+      {
+        "root": "-oral",
+        "meaning": "relating to"
+      }
+    ]
   },
   {
-    "word": ["vertebra", "vertebrae"],
+    "word": [
+      "ventral"
+    ],
+    "phonetic": "/ˈventrəl/",
+    "english_synonyms": [
+      "abdominal",
+      "belly-side"
+    ],
+    "english_explanations": [
+      "on or connected with the part of a fish or an animal that is underneath (or that in humans faces forward)"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "adj.",
+        "meaning": "腹侧的",
+        "english": "on or connected with the part of a fish or an animal that is underneath (or that in humans faces forward)",
+        "example": "a fish's ventral fin"
+      },
+      {
+        "pos": "adj.",
+        "meaning": "腹部的",
+        "english": "on or connected with the part of a fish or an animal that is underneath (or that in humans faces forward)",
+        "example": "a fish's ventral fin"
+      }
+    ],
+    "roots": [
+      {
+        "root": "ventr",
+        "meaning": "belly"
+      },
+      {
+        "root": "-al",
+        "meaning": "relating to"
+      }
+    ]
+  },
+  {
+    "word": [
+      "vertebra",
+      "vertebrae"
+    ],
     "phonetic": "/ˈvɜːtɪbrə/",
-    "english_synonyms": ["spinal bone"],
+    "english_synonyms": [
+      "spinal bone"
+    ],
     "english_explanations": [
       "One of the small bones that interlock to form the backbone and protect the spinal cord."
     ],
-    "chinese_translations": ["脊椎骨", "椎骨"],
-    "example_sentences": "A giraffe's neck has only seven vertebrae, like a human's."
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "脊椎骨",
+        "english": "One of the small bones that interlock to form the backbone and protect the spinal cord.",
+        "example": "A giraffe's neck has only seven vertebrae, like a human's."
+      },
+      {
+        "pos": "n.",
+        "meaning": "椎骨",
+        "english": "One of the small bones that interlock to form the backbone and protect the spinal cord.",
+        "example": "A giraffe's neck has only seven vertebrae, like a human's."
+      }
+    ]
   },
   {
-    "word": ["cranial"],
+    "word": [
+      "cranial"
+    ],
     "phonetic": "/ˈkreɪniəm/",
-    "english_synonyms": ["of the skull"],
-    "english_explanations": ["Relating to the skull or head."],
-    "chinese_translations": ["颅的", "头颅的"],
-    "example_sentences": "The fossil's cranial capacity suggested a large brain.",
-    "roots": [{"root":"crani","meaning":"skull"},{"root":"-al","meaning":"relating to"}]
+    "english_synonyms": [
+      "of the skull"
+    ],
+    "english_explanations": [
+      "Relating to the skull or head."
+    ],
+    "chinese_translations": [
+      {
+        "pos": "adj.",
+        "meaning": "颅的",
+        "english": "Relating to the skull or head.",
+        "example": "The fossil's cranial capacity suggested a large brain."
+      },
+      {
+        "pos": "adj.",
+        "meaning": "头颅的",
+        "english": "Relating to the skull or head.",
+        "example": "The fossil's cranial capacity suggested a large brain."
+      }
+    ],
+    "roots": [
+      {
+        "root": "crani",
+        "meaning": "skull"
+      },
+      {
+        "root": "-al",
+        "meaning": "relating to"
+      }
+    ]
   },
   {
-    "word": ["webbed", "webbing"],
+    "word": [
+      "webbed",
+      "webbing"
+    ],
     "phonetic": "/webd/",
     "english_synonyms": [],
     "english_explanations": [
       "(of feet) having the toes joined by skin, for swimming; the skin itself."
     ],
-    "chinese_translations": ["有蹼的", "蹼"],
-    "example_sentences": "Ducks propel themselves with their webbed feet."
+    "chinese_translations": [
+      {
+        "pos": "adj.",
+        "meaning": "有蹼的",
+        "english": "(of feet) having the toes joined by skin, for swimming; the skin itself.",
+        "example": "Ducks propel themselves with their webbed feet."
+      },
+      {
+        "pos": "adj.",
+        "meaning": "蹼",
+        "english": "(of feet) having the toes joined by skin, for swimming; the skin itself.",
+        "example": "Ducks propel themselves with their webbed feet."
+      }
+    ]
   },
   {
-    "word": ["talon"],
+    "word": [
+      "talon"
+    ],
     "phonetic": "/ˈtælən/",
-    "english_synonyms": ["claw"],
+    "english_synonyms": [
+      "claw"
+    ],
     "english_explanations": [
       "A large sharp claw of a bird of prey, used to seize and kill."
     ],
-    "chinese_translations": ["利爪", "爪"],
-    "example_sentences": "The eagle gripped the rabbit with its talons."
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "利爪",
+        "english": "A large sharp claw of a bird of prey, used to seize and kill.",
+        "example": "The eagle gripped the rabbit with its talons."
+      },
+      {
+        "pos": "n.",
+        "meaning": "爪",
+        "english": "A large sharp claw of a bird of prey, used to seize and kill.",
+        "example": "The eagle gripped the rabbit with its talons."
+      }
+    ]
   },
   {
-    "word": ["homeostasis"],
+    "word": [
+      "homeostasis"
+    ],
     "phonetic": "/ˌhəʊmiəˈsteɪsɪs/",
-    "english_synonyms": ["internal balance", "equilibrium"],
+    "english_synonyms": [
+      "internal balance",
+      "equilibrium"
+    ],
     "english_explanations": [
       "The tendency of an organism to keep its internal conditions stable."
     ],
-    "chinese_translations": ["体内平衡", "内稳态"],
-    "example_sentences": "Sweating is part of the body's homeostasis.",
-    "roots": [{"root":"homeo-","meaning":"same"},{"root":"stasis","meaning":"standing still"}]
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "体内平衡",
+        "english": "The tendency of an organism to keep its internal conditions stable.",
+        "example": "Sweating is part of the body's homeostasis."
+      },
+      {
+        "pos": "n.",
+        "meaning": "内稳态",
+        "english": "The tendency of an organism to keep its internal conditions stable.",
+        "example": "Sweating is part of the body's homeostasis."
+      }
+    ],
+    "roots": [
+      {
+        "root": "homeo-",
+        "meaning": "same"
+      },
+      {
+        "root": "stasis",
+        "meaning": "standing still"
+      }
+    ]
   },
   {
-    "word": ["gestation"],
+    "word": [
+      "gestation"
+    ],
     "phonetic": "/dʒeˈsteɪʃn/",
-    "english_synonyms": ["pregnancy"],
+    "english_synonyms": [
+      "pregnancy"
+    ],
     "english_explanations": [
+      "the time that the young of a person or an animal develops inside its mother's body until it is born; the process of developing inside the mother's body",
       "The period during which a mammal carries its unborn young."
     ],
-    "chinese_translations": ["妊娠", "怀孕期"],
-    "example_sentences": "The gestation period of an elephant lasts nearly two years.",
-    "roots": [{"root":"gest","meaning":"bear"},{"root":"-ation","meaning":"process of"}]
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "妊娠",
+        "english": "the time that the young of a person or an animal develops inside its mother's body until it is born; the process of developing inside the mother's body",
+        "example": "a baby born at 38 weeks' gestation"
+      },
+      {
+        "pos": "n.",
+        "meaning": "怀孕期",
+        "english": "The period during which a mammal carries its unborn young.",
+        "example": "The gestation period of an elephant lasts nearly two years."
+      }
+    ],
+    "roots": [
+      {
+        "root": "gest",
+        "meaning": "bear"
+      },
+      {
+        "root": "-ation",
+        "meaning": "process of"
+      }
+    ]
   },
   {
-    "word": ["estrus"],
+    "word": [
+      "estrus"
+    ],
     "phonetic": "/ˈiːstrəs/",
-    "english_synonyms": ["heat", "oestrus"],
+    "english_synonyms": [
+      "heat",
+      "oestrus"
+    ],
     "english_explanations": [
       "A recurring period when a female mammal is receptive to mating."
     ],
-    "chinese_translations": ["发情期"],
-    "example_sentences": "Female elephants advertise estrus through low-frequency calls."
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "发情期",
+        "english": "A recurring period when a female mammal is receptive to mating.",
+        "example": "Female elephants advertise estrus through low-frequency calls."
+      }
+    ]
   },
   {
-    "word": ["hibernate"],
+    "word": [
+      "hibernate"
+    ],
     "phonetic": "/ˈhaɪbəneɪt/",
-    "english_synonyms": ["sleep through winter", "lie dormant"],
+    "english_synonyms": [
+      "sleep through winter",
+      "lie dormant"
+    ],
     "english_explanations": [
       "To pass the winter in a dormant state with slowed metabolism."
     ],
-    "chinese_translations": ["冬眠"],
-    "example_sentences": "Cave bears once hibernated through Europe's ice-age winters.",
-    "roots": [{"root":"hibern","meaning":"winter"},{"root":"-ate","meaning":"to perform"}]
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "冬眠",
+        "english": "To pass the winter in a dormant state with slowed metabolism.",
+        "example": "Cave bears once hibernated through Europe's ice-age winters."
+      }
+    ],
+    "roots": [
+      {
+        "root": "hibern",
+        "meaning": "winter"
+      },
+      {
+        "root": "-ate",
+        "meaning": "to perform"
+      }
+    ]
   },
   {
-    "word": ["infrasonic", "infrasound"],
+    "word": [
+      "infrasonic",
+      "infrasound"
+    ],
     "phonetic": "/ˌɪnfrəˈsɒnɪk/",
     "english_synonyms": [],
     "english_explanations": [
       "(of sound) below the frequencies humans can hear; sound of such frequency."
     ],
-    "chinese_translations": ["次声的", "次声波"],
-    "example_sentences": "Elephants coordinate herds using infrasonic rumbles.",
-    "roots": [{"root":"infra-","meaning":"below"},{"root":"son","meaning":"sound"},{"root":"-ic","meaning":"relating to"}]
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "次声的",
+        "english": "(of sound) below the frequencies humans can hear; sound of such frequency.",
+        "example": "Elephants coordinate herds using infrasonic rumbles."
+      },
+      {
+        "pos": "n.",
+        "meaning": "次声波",
+        "english": "(of sound) below the frequencies humans can hear; sound of such frequency.",
+        "example": "Elephants coordinate herds using infrasonic rumbles."
+      }
+    ],
+    "roots": [
+      {
+        "root": "infra-",
+        "meaning": "below"
+      },
+      {
+        "root": "son",
+        "meaning": "sound"
+      },
+      {
+        "root": "-ic",
+        "meaning": "relating to"
+      }
+    ]
   },
   {
-    "word": ["glycogen"],
+    "word": [
+      "glycogen"
+    ],
     "phonetic": "/ˈɡlaɪkədʒən/",
     "english_synonyms": [],
     "english_explanations": [
       "A stored form of sugar held in animals' muscles and liver for energy."
     ],
-    "chinese_translations": ["糖原"],
-    "example_sentences": "Migrating fish burn the glycogen stored in their muscles.",
-    "roots": [{"root":"glyc","meaning":"sweet"},{"root":"-ogen","meaning":"producing"}]
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "糖原",
+        "english": "A stored form of sugar held in animals' muscles and liver for energy.",
+        "example": "Migrating fish burn the glycogen stored in their muscles."
+      }
+    ],
+    "roots": [
+      {
+        "root": "glyc",
+        "meaning": "sweet"
+      },
+      {
+        "root": "-ogen",
+        "meaning": "producing"
+      }
+    ]
   },
   {
-    "word": ["cellulose"],
+    "word": [
+      "cellulose"
+    ],
     "phonetic": "/ˈseljuləʊs/",
     "english_synonyms": [],
     "english_explanations": [
       "The insoluble fibre of plant cell walls, digestible only with microbial help."
     ],
-    "chinese_translations": ["纤维素"],
-    "example_sentences": "Termites digest cellulose thanks to microbes in their gut.",
-    "roots": [{"root":"cellul","meaning":"cell"},{"root":"-ose","meaning":"full of"}]
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "纤维素",
+        "english": "The insoluble fibre of plant cell walls, digestible only with microbial help.",
+        "example": "Termites digest cellulose thanks to microbes in their gut."
+      }
+    ],
+    "roots": [
+      {
+        "root": "cellul",
+        "meaning": "cell"
+      },
+      {
+        "root": "-ose",
+        "meaning": "full of"
+      }
+    ]
   },
   {
-    "word": ["guanine"],
+    "word": [
+      "guanine"
+    ],
     "phonetic": "/ˈɡwɑːniːn/",
     "english_synonyms": [],
     "english_explanations": [
       "A base of DNA whose crystals also give fish skin its silvery shimmer."
     ],
-    "chinese_translations": ["鸟嘌呤"],
-    "example_sentences": "Guanine crystals give fish their metallic sheen."
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "鸟嘌呤",
+        "english": "A base of DNA whose crystals also give fish skin its silvery shimmer.",
+        "example": "Guanine crystals give fish their metallic sheen."
+      }
+    ]
   },
   {
-    "word": ["flagella", "flagellum"],
+    "word": [
+      "flagella",
+      "flagellum"
+    ],
     "phonetic": "/fləˈdʒelə/",
     "english_synonyms": [],
     "english_explanations": [
       "Long whip-like strands with which single cells propel themselves."
     ],
-    "chinese_translations": ["鞭毛"],
-    "example_sentences": "Some bacteria swim using rotating flagella."
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "鞭毛",
+        "english": "Long whip-like strands with which single cells propel themselves.",
+        "example": "Some bacteria swim using rotating flagella."
+      }
+    ]
   },
   {
-    "word": ["bladder"],
+    "word": [
+      "bladder"
+    ],
     "phonetic": "/ˈblædə(r)/",
     "english_synonyms": [],
     "english_explanations": [
       "An organ that holds urine; in fish, the gas-filled sac that controls buoyancy."
     ],
-    "chinese_translations": ["膀胱", "鳔"],
-    "example_sentences": "The fish adjusts its depth using the gas in its bladder."
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "膀胱",
+        "english": "An organ that holds urine; in fish, the gas-filled sac that controls buoyancy.",
+        "example": "The fish adjusts its depth using the gas in its bladder."
+      },
+      {
+        "pos": "n.",
+        "meaning": "鳔",
+        "english": "An organ that holds urine; in fish, the gas-filled sac that controls buoyancy.",
+        "example": "The fish adjusts its depth using the gas in its bladder."
+      }
+    ]
   }
 ]
