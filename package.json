@@ -8,7 +8,8 @@
     "dev": "node scripts/generate-manifest.js && vite",
     "build": "node scripts/generate-manifest.js && vue-tsc -b && vite build",
     "manifest": "node scripts/generate-manifest.js",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test": "vitest run"
   },
   "dependencies": {
     "vue": "^3.5.32"
@@ -21,6 +22,7 @@
     "js-mdict": "^7.0.0",
     "typescript": "~6.0.2",
     "vite": "^8.0.4",
+    "vitest": "^5.0.0",
     "vue-tsc": "^3.2.6"
   }
 }
