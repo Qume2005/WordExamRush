@@ -15,6 +15,7 @@
 - 构建时自动验证单词表格式
 - 答案卡词根拆解展示（有词根数据的词）
 - 答案卡音标展示（有音标数据的词）
+- OneDrive 云同步（个人微软账号）：登录后进度自动备份到自己的 OneDrive，换设备登录同一账号可合并进度
 
 ## 单词表格式
 
@@ -88,3 +89,35 @@ pnpm build
 - Vue 3.5 + Composition API
 - TypeScript 6
 - Vite 8
+
+## 云同步（OneDrive）
+
+使用个人微软账号（outlook/hotmail 等）登录，进度自动备份到应用在 OneDrive 中的私有文件夹（approot）。同一账号在其他设备登录时，进度会合并回来。合并采用逐词收敛策略，两台设备的记录都会保留。
+
+### 配置步骤
+
+在 Azure 门户中注册应用：
+
+- 支持账户类型：选"个人 Microsoft 账户"（不支持工作/学校账号）
+- 平台：添加"单页应用程序"(SPA)
+- 重定向 URI 注册两个：`https://rush.liqianmo.ink/` 与备用 `https://qume2005.github.io/WordExamRush/`
+- API 权限：添加委托权限 `Files.ReadWrite.AppFolder` + `User.Read`
+- 把 Application (client) ID 填入 `src/business/syncConfig.ts` 的 `MSAL_CLIENT_ID`
+
+### 何时会同步
+
+- 启动时（已登录则静默同步）
+- 退出答题或详情屏时
+- 切换到后台时（best-effort 兜底上传）
+- 手动点击"立即同步"
+
+答题过程中不自动上传。
+
+### 已知上限
+
+1. 本地"重置进度"后，云端旧进度在下次同步时会被合并回来（换设备清理需先登出或清空云端文件）
+2. 双设备同一时刻上传时，后写的会覆盖先写的
+3. 同一浏览器双标签页同时答题本就互相覆盖（既有行为），云同步会固化这种覆盖
+4. 单词表文件内容变更会更换进度 key（hash），旧进度经墓碑机制清除后不可恢复
+5. 仅支持个人微软账号（outlook/hotmail 等），不支持工作/学校 OneDrive 账号
+6. 单词表内容回滚到旧版本后，需在所有已同步设备上重新打开该表才能恢复进度（墓碑解毒仅本地成立）
