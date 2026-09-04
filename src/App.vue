@@ -7,6 +7,7 @@ import {
   saveSession,
   clearSession,
 } from './business/progressStorage'
+import { init, flushSync, syncOnExit } from './business/syncController'
 import InputScreen from './components/InputScreen.vue'
 import WordDetailScreen from './components/WordDetailScreen.vue'
 import QuizScreen from './components/QuizScreen.vue'
@@ -61,6 +62,8 @@ function onBack() {
   saveProgress()
   clearSession()
   phase.value = 'input'
+  // 退出即同步：fire-and-forget，不阻塞屏幕切换
+  syncOnExit()
 }
 
 function onResetProgress() {
@@ -82,8 +85,19 @@ function onGlobalKeydown(e) {
   }
 }
 
-onMounted(() => window.addEventListener('keydown', onGlobalKeydown))
-onUnmounted(() => window.removeEventListener('keydown', onGlobalKeydown))
+function onVisibilityChange() {
+  if (document.hidden) flushSync()
+}
+
+onMounted(() => {
+  window.addEventListener('keydown', onGlobalKeydown)
+  document.addEventListener('visibilitychange', onVisibilityChange)
+  init()
+})
+onUnmounted(() => {
+  window.removeEventListener('keydown', onGlobalKeydown)
+  document.removeEventListener('visibilitychange', onVisibilityChange)
+})
 </script>
 
 <template>

@@ -4,6 +4,7 @@ import { parseAndProcess } from '../business/wordProcessor'
 import { resolveFileHash, ensureFileEntry, calcFilePercent, calcFileSparkline, consumeSession } from '../business/progressStorage'
 import { createWordProgress } from '../business/quizEngine'
 import SparklineChart from './SparklineChart.vue'
+import SyncPanel from './SyncPanel.vue'
 
 const emit = defineEmits(['resume-quiz', 'show-detail'])
 
@@ -214,6 +215,7 @@ function dismissResume() {
         </div>
       </div>
     </div>
+    <SyncPanel @synced="statsVersion++" />
     <p v-if="fileTree.length === 0 && !errorMsg" class="empty-msg">未找到单词表文件</p>
     <p v-if="errorMsg" class="error-msg">{{ errorMsg }}</p>
     <div v-if="resumePrompt" class="resume-overlay" @click.self="dismissResume">

@@ -12,7 +12,7 @@ export class SyncError extends Error {
 
 type MsalInstance = {
   initialize: () => Promise<void>
-  getAllAccounts: () => { homeAccountId?: string; localAccountId: string }[]
+  getAllAccounts: () => { homeAccountId?: string; localAccountId: string; username?: string }[]
   acquireTokenSilent: (req: { scopes: string[]; account: unknown }) => Promise<{ accessToken: string }>
   acquireTokenPopup: (req: { scopes: string[] }) => Promise<{ accessToken: string }>
   loginPopup: (req: { scopes: string[] }) => Promise<unknown>
@@ -140,13 +140,18 @@ export async function fetchSyncFile(): Promise<string | null> {
 }
 
 /** 上传文本到 approot 同步文件；首次使用时 approot 可能不存在，404 后建目录重试一次 */
-export async function putSyncFile(text: string, bearerToken?: string): Promise<void> {
+export async function putSyncFile(
+  text: string,
+  bearerToken?: string,
+  opts?: { keepalive?: boolean }
+): Promise<void> {
   const token = bearerToken ?? (await getToken({ silentOnly: true }))
   const doPut = () =>
     graphFetch(fileUrl(), {
       method: 'PUT',
       headers: { Authorization: 'Bearer ' + token, 'Content-Type': 'application/json' },
       body: text,
+      keepalive: opts?.keepalive,
     })
 
   let res = await doPut()
