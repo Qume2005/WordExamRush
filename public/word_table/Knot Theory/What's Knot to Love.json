@@ -1,0 +1,596 @@
+[
+  {
+    "word": [
+      "knot theory"
+    ],
+    "english_synonyms": [
+      "theory of knots"
+    ],
+    "english_explanations": [
+      "the branch of topology that studies mathematical knots and how to tell them apart"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "纽结理论",
+        "english": "the branch of topology that studies closed loops of string and how to distinguish different knots",
+        "example": "Knot theory was born when pure mathematicians took over the study of knots from the physicists."
+      }
+    ]
+  },
+  {
+    "word": [
+      "knot"
+    ],
+    "english_synonyms": [
+      "mathematical knot",
+      "embedded loop"
+    ],
+    "english_explanations": [
+      "a closed loop of string embedded in three-dimensional space, with no free ends"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "纽结",
+        "english": "a closed loop in space that cannot be untied without cutting",
+        "example": "Mathematically, your shoelaces are only a knot if the ends are fused together into a closed loop."
+      }
+    ]
+  },
+  {
+    "word": [
+      "closed loop"
+    ],
+    "english_synonyms": [
+      "closed curve",
+      "loop"
+    ],
+    "english_explanations": [
+      "a curve with no free ends, forming a complete circle-like path"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "闭合环",
+        "english": "a path with no free ends, formed by fusing the ends of a string together",
+        "example": "Your laces are only a mathematical knot if they form a closed loop."
+      }
+    ]
+  },
+  {
+    "word": [
+      "topology"
+    ],
+    "english_synonyms": [
+      "rubber-sheet geometry"
+    ],
+    "english_explanations": [
+      "the branch of mathematics that studies properties preserved under continuous deformation"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "拓扑学",
+        "english": "the study of properties that stay the same when shapes are stretched or bent, but not cut",
+        "example": "Knot theory is a branch of topology."
+      }
+    ],
+    "roots": [
+      {
+        "root": "topo",
+        "meaning": "place"
+      },
+      {
+        "root": "logy",
+        "meaning": "the study of"
+      }
+    ]
+  },
+  {
+    "word": [
+      "ambient isotopy"
+    ],
+    "english_synonyms": [],
+    "english_explanations": [
+      "a smooth deformation of the whole surrounding space that moves one knot onto another without cutting or passing strands through each other"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "环境同痕",
+        "english": "a smooth deformation of the surrounding space that carries one knot to another without cutting",
+        "example": "Two knots are equivalent exactly when an ambient isotopy carries one to the other."
+      }
+    ]
+  },
+  {
+    "word": [
+      "trefoil knot"
+    ],
+    "english_synonyms": [
+      "cloverleaf knot",
+      "3_1 knot"
+    ],
+    "english_explanations": [
+      "the simplest nontrivial knot, with exactly three crossings"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "三叶结",
+        "english": "the simplest knot that cannot be untied, shaped like a clover with three crossings",
+        "example": "The trefoil knot is tricolourable, but the figure of eight knot is not, so they are different knots."
+      }
+    ]
+  },
+  {
+    "word": [
+      "figure of eight knot"
+    ],
+    "english_synonyms": [
+      "figure-eight knot",
+      "4_1 knot"
+    ],
+    "english_explanations": [
+      "a knot with four crossings whose diagram looks like the numeral 8"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "八字结",
+        "english": "a four-crossing knot that looks like the numeral 8",
+        "example": "Unlike the trefoil, the figure of eight knot cannot be tricoloured."
+      },
+      {
+        "pos": "n.",
+        "meaning": "8字结",
+        "english": "a four-crossing knot that looks like the numeral 8",
+        "example": "Unlike the trefoil, the figure of eight knot cannot be tricoloured."
+      }
+    ]
+  },
+  {
+    "word": [
+      "unknot"
+    ],
+    "english_synonyms": [
+      "trivial knot"
+    ],
+    "english_explanations": [
+      "a simple closed loop with no knot in it, equivalent to an ordinary circle of string"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "平凡纽结",
+        "english": "the simplest knot of all: an untangled closed loop, also called the trivial knot",
+        "example": "However tangled it looks, the diagram in Figure 3 unravels into the unknot."
+      }
+    ],
+    "roots": [
+      {
+        "root": "un",
+        "meaning": "not, the reverse of"
+      },
+      {
+        "root": "knot",
+        "meaning": "an entangled loop"
+      }
+    ]
+  },
+  {
+    "word": [
+      "tangle"
+    ],
+    "english_synonyms": [],
+    "english_explanations": [
+      "a section of a knot diagram where the string is twisted and crossed in a complicated way"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "缠结",
+        "english": "a twisted, crossed section of string within a knot diagram",
+        "example": "Is the unknot equivalent to the tangle on the right? Knot so easy this time."
+      }
+    ]
+  },
+  {
+    "word": [
+      "knot diagram"
+    ],
+    "english_synonyms": [
+      "knot projection",
+      "diagram of a knot"
+    ],
+    "english_explanations": [
+      "a two-dimensional drawing of a knot showing, at each crossing, which strand passes over"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "纽结图",
+        "english": "a plane drawing of a knot in which breaks mark which strand passes under at each crossing",
+        "example": "From a knot diagram we can build the knot matrix and compute the Alexander polynomial."
+      }
+    ]
+  },
+  {
+    "word": [
+      "Reidemeister moves"
+    ],
+    "english_synonyms": [
+      "twist, poke and slide"
+    ],
+    "english_explanations": [
+      "the three basic ways of redrawing a knot diagram — a twist, a poke and a slide — none of which changes the knot"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "瑞德迈斯特移动",
+        "english": "the three basic diagram changes (twist, poke, slide) that never change the knot itself",
+        "example": "No sequence of Reidemeister moves can turn the trefoil knot into the figure of eight knot."
+      }
+    ]
+  },
+  {
+    "word": [
+      "strand"
+    ],
+    "english_synonyms": [
+      "arc",
+      "section"
+    ],
+    "english_explanations": [
+      "one continuous piece of the string in a knot diagram, running between crossings"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "线股",
+        "english": "a continuous section of the string in a knot diagram",
+        "example": "Every strand of the knot diagram must be filled with one of the three colours."
+      }
+    ]
+  },
+  {
+    "word": [
+      "crossing"
+    ],
+    "english_synonyms": [
+      "intersection point",
+      "crossing point"
+    ],
+    "english_explanations": [
+      "a point in a knot diagram where one strand passes over another"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "交叉点",
+        "english": "a point of the diagram where one strand of the knot passes over another",
+        "example": "Each crossing is labelled and becomes a row heading of the knot matrix."
+      }
+    ],
+    "roots": [
+      {
+        "root": "cross",
+        "meaning": "to go across"
+      },
+      {
+        "root": "ing",
+        "meaning": "forming a noun"
+      }
+    ]
+  },
+  {
+    "word": [
+      "overcrossing"
+    ],
+    "english_synonyms": [
+      "overpass",
+      "strand passing over"
+    ],
+    "english_explanations": [
+      "the strand that passes on top at a crossing"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "上交叉线",
+        "english": "the strand that passes over the others at a crossing",
+        "example": "At each crossing, the overcrossing strand contributes a 2 to the knot matrix."
+      }
+    ],
+    "roots": [
+      {
+        "root": "over",
+        "meaning": "above"
+      },
+      {
+        "root": "cross",
+        "meaning": "to go across"
+      },
+      {
+        "root": "ing",
+        "meaning": "forming a noun"
+      }
+    ]
+  },
+  {
+    "word": [
+      "undercrossing"
+    ],
+    "english_synonyms": [
+      "underpass",
+      "strand passing under"
+    ],
+    "english_explanations": [
+      "a strand that passes beneath another at a crossing"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "下交叉线",
+        "english": "a strand that passes under the others at a crossing",
+        "example": "The two undercrossing strands each contribute a -1 to the row of the matrix."
+      }
+    ],
+    "roots": [
+      {
+        "root": "under",
+        "meaning": "below"
+      },
+      {
+        "root": "cross",
+        "meaning": "to go across"
+      },
+      {
+        "root": "ing",
+        "meaning": "forming a noun"
+      }
+    ]
+  },
+  {
+    "word": [
+      "tricolourability"
+    ],
+    "english_synonyms": [
+      "3-colourability"
+    ],
+    "english_explanations": [
+      "whether a knot diagram can be coloured with three colours so that every colour is used and each crossing is all-same or all-different"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "三色性",
+        "english": "the property of a knot being colourable with three colours under the colouring rules",
+        "example": "Tricolourability is a knot invariant: no Reidemeister move can take it away."
+      }
+    ],
+    "roots": [
+      {
+        "root": "tri",
+        "meaning": "three"
+      },
+      {
+        "root": "colour",
+        "meaning": "colour"
+      },
+      {
+        "root": "ability",
+        "meaning": "the quality of being able"
+      }
+    ]
+  },
+  {
+    "word": [
+      "tricolourable"
+    ],
+    "english_synonyms": [
+      "3-colourable"
+    ],
+    "english_explanations": [
+      "able to be coloured with three colours so that each crossing shows three different colours or one single colour"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "adj.",
+        "meaning": "可三色的",
+        "english": "(of a knot diagram) colourable with three colours so that every crossing is all-same or all-different",
+        "example": "The trefoil knot is tricolourable, but the figure of eight knot and the unknot are not."
+      }
+    ],
+    "roots": [
+      {
+        "root": "tri",
+        "meaning": "three"
+      },
+      {
+        "root": "colour",
+        "meaning": "colour"
+      },
+      {
+        "root": "able",
+        "meaning": "capable of"
+      }
+    ]
+  },
+  {
+    "word": [
+      "prime-colourability"
+    ],
+    "english_synonyms": [
+      "p-colourability"
+    ],
+    "english_explanations": [
+      "the generalisation of tricolourability from three colours to any prime number of colours"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "素数着色性",
+        "english": "colourability by any prime number p of colours, generalising the rule a + b ≡ 2c (mod 3)",
+        "example": "Instead of three colours, prime-colourability allows any prime number of colours."
+      }
+    ]
+  },
+  {
+    "word": [
+      "knot invariant"
+    ],
+    "english_synonyms": [
+      "invariant of a knot"
+    ],
+    "english_explanations": [
+      "a property of a knot that does not change under ambient isotopy or any allowed moves"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "纽结不变量",
+        "english": "a property that stays the same no matter how the knot is deformed",
+        "example": "If one knot has an invariant that the other lacks, the two knots are distinct."
+      }
+    ]
+  },
+  {
+    "word": [
+      "invariant"
+    ],
+    "english_synonyms": [
+      "unchanging property"
+    ],
+    "english_explanations": [
+      "something, such as a number or a polynomial, that does not change under a given set of transformations"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "不变量",
+        "english": "a quantity or property that remains the same under allowed transformations",
+        "example": "The Alexander polynomial is the most powerful invariant in the article."
+      }
+    ],
+    "roots": [
+      {
+        "root": "in",
+        "meaning": "not"
+      },
+      {
+        "root": "variant",
+        "meaning": "changing"
+      }
+    ]
+  },
+  {
+    "word": [
+      "knot determinant"
+    ],
+    "english_synonyms": [
+      "determinant of the knot matrix"
+    ],
+    "english_explanations": [
+      "a number computed from a knot diagram; a knot is p-colourable exactly when p divides this determinant"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "纽结行列式",
+        "english": "a number computed from the knot matrix that determines the prime colourability of a knot",
+        "example": "The knot determinant of the trefoil is -3, which is divisible by 3, so the trefoil is tricolourable."
+      }
+    ]
+  },
+  {
+    "word": [
+      "Alexander polynomial"
+    ],
+    "english_synonyms": [
+      "Alexander invariant"
+    ],
+    "english_explanations": [
+      "a polynomial invariant of a knot, built from a labelled knot matrix, that generalises the knot determinant"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "亚历山大多项式",
+        "english": "a polynomial that labels every knot uniquely, generalising the knot determinant",
+        "example": "Setting t = -1 in the Alexander polynomial -t^2 + t - 1 gives the knot determinant of the trefoil."
+      }
+    ]
+  },
+  {
+    "word": [
+      "knot polynomial"
+    ],
+    "english_synonyms": [
+      "polynomial knot invariant"
+    ],
+    "english_explanations": [
+      "a polynomial associated with a knot that helps distinguish knots from one another"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "纽结多项式",
+        "english": "a polynomial invariant used to tell knots apart",
+        "example": "It is still an open problem whether a knot polynomial can distinguish every knot from all others."
+      }
+    ]
+  },
+  {
+    "word": [
+      "orientation"
+    ],
+    "english_synonyms": [
+      "direction of travel",
+      "traversal direction"
+    ],
+    "english_explanations": [
+      "an arbitrary choice of the direction of travel around the knot, denoted by arrows"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "定向",
+        "english": "an arbitrarily chosen direction of travel around the knot, shown by arrows",
+        "example": "Choose an orientation for the knot before building the Alexander polynomial."
+      }
+    ],
+    "roots": [
+      {
+        "root": "orient",
+        "meaning": "to position, to face"
+      },
+      {
+        "root": "ation",
+        "meaning": "forming a noun"
+      }
+    ]
+  },
+  {
+    "word": [
+      "mirror image"
+    ],
+    "english_synonyms": [
+      "reflection",
+      "mirror reflection"
+    ],
+    "english_explanations": [
+      "the knot obtained by reflecting a given knot, which may or may not be equivalent to it"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "镜像",
+        "english": "the reflected version of a knot, which may be a different knot altogether",
+        "example": "The system works for most knots, mirror images and complicated variations aside."
+      }
+    ]
+  }
+]
