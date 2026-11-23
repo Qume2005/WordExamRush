@@ -1,0 +1,2213 @@
+[
+  {
+    "word": [
+      "damp"
+    ],
+    "phonetic": "/dæmp/",
+    "english_synonyms": [
+      "moisten",
+      "wet",
+      "humidify"
+    ],
+    "english_explanations": [
+      "make something slightly wet"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "使潮湿；弄湿",
+        "english": "make something slightly wet, especially on the surface",
+        "example": "Light coastal fog dampens the walls of old harbour houses and encourages mould growth during winter."
+      }
+    ]
+  },
+  {
+    "word": [
+      "grab"
+    ],
+    "phonetic": "/ɡræb/",
+    "english_synonyms": [
+      "seize",
+      "snatch",
+      "grasp"
+    ],
+    "english_explanations": [
+      "take hold of something suddenly or roughly",
+      "get something quickly and without care"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "抓住；夺取；（匆匆地）取或拿",
+        "english": "take hold of something suddenly and roughly, or get something quickly and without care",
+        "example": "Commuters often grab a quick coffee at the station because the morning train leaves immediately after rush hour."
+      }
+    ]
+  },
+  {
+    "word": [
+      "remote"
+    ],
+    "phonetic": "/rɪˈməʊt/",
+    "english_synonyms": [
+      "isolated",
+      "distant",
+      "inaccessible"
+    ],
+    "english_explanations": [
+      "far away from cities and difficult to reach",
+      "not showing much emotion or interest in other people"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "adj.",
+        "meaning": "偏僻的；遥远的",
+        "english": "far from towns or cities and difficult to reach",
+        "example": "Solar panels now supply electricity to remote villages that were never connected to the national power grid."
+      },
+      {
+        "pos": "adj.",
+        "meaning": "（关系）疏远的；冷淡的",
+        "english": "not friendly or showing little emotion or interest in others",
+        "example": "His remote manner during meetings made colleagues hesitate before sharing ideas about the reform proposal."
+      }
+    ]
+  },
+  {
+    "word": [
+      "mastery"
+    ],
+    "phonetic": "/ˈmɑːstəri/",
+    "english_synonyms": [
+      "expertise",
+      "proficiency",
+      "command"
+    ],
+    "english_explanations": [
+      "complete skill or knowledge of a subject or activity"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "精通；熟练；掌握",
+        "english": "complete skill in or knowledge of a subject or activity",
+        "example": "Mastery of a second language opens international career opportunities that remain closed to monolingual graduates."
+      }
+    ]
+  },
+  {
+    "word": [
+      "stain"
+    ],
+    "phonetic": "/steɪn/",
+    "english_synonyms": [
+      "mark",
+      "blotch",
+      "blemish"
+    ],
+    "english_explanations": [
+      "a dirty mark on a surface that is difficult to remove"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "污点；污渍；瑕疵",
+        "english": "a dirty mark on a surface that is hard to remove",
+        "example": "Conservators removed decades of stubborn stains from the cathedral windows without damaging the original painted glass."
+      }
+    ]
+  },
+  {
+    "word": [
+      "administer"
+    ],
+    "phonetic": "/ədˈmɪnɪstə(r)/",
+    "english_synonyms": [
+      "manage",
+      "supervise",
+      "dispense"
+    ],
+    "english_explanations": [
+      "manage the work or affairs of a company, organization or law",
+      "give a drug or medical treatment to a patient"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "管理；执行",
+        "english": "manage the work or affairs of a company, organization or legal system",
+        "example": "A central agency administers the scholarship programme and monitors how each university allocates its annual funding."
+      },
+      {
+        "pos": "v.",
+        "meaning": "给予（药物）；施行",
+        "english": "give a drug or medical treatment to a patient",
+        "example": "Nurses administer the vaccine in stages so that clinics can monitor every patient for rare side effects."
+      }
+    ]
+  },
+  {
+    "word": [
+      "compound"
+    ],
+    "phonetic": "/ˈkɒmpaʊnd/",
+    "english_synonyms": [
+      "mixture",
+      "combination",
+      "blend"
+    ],
+    "english_explanations": [
+      "a substance formed by chemically combining two or more elements"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "化合物；复合物",
+        "english": "a substance formed by chemically combining two or more elements",
+        "example": "Scientists developed a new chemical compound that removes heavy metals from industrial wastewater far more efficiently."
+      }
+    ]
+  },
+  {
+    "word": [
+      "location"
+    ],
+    "phonetic": "/ləʊˈkeɪʃn/",
+    "english_synonyms": [
+      "site",
+      "position",
+      "place"
+    ],
+    "english_explanations": [
+      "a particular place or position",
+      "a place used for filming outside a studio"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "位置；场所；（电影的）外景拍摄地",
+        "english": "a particular place or position, or a place used for filming outside a studio",
+        "example": "Careful choice of the factory location reduces transport costs and cuts the carbon footprint of distribution."
+      }
+    ]
+  },
+  {
+    "word": [
+      "torrent"
+    ],
+    "phonetic": "/ˈtɒrənt/",
+    "english_synonyms": [
+      "flood",
+      "stream",
+      "rush"
+    ],
+    "english_explanations": [
+      "water moving very fast in a strong current",
+      "a sudden uncontrolled flow of words or emotion"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "洪流；激流；（话语等的）连发；迸发",
+        "english": "a strong fast movement of water, or a sudden uncontrolled flow of words or emotion",
+        "example": "After the storm, a torrent of muddy water swept soil and debris down the deforested hillside."
+      }
+    ]
+  },
+  {
+    "word": [
+      "track"
+    ],
+    "phonetic": "/træk/",
+    "english_synonyms": [
+      "follow",
+      "monitor",
+      "trace"
+    ],
+    "english_explanations": [
+      "follow and record the movements or progress of a person, animal or process"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "跟踪；追踪；监测",
+        "english": "follow and record the movements or progress of a person, animal or process",
+        "example": "Researchers attach lightweight tags to track the migration of sea turtles across entire ocean basins."
+      }
+    ]
+  },
+  {
+    "word": [
+      "fusion"
+    ],
+    "phonetic": "/ˈfjuːʒn/",
+    "english_synonyms": [
+      "merging",
+      "blending",
+      "union"
+    ],
+    "english_explanations": [
+      "the process of joining things together to form one",
+      "the combining of atomic nuclei that releases energy"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "熔化；熔合；核聚变",
+        "english": "the process of joining things together, or the combining of atomic nuclei that releases energy",
+        "example": "Controlled nuclear fusion could eventually provide clean electricity without the long lived waste of conventional reactors."
+      }
+    ]
+  },
+  {
+    "word": [
+      "minority"
+    ],
+    "phonetic": "/maɪˈnɒrəti/",
+    "english_synonyms": [
+      "subgroup",
+      "faction"
+    ],
+    "english_explanations": [
+      "the smaller number or part of a group",
+      "a group within a community different from the main population"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "少数；少数派",
+        "english": "the smaller part of a total number or group",
+        "example": "Only a minority of commuters support higher parking fees, even when revenue funds better public transport."
+      },
+      {
+        "pos": "n.",
+        "meaning": "少数民族；少数群体",
+        "english": "a group within a country whose language, religion or culture differs from that of the majority",
+        "example": "Government programmes protect the languages of ethnic minorities through dedicated broadcasting and mother tongue education."
+      }
+    ],
+    "roots": [
+      {
+        "root": "minor",
+        "meaning": "较小"
+      },
+      {
+        "root": "ity",
+        "meaning": "性质"
+      }
+    ]
+  },
+  {
+    "word": [
+      "essence"
+    ],
+    "phonetic": "/ˈesns/",
+    "english_synonyms": [
+      "core",
+      "nature",
+      "substance"
+    ],
+    "english_explanations": [
+      "the basic most important quality that makes something what it is"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "本质；实质；精髓",
+        "english": "the basic most important quality that makes something what it is",
+        "example": "The essence of good teaching lies in inspiring curiosity rather than simply transmitting fixed bodies of information."
+      }
+    ]
+  },
+  {
+    "word": [
+      "disfigure"
+    ],
+    "phonetic": "/dɪsˈfɪɡə(r)/",
+    "english_synonyms": [
+      "mar",
+      "scar",
+      "deform"
+    ],
+    "english_explanations": [
+      "damage the appearance of a person or place severely and permanently"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "毁容；毁损…的外貌",
+        "english": "damage the appearance of a person or place severely and permanently",
+        "example": "Industrial smog gradually disfigures the marble statues of the old city, erasing their original carved details."
+      }
+    ]
+  },
+  {
+    "word": [
+      "desirable"
+    ],
+    "phonetic": "/dɪˈzaɪərəbl/",
+    "english_synonyms": [
+      "advantageous",
+      "attractive",
+      "worthwhile"
+    ],
+    "english_explanations": [
+      "wanted or worth having"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "adj.",
+        "meaning": "值得拥有的；合意的；令人向往的",
+        "english": "worth having or wanting because it is useful or attractive",
+        "example": "Fluency in two languages is highly desirable for applicants seeking positions in international trade and diplomacy."
+      }
+    ]
+  },
+  {
+    "word": [
+      "connection"
+    ],
+    "phonetic": "/kəˈnekʃn/",
+    "english_synonyms": [
+      "link",
+      "association",
+      "bond"
+    ],
+    "english_explanations": [
+      "a relationship between things, or a physical link that joins two parts"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "连接；联系；关系",
+        "english": "a relationship between things, or a physical link that joins two parts or systems",
+        "example": "Researchers found a direct connection between sleep quality and academic performance among first year university students."
+      }
+    ]
+  },
+  {
+    "word": [
+      "improve"
+    ],
+    "phonetic": "/ɪmˈpruːv/",
+    "english_synonyms": [
+      "enhance",
+      "better",
+      "upgrade"
+    ],
+    "english_explanations": [
+      "make something better in quality, condition or value"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "改善；改进；提高",
+        "english": "make something better in quality, condition or value",
+        "example": "Regular feedback from tutors helps students improve their academic writing far more quickly than grades alone."
+      }
+    ]
+  },
+  {
+    "word": [
+      "lobby"
+    ],
+    "phonetic": "/ˈlɒbi/",
+    "english_synonyms": [
+      "hallway",
+      "entrance",
+      "corridor"
+    ],
+    "english_explanations": [
+      "a public area at the entrance of a large building",
+      "a group that pressures politicians for change"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "大厅；门厅；休息室；游说团",
+        "english": "a public area at the entrance of a large building, or a group that pressures politicians for change",
+        "example": "Environmental lobbyists gathered in the hotel lobby before presenting their petition to the assembled parliamentarians."
+      }
+    ]
+  },
+  {
+    "word": [
+      "internationalist"
+    ],
+    "phonetic": "/ˌɪntəˈnæʃnəlɪst/",
+    "english_synonyms": [
+      "cosmopolitan",
+      "globalist",
+      "worldwide"
+    ],
+    "english_explanations": [
+      "supporting cooperation and shared interests between different nations"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "adj.",
+        "meaning": "国际主义的",
+        "english": "supporting cooperation and shared interests between different nations",
+        "example": "The internationalist approach to vaccine research allowed laboratories across continents to share data within days."
+      }
+    ]
+  },
+  {
+    "word": [
+      "hamster"
+    ],
+    "phonetic": "/ˈhæmstə(r)/",
+    "english_synonyms": [
+      "rodent",
+      "gerbil"
+    ],
+    "english_explanations": [
+      "a small rodent with cheek pouches, kept as a pet and used in laboratory research"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "仓鼠",
+        "english": "a small rodent with cheek pouches, kept as a pet and used in laboratory research",
+        "example": "Laboratory hamsters helped researchers understand hibernation, which may improve preservation methods for transplant organs."
+      }
+    ]
+  },
+  {
+    "word": [
+      "clot"
+    ],
+    "phonetic": "/klɒt/",
+    "english_synonyms": [
+      "congeal",
+      "coagulate",
+      "thicken"
+    ],
+    "english_explanations": [
+      "turn from liquid into a thick solid lump"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "使凝结成块；（血液）凝固",
+        "english": "turn from liquid into a thick solid lump, especially blood stopping a wound",
+        "example": "Blood that clots too quickly inside arteries can block circulation and trigger heart attacks or strokes."
+      }
+    ]
+  },
+  {
+    "word": [
+      "offspring"
+    ],
+    "phonetic": "/ˈɒfsprɪŋ/",
+    "english_synonyms": [
+      "children",
+      "descendants",
+      "young"
+    ],
+    "english_explanations": [
+      "a person's child or children, or the young of an animal"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "子女；后代；（动物的）幼崽；产物",
+        "english": "a person's child or children, or the young of an animal",
+        "example": "Migratory birds return each spring to the same wetlands to raise their offspring in relative safety."
+      }
+    ]
+  },
+  {
+    "word": [
+      "synthesis"
+    ],
+    "phonetic": "/ˈsɪnθəsɪs/",
+    "english_synonyms": [
+      "combination",
+      "integration",
+      "formation"
+    ],
+    "english_explanations": [
+      "the combination of separate elements into a whole",
+      "the chemical production of a compound"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "综合；合成",
+        "english": "the combination of separate elements into a whole, or the chemical production of a compound",
+        "example": "The report offers a careful synthesis of twenty regional studies on renewable energy adoption and employment."
+      }
+    ]
+  },
+  {
+    "word": [
+      "ignorant"
+    ],
+    "phonetic": "/ˈɪɡnərənt/",
+    "english_synonyms": [
+      "uninformed",
+      "uneducated",
+      "unaware"
+    ],
+    "english_explanations": [
+      "lacking knowledge or awareness about a particular subject or fact"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "adj.",
+        "meaning": "无知的；不知道的；不知情的",
+        "english": "lacking knowledge or awareness about a particular subject or fact",
+        "example": "Voters who remain ignorant of the candidates' environmental records may support policies that damage protected wetlands."
+      }
+    ]
+  },
+  {
+    "word": [
+      "facility"
+    ],
+    "phonetic": "/fəˈsɪləti/",
+    "english_synonyms": [
+      "amenity",
+      "building",
+      "resource"
+    ],
+    "english_explanations": [
+      "a building, room or piece of equipment provided for people to use"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "设施；设备；场所；便利",
+        "english": "a building, room or piece of equipment provided for people to use",
+        "example": "The new research facility houses advanced microscopes that allow biologists to observe living cells in unprecedented detail."
+      }
+    ]
+  },
+  {
+    "word": [
+      "slash"
+    ],
+    "phonetic": "/slæʃ/",
+    "english_synonyms": [
+      "diagonal",
+      "oblique"
+    ],
+    "english_explanations": [
+      "a slanting line used in writing and printing to separate alternatives"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "斜线号；斜杠",
+        "english": "a slanting line / used in writing to separate alternatives or parts of an address",
+        "example": "Web addresses frequently contain a slash between each level of the directory structure."
+      }
+    ]
+  },
+  {
+    "word": [
+      "mushroom"
+    ],
+    "phonetic": "/ˈmʌʃrʊm/",
+    "english_synonyms": [
+      "flourish",
+      "proliferate",
+      "expand"
+    ],
+    "english_explanations": [
+      "increase or spread very quickly in number or amount"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "迅速成长（或发展）；迅速增加",
+        "english": "increase or spread very quickly in number or amount",
+        "example": "Delivery services have mushroomed across the region since consumers shifted to shopping online during the pandemic."
+      }
+    ]
+  },
+  {
+    "word": [
+      "cinematography"
+    ],
+    "phonetic": "/ˌsɪnəməˈtɒɡrəfi/",
+    "english_synonyms": [
+      "filming",
+      "photography"
+    ],
+    "english_explanations": [
+      "the art and skill of making films, especially the camera work"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "电影摄影术；电影摄影",
+        "english": "the art of photographing and lighting films",
+        "example": "Striking cinematography transforms the documentary, using drone shots to reveal glaciers collapsing in real time."
+      }
+    ]
+  },
+  {
+    "word": [
+      "flat"
+    ],
+    "phonetic": "/flæt/",
+    "english_synonyms": [
+      "apartment",
+      "level",
+      "dull"
+    ],
+    "english_explanations": [
+      "a set of rooms for living in, on one floor of a larger building",
+      "smooth and level without bumps, or boring and without energy"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "公寓房；一套房间；平面",
+        "english": "a home consisting of rooms all on one floor of a larger building",
+        "example": "Rising rents force many young professionals to share a flat with roommates well into their thirties."
+      },
+      {
+        "pos": "adj.",
+        "meaning": "平的；平坦的；（价格）固定的；单调的；不景气的",
+        "english": "smooth and level without bumps, or boring and without energy, or fixed and not changing",
+        "example": "Sales remained flat throughout the winter quarter despite heavy advertising and several discount campaigns."
+      }
+    ]
+  },
+  {
+    "word": [
+      "maintenance"
+    ],
+    "phonetic": "/ˈmeɪntənəns/",
+    "english_synonyms": [
+      "upkeep",
+      "repair",
+      "preservation"
+    ],
+    "english_explanations": [
+      "the work of keeping buildings, machines or systems in good condition"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "维持；保养；维护；抚养费",
+        "english": "the work of keeping buildings, machines or systems in good working condition",
+        "example": "Regular bridge maintenance costs far less than emergency repairs after structural failure in older infrastructure."
+      }
+    ]
+  },
+  {
+    "word": [
+      "scare"
+    ],
+    "phonetic": "/skeə(r)/",
+    "english_synonyms": [
+      "frighten",
+      "alarm",
+      "terrify"
+    ],
+    "english_explanations": [
+      "make someone feel suddenly frightened or worried"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "（使）害怕；惊吓",
+        "english": "make someone feel suddenly frightened or worried",
+        "example": "Rising sea levels scare coastal planners, who must now budget for defenses once considered unnecessary."
+      }
+    ]
+  },
+  {
+    "word": [
+      "cooperate"
+    ],
+    "phonetic": "/kəʊˈɒpəreɪt/",
+    "english_synonyms": [
+      "collaborate",
+      "coordinate"
+    ],
+    "english_explanations": [
+      "work together willingly with others to reach a shared goal"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "合作；协作；配合",
+        "english": "work together willingly with others to reach a shared goal",
+        "example": "Nations agreed to cooperate on ocean monitoring after rising acidity threatened fisheries shared by several coastal states."
+      }
+    ],
+    "roots": [
+      {
+        "root": "co",
+        "meaning": "共同"
+      },
+      {
+        "root": "operate",
+        "meaning": "运转；操作"
+      }
+    ]
+  },
+  {
+    "word": [
+      "avenue"
+    ],
+    "phonetic": "/ˈævənjuː/",
+    "english_synonyms": [
+      "boulevard",
+      "street",
+      "route"
+    ],
+    "english_explanations": [
+      "a wide road in a town, often lined with trees",
+      "a possible way of achieving something"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "大街；林荫道",
+        "english": "a wide road in a town, often lined with trees",
+        "example": "The city planted new trees along the central avenue to cool the pavement during increasingly hot summers."
+      },
+      {
+        "pos": "n.",
+        "meaning": "方法；途径",
+        "english": "a possible way of achieving or obtaining something",
+        "example": "Online courses offer an affordable avenue into higher education for students in remote regions."
+      }
+    ]
+  },
+  {
+    "word": [
+      "disintegrate"
+    ],
+    "phonetic": "/dɪsˈɪntɪɡreɪt/",
+    "english_synonyms": [
+      "crumble",
+      "decompose",
+      "collapse"
+    ],
+    "english_explanations": [
+      "break into many small pieces",
+      "gradually lose strength and unity"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "（使）碎裂；（使）瓦解；（使）解体",
+        "english": "break into small pieces, or gradually lose strength and unity",
+        "example": "Plastic bags dumped at sea slowly disintegrate into microplastics that enter the food chain of marine animals."
+      }
+    ],
+    "roots": [
+      {
+        "root": "dis",
+        "meaning": "相反；否定"
+      },
+      {
+        "root": "integrate",
+        "meaning": "使成整体"
+      }
+    ]
+  },
+  {
+    "word": [
+      "bury"
+    ],
+    "phonetic": "/ˈberi/",
+    "english_synonyms": [
+      "entomb",
+      "inter",
+      "hide"
+    ],
+    "english_explanations": [
+      "put something under the ground",
+      "hide feelings or evidence carefully"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "埋葬；掩埋；埋藏；隐藏",
+        "english": "put something under the ground, or hide feelings or evidence carefully",
+        "example": "Ancient volcanic ash buried the Roman town so completely that frescoes survived beneath metres of compacted debris."
+      }
+    ]
+  },
+  {
+    "word": [
+      "contract"
+    ],
+    "phonetic": "/kənˈtrækt/",
+    "english_synonyms": [
+      "shrink",
+      "compress",
+      "agree"
+    ],
+    "english_explanations": [
+      "become smaller in size or amount",
+      "sign a legal agreement to do work"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "缩小；收缩",
+        "english": "become smaller in size or amount",
+        "example": "Cold temperatures cause metals to contract, which engineers must consider when designing long railway tracks."
+      },
+      {
+        "pos": "v.",
+        "meaning": "订立合同；签约",
+        "english": "sign a legal agreement to do work at a fixed price",
+        "example": "The ministry contracted a private firm to install smart meters across every household within three years."
+      }
+    ]
+  },
+  {
+    "word": [
+      "gamble"
+    ],
+    "phonetic": "/ˈɡæmbl/",
+    "english_synonyms": [
+      "bet",
+      "risk",
+      "wager"
+    ],
+    "english_explanations": [
+      "risk money in games",
+      "take a risky action hoping for a valuable result"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "赌博；投机；冒险",
+        "english": "risk money in games, or take a risky action in the hope of a valuable result",
+        "example": "Investors who gamble on untested mining ventures frequently lose their capital when commodity prices collapse."
+      }
+    ]
+  },
+  {
+    "word": [
+      "private"
+    ],
+    "phonetic": "/ˈpraɪvət/",
+    "english_synonyms": [
+      "personal",
+      "confidential",
+      "secluded"
+    ],
+    "english_explanations": [
+      "belonging to an individual or company rather than the state",
+      "not to be shared with other people"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "adj.",
+        "meaning": "私人的；私有的；私立的",
+        "english": "belonging to an individual or company rather than the state or public",
+        "example": "Private investment now funds half of the country's renewable energy projects, according to the latest treasury figures."
+      },
+      {
+        "pos": "adj.",
+        "meaning": "私下的；保密的",
+        "english": "not to be shared with other people",
+        "example": "The committee kept its private discussions confidential until the final report was published the following month."
+      }
+    ]
+  },
+  {
+    "word": [
+      "timber"
+    ],
+    "phonetic": "/ˈtɪmbə(r)/",
+    "english_synonyms": [
+      "wood",
+      "lumber",
+      "logs"
+    ],
+    "english_explanations": [
+      "wood prepared for building or making things"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "木材；原木；横木",
+        "english": "wood prepared for building or making things",
+        "example": "Certified timber from sustainably managed forests is increasingly demanded by contractors seeking green building approvals."
+      }
+    ]
+  },
+  {
+    "word": [
+      "spot"
+    ],
+    "phonetic": "/spɒt/",
+    "english_synonyms": [
+      "location",
+      "place",
+      "mark"
+    ],
+    "english_explanations": [
+      "a particular place",
+      "a small round mark different from the surface around it"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "地点；场所；斑点",
+        "english": "a particular place, or a small round mark on a surface",
+        "example": "Tourists gather at the scenic spot before dawn to photograph the sunrise over the dramatically eroded cliffs."
+      }
+    ]
+  },
+  {
+    "word": [
+      "invoice"
+    ],
+    "phonetic": "/ˈɪnvɔɪs/",
+    "english_synonyms": [
+      "bill",
+      "charge"
+    ],
+    "english_explanations": [
+      "send a customer a formal document asking for payment"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "给…开发票；开账单",
+        "english": "send a customer a formal list of goods supplied with the price they must pay",
+        "example": "The consultancy invoices clients monthly, attaching detailed records of every hour billed to the project."
+      }
+    ]
+  },
+  {
+    "word": [
+      "pedal"
+    ],
+    "phonetic": "/ˈpedl/",
+    "english_synonyms": [
+      "cycle",
+      "ride"
+    ],
+    "english_explanations": [
+      "push the foot levers of a bicycle or machine"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "踩踏板；骑自行车",
+        "english": "push the pedals of a bicycle or a machine with your feet",
+        "example": "Commuters who pedal to work report better concentration and lower stress than those who drive daily."
+      }
+    ]
+  },
+  {
+    "word": [
+      "necessarily"
+    ],
+    "phonetic": "/ˌnesəˈserəli/",
+    "english_synonyms": [
+      "inevitably",
+      "automatically",
+      "invariably"
+    ],
+    "english_explanations": [
+      "in a way that is certain or always true, often used with not"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "adv.",
+        "meaning": "必要地；必然地；必定",
+        "english": "in a way that is certain or always true, often used with not",
+        "example": "Higher spending on education does not necessarily guarantee better outcomes unless teacher training improves at the same time."
+      }
+    ]
+  },
+  {
+    "word": [
+      "aisle"
+    ],
+    "phonetic": "/aɪl/",
+    "english_synonyms": [
+      "passage",
+      "corridor",
+      "walkway"
+    ],
+    "english_explanations": [
+      "a long narrow passage between rows of seats or shelves"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "过道；通道；（座席间的）走道",
+        "english": "a long narrow passage between rows of seats, shelves or graves",
+        "example": "Supermarkets place essential goods far from the entrance so shoppers pass many promotions along each aisle."
+      }
+    ]
+  },
+  {
+    "word": [
+      "cassette"
+    ],
+    "phonetic": "/kəˈset/",
+    "english_synonyms": [
+      "tape",
+      "cartridge"
+    ],
+    "english_explanations": [
+      "a small plastic case containing magnetic tape for recording sound or pictures"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "盒式录音（或录像）带；卡式磁带",
+        "english": "a small plastic case containing magnetic tape used for recording music or speech",
+        "example": "Archives are digitizing fragile audio cassettes before the magnetic tape degrades beyond recovery."
+      }
+    ]
+  },
+  {
+    "word": [
+      "mall"
+    ],
+    "phonetic": "/mɔːl/",
+    "english_synonyms": [
+      "shopping centre",
+      "arcade"
+    ],
+    "english_explanations": [
+      "a very large building containing many different shops"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "购物中心；商场",
+        "english": "a very large building containing many different shops and usually restaurants and a cinema",
+        "example": "The new shopping mall on the outskirts draws customers away from traditional high street stores in the city centre."
+      }
+    ]
+  },
+  {
+    "word": [
+      "hinge"
+    ],
+    "phonetic": "/hɪndʒ/",
+    "english_synonyms": [
+      "depend",
+      "rest",
+      "rely"
+    ],
+    "english_explanations": [
+      "depend entirely on a particular thing or condition"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "依…而定；取决于",
+        "english": "depend entirely on a particular thing or condition",
+        "example": "The success of the housing plan hinges on whether transport links reach the new districts within five years."
+      }
+    ]
+  },
+  {
+    "word": [
+      "apt"
+    ],
+    "phonetic": "/æpt/",
+    "english_synonyms": [
+      "likely",
+      "appropriate",
+      "suitable"
+    ],
+    "english_explanations": [
+      "likely to do something or behave in a particular way",
+      "exactly suitable for a situation"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "adj.",
+        "meaning": "易于…的；有…倾向的",
+        "english": "likely to do something or behave in a particular way",
+        "example": "Children raised around books are apt to read for pleasure long after formal lessons end."
+      },
+      {
+        "pos": "adj.",
+        "meaning": "恰当的；适宜的；敏捷的",
+        "english": "exactly suitable for a situation, or quick to learn",
+        "example": "Choosing an apt title for the exhibition helped visitors grasp the theme of urban renewal instantly."
+      }
+    ]
+  },
+  {
+    "word": [
+      "mature"
+    ],
+    "phonetic": "/məˈtʃʊə(r)/",
+    "english_synonyms": [
+      "ripe",
+      "developed",
+      "adult"
+    ],
+    "english_explanations": [
+      "fully grown or developed physically or mentally",
+      "become fully developed"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "adj.",
+        "meaning": "成熟的；深思熟虑的",
+        "english": "fully developed physically or mentally, or based on careful thought",
+        "example": "Mature students often bring practical experience that enriches classroom discussion far beyond their formal grades."
+      },
+      {
+        "pos": "v.",
+        "meaning": "（使）成熟",
+        "english": "become fully developed physically, mentally or emotionally",
+        "example": "Markets for electric vehicles matured quickly once charging networks covered most major motorways."
+      }
+    ]
+  },
+  {
+    "word": [
+      "prominent"
+    ],
+    "phonetic": "/ˈprɒmɪnənt/",
+    "english_synonyms": [
+      "notable",
+      "distinguished",
+      "conspicuous"
+    ],
+    "english_explanations": [
+      "important, famous and easily noticed"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "adj.",
+        "meaning": "突出的；著名的；显著的；卓著的",
+        "english": "important, famous and easily noticed",
+        "example": "Prominent scientists signed an open letter urging faster action on the decline of global insect populations."
+      }
+    ]
+  },
+  {
+    "word": [
+      "remind"
+    ],
+    "phonetic": "/rɪˈmaɪnd/",
+    "english_synonyms": [
+      "prompt",
+      "cue"
+    ],
+    "english_explanations": [
+      "help someone remember something important",
+      "make someone think of a similar thing"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "提醒；使想起",
+        "english": "help someone remember to do something, or make them think of a similar thing",
+        "example": "Mobile apps remind patients to take their medication, which improves treatment results for chronic conditions."
+      }
+    ]
+  },
+  {
+    "word": [
+      "exhibit"
+    ],
+    "phonetic": "/ɪɡˈzɪbɪt/",
+    "english_synonyms": [
+      "display",
+      "show",
+      "demonstrate"
+    ],
+    "english_explanations": [
+      "show objects or works of art to the public",
+      "show a particular quality, emotion or behaviour clearly"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "陈列；展览",
+        "english": "show objects or works of art to the public",
+        "example": "The museum will exhibit rare manuscripts alongside interactive screens explaining the history of printing."
+      },
+      {
+        "pos": "v.",
+        "meaning": "显示；表现出（品质或行为）",
+        "english": "show a particular quality, emotion or behaviour clearly",
+        "example": "Dolphins exhibit remarkable problem solving abilities when researchers set them puzzles involving hidden food."
+      }
+    ]
+  },
+  {
+    "word": [
+      "understanding"
+    ],
+    "phonetic": "/ˌʌndəˈstændɪŋ/",
+    "english_synonyms": [
+      "comprehension",
+      "insight",
+      "sympathy"
+    ],
+    "english_explanations": [
+      "knowledge of how something works or what it means",
+      "an agreement based on tolerance between people"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "理解；领会",
+        "english": "knowledge and grasp of a subject or situation",
+        "example": "A solid understanding of statistics helps citizens evaluate claims made in media reports about health research."
+      },
+      {
+        "pos": "n.",
+        "meaning": "谅解；（非正式的）协议",
+        "english": "an informal agreement based on tolerance between people or groups",
+        "example": "The two fishing communities reached an understanding over shared quotas, easing tensions that had lasted a decade."
+      }
+    ]
+  },
+  {
+    "word": [
+      "intellectual"
+    ],
+    "phonetic": "/ˌɪntəˈlektʃuəl/",
+    "english_synonyms": [
+      "mental",
+      "scholarly",
+      "thinker"
+    ],
+    "english_explanations": [
+      "relating to the ability to think, understand and use knowledge",
+      "an educated person who studies or writes about complex ideas"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "adj.",
+        "meaning": "智力的；脑力的；理智的",
+        "english": "relating to the ability to think, understand and use knowledge",
+        "example": "Chess trains intellectual skills such as planning and pattern recognition, according to several educational studies."
+      },
+      {
+        "pos": "n.",
+        "meaning": "知识分子",
+        "english": "an educated person who studies or writes about complex ideas",
+        "example": "Public intellectuals increasingly share their arguments through podcasts rather than traditional academic journals."
+      }
+    ],
+    "roots": [
+      {
+        "root": "intellect",
+        "meaning": "智力"
+      },
+      {
+        "root": "ual",
+        "meaning": "…的"
+      }
+    ]
+  },
+  {
+    "word": [
+      "modernism"
+    ],
+    "phonetic": "/ˈmɒdənɪzəm/",
+    "english_synonyms": [
+      "avant garde",
+      "minimalism"
+    ],
+    "english_explanations": [
+      "a style and movement in art, literature and architecture that rejected tradition during the late nineteenth and early twentieth centuries"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "现代主义",
+        "english": "a style and movement in art, literature and architecture that rejected tradition during the late nineteenth and early twentieth centuries",
+        "example": "Modernism reshaped city architecture, favouring plain geometric forms, steel frames and generous windows over decorative stonework."
+      }
+    ]
+  },
+  {
+    "word": [
+      "sausage"
+    ],
+    "phonetic": "/ˈsɒsɪdʒ/",
+    "english_synonyms": [
+      "banger",
+      "bratwurst"
+    ],
+    "english_explanations": [
+      "a food made of minced meat packed inside a thin skin"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "香肠；腊肠",
+        "english": "a mixture of minced meat, fat and spices packed into a thin tubular skin",
+        "example": "Traditional markets still sell handmade sausages seasoned with regional herbs unavailable in mass produced supermarket products."
+      }
+    ]
+  },
+  {
+    "word": [
+      "suffer"
+    ],
+    "phonetic": "/ˈsʌfə(r)/",
+    "english_synonyms": [
+      "endure",
+      "experience",
+      "undergo"
+    ],
+    "english_explanations": [
+      "experience pain, loss or something unpleasant",
+      "become worse in quality or condition"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "遭受；受痛苦；受损失",
+        "english": "experience pain, loss or something unpleasant, or become worse in quality",
+        "example": "Residents suffered significant losses when the flood destroyed crops stored ahead of the autumn market season."
+      }
+    ]
+  },
+  {
+    "word": [
+      "chain"
+    ],
+    "phonetic": "/tʃeɪn/",
+    "english_synonyms": [
+      "series",
+      "restraint",
+      "connection"
+    ],
+    "english_explanations": [
+      "a connected line of metal rings",
+      "a connected series of events or a group of shops owned by one company"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "链条；链；束缚",
+        "english": "a line of connected metal rings used for fastening or restraining things",
+        "example": "Security teams fastened the historic gates with a heavy chain during the winter renovation of the palace."
+      },
+      {
+        "pos": "n.",
+        "meaning": "（一）连串；连锁店",
+        "english": "a connected series of events or ideas, or a group of shops owned by one company",
+        "example": "A chain of unexpected delays pushed the launch of the electric bus fleet back by six months."
+      }
+    ]
+  },
+  {
+    "word": [
+      "trick"
+    ],
+    "phonetic": "/trɪk/",
+    "english_synonyms": [
+      "deceive",
+      "cheat",
+      "mislead"
+    ],
+    "english_explanations": [
+      "make someone believe something that is not true"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "欺诈；哄骗",
+        "english": "deceive someone by making them believe something untrue in order to gain an advantage",
+        "example": "Fraudsters trick elderly customers with calls that imitate the official voice of their own bank."
+      }
+    ]
+  },
+  {
+    "word": [
+      "notify"
+    ],
+    "phonetic": "/ˈnəʊtɪfaɪ/",
+    "english_synonyms": [
+      "inform",
+      "alert",
+      "advise"
+    ],
+    "english_explanations": [
+      "officially tell a person or organization about something"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "通知；报告",
+        "english": "officially inform a person or organization about something",
+        "example": "Airlines must notify passengers within hours if a scheduled flight is cancelled or significantly delayed."
+      }
+    ]
+  },
+  {
+    "word": [
+      "minimize"
+    ],
+    "phonetic": "/ˈmɪnɪmaɪz/",
+    "english_synonyms": [
+      "reduce",
+      "lessen",
+      "diminish"
+    ],
+    "english_explanations": [
+      "reduce something as much as possible",
+      "make something seem less important than it really is"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "使减到最低限度；最小化",
+        "english": "reduce something as much as possible",
+        "example": "Engineers designed the bridge deck to minimize vibration, protecting both the structure and nearby residents from noise."
+      }
+    ]
+  },
+  {
+    "word": [
+      "subjective"
+    ],
+    "phonetic": "/səbˈdʒektɪv/",
+    "english_synonyms": [
+      "personal",
+      "individual",
+      "biased"
+    ],
+    "english_explanations": [
+      "based on personal feelings and opinions rather than facts"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "adj.",
+        "meaning": "主观（上）的",
+        "english": "based on personal feelings or opinions rather than external facts",
+        "example": "Judging artistic merit remains subjective, which is why music competitions rely on panels of several experienced adjudicators."
+      }
+    ]
+  },
+  {
+    "word": [
+      "aerospace"
+    ],
+    "phonetic": "/ˈeərəʊspeɪs/",
+    "english_synonyms": [
+      "aviation",
+      "spaceflight"
+    ],
+    "english_explanations": [
+      "the industry and science of building and operating aircraft and spacecraft"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "宇宙空间；航空宇宙；航空航天工业",
+        "english": "the industry and science of building and operating aircraft and spacecraft",
+        "example": "Regional universities partner with the aerospace industry to train engineers for the growing satellite manufacturing sector."
+      }
+    ]
+  },
+  {
+    "word": [
+      "anthropologist"
+    ],
+    "phonetic": "/ˌænθrəˈpɒlədʒɪst/",
+    "english_synonyms": [
+      "ethnologist",
+      "scientist"
+    ],
+    "english_explanations": [
+      "an expert who studies human societies, cultures and physical development"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "人类学家",
+        "english": "an expert who studies human societies, cultures and physical development",
+        "example": "Anthropologists documented how remote island communities adapted their fishing traditions after the introduction of satellite navigation."
+      }
+    ]
+  },
+  {
+    "word": [
+      "suitcase"
+    ],
+    "phonetic": "/ˈsuːtkeɪs/",
+    "english_synonyms": [
+      "luggage",
+      "bag",
+      "case"
+    ],
+    "english_explanations": [
+      "a flat rectangular case with a handle used for carrying clothes while travelling"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "手提箱；衣箱",
+        "english": "a flat rectangular case with a handle, used for carrying clothes while travelling",
+        "example": "Airlines now charge substantial fees for each suitcase, encouraging travellers to pack significantly lighter than before."
+      }
+    ]
+  },
+  {
+    "word": [
+      "galaxy"
+    ],
+    "phonetic": "/ˈɡæləksi/",
+    "english_synonyms": [
+      "star system",
+      "star cluster"
+    ],
+    "english_explanations": [
+      "an enormous group of stars, gas and dust bound together by gravity"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "银河；星系",
+        "english": "an enormous group of stars, gas and dust bound together by gravity",
+        "example": "Astronomers discovered that our galaxy contains hundreds of billions of stars, many orbited by their own planets."
+      }
+    ]
+  },
+  {
+    "word": [
+      "possess"
+    ],
+    "phonetic": "/pəˈzes/",
+    "english_synonyms": [
+      "own",
+      "hold",
+      "have"
+    ],
+    "english_explanations": [
+      "have or own something",
+      "have a particular quality, skill or ability"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "具有；拥有",
+        "english": "have or own something, or have a particular quality or skill",
+        "example": "Successful teams possess a rare combination of technical discipline and the creativity to improvise under pressure."
+      }
+    ]
+  },
+  {
+    "word": [
+      "reserve"
+    ],
+    "phonetic": "/rɪˈzɜːv/",
+    "english_synonyms": [
+      "book",
+      "retain",
+      "keep"
+    ],
+    "english_explanations": [
+      "arrange in advance for a seat, room or ticket to be kept for you",
+      "keep something for a special person or use"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "保留；预订",
+        "english": "arrange in advance for a seat, room or ticket, or keep something for a special use",
+        "example": "Libraries reserve certain manuscripts for supervised reading to protect the fragile pages from unnecessary handling."
+      }
+    ]
+  },
+  {
+    "word": [
+      "unique"
+    ],
+    "phonetic": "/juˈniːk/",
+    "english_synonyms": [
+      "singular",
+      "unmatched",
+      "distinctive"
+    ],
+    "english_explanations": [
+      "being the only one of its kind",
+      "very special and unusual"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "adj.",
+        "meaning": "唯一的；独特的",
+        "english": "being the only one of its kind, or very special and unusual",
+        "example": "The island's unique ecosystem evolved in isolation, producing plant species found nowhere else on the planet."
+      }
+    ]
+  },
+  {
+    "word": [
+      "beforehand"
+    ],
+    "phonetic": "/bɪˈfɔːhænd/",
+    "english_synonyms": [
+      "earlier",
+      "previously"
+    ],
+    "english_explanations": [
+      "earlier than a particular event or time"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "adv.",
+        "meaning": "预先；事先",
+        "english": "before something happens or is needed",
+        "example": "Passengers should confirm visa requirements beforehand because border rules can change without much public notice."
+      }
+    ],
+    "roots": [
+      {
+        "root": "before",
+        "meaning": "在…之前"
+      },
+      {
+        "root": "hand",
+        "meaning": "手"
+      }
+    ]
+  },
+  {
+    "word": [
+      "medium"
+    ],
+    "phonetic": "/ˈmiːdiəm/",
+    "english_synonyms": [
+      "moderate",
+      "average",
+      "middling"
+    ],
+    "english_explanations": [
+      "average in size, amount or degree, neither large nor small"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "adj.",
+        "meaning": "中等的；中号的",
+        "english": "average in size, amount or degree",
+        "example": "Medium sized enterprises create most new jobs, yet they receive comparatively little support from national investment banks."
+      }
+    ]
+  },
+  {
+    "word": [
+      "fair"
+    ],
+    "phonetic": "/feə(r)/",
+    "english_synonyms": [
+      "justly",
+      "equitably"
+    ],
+    "english_explanations": [
+      "in a way that treats everyone equally"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "adv.",
+        "meaning": "公平地；公正地",
+        "english": "treating people equally and obeying reasonable standards",
+        "example": "The referee was praised for playing fair throughout a tournament marked by unusually physical matches."
+      }
+    ]
+  },
+  {
+    "word": [
+      "swing"
+    ],
+    "phonetic": "/swɪŋ/",
+    "english_synonyms": [
+      "turn",
+      "veer",
+      "shift"
+    ],
+    "english_explanations": [
+      "turn sharply in another direction, or change an opinion or result suddenly"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "转向；（意见、结果）突然改变",
+        "english": "turn sharply in another direction, or change an opinion or result suddenly and strongly",
+        "example": "Voters swung decisively toward greener policies after the summer heatwaves devastated harvests across the region."
+      }
+    ]
+  },
+  {
+    "word": [
+      "chronic"
+    ],
+    "phonetic": "/ˈkrɒnɪk/",
+    "english_synonyms": [
+      "lasting",
+      "persistent",
+      "long term"
+    ],
+    "english_explanations": [
+      "continuing for a long time and difficult to cure or solve"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "adj.",
+        "meaning": "（疾病）慢性的；长期的；积习难改的",
+        "english": "continuing for a long time and difficult to cure or solve",
+        "example": "Air pollution causes chronic respiratory illness in industrial districts, overwhelming clinics during the winter heating season."
+      }
+    ]
+  },
+  {
+    "word": [
+      "arrogance"
+    ],
+    "phonetic": "/ˈærəɡəns/",
+    "english_synonyms": [
+      "conceit",
+      "hubris",
+      "pride"
+    ],
+    "english_explanations": [
+      "behaviour showing an exaggerated sense of your own importance"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "傲慢；自大",
+        "english": "behaviour or speech showing an exaggerated sense of your own importance",
+        "example": "The company's arrogance delayed safety recalls, and regulators eventually fined it for ignoring early engineering warnings."
+      }
+    ]
+  },
+  {
+    "word": [
+      "divide"
+    ],
+    "phonetic": "/dɪˈvaɪd/",
+    "english_synonyms": [
+      "split",
+      "gap",
+      "separation"
+    ],
+    "english_explanations": [
+      "a strong difference or separation between two groups or things"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "分开；分水岭；分歧；差异",
+        "english": "a strong difference or separation between two groups, generations or standards of living",
+        "example": "The digital divide between cities and rural areas leaves millions of students without reliable internet for homework."
+      }
+    ]
+  },
+  {
+    "word": [
+      "odour"
+    ],
+    "phonetic": "/ˈəʊdə(r)/",
+    "english_synonyms": [
+      "smell",
+      "scent",
+      "aroma"
+    ],
+    "english_explanations": [
+      "a smell, especially an unpleasant one"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "气味（尤指难闻的）",
+        "english": "a smell, usually an unpleasant one",
+        "example": "Residents complained about the chemical odour drifting from the industrial estate whenever the wind shifted inland."
+      }
+    ]
+  },
+  {
+    "word": [
+      "entertain"
+    ],
+    "phonetic": "/ˌentəˈteɪn/",
+    "english_synonyms": [
+      "amuse",
+      "delight",
+      "host"
+    ],
+    "english_explanations": [
+      "amuse an audience with music, films, games or performances",
+      "invite people and provide food, drink or amusements for them"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "（使）娱乐；（使）欢乐",
+        "english": "amuse an audience with music, films, games or performances",
+        "example": "Street performers entertain crowds gathered along the riverfront during the city's annual summer festival."
+      },
+      {
+        "pos": "v.",
+        "meaning": "招待；款待",
+        "english": "invite people and provide food, drink or amusements for them",
+        "example": "The university entertains visiting scholars at a formal dinner on the opening evening of each conference."
+      }
+    ]
+  },
+  {
+    "word": [
+      "tag"
+    ],
+    "phonetic": "/tæɡ/",
+    "english_synonyms": [
+      "follow",
+      "trail",
+      "shadow"
+    ],
+    "english_explanations": [
+      "follow closely behind someone",
+      "attach a small label or marker to something"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "跟随；尾随",
+        "english": "follow closely behind someone or something",
+        "example": "The stray dog tagged after the hikers during the entire ascent, waiting expectantly whenever they paused for rest."
+      }
+    ]
+  },
+  {
+    "word": [
+      "manufacturer"
+    ],
+    "phonetic": "/ˌmænjuˈfæktʃərə(r)/",
+    "english_synonyms": [
+      "maker",
+      "producer",
+      "builder"
+    ],
+    "english_explanations": [
+      "a company or person that produces goods in large quantities using machinery"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "制造厂；制造商；生产厂",
+        "english": "a company or person that produces goods in large quantities using machinery",
+        "example": "The manufacturer recalled thousands of car seats after independent tests revealed a flaw in the buckle mechanism."
+      }
+    ]
+  },
+  {
+    "word": [
+      "corps"
+    ],
+    "phonetic": "/kɔː(r)/",
+    "english_synonyms": [
+      "unit",
+      "regiment",
+      "division"
+    ],
+    "english_explanations": [
+      "a part of an army trained for a particular duty",
+      "a group of people with a shared profession"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "部队；兵种；（共同工作的）专业队伍",
+        "english": "a part of an army trained for a particular duty, or a group with a shared profession",
+        "example": "An engineering corps rebuilt the washed out mountain road within weeks, restoring supplies to isolated villages."
+      }
+    ]
+  },
+  {
+    "word": [
+      "heritage"
+    ],
+    "phonetic": "/ˈherɪtɪdʒ/",
+    "english_synonyms": [
+      "legacy",
+      "inheritance",
+      "tradition"
+    ],
+    "english_explanations": [
+      "valuable traditions, buildings and culture passed down from earlier generations"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "遗产；传统；文化遗产",
+        "english": "valuable traditions, buildings and culture passed down from earlier generations",
+        "example": "UNESCO funding helps restore the crumbling heritage sites that draw millions of cultural tourists to the region each year."
+      }
+    ]
+  },
+  {
+    "word": [
+      "filter"
+    ],
+    "phonetic": "/ˈfɪltə(r)/",
+    "english_synonyms": [
+      "sieve",
+      "strainer",
+      "screen"
+    ],
+    "english_explanations": [
+      "a device or material that separates wanted from unwanted parts of a liquid, gas or light"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "过滤器；滤器",
+        "english": "a device or material that separates wanted from unwanted parts of a liquid, gas or light",
+        "example": "Installing a simple carbon filter removes most chlorine from tap water and noticeably improves its taste."
+      }
+    ]
+  },
+  {
+    "word": [
+      "lava"
+    ],
+    "phonetic": "/ˈlɑːvə/",
+    "english_synonyms": [
+      "magma",
+      "molten rock"
+    ],
+    "english_explanations": [
+      "very hot liquid rock that flows out of a volcano and hardens as it cools"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "熔岩；岩浆",
+        "english": "very hot liquid rock that flows out of a volcano and hardens as it cools",
+        "example": "Fossil evidence shows plants recolonize fresh lava fields within decades, aided by mosses that tolerate extreme heat."
+      }
+    ]
+  },
+  {
+    "word": [
+      "resident"
+    ],
+    "phonetic": "/ˈrezɪdənt/",
+    "english_synonyms": [
+      "local",
+      "settled"
+    ],
+    "english_explanations": [
+      "living or staying permanently in a particular place"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "adj.",
+        "meaning": "常驻的；居住的；定居的",
+        "english": "living or staying permanently in a particular place",
+        "example": "The resident population of the ski village triples each winter when seasonal workers arrive from the valleys."
+      }
+    ]
+  },
+  {
+    "word": [
+      "roast"
+    ],
+    "phonetic": "/rəʊst/",
+    "english_synonyms": [
+      "baked",
+      "grilled"
+    ],
+    "english_explanations": [
+      "cooked in an oven or over a fire using dry heat"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "adj.",
+        "meaning": "烤过的；烤制的",
+        "english": "cooked in an oven or over a fire using dry heat",
+        "example": "Roast vegetables retain more nutrients than boiled alternatives, according to nutrition studies published last year."
+      }
+    ]
+  },
+  {
+    "word": [
+      "factsheet"
+    ],
+    "phonetic": "/ˈfæktˌʃiːt/",
+    "english_synonyms": [
+      "bulletin",
+      "summary"
+    ],
+    "english_explanations": [
+      "a short printed page that summarizes the key facts about a topic"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "（电视节目中插入的）字幕新闻；资料页；简要说明",
+        "english": "a short printed page that summarizes the key facts about a topic",
+        "example": "Teachers downloaded the official factsheet summarizing vaccine safety for distribution during the parents' evening."
+      }
+    ]
+  },
+  {
+    "word": [
+      "aeration"
+    ],
+    "phonetic": "/eəˈreɪʃn/",
+    "english_synonyms": [
+      "ventilation",
+      "airing",
+      "oxygenation"
+    ],
+    "english_explanations": [
+      "the process of introducing air into soil, water or a room"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "通风；通气；充气",
+        "english": "the process of introducing air into soil, water or a room",
+        "example": "Regular lawn aeration improves root growth by letting oxygen reach the deeper layers of compacted soil."
+      }
+    ]
+  },
+  {
+    "word": [
+      "exhaust"
+    ],
+    "phonetic": "/ɪɡˈzɔːst/",
+    "english_synonyms": [
+      "tire",
+      "drain",
+      "deplete"
+    ],
+    "english_explanations": [
+      "make someone feel extremely tired",
+      "use a supply of something completely"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "（使）非常疲倦；使精疲力竭",
+        "english": "make someone feel extremely tired",
+        "example": "Twelve hour shifts exhaust hospital staff, and several European countries have legislated mandatory rest periods."
+      },
+      {
+        "pos": "v.",
+        "meaning": "耗尽；用尽",
+        "english": "use a supply of something completely",
+        "example": "Overpumping exhausts groundwater reserves far faster than seasonal rainfall can naturally replenish the aquifer."
+      }
+    ]
+  },
+  {
+    "word": [
+      "meantime"
+    ],
+    "phonetic": "/ˈmiːntaɪm/",
+    "english_synonyms": [
+      "interval",
+      "interim"
+    ],
+    "english_explanations": [
+      "the period of time between two events"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "n.",
+        "meaning": "其间；其时；与此同时",
+        "english": "the period of time between two events, used in the phrase in the meantime",
+        "example": "Repairs to the harbour wall begin in spring; in the meantime, ferries will dock at the temporary pier."
+      }
+    ]
+  },
+  {
+    "word": [
+      "sole"
+    ],
+    "phonetic": "/səʊl/",
+    "english_synonyms": [
+      "only",
+      "single",
+      "exclusive"
+    ],
+    "english_explanations": [
+      "one and only",
+      "belonging to one person or organization alone"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "adj.",
+        "meaning": "唯一的；单独的；独占的",
+        "english": "one and only, or belonging to one person or organization alone",
+        "example": "The sole surviving mill in the valley still grinds traditional flour for the region's bakeries."
+      }
+    ]
+  },
+  {
+    "word": [
+      "adopt"
+    ],
+    "phonetic": "/əˈdɒpt/",
+    "english_synonyms": [
+      "embrace",
+      "assume"
+    ],
+    "english_explanations": [
+      "start using a particular method, plan or way of behaving",
+      "legally become the parent of someone else's child"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "v.",
+        "meaning": "采取；采用",
+        "english": "start using a particular method, plan or way of behaving",
+        "example": "Schools across the province adopted flexible timetables after evidence linked later start times to better exam performance."
+      },
+      {
+        "pos": "v.",
+        "meaning": "收养；领养",
+        "english": "legally become the parent of someone else's child",
+        "example": "Families who adopt children from overseas must complete extensive preparation courses before the placement is approved."
+      }
+    ]
+  },
+  {
+    "word": [
+      "sheer"
+    ],
+    "phonetic": "/ʃɪə(r)/",
+    "english_synonyms": [
+      "pure",
+      "absolute",
+      "steep"
+    ],
+    "english_explanations": [
+      "complete and not mixed with anything else",
+      "almost vertical"
+    ],
+    "chinese_translations": [
+      {
+        "pos": "adj.",
+        "meaning": "十足的；纯粹的；绝对的",
+        "english": "complete, used to emphasize the amount or degree of something",
+        "example": "The sheer volume of plastic entering the oceans each year overwhelms every current cleanup technology."
+      },
+      {
+        "pos": "adj.",
+        "meaning": "陡峭的；垂直的",
+        "english": "almost vertical, describing a cliff or slope",
+        "example": "Sheer granite walls make the northern approach to the peak possible only for experienced climbers with ropes."
+      }
+    ]
+  }
+]
